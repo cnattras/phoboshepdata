@@ -1,0 +1,22 @@
+#InspireHEP ID: 556861
+#https://arxiv.org/abs/nucl-ex/0105011
+#Prepared by Eleanna Soto
+---
+comment: |
+  We present a measurement of the pseudorapidity density of primary charged particles near mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}} =$ 130 GeV as a function of the number of participating nucleons.  These results are compared to models in an attempt to discriminate between competing scenarios of particle production in heavy ion collisions.
+---
+data_file: Table.yaml
+description: For each measured centrality bin, based on percentile of the total cross-section, we show $dNch/d\eta|_{|\eta|<1}$, the number of participants, and the final result for $dNch/d\eta|_{|\eta|<1}/( \frac{1}{2}\langle N_{part}\rangle )$, including the full error estimation.
+keywords:
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X, NUCLEUS NUCLEUS --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: phrases
+  values: [Inclusive, Single Differential Distribution, Muon production, Charged Current,
+    Deep Inelastic Scattering]
+- name: cmenergies
+  values: [56.0-130.0]
+location: Data from Table 1
+name: Table
+

@@ -1,0 +1,110 @@
+independent_variables:
+- header: {name: 'Centrality Bin [%]'}
+  values:
+  - {low: 0, high: 3}
+  - {low: 3, high: 6}
+  - {low: 6, high: 10}
+  - {low: 10, high: 15}
+  - {low: 15, high: 20}
+  - {low: 20, high: 25}
+  - {low: 25, high: 30}
+  - {low: 30, high: 35}
+  - {low: 35, high: 40}
+  - {low: 40, high: 45}
+dependent_variables:
+- header: {name: '$dNch/d\eta|_{|\eta|<1}$'}
+  values:
+  - value: 609
+    errors:
+    - {symerror: 24, label: 'sys'}
+  - value: 549
+    errors:
+    - {symerror: 21, label: 'sys'}
+  - value: 474
+    errors:
+    - {symerror: 18, label: 'sys'}
+  - value: 399
+    errors:
+    - {symerror: 15, label: 'sys'}
+  - value: 335
+    errors:
+    - {symerror: 13, label: 'sys'}
+  - value: 277
+    errors:
+    - {symerror: 10, label: 'sys'}
+  - value: 227
+    errors:
+    - {symerror: 9, label: 'sys'}
+  - value: 184
+    errors:
+    - {symerror: 7, label: 'sys'}
+  - value: 148
+    errors:
+    - {symerror: 6, label: 'sys'}
+  - value: 119
+    errors:
+    - {symerror: 4, label: 'sys'}
+- header: {name: '$\langle N_{part} \rangle$'}
+  values:
+  - value: 353
+    errors:
+    - {symerror: 11, label: 'sys'}
+  - value: 329
+    errors:
+    - {symerror: 9, label: 'sys'}
+  - value: 291
+    errors:
+    - {symerror: 8, label: 'sys'}
+  - value: 252
+    errors:
+    - {symerror: 8, label: 'sys'}
+  - value: 215
+    errors:
+    - {symerror: 7, label: 'sys'}
+  - value: 180
+    errors:
+    - {symerror: 6, label: 'sys'}
+  - value: 149
+    errors:
+    - {symerror: 6, label: 'sys'}
+  - value: 122
+    errors:
+    - {symerror: 5, label: 'sys'}
+  - value: 102
+    errors:
+    - {symerror: 5, label: 'sys'}
+  - value: 83
+    errors:
+    - {symerror: 4, label: 'sys'}
+- header: {name: '$dNch/d\eta|_{|\eta|<1}/(\frac{1}{2}\langle N_{part}⟩\rangle$'}
+  values:
+  - value: 3.45
+    errors:
+    - {symerror: 0.18, label: 'sys'}
+  - value: 3.34
+    errors:
+    - {symerror: 0.16, label: 'sys'}
+  - value: 3.25
+    errors:
+    - {symerror: 0.16, label: 'sys'}
+  - value: 3.16
+    errors:
+    - {symerror: 0.16, label: 'sys'}
+  - value: 3.12
+    errors:
+    - {symerror: 0.16, label: 'sys'}
+  - value: 3.08
+    errors:
+    - {symerror: 0.17, label: 'sys'}
+  - value: 3.03
+    errors:
+    - {symerror: 0.18, label: 'sys'}
+  - value: 3.00
+    errors:
+    - {symerror: 0.18, label: 'sys'}
+  - value: 2.91
+    errors:
+    - {symerror: 0.20, label: 'sys'}
+  - value: 2.87
+    errors:
+    - {symerror: 0.21, label: 'sys'}
