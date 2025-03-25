@@ -21,3 +21,5 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [7000.0]}
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: 693686.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure4.png}
