@@ -19,7 +19,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: 693686table1.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_Figure4.png}
+- {description: Thumbnail Image file, location: thumb_figure4.png}
 ---
 name: "Table 2" 
 location: Data from Table 1 of PHOBOS paper Inspire ID 693686
@@ -28,4 +28,4 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: 693686table2.yaml
 additional_resources: 
-- {description: Thumbnail Image file, location: thumb_Figure7.png}
+- {description: Thumbnail Image file, location: thumb_figure7.png}
