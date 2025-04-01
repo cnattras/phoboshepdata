@@ -7,19 +7,25 @@
 
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/693686", description: "InspireHEP ID: 693686"}
-
-comment:
+comment: |
   The charged-particle pseudorapidity density for Au+Au collisions at  $\sqrt{s_{NN}} = 62.4$ GeV has been measured over a wide range of impact parameters and compared to results obtained at other energies. As a function of collision energy, the pseudorapidity distribution grows systematically both in height and width. The mid-rapidity density is found to grow approximately logarithmically between AGS energies and the top RHIC energy. As a function of centrality, there is an approximate factorization of the centrality dependence of the mid-rapidity yields and the overall multiplicity scale. The new results at  $\sqrt{s_{NN}} = 62.4$ GeV confirm the previously observed phenomenon of ``extended longitudinal scaling'' in the pseudorapidity distributions when viewed in the rest frame of one of the colliding nuclei. It is also found that the evolution of the shape of the distribution with centrality is energy independent, when viewed in this reference frame. As a function of centrality, the total charged particle multiplicity scales linearly with the number of participant pairs as it was observed at other energies.
-
 ---
 # Start of table entries.
 # This is Table 1.
 name: "Table 1"
 location: Data from Table 1 of PHOBOS paper Inspire ID 693686
-description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $dN_{\text{ch}}/d\eta$ for $|\eta|<1$, $dN_{\text{ch}}/d\eta / \langle N_{\text{part}}/2 \rangle$ as shown in Fig.~4, and $\langle N_{\text{ch}} \rangle$ and $\langle N_{\text{ch}} \rangle / \langle N_{\text{part}}/2 \rangle$ as shown in Fig.~7. The difference in $N_{\text{part}}$ in the 0--3\% bin is explained in the text. 
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $dN_{\text{ch}}/d\eta$ for $|\eta|<1$, $dN_{\text{ch}}/d\eta / \langle N_{\text{part}}/2 \rangle$ as shown in Fig. 4 in the 0-3% bin is explained in the text. 
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: reactions, values: [P P --> Z0 Z0 X]}
-  - {name: observables, values: [SIG]}
-  - {name: cmenergies, values: [7000.0]}
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: 693686.yaml
+data_file: 693686table1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_Figure4.png}
+---
+name: "Table 2" 
+location: Data from Table 1 of PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $\langle N_{\text{ch}} \rangle$ and $\langle N_{\text{ch}} \rangle / \langle N_{\text{part}}/2 \rangle$ as shown in Fig. 7. The difference in $N_{\text{part}}$ in the 0-3% bin is explained in the text.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: 693686table2.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_Figure7.png}
