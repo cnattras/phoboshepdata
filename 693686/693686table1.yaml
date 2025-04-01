@@ -105,9 +105,6 @@ dependent_variables:
     - value: 2.24
       errors:
       - {symerror: 0.25, label: 'sys'}
-    - value: 2.24
-      errors:
-      - {symerror: 0.25, label: 'sys'}
     - value: 2.16
       errors:
       - {symerror: 0.26, label: 'sys'}
