@@ -1,0 +1,21 @@
+#PHOBOS PAPER
+#
+#TITLE:Energy and centrality dependence of particle production at very low transverse momenta in Au+Au collisions
+#InspireHEP ID: 784449
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/784449", description: "InspireHEP ID: 784449"}
+comment: The PHOBOS experiment at RHIC has the unique capability of measuring particle production at very low transverse momenta. New results on low-transverse momentum invariant yields of $\pi^{\pm}$, $K^{\pm}$, and $(p + \bar{p})$ in 200 GeV Au+Au collisions are presented as a function of the collision centrality for the 50\% most central events. In contrast to the results from d+Au collisions, no $m_T$ scaling is observed in the very low $p_T$ region. The low transverse momentum yields agree with extrapolations from intermediate transverse momentum measurements. For all collision centralities, a flattening of the transverse momentum spectra is observed, consistent with a rapid transverse expansion of the system.
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1"
+location: Data from Table 1 of PHOBOS paper Inspire ID 784449
+description: Parameters obtained from Blast-Wave and Bose-Einstein fits.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: 784449table1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure3.png}
