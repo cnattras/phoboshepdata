@@ -45,10 +45,10 @@ dependent_variables:
     - value: 87
       errors:
       - {symerror: 6, label: 'sys'}
-  - value: 67
-    errors:
-    - {symerror: 5, label: 'sys'}
-  - header: {name: 'n_part'}
+    - value: 67
+      errors:
+      - {symerror: 5, label: 'sys'}
+  - header: {name: '$N_{\text{part}}$'}
     values:
     - value: 356
       errors:
