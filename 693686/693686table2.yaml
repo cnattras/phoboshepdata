@@ -11,8 +11,9 @@ independent_variables:
     - {low: 30, high: 35}
     - {low: 35, high: 40}
     - {low: 40, high: 45}
+    - {low: 45, high: 50}
 dependent_variables:
-  - header: {name: '$dN_{\text{ch}}/d\eta$ $|\eta|<1$'}
+  - header: {name: 'N_ch'}
     values:
     - value: 2988
       errors:
@@ -26,57 +27,63 @@ dependent_variables:
     - value: 2120
       errors:
       - {symerror: 106, label: 'sys'}
-    - value: 1748
+    - value: 1777
       errors:
-      - {symerror: 87, label: 'sys'}
+      - {symerror: 88, label: 'sys'}
     - value: 1485
       errors:
       - {symerror: 74, label: 'sys'}
     - value: 1236
       errors:
       - {symerror: 61, label: 'sys'}
-    - value: 1010
+    - value: 1027
       errors:
-      - {symerror: 50, label: 'sys'}
+      - {symerror: 51, label: 'sys'}
     - value: 840
       errors:
       - {symerror: 42, label: 'sys'}
     - value: 679
       errors:
       - {symerror: 33, label: 'sys'}
+    - value: 532
+      errors:
+      - {symerror: 26, label: 'sys'}
   - header: {name: '$\langle N_{\tiny{part}}/2 \rangle$'}
     values:
-    - value: 174.5
+    - value: 17.10
       errors:
-      - {symerror: 5.5, label: 'sys'}
-    - value: 162.5
+      - {symerror: 1.02, label: 'sys'}
+    - value: 17.17
       errors:
-      - {symerror: 5.0, label: 'sys'}
-    - value: 144.0
+      - {symerror: 1.01, label: 'sys'}
+    - value: 17.29
       errors:
-      - {symerror: 4.5, label: 'sys'}
-    - value: 124.0
+      - {symerror: 1.01, label: 'sys'}
+    - value: 17.13
       errors:
-      - {symerror: 4.0, label: 'sys'}
-    - value: 102.0
+      - {symerror: 1.00, label: 'sys'}
+    - value: 17.03
       errors:
-      - {symerror: 3.5, label: 'sys'}
-    - value: 87.0
+      - {symerror: 1.02, label: 'sys'}
+    - value: 17.07
       errors:
-      - {symerror: 3.0, label: 'sys'}
-    - value: 73.5
+      - {symerror: 1.08, label: 'sys'}
+    - value: 17.03
       errors:
-      - {symerror: 2.5, label: 'sys'}
-    - value: 62.0
+      - {symerror: 1.17, label: 'sys'}
+    - value: 17.15
       errors:
-      - {symerror: 2.0, label: 'sys'}
-    - value: 51.5
+      - {symerror: 1.30, label: 'sys'}
+    - value: 17.17
       errors:
-      - {symerror: 1.5, label: 'sys'}
-    - value: 41.0
+      - {symerror: 1.45, label: 'sys'}
+    - value: 17.30
       errors:
-      - {symerror: 1.0, label: 'sys'}
-  - header: {name: 'N_part'}
+      - {symerror: 1.63, label: 'sys'}
+    - value: 17.16
+      errors:
+      - {symerror: 1.80, label: 'sys'}
+  - header: {name: 'n_part'}
     values:
     - value: 349
       errors:
@@ -90,21 +97,24 @@ dependent_variables:
     - value: 248
       errors:
       - {symerror: 8, label: 'sys'}
-    - value: 204
+    - value: 209
       errors:
       - {symerror: 7, label: 'sys'}
     - value: 174
       errors:
       - {symerror: 7, label: 'sys'}
-    - value: 147
+    - value: 145
       errors:
-      - {symerror: 6, label: 'sys'}
-    - value: 124
+      - {symerror: 7, label: 'sys'}
+    - value: 119
       errors:
-      - {symerror: 6, label: 'sys'}
+      - {symerror: 7, label: 'sys'}
     - value: 98
       errors:
       - {symerror: 7, label: 'sys'}
     - value: 78
+      errors:
+      - {symerror: 6, label: 'sys'}
+    - value: 62
       errors:
       - {symerror: 6, label: 'sys'}

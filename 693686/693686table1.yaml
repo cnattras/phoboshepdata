@@ -11,6 +11,7 @@ independent_variables:
     - {low: 30, high: 35}
     - {low: 35, high: 40}
     - {low: 40, high: 45}
+    - {low: 45, high: 50}
 dependent_variables:
   - header: {name: '$dN_{\text{ch}}/d\eta$ $|\eta|<1$'}
     values:
@@ -29,22 +30,25 @@ dependent_variables:
     - value: 260
       errors:
       - {symerror: 19, label: 'sys'}
+    - value: 212
+      errors:
+      - {symerror: 15, label: 'sys'}
     - value: 174
       errors:
       - {symerror: 13, label: 'sys'}
     - value: 140
       errors:
-      - {symerror: 11, label: 'sys'}
-    - value: 107
+      - {symerror: 10, label: 'sys'}
+    - value: 111
       errors:
-      - {symerror: 9, label: 'sys'}
-    - value: 82
+      - {symerror: 8, label: 'sys'}
+    - value: 87
       errors:
-      - {symerror: 7, label: 'sys'}
-    - value: 67
-      errors:
-      - {symerror: 5, label: 'sys'}
-  - header: {name: '$\langle N_{\tiny{part}}/2 \rangle$'}
+      - {symerror: 6, label: 'sys'}
+  - value: 67
+    errors:
+    - {symerror: 5, label: 'sys'}
+  - header: {name: 'n_part'}
     values:
     - value: 356
       errors:
@@ -55,27 +59,30 @@ dependent_variables:
     - value: 288
       errors:
       - {symerror: 9, label: 'sys'}
+    - value: 248
+      errors:
+      - {symerror: 8, label: 'sys'}
     - value: 209
       errors:
       - {symerror: 7, label: 'sys'}
-    - value: 149
+    - value: 174
       errors:
-      - {symerror: 6, label: 'sys'}
+      - {symerror: 7, label: 'sys'}
     - value: 145
       errors:
-      - {symerror: 6, label: 'sys'}
+      - {symerror: 7, label: 'sys'}
     - value: 119
       errors:
-      - {symerror: 6, label: 'sys'}
+      - {symerror: 7, label: 'sys'}
     - value: 98
       errors:
-      - {symerror: 6, label: 'sys'}
+      - {symerror: 7, label: 'sys'}
     - value: 78
       errors:
-      - {symerror: 5, label: 'sys'}
+      - {symerror: 6, label: 'sys'}
     - value: 62
       errors:
-      - {symerror: 5, label: 'sys'}
+      - {symerror: 6, label: 'sys'}
   - header: {name: '$\frac{dN_{\text{ch}}}{d\eta} / \langle \frac{N_{\text{part}}}{2} \rangle$'}
     values:
     - value: 2.76
@@ -93,15 +100,18 @@ dependent_variables:
     - value: 2.50
       errors:
       - {symerror: 0.20, label: 'sys'}
+    - value: 2.44
+      errors:
+      - {symerror: 0.21, label: 'sys'}
     - value: 2.41
       errors:
-      - {symerror: 0.20, label: 'sys'}
+      - {symerror: 0.21, label: 'sys'}
     - value: 2.35
       errors:
       - {symerror: 0.22, label: 'sys'}
-    - value: 2.30
+    - value: 2.28
       errors:
-      - {symerror: 0.22, label: 'sys'}
+      - {symerror: 0.23, label: 'sys'}
     - value: 2.24
       errors:
       - {symerror: 0.25, label: 'sys'}
