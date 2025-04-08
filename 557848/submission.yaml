@@ -77,7 +77,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 --- 
 # This is data for the 0-6% centrality bin for particle production
-name: "Centrality 0-6%"
+name: "Centrality 0-6% Per Participant"
 location: Data from figure 1 in PHOBOS paper Inspire ID 557848
 description: The number of participants $<N_{part}>$ for 0-6% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -88,7 +88,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 6-15% centrality bin for particle production
-name: "Centrality 6-15%"
+name: "Centrality 6-15 Per Participant%"
 location: Data from figure 1 in PHOBOS paper Inspire ID 557848
 description: The number of participants $<N_{part}>$ for 6-15% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -99,7 +99,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 15-25% centrality bin for particle production
-name: "Centrality 15-25%"
+name: "Centrality 15-25 Per Participant%"
 location: Data from figure 1 in PHOBOS paper Inspire ID 557848
 description: The number of participants $<N_{part}>$ for 15-25% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -110,7 +110,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 25-35% centrality bin for particle production
-name: "Centrality 25-35%"
+name: "Centrality 25-35 Per Participant%"
 location: Data from figure 1 in PHOBOS paper Inspire ID 557848
 description: The number of participants $<N_{part}>$ for 25-35% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -121,7 +121,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 35-45% centrality bin for particle production
-name: "Centrality 35-45%"
+name: "Centrality 35-45 Per Participant%"
 location: Data from figure 1 in PHOBOS paper Inspire ID 557848
 description: The number of participants $<N_{part}>$ for 35-45% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
