@@ -222,7 +222,7 @@ additional_resources:
 # This is ESTIMATED data for figure 2
 name: "Rapidity Range"
 location: Data from figure 2 in PHOBOS paper Inspire ID 557848
-description: Total $dN_{ch}/d\eta$ vs $N_{\\text{part}}$ for all in Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV. Not normalized by participant pairs.
+description: Total $dN_{ch}/d\eta$ vs $N_{\\{part}}$ for all in Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV. Not normalized by participant pairs.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: LOOKfig2Rapidities.yaml
