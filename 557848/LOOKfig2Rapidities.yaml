@@ -1,12 +1,3 @@
-# filled with nothing,,,, leaving room for the possibility of adding rapidities** " All Rapidities (Note: this one is dN/deta, NOT divided by part. pairs)"
-# How do I fit HIJING code predicitions into each of these graphs?
-# How do i fit the AMPT and LUCIFER modes into the graphs too?
-# How do I fit the pp and ppbar data into the graphs too?
-description: Total $\\frac{dN}{d\\eta}$ vs $N_{\\text{part}}$ for all $\\eta$ in Au+Au collisions at $\\sqrt{s_{NN}} = 62.4$ GeV. Not normalized by participant pairs.
-location: Figure 2
-keywords:
-  - { name: "rapidity range", values: [ "all $\\eta$" ] }
-
 independent_variables:
   - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
     values:
