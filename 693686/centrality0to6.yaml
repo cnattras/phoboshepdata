@@ -1,0 +1,119 @@
+# HepData YAML submission for PHOBOS Au+Au at 62.4 GeV (Centrality 0-6%)
+# File created by: Rachid Nouicer
+# DataType: dN/dEta vs Eta
+
+independent_variables:
+  - header: { name: "$\eta$" }
+    values:
+      - { value: -5.3 }
+      - { value: -5.1 }
+      - { value: -4.9 }
+      - { value: -4.7 }
+      - { value: -4.5 }
+      - { value: -4.3 }
+      - { value: -4.1 }
+      - { value: -3.9 }
+      - { value: -3.7 }
+      - { value: -3.5 }
+      - { value: -3.3 }
+      - { value: -3.1 }
+      - { value: -2.9 }
+      - { value: -2.7 }
+      - { value: -2.5 }
+      - { value: -2.3 }
+      - { value: -2.1 }
+      - { value: -1.9 }
+      - { value: -1.7 }
+      - { value: -1.5 }
+      - { value: -1.3 }
+      - { value: -1.1 }
+      - { value: -0.9 }
+      - { value: -0.7 }
+      - { value: -0.5 }
+      - { value: -0.3 }
+      - { value: -0.1 }
+      - { value: 0.1 }
+      - { value: 0.3 }
+      - { value: 0.5 }
+      - { value: 0.7 }
+      - { value: 0.9 }
+      - { value: 1.1 }
+      - { value: 1.3 }
+      - { value: 1.5 }
+      - { value: 1.7 }
+      - { value: 1.9 }
+      - { value: 2.1 }
+      - { value: 2.3 }
+      - { value: 2.5 }
+      - { value: 2.7 }
+      - { value: 2.9 }
+      - { value: 3.1 }
+      - { value: 3.3 }
+      - { value: 3.5 }
+      - { value: 3.7 }
+      - { value: 3.9 }
+      - { value: 4.1 }
+      - { value: 4.3 }
+      - { value: 4.5 }
+      - { value: 4.7 }
+      - { value: 4.9 }
+      - { value: 5.1 }
+      - { value: 5.3 }
+
+dependent_variables:
+  - header: { name: "$dN/d\eta$"}
+    values:
+      - { value: 15.113744, errors: [{symerror: 6.305482, label: "stat+", type: "asymmetric"}, {symerror: 5.001158, label: "stat-", type: "asymmetric"}] }
+      - { value: 19.695158, errors: [{symerror: 8.776428, label: "stat+"}, {symerror: 5.731908, label: "stat-"}] }
+      - { value: 26.709850, errors: [{symerror: 10.951908}, {symerror: 7.496712}] }
+      - { value: 34.851833, errors: [{symerror: 14.652641}, {symerror: 8.539537}] }
+      - { value: 46.666409, errors: [{symerror: 17.880482}, {symerror: 10.859962}] }
+      - { value: 61.122715, errors: [{symerror: 22.184719}, {symerror: 12.805332}] }
+      - { value: 81.262550, errors: [{symerror: 24.915993}, {symerror: 16.776100}] }
+      - { value: 102.551636, errors: [{symerror: 30.746811}, {symerror: 17.685890}] }
+      - { value: 131.809845, errors: [{symerror: 32.607483}, {symerror: 22.056175}] }
+      - { value: 169.038101, errors: [{symerror: 29.765625}, {symerror: 30.038559}] }
+      - { value: 205.763000, errors: [{symerror: 29.483871}, {symerror: 33.918457}] }
+      - { value: 232.709396, errors: [{symerror: 39.480148}, {symerror: 25.813995}] }
+      - { value: 268.021820, errors: [{symerror: 39.949493}, {symerror: 25.722275}] }
+      - { value: 301.102722, errors: [{symerror: 40.003815}, {symerror: 25.006287}] }
+      - { value: 331.380371, errors: [{symerror: 39.121887}, {symerror: 24.767731}] }
+      - { value: 359.715973, errors: [{symerror: 35.836731}, {symerror: 26.977295}] }
+      - { value: 382.450897, errors: [{symerror: 33.659058}, {symerror: 28.447601}] }
+      - { value: 402.773895, errors: [{symerror: 29.600311}, {symerror: 32.302216}] }
+      - { value: 418.040314, errors: [{symerror: 26.719940}, {symerror: 35.479462}] }
+      - { value: 428.934937, errors: [{symerror: 24.847992}, {symerror: 38.074005}] }
+      - { value: 435.246887, errors: [{symerror: 24.734161}, {symerror: 39.236084}] }
+      - { value: 437.371002, errors: [{symerror: 26.512238}, {symerror: 38.730804}] }
+      - { value: 436.415222, errors: [{symerror: 29.592316}, {symerror: 37.049194}] }
+      - { value: 435.941040, errors: [{symerror: 30.939697}, {symerror: 37.120667}] }
+      - { value: 433.185181, errors: [{symerror: 33.869324}, {symerror: 35.508514}] }
+      - { value: 431.490997, errors: [{symerror: 35.599060}, {symerror: 34.858612}] }
+      - { value: 428.645691, errors: [{symerror: 38.845551}, {symerror: 32.327057}] }
+      - { value: 426.968689, errors: [{symerror: 40.522552}, {symerror: 30.650055}] }
+      - { value: 428.201385, errors: [{symerror: 38.888672}, {symerror: 31.569000}] }
+      - { value: 430.869568, errors: [{symerror: 36.184937}, {symerror: 33.192902}] }
+      - { value: 432.833649, errors: [{symerror: 34.047089}, {symerror: 34.013275}] }
+      - { value: 433.549164, errors: [{symerror: 32.458374}, {symerror: 34.183136}] }
+      - { value: 432.292786, errors: [{symerror: 31.590454}, {symerror: 33.652588}] }
+      - { value: 428.243317, errors: [{symerror: 31.737732}, {symerror: 32.232513}] }
+      - { value: 422.973724, errors: [{symerror: 30.809204}, {symerror: 32.112823}] }
+      - { value: 413.763458, errors: [{symerror: 30.996796}, {symerror: 31.202606}] }
+      - { value: 398.300781, errors: [{symerror: 34.073395}, {symerror: 27.829102}] }
+      - { value: 381.713257, errors: [{symerror: 34.396667}, {symerror: 27.709961}] }
+      - { value: 359.600647, errors: [{symerror: 35.952026}, {symerror: 26.861969}] }
+      - { value: 334.008362, errors: [{symerror: 36.493866}, {symerror: 27.395752}] }
+      - { value: 303.025696, errors: [{symerror: 38.080841}, {symerror: 26.929260}] }
+      - { value: 271.978424, errors: [{symerror: 35.992828}, {symerror: 29.678909}] }
+      - { value: 256.536072, errors: [{symerror: 15.653442}, {symerror: 49.640717}] }
+      - { value: 223.709229, errors: [{symerror: 11.537613}, {symerror: 51.864731}] }
+      - { value: 185.424515, errors: [{symerror: 13.379166}, {symerror: 46.425018}] }
+      - { value: 149.062408, errors: [{symerror: 15.354919}, {symerror: 39.308739}] }
+      - { value: 107.373184, errors: [{symerror: 25.925232}, {symerror: 22.507469}] }
+      - { value: 83.179588, errors: [{symerror: 22.998894}, {symerror: 18.693184}] }
+      - { value: 63.283520, errors: [{symerror: 20.023914}, {symerror: 14.966137}] }
+      - { value: 47.482136, errors: [{symerror: 17.064754}, {symerror: 11.675690}] }
+      - { value: 35.364048, errors: [{symerror: 14.140392}, {symerror: 9.051771}] }
+      - { value: 26.694975, errors: [{symerror: 10.966784}, {symerror: 7.481836}] }
+      - { value: 19.903393, errors: [{symerror: 8.568174}, {symerror: 5.940153}] }
+      - { value: 14.701863, errors: [{symerror: 6.717362}, {symerror: 4.589277}] }
