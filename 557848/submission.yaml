@@ -189,7 +189,7 @@ additional_resources:
 # This is ESTIMATED data for figure 2 
 name: "Estimated data from HIJING model"
 location: Data from figure 2 in PHOBOS paper Inspire ID 557848
-description: HIJING model prediction for $\\frac{dN}{d\\eta}$ in central Au+Au collisions at $\\sqrt{s_{NN}}=62.4$ GeV
+description: HIJING model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS, HIJING]}
 data_file: HIJING.yaml
@@ -200,7 +200,7 @@ additional_resources:
 # This is ESTIMATED data for figure 2
 name: "Estimated data from AMPT model"
 location: Data from figure 2 in PHOBOS paper Inspire ID 557848
-description: AMPT model prediction for $\\frac{dN}{d\\eta}$ in central Au+Au collisions at $\\sqrt{s_{NN}}=62.4$ GeV
+description: AMPT model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS, AMPT]}
 data_file: AMPT.yaml
@@ -211,7 +211,7 @@ additional_resources:
 # This is ESTIMATED data for figure 2
 name: "Estimated data from LUCIFER model"
 location: Data from figure 2 in PHOBOS paper Inspire ID 557848
-description: LUCIFER model prediction for $\\frac{dN}{d\\eta}$ in central Au+Au collisions at $\\sqrt{s_{NN}}=62.4$ GeV
+description: LUCIFER model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS, LUCIFER]}
 data_file: LUCIFER.yaml
@@ -222,7 +222,7 @@ additional_resources:
 # This is ESTIMATED data for figure 2
 name: "Rapidity Range"
 location: Data from figure 2 in PHOBOS paper Inspire ID 557848
-description: Total $\\frac{dN}{d\\eta}$ vs $N_{\\text{part}}$ for all $\\eta$ in Au+Au collisions at $\\sqrt{s_{NN}} = 62.4$ GeV. Not normalized by participant pairs.
+description: Total $dN_{ch}/d\eta$ vs $N_{\\text{part}}$ for all in Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV. Not normalized by participant pairs.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: LOOKfig2Rapidities.yaml
@@ -233,7 +233,7 @@ additional_resources:
 # This is proton-proton data for figure 2
 name: "Proton-Proton Extrapolation Data"
 location: Data from figure 2 in PHOBOS paper Inspire ID 557848
-description: Extrapolated $pp$ prediction for $\\frac{dN}{d\\eta}$ vs $\\eta$ in $pp$ collisions at $\\sqrt{s_{NN}}=62.4$ GeV
+description: Extrapolated $pp$ prediction for $dN_{ch}/d\eta$ vs $\eta$ in $pp$ collisions at $\sqrt{s_{NN}}$=130 GeV
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS, pp]}
 data_file: pp.yaml
