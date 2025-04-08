@@ -29,3 +29,70 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: 693686table2.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_figure7.png}
+---
+# This is data for the 0-6% centrality bin
+name: "Centrality 0-6%"
+location: Data from PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 0-6% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: centrality0to6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+- {description: Link to Text data files from PHOBOS paper Inspire ID 693686 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/Data/data.htm"}
+---
+# This is data for the 6-15% centrality bin
+name: "Centrality 6-15%"
+location: Data from PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 6-15% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: centrality6to15.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+- {description: Link to Text data files from PHOBOS paper Inspire ID 693686 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/Data/data.htm"}
+
+---
+# This is data for the 15-25% centrality bin
+name: "Centrality 15-25%"
+location: Data from PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 15-25% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: centrality15to25.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+- {description: Link to Text data files from PHOBOS paper Inspire ID 693686 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/Data/data.htm"}
+---
+# This is data for the 25-35% centrality bin
+name: "Centrality 25-35%"
+location: Data from PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 25-35% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: centrality25to35.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+- {description: Link to Text data files from PHOBOS paper Inspire ID 693686 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/Data/data.htm"}
+---
+# This is data for the 35-45% centrality bin
+name: "Centrality 35-45%"
+location: Data from PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 35-45% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: centrality35to45.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+- {description: Link to Text data files from PHOBOS paper Inspire ID 693686 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/Data/data.htm"}
+---
+# This is data for the 45-50% centrality bin
+name: "Centrality 45-50%"
+location: Data from PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 45-50% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: centrality45to50.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_figure1.png}
+- {description: Link to Text data files from PHOBOS paper Inspire ID 693686 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/Data/data.htm"}
