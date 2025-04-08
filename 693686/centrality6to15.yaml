@@ -4,7 +4,7 @@
 # Author: Rachid Nouicer
 
 independent_variables:
-  - header: { name: "$\eta$" }
+  - header: { name: "$\\eta$" }
     values:
       - { value: -5.3 }
       - { value: -5.1 }
@@ -62,59 +62,113 @@ independent_variables:
       - { value: 5.3 }
 
 dependent_variables:
-  - header: { name: "$dN/d\eta$"}
+  - header: { name: "$\\frac{dN}{d\\eta}$" }
     values:
-      - { value: 18.788795, errors: [{symerror: 3.647591}, {symerror: 7.955454}] }
-      - { value: 23.463654, errors: [{symerror: 5.458094}, {symerror: 8.882051}] }
-      - { value: 29.617702, errors: [{symerror: 7.479092}, {symerror: 10.068422}] }
-      - { value: 36.736553, errors: [{symerror: 10.550358}, {symerror: 10.663475}] }
-      - { value: 44.775257, errors: [{symerror: 15.037292}, {symerror: 10.237175}] }
-      - { value: 56.462826, errors: [{symerror: 18.484234}, {symerror: 11.110615}] }
-      - { value: 72.706932, errors: [{symerror: 20.151665}, {symerror: 13.811348}] }
-      - { value: 88.989975, errors: [{symerror: 24.552521}, {symerror: 13.549599}] }
-      - { value: 113.794083, errors: [{symerror: 22.964996}, {symerror: 18.746933}] }
-      - { value: 137.233795, errors: [{symerror: 24.764389}, {symerror: 19.773315}] }
-      - { value: 164.283600, errors: [{symerror: 24.209015}, {symerror: 22.238358}] }
-      - { value: 189.870071, errors: [{symerror: 25.421249}, {symerror: 22.060684}] }
-      - { value: 212.901733, errors: [{symerror: 28.479614}, {symerror: 19.368118}] }
-      - { value: 236.920776, errors: [{symerror: 28.905670}, {symerror: 18.941605}] }
-      - { value: 259.773193, errors: [{symerror: 28.109802}, {symerror: 19.671295}] }
-      - { value: 281.685364, errors: [{symerror: 25.377991}, {symerror: 22.489166}] }
-      - { value: 299.209259, errors: [{symerror: 23.931549}, {symerror: 24.276031}] }
-      - { value: 314.690735, errors: [{symerror: 21.418915}, {symerror: 27.382538}] }
-      - { value: 324.796631, errors: [{symerror: 21.327759}, {symerror: 28.254578}] }
-      - { value: 331.221710, errors: [{symerror: 22.218719}, {symerror: 28.239532}] }
-      - { value: 335.937866, errors: [{symerror: 22.434540}, {symerror: 28.906769}] }
-      - { value: 338.567902, errors: [{symerror: 22.709259}, {symerror: 29.455353}] }
-      - { value: 338.096130, errors: [{symerror: 24.464661}, {symerror: 28.424164}] }
-      - { value: 337.618805, errors: [{symerror: 25.081940}, {symerror: 28.420868}] }
-      - { value: 336.724304, errors: [{symerror: 25.535828}, {symerror: 28.484680}] }
-      - { value: 335.692719, errors: [{symerror: 26.167267}, {symerror: 28.306396}] }
-      - { value: 334.232819, errors: [{symerror: 27.849976}, {symerror: 27.050995}] }
-      - { value: 332.677399, errors: [{symerror: 29.405396}, {symerror: 25.495575}] }
-      - { value: 332.120514, errors: [{symerror: 29.739471}, {symerror: 24.734192}] }
-      - { value: 333.463623, errors: [{symerror: 28.796509}, {symerror: 25.223999}] }
-      - { value: 335.237183, errors: [{symerror: 27.463562}, {symerror: 26.039246}] }
-      - { value: 335.275696, errors: [{symerror: 27.285095}, {symerror: 25.603729}] }
-      - { value: 334.237457, errors: [{symerror: 27.039703}, {symerror: 25.124908}] }
-      - { value: 331.954468, errors: [{symerror: 26.417938}, {symerror: 24.923370}] }
-      - { value: 327.251007, errors: [{symerror: 26.189392}, {symerror: 24.268860}] }
-      - { value: 320.305023, errors: [{symerror: 25.819366}, {symerror: 23.763000}] }
-      - { value: 309.857941, errors: [{symerror: 26.251709}, {symerror: 22.549744}] }
-      - { value: 297.442017, errors: [{symerror: 25.698761}, {symerror: 22.508820}] }
-      - { value: 281.099396, errors: [{symerror: 25.963928}, {symerror: 21.903229}] }
-      - { value: 260.982971, errors: [{symerror: 26.899994}, {symerror: 20.881088}] }
-      - { value: 238.162018, errors: [{symerror: 27.664429}, {symerror: 20.182846}] }
-      - { value: 214.788544, errors: [{symerror: 26.592773}, {symerror: 21.254959}] }
-      - { value: 205.056625, errors: [{symerror: 10.234665}, {symerror: 37.247269}] }
-      - { value: 178.813934, errors: [{symerror: 9.678650}, {symerror: 36.768723}] }
-      - { value: 149.392365, errors: [{symerror: 12.605789}, {symerror: 31.931908}] }
-      - { value: 122.250168, errors: [{symerror: 14.508911}, {symerror: 27.203018}] }
-      - { value: 91.168236, errors: [{symerror: 22.374237}, {symerror: 15.727875}] }
-      - { value: 73.461494, errors: [{symerror: 19.397057}, {symerror: 14.565945}] }
-      - { value: 57.607285, errors: [{symerror: 17.339775}, {symerror: 12.255074}] }
-      - { value: 45.821381, errors: [{symerror: 13.991169}, {symerror: 11.283298}] }
-      - { value: 36.329605, errors: [{symerror: 10.957279}, {symerror: 10.256546}] }
-      - { value: 29.487867, errors: [{symerror: 7.608927}, {symerror: 9.938587}] }
-      - { value: 22.951048, errors: [{symerror: 5.970684}, {symerror: 8.369456}] }
-      - { value: 18.345886, errors: [{symerror: 4.090500}, {symerror: 7.512545}] }
+      - value: 18.788795
+        errors: [{ label: "stat", asymerror: { plus: 3.647591, minus: 7.955454 } }]
+      - value: 23.463654
+        errors: [{ label: "stat", asymerror: { plus: 5.458094, minus: 8.882051 } }]
+      - value: 29.617702
+        errors: [{ label: "stat", asymerror: { plus: 7.479092, minus: 10.068422 } }]
+      - value: 36.736553
+        errors: [{ label: "stat", asymerror: { plus: 10.550358, minus: 10.663475 } }]
+      - value: 44.775257
+        errors: [{ label: "stat", asymerror: { plus: 15.037292, minus: 10.237175 } }]
+      - value: 56.462826
+        errors: [{ label: "stat", asymerror: { plus: 18.484234, minus: 11.110615 } }]
+      - value: 72.706932
+        errors: [{ label: "stat", asymerror: { plus: 20.151665, minus: 13.811348 } }]
+      - value: 88.989975
+        errors: [{ label: "stat", asymerror: { plus: 24.552521, minus: 13.549599 } }]
+      - value: 113.794083
+        errors: [{ label: "stat", asymerror: { plus: 22.964996, minus: 18.746933 } }]
+      - value: 137.233795
+        errors: [{ label: "stat", asymerror: { plus: 24.764389, minus: 19.773315 } }]
+      - value: 164.283600
+        errors: [{ label: "stat", asymerror: { plus: 24.209015, minus: 22.238358 } }]
+      - value: 189.870071
+        errors: [{ label: "stat", asymerror: { plus: 25.421249, minus: 22.060684 } }]
+      - value: 212.901733
+        errors: [{ label: "stat", asymerror: { plus: 28.479614, minus: 19.368118 } }]
+      - value: 236.920776
+        errors: [{ label: "stat", asymerror: { plus: 28.905670, minus: 18.941605 } }]
+      - value: 259.773193
+        errors: [{ label: "stat", asymerror: { plus: 28.109802, minus: 19.671295 } }]
+      - value: 281.685364
+        errors: [{ label: "stat", asymerror: { plus: 25.377991, minus: 22.489166 } }]
+      - value: 299.209259
+        errors: [{ label: "stat", asymerror: { plus: 23.931549, minus: 24.276031 } }]
+      - value: 314.690735
+        errors: [{ label: "stat", asymerror: { plus: 21.418915, minus: 27.382538 } }]
+      - value: 324.796631
+        errors: [{ label: "stat", asymerror: { plus: 21.327759, minus: 28.254578 } }]
+      - value: 331.221710
+        errors: [{ label: "stat", asymerror: { plus: 22.218719, minus: 28.239532 } }]
+      - value: 335.937866
+        errors: [{ label: "stat", asymerror: { plus: 22.434540, minus: 28.906769 } }]
+      - value: 338.567902
+        errors: [{ label: "stat", asymerror: { plus: 22.709259, minus: 29.455353 } }]
+      - value: 338.096130
+        errors: [{ label: "stat", asymerror: { plus: 24.464661, minus: 28.424164 } }]
+      - value: 337.618805
+        errors: [{ label: "stat", asymerror: { plus: 25.081940, minus: 28.420868 } }]
+      - value: 336.724304
+        errors: [{ label: "stat", asymerror: { plus: 25.535828, minus: 28.484680 } }]
+      - value: 335.692719
+        errors: [{ label: "stat", asymerror: { plus: 26.167267, minus: 28.306396 } }]
+      - value: 334.232819
+        errors: [{ label: "stat", asymerror: { plus: 27.849976, minus: 27.050995 } }]
+      - value: 332.677399
+        errors: [{ label: "stat", asymerror: { plus: 29.405396, minus: 25.495575 } }]
+      - value: 332.120514
+        errors: [{ label: "stat", asymerror: { plus: 29.739471, minus: 24.734192 } }]
+      - value: 333.463623
+        errors: [{ label: "stat", asymerror: { plus: 28.796509, minus: 25.223999 } }]
+      - value: 335.237183
+        errors: [{ label: "stat", asymerror: { plus: 27.463562, minus: 26.039246 } }]
+      - value: 335.275696
+        errors: [{ label: "stat", asymerror: { plus: 27.285095, minus: 25.603729 } }]
+      - value: 334.237457
+        errors: [{ label: "stat", asymerror: { plus: 27.039703, minus: 25.124908 } }]
+      - value: 331.954468
+        errors: [{ label: "stat", asymerror: { plus: 26.417938, minus: 24.923370 } }]
+      - value: 327.251007
+        errors: [{ label: "stat", asymerror: { plus: 26.189392, minus: 24.268860 } }]
+      - value: 320.305023
+        errors: [{ label: "stat", asymerror: { plus: 25.819366, minus: 23.763000 } }]
+      - value: 309.857941
+        errors: [{ label: "stat", asymerror: { plus: 26.251709, minus: 22.549744 } }]
+      - value: 297.442017
+        errors: [{ label: "stat", asymerror: { plus: 25.698761, minus: 22.508820 } }]
+      - value: 281.099396
+        errors: [{ label: "stat", asymerror: { plus: 25.963928, minus: 21.903229 } }]
+      - value: 260.982971
+        errors: [{ label: "stat", asymerror: { plus: 26.899994, minus: 20.881088 } }]
+      - value: 238.162018
+        errors: [{ label: "stat", asymerror: { plus: 27.664429, minus: 20.182846 } }]
+      - value: 214.788544
+        errors: [{ label: "stat", asymerror: { plus: 26.592773, minus: 21.254959 } }]
+      - value: 205.056625
+        errors: [{ label: "stat", asymerror: { plus: 10.234665, minus: 37.247269 } }]
+      - value: 178.813934
+        errors: [{ label: "stat", asymerror: { plus: 9.678650, minus: 36.768723 } }]
+      - value: 149.392365
+        errors: [{ label: "stat", asymerror: { plus: 12.605789, minus: 31.931908 } }]
+      - value: 122.250168
+        errors: [{ label: "stat", asymerror: { plus: 14.508911, minus: 27.203018 } }]
+      - value: 91.168236
+        errors: [{ label: "stat", asymerror: { plus: 22.374237, minus: 15.727875 } }]
+      - value: 73.461494
+        errors: [{ label: "stat", asymerror: { plus: 19.397057, minus: 14.565945 } }]
+      - value: 57.607285
+        errors: [{ label: "stat", asymerror: { plus: 17.339775, minus: 12.255074 } }]
+      - value: 45.821381
+        errors: [{ label: "stat", asymerror: { plus: 13.991169, minus: 11.283298 } }]
+      - value: 36.329605
+        errors: [{ label: "stat", asymerror: { plus: 10.957279, minus: 10.256546 } }]
+      - value: 29.487867
+        errors: [{ label: "stat", asymerror: { plus: 7.608927, minus: 9.938587 } }]
+      - value: 22.951048
+        errors: [{ label: "stat", asymerror: { plus: 5.970684, minus: 8.369456 } }]
+      - value: 18.345886
+        errors: [{ label: "stat", asymerror: { plus: 4.090500, minus: 7.512545 } }]

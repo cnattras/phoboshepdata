@@ -2,7 +2,7 @@
 # File created by: Rachid Nouicer
 # DataType: dN/dEta vs Eta
 independent_variables:
-  - header: { name: "$\eta$" }
+  - header: { name: "$\\eta$" }
     values:
       - { value: -5.3 }
       - { value: -5.1 }
@@ -60,7 +60,7 @@ independent_variables:
       - { value: 5.3 }
 
 dependent_variables:
-  - header: { name: "$\frac{dN}{d\eta}$" }
+  - header: { name: "$\\frac{dN}{d\eta}$" }
     values:
       - value: 15.113744
         errors: [{ label: "stat", asymerror: { plus: 6.305482, minus: 5.001158 } }]
