@@ -1,0 +1,56 @@
+# filled with nothing,,,, leaving room for the possibility of adding rapidities** " All Rapidities (Note: this one is dN/deta, NOT divided by part. pairs)"
+# How do I fit HIJING code predicitions into each of these graphs?
+# How do i fit the AMPT and LUCIFER modes into the graphs too?
+# How do I fit the pp and ppbar data into the graphs too?
+description: Total $\\frac{dN}{d\\eta}$ vs $N_{\\text{part}}$ for all $\\eta$ in Au+Au collisions at $\\sqrt{s_{NN}} = 62.4$ GeV. Not normalized by participant pairs.
+location: Figure 2
+keywords:
+  - { name: "rapidity range", values: [ "all $\\eta$" ] }
+
+independent_variables:
+  - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
+    values:
+      - { value: 83.3214 }
+      - { value: 102.067 }
+      - { value: 122.847 }
+      - { value: 149.83 }
+      - { value: 180.193 }
+      - { value: 215.558 }
+      - { value: 252.924 }
+      - { value: 291.764 }
+      - { value: 329.207 }
+      - { value: 353.593 }
+
+dependent_variables:
+  - header: { name: "$\\frac{dN}{d\\eta}$ (all $\\eta$)" }
+    values:
+      - value: 909.663
+        errors:
+          - { symerror: 98.8035, label: "uncertainty" }
+      - value: 1140.88
+        errors:
+          - { symerror: 121.76, label: "uncertainty" }
+      - value: 1395.43
+        errors:
+          - { symerror: 148.586, label: "uncertainty" }
+      - value: 1697.3
+        errors:
+          - { symerror: 180.672, label: "uncertainty" }
+      - value: 2029.28
+        errors:
+          - { symerror: 213.795, label: "uncertainty" }
+      - value: 2432.82
+        errors:
+          - { symerror: 258.462, label: "uncertainty" }
+      - value: 2926.23
+        errors:
+          - { symerror: 311.489, label: "uncertainty" }
+      - value: 3449.32
+        errors:
+          - { symerror: 364.85, label: "uncertainty" }
+      - value: 3861.32
+        errors:
+          - { symerror: 412.987, label: "uncertainty" }
+      - value: 4197.33
+        errors:
+          - { symerror: 450.676, label: "uncertainty" }

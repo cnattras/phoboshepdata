@@ -1,0 +1,115 @@
+independent_variables:
+  - header: { name: "$\\eta$" }
+    values:
+      - { value: -5.3 }
+      - { value: -5.1 }
+      - { value: -4.9 }
+      - { value: -4.7 }
+      - { value: -4.5 }
+      - { value: -4.3 }
+      - { value: -4.1 }
+      - { value: -3.9 }
+      - { value: -3.7 }
+      - { value: -3.5 }
+      - { value: -3.3 }
+      - { value: -3.1 }
+      - { value: -2.9 }
+      - { value: -2.7 }
+      - { value: -2.5 }
+      - { value: -2.3 }
+      - { value: -2.1 }
+      - { value: -1.9 }
+      - { value: -1.7 }
+      - { value: -1.5 }
+      - { value: -1.3 }
+      - { value: -1.1 }
+      - { value: -0.9 }
+      - { value: -0.7 }
+      - { value: -0.5 }
+      - { value: -0.3 }
+      - { value: -0.1 }
+      - { value: 0.1 }
+      - { value: 0.3 }
+      - { value: 0.5 }
+      - { value: 0.7 }
+      - { value: 0.9 }
+      - { value: 1.1 }
+      - { value: 1.3 }
+      - { value: 1.5 }
+      - { value: 1.7 }
+      - { value: 1.9 }
+      - { value: 2.1 }
+      - { value: 2.3 }
+      - { value: 2.5 }
+      - { value: 2.7 }
+      - { value: 2.9 }
+      - { value: 3.1 }
+      - { value: 3.3 }
+      - { value: 3.5 }
+      - { value: 3.7 }
+      - { value: 3.9 }
+      - { value: 4.1 }
+      - { value: 4.3 }
+      - { value: 4.5 }
+      - { value: 4.7 }
+      - { value: 4.9 }
+      - { value: 5.1 }
+      - { value: 5.3 }
+
+dependent_variables:
+  - header: { name: "$\\frac{dN}{d\\eta}$" }
+    values:
+      - { value: 17.5406, errors: [{ label: "stat", symerror: 2.61089 }] }
+      - { value: 19.5505, errors: [{ label: "stat", symerror: 2.10161 }] }
+      - { value: 21.3608, errors: [{ label: "stat", symerror: 2.36604 }] }
+      - { value: 24.056, errors: [{ label: "stat", symerror: 2.97057 }] }
+      - { value: 26.6577, errors: [{ label: "stat", symerror: 3.01442 }] }
+      - { value: 31.3064, errors: [{ label: "stat", symerror: 3.2157 }] }
+      - { value: 35.383, errors: [{ label: "stat", symerror: 3.53689 }] }
+      - { value: 39.5827, errors: [{ label: "stat", symerror: 4.91867 }] }
+      - { value: 49.6461, errors: [{ label: "stat", symerror: 6.96473 }] }
+      - { value: 51.0897, errors: [{ label: "stat", symerror: 5.92011 }] }
+      - { value: 52.7298, errors: [{ label: "stat", symerror: 5.95718 }] }
+      - { value: 58.0978, errors: [{ label: "stat", symerror: 8.3957 }] }
+      - { value: 67.4061, errors: [{ label: "stat", symerror: 9.75711 }] }
+      - { value: 66.4428, errors: [{ label: "stat", symerror: 7.11786 }] }
+      - { value: 70.2423, errors: [{ label: "stat", symerror: 7.58195 }] }
+      - { value: 74.4593, errors: [{ label: "stat", symerror: 7.65143 }] }
+      - { value: 78.5384, errors: [{ label: "stat", symerror: 8.12832 }] }
+      - { value: 81.0058, errors: [{ label: "stat", symerror: 7.9394 }] }
+      - { value: 82.1575, errors: [{ label: "stat", symerror: 7.98833 }] }
+      - { value: 81.7453, errors: [{ label: "stat", symerror: 8.32926 }] }
+      - { value: 82.8778, errors: [{ label: "stat", symerror: 8.21953 }] }
+      - { value: 82.0425, errors: [{ label: "stat", symerror: 8.1232 }] }
+      - { value: 83.1802, errors: [{ label: "stat", symerror: 8.45312 }] }
+      - { value: 82.1082, errors: [{ label: "stat", symerror: 8.31119 }] }
+      - { value: 81.6193, errors: [{ label: "stat", symerror: 8.03567 }] }
+      - { value: 79.4268, errors: [{ label: "stat", symerror: 7.78707 }] }
+      - { value: 81.4006, errors: [{ label: "stat", symerror: 8.14412 }] }
+      - { value: 79.5213, errors: [{ label: "stat", symerror: 7.9668 }] }
+      - { value: 79.7989, errors: [{ label: "stat", symerror: 7.83033 }] }
+      - { value: 80.8302, errors: [{ label: "stat", symerror: 7.96615 }] }
+      - { value: 81.1832, errors: [{ label: "stat", symerror: 8.24259 }] }
+      - { value: 82.16, errors: [{ label: "stat", symerror: 8.39006 }] }
+      - { value: 81.8487, errors: [{ label: "stat", symerror: 8.08086 }] }
+      - { value: 83.4268, errors: [{ label: "stat", symerror: 8.26873 }] }
+      - { value: 80.2537, errors: [{ label: "stat", symerror: 8.305 }] }
+      - { value: 82.0502, errors: [{ label: "stat", symerror: 7.98595 }] }
+      - { value: 80.6368, errors: [{ label: "stat", symerror: 7.90191 }] }
+      - { value: 77.5143, errors: [{ label: "stat", symerror: 8.03599 }] }
+      - { value: 75.1201, errors: [{ label: "stat", symerror: 7.7714 }] }
+      - { value: 72.6128, errors: [{ label: "stat", symerror: 7.74192 }] }
+      - { value: 68.0374, errors: [{ label: "stat", symerror: 7.22976 }] }
+      - { value: 68.5279, errors: [{ label: "stat", symerror: 9.95112 }] }
+      - { value: 58.5104, errors: [{ label: "stat", symerror: 8.11123 }] }
+      - { value: 52.5852, errors: [{ label: "stat", symerror: 6.07857 }] }
+      - { value: 49.3067, errors: [{ label: "stat", symerror: 5.41323 }] }
+      - { value: 46.9045, errors: [{ label: "stat", symerror: 5.77593 }] }
+      - { value: 39.4578, errors: [{ label: "stat", symerror: 5.18637 }] }
+      - { value: 35.4111, errors: [{ label: "stat", symerror: 3.53128 }] }
+      - { value: 30.9387, errors: [{ label: "stat", symerror: 3.33549 }] }
+      - { value: 27.0423, errors: [{ label: "stat", symerror: 2.89086 }] }
+      - { value: 25.6359, errors: [{ label: "stat", symerror: 3.35043 }] }
+      - { value: 22.1116, errors: [{ label: "stat", symerror: 2.42499 }] }
+      - { value: 19.489, errors: [{ label: "stat", symerror: 2.09936 }] }
+      - { value: 18.7558, errors: [{ label: "stat", symerror: 2.60248 }] }

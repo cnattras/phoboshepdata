@@ -1,0 +1,43 @@
+independent_variables:
+  - header: { name: "$\\eta$" }
+    values:
+      - { value: 0.0 }
+      - { value: 0.5 }
+      - { value: 1.0 }
+      - { value: 1.5 }
+      - { value: 2.0 }
+      - { value: 2.5 }
+      - { value: 3.0 }
+      - { value: 3.5 }
+      - { value: 4.0 }
+
+dependent_variables:
+  - header: { name: "$\\frac{dN}{d\\eta}$ (pp extrapolation)" }
+    values:
+      - value: 2.28
+        errors:
+          - { asymerror: { plus: 0.08, minus: 0.15 }, label: "uncertainty" }
+      - value: 2.40
+        errors:
+          - { asymerror: { plus: 0.12, minus: 0.18 }, label: "uncertainty" }
+      - value: 2.42
+        errors:
+          - { asymerror: { plus: 0.18, minus: 0.20 }, label: "uncertainty" }
+      - value: 2.45
+        errors:
+          - { asymerror: { plus: 0.20, minus: 0.20 }, label: "uncertainty" }
+      - value: 2.35
+        errors:
+          - { asymerror: { plus: 0.20, minus: 0.20 }, label: "uncertainty" }
+      - value: 2.07
+        errors:
+          - { asymerror: { plus: 0.20, minus: 0.20 }, label: "uncertainty" }
+      - value: 1.73
+        errors:
+          - { asymerror: { plus: 0.20, minus: 0.20 }, label: "uncertainty" }
+      - value: 1.20
+        errors:
+          - { asymerror: { plus: 0.20, minus: 0.20 }, label: "uncertainty" }
+      - value: 0.80
+        errors:
+          - { asymerror: { plus: 0.20, minus: 0.20 }, label: "uncertainty" }

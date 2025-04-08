@@ -1,0 +1,27 @@
+independent_variables:
+  - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
+    values:
+      - { value: 83.3214 }
+      - { value: 102.067 }
+      - { value: 122.847 }
+      - { value: 149.83 }
+      - { value: 180.193 }
+      - { value: 215.558 }
+      - { value: 252.924 }
+      - { value: 291.764 }
+      - { value: 329.207 }
+      - { value: 353.593 }
+
+dependent_variables:
+  - header: { name: "$\\frac{dN}{d\\eta}$ (for $5<\\eta<5.4$)" }
+    values:
+      - { value: 0.594589, errors: [{ label: "stat", symerror: 0.0713407 }] }
+      - { value: 0.57107,  errors: [{ label: "stat", symerror: 0.0669679 }] }
+      - { value: 0.532099, errors: [{ label: "stat", symerror: 0.0624858 }] }
+      - { value: 0.489339, errors: [{ label: "stat", symerror: 0.0565431 }] }
+      - { value: 0.455115, errors: [{ label: "stat", symerror: 0.0502093 }] }
+      - { value: 0.418571, errors: [{ label: "stat", symerror: 0.0481528 }] }
+      - { value: 0.383001, errors: [{ label: "stat", symerror: 0.042553 }] }
+      - { value: 0.339651, errors: [{ label: "stat", symerror: 0.0397825 }] }
+      - { value: 0.315803, errors: [{ label: "stat", symerror: 0.0357337 }] }
+      - { value: 0.27574,  errors: [{ label: "stat", symerror: 0.0350442 }] }
