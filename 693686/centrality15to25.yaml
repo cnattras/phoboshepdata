@@ -1,0 +1,120 @@
+# PHOBOS Experiment: Au+Au at 62.4 GeV
+# Centrality: 15–25%
+# Observable: dN/dEta vs Eta
+# Author: Rachid Nouicer
+
+independent_variables:
+  - header: { name: "$\eta$" }
+    values:
+      - { value: -5.3 }
+      - { value: -5.1 }
+      - { value: -4.9 }
+      - { value: -4.7 }
+      - { value: -4.5 }
+      - { value: -4.3 }
+      - { value: -4.1 }
+      - { value: -3.9 }
+      - { value: -3.7 }
+      - { value: -3.5 }
+      - { value: -3.3 }
+      - { value: -3.1 }
+      - { value: -2.9 }
+      - { value: -2.7 }
+      - { value: -2.5 }
+      - { value: -2.3 }
+      - { value: -2.1 }
+      - { value: -1.9 }
+      - { value: -1.7 }
+      - { value: -1.5 }
+      - { value: -1.3 }
+      - { value: -1.1 }
+      - { value: -0.9 }
+      - { value: -0.7 }
+      - { value: -0.5 }
+      - { value: -0.3 }
+      - { value: -0.1 }
+      - { value: 0.1 }
+      - { value: 0.3 }
+      - { value: 0.5 }
+      - { value: 0.7 }
+      - { value: 0.9 }
+      - { value: 1.1 }
+      - { value: 1.3 }
+      - { value: 1.5 }
+      - { value: 1.7 }
+      - { value: 1.9 }
+      - { value: 2.1 }
+      - { value: 2.3 }
+      - { value: 2.5 }
+      - { value: 2.7 }
+      - { value: 2.9 }
+      - { value: 3.1 }
+      - { value: 3.3 }
+      - { value: 3.5 }
+      - { value: 3.7 }
+      - { value: 3.9 }
+      - { value: 4.1 }
+      - { value: 4.3 }
+      - { value: 4.5 }
+      - { value: 4.7 }
+      - { value: 4.9 }
+      - { value: 5.1 }
+      - { value: 5.3 }
+
+dependent_variables:
+  - header: { name: "$dN/d\eta$"}
+    values:
+      - { value: 21.199083, errors: [{symerror: 7.616186}, {symerror: 9.879235}] }
+      - { value: 24.554924, errors: [{symerror: 8.697464}, {symerror: 10.063463}] }
+      - { value: 29.167164, errors: [{symerror: 9.433334}, {symerror: 10.521967}] }
+      - { value: 34.120636, errors: [{symerror: 10.751244}, {symerror: 10.154852}] }
+      - { value: 38.003529, errors: [{symerror: 14.022350}, {symerror: 7.374886}] }
+      - { value: 45.698605, errors: [{symerror: 16.758518}, {symerror: 6.916637}] }
+      - { value: 56.925846, errors: [{symerror: 17.528095}, {symerror: 8.399979}] }
+      - { value: 68.292336, errors: [{symerror: 19.660721}, {symerror: 8.401920}] }
+      - { value: 83.575485, errors: [{symerror: 19.226997}, {symerror: 10.760078}] }
+      - { value: 99.709511, errors: [{symerror: 19.046669}, {symerror: 12.574783}] }
+      - { value: 119.219284, errors: [{symerror: 16.257202}, {symerror: 16.650787}] }
+      - { value: 136.790237, errors: [{symerror: 15.755722}, {symerror: 18.064064}] }
+      - { value: 151.407928, errors: [{symerror: 18.080627}, {symerror: 16.285583}] }
+      - { value: 168.063568, errors: [{symerror: 17.735977}, {symerror: 16.857864}] }
+      - { value: 183.730072, errors: [{symerror: 17.252167}, {symerror: 17.330124}] }
+      - { value: 197.729736, errors: [{symerror: 16.857910}, {symerror: 17.576767}] }
+      - { value: 208.908081, errors: [{symerror: 17.345612}, {symerror: 16.918625}] }
+      - { value: 218.894226, errors: [{symerror: 16.844589}, {symerror: 17.333923}] }
+      - { value: 225.199875, errors: [{symerror: 17.745956}, {symerror: 16.517746}] }
+      - { value: 230.611176, errors: [{symerror: 17.321167}, {symerror: 17.250473}] }
+      - { value: 233.873199, errors: [{symerror: 17.032272}, {symerror: 18.079407}] }
+      - { value: 236.097595, errors: [{symerror: 16.102966}, {symerror: 19.746033}] }
+      - { value: 235.324951, errors: [{symerror: 16.920334}, {symerror: 19.789536}] }
+      - { value: 233.009186, errors: [{symerror: 18.503693}, {symerror: 19.089554}] }
+      - { value: 232.234650, errors: [{symerror: 18.234680}, {symerror: 20.152130}] }
+      - { value: 231.309113, errors: [{symerror: 18.211609}, {symerror: 20.773438}] }
+      - { value: 230.732986, errors: [{symerror: 18.233871}, {symerror: 21.072495}] }
+      - { value: 230.609543, errors: [{symerror: 18.357315}, {symerror: 20.949051}] }
+      - { value: 230.963165, errors: [{symerror: 18.557556}, {symerror: 20.427490}] }
+      - { value: 231.267960, errors: [{symerror: 19.201370}, {symerror: 19.185440}] }
+      - { value: 231.891922, errors: [{symerror: 19.620956}, {symerror: 17.972290}] }
+      - { value: 231.841003, errors: [{symerror: 20.404282}, {symerror: 16.305588}] }
+      - { value: 231.689728, errors: [{symerror: 20.510834}, {symerror: 15.338165}] }
+      - { value: 230.682068, errors: [{symerror: 20.223404}, {symerror: 14.888275}] }
+      - { value: 227.866455, errors: [{symerror: 20.065887}, {symerror: 14.505753}] }
+      - { value: 222.926987, errors: [{symerror: 20.018845}, {symerror: 14.244858}] }
+      - { value: 216.708069, errors: [{symerror: 19.030746}, {symerror: 15.147766}] }
+      - { value: 208.578232, errors: [{symerror: 17.675446}, {symerror: 16.588791}] }
+      - { value: 197.385910, errors: [{symerror: 17.201721}, {symerror: 17.232956}] }
+      - { value: 184.795563, errors: [{symerror: 16.186661}, {symerror: 18.395630}] }
+      - { value: 169.054932, errors: [{symerror: 16.744614}, {symerror: 17.849228}] }
+      - { value: 152.713547, errors: [{symerror: 16.774979}, {symerror: 17.591217}] }
+      - { value: 147.318619, errors: [{symerror: 5.227325}, {symerror: 28.592461}] }
+      - { value: 128.509140, errors: [{symerror: 6.967331}, {symerror: 25.940659}] }
+      - { value: 107.792213, errors: [{symerror: 10.963943}, {symerror: 20.657501}] }
+      - { value: 89.498558, errors: [{symerror: 13.303925}, {symerror: 16.683151}] }
+      - { value: 69.813103, errors: [{symerror: 18.139938}, {symerror: 9.922703}] }
+      - { value: 57.559872, errors: [{symerror: 16.894039}, {symerror: 9.034027}] }
+      - { value: 46.878918, errors: [{symerror: 15.578205}, {symerror: 8.096951}] }
+      - { value: 40.425137, errors: [{symerror: 11.600742}, {symerror: 9.796494}] }
+      - { value: 34.031544, errors: [{symerror: 10.840313}, {symerror: 10.065773}] }
+      - { value: 29.014179, errors: [{symerror: 9.586319}, {symerror: 10.368982}] }
+      - { value: 24.356291, errors: [{symerror: 8.896082}, {symerror: 9.864839}] }
+      - { value: 20.729038, errors: [{symerror: 8.086231}, {symerror: 9.409190}] }

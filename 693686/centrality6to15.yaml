@@ -64,7 +64,7 @@ independent_variables:
 dependent_variables:
   - header: { name: "$dN/d\eta$"}
     values:
-      - { value: 18.788795, errors: [{symerror: 3.647591, label: "stat+"}, {symerror: 7.955454, label: "stat-", type: "asymmetric"}] }
+      - { value: 18.788795, errors: [{symerror: 3.647591}, {symerror: 7.955454}] }
       - { value: 23.463654, errors: [{symerror: 5.458094}, {symerror: 8.882051}] }
       - { value: 29.617702, errors: [{symerror: 7.479092}, {symerror: 10.068422}] }
       - { value: 36.736553, errors: [{symerror: 10.550358}, {symerror: 10.663475}] }
