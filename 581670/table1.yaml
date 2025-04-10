@@ -1,7 +1,7 @@
 # Title: Midrapidity dN/dη, <Npart>, and dN/dη per participant pair vs. centrality for Au+Au collisions at 200 GeV. Errors are systematic.
-    independent_variables:
-      - header: { name: "Centrality (%)" }
-        values:
+ independent_variables:
+  - header: { name: "Centrality (%)" }
+    values:
       - {low: 0, high: 3}
       - {low: 3, high: 6}
       - {low: 6, high: 10}
