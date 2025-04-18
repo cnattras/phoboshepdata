@@ -183,7 +183,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2
-name: "Rapidity Range"
+name: "Total $\\frac{dN}{d\\eta}$"
 location: Data from figure 2
 description: Total $dN_{ch}/d\eta$ vs $N_{\\{part}}$ for all in Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV. Not normalized by participant pairs.
 data_file: LOOKfig2Rapidities.yaml
