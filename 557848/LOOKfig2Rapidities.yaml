@@ -17,31 +17,31 @@ dependent_variables:
     values:
       - value: 909.663
         errors:
-          - { symerror: 98.8035, label: "uncertainty" }
+          - { symerror: 98.8035, label: "sys" }
       - value: 1140.88
         errors:
-          - { symerror: 121.76, label: "uncertainty" }
+          - { symerror: 121.76, label: "sys" }
       - value: 1395.43
         errors:
-          - { symerror: 148.586, label: "uncertainty" }
+          - { symerror: 148.586, label: "sys" }
       - value: 1697.3
         errors:
-          - { symerror: 180.672, label: "uncertainty" }
+          - { symerror: 180.672, label: "sys" }
       - value: 2029.28
         errors:
-          - { symerror: 213.795, label: "uncertainty" }
+          - { symerror: 213.795, label: "sys" }
       - value: 2432.82
         errors:
-          - { symerror: 258.462, label: "uncertainty" }
+          - { symerror: 258.462, label: "sys" }
       - value: 2926.23
         errors:
-          - { symerror: 311.489, label: "uncertainty" }
+          - { symerror: 311.489, label: "sys" }
       - value: 3449.32
         errors:
-          - { symerror: 364.85, label: "uncertainty" }
+          - { symerror: 364.85, label: "sys" }
       - value: 3861.32
         errors:
-          - { symerror: 412.987, label: "uncertainty" }
+          - { symerror: 412.987, label: "sys" }
       - value: 4197.33
         errors:
-          - { symerror: 450.676, label: "uncertainty" }
+          - { symerror: 450.676, label: "sys" }
