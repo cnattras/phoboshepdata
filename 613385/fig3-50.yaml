@@ -1,0 +1,75 @@
+independent_variables:
+  - header: { name: "$p_{T}$" }
+    values:
+      - { value: 0.250 }
+      - { value: 0.350 }
+      - { value: 0.450 }
+      - { value: 0.550 }
+      - { value: 0.650 }
+      - { value: 0.750 }
+      - { value: 0.850 }
+      - { value: 0.950 }
+      - { value: 1.050 }
+      - { value: 1.150 }
+      - { value: 1.250 }
+      - { value: 1.350 }
+      - { value: 1.450 }
+      - { value: 1.550 }
+      - { value: 1.650 }
+      - { value: 1.750 }
+      - { value: 1.850 }
+      - { value: 1.950 }
+      - { value: 2.100 }
+      - { value: 2.300 }
+      - { value: 2.500 }
+      - { value: 2.700 }
+      - { value: 2.900 }
+      - { value: 3.125 }
+      - { value: 3.375 }
+      - { value: 3.625 }
+      - { value: 3.875 }
+      - { value: 4.250 }
+
+dependent_variables:
+  - header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield" }
+    values:
+      - value: 0.9976166
+        errors:
+          - { label: "stat", symerror: 0.003 }
+          - { label: "sys", asymerror: { plus: 0.085, minus: 0.131 } }
+      - value: 1.0064439
+        errors:
+          - { label: "stat", symerror: 0.004 }
+          - { label: "sys", asymerror: { plus: 0.084, minus: 0.129 } }
+      - value: 0.9957906
+        errors:
+          - { label: "stat", symerror: 0.004 }
+          - { label: "sys", asymerror: { plus: 0.082, minus: 0.125 } }
+      - value: 0.9997160
+        errors:
+          - { label: "stat", symerror: 0.005 }
+          - { label: "sys", asymerror: { plus: 0.081, minus: 0.124 } }
+      - value: 0.9948301
+        errors:
+          - { label: "stat", symerror: 0.005 }
+          - { label: "sys", asymerror: { plus: 0.080, minus: 0.121 } }
+      - value: 0.9993076
+        errors:
+          - { label: "stat", symerror: 0.005 }
+          - { label: "sys", asymerror: { plus: 0.080, minus: 0.120 } }
+      - value: 0.9990684
+        errors:
+          - { label: "stat", symerror: 0.005 }
+          - { label: "sys", asymerror: { plus: 0.079, minus: 0.118 } }
+      - value: 1.0040218
+        errors:
+          - { label: "stat", symerror: 0.006 }
+          - { label: "sys", asymerror: { plus: 0.080, minus: 0.117 } }
+      - value: 1.0028634
+        errors:
+          - { label: "stat", symerror: 0.007 }
+          - { label: "sys", asymerror: { plus: 0.080, minus: 0.116 } }
+      - value: 0.9933036
+        errors:
+          - { label: "stat", symerror: 0.008 }
+          - { label: "sys", asymerror: { plus: 0.079, minus: 0.114 } }

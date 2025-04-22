@@ -1,0 +1,19 @@
+independent_variables:
+  - header: { name: "$N_{\\mathrm{part}}$" }
+    values:
+      - { value: 65 }
+      - { value: 93 }
+      - { value: 138 }
+      - { value: 200 }
+      - { value: 276 }
+      - { value: 344 }
+
+dependent_variables:
+  - header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield ($p_T=3.1$ GeV)" }
+    values:
+      - { value: 1.0544248, errors: [{ label: "stat", symerror: 0.061 }, { label: "sys", asymerror: { plus: 0.135, minus: 0.159 } }] }
+      - { value: 1.2164900, errors: [{ label: "stat", symerror: 0.039 }, { label: "sys", asymerror: { plus: 0.148, minus: 0.183 } }] }
+      - { value: 1.2347586, errors: [{ label: "stat", symerror: 0.033 }, { label: "sys", asymerror: { plus: 0.149, minus: 0.187 } }] }
+      - { value: 1.2451184, errors: [{ label: "stat", symerror: 0.028 }, { label: "sys", asymerror: { plus: 0.152, minus: 0.198 } }] }
+      - { value: 1.2292655, errors: [{ label: "stat", symerror: 0.025 }, { label: "sys", asymerror: { plus: 0.158, minus: 0.218 } }] }
+      - { value: 1.1196709, errors: [{ label: "stat", symerror: 0.027 }, { label: "sys", asymerror: { plus: 0.157, minus: 0.227 } }] }
