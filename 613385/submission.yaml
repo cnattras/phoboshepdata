@@ -35,7 +35,7 @@ location: Data from figure 1
 description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: centality15-25.yaml
+data_file: centrality15-25.yaml
 additional_resources:
 - {description: Thumbnail image file, location: thumb_fig1.png}
 ---
