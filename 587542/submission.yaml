@@ -9,15 +9,21 @@ additional_resources: # additional references (e.g. experiment TWiki page for an
 comment: |
  This paper describes the measurement of collective flow for charged particles in $\mathrm{Au+Au}$ collisions at $\sqrt{s_{NN}} = 130\,\mathrm{GeV}$ using the PHOBOS detector at the Relativistic Heavy Ion Collider (RHIC). The measured azimuthal hit anisotropy is presented over a wide range of pseudorapidity ($-5.0 < \eta < 5.3$) for the first time at this energy. The result, averaged over momenta and particle species, is observed to reach 7\% for peripheral collisions at midrapidity, falling off with centrality and increasing $|\eta|$. These results call into question the common assumption of longitudinal boost invariance over a large region of rapidity in RHIC collisions.
 ---
-data_file: Table1.yaml
-description: This is flow versus participant pair.
-name: Flow versus Participant Pair.
-additional_resources:
-- {description: Thumbnail Image file, location: thumb_figure3.png}
----
-data_file: Table2.yaml
+name: "Flow versus Pseudorapidity"
+location: Data from figure 3
 description: This is flow versus psuedorapidity.
-name: Flow versus Psuedorapidity
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_figure4.png}
+- {description: Thumbnail image file, location: thumb_fig3.png }
+---
+name: "Figure 4 Flow versus Npart"
+location: Data from figure 4
+description: This is flow versus Npart.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table2.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
 
