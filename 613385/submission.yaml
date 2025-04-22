@@ -1,0 +1,181 @@
+#InspireHEP ID: 613385
+#https://arxiv.org/abs/nucl-ex/0302015
+#Prepared by Eleanna Soto
+---
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://arxiv.org/abs/nucl-ex/0302015", description: "ArXiv web page"}
+- {location: "https://inspirehep.net/literature/613385", description: "InspireHEP ID: 613385"}
+- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Spectra_Npart_200/Data/data.htm", description: "PHOBOS paper data source"}
+comment: | # Information that applies to all data tables.
+ Write that here
+---
+# Start of table entries.
+# This is Figure 1.
+name: "Figure 1 Centrality 0% to 6%"
+location: Data from figure 1
+description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
+data_file: centrality0-6.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig1.png}
+---
+name: "Figure 1 Centrality 6% to 15%"
+location: Data from figure 1
+description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
+data_file: centrality6-15.yaml
+additional_resources: 
+- {description: Thumbnail image file, location: thumb_fig1.png}
+---
+name: "Figure 1 Centrality 15% to 25%"
+location: Data from figure 1
+description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
+data_file: centality15-25.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig1.png}
+---
+name: "Figure 1 Centrality 25% to 35%"
+location: Data from figure 1
+description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
+data_file: centrality25-35.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig1.png}
+---
+name: "Figure 1 Centrality 35% to 45%"
+location: Data from figure 1
+description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
+data_file: centrality35-45.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig1.png}
+---
+name: "Figure 1 Centrality 45% to 50%"
+location: Data from figure 1
+description: Invariant yields for charged hadrons as a function of pT for 6 centrality bins
+data_file: centrality45-50.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig1.png}
+---
+name: "Figure 2 Centrality 0% to 6%"
+location: Data from figure 2
+description: Yield per participant pair divided by a fit to p-pbar data versus pT at two centralities
+data_file: fig2-6.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig2.png}
+---
+name: "Figure 2 Centrality 6% to 15%"
+location: Data from figure 2
+description: Yield per participant pair divided by a fit to p-pbar data versus pT at two centralities
+data_file: fig2-15.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig2.png }
+---
+name: "Figure 2 Centrality 15% to 25%"
+location: Data from figure 2
+description: Yield per participant pair divided by a fit to p-pbar data versus pT at two centralities
+data_file: fig2-25.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig2.png }
+---
+name: "Figure 2 Centrality 25% to 35%"
+location: Data from figure 2
+description: Yield per participant pair divided by a fit to p-pbar data versus pT at two centralities
+data_file: fig2-35.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig2.png }
+---
+name: "Figure 2 Centrality 35% to 45%"
+location: Data from figure 2
+description: Yield per participant pair divided by a fit to p-pbar data versus pT at two centralities
+data_file: fig2-45.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig2.png }
+---
+name: "Figure 2 Centrality 45% to 50%"
+location: Data from figure 2
+description: Yield per participant pair divided by a fit to p-pbar data versus pT at two centralities
+data_file: fig2-50.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig2.png }
+---
+name: "Figure 3 Centrality 0% to 6%"
+location: Data from figure 3
+description: Similar to Figure 2 except divided by a fit to peripheral data and showing more centralities
+data_file: fig3-6.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig3.png }
+---
+name: "Figure 3 Centrality 6% to 15%"
+location: Data from figure 3
+description: Similar to Figure 2 except divided by a fit to peripheral data and showing more centralities
+data_file: fig3-15.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig3.png }
+---
+name: "Figure 3 Centrality 15% to 25%"
+location: Data from figure 3
+description: Similar to Figure 2 except divided by a fit to peripheral data and showing more centralities
+data_file: fig3-25.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig3.png }
+---
+name: "Figure 3 Centrality 25% to 35%"
+location: Data from figure 3
+description: Similar to Figure 2 except divided by a fit to peripheral data and showing more centralities
+data_file: fig3-35.yaml
+additional_resources:
+- {description: Thumbnail image file, location:  thumb_fig3.png }
+---
+name: " Figure 3 Centrality 35% to 45%"
+location: Data from figure 3
+description: Similar to Figure 2 except divided by a fit to peripheral data and showing more centralities
+data_file: fig3-45.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig3.png }
+---
+name: "Figure 3 Centrality 45% to 50%"
+location: Data from figure 4
+description: Similar to Figure 2 except divided by a fit to peripheral data and showing more centralities
+data_file: fig3-50.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig3.png }
+---
+name: "Figure 4: pT 0.45 GeV "
+location: Data from figure 4
+description: Yield per participant pair divided by a fit to peripheral data versus centrality for different pT bins
+data_file: fig4-pt1.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
+---
+name: "Figure 4: pT 1.45 GeV "
+location: Data from figure 4
+description: Yield per participant pair divided by a fit to peripheral data versus centrality for different pT bins
+data_file: fig4-pt2.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
+---
+name: "Figure 4: pT 2.3 GeV "
+location: Data from figure 4
+description: Yield per participant pair divided by a fit to peripheral data versus centrality for different pT bins
+data_file: fig4-pt3.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
+---
+name: "Figure 4: pT 3.1 GeV "
+location: Data from figure 4
+description: Yield per participant pair divided by a fit to peripheral data versus centrality for different pT bins
+data_file: fig4-pt4.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
+---
+name: "Figure 4: pT 3.6 GeV "
+location: Data from figure 4
+description: Yield per participant pair divided by a fit to peripheral data versus centrality for different pT bins
+data_file: fig4-pt5.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
+---
+name: "Figure 4: pT 4.25 GeV "
+location: Data from figure 4
+description: Yield per participant pair divided by a fit to peripheral data versus centrality for different pT bins
+data_file: fig4-pt6.yaml
+additional_resources:
+- {description: Thumbnail image file, location: thumb_fig4.png }
