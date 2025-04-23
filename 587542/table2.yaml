@@ -4,34 +4,34 @@
 independent_variables:
     - header: {name: '$\eta$'}
       values:
-      - {value: -4.74, stat_error: 0.004, syst_error_upper: 0.004038, syst_error_lower: 0.0113}
-      - {value: -3.99, stat_error: 0.0036, syst_error_upper: 0.003876, syst_error_lower: 0.003857}
-      - {value: -3.12, stat_error: 0.0031, syst_error_upper: 0.003374, syst_error_lower: 0.003232}
-      - {value: -1.75, stat_error: 0.0026, syst_error_upper: 0.003856, syst_error_lower: 0.003729}
-      - {value: -1.25, stat_error: 0.0026, syst_error_upper: 0.003494, syst_error_lower: 0.003306}
-      - {value: -0.75, stat_error: 0.0029, syst_error_upper: 0.003806, syst_error_lower: 0.003748}
-      - {value: -0.3, stat_error: 0.004, syst_error_upper: 0.004232, syst_error_lower: 0.004362}
-      - {value: 0.3, stat_error: 0.0034, syst_error_upper: 0.0039, syst_error_lower: 0.003797}
-      - {value: 0.76, stat_error: 0.0029, syst_error_upper: 0.003656, syst_error_lower: 0.003545}
-      - {value: 1.26, stat_error: 0.003, syst_error_upper: 0.004044, syst_error_lower: 0.003925}
-      - {value: 1.75, stat_error: 0.0026, syst_error_upper: 0.003626, syst_error_lower: 0.003594}
-      - {value: 3.72, stat_error: 0.003, syst_error_upper: 0.006012, syst_error_lower: 0.007992}
-      - {value: 4.22, stat_error: 0.0035, syst_error_upper: 0.006004, syst_error_lower: 0.009016}
-      - {value: 5.0, stat_error: 0.0106, syst_error_upper: 0.009801, syst_error_lower: 0.01698}
+      - {value: -4.74}
+      - {value: -3.99}
+      - {value: -3.12}
+      - {value: -1.75}
+      - {value: -1.25}
+      - {value: -0.75}
+      - {value: -0.3}
+      - {value: 0.3}
+      - {value: 0.76}
+      - {value: 1.26}
+      - {value: 1.75}
+      - {value: 3.72}
+      - {value: 4.22}
+      - {value: 5.0}
 dependent_variables:
     - header: {name: '$v^2$'}
       values:
-      - {value: 0.0113}
-      - {value: 0.0229}
-      - {value: 0.0251}
-      - {value: 0.0339}
-      - {value: 0.0385}
-      - {value: 0.042}
-      - {value: 0.047}
-      - {value: 0.0466}
-      - {value: 0.0424}
-      - {value: 0.0391}
-      - {value: 0.0354}
-      - {value: 0.0258}
-      - {value: 0.0224}
-      - {value: 0.0168}
+      - {value: 0.0113, stat_error: 0.004, syst_error_upper: 0.004038, syst_error_lower: 0.0113}
+      - {value: 0.0229, stat_error: 0.0036, syst_error_upper: 0.003876, syst_error_lower: 0.003857}
+      - {value: 0.0251, stat_error: 0.0031, syst_error_upper: 0.003374, syst_error_lower: 0.003232}
+      - {value: 0.0339, stat_error: 0.0026, syst_error_upper: 0.003856, syst_error_lower: 0.003729}
+      - {value: 0.0385, stat_error: 0.0026, syst_error_upper: 0.003494, syst_error_lower: 0.003306}
+      - {value: 0.042, stat_error: 0.0029, syst_error_upper: 0.003806, syst_error_lower: 0.003748}
+      - {value: 0.047, stat_error: 0.004, syst_error_upper: 0.004232, syst_error_lower: 0.004362}
+      - {value: 0.0466, stat_error: 0.0034, syst_error_upper: 0.0039, syst_error_lower: 0.003797}
+      - {value: 0.0424, stat_error: 0.0029, syst_error_upper: 0.003656, syst_error_lower: 0.003545}
+      - {value: 0.0391, stat_error: 0.003, syst_error_upper: 0.004044, syst_error_lower: 0.003925}
+      - {value: 0.0354, stat_error: 0.0026, syst_error_upper: 0.003626, syst_error_lower: 0.003594}
+      - {value: 0.0258, stat_error: 0.003, syst_error_upper: 0.006012, syst_error_lower: 0.007992}
+      - {value: 0.0224, stat_error: 0.0035, syst_error_upper: 0.006004, syst_error_lower: 0.009016}
+      - {value: 0.0168, stat_error: 0.0106, syst_error_upper: 0.009801, syst_error_lower: 0.01698}

@@ -3,21 +3,21 @@
 independent_variables:
   - header: {name: '$N_{\text{part}}$'}
     values:
-      - {value: 27.1221, stat_error: 0.0355, syst_error_upper: 0.024264, syst_error_lower: 0.023383}
-      - {value: 56.0515, stat_error: 0.0128, syst_error_upper: 0.00523, syst_error_lower: 0.00499}
-      - {value: 89.7871, stat_error: 0.0075, syst_error_upper: 0.005209, syst_error_lower: 0.005038}
-      - {value: 135.274, stat_error: 0.0054, syst_error_upper: 0.00368, syst_error_lower: 0.004928}
-      - {value: 194.138, stat_error: 0.0046, syst_error_upper: 0.003257, syst_error_lower: 0.004638}
-      - {value: 269.649, stat_error: 0.0044, syst_error_upper: 0.004381, syst_error_lower: 0.011263}
-      - {value: 337.943, stat_error: 0.0044, syst_error_upper: 0.003115, syst_error_lower: 0.018946}
+      - {value: 27.1221}
+      - {value: 56.0515}
+      - {value: 89.7871}
+      - {value: 135.274}
+      - {value: 194.138}
+      - {value: 269.649}
+      - {value: 337.943}
 dependent_variables:
   - header: {name: '$v^2$'}
     values:
-      - {value: 0.058}
-      - {value: 0.0697}
-      - {value: 0.0604}
-      - {value: 0.056}
-      - {value: 0.0489}
-      - {value: 0.0376}
-      - {value: 0.0257}
+      - {value: 0.058, stat_error: 0.0355, syst_error_upper: 0.024264, syst_error_lower: 0.023383}
+      - {value: 0.0697, stat_error: 0.0128, syst_error_upper: 0.00523, syst_error_lower: 0.00499}
+      - {value: 0.0604, stat_error: 0.0075, syst_error_upper: 0.005209, syst_error_lower: 0.005038}
+      - {value: 0.056, stat_error: 0.0054, syst_error_upper: 0.00368, syst_error_lower: 0.004928}
+      - {value: 0.0489, stat_error: 0.0046, syst_error_upper: 0.003257, syst_error_lower: 0.004638}
+      - {value: 0.0376, stat_error: 0.0044, syst_error_upper: 0.004381, syst_error_lower: 0.011263}
+      - {value: 0.0257, stat_error: 0.0044, syst_error_upper: 0.003115, syst_error_lower: 0.018946}
 
