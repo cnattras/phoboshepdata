@@ -1,9 +1,9 @@
 # Inspire ID: 587542
-# This is flow versus psuedorapidity
+# This is flow versus pseudorapidity
 
 independent_variables:
-    - header: {name: '$\eta$'}
-      values:
+  - header: {name: '$\eta$'}
+    values:
       - {value: -4.74}
       - {value: -3.99}
       - {value: -3.12}
@@ -19,19 +19,19 @@ independent_variables:
       - {value: 4.22}
       - {value: 5.0}
 dependent_variables:
-    - header: {name: '$v^2$'}
-      values:
-      - {value: 0.0113, stat_error: 0.004, syst_error_upper: 0.004038, syst_error_lower: 0.0113}
-      - {value: 0.0229, stat_error: 0.0036, syst_error_upper: 0.003876, syst_error_lower: 0.003857}
-      - {value: 0.0251, stat_error: 0.0031, syst_error_upper: 0.003374, syst_error_lower: 0.003232}
-      - {value: 0.0339, stat_error: 0.0026, syst_error_upper: 0.003856, syst_error_lower: 0.003729}
-      - {value: 0.0385, stat_error: 0.0026, syst_error_upper: 0.003494, syst_error_lower: 0.003306}
-      - {value: 0.042, stat_error: 0.0029, syst_error_upper: 0.003806, syst_error_lower: 0.003748}
-      - {value: 0.047, stat_error: 0.004, syst_error_upper: 0.004232, syst_error_lower: 0.004362}
-      - {value: 0.0466, stat_error: 0.0034, syst_error_upper: 0.0039, syst_error_lower: 0.003797}
-      - {value: 0.0424, stat_error: 0.0029, syst_error_upper: 0.003656, syst_error_lower: 0.003545}
-      - {value: 0.0391, stat_error: 0.003, syst_error_upper: 0.004044, syst_error_lower: 0.003925}
-      - {value: 0.0354, stat_error: 0.0026, syst_error_upper: 0.003626, syst_error_lower: 0.003594}
-      - {value: 0.0258, stat_error: 0.003, syst_error_upper: 0.006012, syst_error_lower: 0.007992}
-      - {value: 0.0224, stat_error: 0.0035, syst_error_upper: 0.006004, syst_error_lower: 0.009016}
-      - {value: 0.0168, stat_error: 0.0106, syst_error_upper: 0.009801, syst_error_lower: 0.01698}
+  - header: {name: '$v^2$'}
+    values:
+      - {value: 0.0113, errors: [{type: stat, symerror: 0.004}, {type: syst, asymerror: {plus: 0.004038, minus: 0.0113}}]}
+      - {value: 0.0229, errors: [{type: stat, symerror: 0.0036}, {type: syst, asymerror: {plus: 0.003876, minus: 0.003857}}]}
+      - {value: 0.0251, errors: [{type: stat, symerror: 0.0031}, {type: syst, asymerror: {plus: 0.003374, minus: 0.003232}}]}
+      - {value: 0.0339, errors: [{type: stat, symerror: 0.0026}, {type: syst, asymerror: {plus: 0.003856, minus: 0.003729}}]}
+      - {value: 0.0385, errors: [{type: stat, symerror: 0.0026}, {type: syst, asymerror: {plus: 0.003494, minus: 0.003306}}]}
+      - {value: 0.042, errors: [{type: stat, symerror: 0.0029}, {type: syst, asymerror: {plus: 0.003806, minus: 0.003748}}]}
+      - {value: 0.047, errors: [{type: stat, symerror: 0.004}, {type: syst, asymerror: {plus: 0.004232, minus: 0.004362}}]}
+      - {value: 0.0466, errors: [{type: stat, symerror: 0.0034}, {type: syst, asymerror: {plus: 0.0039, minus: 0.003797}}]}
+      - {value: 0.0424, errors: [{type: stat, symerror: 0.0029}, {type: syst, asymerror: {plus: 0.003656, minus: 0.003545}}]}
+      - {value: 0.0391, errors: [{type: stat, symerror: 0.003}, {type: syst, asymerror: {plus: 0.004044, minus: 0.003925}}]}
+      - {value: 0.0354, errors: [{type: stat, symerror: 0.0026}, {type: syst, asymerror: {plus: 0.003626, minus: 0.003594}}]}
+      - {value: 0.0258, errors: [{type: stat, symerror: 0.003}, {type: syst, asymerror: {plus: 0.006012, minus: 0.007992}}]}
+      - {value: 0.0224, errors: [{type: stat, symerror: 0.0035}, {type: syst, asymerror: {plus: 0.006004, minus: 0.009016}}]}
+      - {value: 0.0168, errors: [{type: stat, symerror: 0.0106}, {type: syst, asymerror: {plus: 0.009801, minus: 0.01698}}]}

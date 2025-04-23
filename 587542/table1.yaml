@@ -1,5 +1,6 @@
 #Inspire ID: 587542
 # This is flow versus participant pair
+Certainly! Here's a restructured version of your YAML data where the errors are formatted as asymmetric errors, adhering to the style typically required for HEPData submissions:
 independent_variables:
   - header: {name: '$N_{\text{part}}$'}
     values:
@@ -13,11 +14,10 @@ independent_variables:
 dependent_variables:
   - header: {name: '$v^2$'}
     values:
-      - {value: 0.058, stat_error: 0.0355, syst_error_upper: 0.024264, syst_error_lower: 0.023383}
-      - {value: 0.0697, stat_error: 0.0128, syst_error_upper: 0.00523, syst_error_lower: 0.00499}
-      - {value: 0.0604, stat_error: 0.0075, syst_error_upper: 0.005209, syst_error_lower: 0.005038}
-      - {value: 0.056, stat_error: 0.0054, syst_error_upper: 0.00368, syst_error_lower: 0.004928}
-      - {value: 0.0489, stat_error: 0.0046, syst_error_upper: 0.003257, syst_error_lower: 0.004638}
-      - {value: 0.0376, stat_error: 0.0044, syst_error_upper: 0.004381, syst_error_lower: 0.011263}
-      - {value: 0.0257, stat_error: 0.0044, syst_error_upper: 0.003115, syst_error_lower: 0.018946}
-
+      - {value: 0.058, errors: [{type: stat, symerror: 0.0355}, {type: syst, asymerror: {plus: 0.024264, minus: 0.023383}}]}
+      - {value: 0.0697, errors: [{type: stat, symerror: 0.0128}, {type: syst, asymerror: {plus: 0.00523, minus: 0.00499}}]}
+      - {value: 0.0604, errors: [{type: stat, symerror: 0.0075}, {type: syst, asymerror: {plus: 0.005209, minus: 0.005038}}]}
+      - {value: 0.056, errors: [{type: stat, symerror: 0.0054}, {type: syst, asymerror: {plus: 0.00368, minus: 0.004928}}]}
+      - {value: 0.0489, errors: [{type: stat, symerror: 0.0046}, {type: syst, asymerror: {plus: 0.003257, minus: 0.004638}}]}
+      - {value: 0.0376, errors: [{type: stat, symerror: 0.0044}, {type: syst, asymerror: {plus: 0.004381, minus: 0.011263}}]}
+      - {value: 0.0257, errors: [{type: stat, symerror: 0.0044}, {type: syst, asymerror: {plus: 0.003115, minus: 0.018946}}]}
