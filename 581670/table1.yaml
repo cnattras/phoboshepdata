@@ -13,23 +13,22 @@
       - {low: 35, high: 40}
       - {low: 40, high: 45}
       - {low: 45, high: 50}
-
-    dependent_variables:
-      - header: { name: "$\\frac{dN}{d\\eta}$" }
-        values:
-        - { value: 700, errors: [{ label: "sys", symerror: 27 }] }
-        - { value: 629, errors: [{ label: "sys", symerror: 24 }] }
-        - { value: 548, errors: [{ label: "sys", symerror: 21 }] }
-        - { value: 455, errors: [{ label: "sys", symerror: 18 }] }
-        - { value: 376, errors: [{ label: "sys", symerror: 15 }] }
-        - { value: 312, errors: [{ label: "sys", symerror: 12 }] }
-        - { value: 252, errors: [{ label: "sys", symerror: 10 }] }
-        - { value: 202, errors: [{ label: "sys", symerror: 8 }] }
-        - { value: 164, errors: [{ label: "sys", symerror: 6 }] }
-        - { value: 130, errors: [{ label: "sys", symerror: 5 }] }
-        - { value: 95, errors: [{ label: "sys", symerror: 4 }] }
-      - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
-        values:
+ dependent_variables:
+  - header: { name: "$\\frac{dN}{d\\eta}$" }
+    values:
+      - { value: 700, errors: [{ label: "sys", symerror: 27 }] }
+      - { value: 629, errors: [{ label: "sys", symerror: 24 }] }
+      - { value: 548, errors: [{ label: "sys", symerror: 21 }] }
+      - { value: 455, errors: [{ label: "sys", symerror: 18 }] }
+      - { value: 376, errors: [{ label: "sys", symerror: 15 }] }
+      - { value: 312, errors: [{ label: "sys", symerror: 12 }] }
+      - { value: 252, errors: [{ label: "sys", symerror: 10 }] }
+      - { value: 202, errors: [{ label: "sys", symerror: 8 }] }
+      - { value: 164, errors: [{ label: "sys", symerror: 6 }] }
+      - { value: 130, errors: [{ label: "sys", symerror: 5 }] }
+      - { value: 95, errors: [{ label: "sys", symerror: 4 }] }
+  - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
+    values:
       - { value: 358, errors: [{ label: "sys", symerror: 12 }] }
       - { value: 331, errors: [{ label: "sys", symerror: 10 }] }
       - { value: 298, errors: [{ label: "sys", symerror: 9 }] }
@@ -41,16 +40,16 @@
       - { value: 103, errors: [{ label: "sys", symerror: 5 }] }
       - { value: 83,  errors: [{ label: "sys", symerror: 5 }] }
       - { value: 65,  errors: [{ label: "sys", symerror: 4 }] }
-      - header: { name: "$\\frac{dN}{d\\eta} / (Pair)$" }
-        values:
-        - { value: 3.91, errors: [{ label: "sys", symerror: 0.20 }] }
-        - { value: 3.81, errors: [{ label: "sys", symerror: 0.18 }] }
-        - { value: 3.68, errors: [{ label: "sys", symerror: 0.18 }] }
-        - { value: 3.56, errors: [{ label: "sys", symerror: 0.18 }] }
-        - { value: 3.48, errors: [{ label: "sys", symerror: 0.18 }] }
-        - { value: 3.41, errors: [{ label: "sys", symerror: 0.18 }] }
-        - { value: 3.32, errors: [{ label: "sys", symerror: 0.19 }] }
-        - { value: 3.25, errors: [{ label: "sys", symerror: 0.19 }] }
-        - { value: 3.19, errors: [{ label: "sys", symerror: 0.21 }] }
-        - { value: 3.14, errors: [{ label: "sys", symerror: 0.22 }] }
-        - { value: 2.90, errors: [{ label: "sys", symerror: 0.22 }] }
+  - header: { name: "$\\frac{dN}{d\\eta} / (Pair)$" }
+    values:
+      - { value: 3.91, errors: [{ label: "sys", symerror: 0.20 }] }
+      - { value: 3.81, errors: [{ label: "sys", symerror: 0.18 }] }
+      - { value: 3.68, errors: [{ label: "sys", symerror: 0.18 }] }
+      - { value: 3.56, errors: [{ label: "sys", symerror: 0.18 }] }
+      - { value: 3.48, errors: [{ label: "sys", symerror: 0.18 }] }
+      - { value: 3.41, errors: [{ label: "sys", symerror: 0.18 }] }
+      - { value: 3.32, errors: [{ label: "sys", symerror: 0.19 }] }
+      - { value: 3.25, errors: [{ label: "sys", symerror: 0.19 }] }
+      - { value: 3.19, errors: [{ label: "sys", symerror: 0.21 }] }
+      - { value: 3.14, errors: [{ label: "sys", symerror: 0.22 }] }
+      - { value: 2.90, errors: [{ label: "sys", symerror: 0.22 }] }
