@@ -73,3 +73,76 @@ dependent_variables:
         errors:
           - { label: "stat", symerror: 0.004 }
           - { label: "sys", asymerror: { plus: 0.092, minus: 0.121 } }
+      - value: 1.1892016
+        errors:
+          - { label: "stat", symerror: 0.004 }
+          - { label: "sys", asymerror: { plus: 0.094, minus: 0.122 } }
+      - value: 1.2038443
+        errors:
+          - { label: "stat", symerror: 0.005 }
+          - { label: "sys", asymerror: { plus: 0.097, minus: 0.123 } }
+      - value: 1.2091093
+        errors:
+          - { label: "stat", symerror: 0.005 }
+          - { label: "sys", asymerror: { plus: 0.099, minus: 0.123 } }
+      - value: 1.2041652
+        errors:
+          - { label: "stat", symerror: 0.006 }
+          - { label: "sys", asymerror: { plus: 0.101, minus: 0.123 } }
+      - value: 1.2129306
+        errors:
+          - { label: "stat", symerror: 0.007 }
+          - { label: "sys", asymerror: { plus: 0.104, minus: 0.125 } }
+      - value: 1.2114922
+        errors:
+          - { label: "stat", symerror: 0.008 }
+          - { label: "sys", asymerror: { plus: 0.106, minus: 0.126 } }
+      - value: 1.1975060
+        errors:
+          - { label: "stat", symerror: 0.009 }
+          - { label: "sys", asymerror: { plus: 0.108, minus: 0.125 } }
+      - value: 1.1895080
+        errors:
+          - { label: "stat", symerror: 0.010 }
+          - { label: "sys", asymerror: { plus: 0.110, minus: 0.126 } }
+      - value: 1.1963634
+        errors:
+          - { label: "stat", symerror: 0.009 }
+          - { label: "sys", asymerror: { plus: 0.116, minus: 0.129 } }
+      - value: 1.1974572
+        errors:
+          - { label: "stat", symerror: 0.011 }
+          - { label: "sys", asymerror: { plus: 0.125, minus: 0.134 } }
+      - value: 1.1628810
+        errors:
+          - { label: "stat", symerror: 0.015 }
+          - { label: "sys", asymerror: { plus: 0.131, minus: 0.136 } }
+      - value: 1.1733955
+        errors:
+          - { label: "stat", symerror: 0.019 }
+          - { label: "sys", asymerror: { plus: 0.143, minus: 0.144 } }
+      - value: 1.1893288
+        errors:
+          - { label: "stat", symerror: 0.024 }
+          - { label: "sys", asymerror: { plus: 0.159, minus: 0.154 } }
+      - value: 1.2289238
+        errors:
+          - { label: "stat", symerror: 0.029 }
+          - { label: "sys", asymerror: { plus: 0.182, minus: 0.171 } }
+      - value: 1.1759684
+        errors:
+          - { label: "stat", symerror: 0.037 }
+          - { label: "sys", asymerror: { plus: 0.197, minus: 0.177 } }
+      - value: 1.2270917
+        errors:
+          - { label: "stat", symerror: 0.050 }
+          - { label: "sys", asymerror: { plus: 0.233, minus: 0.202 } }
+      - value: 1.1601485
+        errors:
+          - { label: "stat", symerror: 0.063 }
+          - { label: "sys", asymerror: { plus: 0.251, minus: 0.209 } }
+      - value: 1.1135128
+        errors:
+          - { label: "stat", symerror: 0.063 }
+          - { label: "sys", asymerror: { plus: 0.294, minus: 0.231 } }
+

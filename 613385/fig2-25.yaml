@@ -109,3 +109,40 @@ dependent_variables:
         errors:
           - { label: "stat", symerror: 0.024 }
           - { label: "sys", asymerror: { plus: 0.311, minus: 0.346 } }
+      - value: 3.1724646
+        errors:
+          - { label: "stat", symerror: 0.030 }
+          - { label: "sys", asymerror: { plus: 0.331, minus: 0.355 } }
+      - value: 3.0060599
+        errors:
+          - { label: "stat", symerror: 0.038 }
+          - { label: "sys", asymerror: { plus: 0.338, minus: 0.351 } }
+      - value: 2.9225187
+        errors:
+          - { label: "stat", symerror: 0.047 }
+          - { label: "sys", asymerror: { plus: 0.357, minus: 0.359 } }
+      - value: 2.8276856
+        errors:
+          - { label: "stat", symerror: 0.057 }
+          - { label: "sys", asymerror: { plus: 0.377, minus: 0.367 } }
+      - value: 2.7536540
+        errors:
+          - { label: "stat", symerror: 0.064 }
+          - { label: "sys", asymerror: { plus: 0.408, minus: 0.382 } }
+      - value: 2.4588861
+        errors:
+          - { label: "stat", symerror: 0.078 }
+          - { label: "sys", asymerror: { plus: 0.412, minus: 0.370 } }
+      - value: 2.3996735
+        errors:
+          - { label: "stat", symerror: 0.098 }
+          - { label: "sys", asymerror: { plus: 0.456, minus: 0.394 } }
+      - value: 2.1374118
+        errors:
+          - { label: "stat", symerror: 0.116 }
+          - { label: "sys", asymerror: { plus: 0.462, minus: 0.385 } }
+      - value: 1.9155670
+        errors:
+          - { label: "stat", symerror: 0.108 }
+          - { label: "sys", asymerror: { plus: 0.505, minus: 0.397 } }
+

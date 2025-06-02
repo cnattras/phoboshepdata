@@ -1,0 +1,63 @@
+independent_variables:
+  - header: { name: "$p_{T}$" }
+    values:
+      - { value: 0.250 }
+      - { value: 0.350 }
+      - { value: 0.450 }
+      - { value: 0.550 }
+      - { value: 0.650 }
+      - { value: 0.750 }
+      - { value: 0.850 }
+      - { value: 0.950 }
+      - { value: 1.050 }
+      - { value: 1.150 }
+      - { value: 1.250 }
+      - { value: 1.350 }
+      - { value: 1.450 }
+      - { value: 1.550 }
+      - { value: 1.650 }
+      - { value: 1.750 }
+      - { value: 1.850 }
+      - { value: 1.950 }
+      - { value: 2.100 }
+      - { value: 2.300 }
+      - { value: 2.500 }
+      - { value: 2.700 }
+      - { value: 2.900 }
+      - { value: 3.125 }
+      - { value: 3.375 }
+      - { value: 3.625 }
+      - { value: 3.875 }
+      - { value: 4.250 }
+
+dependent_variables:
+  - header: { name: "$1/2\\pi p_T$) $d^2N/dp_Tdy$ [c/GeV]" }
+    values:
+      - { value: 283.098663, errors: [{ label: "stat", asymerror: { plus: 30.52364, minus: 35.56604 } }] }
+      - { value: 166.264755, errors: [{ label: "stat", asymerror: { plus: 17.72722, minus: 20.48911 } }] }
+      - { value: 102.104210, errors: [{ label: "stat", asymerror: { plus: 10.77426, minus: 12.35802 } }] }
+      - { value: 64.900070, errors: [{ label: "stat", asymerror: { plus: 6.78368, minus: 7.72544 } }] }
+      - { value: 42.738888, errors: [{ label: "stat", asymerror: { plus: 4.42898, minus: 5.01069 } }] }
+      - { value: 28.605667, errors: [{ label: "stat", asymerror: { plus: 2.94138, minus: 3.30785 } }] }
+      - { value: 19.594679, errors: [{ label: "stat", asymerror: { plus: 2.00118, minus: 2.23849 } }] }
+      - { value: 13.598597, errors: [{ label: "stat", asymerror: { plus: 1.38072, minus: 1.53724 } }] }
+      - { value: 9.544915, errors: [{ label: "stat", asymerror: { plus: 0.96442, minus: 1.06951 } }] }
+      - { value: 6.771625, errors: [{ label: "stat", asymerror: { plus: 0.68155, minus: 0.75339 } }] }
+      - { value: 4.864176, errors: [{ label: "stat", asymerror: { plus: 0.48816, minus: 0.53830 } }] }
+      - { value: 3.465601, errors: [{ label: "stat", asymerror: { plus: 0.34716, minus: 0.38219 } }] }
+      - { value: 2.501448, errors: [{ label: "stat", asymerror: { plus: 0.25037, minus: 0.27540 } }] }
+      - { value: 1.813785, errors: [{ label: "stat", asymerror: { plus: 0.18159, minus: 0.19973 } }] }
+      - { value: 1.314291, errors: [{ label: "stat", asymerror: { plus: 0.13175, minus: 0.14503 } }] }
+      - { value: 0.944045, errors: [{ label: "stat", asymerror: { plus: 0.09486, minus: 0.10458 } }] }
+      - { value: 0.707797, errors: [{ label: "stat", asymerror: { plus: 0.07137, minus: 0.07887 } }] }
+      - { value: 0.499861, errors: [{ label: "stat", asymerror: { plus: 0.05064, minus: 0.05613 } }] }
+      - { value: 0.318135, errors: [{ label: "stat", asymerror: { plus: 0.03246, minus: 0.03620 } }] }
+      - { value: 0.173707, errors: [{ label: "stat", asymerror: { plus: 0.01799, minus: 0.02028 } }] }
+      - { value: 0.095376, errors: [{ label: "stat", asymerror: { plus: 0.01007, minus: 0.01150 } }] }
+      - { value: 0.052496, errors: [{ label: "stat", asymerror: { plus: 0.00568, minus: 0.00658 } }] }
+      - { value: 0.030322, errors: [{ label: "stat", asymerror: { plus: 0.00338, minus: 0.00397 } }] }
+      - { value: 0.017099, errors: [{ label: "stat", asymerror: { plus: 0.00197, minus: 0.00236 } }] }
+      - { value: 0.008333, errors: [{ label: "stat", asymerror: { plus: 0.00101, minus: 0.00123 } }] }
+      - { value: 0.004553, errors: [{ label: "stat", asymerror: { plus: 0.00059, minus: 0.00073 } }] }
+      - { value: 0.002325, errors: [{ label: "stat", asymerror: { plus: 0.00032, minus: 0.00041 } }] }
+      - { value: 0.001078, errors: [{ label: "stat", asymerror: { plus: 0.00016, minus: 0.00021 } }] }

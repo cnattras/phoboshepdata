@@ -97,3 +97,52 @@ dependent_variables:
         errors:
           - { label: "stat", symerror: 0.008 }
           - { label: "sys", asymerror: { plus: 0.195, minus: 0.176 } }
+      - value: 1.2755935
+        errors:
+          - { label: "stat", symerror: 0.010 }
+          - { label: "sys", asymerror: { plus: 0.198, minus: 0.175 } }
+      - value: 1.2503772
+        errors:
+          - { label: "stat", symerror: 0.011 }
+          - { label: "sys", asymerror: { plus: 0.200, minus: 0.174 } }
+      - value: 1.2366579
+        errors:
+          - { label: "stat", symerror: 0.009 }
+          - { label: "sys", asymerror: { plus: 0.207, minus: 0.176 } }
+      - value: 1.2340239
+        errors:
+          - { label: "stat", symerror: 0.012 }
+          - { label: "sys", asymerror: { plus: 0.221, minus: 0.182 } }
+      - value: 1.2098885
+        errors:
+          - { label: "stat", symerror: 0.015 }
+          - { label: "sys", asymerror: { plus: 0.233, minus: 0.186 } }
+      - value: 1.1277324
+        errors:
+          - { label: "stat", symerror: 0.019 }
+          - { label: "sys", asymerror: { plus: 0.235, minus: 0.181 } }
+      - value: 1.1634927
+        errors:
+          - { label: "stat", symerror: 0.025 }
+          - { label: "sys", asymerror: { plus: 0.263, minus: 0.196 } }
+      - value: 1.1051079
+        errors:
+          - { label: "stat", symerror: 0.028 }
+          - { label: "sys", asymerror: { plus: 0.276, minus: 0.198 } }
+      - value: 1.0849564
+        errors:
+          - { label: "stat", symerror: 0.037 }
+          - { label: "sys", asymerror: { plus: 0.302, minus: 0.209 } }
+      - value: 1.0729148
+        errors:
+          - { label: "stat", symerror: 0.049 }
+          - { label: "sys", asymerror: { plus: 0.335, minus: 0.223 } }
+      - value: 0.9254737
+        errors:
+          - { label: "stat", symerror: 0.059 }
+          - { label: "sys", asymerror: { plus: 0.326, minus: 0.209 } }
+      - value: 1.0019495
+        errors:
+          - { label: "stat", symerror: 0.062 }
+          - { label: "sys", asymerror: { plus: 0.422, minus: 0.257 } }
+

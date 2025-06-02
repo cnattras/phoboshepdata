@@ -97,7 +97,52 @@ dependent_variables:
         errors:
           - { label: "stat", symerror: 0.024 }
           - { label: "sys", asymerror: { plus: 0.259, minus: 0.307 } }
-      - value: 3.0078566
+      - value: 2.9558566
         errors:
           - { label: "stat", symerror: 0.028 }
           - { label: "sys", asymerror: { plus: 0.271, minus: 0.315 } }
+      - value: 3.1112015
+        errors:
+          - { label: "stat", symerror: 0.032 }
+          - { label: "sys", asymerror: { plus: 0.288, minus: 0.329 } }
+      - value: 3.0916076
+        errors:
+          - { label: "stat", symerror: 0.028 }
+          - { label: "sys", asymerror: { plus: 0.300, minus: 0.334 } }
+      - value: 3.0080881
+        errors:
+          - { label: "stat", symerror: 0.035 }
+          - { label: "sys", asymerror: { plus: 0.313, minus: 0.337 } }
+      - value: 3.0236373
+        errors:
+          - { label: "stat", symerror: 0.045 }
+          - { label: "sys", asymerror: { plus: 0.340, minus: 0.353 } }
+      - value: 2.8677504
+        errors:
+          - { label: "stat", symerror: 0.055 }
+          - { label: "sys", asymerror: { plus: 0.351, minus: 0.352 } }
+      - value: 2.7710493
+        errors:
+          - { label: "stat", symerror: 0.068 }
+          - { label: "sys", asymerror: { plus: 0.370, minus: 0.359 } }
+      - value: 2.7307429
+        errors:
+          - { label: "stat", symerror: 0.076 }
+          - { label: "sys", asymerror: { plus: 0.405, minus: 0.379 } }
+      - value: 2.6489296
+        errors:
+          - { label: "stat", symerror: 0.097 }
+          - { label: "sys", asymerror: { plus: 0.443, minus: 0.399 } }
+      - value: 2.3462670
+        errors:
+          - { label: "stat", symerror: 0.115 }
+          - { label: "sys", asymerror: { plus: 0.446, minus: 0.385 } }
+      - value: 2.2555697
+        errors:
+          - { label: "stat", symerror: 0.142 }
+          - { label: "sys", asymerror: { plus: 0.488, minus: 0.406 } }
+      - value: 2.0057242
+        errors:
+          - { label: "stat", symerror: 0.131 }
+          - { label: "sys", asymerror: { plus: 0.529, minus: 0.416 } }
+

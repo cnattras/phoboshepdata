@@ -33,7 +33,7 @@ independent_variables:
 dependent_variables:
   - header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield" }
     values:
-      - value: 1.300903
+      - value: 1.3009030
         errors:
           - { label: "stat", symerror: 0.004 }
           - { label: "sys", asymerror: { plus: 0.111, minus: 0.171 } }
@@ -105,3 +105,45 @@ dependent_variables:
         errors:
           - { label: "stat", symerror: 0.059 }
           - { label: "sys", asymerror: { plus: 0.239, minus: 0.299 } }
+      - value: 2.6833851
+        errors:
+          - { label: "stat", symerror: 0.052 }
+          - { label: "sys", asymerror: { plus: 0.258, minus: 0.313 } }
+      - value: 2.6555028
+        errors:
+          - { label: "stat", symerror: 0.067 }
+          - { label: "sys", asymerror: { plus: 0.274, minus: 0.318 } }
+      - value: 2.6153929
+        errors:
+          - { label: "stat", symerror: 0.085 }
+          - { label: "sys", asymerror: { plus: 0.292, minus: 0.323 } }
+      - value: 2.4523149
+        errors:
+          - { label: "stat", symerror: 0.103 }
+          - { label: "sys", asymerror: { plus: 0.299, minus: 0.316 } }
+      - value: 2.3763676
+        errors:
+          - { label: "stat", symerror: 0.127 }
+          - { label: "sys", asymerror: { plus: 0.318, minus: 0.320 } }
+      - value: 2.3319240
+        errors:
+          - { label: "stat", symerror: 0.143 }
+          - { label: "sys", asymerror: { plus: 0.350, minus: 0.334 } }
+      - value: 2.2503049
+        errors:
+          - { label: "stat", symerror: 0.181 }
+          - { label: "sys", asymerror: { plus: 0.386, minus: 0.346 } }
+      - value: 1.8853449
+        errors:
+          - { label: "stat", symerror: 0.209 }
+          - { label: "sys", asymerror: { plus: 0.371, minus: 0.314 } }
+      - value: 1.3994993
+        errors:
+          - { label: "stat", symerror: 0.228 }
+          - { label: "sys", asymerror: { plus: 0.318, minus: 0.253 } }
+      - value: 1.8949077
+        errors:
+          - { label: "stat", symerror: 0.262 }
+          - { label: "sys", asymerror: { plus: 0.535, minus: 0.392 } }
+
+
