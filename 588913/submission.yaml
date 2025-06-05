@@ -41,17 +41,4 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 - {description: Thumbnail Image file, location: thumb_fig3.png}
 - {description: Thumbnail Image file, location: thumb_fig4.png}
-=======
-# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 693686"}
-comment: |
-  BNL RHIC.  Replace with real abstract.
----
-# Start of table entries.
-# This is Table 1.
-name: "Table 1"
-location: Data from Table 1 of PHOBOS paper Inspire ID 693686
-description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $dN_{\text{ch}}/d\eta$ for $|\eta|<1$, $dN_{\text{ch}}/d\eta / \langle N_{\text{part}}/2 \rangle$ as shown in Fig. 4 in the 0-3% bin is explained in the text. 
-keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1.yaml
->>>>>>> 510117f3129a3c2e2ed7a1e70c2ef9fa4f133056
+
