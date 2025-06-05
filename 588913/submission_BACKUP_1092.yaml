@@ -1,0 +1,42 @@
+#PHOBOS PAPER
+#
+#TITLE:Ratios of charged anti-particles to particles near mid-rapidity in Au + Au collisions at s(NN)**(1/2) = 200-GeV
+#InspireHEP ID: 588913
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/588913", description: "InspireHEP ID: 588913"}
+- {location: "https://arxiv.org/pdf/nucl-ex/0206012", description: "arXiv ID: nucl-ex/0206012"}
+# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 588913"}
+comment: |
+  The ratios of charged  antiparticles to particles have been obtained for pions, kaons, and protons near midrapidity in central Au+Au collisions at $\sqrt{s_{_{NN}}} = 200$~GeV. Ratios of  $\langle \pi^- \rangle / \langle \pi^+ \rangle  =  1.025 \pm 0.006 \mbox{(stat.)} \pm 0.018 \mbox{(syst.)}$, $\langle K^- \rangle/ \langle K^+ \rangle  =  0.95 \pm 0.03 \mbox{(stat.)} \pm 0.03 \mbox{(syst.)}$, and $\langle \bar{p} \rangle / \langle p \rangle  =  0.73 \pm 0.02 \mbox{(stat.)} \pm 0.03 \mbox{(syst.)}$ have been observed. The $\langle K^- \rangle/ \langle K^+ \rangle$ and $\langle \bar{p} \rangle / \langle p \rangle$ ratios are consistent with a baryochemical potential $\mu_B$ of 27~MeV, roughly a factor of 2 smaller than in $\sqrt{s_{_{NN}}} = 130$~GeV collisions. The data are compared to results from lower energies and model calculations. Our accurate measurements of the particle ratios impose stringent constraints on current and future models dealing with baryon production and transport.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1: Condition 1"
+location: Data from Table 1 of PHOBOS paper Inspire ID 588913
+description: Number of accepted events, accepted identified particles and average transverse momentum ($\langle p_T \rangle$) in (MeV/c) of these particles at each magnetic field polarity. Data are split up by beam orbit condition and spectrometer arm.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: LV1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_LV1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Table 1: Condition 2"
+location: Data from Table 1 of PHOBOS paper Inspire ID 588913
+description: Number of accepted events, accepted identified particles and average transverse momentum ($\langle p_T \rangle$) in (MeV/c) of these particles at each magnetic field polarity. Data are split up by beam orbit condition and spectrometer arm.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: LV2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_LV1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}

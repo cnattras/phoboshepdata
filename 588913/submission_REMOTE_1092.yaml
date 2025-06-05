@@ -1,0 +1,22 @@
+#PHOBOS PAPER
+#
+#TITLE:Ratios of charged anti-particles to particles near mid-rapidity in Au + Au collisions at s(NN)**(1/2) = 200-GeV
+#InspireHEP ID: 588913
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/588913", description: "InspireHEP ID: 588913"}
+- {location: "https://arxiv.org/pdf/nucl-ex/0206012", description: "arXiv ID: nucl-ex/0206012"}
+# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 693686"}
+comment: |
+  BNL RHIC.  Replace with real abstract.
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1"
+location: Data from Table 1 of PHOBOS paper Inspire ID 693686
+description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $dN_{\text{ch}}/d\eta$ for $|\eta|<1$, $dN_{\text{ch}}/d\eta / \langle N_{\text{part}}/2 \rangle$ as shown in Fig. 4 in the 0-3% bin is explained in the text. 
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1.yaml
