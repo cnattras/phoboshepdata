@@ -1,0 +1,48 @@
+independent_variables:
+  - header: { name: "$N_{\text{part}}$" }
+    values:
+      - { value: 80.3 }
+      - { value: 99.2 }
+      - { value: 122.0 }
+      - { value: 147.9 }
+      - { value: 178.4 }
+      - { value: 213.5 }
+      - { value: 253.6 }
+      - { value: 295.5 }
+
+dependent_variables:
+  - header: { name: '$\langle v_2 \rangle$' }
+    values:
+      - value: 0.0654
+        errors:
+          - { label: "stat", symerror: 0.0002 }
+          - { label: "sys", symerror: 0.0135 }
+      - value: 0.0656
+        errors:
+          - { label: "stat", symerror: 0.0002 }
+          - { label: "sys", symerror: 0.0134 }
+      - value: 0.0640
+        errors:
+          - { label: "stat", symerror: 0.0002 }
+          - { label: "sys", symerror: 0.0134 }
+      - value: 0.0612
+        errors:
+          - { label: "stat", symerror: 0.0002 }
+          - { label: "sys", symerror: 0.0129 }
+      - value: 0.0569
+        errors:
+          - { label: "stat", symerror: 0.0002 }
+          - { label: "sys", symerror: 0.0124 }
+      - value: 0.0506
+        errors:
+          - { label: "stat", symerror: 0.0001 }
+          - { label: "sys", symerror: 0.0115 }
+      - value: 0.0426
+        errors:
+          - { label: "stat", symerror: 0.0001 }
+          - { label: "sys", symerror: 0.0102 }
+      - value: 0.0332
+        errors:
+          - { label: "stat", symerror: 0.0001 }
+          - { label: "sys", symerror: 0.0086 }
+

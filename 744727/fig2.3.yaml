@@ -1,0 +1,44 @@
+independent_variables:
+  - header: { name: "$N_{\text{part}}$" }
+    values:
+      - { value: 20 }
+      - { value: 40 }
+      - { value: 60 }
+      - { value: 80 }
+      - { value: 100 }
+      - { value: 120 }
+      - { value: 140 }
+      - { value: 160 }
+      - { value: 180 }
+      - { value: 200 }
+      - { value: 220 }
+      - { value: 240 }
+      - { value: 260 }
+      - { value: 280 }
+      - { value: 300 }
+      - { value: 320 }
+      - { value: 340 }
+      - { value: 360 }
+
+dependent_variables:
+  - header: { name: "$\\sigma(\\epsilon_{part})/\\langle\\epsilon_{part}\\rangle$" }
+    values:
+      - value: 0.32
+      - value: 0.32
+      - value: 0.31
+      - value: 0.30
+      - value: 0.30
+      - value: 0.28
+      - value: 0.29
+      - value: 0.28
+      - value: 0.29
+      - value: 0.30
+      - value: 0.29
+      - value: 0.33
+      - value: 0.34
+      - value: 0.35
+      - value: 0.38
+      - value: 0.42
+      - value: 0.46
+      - value: 0.50
+
