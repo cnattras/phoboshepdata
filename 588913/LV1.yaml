@@ -1,0 +1,202 @@
+independent_variables:
+  - header: {name: 'Centrality'}
+    values:
+      - {value: '$\pi^+$'}
+      - {value: '$\pi^-$'}
+      - {value: '$K^+$'}
+      - {value: '$K^-$'}
+      - {value: '$p$'}
+      - {value: '$\bar{p}$'}
+dependent_variables:
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'N'}
+  - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'local'}
+  values:
+  - value: 8286
+  - value: 14692
+  - value: 195
+  - value: 250
+  - value: 472
+  - value: 324
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'N'}
+  - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'global'}
+  values:
+  - value: 8532
+  - value: 14298
+  - value: 200
+  - value: 243
+  - value: 458
+  - value: 319
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'N'}
+  - {name: 'field polarity', value: '+'}
+  - {name: 'Transverse Momentum', value: '$p$'}
+  values:
+    - value: 418
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 288
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 379
+      errors:
+        - {symerror: 4, label: 'sys'}
+    - value: 253
+      errors:
+        - {symerror: 4, label: 'sys'}
+    - value: 580
+      errors:
+        - {symerror: 6, label: 'sys'}
+    - value: 480
+      errors:
+        - {symerror: 7, label: 'sys'}
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'N'}
+  - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'local'}
+  values:
+  - value: 12935
+  - value: 7472
+  - value: 255
+  - value: 198
+  - value: 405
+  - value: 291
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'N'}
+  - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'global'}
+  values:
+  - value: 12501
+  - value: 7643
+  - value: 241
+  - value: 208
+  - value: 398
+  - value: 293
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'N'}
+  - {name: 'field polarity', value: '-'}
+  - {name: 'Transverse Momentum', value: '$p$'}
+  values:
+    - value: 289
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 416
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 259
+      errors:
+        - {symerror: 4, label: 'sys'}
+    - value: 378
+      errors:
+        - {symerror: 3, label: 'sys'}
+    - value: 481
+      errors:
+        - {symerror: 6, label: 'sys'}
+    - value: 596
+      errors:
+        - {symerror: 8, label: 'sys'}
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'P'}
+  - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'local'}
+  values:
+  - value: 7273
+  - value: 15344
+  - value: 223
+  - value: 310
+  - value: 427
+  - value: 346
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'P'}
+  - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'global'}
+  values:
+  - value: 7139
+  - value: 14961
+  - value: 215
+  - value: 308
+  - value: 409
+  - value: 327
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'P'}
+  - {name: 'field polarity', value: '+'}
+  - {name: 'Transverse Momentum', value: '$p$'}
+  values:
+    - value: 414
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 278
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 373
+      errors:
+        - {symerror: 3, label: 'sys'}
+    - value: 256
+      errors:
+        - {symerror: 3, label: 'sys'}
+    - value: 584
+      errors:
+        - {symerror: 6, label: 'sys'}
+    - value: 474
+      errors:
+        - {symerror: 7, label: 'sys'}
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'P'}
+  - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'local'}
+  values:
+  - value: 13423
+  - value: 6569
+  - value: 290
+  - value: 182
+  - value: 433
+  - value: 264
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'P'}
+  - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'global'}
+  values:
+  - value: 13172
+  - value: 6432
+  - value: 280
+  - value: 179
+  - value: 424
+  - value: 267
+- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+  qualifiers:
+  - {name: 'arm', value: 'P'}
+  - {name: 'field polarity', value: '-'}
+  - {name: 'Transverse Momentum', value: '$p$'}
+  values:
+    - value: 279
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 413
+      errors:
+        - {symerror: 1, label: 'sys'}
+    - value: 256
+      errors:
+        - {symerror: 3, label: 'sys'}
+    - value: 373
+      errors:
+        - {symerror: 3, label: 'sys'}
+    - value: 485
+      errors:
+        - {symerror: 6, label: 'sys'}
+    - value: 573
+      errors:
+        - {symerror: 7, label: 'sys'}
