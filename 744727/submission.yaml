@@ -34,7 +34,7 @@ additional_resources:
 ---
 name: "$\\sigma_{\\text{dyn}}(v_2)/v_2$ as a function of centrality" 
 location: Data from Figure 2 of PHOBOS paper Inspire ID 744727
-description: $\sigma_{\{dyn}}/\langle v_2 \rangle$ versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
+description: $\frac{\sigma_{\text{dyn}}}{\langle v_2 \rangle}$ versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: fig2.1.yaml
