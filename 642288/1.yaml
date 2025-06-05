@@ -1,0 +1,32 @@
+independent_variables:
+  - header: {name: '$p_T$ [GeV/c]'}
+    values:
+      - {value: 0.0311}
+      - {value: 0.0435}
+      - {value: 0.0484}
+      - {value: 0.0529}
+
+dependent_variables:
+  - header: {name: 'Invariant Yield [$c^2/GeV^2]'}
+    qualifiers:
+      - {name: 'Particle Type', value: '$\pi^+$ + $\pi^-$'}
+      - {name: 'Collision System', value: 'Au+Au'}
+      - {name: 'Energy', value: '$\sqrt{s_{NN}}=200$ GeV'}
+      - {name: 'Centrality', value: 'Top 15%'}
+    values:
+      - value: 1478.1
+        errors:
+          - {stat_error: 106.0, label: 'stat'}
+          - {sys_error: 177.4, label: 'sys'}
+      - value: 1288.1
+        errors:
+          - {stat_error: 51.4, label: 'stat'}
+          - {sys_error: 154.6, label: 'sys'}
+      - value: 1387.9
+        errors:
+          - {stat_error: 50.8, label: 'stat'}
+          - {sys_error: 166.5, label: 'sys'}
+      - value: 1525.4
+        errors:
+          - {stat_error: 53.9, label: 'stat'}
+          - {sys_error: 183.0, label: 'sys'}
