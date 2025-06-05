@@ -1,0 +1,46 @@
+#PHOBOS PAPER
+#
+#TITLE:Event-by-Event Fluctuations of Azimuthal Particle Anisotropy in Au + Au Collisions at sNN​​=200 GeV
+#InspireHEP ID: 744727
+#
+#Prepared by Eleanna Soto
+---
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/744727", description: "InspireHEP ID: 744727"}
+- {location: "https://arxiv.org/pdf/nucl-ex/0702036", description: "arXiv ID: nucl-ex/0702036"}
+- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Azimuthal_Fluct/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 744727"}
+---
+comment: |
+ This paper presents the first measurement of event-by-event fluctuations of the elliptic flow parameter $v_2$ in Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV as a function of collision centrality. The relative non-statistical fluctuations of the $v_2$ parameter are found to be approximately 40\%. The results, including contributions from event-by-event elliptic flow fluctuations and from azimuthal correlations that are unrelated to the reaction plane (non-flow correlations), establish an upper limit on the magnitude of underlying elliptic flow fluctuations.  This limit is consistent with predictions based on spatial fluctuations of the participating nucleons in the initial nuclear overlap region. These results provide important constraints on models of the initial state and hydrodynamic evolution of relativistic heavy ion collisions.
+---
+# Start of table entries.
+# This is Fig 1.
+name: "$v_2$ as a function of $N_{\text{part}}$"
+location: Data from Figure 1 of PHOBOS paper Inspire ID 744727
+description: $\langle v_2 \rangle$ (top) and $\sigmatot$ (bottom) versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{\itNN}}} =$ 200~GeV.
+data_file: fig1.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "$\\sigma_{\\text{dyn}}(v_2)$ as a function of $N_{\text{part}}$"
+location: Data from Figure 1 of PHOBOS paper Inspire ID 744727
+description: $\langle v_2 \rangle$ (top) and $\sigmatot$ (bottom) versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{\itNN}}} =$ 200~GeV.
+data_file: fig1.2.yaml
+# This is Fig 2.
+---
+name: " $\\sigma_{\\text{dyn}}(v_2)/v_2$ as a function of $N_{\\text{part}}$" 
+location: Data from Figure 2 of PHOBOS paper Inspire ID 744727
+description: $\sigmatot/\langle v_2 \rangle$ versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
+data_file: fig2.1.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "$\\sigma(\\epsilon_{part})/\\langle\\epsilon_{part}\\rangle$ Glauber Model"
+location: Data from Figure 2 from PHOBOS paper Inspire ID 744727
+description: Glauber model prediction for $\\sigma(\\epsilon_{part})/\\langle\\epsilon_{part}\\rangle$ versus $N_{part}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
+data_file: fig2.2.yaml
+---
+name: "$\\sigma(\\epsilon_{part})/\\langle\\epsilon_{part}\\rangle$ CGC Model"
+location: Data From Figure 2 from PHOBOS paper Inspire ID 744727
+description: CGC model prediction for $\\sigma(\\epsilon_{part})/\\langle\\epsilon_{part}\\rangle$ versus $N_{part}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
+data_file: fig2.3.yaml
