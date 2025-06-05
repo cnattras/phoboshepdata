@@ -40,7 +40,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
 - {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
-ame: "$p + \\bar{p}$"
+name: "$p + \\bar{p}$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 588913
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at sqrt{s_{NN}}=200 GeV. Where Yield = 1/(2*pi*p_T*N_{ev}) d^2N/dydp_T [c^2/GeV^2]
 keywords: # used for searching, possibly multiple values for each keyword
