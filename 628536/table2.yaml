@@ -1,0 +1,158 @@
+independent_variables:
+  - header: {name: 'Trigger Condition'}
+    values:
+      - {value: 'dAVertex'}
+      - {value: 'dAVertex'}
+      - {value: 'dAVertex'}
+      - {value: 'dAVertex'}
+      - {value: 'dAPeriph'}
+      - {value: 'dAPeriph'}
+dependent_variables:
+  - header: {name: 'Centrality %'}
+    values:
+      - value: '60-100'
+      - value: '30-60'
+      - value: '10-30'
+      - value: '0-10'
+      - value: '60-100'
+      - value: '30-60'
+  - header: {name: 'Events'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values:
+      - value: 1004052
+      - value: 2863440
+      - value: 2444774
+      - value: 1291300
+      - value: 3021106
+      - value: 3053872
+  - header: {name: '$\pi^-$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values:
+      - value: 2787
+      - value: 14963
+      - value: 19663
+      - value: 13628
+      - value: 8255
+      - value: 13666
+  - header: {name: '$\pi^+$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values:
+      - value: 13879
+      - value: 74941
+      - value: 95755
+      - value: 64357
+      - value: 40530
+      - value: 65799
+  - header: {name: '$K^-$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values:
+      - value: 163
+      - value: 824
+      - value: 1113
+      - value: 803
+      - value: 455
+      - value: 737
+  - header: {name: '$K^+$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values: 
+      - value: 537
+      - value: 2732
+      - value: 3660
+      - value: 2497
+      - value: 1416
+      - value: 2353
+  - header: {name: '$\bar{p}$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values:
+      - value: 310
+      - value: 1604
+      - value: 2198
+      - value: 1549
+      - value: 866
+      - value: 1461
+  - header: {name: '$p$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Negative'}
+    values:
+      - value: 556
+      - value: 3494
+      - value: 4558
+      - value: 3077
+      - value: 1841
+      - value: 3182
+  - header: {name: 'Events'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 1120480
+      - value: 3078602
+      - value: 2612126
+      - value: 1378206
+      - value: 3222936
+      - value: 3311696
+  - header: {name: '$\pi^-$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 15320
+      - value: 81368
+      - value: 103027
+      - value: 69664
+      - value: 42931
+      - value: 71542
+  - header: {name: '$\pi^+$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 3087
+      - value: 16164
+      - value: 20641
+      - value: 14303
+      - value: 8797
+      - value: 14435
+  - header: {name: '$K^-$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 524
+      - value: 2930
+      - value: 3780
+      - value: 2675
+      - value: 1509
+      - value: 2449
+  - header: {name: '$K^+$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 157
+      - value: 1011
+      - value: 1237
+      - value: 864
+      - value: 461
+      - value: 821
+  - header: {name: '$\bar{p}$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 543
+      - value: 2998
+      - value: 3824
+      - value: 2649
+      - value: 1564
+      - value: 2707
+  - header: {name: '$p$'}
+    qualifiers:
+      - {name: 'Polarity', value: 'Positive'}
+    values:
+      - value: 421
+      - value: 2282
+      - value: 2903
+      - value: 1958
+      - value: 1085
+      - value: 2009
