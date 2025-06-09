@@ -8,14 +8,14 @@
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/642288", description: "InspireHEP ID: 642288"}
 - {location: "https://arxiv.org/pdf/nucl-ex/0401006", description: "arXiv ID: nucl-ex/0401006"}
-# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 588913"}
+# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 642288"}
 comment: |
  We present results on charged particle production at very low transverse momenta in the 15% most central Au+Au collisions at $\sqrt{s_{_{NN}}} =$ 200~GeV obtained with the PHOBOS detector at RHIC. The invariant yields were measured at mid-rapidity in the transverse momentum ranges from 30 to 50 MeV/c for charged pions, 90 to 130 MeV/c for charged kaons and 140 to 210 MeV/c for protons and antiprotons. No significant enhancement in low transverse momentum particle production is observed as compared to extrapolations of identified particle spectra measured at an intermediate $p_T$ range. The spectra tend to flatten at low $p_T$, consistent with the expectations of transverse expansion of the system.
 ---
 # Start of table entries.
 # This is Table 1.
 name: "$\\pi^+ + \\pi^-$"
-location: Data from Table 1 of PHOBOS paper Inspire ID 588913
+location: Data from Table 1 of PHOBOS paper Inspire ID 642288
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where Yield = $\frac{1}{2\pi p_T N_{ev}}$ $\frac{d2}{\text{GeV}^2}$.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
@@ -28,7 +28,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
 name: " $K^+ + K^-$"
-location: Data from Table 1 of PHOBOS paper Inspire ID 588913
+location: Data from Table 1 of PHOBOS paper Inspire ID 642288
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where Yield = $\frac{1}{2\pi p_T N_{ev}}$ $\frac{d2}{\text{GeV}^2}$.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
@@ -41,7 +41,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
 name: "$p + \\bar{p}$"
-location: Data from Table 1 of PHOBOS paper Inspire ID 588913
+location: Data from Table 1 of PHOBOS paper Inspire ID 642288
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where Yield = $\frac{1}{2\pi p_T N_{ev}}$  $\frac{d2}{\text{GeV}^2}$.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
