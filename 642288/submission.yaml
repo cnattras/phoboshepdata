@@ -16,7 +16,7 @@ comment: |
 # This is Table 1.
 name: "$\\pi^+ + \\pi^-$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 588913
-description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at sqrt{s_{NN}}=200 GeV. Where Yield = 1/(2*pi*p_T*N_{ev}) d^2N/dydp_T [c^2/GeV^2]
+description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where $ \text{Yield} = \frac{1}{2\pi p_T N_{ev}} \frac{d2}{\text{GeV}^2} \right] $.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: 1.yaml
@@ -29,7 +29,7 @@ additional_resources:
 ---
 name: " $K^+ + K^-$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 588913
-description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at sqrt{s_{NN}}=200 GeV. Where Yield = 1/(2*pi*p_T*N_{ev}) d^2N/dydp_T [c^2/GeV^2]
+description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where $ \text{Yield} = \frac{1}{2\pi p_T N_{ev}} \frac{d2}{\text{GeV}^2} \right] $.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: 2.yaml
@@ -42,7 +42,7 @@ additional_resources:
 ---
 name: "$p + \\bar{p}$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 588913
-description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at sqrt{s_{NN}}=200 GeV. Where Yield = 1/(2*pi*p_T*N_{ev}) d^2N/dydp_T [c^2/GeV^2]
+description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where $ \text{Yield} = \frac{1}{2\pi p_T N_{ev}} \frac{d2}{\text{GeV}^2} \right] $.
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: 3.yaml
