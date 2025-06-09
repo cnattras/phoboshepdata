@@ -1,0 +1,30 @@
+independent_variables:
+  - header: {name: '$dN/d\eta$'}
+    values:
+      - {value: 4.033}
+      - {value: 7.430}
+      - {value: 11.489}
+      - {value: 15.531}
+
+dependent_variables:
+  - header: {name: 'Relative Yield'}
+    qualifiers:
+      - {name: 'Systematic Uncertainty', value: '90% CL'}
+      - {name: '$p_T$', value: '4 GeV/c'}
+    values:
+      - value: 1.354839
+        errors:
+          - {symerror: 0.1522, label: 'stat'}
+          - {symerror: 0.350475, label: 'sys'}
+      - value: 1.904851
+        errors:
+          - {symerror: 0.0889, label: 'stat'}
+          - {symerror: 0.492754, label: 'sys'}
+      - value: 2.376087
+        errors:
+          - {symerror: 0.0801, label: 'stat'}
+          - {symerror: 0.614655, label: 'sys'}
+      - value: 2.655422
+        errors:
+          - {symerror: 0.0683, label: 'stat'}
+          - {symerror: 0.686915, label: 'sys'}

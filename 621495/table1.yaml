@@ -1,0 +1,45 @@
+independent_variables:
+  - header: {name: 'Centrality Selection'}
+    values:
+      - {value: '0–20%'}
+      - {value: '20–40%'}
+      - {value: '40–70%'}
+      - {value: '70–100%'}
+
+dependent_variables:
+  - header: {name: '$\langle N_{\text{part}} \rangle$'}
+    values:
+      - value: 15.5
+        errors:
+          - {symerror: 1.0, label: 'stat'}
+      - value: 10.9
+        errors:
+          - {symerror: 0.9, label: 'stat'}
+      - value: 6.7
+        errors:
+          - {symerror: 0.9, label: 'stat'}
+      - value: 3.3
+        errors:
+          - {symerror: 0.7, label: 'stat'}
+
+  - header: {name: '$\langle N_{\text{coll}} \rangle$'}
+    values:
+      - value: 14.6
+        errors:
+          - {symerror: 0.9, label: 'stat'}
+      - value: 9.7
+        errors:
+          - {symerror: 0.8, label: 'stat'}
+      - value: 5.4
+        errors:
+          - {symerror: 0.8, label: 'stat'}
+      - value: 2.2
+        errors:
+          - {symerror: 0.6, label: 'stat'}
+
+  - header: {name: 'Efficiency'}
+    values:
+      - value: '82%'
+      - value: '73%'
+      - value: '49%'
+      - value: '14%'

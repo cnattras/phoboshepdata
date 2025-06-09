@@ -1,0 +1,31 @@
+independent_variables:
+  - header: {name: '$N_{\text{coll}}$'}
+    values:
+      - {value: 2.200}
+      - {value: 5.400}
+      - {value: 9.700}
+      - {value: 14.600}
+
+dependent_variables:
+  - header: {name: '$R_{dAu}$'}
+    qualifiers:
+      - {name: 'Systematic Uncertainty', value: '90% CL'}
+      - {name: '$p_T$', value: '3 GeV/c'}
+      - {name: 'Overall Sys Uncertainty', value: 0.173}
+    values:
+      - value: 1.015000
+        errors:
+          - {symerror: 0.0598, label: 'stat'}
+          - {symerror: 0.294350, label: 'sys'}
+      - value: 0.989000
+        errors:
+          - {symerror: 0.0271, label: 'stat'}
+          - {symerror: 0.148350, label: 'sys'}
+      - value: 1.055000
+        errors:
+          - {symerror: 0.0204, label: 'stat'}
+          - {symerror: 0.084400, label: 'sys'}
+      - value: 1.033000
+        errors:
+          - {symerror: 0.0158, label: 'stat'}
+          - {symerror: 0.061980, label: 'sys'}
