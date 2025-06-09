@@ -16,17 +16,17 @@ dependent_variables:
     values:
       - value: 1478.1
         errors:
-          - {stat_error: 106.0, label: 'stat'}
-          - {sys_error: 177.4, label: 'sys'}
+          - {symerror: 106.0, label: 'stat'}
+          - {symerror: 177.4, label: 'sys'}
       - value: 1288.1
         errors:
-          - {stat_error: 51.4, label: 'stat'}
-          - {sys_error: 154.6, label: 'sys'}
+          - {symerror: 51.4, label: 'stat'}
+          - {symerror: 154.6, label: 'sys'}
       - value: 1387.9
         errors:
-          - {stat_error: 50.8, label: 'stat'}
-          - {sys_error: 166.5, label: 'sys'}
+          - {symerror: 50.8, label: 'stat'}
+          - {symerror: 166.5, label: 'sys'}
       - value: 1525.4
         errors:
-          - {stat_error: 53.9, label: 'stat'}
-          - {sys_error: 183.0, label: 'sys'}
+          - {symerror: 53.9, label: 'stat'}
+          - {symerror: 183.0, label: 'sys'}
