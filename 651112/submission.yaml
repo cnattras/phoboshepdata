@@ -1,0 +1,68 @@
+#PHOBOS PAPER
+#
+#TITLE: Particle Production at Very Low Transverse Momentum in Central Au+Au Collisions at $\sqrt{s_{_{NN}}} =$ 200 GeV
+#InspireHEP ID: 651112
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/651112", description: "InspireHEP ID: 651112"}
+- {location: "https://arxiv.org/pdf/nucl-ex/0405027", description: "arXiv ID: nucl-ex/0405027"}
+# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_19_200_tracklet/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 651112"}
+comment: |
+ The centrality dependence of the midrapidity charged particle multiplicity in $Au+Au$ collisions at $\sqrt{s_{NN}}$ = 19.6 and 200 GeV is presented.  Within a simple model, the fraction of hard (scaling with number of binary collisions) to soft (scaling with number of participant pairs) interactions is consistent with a value of $x$ = 0.13$\pm$0.01(stat)$\pm$0.05(syst) at both energies. The experimental results at both energies, scaled by inelastic $p(\overline{p})+p$ collision data, agree within systematic errors. The ratio of the data was found not to depend on centrality over the studied range and yields a simple linear scale factor of R$_{200/19.6}$ = 2.03$\pm$0.02(stat)$\pm$0.05(syst).  
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1: 200 GeV"
+location: Data from Table 1 of PHOBOS paper Inspire ID 651112
+description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: 200.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_table1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Table 1: 19.6 GeV"
+location: Data from Table 1 of PHOBOS paper Inspire ID 651112
+description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: 19.6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_table1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Table 1: Ratios X-Section "
+location: Data from Table 1 of PHOBOS paper Inspire ID 651112
+description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: ratios1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_table1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Table 1: Ratios $N_{\\text{part}}$"
+location: Data from Table 1 of PHOBOS paper Inspire ID 651112
+description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: ratios2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_table1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
