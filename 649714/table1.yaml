@@ -1,0 +1,76 @@
+independent_variables:
+  - header: {name: 'Centrality [%]'}
+    values:
+      - {low: 45, high: 50}
+      - {low: 35, high: 45}
+      - {low: 25, high: 35}
+      - {low: 15, high: 25}
+      - {low: 6, high: 15}
+      - {low: 0, high: 6}
+dependent_variables:
+  - header: {name: '$\langle N_{\text{part}} \rangle$'}
+    qualifiers:
+    - {name: '$\sqrt{s_NN}$', value: '62.4 GeV'}
+    values:
+      - value: 61
+        errors: [{symerror: 7, label: 'stat'}]
+      - value: 86
+        errors: [{symerror: 9, label: 'stat'}]
+      - value: 130
+        errors: [{symerror: 10, label: 'stat'}]
+      - value: 189
+        errors: [{symerror: 9, label: 'stat'}]
+      - value: 266
+        errors: [{symerror: 9, label: 'stat'}]
+      - value: 335
+        errors: [{symerror: 11, label: 'stat'}]
+  - header: {name: '$\langle N_{\text{coll}} \rangle$'}
+    qualifiers:
+    - {name: '$\sqrt{s_NN}$', value: '62.4 GeV'}
+    values:
+      - value: 76
+        errors: [{symerror: 12, label: 'stat'}]
+      - value: 120
+        errors: [{symerror: 16, label: 'stat'}]
+      - value: 215
+        errors: [{symerror: 22, label: 'stat'}]
+      - value: 370
+        errors: [{symerror: 24, label: 'stat'}]
+      - value: 590
+        errors: [{symerror: 21, label: 'stat'}]
+      - value: 820
+        errors: [{symerror: 25, label: 'stat'}]
+  - header: {name: '$\langle N_{\text{part}} \rangle$'}
+    qualifiers:
+    - {name: '$\sqrt{s_NN}$', value: '200 GeV'}
+    values:
+      - value: 65
+        errors: [{symerror: 4, label: 'stat'}]
+      - value: 93
+        errors: [{symerror: 5, label: 'stat'}]
+      - value: 138
+        errors: [{symerror: 6, label: 'stat'}]
+      - value: 200
+        errors: [{symerror: 8, label: 'stat'}]
+      - value: 276
+        errors: [{symerror: 9, label: 'stat'}]
+      - value: 344
+        errors: [{symerror: 11, label: 'stat'}]
+  - header: {name: '$\langle N_{\text{coll}} \rangle$'}
+    qualifiers:
+    - {name: '$\sqrt{s_NN}$', value: '200 GeV'}
+    values:
+      - value: 107
+        errors: [{symerror: 16, label: 'stat'}]
+      - value: 175
+        errors: [{symerror: 25, label: 'stat'}]
+      - value: 300
+        errors: [{symerror: 39, label: 'stat'}]
+      - value: 500
+        errors: [{symerror: 60, label: 'stat'}]
+      - value: 780
+        errors: [{symerror: 86, label: 'stat'}]
+      - value: 1050
+        errors: [{symerror: 105, label: 'stat'}]
+
+

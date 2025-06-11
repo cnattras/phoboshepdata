@@ -1,0 +1,52 @@
+#PHOBOS PAPER
+#
+#TITLE: Particle Production at Very Low Transverse Momentum in Central Au+Au Collisions at $\sqrt{s_{_{NN}}} =$ 200 GeV
+#InspireHEP ID: 649714
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/649714", description: "InspireHEP ID: 649714"}
+- {location: "https://arxiv.org/pdf/nucl-ex/0405003", description: "arXiv ID: nucl-ex/0405003"}
+# - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Spectra_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 649714"}
+comment: |
+ We have measured transverse momentum distributions of charged hadrons produced in Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 62.4 GeV. The spectra are presented for transverse momenta $0.25 < p_T < 4.5$~GeV/c, in a pseudo-rapidity range of $0.2 < \eta < 1.4$. The nuclear modification factor $R_{AA}$ is calculated relative to p+p data at the same collision energy as a function of collision centrality. For $p_T > 2$~GeV/c, $R_{AA}$ is found to be significantly larger than in Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 130 and 200 GeV. In contrast, we find that the evolution of the invariant yields per participant pair from peripheral to central collisions is approximately energy-independent  over this range of collision energies. This observation challenges models of high $p_T$ hadron suppression in terms of parton energy loss.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1"
+location: Data from Table 1 of PHOBOS paper Inspire ID 649714
+description: Details of the centrality classes used in this analysis. 
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_table1.png}
+---
+name: "Figure 1"
+location: Data from Figure 1 of PHOBOS paper Inspire ID 649714
+description: Charged particle yield versus pT for Au+Au at 62.4 Gev in different centrality bins 
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 2"
+location: Data from Figure 2 of PHOBOS paper Inspire ID 649714
+description: R_AA versus beam energy
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: fig2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 3"
+location: Data from Figure 3 of PHOBOS paper Inspire ID 649714
+description: Various quantities versus pT for Au+Au at 62.4 and 200 GeV in different centrality bins
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}

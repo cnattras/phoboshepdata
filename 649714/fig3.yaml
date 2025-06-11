@@ -1,0 +1,4057 @@
+independent_variables:
+  - header: {name: '$p_T$ [GeV/c]'}
+    values:
+      - {value: 0.250}
+      - {value: 0.350}
+      - {value: 0.450}
+      - {value: 0.550}
+      - {value: 0.650}
+      - {value: 0.750}
+      - {value: 0.850}
+      - {value: 0.950}
+      - {value: 1.050}
+      - {value: 1.150}
+      - {value: 1.250}
+      - {value: 1.350}
+      - {value: 1.450}
+      - {value: 1.550}
+      - {value: 1.650}
+      - {value: 1.750}
+      - {value: 1.850}
+      - {value: 1.950}
+      - {value: 2.100}
+      - {value: 2.300}
+      - {value: 2.500}
+      - {value: 2.700}
+      - {value: 2.900}
+      - {value: 3.125}
+      - {value: 3.375}
+      - {value: 3.625}
+      - {value: 3.875}
+      - {value: 4.250}
+dependent_variables:
+  - header: {name: '$R_{AA}$'}
+    qualifiers:
+      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: 'Centrality', value: '0-6%'}
+    values:
+      - value: 0.23755
+        errors:
+          - {symerror: 0.00033, label: 'stat'}
+          - {asymerror: {plus: 0.03008, minus: 0.03350}, label: 'sys'}
+      - value: 0.24525
+        errors:
+          - {symerror: 0.00035, label: 'stat'}
+          - {asymerror: {plus: 0.03076, minus: 0.03410}, label: 'sys'}
+      - value: 0.25850
+        errors:
+          - {symerror: 0.00041, label: 'stat'}
+          - {asymerror: {plus: 0.03214, minus: 0.03548}, label: 'sys'}
+      - value: 0.27723
+        errors:
+          - {symerror: 0.00049, label: 'stat'}
+          - {asymerror: {plus: 0.03421, minus: 0.03760}, label: 'sys'}
+      - value: 0.29951
+        errors:
+          - {symerror: 0.00061, label: 'stat'}
+          - {asymerror: {plus: 0.03671, minus: 0.04021}, label: 'sys'}
+      - value: 0.32647
+        errors:
+          - {symerror: 0.00058, label: 'stat'}
+          - {asymerror: {plus: 0.03977, minus: 0.04343}, label: 'sys'}
+      - value: 0.35376
+        errors:
+          - {symerror: 0.00071, label: 'stat'}
+          - {asymerror: {plus: 0.04289, minus: 0.04671}, label: 'sys'}
+      - value: 0.38363
+        errors:
+          - {symerror: 0.00088, label: 'stat'}
+          - {asymerror: {plus: 0.04633, minus: 0.05035}, label: 'sys'}
+      - value: 0.40991
+        errors:
+          - {symerror: 0.00107, label: 'stat'}
+          - {asymerror: {plus: 0.04935, minus: 0.05356}, label: 'sys'}
+      - value: 0.43717
+        errors:
+          - {symerror: 0.00130, label: 'stat'}
+          - {asymerror: {plus: 0.05253, minus: 0.05694}, label: 'sys'}
+      - value: 0.46716
+        errors:
+          - {symerror: 0.00158, label: 'stat'}
+          - {asymerror: {plus: 0.05609, minus: 0.06076}, label: 'sys'}
+      - value: 0.48964
+        errors:
+          - {symerror: 0.00189, label: 'stat'}
+          - {asymerror: {plus: 0.05879, minus: 0.06369}, label: 'sys'}
+      - value: 0.51304
+        errors:
+          - {symerror: 0.00226, label: 'stat'}
+          - {asymerror: {plus: 0.06168, minus: 0.06685}, label: 'sys'}
+      - value: 0.53324
+        errors:
+          - {symerror: 0.00267, label: 'stat'}
+          - {asymerror: {plus: 0.06424, minus: 0.06970}, label: 'sys'}
+      - value: 0.54052
+        errors:
+          - {symerror: 0.00311, label: 'stat'}
+          - {asymerror: {plus: 0.06533, minus: 0.07100}, label: 'sys'}
+      - value: 0.55218
+        errors:
+          - {symerror: 0.00362, label: 'stat'}
+          - {asymerror: {plus: 0.06703, minus: 0.07299}, label: 'sys'}
+      - value: 0.55482
+        errors:
+          - {symerror: 0.00417, label: 'stat'}
+          - {asymerror: {plus: 0.06772, minus: 0.07393}, label: 'sys'}
+      - value: 0.54950
+        errors:
+          - {symerror: 0.00476, label: 'stat'}
+          - {asymerror: {plus: 0.06750, minus: 0.07391}, label: 'sys'}
+      - value: 0.54660
+        errors:
+          - {symerror: 0.00410, label: 'stat'}
+          - {asymerror: {plus: 0.06781, minus: 0.07467}, label: 'sys'}
+      - value: 0.54070
+        errors:
+          - {symerror: 0.00526, label: 'stat'}
+          - {asymerror: {plus: 0.06832, minus: 0.07587}, label: 'sys'}
+      - value: 0.51725
+        errors:
+          - {symerror: 0.00657, label: 'stat'}
+          - {asymerror: {plus: 0.06686, minus: 0.07498}, label: 'sys'}
+      - value: 0.46453
+        errors:
+          - {symerror: 0.00785, label: 'stat'}
+          - {asymerror: {plus: 0.06174, minus: 0.06995}, label: 'sys'}
+      - value: 0.45750
+        errors:
+          - {symerror: 0.00975, label: 'stat'}
+          - {asymerror: {plus: 0.06270, minus: 0.07191}, label: 'sys'}
+      - value: 0.40952
+        errors:
+          - {symerror: 0.01050, label: 'stat'}
+          - {asymerror: {plus: 0.05823, minus: 0.06772}, label: 'sys'}
+      - value: 0.37520
+        errors:
+          - {symerror: 0.01291, label: 'stat'}
+          - {asymerror: {plus: 0.05634, minus: 0.06604}, label: 'sys'}
+      - value: 0.34703
+        errors:
+          - {symerror: 0.01579, label: 'stat'}
+          - {asymerror: {plus: 0.05503, minus: 0.06591}, label: 'sys'}
+      - value: 0.28199
+        errors:
+          - {symerror: 0.01785, label: 'stat'}
+          - {asymerror: {plus: 0.04805, minus: 0.05766}, label: 'sys'}
+      - value: 0.28501
+        errors:
+          - {symerror: 0.01763, label: 'stat'}
+          - {asymerror: {plus: 0.05278, minus: 0.06378}, label: 'sys'}
+  - header: {name: '$R_{AA}$'}
+    qualifiers:
+      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: 'Centrality', value: '6-15%'}
+    values:
+      - value: 0.24317
+        errors:
+          - {symerror: 0.00030, label: 'stat'}
+          - {asymerror: {plus: 0.02622, minus: 0.03055}, label: 'sys'}
+      - value: 0.25106
+        errors:
+          - {symerror: 0.00033, label: 'stat'}
+          - {asymerror: {plus: 0.02677, minus: 0.03094}, label: 'sys'}
+      - value: 0.26638
+        errors:
+          - {symerror: 0.00038, label: 'stat'}
+          - {asymerror: {plus: 0.02811, minus: 0.03224}, label: 'sys'}
+      - value: 0.28620
+        errors:
+          - {symerror: 0.00046, label: 'stat'}
+          - {asymerror: {plus: 0.02992, minus: 0.03407}, label: 'sys'}
+      - value: 0.31173
+        errors:
+          - {symerror: 0.00057, label: 'stat'}
+          - {asymerror: {plus: 0.03230, minus: 0.03655}, label: 'sys'}
+      - value: 0.33806
+        errors:
+          - {symerror: 0.00055, label: 'stat'}
+          - {asymerror: {plus: 0.03476, minus: 0.03909}, label: 'sys'}
+      - value: 0.36805
+        errors:
+          - {symerror: 0.00067, label: 'stat'}
+          - {asymerror: {plus: 0.03759, minus: 0.04205}, label: 'sys'}
+      - value: 0.39877
+        errors:
+          - {symerror: 0.00083, label: 'stat'}
+          - {asymerror: {plus: 0.04049, minus: 0.04508}, label: 'sys'}
+      - value: 0.42977
+        errors:
+          - {symerror: 0.00102, label: 'stat'}
+          - {asymerror: {plus: 0.04342, minus: 0.04816}, label: 'sys'}
+      - value: 0.46096
+        errors:
+          - {symerror: 0.00124, label: 'stat'}
+          - {asymerror: {plus: 0.04639, minus: 0.05128}, label: 'sys'}
+      - value: 0.49340
+        errors:
+          - {symerror: 0.00151, label: 'stat'}
+          - {asymerror: {plus: 0.04952, minus: 0.05460}, label: 'sys'}
+      - value: 0.51681
+        errors:
+          - {symerror: 0.00180, label: 'stat'}
+          - {asymerror: {plus: 0.05177, minus: 0.05699}, label: 'sys'}
+      - value: 0.54151
+        errors:
+          - {symerror: 0.00215, label: 'stat'}
+          - {asymerror: {plus: 0.05420, minus: 0.05962}, label: 'sys'}
+      - value: 0.56326
+        errors:
+          - {symerror: 0.00255, label: 'stat'}
+          - {asymerror: {plus: 0.05639, minus: 0.06202}, label: 'sys'}
+      - value: 0.57899
+        errors:
+          - {symerror: 0.00299, label: 'stat'}
+          - {asymerror: {plus: 0.05804, minus: 0.06389}, label: 'sys'}
+      - value: 0.58379
+        errors:
+          - {symerror: 0.00346, label: 'stat'}
+          - {asymerror: {plus: 0.05866, minus: 0.06467}, label: 'sys'}
+      - value: 0.60835
+        errors:
+          - {symerror: 0.00406, label: 'stat'}
+          - {asymerror: {plus: 0.06134, minus: 0.06779}, label: 'sys'}
+      - value: 0.59155
+        errors:
+          - {symerror: 0.00459, label: 'stat'}
+          - {asymerror: {plus: 0.05993, minus: 0.06643}, label: 'sys'}
+      - value: 0.59831
+        errors:
+          - {symerror: 0.00399, label: 'stat'}
+          - {asymerror: {plus: 0.06105, minus: 0.06808}, label: 'sys'}
+      - value: 0.58879
+        errors:
+          - {symerror: 0.00509, label: 'stat'}
+          - {asymerror: {plus: 0.06098, minus: 0.06874}, label: 'sys'}
+      - value: 0.56549
+        errors:
+          - {symerror: 0.00636, label: 'stat'}
+          - {asymerror: {plus: 0.05971, minus: 0.06818}, label: 'sys'}
+      - value: 0.52976
+        errors:
+          - {symerror: 0.00777, label: 'stat'}
+          - {asymerror: {plus: 0.05732, minus: 0.06640}, label: 'sys'}
+      - value: 0.50782
+        errors:
+          - {symerror: 0.00949, label: 'stat'}
+          - {asymerror: {plus: 0.05661, minus: 0.06649}, label: 'sys'}
+      - value: 0.49236
+        errors:
+          - {symerror: 0.01060, label: 'stat'}
+          - {asymerror: {plus: 0.05673, minus: 0.06795}, label: 'sys'}
+      - value: 0.42435
+        errors:
+          - {symerror: 0.01262, label: 'stat'}
+          - {asymerror: {plus: 0.05143, minus: 0.06264}, label: 'sys'}
+      - value: 0.39766
+        errors:
+          - {symerror: 0.01548, label: 'stat'}
+          - {asymerror: {plus: 0.05153, minus: 0.06376}, label: 'sys'}
+      - value: 0.33881
+        errors:
+          - {symerror: 0.01791, label: 'stat'}
+          - {asymerror: {plus: 0.04663, minus: 0.05975}, label: 'sys'}
+      - value: 0.32356
+        errors:
+          - {symerror: 0.01713, label: 'stat'}
+          - {asymerror: {plus: 0.04802, minus: 0.06303}, label: 'sys'}
+  - header: {name: '$R_{AA}$'}
+    qualifiers:
+      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: 'Centrality', value: '15-25%'}
+    values:
+      - value: 0.27356
+        errors:
+          - {symerror: 0.00038, label: 'stat'}
+          - {asymerror: {plus: 0.02129, minus: 0.03163}, label: 'sys'}
+      - value: 0.28241
+        errors:
+          - {symerror: 0.00041, label: 'stat'}
+          - {asymerror: {plus: 0.02164, minus: 0.03198}, label: 'sys'}
+      - value: 0.29664
+        errors:
+          - {symerror: 0.00047, label: 'stat'}
+          - {asymerror: {plus: 0.02241, minus: 0.03294}, label: 'sys'}
+      - value: 0.31903
+        errors:
+          - {symerror: 0.00057, label: 'stat'}
+          - {asymerror: {plus: 0.02378, minus: 0.03479}, label: 'sys'}
+      - value: 0.34604
+        errors:
+          - {symerror: 0.00071, label: 'stat'}
+          - {asymerror: {plus: 0.02548, minus: 0.03711}, label: 'sys'}
+      - value: 0.37400
+        errors:
+          - {symerror: 0.00067, label: 'stat'}
+          - {asymerror: {plus: 0.02724, minus: 0.03951}, label: 'sys'}
+      - value: 0.40625
+        errors:
+          - {symerror: 0.00083, label: 'stat'}
+          - {asymerror: {plus: 0.02931, minus: 0.04235}, label: 'sys'}
+      - value: 0.44080
+        errors:
+          - {symerror: 0.00102, label: 'stat'}
+          - {asymerror: {plus: 0.03154, minus: 0.04542}, label: 'sys'}
+      - value: 0.47308
+        errors:
+          - {symerror: 0.00125, label: 'stat'}
+          - {asymerror: {plus: 0.03362, minus: 0.04828}, label: 'sys'}
+      - value: 0.50683
+        errors:
+          - {symerror: 0.00152, label: 'stat'}
+          - {asymerror: {plus: 0.03582, minus: 0.05133}, label: 'sys'}
+      - value: 0.53806
+        errors:
+          - {symerror: 0.00183, label: 'stat'}
+          - {asymerror: {plus: 0.03788, minus: 0.05417}, label: 'sys'}
+      - value: 0.57031
+        errors:
+          - {symerror: 0.00221, label: 'stat'}
+          - {asymerror: {plus: 0.04005, minus: 0.05720}, label: 'sys'}
+      - value: 0.59617
+        errors:
+          - {symerror: 0.00263, label: 'stat'}
+          - {asymerror: {plus: 0.04182, minus: 0.05969}, label: 'sys'}
+      - value: 0.61419
+        errors:
+          - {symerror: 0.00310, label: 'stat'}
+          - {asymerror: {plus: 0.04311, minus: 0.06151}, label: 'sys'}
+      - value: 0.63606
+        errors:
+          - {symerror: 0.00364, label: 'stat'}
+          - {asymerror: {plus: 0.04474, minus: 0.06385}, label: 'sys'}
+      - value: 0.64925
+        errors:
+          - {symerror: 0.00425, label: 'stat'}
+          - {asymerror: {plus: 0.04584, minus: 0.06547}, label: 'sys'}
+      - value: 0.65204
+        errors:
+          - {symerror: 0.00489, label: 'stat'}
+          - {asymerror: {plus: 0.04631, minus: 0.06619}, label: 'sys'}
+      - value: 0.65441
+        errors:
+          - {symerror: 0.00561, label: 'stat'}
+          - {asymerror: {plus: 0.04681, minus: 0.06701}, label: 'sys'}
+      - value: 0.66197
+        errors:
+          - {symerror: 0.00488, label: 'stat'}
+          - {asymerror: {plus: 0.04777, minus: 0.06875}, label: 'sys'}
+      - value: 0.65683
+        errors:
+          - {symerror: 0.00626, label: 'stat'}
+          - {asymerror: {plus: 0.04850, minus: 0.07016}, label: 'sys'}
+      - value: 0.62237
+        errors:
+          - {symerror: 0.00777, label: 'stat'}
+          - {asymerror: {plus: 0.04733, minus: 0.06894}, label: 'sys'}
+      - value: 0.60507
+        errors:
+          - {symerror: 0.00966, label: 'stat'}
+          - {asymerror: {plus: 0.04776, minus: 0.06989}, label: 'sys'}
+      - value: 0.58545
+        errors:
+          - {symerror: 0.01185, label: 'stat'}
+          - {asymerror: {plus: 0.04809, minus: 0.07107}, label: 'sys'}
+      - value: 0.57011
+        errors:
+          - {symerror: 0.01329, label: 'stat'}
+          - {asymerror: {plus: 0.04906, minus: 0.07314}, label: 'sys'}
+      - value: 0.50911
+        errors:
+          - {symerror: 0.01614, label: 'stat'}
+          - {asymerror: {plus: 0.04740, minus: 0.07070}, label: 'sys'}
+      - value: 0.49687
+        errors:
+          - {symerror: 0.02028, label: 'stat'}
+          - {asymerror: {plus: 0.04960, minus: 0.07441}, label: 'sys'}
+      - value: 0.44256
+        errors:
+          - {symerror: 0.02399, label: 'stat'}
+          - {asymerror: {plus: 0.05058, minus: 0.07357}, label: 'sys'}
+      - value: 0.39682
+        errors:
+          - {symerror: 0.02233, label: 'stat'}
+          - {asymerror: {plus: 0.04735, minus: 0.07103}, label: 'sys'}
+  - header: {name: '$R_{AA}$'}
+    qualifiers:
+      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: 'Centrality', value: '25-35%'}
+    values:
+      - value: 0.31469
+        errors:
+          - {symerror: 0.00053, label: 'stat'}
+          - {asymerror: {plus: 0.02449, minus: 0.03639}, label: 'sys'}
+      - value: 0.32394
+        errors:
+          - {symerror: 0.00056, label: 'stat'}
+          - {asymerror: {plus: 0.02482, minus: 0.03668}, label: 'sys'}
+      - value: 0.33957
+        errors:
+          - {symerror: 0.00065, label: 'stat'}
+          - {asymerror: {plus: 0.02565, minus: 0.03771}, label: 'sys'}
+      - value: 0.36320
+        errors:
+          - {symerror: 0.00079, label: 'stat'}
+          - {asymerror: {plus: 0.02707, minus: 0.03961}, label: 'sys'}
+      - value: 0.39051
+        errors:
+          - {symerror: 0.00097, label: 'stat'}
+          - {asymerror: {plus: 0.02876, minus: 0.04188}, label: 'sys'}
+      - value: 0.42117
+        errors:
+          - {symerror: 0.00092, label: 'stat'}
+          - {asymerror: {plus: 0.03068, minus: 0.04450}, label: 'sys'}
+      - value: 0.45504
+        errors:
+          - {symerror: 0.00113, label: 'stat'}
+          - {asymerror: {plus: 0.03283, minus: 0.04744}, label: 'sys'}
+      - value: 0.49372
+        errors:
+          - {symerror: 0.00139, label: 'stat'}
+          - {asymerror: {plus: 0.03533, minus: 0.05088}, label: 'sys'}
+      - value: 0.52841
+        errors:
+          - {symerror: 0.00170, label: 'stat'}
+          - {asymerror: {plus: 0.03756, minus: 0.05394}, label: 'sys'}
+      - value: 0.56188
+        errors:
+          - {symerror: 0.00206, label: 'stat'}
+          - {asymerror: {plus: 0.03973, minus: 0.05691}, label: 'sys'}
+      - value: 0.60160
+        errors:
+          - {symerror: 0.00250, label: 'stat'}
+          - {asymerror: {plus: 0.04237, minus: 0.06059}, label: 'sys'}
+      - value: 0.63778
+        errors:
+          - {symerror: 0.00300, label: 'stat'}
+          - {asymerror: {plus: 0.04482, minus: 0.06399}, label: 'sys'}
+      - value: 0.65766
+        errors:
+          - {symerror: 0.00355, label: 'stat'}
+          - {asymerror: {plus: 0.04618, minus: 0.06588}, label: 'sys'}
+      - value: 0.68658
+        errors:
+          - {symerror: 0.00421, label: 'stat'}
+          - {asymerror: {plus: 0.04825, minus: 0.06881}, label: 'sys'}
+      - value: 0.70104
+        errors:
+          - {symerror: 0.00492, label: 'stat'}
+          - {asymerror: {plus: 0.04940, minus: 0.07044}, label: 'sys'}
+      - value: 0.71376
+        errors:
+          - {symerror: 0.00573, label: 'stat'}
+          - {asymerror: {plus: 0.05052, minus: 0.07205}, label: 'sys'}
+      - value: 0.72567
+        errors:
+          - {symerror: 0.00664, label: 'stat'}
+          - {asymerror: {plus: 0.05166, minus: 0.07376}, label: 'sys'}
+      - value: 0.75061
+        errors:
+          - {symerror: 0.00774, label: 'stat'}
+          - {asymerror: {plus: 0.05385, minus: 0.07697}, label: 'sys'}
+      - value: 0.74588
+        errors:
+          - {symerror: 0.00666, label: 'stat'}
+          - {asymerror: {plus: 0.05397, minus: 0.07757}, label: 'sys'}
+      - value: 0.72573
+        errors:
+          - {symerror: 0.00846, label: 'stat'}
+          - {asymerror: {plus: 0.05382, minus: 0.07767}, label: 'sys'}
+      - value: 0.72947
+        errors:
+          - {symerror: 0.01081, label: 'stat'}
+          - {asymerror: {plus: 0.05576, minus: 0.08104}, label: 'sys'}
+      - value: 0.69188
+        errors:
+          - {symerror: 0.01328, label: 'stat'}
+          - {asymerror: {plus: 0.05512, minus: 0.08012}, label: 'sys'}
+      - value: 0.66855
+        errors:
+          - {symerror: 0.01629, label: 'stat'}
+          - {asymerror: {plus: 0.05578, minus: 0.08166}, label: 'sys'}
+      - value: 0.65878
+        errors:
+          - {symerror: 0.01839, label: 'stat'}
+          - {asymerror: {plus: 0.05754, minus: 0.08516}, label: 'sys'}
+      - value: 0.63904
+        errors:
+          - {symerror: 0.02328, label: 'stat'}
+          - {asymerror: {plus: 0.06106, minus: 0.08955}, label: 'sys'}
+      - value: 0.56616
+        errors:
+          - {symerror: 0.02780, label: 'stat'}
+          - {asymerror: {plus: 0.05818, minus: 0.08610}, label: 'sys'}
+      - value: 0.54434
+        errors:
+          - {symerror: 0.03418, label: 'stat'}
+          - {asymerror: {plus: 0.06212, minus: 0.09318}, label: 'sys'}
+      - value: 0.48382
+        errors:
+          - {symerror: 0.03153, label: 'stat'}
+          - {asymerror: {plus: 0.06398, minus: 0.08797}, label: 'sys'}
+  - header: {name: '$R_{AA}$'}
+    qualifiers:
+      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: 'Centrality', value: '35-45%'}
+    values:
+      - value: 0.36150
+        errors:
+          - {symerror: 0.00074, label: 'stat'}
+          - {asymerror: {plus: 0.02861, minus: 0.04274}, label: 'sys'}
+      - value: 0.37013
+        errors:
+          - {symerror: 0.00078, label: 'stat'}
+          - {asymerror: {plus: 0.02881, minus: 0.04280}, label: 'sys'}
+      - value: 0.38449
+        errors:
+          - {symerror: 0.00090, label: 'stat'}
+          - {asymerror: {plus: 0.02947, minus: 0.04354}, label: 'sys'}
+      - value: 0.40896
+        errors:
+          - {symerror: 0.00109, label: 'stat'}
+          - {asymerror: {plus: 0.03090, minus: 0.04542}, label: 'sys'}
+      - value: 0.43740
+        errors:
+          - {symerror: 0.00134, label: 'stat'}
+          - {asymerror: {plus: 0.03262, minus: 0.04771}, label: 'sys'}
+      - value: 0.46805
+        errors:
+          - {symerror: 0.00127, label: 'stat'}
+          - {asymerror: {plus: 0.03448, minus: 0.05020}, label: 'sys'}
+      - value: 0.50581
+        errors:
+          - {symerror: 0.00156, label: 'stat'}
+          - {asymerror: {plus: 0.03686, minus: 0.05345}, label: 'sys'}
+      - value: 0.54300
+        errors:
+          - {symerror: 0.00190, label: 'stat'}
+          - {asymerror: {plus: 0.03920, minus: 0.05663}, label: 'sys'}
+      - value: 0.57394
+        errors:
+          - {symerror: 0.00231, label: 'stat'}
+          - {asymerror: {plus: 0.04111, minus: 0.05918}, label: 'sys'}
+      - value: 0.61937
+        errors:
+          - {symerror: 0.00282, label: 'stat'}
+          - {asymerror: {plus: 0.04407, minus: 0.06325}, label: 'sys'}
+      - value: 0.65127
+        errors:
+          - {symerror: 0.00340, label: 'stat'}
+          - {asymerror: {plus: 0.04611, minus: 0.06601}, label: 'sys'}
+      - value: 0.68293
+        errors:
+          - {symerror: 0.00407, label: 'stat'}
+          - {asymerror: {plus: 0.04819, minus: 0.06884}, label: 'sys'}
+      - value: 0.71093
+        errors:
+          - {symerror: 0.00483, label: 'stat'}
+          - {asymerror: {plus: 0.05008, minus: 0.07141}, label: 'sys'}
+      - value: 0.74257
+        errors:
+          - {symerror: 0.00574, label: 'stat'}
+          - {asymerror: {plus: 0.05230, minus: 0.07450}, label: 'sys'}
+      - value: 0.75280
+        errors:
+          - {symerror: 0.00668, label: 'stat'}
+          - {asymerror: {plus: 0.05314, minus: 0.07559}, label: 'sys'}
+      - value: 0.78091
+        errors:
+          - {symerror: 0.00784, label: 'stat'}
+          - {asymerror: {plus: 0.05531, minus: 0.07867}, label: 'sys'}
+      - value: 0.78811
+        errors:
+          - {symerror: 0.00906, label: 'stat'}
+          - {asymerror: {plus: 0.05615, minus: 0.07983}, label: 'sys'}
+      - value: 0.80491
+        errors:
+          - {symerror: 0.01048, label: 'stat'}
+          - {asymerror: {plus: 0.05779, minus: 0.08215}, label: 'sys'}
+      - value: 0.81036
+        errors:
+          - {symerror: 0.00909, label: 'stat'}
+          - {asymerror: {plus: 0.05846, minus: 0.08354}, label: 'sys'}
+      - value: 0.80920
+        errors:
+          - {symerror: 0.01172, label: 'stat'}
+          - {asymerror: {plus: 0.05985, minus: 0.08567}, label: 'sys'}
+      - value: 0.80191
+        errors:
+          - {symerror: 0.01487, label: 'stat'}
+          - {asymerror: {plus: 0.06116, minus: 0.08788}, label: 'sys'}
+      - value: 0.81205
+        errors:
+          - {symerror: 0.01889, label: 'stat'}
+          - {asymerror: {plus: 0.06471, minus: 0.09284}, label: 'sys'}
+      - value: 0.73729
+        errors:
+          - {symerror: 0.02248, label: 'stat'}
+          - {asymerror: {plus: 0.06225, minus: 0.08871}, label: 'sys'}
+      - value: 0.76286
+        errors:
+          - {symerror: 0.02601, label: 'stat'}
+          - {asymerror: {plus: 0.06689, minus: 0.09767}, label: 'sys'}
+      - value: 0.70320
+        errors:
+          - {symerror: 0.03212, label: 'stat'}
+          - {asymerror: {plus: 0.06862, minus: 0.09701}, label: 'sys'}
+      - value: 0.67648
+        errors:
+          - {symerror: 0.03987, label: 'stat'}
+          - {asymerror: {plus: 0.07305, minus: 0.10145}, label: 'sys'}
+      - value: 0.56199
+        errors:
+          - {symerror: 0.04587, label: 'stat'}
+          - {asymerror: {plus: 0.06771, minus: 0.09479}, label: 'sys'}
+      - value: 0.52716
+        errors:
+          - {symerror: 0.04346, label: 'stat'}
+          - {asymerror: {plus: 0.06973, minus: 0.09762}, label: 'sys'}
+  - header: {name: '$R_{AA}$'}
+    qualifiers:
+      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: 'Centrality', value: '45-50%'}
+    values:
+      - value: 0.42706
+        errors:
+          - {symerror: 0.00146, label: 'stat'}
+          - {asymerror: {plus: 0.03621, minus: 0.05598}, label: 'sys'}
+      - value: 0.43528
+        errors:
+          - {symerror: 0.00154, label: 'stat'}
+          - {asymerror: {plus: 0.03606, minus: 0.05584}, label: 'sys'}
+      - value: 0.44643
+        errors:
+          - {symerror: 0.00177, label: 'stat'}
+          - {asymerror: {plus: 0.03618, minus: 0.05611}, label: 'sys'}
+      - value: 0.47135
+        errors:
+          - {symerror: 0.00213, label: 'stat'}
+          - {asymerror: {plus: 0.03742, minus: 0.05812}, label: 'sys'}
+      - value: 0.49752
+        errors:
+          - {symerror: 0.00260, label: 'stat'}
+          - {asymerror: {plus: 0.03875, minus: 0.06027}, label: 'sys'}
+      - value: 0.53246
+        errors:
+          - {symerror: 0.00245, label: 'stat'}
+          - {asymerror: {plus: 0.04071, minus: 0.06342}, label: 'sys'}
+      - value: 0.56792
+        errors:
+          - {symerror: 0.00299, label: 'stat'}
+          - {asymerror: {plus: 0.04273, minus: 0.06664}, label: 'sys'}
+      - value: 0.60825
+        errors:
+          - {symerror: 0.00365, label: 'stat'}
+          - {asymerror: {plus: 0.04512, minus: 0.07042}, label: 'sys'}
+      - value: 0.64564
+        errors:
+          - {symerror: 0.00444, label: 'stat'}
+          - {asymerror: {plus: 0.04731, minus: 0.07388}, label: 'sys'}
+      - value: 0.67676
+        errors:
+          - {symerror: 0.00535, label: 'stat'}
+          - {asymerror: {plus: 0.04910, minus: 0.07668}, label: 'sys'}
+      - value: 0.72345
+        errors:
+          - {symerror: 0.00648, label: 'stat'}
+          - {asymerror: {plus: 0.05207, minus: 0.08130}, label: 'sys'}
+      - value: 0.74913
+        errors:
+          - {symerror: 0.00770, label: 'stat'}
+          - {asymerror: {plus: 0.05364, minus: 0.08368}, label: 'sys'}
+      - value: 0.78275
+        errors:
+          - {symerror: 0.00917, label: 'stat'}
+          - {asymerror: {plus: 0.05589, minus: 0.08708}, label: 'sys'}
+      - value: 0.78853
+        errors:
+          - {symerror: 0.01069, label: 'stat'}
+          - {asymerror: {plus: 0.05634, minus: 0.08758}, label: 'sys'}
+      - value: 0.81958
+        errors:
+          - {symerror: 0.01260, label: 'stat'}
+          - {asymerror: {plus: 0.05876, minus: 0.09104}, label: 'sys'}
+      - value: 0.85670
+        errors:
+          - {symerror: 0.01485, label: 'stat'}
+          - {asymerror: {plus: 0.06178, minus: 0.09543}, label: 'sys'}
+      - value: 0.85467
+        errors:
+          - {symerror: 0.01705, label: 'stat'}
+          - {asymerror: {plus: 0.06232, minus: 0.09573}, label: 'sys'}
+      - value: 0.85470
+        errors:
+          - {symerror: 0.01951, label: 'stat'}
+          - {asymerror: {plus: 0.06331, minus: 0.09655}, label: 'sys'}
+      - value: 0.88091
+        errors:
+          - {symerror: 0.01711, label: 'stat'}
+          - {asymerror: {plus: 0.06500, minus: 0.09974}, label: 'sys'}
+      - value: 0.87175
+        errors:
+          - {symerror: 0.02198, label: 'stat'}
+          - {asymerror: {plus: 0.06705, minus: 0.10149}, label: 'sys'}
+      - value: 0.85859
+        errors:
+          - {symerror: 0.02776, label: 'stat'}
+          - {asymerror: {plus: 0.06982, minus: 0.10359}, label: 'sys'}
+      - value: 0.80508
+        errors:
+          - {symerror: 0.03398, label: 'stat'}
+          - {asymerror: {plus: 0.07068, minus: 0.10253}, label: 'sys'}
+      - value: 0.78013
+        errors:
+          - {symerror: 0.04174, label: 'stat'}
+          - {asymerror: {plus: 0.07476, minus: 0.10570}, label: 'sys'}
+      - value: 0.76551
+        errors:
+          - {symerror: 0.04700, label: 'stat'}
+          - {asymerror: {plus: 0.07979, minus: 0.11081}, label: 'sys'}
+      - value: 0.73884
+        errors:
+          - {symerror: 0.05954, label: 'stat'}
+          - {asymerror: {plus: 0.09015, minus: 0.11759}, label: 'sys'}
+      - value: 0.61914
+        errors:
+          - {symerror: 0.06871, label: 'stat'}
+          - {asymerror: {plus: 0.09411, minus: 0.11428}, label: 'sys'}
+      - value: 0.45988
+        errors:
+          - {symerror: 0.07505, label: 'stat'}
+          - {asymerror: {plus: 0.08973, minus: 0.10095}, label: 'sys'}
+      - value: 0.62146
+        errors:
+          - {symerror: 0.08592, label: 'stat'}
+          - {asymerror: {plus: 0.11551, minus: 0.13862}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: 'Centrality', value: '45-50%'}
+    values:
+      - value: 1.3009030
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.111, minus: 0.171}, label: 'sys'}
+      - value: 1.3259397
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.111, minus: 0.170}, label: 'sys'}
+      - value: 1.3598849
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.112, minus: 0.171}, label: 'sys'}
+      - value: 1.4357889
+        errors:
+          - {symerror: 0.006, label: 'stat'}
+          - {asymerror: {plus: 0.117, minus: 0.177}, label: 'sys'}
+      - value: 1.5155098
+        errors:
+          - {symerror: 0.008, label: 'stat'}
+          - {asymerror: {plus: 0.122, minus: 0.184}, label: 'sys'}
+      - value: 1.6219461
+        errors:
+          - {symerror: 0.007, label: 'stat'}
+          - {asymerror: {plus: 0.129, minus: 0.194}, label: 'sys'}
+      - value: 1.7299652
+        errors:
+          - {symerror: 0.009, label: 'stat'}
+          - {asymerror: {plus: 0.137, minus: 0.204}, label: 'sys'}
+      - value: 1.8528117
+        errors:
+          - {symerror: 0.011, label: 'stat'}
+          - {asymerror: {plus: 0.147, minus: 0.216}, label: 'sys'}
+      - value: 1.9667053
+        errors:
+          - {symerror: 0.014, label: 'stat'}
+          - {asymerror: {plus: 0.156, minus: 0.227}, label: 'sys'}
+      - value: 2.0615187
+        errors:
+          - {symerror: 0.016, label: 'stat'}
+          - {asymerror: {plus: 0.164, minus: 0.236}, label: 'sys'}
+      - value: 2.2037313
+        errors:
+          - {symerror: 0.020, label: 'stat'}
+          - {asymerror: {plus: 0.177, minus: 0.251}, label: 'sys'}
+      - value: 2.2819617
+        errors:
+          - {symerror: 0.023, label: 'stat'}
+          - {asymerror: {plus: 0.185, minus: 0.258}, label: 'sys'}
+      - value: 2.3843799
+        errors:
+          - {symerror: 0.028, label: 'stat'}
+          - {asymerror: {plus: 0.196, minus: 0.269}, label: 'sys'}
+      - value: 2.4019761
+        errors:
+          - {symerror: 0.033, label: 'stat'}
+          - {asymerror: {plus: 0.201, minus: 0.271}, label: 'sys'}
+      - value: 2.4965732
+        errors:
+          - {symerror: 0.038, label: 'stat'}
+          - {asymerror: {plus: 0.213, minus: 0.282}, label: 'sys'}
+      - value: 2.6096413
+        errors:
+          - {symerror: 0.045, label: 'stat'}
+          - {asymerror: {plus: 0.227, minus: 0.296}, label: 'sys'}
+      - value: 2.6034534
+        errors:
+          - {symerror: 0.052, label: 'stat'}
+          - {asymerror: {plus: 0.233, minus: 0.297}, label: 'sys'}
+      - value: 2.6035359
+        errors:
+          - {symerror: 0.059, label: 'stat'}
+          - {asymerror: {plus: 0.239, minus: 0.299}, label: 'sys'}
+      - value: 2.6833851
+        errors:
+          - {symerror: 0.052, label: 'stat'}
+          - {asymerror: {plus: 0.258, minus: 0.313}, label: 'sys'}
+      - value: 2.6555028
+        errors:
+          - {symerror: 0.067, label: 'stat'}
+          - {asymerror: {plus: 0.274, minus: 0.318}, label: 'sys'}
+      - value: 2.6153929
+        errors:
+          - {symerror: 0.085, label: 'stat'}
+          - {asymerror: {plus: 0.292, minus: 0.323}, label: 'sys'}
+      - value: 2.4523149
+        errors:
+          - {symerror: 0.103, label: 'stat'}
+          - {asymerror: {plus: 0.299, minus: 0.316}, label: 'sys'}
+      - value: 2.3763676
+        errors:
+          - {symerror: 0.127, label: 'stat'}
+          - {asymerror: {plus: 0.318, minus: 0.320}, label: 'sys'}
+      - value: 2.3319240
+        errors:
+          - {symerror: 0.143, label: 'stat'}
+          - {asymerror: {plus: 0.350, minus: 0.334}, label: 'sys'}
+      - value: 2.2503049
+        errors:
+          - {symerror: 0.181, label: 'stat'}
+          - {asymerror: {plus: 0.386, minus: 0.346}, label: 'sys'}
+      - value: 1.8853449
+        errors:
+          - {symerror: 0.209, label: 'stat'}
+          - {asymerror: {plus: 0.371, minus: 0.314}, label: 'sys'}
+      - value: 1.3994993
+        errors:
+          - {symerror: 0.228, label: 'stat'}
+          - {asymerror: {plus: 0.318, minus: 0.253}, label: 'sys'}
+      - value: 1.8949077
+        errors:
+          - {symerror: 0.262, label: 'stat'}
+          - {asymerror: {plus: 0.535, minus: 0.392}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: 'Centrality', value: '35-45%'}
+    values:
+      - value: 1.2749505
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.101, minus: 0.151}, label: 'sys'}
+      - value: 1.3054131
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.103, minus: 0.151}, label: 'sys'}
+      - value: 1.3560605
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.106, minus: 0.154}, label: 'sys'}
+      - value: 1.4423375
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.112, minus: 0.161}, label: 'sys'}
+      - value: 1.5426681
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.119, minus: 0.169}, label: 'sys'}
+      - value: 1.6507556
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.127, minus: 0.178}, label: 'sys'}
+      - value: 1.7839473
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.137, minus: 0.190}, label: 'sys'}
+      - value: 1.9151117
+        errors:
+          - {symerror: 0.007, label: 'stat'}
+          - {asymerror: {plus: 0.148, minus: 0.201}, label: 'sys'}
+      - value: 2.0242105
+        errors:
+          - {symerror: 0.008, label: 'stat'}
+          - {asymerror: {plus: 0.158, minus: 0.211}, label: 'sys'}
+      - value: 2.1844404
+        errors:
+          - {symerror: 0.010, label: 'stat'}
+          - {asymerror: {plus: 0.172, minus: 0.226}, label: 'sys'}
+      - value: 2.2969346
+        errors:
+          - {symerror: 0.012, label: 'stat'}
+          - {asymerror: {plus: 0.182, minus: 0.236}, label: 'sys'}
+      - value: 2.4086096
+        errors:
+          - {symerror: 0.014, label: 'stat'}
+          - {asymerror: {plus: 0.194, minus: 0.247}, label: 'sys'}
+      - value: 2.5073509
+        errors:
+          - {symerror: 0.017, label: 'stat'}
+          - {asymerror: {plus: 0.205, minus: 0.257}, label: 'sys'}
+      - value: 2.6189420
+        errors:
+          - {symerror: 0.020, label: 'stat'}
+          - {asymerror: {plus: 0.219, minus: 0.268}, label: 'sys'}
+      - value: 2.6550262
+        errors:
+          - {symerror: 0.024, label: 'stat'}
+          - {asymerror: {plus: 0.226, minus: 0.273}, label: 'sys'}
+      - value: 2.7541559
+        errors:
+          - {symerror: 0.028, label: 'stat'}
+          - {asymerror: {plus: 0.240, minus: 0.284}, label: 'sys'}
+      - value: 2.7795529
+        errors:
+          - {symerror: 0.032, label: 'stat'}
+          - {asymerror: {plus: 0.249, minus: 0.289}, label: 'sys'}
+      - value: 2.8388000
+        errors:
+          - {symerror: 0.037, label: 'stat'}
+          - {asymerror: {plus: 0.261, minus: 0.298}, label: 'sys'}
+      - value: 2.8580606
+        errors:
+          - {symerror: 0.032, label: 'stat'}
+          - {asymerror: {plus: 0.275, minus: 0.306}, label: 'sys'}
+      - value: 2.8539262
+        errors:
+          - {symerror: 0.041, label: 'stat'}
+          - {asymerror: {plus: 0.294, minus: 0.315}, label: 'sys'}
+      - value: 2.8282275
+        errors:
+          - {symerror: 0.052, label: 'stat'}
+          - {asymerror: {plus: 0.314, minus: 0.325}, label: 'sys'}
+      - value: 2.8640244
+        errors:
+          - {symerror: 0.067, label: 'stat'}
+          - {asymerror: {plus: 0.345, minus: 0.344}, label: 'sys'}
+      - value: 2.6004283
+        errors:
+          - {symerror: 0.079, label: 'stat'}
+          - {asymerror: {plus: 0.341, minus: 0.330}, label: 'sys'}
+      - value: 2.6903410
+        errors:
+          - {symerror: 0.092, label: 'stat'}
+          - {asymerror: {plus: 0.391, minus: 0.364}, label: 'sys'}
+      - value: 2.4800498
+        errors:
+          - {symerror: 0.113, label: 'stat'}
+          - {asymerror: {plus: 0.406, minus: 0.363}, label: 'sys'}
+      - value: 2.3863089
+        errors:
+          - {symerror: 0.141, label: 'stat'}
+          - {asymerror: {plus: 0.443, minus: 0.381}, label: 'sys'}
+      - value: 1.9815198
+        errors:
+          - {symerror: 0.162, label: 'stat'}
+          - {asymerror: {plus: 0.418, minus: 0.346}, label: 'sys'}
+      - value: 1.8612411
+        errors:
+          - {symerror: 0.153, label: 'stat'}
+          - {asymerror: {plus: 0.478, minus: 0.374}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: 'Centrality', value: '25-35%'}
+    values:
+      - value: 1.3043673
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.102, minus: 0.151}, label: 'sys'}
+      - value: 1.3427172
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.104, minus: 0.152}, label: 'sys'}
+      - value: 1.4075007
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.108, minus: 0.157}, label: 'sys'}
+      - value: 1.5054299
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.115, minus: 0.165}, label: 'sys'}
+      - value: 1.6186199
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.123, minus: 0.174}, label: 'sys'}
+      - value: 1.7457316
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.133, minus: 0.185}, label: 'sys'}
+      - value: 1.8861032
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.144, minus: 0.198}, label: 'sys'}
+      - value: 2.0464201
+        errors:
+          - {symerror: 0.006, label: 'stat'}
+          - {asymerror: {plus: 0.157, minus: 0.213}, label: 'sys'}
+      - value: 2.1902025
+        errors:
+          - {symerror: 0.007, label: 'stat'}
+          - {asymerror: {plus: 0.169, minus: 0.226}, label: 'sys'}
+      - value: 2.3289454
+        errors:
+          - {symerror: 0.009, label: 'stat'}
+          - {asymerror: {plus: 0.182, minus: 0.239}, label: 'sys'}
+      - value: 2.4936011
+        errors:
+          - {symerror: 0.010, label: 'stat'}
+          - {asymerror: {plus: 0.197, minus: 0.255}, label: 'sys'}
+      - value: 2.6435354
+        errors:
+          - {symerror: 0.012, label: 'stat'}
+          - {asymerror: {plus: 0.212, minus: 0.270}, label: 'sys'}
+      - value: 2.7259459
+        errors:
+          - {symerror: 0.015, label: 'stat'}
+          - {asymerror: {plus: 0.223, minus: 0.278}, label: 'sys'}
+      - value: 2.8458192
+        errors:
+          - {symerror: 0.017, label: 'stat'}
+          - {asymerror: {plus: 0.238, minus: 0.291}, label: 'sys'}
+      - value: 2.9057691
+        errors:
+          - {symerror: 0.020, label: 'stat'}
+          - {asymerror: {plus: 0.248, minus: 0.299}, label: 'sys'}
+      - value: 2.9584808
+        errors:
+          - {symerror: 0.024, label: 'stat'}
+          - {asymerror: {plus: 0.259, minus: 0.307}, label: 'sys'}
+      - value: 3.0078566
+        errors:
+          - {symerror: 0.028, label: 'stat'}
+          - {asymerror: {plus: 0.271, minus: 0.315}, label: 'sys'}
+      - value: 3.1112015
+        errors:
+          - {symerror: 0.032, label: 'stat'}
+          - {asymerror: {plus: 0.288, minus: 0.329}, label: 'sys'}
+      - value: 3.0916076
+        errors:
+          - {symerror: 0.028, label: 'stat'}
+          - {asymerror: {plus: 0.300, minus: 0.334}, label: 'sys'}
+      - value: 3.0080881
+        errors:
+          - {symerror: 0.035, label: 'stat'}
+          - {asymerror: {plus: 0.313, minus: 0.337}, label: 'sys'}
+      - value: 3.0236373
+        errors:
+          - {symerror: 0.045, label: 'stat'}
+          - {asymerror: {plus: 0.340, minus: 0.353}, label: 'sys'}
+      - value: 2.8677504
+        errors:
+          - {symerror: 0.055, label: 'stat'}
+          - {asymerror: {plus: 0.351, minus: 0.352}, label: 'sys'}
+      - value: 2.7710493
+        errors:
+          - {symerror: 0.068, label: 'stat'}
+          - {asymerror: {plus: 0.370, minus: 0.359}, label: 'sys'}
+      - value: 2.7307429
+        errors:
+          - {symerror: 0.076, label: 'stat'}
+          - {asymerror: {plus: 0.405, minus: 0.379}, label: 'sys'}
+      - value: 2.6489296
+        errors:
+          - {symerror: 0.097, label: 'stat'}
+          - {asymerror: {plus: 0.443, minus: 0.399}, label: 'sys'}
+      - value: 2.3462670
+        errors:
+          - {symerror: 0.115, label: 'stat'}
+          - {asymerror: {plus: 0.446, minus: 0.385}, label: 'sys'}
+      - value: 2.2555697
+        errors:
+          - {symerror: 0.142, label: 'stat'}
+          - {asymerror: {plus: 0.488, minus: 0.406}, label: 'sys'}
+      - value: 2.0057242
+        errors:
+          - {symerror: 0.131, label: 'stat'}
+          - {asymerror: {plus: 0.529, minus: 0.416}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: 'Centrality', value: '15-25%'}
+    values:
+      - value: 1.3212936
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.103, minus: 0.153}, label: 'sys'}
+      - value: 1.3640468
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.106, minus: 0.155}, label: 'sys'}
+      - value: 1.4327718
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.110, minus: 0.159}, label: 'sys'}
+      - value: 1.5408918
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.118, minus: 0.169}, label: 'sys'}
+      - value: 1.6713791
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.127, minus: 0.180}, label: 'sys'}
+      - value: 1.8063946
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.137, minus: 0.192}, label: 'sys'}
+      - value: 1.9621803
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.150, minus: 0.206}, label: 'sys'}
+      - value: 2.1290543
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.163, minus: 0.221}, label: 'sys'}
+      - value: 2.2849839
+        errors:
+          - {symerror: 0.006, label: 'stat'}
+          - {asymerror: {plus: 0.177, minus: 0.236}, label: 'sys'}
+      - value: 2.4480071
+        errors:
+          - {symerror: 0.007, label: 'stat'}
+          - {asymerror: {plus: 0.191, minus: 0.251}, label: 'sys'}
+      - value: 2.5988104
+        errors:
+          - {symerror: 0.009, label: 'stat'}
+          - {asymerror: {plus: 0.206, minus: 0.266}, label: 'sys'}
+      - value: 2.7545736
+        errors:
+          - {symerror: 0.011, label: 'stat'}
+          - {asymerror: {plus: 0.221, minus: 0.281}, label: 'sys'}
+      - value: 2.8795083
+        errors:
+          - {symerror: 0.013, label: 'stat'}
+          - {asymerror: {plus: 0.236, minus: 0.294}, label: 'sys'}
+      - value: 2.9665177
+        errors:
+          - {symerror: 0.015, label: 'stat'}
+          - {asymerror: {plus: 0.248, minus: 0.304}, label: 'sys'}
+      - value: 3.0721586
+        errors:
+          - {symerror: 0.018, label: 'stat'}
+          - {asymerror: {plus: 0.262, minus: 0.316}, label: 'sys'}
+      - value: 3.1358948
+        errors:
+          - {symerror: 0.021, label: 'stat'}
+          - {asymerror: {plus: 0.275, minus: 0.325}, label: 'sys'}
+      - value: 3.1493607
+        errors:
+          - {symerror: 0.024, label: 'stat'}
+          - {asymerror: {plus: 0.283, minus: 0.330}, label: 'sys'}
+      - value: 3.1608098
+        errors:
+          - {symerror: 0.027, label: 'stat'}
+          - {asymerror: {plus: 0.293, minus: 0.335}, label: 'sys'}
+      - value: 3.1973104
+        errors:
+          - {symerror: 0.024, label: 'stat'}
+          - {asymerror: {plus: 0.311, minus: 0.346}, label: 'sys'}
+      - value: 3.1724646
+        errors:
+          - {symerror: 0.030, label: 'stat'}
+          - {asymerror: {plus: 0.331, minus: 0.355}, label: 'sys'}
+      - value: 3.0060599
+        errors:
+          - {symerror: 0.038, label: 'stat'}
+          - {asymerror: {plus: 0.338, minus: 0.351}, label: 'sys'}
+      - value: 2.9225187
+        errors:
+          - {symerror: 0.047, label: 'stat'}
+          - {asymerror: {plus: 0.357, minus: 0.359}, label: 'sys'}
+      - value: 2.8276856
+        errors:
+          - {symerror: 0.057, label: 'stat'}
+          - {asymerror: {plus: 0.377, minus: 0.367}, label: 'sys'}
+      - value: 2.7536540
+        errors:
+          - {symerror: 0.064, label: 'stat'}
+          - {asymerror: {plus: 0.408, minus: 0.382}, label: 'sys'}
+      - value: 2.4588861
+        errors:
+          - {symerror: 0.078, label: 'stat'}
+          - {asymerror: {plus: 0.412, minus: 0.370}, label: 'sys'}
+      - value: 2.3996735
+        errors:
+          - {symerror: 0.098, label: 'stat'}
+          - {asymerror: {plus: 0.456, minus: 0.394}, label: 'sys'}
+      - value: 2.1374118
+        errors:
+          - {symerror: 0.116, label: 'stat'}
+          - {asymerror: {plus: 0.462, minus: 0.385}, label: 'sys'}
+      - value: 1.9155670
+        errors:
+          - {symerror: 0.108, label: 'stat'}
+          - {asymerror: {plus: 0.505, minus: 0.397}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: 'Centrality', value: '6-15%'}
+    values:
+      - value: 1.3427341
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.145, minus: 0.169}, label: 'sys'}
+      - value: 1.3862702
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.149, minus: 0.171}, label: 'sys'}
+      - value: 1.4708538
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.158, minus: 0.178}, label: 'sys'}
+      - value: 1.5803446
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.169, minus: 0.189}, label: 'sys'}
+      - value: 1.7213106
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.184, minus: 0.203}, label: 'sys'}
+      - value: 1.8666785
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.201, minus: 0.217}, label: 'sys'}
+      - value: 2.0322812
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.220, minus: 0.234}, label: 'sys'}
+      - value: 2.2019050
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.240, minus: 0.251}, label: 'sys'}
+      - value: 2.3730659
+        errors:
+          - {symerror: 0.006, label: 'stat'}
+          - {asymerror: {plus: 0.261, minus: 0.269}, label: 'sys'}
+      - value: 2.5452774
+        errors:
+          - {symerror: 0.007, label: 'stat'}
+          - {asymerror: {plus: 0.283, minus: 0.287}, label: 'sys'}
+      - value: 2.7244482
+        errors:
+          - {symerror: 0.008, label: 'stat'}
+          - {asymerror: {plus: 0.307, minus: 0.306}, label: 'sys'}
+      - value: 2.8536928
+        errors:
+          - {symerror: 0.010, label: 'stat'}
+          - {asymerror: {plus: 0.327, minus: 0.320}, label: 'sys'}
+      - value: 2.9900856
+        errors:
+          - {symerror: 0.012, label: 'stat'}
+          - {asymerror: {plus: 0.349, minus: 0.336}, label: 'sys'}
+      - value: 3.1101680
+        errors:
+          - {symerror: 0.014, label: 'stat'}
+          - {asymerror: {plus: 0.371, minus: 0.350}, label: 'sys'}
+      - value: 3.1970246
+        errors:
+          - {symerror: 0.017, label: 'stat'}
+          - {asymerror: {plus: 0.390, minus: 0.362}, label: 'sys'}
+      - value: 3.2235518
+        errors:
+          - {symerror: 0.019, label: 'stat'}
+          - {asymerror: {plus: 0.403, minus: 0.368}, label: 'sys'}
+      - value: 3.3591325
+        errors:
+          - {symerror: 0.022, label: 'stat'}
+          - {asymerror: {plus: 0.431, minus: 0.386}, label: 'sys'}
+      - value: 3.2663918
+        errors:
+          - {symerror: 0.025, label: 'stat'}
+          - {asymerror: {plus: 0.430, minus: 0.380}, label: 'sys'}
+      - value: 3.3037245
+        errors:
+          - {symerror: 0.022, label: 'stat'}
+          - {asymerror: {plus: 0.455, minus: 0.392}, label: 'sys'}
+      - value: 3.2511313
+        errors:
+          - {symerror: 0.028, label: 'stat'}
+          - {asymerror: {plus: 0.478, minus: 0.398}, label: 'sys'}
+      - value: 3.1224694
+        errors:
+          - {symerror: 0.035, label: 'stat'}
+          - {asymerror: {plus: 0.492, minus: 0.398}, label: 'sys'}
+      - value: 2.9251869
+        errors:
+          - {symerror: 0.043, label: 'stat'}
+          - {asymerror: {plus: 0.496, minus: 0.390}, label: 'sys'}
+      - value: 2.8039844
+        errors:
+          - {symerror: 0.052, label: 'stat'}
+          - {asymerror: {plus: 0.515, minus: 0.394}, label: 'sys'}
+      - value: 2.7185943
+        errors:
+          - {symerror: 0.059, label: 'stat'}
+          - {asymerror: {plus: 0.548, minus: 0.407}, label: 'sys'}
+      - value: 2.3432076
+        errors:
+          - {symerror: 0.070, label: 'stat'}
+          - {asymerror: {plus: 0.527, minus: 0.379}, label: 'sys'}
+      - value: 2.1959252
+        errors:
+          - {symerror: 0.085, label: 'stat'}
+          - {asymerror: {plus: 0.552, minus: 0.385}, label: 'sys'}
+      - value: 1.8711140
+        errors:
+          - {symerror: 0.099, label: 'stat'}
+          - {asymerror: {plus: 0.528, minus: 0.358}, label: 'sys'}
+      - value: 1.7866479
+        errors:
+          - {symerror: 0.095, label: 'stat'}
+          - {asymerror: {plus: 0.602, minus: 0.392}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: 'Centrality', value: '0-6%'}
+    values:
+      - value: 1.4363701
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.183, minus: 0.203}, label: 'sys'}
+      - value: 1.4829259
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.188, minus: 0.206}, label: 'sys'}
+      - value: 1.5630473
+        errors:
+          - {symerror: 0.002, label: 'stat'}
+          - {asymerror: {plus: 0.197, minus: 0.215}, label: 'sys'}
+      - value: 1.6762724
+        errors:
+          - {symerror: 0.003, label: 'stat'}
+          - {asymerror: {plus: 0.212, minus: 0.228}, label: 'sys'}
+      - value: 1.8109840
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.229, minus: 0.244}, label: 'sys'}
+      - value: 1.9739871
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.251, minus: 0.264}, label: 'sys'}
+      - value: 2.1390195
+        errors:
+          - {symerror: 0.004, label: 'stat'}
+          - {asymerror: {plus: 0.274, minus: 0.284}, label: 'sys'}
+      - value: 2.3196108
+        errors:
+          - {symerror: 0.005, label: 'stat'}
+          - {asymerror: {plus: 0.300, minus: 0.307}, label: 'sys'}
+      - value: 2.4785185
+        errors:
+          - {symerror: 0.006, label: 'stat'}
+          - {asymerror: {plus: 0.325, minus: 0.327}, label: 'sys'}
+      - value: 2.6433263
+        errors:
+          - {symerror: 0.008, label: 'stat'}
+          - {asymerror: {plus: 0.351, minus: 0.349}, label: 'sys'}
+      - value: 2.8246577
+        errors:
+          - {symerror: 0.010, label: 'stat'}
+          - {asymerror: {plus: 0.381, minus: 0.373}, label: 'sys'}
+      - value: 2.9606209
+        errors:
+          - {symerror: 0.011, label: 'stat'}
+          - {asymerror: {plus: 0.407, minus: 0.392}, label: 'sys'}
+      - value: 3.1020856
+        errors:
+          - {symerror: 0.014, label: 'stat'}
+          - {asymerror: {plus: 0.435, minus: 0.412}, label: 'sys'}
+      - value: 3.2242208
+        errors:
+          - {symerror: 0.016, label: 'stat'}
+          - {asymerror: {plus: 0.463, minus: 0.431}, label: 'sys'}
+      - value: 3.2682831
+        errors:
+          - {symerror: 0.019, label: 'stat'}
+          - {asymerror: {plus: 0.481, minus: 0.441}, label: 'sys'}
+      - value: 3.3387623
+        errors:
+          - {symerror: 0.022, label: 'stat'}
+          - {asymerror: {plus: 0.504, minus: 0.454}, label: 'sys'}
+      - value: 3.3547261
+        errors:
+          - {symerror: 0.025, label: 'stat'}
+          - {asymerror: {plus: 0.521, minus: 0.462}, label: 'sys'}
+      - value: 3.3225541
+        errors:
+          - {symerror: 0.029, label: 'stat'}
+          - {asymerror: {plus: 0.531, minus: 0.463}, label: 'sys'}
+      - value: 3.3049982
+        errors:
+          - {symerror: 0.025, label: 'stat'}
+          - {asymerror: {plus: 0.554, minus: 0.471}, label: 'sys'}
+      - value: 3.2693422
+        errors:
+          - {symerror: 0.032, label: 'stat'}
+          - {asymerror: {plus: 0.586, minus: 0.482}, label: 'sys'}
+      - value: 3.1275742
+        errors:
+          - {symerror: 0.040, label: 'stat'}
+          - {asymerror: {plus: 0.603, minus: 0.480}, label: 'sys'}
+      - value: 2.8087878
+        errors:
+          - {symerror: 0.047, label: 'stat'}
+          - {asymerror: {plus: 0.586, minus: 0.451}, label: 'sys'}
+      - value: 2.7662590
+        errors:
+          - {symerror: 0.059, label: 'stat'}
+          - {asymerror: {plus: 0.626, minus: 0.467}, label: 'sys'}
+      - value: 2.4762194
+        errors:
+          - {symerror: 0.063, label: 'stat'}
+          - {asymerror: {plus: 0.617, minus: 0.444}, label: 'sys'}
+      - value: 2.2685850
+        errors:
+          - {symerror: 0.078, label: 'stat'}
+          - {asymerror: {plus: 0.632, minus: 0.437}, label: 'sys'}
+      - value: 2.0981686
+        errors:
+          - {symerror: 0.095, label: 'stat'}
+          - {asymerror: {plus: 0.656, minus: 0.437}, label: 'sys'}
+      - value: 1.7050562
+        errors:
+          - {symerror: 0.108, label: 'stat'}
+          - {asymerror: {plus: 0.600, minus: 0.385}, label: 'sys'}
+      - value: 1.7236458
+        errors:
+          - {symerror: 0.107, label: 'stat'}
+          - {asymerror: {plus: 0.726, minus: 0.442}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '45-50%'}
+    values:
+      - value: 0.3687
+        errors:
+          - {symerror: 0.00154, label: 'stat'}
+          - {asymerror: {plus: 0.04908, minus: 0.1635}, label: 'sys'}
+      - value: 0.3912
+        errors:
+          - {symerror: 0.00173, label: 'stat'}
+          - {asymerror: {plus: 0.05148, minus: 0.1635}, label: 'sys'}
+      - value: 0.4232
+        errors:
+          - {symerror: 0.00210, label: 'stat'}
+          - {asymerror: {plus: 0.05512, minus: 0.1635}, label: 'sys'}
+      - value: 0.4663
+        errors:
+          - {symerror: 0.00266, label: 'stat'}
+          - {asymerror: {plus: 0.06017, minus: 0.1635}, label: 'sys'}
+      - value: 0.5138
+        errors:
+          - {symerror: 0.00340, label: 'stat'}
+          - {asymerror: {plus: 0.06576, minus: 0.1635}, label: 'sys'}
+      - value: 0.5697
+        errors:
+          - {symerror: 0.00340, label: 'stat'}
+          - {asymerror: {plus: 0.07240, minus: 0.1635}, label: 'sys'}
+      - value: 0.6271
+        errors:
+          - {symerror: 0.00434, label: 'stat'}
+          - {asymerror: {plus: 0.07922, minus: 0.1635}, label: 'sys'}
+      - value: 0.6715
+        errors:
+          - {symerror: 0.00546, label: 'stat'}
+          - {asymerror: {plus: 0.08442, minus: 0.1635}, label: 'sys'}
+      - value: 0.7524
+        errors:
+          - {symerror: 0.00702, label: 'stat'}
+          - {asymerror: {plus: 0.09425, minus: 0.1635}, label: 'sys'}
+      - value: 0.8220
+        errors:
+          - {symerror: 0.00888, label: 'stat'}
+          - {asymerror: {plus: 0.10269, minus: 0.1635}, label: 'sys'}
+      - value: 0.8798
+        errors:
+          - {symerror: 0.01107, label: 'stat'}
+          - {asymerror: {plus: 0.10972, minus: 0.1635}, label: 'sys'}
+      - value: 0.9394
+        errors:
+          - {symerror: 0.01376, label: 'stat'}
+          - {asymerror: {plus: 0.11708, minus: 0.1635}, label: 'sys'}
+      - value: 1.0004
+        errors:
+          - {symerror: 0.01699, label: 'stat'}
+          - {asymerror: {plus: 0.12471, minus: 0.1635}, label: 'sys'}
+      - value: 1.0651
+        errors:
+          - {symerror: 0.02086, label: 'stat'}
+          - {asymerror: {plus: 0.13294, minus: 0.1635}, label: 'sys'}
+      - value: 1.1537
+        errors:
+          - {symerror: 0.02570, label: 'stat'}
+          - {asymerror: {plus: 0.14432, minus: 0.1635}, label: 'sys'}
+      - value: 1.1500
+        errors:
+          - {symerror: 0.03024, label: 'stat'}
+          - {asymerror: {plus: 0.14430, minus: 0.1635}, label: 'sys'}
+      - value: 1.1941
+        errors:
+          - {symerror: 0.03628, label: 'stat'}
+          - {asymerror: {plus: 0.15041, minus: 0.1635}, label: 'sys'}
+      - value: 1.2777
+        errors:
+          - {symerror: 0.04383, label: 'stat'}
+          - {asymerror: {plus: 0.16172, minus: 0.1635}, label: 'sys'}
+      - value: 1.3051
+        errors:
+          - {symerror: 0.03968, label: 'stat'}
+          - {asymerror: {plus: 0.16661, minus: 0.1635}, label: 'sys'}
+      - value: 1.3688
+        errors:
+          - {symerror: 0.05565, label: 'stat'}
+          - {asymerror: {plus: 0.17721, minus: 0.1635}, label: 'sys'}
+      - value: 1.5329
+        errors:
+          - {symerror: 0.07895, label: 'stat'}
+          - {asymerror: {plus: 0.20184, minus: 0.1635}, label: 'sys'}
+      - value: 1.7256
+        errors:
+          - {symerror: 0.11115, label: 'stat'}
+          - {asymerror: {plus: 0.23168, minus: 0.1635}, label: 'sys'}
+      - value: 1.3083
+        errors:
+          - {symerror: 0.12708, label: 'stat'}
+          - {asymerror: {plus: 0.17956, minus: 0.1635}, label: 'sys'}
+      - value: 1.5790
+        errors:
+          - {symerror: 0.16552, label: 'stat'}
+          - {asymerror: {plus: 0.22274, minus: 0.1635}, label: 'sys'}
+      - value: 1.3380
+        errors:
+          - {symerror: 0.22617, label: 'stat'}
+          - {asymerror: {plus: 0.19524, minus: 0.1635}, label: 'sys'}
+      - value: 1.3497
+        errors:
+          - {symerror: 0.29454, label: 'stat'}
+          - {asymerror: {plus: 0.20436, minus: 0.1635}, label: 'sys'}
+      - value: 1.1847
+        errors:
+          - {symerror: 0.37462, label: 'stat'}
+          - {asymerror: {plus: 0.18668, minus: 0.1635}, label: 'sys'}
+      - value: 0.0000
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '35-45%'}
+    values:
+      - value: 0.3144
+        errors:
+          - {symerror: 0.00076, label: 'stat'}
+          - {asymerror: {plus: 0.04185, minus: 0.1588}, label: 'sys'}
+      - value: 0.3353
+        errors:
+          - {symerror: 0.00086, label: 'stat'}
+          - {asymerror: {plus: 0.04412, minus: 0.1588}, label: 'sys'}
+      - value: 0.3618
+        errors:
+          - {symerror: 0.00103, label: 'stat'}
+          - {asymerror: {plus: 0.04712, minus: 0.1588}, label: 'sys'}
+      - value: 0.4002
+        errors:
+          - {symerror: 0.00131, label: 'stat'}
+          - {asymerror: {plus: 0.05163, minus: 0.1588}, label: 'sys'}
+      - value: 0.4469
+        errors:
+          - {symerror: 0.00170, label: 'stat'}
+          - {asymerror: {plus: 0.05720, minus: 0.1588}, label: 'sys'}
+      - value: 0.4919
+        errors:
+          - {symerror: 0.00169, label: 'stat'}
+          - {asymerror: {plus: 0.06252, minus: 0.1588}, label: 'sys'}
+      - value: 0.5526
+        errors:
+          - {symerror: 0.00218, label: 'stat'}
+          - {asymerror: {plus: 0.06982, minus: 0.1588}, label: 'sys'}
+      - value: 0.6108
+        errors:
+          - {symerror: 0.00278, label: 'stat'}
+          - {asymerror: {plus: 0.07680, minus: 0.1588}, label: 'sys'}
+      - value: 0.6710
+        errors:
+          - {symerror: 0.00354, label: 'stat'}
+          - {asymerror: {plus: 0.08404, minus: 0.1588}, label: 'sys'}
+      - value: 0.7361
+        errors:
+          - {symerror: 0.00448, label: 'stat'}
+          - {asymerror: {plus: 0.09195, minus: 0.1588}, label: 'sys'}
+      - value: 0.7994
+        errors:
+          - {symerror: 0.00564, label: 'stat'}
+          - {asymerror: {plus: 0.09969, minus: 0.1588}, label: 'sys'}
+      - value: 0.8606
+        errors:
+          - {symerror: 0.00703, label: 'stat'}
+          - {asymerror: {plus: 0.10725, minus: 0.1588}, label: 'sys'}
+      - value: 0.9208
+        errors:
+          - {symerror: 0.00869, label: 'stat'}
+          - {asymerror: {plus: 0.11479, minus: 0.1588}, label: 'sys'}
+      - value: 0.9745
+        errors:
+          - {symerror: 0.01067, label: 'stat'}
+          - {asymerror: {plus: 0.12163, minus: 0.1588}, label: 'sys'}
+      - value: 1.0555
+        errors:
+          - {symerror: 0.01314, label: 'stat'}
+          - {asymerror: {plus: 0.13203, minus: 0.1588}, label: 'sys'}
+      - value: 1.0503
+        errors:
+          - {symerror: 0.01549, label: 'stat'}
+          - {asymerror: {plus: 0.13179, minus: 0.1588}, label: 'sys'}
+      - value: 1.1249
+        errors:
+          - {symerror: 0.01879, label: 'stat'}
+          - {asymerror: {plus: 0.14170, minus: 0.1588}, label: 'sys'}
+      - value: 1.1303
+        errors:
+          - {symerror: 0.02206, label: 'stat'}
+          - {asymerror: {plus: 0.14306, minus: 0.1588}, label: 'sys'}
+      - value: 1.2202
+        errors:
+          - {symerror: 0.02068, label: 'stat'}
+          - {asymerror: {plus: 0.15577, minus: 0.1588}, label: 'sys'}
+      - value: 1.2952
+        errors:
+          - {symerror: 0.02879, label: 'stat'}
+          - {asymerror: {plus: 0.16768, minus: 0.1588}, label: 'sys'}
+      - value: 1.3221
+        errors:
+          - {symerror: 0.03921, label: 'stat'}
+          - {asymerror: {plus: 0.17407, minus: 0.1588}, label: 'sys'}
+      - value: 1.3157
+        errors:
+          - {symerror: 0.05197, label: 'stat'}
+          - {asymerror: {plus: 0.17665, minus: 0.1588}, label: 'sys'}
+      - value: 1.3641
+        errors:
+          - {symerror: 0.06961, label: 'stat'}
+          - {asymerror: {plus: 0.18721, minus: 0.1588}, label: 'sys'}
+      - value: 1.2569
+        errors:
+          - {symerror: 0.07949, label: 'stat'}
+          - {asymerror: {plus: 0.17730, minus: 0.1588}, label: 'sys'}
+      - value: 1.3914
+        errors:
+          - {symerror: 0.11595, label: 'stat'}
+          - {asymerror: {plus: 0.20302, minus: 0.1588}, label: 'sys'}
+      - value: 1.0534
+        errors:
+          - {symerror: 0.13715, label: 'stat'}
+          - {asymerror: {plus: 0.15950, minus: 0.1588}, label: 'sys'}
+      - value: 1.1033
+        errors:
+          - {symerror: 0.18649, label: 'stat'}
+          - {asymerror: {plus: 0.17386, minus: 0.1588}, label: 'sys'}
+      - value: 1.4946
+        errors:
+          - {symerror: 0.23632, label: 'stat'}
+          - {asymerror: {plus: 0.25137, minus: 0.1588}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '25-35%'}
+    values:
+      - value: 0.2691
+        errors:
+          - {symerror: 0.00052, label: 'stat'}
+          - {asymerror: {plus: 0.03582, minus: 0.1229}, label: 'sys'}
+      - value: 0.2893
+        errors:
+          - {symerror: 0.00059, label: 'stat'}
+          - {asymerror: {plus: 0.03806, minus: 0.1229}, label: 'sys'}
+      - value: 0.3141
+        errors:
+          - {symerror: 0.00071, label: 'stat'}
+          - {asymerror: {plus: 0.04090, minus: 0.1229}, label: 'sys'}
+      - value: 0.3505
+        errors:
+          - {symerror: 0.00091, label: 'stat'}
+          - {asymerror: {plus: 0.04522, minus: 0.1229}, label: 'sys'}
+      - value: 0.3963
+        errors:
+          - {symerror: 0.00119, label: 'stat'}
+          - {asymerror: {plus: 0.05072, minus: 0.1229}, label: 'sys'}
+      - value: 0.4360
+        errors:
+          - {symerror: 0.00118, label: 'stat'}
+          - {asymerror: {plus: 0.05542, minus: 0.1229}, label: 'sys'}
+      - value: 0.4877
+        errors:
+          - {symerror: 0.00152, label: 'stat'}
+          - {asymerror: {plus: 0.06161, minus: 0.1229}, label: 'sys'}
+      - value: 0.5499
+        errors:
+          - {symerror: 0.00196, label: 'stat'}
+          - {asymerror: {plus: 0.06914, minus: 0.1229}, label: 'sys'}
+      - value: 0.6100
+        errors:
+          - {symerror: 0.00250, label: 'stat'}
+          - {asymerror: {plus: 0.07640, minus: 0.1229}, label: 'sys'}
+      - value: 0.6692
+        errors:
+          - {symerror: 0.00318, label: 'stat'}
+          - {asymerror: {plus: 0.08360, minus: 0.1229}, label: 'sys'}
+      - value: 0.7307
+        errors:
+          - {symerror: 0.00400, label: 'stat'}
+          - {asymerror: {plus: 0.09112, minus: 0.1229}, label: 'sys'}
+      - value: 0.7941
+        errors:
+          - {symerror: 0.00501, label: 'stat'}
+          - {asymerror: {plus: 0.09896, minus: 0.1229}, label: 'sys'}
+      - value: 0.8402
+        errors:
+          - {symerror: 0.00617, label: 'stat'}
+          - {asymerror: {plus: 0.10474, minus: 0.1229}, label: 'sys'}
+      - value: 0.9076
+        errors:
+          - {symerror: 0.00763, label: 'stat'}
+          - {asymerror: {plus: 0.11329, minus: 0.1229}, label: 'sys'}
+      - value: 0.9601
+        errors:
+          - {symerror: 0.00929, label: 'stat'}
+          - {asymerror: {plus: 0.12010, minus: 0.1229}, label: 'sys'}
+      - value: 1.0091
+        errors:
+          - {symerror: 0.01127, label: 'stat'}
+          - {asymerror: {plus: 0.12662, minus: 0.1229}, label: 'sys'}
+      - value: 1.0496
+        errors:
+          - {symerror: 0.01348, label: 'stat'}
+          - {asymerror: {plus: 0.13221, minus: 0.1229}, label: 'sys'}
+      - value: 1.0817
+        errors:
+          - {symerror: 0.01604, label: 'stat'}
+          - {asymerror: {plus: 0.13690, minus: 0.1229}, label: 'sys'}
+      - value: 1.1391
+        errors:
+          - {symerror: 0.01478, label: 'stat'}
+          - {asymerror: {plus: 0.14541, minus: 0.1229}, label: 'sys'}
+      - value: 1.1827
+        errors:
+          - {symerror: 0.02049, label: 'stat'}
+          - {asymerror: {plus: 0.15312, minus: 0.1229}, label: 'sys'}
+      - value: 1.2758
+        errors:
+          - {symerror: 0.02859, label: 'stat'}
+          - {asymerror: {plus: 0.16798, minus: 0.1229}, label: 'sys'}
+      - value: 1.1810
+        errors:
+          - {symerror: 0.03640, label: 'stat'}
+          - {asymerror: {plus: 0.15857, minus: 0.1229}, label: 'sys'}
+      - value: 1.2029
+        errors:
+          - {symerror: 0.04808, label: 'stat'}
+          - {asymerror: {plus: 0.16509, minus: 0.1229}, label: 'sys'}
+      - value: 1.2492
+        errors:
+          - {symerror: 0.05969, label: 'stat'}
+          - {asymerror: {plus: 0.17622, minus: 0.1229}, label: 'sys'}
+      - value: 1.1487
+        errors:
+          - {symerror: 0.07853, label: 'stat'}
+          - {asymerror: {plus: 0.16761, minus: 0.1229}, label: 'sys'}
+      - value: 0.9599
+        errors:
+          - {symerror: 0.09796, label: 'stat'}
+          - {asymerror: {plus: 0.14533, minus: 0.1229}, label: 'sys'}
+      - value: 1.2100
+        errors:
+          - {symerror: 0.14783, label: 'stat'}
+          - {asymerror: {plus: 0.19068, minus: 0.1229}, label: 'sys'}
+      - value: 1.2009
+        errors:
+          - {symerror: 0.15906, label: 'stat'}
+          - {asymerror: {plus: 0.20196, minus: 0.1229}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '15-25%'}
+    values:
+      - value: 0.2382
+        errors:
+          - {symerror: 0.00038, label: 'stat'}
+          - {asymerror: {plus: 0.03171, minus: 0.0888}, label: 'sys'}
+      - value: 0.2576
+        errors:
+          - {symerror: 0.00043, label: 'stat'}
+          - {asymerror: {plus: 0.03390, minus: 0.0888}, label: 'sys'}
+      - value: 0.2832
+        errors:
+          - {symerror: 0.00053, label: 'stat'}
+          - {asymerror: {plus: 0.03688, minus: 0.0888}, label: 'sys'}
+      - value: 0.3159
+        errors:
+          - {symerror: 0.00068, label: 'stat'}
+          - {asymerror: {plus: 0.04077, minus: 0.0888}, label: 'sys'}
+      - value: 0.3585
+        errors:
+          - {symerror: 0.00088, label: 'stat'}
+          - {asymerror: {plus: 0.04588, minus: 0.0888}, label: 'sys'}
+      - value: 0.3989
+        errors:
+          - {symerror: 0.00088, label: 'stat'}
+          - {asymerror: {plus: 0.05070, minus: 0.0888}, label: 'sys'}
+      - value: 0.4515
+        errors:
+          - {symerror: 0.00114, label: 'stat'}
+          - {asymerror: {plus: 0.05705, minus: 0.0888}, label: 'sys'}
+      - value: 0.5073
+        errors:
+          - {symerror: 0.00147, label: 'stat'}
+          - {asymerror: {plus: 0.06379, minus: 0.0888}, label: 'sys'}
+      - value: 0.5642
+        errors:
+          - {symerror: 0.00188, label: 'stat'}
+          - {asymerror: {plus: 0.07067, minus: 0.0888}, label: 'sys'}
+      - value: 0.6229
+        errors:
+          - {symerror: 0.00239, label: 'stat'}
+          - {asymerror: {plus: 0.07782, minus: 0.0888}, label: 'sys'}
+      - value: 0.6823
+        errors:
+          - {symerror: 0.00302, label: 'stat'}
+          - {asymerror: {plus: 0.08509, minus: 0.0888}, label: 'sys'}
+      - value: 0.7411
+        errors:
+          - {symerror: 0.00378, label: 'stat'}
+          - {asymerror: {plus: 0.09237, minus: 0.0888}, label: 'sys'}
+      - value: 0.7972
+        errors:
+          - {symerror: 0.00469, label: 'stat'}
+          - {asymerror: {plus: 0.09939, minus: 0.0888}, label: 'sys'}
+      - value: 0.8421
+        errors:
+          - {symerror: 0.00573, label: 'stat'}
+          - {asymerror: {plus: 0.10511, minus: 0.0888}, label: 'sys'}
+      - value: 0.9086
+        errors:
+          - {symerror: 0.00706, label: 'stat'}
+          - {asymerror: {plus: 0.11367, minus: 0.0888}, label: 'sys'}
+      - value: 0.9404
+        errors:
+          - {symerror: 0.00847, label: 'stat'}
+          - {asymerror: {plus: 0.11800, minus: 0.0888}, label: 'sys'}
+      - value: 0.9752
+        errors:
+          - {symerror: 0.01013, label: 'stat'}
+          - {asymerror: {plus: 0.12284, minus: 0.0888}, label: 'sys'}
+      - value: 1.0334
+        errors:
+          - {symerror: 0.01224, label: 'stat'}
+          - {asymerror: {plus: 0.13079, minus: 0.0888}, label: 'sys'}
+      - value: 1.0847
+        errors:
+          - {symerror: 0.01126, label: 'stat'}
+          - {asymerror: {plus: 0.13847, minus: 0.0888}, label: 'sys'}
+      - value: 1.1343
+        errors:
+          - {symerror: 0.01563, label: 'stat'}
+          - {asymerror: {plus: 0.14686, minus: 0.0888}, label: 'sys'}
+      - value: 1.1269
+        errors:
+          - {symerror: 0.02094, label: 'stat'}
+          - {asymerror: {plus: 0.14837, minus: 0.0888}, label: 'sys'}
+      - value: 1.1143
+        errors:
+          - {symerror: 0.02762, label: 'stat'}
+          - {asymerror: {plus: 0.14960, minus: 0.0888}, label: 'sys'}
+      - value: 1.0872
+        errors:
+          - {symerror: 0.03594, label: 'stat'}
+          - {asymerror: {plus: 0.14921, minus: 0.0888}, label: 'sys'}
+      - value: 1.1304
+        errors:
+          - {symerror: 0.04394, label: 'stat'}
+          - {asymerror: {plus: 0.15947, minus: 0.0888}, label: 'sys'}
+      - value: 1.1045
+        errors:
+          - {symerror: 0.06080, label: 'stat'}
+          - {asymerror: {plus: 0.16115, minus: 0.0888}, label: 'sys'}
+      - value: 1.1107
+        errors:
+          - {symerror: 0.08189, label: 'stat'}
+          - {asymerror: {plus: 0.16818, minus: 0.0888}, label: 'sys'}
+      - value: 1.1926
+        errors:
+          - {symerror: 0.11583, label: 'stat'}
+          - {asymerror: {plus: 0.18793, minus: 0.0888}, label: 'sys'}
+      - value: 0.8119
+        errors:
+          - {symerror: 0.09919, label: 'stat'}
+          - {asymerror: {plus: 0.13654, minus: 0.0888}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '6-15%'}
+    values:
+      - value: 0.2156
+        errors:
+          - {symerror: 0.00031, label: 'stat'}
+          - {asymerror: {plus: 0.02869, minus: 0.0743}, label: 'sys'}
+      - value: 0.2349
+        errors:
+          - {symerror: 0.00035, label: 'stat'}
+          - {asymerror: {plus: 0.03091, minus: 0.0743}, label: 'sys'}
+      - value: 0.2584
+        errors:
+          - {symerror: 0.00043, label: 'stat'}
+          - {asymerror: {plus: 0.03365, minus: 0.0743}, label: 'sys'}
+      - value: 0.2898
+        errors:
+          - {symerror: 0.00055, label: 'stat'}
+          - {asymerror: {plus: 0.03739, minus: 0.0743}, label: 'sys'}
+      - value: 0.3298
+        errors:
+          - {symerror: 0.00071, label: 'stat'}
+          - {asymerror: {plus: 0.04221, minus: 0.0743}, label: 'sys'}
+      - value: 0.3676
+        errors:
+          - {symerror: 0.00071, label: 'stat'}
+          - {asymerror: {plus: 0.04671, minus: 0.0743}, label: 'sys'}
+      - value: 0.4152
+        errors:
+          - {symerror: 0.00092, label: 'stat'}
+          - {asymerror: {plus: 0.05246, minus: 0.0743}, label: 'sys'}
+      - value: 0.4670
+        errors:
+          - {symerror: 0.00119, label: 'stat'}
+          - {asymerror: {plus: 0.05872, minus: 0.0743}, label: 'sys'}
+      - value: 0.5239
+        errors:
+          - {symerror: 0.00154, label: 'stat'}
+          - {asymerror: {plus: 0.06562, minus: 0.0743}, label: 'sys'}
+      - value: 0.5750
+        errors:
+          - {symerror: 0.00195, label: 'stat'}
+          - {asymerror: {plus: 0.07182, minus: 0.0743}, label: 'sys'}
+      - value: 0.6268
+        errors:
+          - {symerror: 0.00245, label: 'stat'}
+          - {asymerror: {plus: 0.07816, minus: 0.0743}, label: 'sys'}
+      - value: 0.6852
+        errors:
+          - {symerror: 0.00308, label: 'stat'}
+          - {asymerror: {plus: 0.08539, minus: 0.0743}, label: 'sys'}
+      - value: 0.7364
+        errors:
+          - {symerror: 0.00382, label: 'stat'}
+          - {asymerror: {plus: 0.09181, minus: 0.0743}, label: 'sys'}
+      - value: 0.7826
+        errors:
+          - {symerror: 0.00469, label: 'stat'}
+          - {asymerror: {plus: 0.09769, minus: 0.0743}, label: 'sys'}
+      - value: 0.8280
+        errors:
+          - {symerror: 0.00572, label: 'stat'}
+          - {asymerror: {plus: 0.10358, minus: 0.0743}, label: 'sys'}
+      - value: 0.8712
+        errors:
+          - {symerror: 0.00692, label: 'stat'}
+          - {asymerror: {plus: 0.10932, minus: 0.0743}, label: 'sys'}
+      - value: 0.8999
+        errors:
+          - {symerror: 0.00827, label: 'stat'}
+          - {asymerror: {plus: 0.11336, minus: 0.0743}, label: 'sys'}
+      - value: 0.9307
+        errors:
+          - {symerror: 0.00986, label: 'stat'}
+          - {asymerror: {plus: 0.11779, minus: 0.0743}, label: 'sys'}
+      - value: 0.9813
+        errors:
+          - {symerror: 0.00907, label: 'stat'}
+          - {asymerror: {plus: 0.12528, minus: 0.0743}, label: 'sys'}
+      - value: 1.0122
+        errors:
+          - {symerror: 0.01252, label: 'stat'}
+          - {asymerror: {plus: 0.13104, minus: 0.0743}, label: 'sys'}
+      - value: 1.0158
+        errors:
+          - {symerror: 0.01685, label: 'stat'}
+          - {asymerror: {plus: 0.13375, minus: 0.0743}, label: 'sys'}
+      - value: 0.9659
+        errors:
+          - {symerror: 0.02175, label: 'stat'}
+          - {asymerror: {plus: 0.12969, minus: 0.0743}, label: 'sys'}
+      - value: 0.9600
+        errors:
+          - {symerror: 0.02851, label: 'stat'}
+          - {asymerror: {plus: 0.13176, minus: 0.0743}, label: 'sys'}
+      - value: 1.0093
+        errors:
+          - {symerror: 0.03549, label: 'stat'}
+          - {asymerror: {plus: 0.14238, minus: 0.0743}, label: 'sys'}
+      - value: 0.9882
+        errors:
+          - {symerror: 0.04799, label: 'stat'}
+          - {asymerror: {plus: 0.14419, minus: 0.0743}, label: 'sys'}
+      - value: 0.9618
+        errors:
+          - {symerror: 0.06514, label: 'stat'}
+          - {asymerror: {plus: 0.14562, minus: 0.0743}, label: 'sys'}
+      - value: 0.7948
+        errors:
+          - {symerror: 0.07908, label: 'stat'}
+          - {asymerror: {plus: 0.12524, minus: 0.0743}, label: 'sys'}
+      - value: 0.8017
+        errors:
+          - {symerror: 0.08451, label: 'stat'}
+          - {asymerror: {plus: 0.13484, minus: 0.0743}, label: 'sys'}
+  - header: {name: 'Charged Particle Yield'}
+    qualifiers:
+      - {name: 'Experiment', value: 'Phobos'}
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '0-6%'}
+    values:
+      - value: 0.2071
+        errors:
+          - {symerror: 0.00032, label: 'stat'}
+          - {asymerror: {plus: 0.02756, minus: 0.0735}, label: 'sys'}
+      - value: 0.2261
+        errors:
+          - {symerror: 0.00037, label: 'stat'}
+          - {asymerror: {plus: 0.02975, minus: 0.0735}, label: 'sys'}
+      - value: 0.2479
+        errors:
+          - {symerror: 0.00045, label: 'stat'}
+          - {asymerror: {plus: 0.03228, minus: 0.0735}, label: 'sys'}
+      - value: 0.2801
+        errors:
+          - {symerror: 0.00058, label: 'stat'}
+          - {asymerror: {plus: 0.03615, minus: 0.0735}, label: 'sys'}
+      - value: 0.3173
+        errors:
+          - {symerror: 0.00075, label: 'stat'}
+          - {asymerror: {plus: 0.04061, minus: 0.0735}, label: 'sys'}
+      - value: 0.3556
+        errors:
+          - {symerror: 0.00075, label: 'stat'}
+          - {asymerror: {plus: 0.04519, minus: 0.0735}, label: 'sys'}
+      - value: 0.3997
+        errors:
+          - {symerror: 0.00097, label: 'stat'}
+          - {asymerror: {plus: 0.05050, minus: 0.0735}, label: 'sys'}
+      - value: 0.4507
+        errors:
+          - {symerror: 0.00126, label: 'stat'}
+          - {asymerror: {plus: 0.05666, minus: 0.0735}, label: 'sys'}
+      - value: 0.5028
+        errors:
+          - {symerror: 0.00161, label: 'stat'}
+          - {asymerror: {plus: 0.06297, minus: 0.0735}, label: 'sys'}
+      - value: 0.5530
+        errors:
+          - {symerror: 0.00205, label: 'stat'}
+          - {asymerror: {plus: 0.06907, minus: 0.0735}, label: 'sys'}
+      - value: 0.6058
+        errors:
+          - {symerror: 0.00258, label: 'stat'}
+          - {asymerror: {plus: 0.07555, minus: 0.0735}, label: 'sys'}
+      - value: 0.6569
+        errors:
+          - {symerror: 0.00323, label: 'stat'}
+          - {asymerror: {plus: 0.08187, minus: 0.0735}, label: 'sys'}
+      - value: 0.7019
+        errors:
+          - {symerror: 0.00400, label: 'stat'}
+          - {asymerror: {plus: 0.08750, minus: 0.0735}, label: 'sys'}
+      - value: 0.7385
+        errors:
+          - {symerror: 0.00489, label: 'stat'}
+          - {asymerror: {plus: 0.09218, minus: 0.0735}, label: 'sys'}
+      - value: 0.7936
+        errors:
+          - {symerror: 0.00600, label: 'stat'}
+          - {asymerror: {plus: 0.09927, minus: 0.0735}, label: 'sys'}
+      - value: 0.8286
+        errors:
+          - {symerror: 0.00722, label: 'stat'}
+          - {asymerror: {plus: 0.10398, minus: 0.0735}, label: 'sys'}
+      - value: 0.8577
+        errors:
+          - {symerror: 0.00865, label: 'stat'}
+          - {asymerror: {plus: 0.10805, minus: 0.0735}, label: 'sys'}
+      - value: 0.8885
+        errors:
+          - {symerror: 0.01034, label: 'stat'}
+          - {asymerror: {plus: 0.11246, minus: 0.0735}, label: 'sys'}
+      - value: 0.9120
+        errors:
+          - {symerror: 0.00938, label: 'stat'}
+          - {asymerror: {plus: 0.11643, minus: 0.0735}, label: 'sys'}
+      - value: 0.9293
+        errors:
+          - {symerror: 0.01289, label: 'stat'}
+          - {asymerror: {plus: 0.12032, minus: 0.0735}, label: 'sys'}
+      - value: 0.9342
+        errors:
+          - {symerror: 0.01734, label: 'stat'}
+          - {asymerror: {plus: 0.12301, minus: 0.0735}, label: 'sys'}
+      - value: 0.9228
+        errors:
+          - {symerror: 0.02281, label: 'stat'}
+          - {asymerror: {plus: 0.12390, minus: 0.0735}, label: 'sys'}
+      - value: 0.8919
+        errors:
+          - {symerror: 0.02960, label: 'stat'}
+          - {asymerror: {plus: 0.12240, minus: 0.0735}, label: 'sys'}
+      - value: 0.8604
+        errors:
+          - {symerror: 0.03486, label: 'stat'}
+          - {asymerror: {plus: 0.12137, minus: 0.0735}, label: 'sys'}
+      - value: 0.8146
+        errors:
+          - {symerror: 0.04687, label: 'stat'}
+          - {asymerror: {plus: 0.11886, minus: 0.0735}, label: 'sys'}
+      - value: 0.7889
+        errors:
+          - {symerror: 0.06276, label: 'stat'}
+          - {asymerror: {plus: 0.11945, minus: 0.0735}, label: 'sys'}
+      - value: 0.6067
+        errors:
+          - {symerror: 0.07252, label: 'stat'}
+          - {asymerror: {plus: 0.09561, minus: 0.0735}, label: 'sys'}
+      - value: 0.7274
+        errors:
+          - {symerror: 0.08757, label: 'stat'}
+          - {asymerror: {plus: 0.12233, minus: 0.0735}, label: 'sys'}
+  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '45–50%'}
+    values:
+      - value: 1.0225
+        errors:
+          - {symerror: 0.00427, label: 'stat'}
+          - {asymerror: {plus: 0.13610, minus: 0.1142}, label: 'sys'}
+      - value: 1.0849
+        errors:
+          - {symerror: 0.00480, label: 'stat'}
+          - {asymerror: {plus: 0.14276, minus: 0.1142}, label: 'sys'}
+      - value: 1.1737
+        errors:
+          - {symerror: 0.00582, label: 'stat'}
+          - {asymerror: {plus: 0.15285, minus: 0.1142}, label: 'sys'}
+      - value: 1.2932
+        errors:
+          - {symerror: 0.00737, label: 'stat'}
+          - {asymerror: {plus: 0.16687, minus: 0.1142}, label: 'sys'}
+      - value: 1.4250
+        errors:
+          - {symerror: 0.00944, label: 'stat'}
+          - {asymerror: {plus: 0.18238, minus: 0.1142}, label: 'sys'}
+      - value: 1.5799
+        errors:
+          - {symerror: 0.00943, label: 'stat'}
+          - {asymerror: {plus: 0.20079, minus: 0.1142}, label: 'sys'}
+      - value: 1.7390
+        errors:
+          - {symerror: 0.01203, label: 'stat'}
+          - {asymerror: {plus: 0.21970, minus: 0.1142}, label: 'sys'}
+      - value: 1.8621
+        errors:
+          - {symerror: 0.01513, label: 'stat'}
+          - {asymerror: {plus: 0.23412, minus: 0.1142}, label: 'sys'}
+      - value: 2.0866
+        errors:
+          - {symerror: 0.01947, label: 'stat'}
+          - {asymerror: {plus: 0.26137, minus: 0.1142}, label: 'sys'}
+      - value: 2.2797
+        errors:
+          - {symerror: 0.02463, label: 'stat'}
+          - {asymerror: {plus: 0.28478, minus: 0.1142}, label: 'sys'}
+      - value: 2.4400
+        errors:
+          - {symerror: 0.03071, label: 'stat'}
+          - {asymerror: {plus: 0.30429, minus: 0.1142}, label: 'sys'}
+      - value: 2.6053
+        errors:
+          - {symerror: 0.03815, label: 'stat'}
+          - {asymerror: {plus: 0.32468, minus: 0.1142}, label: 'sys'}
+      - value: 2.7743
+        errors:
+          - {symerror: 0.04713, label: 'stat'}
+          - {asymerror: {plus: 0.34585, minus: 0.1142}, label: 'sys'}
+      - value: 2.9537
+        errors:
+          - {symerror: 0.05785, label: 'stat'}
+          - {asymerror: {plus: 0.36869, minus: 0.1142}, label: 'sys'}
+      - value: 3.1996
+        errors:
+          - {symerror: 0.07126, label: 'stat'}
+          - {asymerror: {plus: 0.40024, minus: 0.1142}, label: 'sys'}
+      - value: 3.1892
+        errors:
+          - {symerror: 0.08387, label: 'stat'}
+          - {asymerror: {plus: 0.40017, minus: 0.1142}, label: 'sys'}
+      - value: 3.3114
+        errors:
+          - {symerror: 0.10062, label: 'stat'}
+          - {asymerror: {plus: 0.41713, minus: 0.1142}, label: 'sys'}
+      - value: 3.5435
+        errors:
+          - {symerror: 0.12154, label: 'stat'}
+          - {asymerror: {plus: 0.44848, minus: 0.1142}, label: 'sys'}
+      - value: 3.6195
+        errors:
+          - {symerror: 0.11004, label: 'stat'}
+          - {asymerror: {plus: 0.46205, minus: 0.1142}, label: 'sys'}
+      - value: 3.7960
+        errors:
+          - {symerror: 0.15433, label: 'stat'}
+          - {asymerror: {plus: 0.49145, minus: 0.1142}, label: 'sys'}
+      - value: 4.2511
+        errors:
+          - {symerror: 0.21894, label: 'stat'}
+          - {asymerror: {plus: 0.55974, minus: 0.1142}, label: 'sys'}
+      - value: 4.7855
+        errors:
+          - {symerror: 0.30826, label: 'stat'}
+          - {asymerror: {plus: 0.64251, minus: 0.1142}, label: 'sys'}
+      - value: 3.6283
+        errors:
+          - {symerror: 0.35241, label: 'stat'}
+          - {asymerror: {plus: 0.49796, minus: 0.1142}, label: 'sys'}
+      - value: 4.3789
+        errors:
+          - {symerror: 0.45903, label: 'stat'}
+          - {asymerror: {plus: 0.61772, minus: 0.1142}, label: 'sys'}
+      - value: 3.7107
+        errors:
+          - {symerror: 0.62723, label: 'stat'}
+          - {asymerror: {plus: 0.54144, minus: 0.1142}, label: 'sys'}
+      - value: 3.7432
+        errors:
+          - {symerror: 0.81683, label: 'stat'}
+          - {asymerror: {plus: 0.56674, minus: 0.1142}, label: 'sys'}
+      - value: 3.2853
+        errors:
+          - {symerror: 1.03891, label: 'stat'}
+          - {asymerror: {plus: 0.51771, minus: 0.1142}, label: 'sys'}
+      - value: 0.0000
+  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '35–45%'}
+    values:
+      - value: 0.9922
+        errors:
+          - {symerror: 0.00239, label: 'stat'}
+          - {asymerror: {plus: 0.13206, minus: 0.0986}, label: 'sys'}
+      - value: 1.0580
+        errors:
+          - {symerror: 0.00270, label: 'stat'}
+          - {asymerror: {plus: 0.13922, minus: 0.0986}, label: 'sys'}
+      - value: 1.1418
+        errors:
+          - {symerror: 0.00327, label: 'stat'}
+          - {asymerror: {plus: 0.14869, minus: 0.0986}, label: 'sys'}
+      - value: 1.2627
+        errors:
+          - {symerror: 0.00415, label: 'stat'}
+          - {asymerror: {plus: 0.16292, minus: 0.0986}, label: 'sys'}
+      - value: 1.4102
+        errors:
+          - {symerror: 0.00536, label: 'stat'}
+          - {asymerror: {plus: 0.18048, minus: 0.0986}, label: 'sys'}
+      - value: 1.5523
+        errors:
+          - {symerror: 0.00532, label: 'stat'}
+          - {asymerror: {plus: 0.19728, minus: 0.0986}, label: 'sys'}
+      - value: 1.7439
+        errors:
+          - {symerror: 0.00686, label: 'stat'}
+          - {asymerror: {plus: 0.22032, minus: 0.0986}, label: 'sys'}
+      - value: 1.9274
+        errors:
+          - {symerror: 0.00878, label: 'stat'}
+          - {asymerror: {plus: 0.24233, minus: 0.0986}, label: 'sys'}
+      - value: 2.1172
+        errors:
+          - {symerror: 0.01117, label: 'stat'}
+          - {asymerror: {plus: 0.26520, minus: 0.0986}, label: 'sys'}
+      - value: 2.3228
+        errors:
+          - {symerror: 0.01415, label: 'stat'}
+          - {asymerror: {plus: 0.29016, minus: 0.0986}, label: 'sys'}
+      - value: 2.5224
+        errors:
+          - {symerror: 0.01779, label: 'stat'}
+          - {asymerror: {plus: 0.31456, minus: 0.0986}, label: 'sys'}
+      - value: 2.7156
+        errors:
+          - {symerror: 0.02219, label: 'stat'}
+          - {asymerror: {plus: 0.33843, minus: 0.0986}, label: 'sys'}
+      - value: 2.9055
+        errors:
+          - {symerror: 0.02743, label: 'stat'}
+          - {asymerror: {plus: 0.36221, minus: 0.0986}, label: 'sys'}
+      - value: 3.0749
+        errors:
+          - {symerror: 0.03368, label: 'stat'}
+          - {asymerror: {plus: 0.38381, minus: 0.0986}, label: 'sys'}
+      - value: 3.3305
+        errors:
+          - {symerror: 0.04145, label: 'stat'}
+          - {asymerror: {plus: 0.41662, minus: 0.0986}, label: 'sys'}
+      - value: 3.3142
+        errors:
+          - {symerror: 0.04889, label: 'stat'}
+          - {asymerror: {plus: 0.41585, minus: 0.0986}, label: 'sys'}
+      - value: 3.5494
+        errors:
+          - {symerror: 0.05929, label: 'stat'}
+          - {asymerror: {plus: 0.44711, minus: 0.0986}, label: 'sys'}
+      - value: 3.5668
+        errors:
+          - {symerror: 0.06960, label: 'stat'}
+          - {asymerror: {plus: 0.45143, minus: 0.0986}, label: 'sys'}
+      - value: 3.8503
+        errors:
+          - {symerror: 0.06527, label: 'stat'}
+          - {asymerror: {plus: 0.49151, minus: 0.0986}, label: 'sys'}
+      - value: 4.0868
+        errors:
+          - {symerror: 0.09084, label: 'stat'}
+          - {asymerror: {plus: 0.52911, minus: 0.0986}, label: 'sys'}
+      - value: 4.1717
+        errors:
+          - {symerror: 0.12372, label: 'stat'}
+          - {asymerror: {plus: 0.54928, minus: 0.0986}, label: 'sys'}
+      - value: 4.1518
+        errors:
+          - {symerror: 0.16399, label: 'stat'}
+          - {asymerror: {plus: 0.55743, minus: 0.0986}, label: 'sys'}
+      - value: 4.3042
+        errors:
+          - {symerror: 0.21965, label: 'stat'}
+          - {asymerror: {plus: 0.59073, minus: 0.0986}, label: 'sys'}
+      - value: 3.9659
+        errors:
+          - {symerror: 0.25083, label: 'stat'}
+          - {asymerror: {plus: 0.55946, minus: 0.0986}, label: 'sys'}
+      - value: 4.3905
+        errors:
+          - {symerror: 0.36588, label: 'stat'}
+          - {asymerror: {plus: 0.64063, minus: 0.0986}, label: 'sys'}
+      - value: 3.3241
+        errors:
+          - {symerror: 0.43276, label: 'stat'}
+          - {asymerror: {plus: 0.50329, minus: 0.0986}, label: 'sys'}
+      - value: 3.4814
+        errors:
+          - {symerror: 0.58846, label: 'stat'}
+          - {asymerror: {plus: 0.54860, minus: 0.0986}, label: 'sys'}
+      - value: 4.7161
+        errors:
+          - {symerror: 0.74569, label: 'stat'}
+          - {asymerror: {plus: 0.79318, minus: 0.0986}, label: 'sys'}
+  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '25–35%'}
+    values:
+      - value: 0.9960
+        errors:
+          - {symerror: 0.00193, label: 'stat'}
+          - {asymerror: {plus: 0.13257, minus: 0.0771}, label: 'sys'}
+      - value: 1.0705
+        errors:
+          - {symerror: 0.00218, label: 'stat'}
+          - {asymerror: {plus: 0.14086, minus: 0.0771}, label: 'sys'}
+      - value: 1.1624
+        errors:
+          - {symerror: 0.00265, label: 'stat'}
+          - {asymerror: {plus: 0.15137, minus: 0.0771}, label: 'sys'}
+      - value: 1.2970
+        errors:
+          - {symerror: 0.00338, label: 'stat'}
+          - {asymerror: {plus: 0.16735, minus: 0.0771}, label: 'sys'}
+      - value: 1.4666
+        errors:
+          - {symerror: 0.00439, label: 'stat'}
+          - {asymerror: {plus: 0.18771, minus: 0.0771}, label: 'sys'}
+      - value: 1.6137
+        errors:
+          - {symerror: 0.00436, label: 'stat'}
+          - {asymerror: {plus: 0.20508, minus: 0.0771}, label: 'sys'}
+      - value: 1.8047
+        errors:
+          - {symerror: 0.00561, label: 'stat'}
+          - {asymerror: {plus: 0.22801, minus: 0.0771}, label: 'sys'}
+      - value: 2.0352
+        errors:
+          - {symerror: 0.00724, label: 'stat'}
+          - {asymerror: {plus: 0.25588, minus: 0.0771}, label: 'sys'}
+      - value: 2.2573
+        errors:
+          - {symerror: 0.00926, label: 'stat'}
+          - {asymerror: {plus: 0.28275, minus: 0.0771}, label: 'sys'}
+      - value: 2.4767
+        errors:
+          - {symerror: 0.01175, label: 'stat'}
+          - {asymerror: {plus: 0.30938, minus: 0.0771}, label: 'sys'}
+      - value: 2.7040
+        errors:
+          - {symerror: 0.01481, label: 'stat'}
+          - {asymerror: {plus: 0.33722, minus: 0.0771}, label: 'sys'}
+      - value: 2.9388
+        errors:
+          - {symerror: 0.01856, label: 'stat'}
+          - {asymerror: {plus: 0.36625, minus: 0.0771}, label: 'sys'}
+      - value: 3.1093
+        errors:
+          - {symerror: 0.02284, label: 'stat'}
+          - {asymerror: {plus: 0.38762, minus: 0.0771}, label: 'sys'}
+      - value: 3.3589
+        errors:
+          - {symerror: 0.02822, label: 'stat'}
+          - {asymerror: {plus: 0.41926, minus: 0.0771}, label: 'sys'}
+      - value: 3.5532
+        errors:
+          - {symerror: 0.03440, label: 'stat'}
+          - {asymerror: {plus: 0.44448, minus: 0.0771}, label: 'sys'}
+      - value: 3.7347
+        errors:
+          - {symerror: 0.04170, label: 'stat'}
+          - {asymerror: {plus: 0.46861, minus: 0.0771}, label: 'sys'}
+      - value: 3.8843
+        errors:
+          - {symerror: 0.04987, label: 'stat'}
+          - {asymerror: {plus: 0.48929, minus: 0.0771}, label: 'sys'}
+      - value: 4.0031
+        errors:
+          - {symerror: 0.05936, label: 'stat'}
+          - {asymerror: {plus: 0.50665, minus: 0.0771}, label: 'sys'}
+      - value: 4.2156
+        errors:
+          - {symerror: 0.05469, label: 'stat'}
+          - {asymerror: {plus: 0.53815, minus: 0.0771}, label: 'sys'}
+      - value: 4.3770
+        errors:
+          - {symerror: 0.07584, label: 'stat'}
+          - {asymerror: {plus: 0.56667, minus: 0.0771}, label: 'sys'}
+      - value: 4.7214
+        errors:
+          - {symerror: 0.10581, label: 'stat'}
+          - {asymerror: {plus: 0.62166, minus: 0.0771}, label: 'sys'}
+      - value: 4.3708
+        errors:
+          - {symerror: 0.13469, label: 'stat'}
+          - {asymerror: {plus: 0.58684, minus: 0.0771}, label: 'sys'}
+      - value: 4.4518
+        errors:
+          - {symerror: 0.17793, label: 'stat'}
+          - {asymerror: {plus: 0.61098, minus: 0.0771}, label: 'sys'}
+      - value: 4.6231
+        errors:
+          - {symerror: 0.22090, label: 'stat'}
+          - {asymerror: {plus: 0.65216, minus: 0.0771}, label: 'sys'}
+      - value: 4.2513
+        errors:
+          - {symerror: 0.29061, label: 'stat'}
+          - {asymerror: {plus: 0.62032, minus: 0.0771}, label: 'sys'}
+      - value: 3.5523
+        errors:
+          - {symerror: 0.36255, label: 'stat'}
+          - {asymerror: {plus: 0.53784, minus: 0.0771}, label: 'sys'}
+      - value: 4.4782
+        errors:
+          - {symerror: 0.54710, label: 'stat'}
+          - {asymerror: {plus: 0.70568, minus: 0.0771}, label: 'sys'}
+      - value: 4.4442
+        errors:
+          - {symerror: 0.58865, label: 'stat'}
+          - {asymerror: {plus: 0.74744, minus: 0.0771}, label: 'sys'}
+  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '15–25%'}
+    values:
+      - value: 1.0134
+        errors:
+          - {symerror: 0.00162, label: 'stat'}
+          - {asymerror: {plus: 0.13488, minus: 0.0450}, label: 'sys'}
+      - value: 1.0960
+        errors:
+          - {symerror: 0.00184, label: 'stat'}
+          - {asymerror: {plus: 0.14421, minus: 0.0450}, label: 'sys'}
+      - value: 1.2048
+        errors:
+          - {symerror: 0.00225, label: 'stat'}
+          - {asymerror: {plus: 0.15690, minus: 0.0450}, label: 'sys'}
+      - value: 1.3440
+        errors:
+          - {symerror: 0.00287, label: 'stat'}
+          - {asymerror: {plus: 0.17342, minus: 0.0450}, label: 'sys'}
+      - value: 1.5249
+        errors:
+          - {symerror: 0.00374, label: 'stat'}
+          - {asymerror: {plus: 0.19516, minus: 0.0450}, label: 'sys'}
+      - value: 1.6970
+        errors:
+          - {symerror: 0.00374, label: 'stat'}
+          - {asymerror: {plus: 0.21567, minus: 0.0450}, label: 'sys'}
+      - value: 1.9208
+        errors:
+          - {symerror: 0.00484, label: 'stat'}
+          - {asymerror: {plus: 0.24268, minus: 0.0450}, label: 'sys'}
+      - value: 2.1582
+        errors:
+          - {symerror: 0.00625, label: 'stat'}
+          - {asymerror: {plus: 0.27135, minus: 0.0450}, label: 'sys'}
+      - value: 2.4000
+        errors:
+          - {symerror: 0.00799, label: 'stat'}
+          - {asymerror: {plus: 0.30062, minus: 0.0450}, label: 'sys'}
+      - value: 2.6499
+        errors:
+          - {symerror: 0.01016, label: 'stat'}
+          - {asymerror: {plus: 0.33103, minus: 0.0450}, label: 'sys'}
+      - value: 2.9025
+        errors:
+          - {symerror: 0.01284, label: 'stat'}
+          - {asymerror: {plus: 0.36198, minus: 0.0450}, label: 'sys'}
+      - value: 3.1528
+        errors:
+          - {symerror: 0.01609, label: 'stat'}
+          - {asymerror: {plus: 0.39292, minus: 0.0450}, label: 'sys'}
+      - value: 3.3914
+        errors:
+          - {symerror: 0.01996, label: 'stat'}
+          - {asymerror: {plus: 0.42279, minus: 0.0450}, label: 'sys'}
+      - value: 3.5823
+        errors:
+          - {symerror: 0.02438, label: 'stat'}
+          - {asymerror: {plus: 0.44715, minus: 0.0450}, label: 'sys'}
+      - value: 3.8654
+        errors:
+          - {symerror: 0.03005, label: 'stat'}
+          - {asymerror: {plus: 0.48353, minus: 0.0450}, label: 'sys'}
+      - value: 4.0004
+        errors:
+          - {symerror: 0.03603, label: 'stat'}
+          - {asymerror: {plus: 0.50196, minus: 0.0450}, label: 'sys'}
+      - value: 4.1483
+        errors:
+          - {symerror: 0.04310, label: 'stat'}
+          - {asymerror: {plus: 0.52255, minus: 0.0450}, label: 'sys'}
+      - value: 4.3961
+        errors:
+          - {symerror: 0.05205, label: 'stat'}
+          - {asymerror: {plus: 0.55640, minus: 0.0450}, label: 'sys'}
+      - value: 4.6144
+        errors:
+          - {symerror: 0.04788, label: 'stat'}
+          - {asymerror: {plus: 0.58906, minus: 0.0450}, label: 'sys'}
+      - value: 4.8253
+        errors:
+          - {symerror: 0.06650, label: 'stat'}
+          - {asymerror: {plus: 0.62472, minus: 0.0450}, label: 'sys'}
+      - value: 4.7936
+        errors:
+          - {symerror: 0.08909, label: 'stat'}
+          - {asymerror: {plus: 0.63117, minus: 0.0450}, label: 'sys'}
+      - value: 4.7400
+        errors:
+          - {symerror: 0.11748, label: 'stat'}
+          - {asymerror: {plus: 0.63640, minus: 0.0450}, label: 'sys'}
+      - value: 4.6249
+        errors:
+          - {symerror: 0.15290, label: 'stat'}
+          - {asymerror: {plus: 0.63474, minus: 0.0450}, label: 'sys'}
+      - value: 4.8088
+        errors:
+          - {symerror: 0.18690, label: 'stat'}
+          - {asymerror: {plus: 0.67836, minus: 0.0450}, label: 'sys'}
+      - value: 4.6983
+        errors:
+          - {symerror: 0.25864, label: 'stat'}
+          - {asymerror: {plus: 0.68554, minus: 0.0450}, label: 'sys'}
+      - value: 4.7251
+        errors:
+          - {symerror: 0.34834, label: 'stat'}
+          - {asymerror: {plus: 0.71541, minus: 0.0450}, label: 'sys'}
+      - value: 5.0732
+        errors:
+          - {symerror: 0.49276, label: 'stat'}
+          - {asymerror: {plus: 0.79945, minus: 0.0450}, label: 'sys'}
+      - value: 3.4537
+        errors:
+          - {symerror: 0.42194, label: 'stat'}
+          - {asymerror: {plus: 0.58086, minus: 0.0450}, label: 'sys'}
+  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '6–15%'}
+    values:
+      - value: 1.0426
+        errors:
+          - {symerror: 0.00149, label: 'stat'}
+          - {asymerror: {plus: 0.13877, minus: 0.0320}, label: 'sys'}
+      - value: 1.1360
+        errors:
+          - {symerror: 0.00169, label: 'stat'}
+          - {asymerror: {plus: 0.14949, minus: 0.0320}, label: 'sys'}
+      - value: 1.2496
+        errors:
+          - {symerror: 0.00207, label: 'stat'}
+          - {asymerror: {plus: 0.16274, minus: 0.0320}, label: 'sys'}
+      - value: 1.4015
+        errors:
+          - {symerror: 0.00265, label: 'stat'}
+          - {asymerror: {plus: 0.18084, minus: 0.0320}, label: 'sys'}
+      - value: 1.5952
+        errors:
+          - {symerror: 0.00345, label: 'stat'}
+          - {asymerror: {plus: 0.20416, minus: 0.0320}, label: 'sys'}
+      - value: 1.7777
+        errors:
+          - {symerror: 0.00346, label: 'stat'}
+          - {asymerror: {plus: 0.22592, minus: 0.0320}, label: 'sys'}
+      - value: 2.0083
+        errors:
+          - {symerror: 0.00447, label: 'stat'}
+          - {asymerror: {plus: 0.25373, minus: 0.0320}, label: 'sys'}
+      - value: 2.2586
+        errors:
+          - {symerror: 0.00577, label: 'stat'}
+          - {asymerror: {plus: 0.28397, minus: 0.0320}, label: 'sys'}
+      - value: 2.5338
+        errors:
+          - {symerror: 0.00742, label: 'stat'}
+          - {asymerror: {plus: 0.31738, minus: 0.0320}, label: 'sys'}
+      - value: 2.7807
+        errors:
+          - {symerror: 0.00941, label: 'stat'}
+          - {asymerror: {plus: 0.34736, minus: 0.0320}, label: 'sys'}
+      - value: 3.0313
+        errors:
+          - {symerror: 0.01185, label: 'stat'}
+          - {asymerror: {plus: 0.37803, minus: 0.0320}, label: 'sys'}
+      - value: 3.3138
+        errors:
+          - {symerror: 0.01489, label: 'stat'}
+          - {asymerror: {plus: 0.41299, minus: 0.0320}, label: 'sys'}
+      - value: 3.5617
+        errors:
+          - {symerror: 0.01848, label: 'stat'}
+          - {asymerror: {plus: 0.44402, minus: 0.0320}, label: 'sys'}
+      - value: 3.7852
+        errors:
+          - {symerror: 0.02269, label: 'stat'}
+          - {asymerror: {plus: 0.47247, minus: 0.0320}, label: 'sys'}
+      - value: 4.0047
+        errors:
+          - {symerror: 0.02765, label: 'stat'}
+          - {asymerror: {plus: 0.50096, minus: 0.0320}, label: 'sys'}
+      - value: 4.2137
+        errors:
+          - {symerror: 0.03345, label: 'stat'}
+          - {asymerror: {plus: 0.52871, minus: 0.0320}, label: 'sys'}
+      - value: 4.3523
+        errors:
+          - {symerror: 0.03997, label: 'stat'}
+          - {asymerror: {plus: 0.54825, minus: 0.0320}, label: 'sys'}
+      - value: 4.5012
+        errors:
+          - {symerror: 0.04769, label: 'stat'}
+          - {asymerror: {plus: 0.56970, minus: 0.0320}, label: 'sys'}
+      - value: 4.7462
+        errors:
+          - {symerror: 0.04387, label: 'stat'}
+          - {asymerror: {plus: 0.60588, minus: 0.0320}, label: 'sys'}
+      - value: 4.8954
+        errors:
+          - {symerror: 0.06053, label: 'stat'}
+          - {asymerror: {plus: 0.63378, minus: 0.0320}, label: 'sys'}
+      - value: 4.9127
+        errors:
+          - {symerror: 0.08149, label: 'stat'}
+          - {asymerror: {plus: 0.64685, minus: 0.0320}, label: 'sys'}
+      - value: 4.6716
+        errors:
+          - {symerror: 0.10517, label: 'stat'}
+          - {asymerror: {plus: 0.62721, minus: 0.0320}, label: 'sys'}
+      - value: 4.6431
+        errors:
+          - {symerror: 0.13788, label: 'stat'}
+          - {asymerror: {plus: 0.63723, minus: 0.0320}, label: 'sys'}
+      - value: 4.8815
+        errors:
+          - {symerror: 0.17162, label: 'stat'}
+          - {asymerror: {plus: 0.68862, minus: 0.0320}, label: 'sys'}
+      - value: 4.7792
+        errors:
+          - {symerror: 0.23210, label: 'stat'}
+          - {asymerror: {plus: 0.69735, minus: 0.0320}, label: 'sys'}
+      - value: 4.6517
+        errors:
+          - {symerror: 0.31505, label: 'stat'}
+          - {asymerror: {plus: 0.70430, minus: 0.0320}, label: 'sys'}
+      - value: 3.8438
+        errors:
+          - {symerror: 0.38247, label: 'stat'}
+          - {asymerror: {plus: 0.60571, minus: 0.0320}, label: 'sys'}
+      - value: 3.8775
+        errors:
+          - {symerror: 0.40873, label: 'stat'}
+          - {asymerror: {plus: 0.65214, minus: 0.0320}, label: 'sys'}
+  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '0–6%'}
+    values:
+      - value: 1.0914
+        errors:
+          - {symerror: 0.00170, label: 'stat'}
+          - {asymerror: {plus: 0.14527, minus: 0.0313}, label: 'sys'}
+      - value: 1.1915
+        errors:
+          - {symerror: 0.00194, label: 'stat'}
+          - {asymerror: {plus: 0.15679, minus: 0.0313}, label: 'sys'}
+      - value: 1.3065
+        errors:
+          - {symerror: 0.00237, label: 'stat'}
+          - {asymerror: {plus: 0.17014, minus: 0.0313}, label: 'sys'}
+      - value: 1.4764
+        errors:
+          - {symerror: 0.00304, label: 'stat'}
+          - {asymerror: {plus: 0.19050, minus: 0.0313}, label: 'sys'}
+      - value: 1.6724
+        errors:
+          - {symerror: 0.00396, label: 'stat'}
+          - {asymerror: {plus: 0.21404, minus: 0.0313}, label: 'sys'}
+      - value: 1.8738
+        errors:
+          - {symerror: 0.00397, label: 'stat'}
+          - {asymerror: {plus: 0.23814, minus: 0.0313}, label: 'sys'}
+      - value: 2.1066
+        errors:
+          - {symerror: 0.00512, label: 'stat'}
+          - {asymerror: {plus: 0.26615, minus: 0.0313}, label: 'sys'}
+      - value: 2.3750
+        errors:
+          - {symerror: 0.00662, label: 'stat'}
+          - {asymerror: {plus: 0.29860, minus: 0.0313}, label: 'sys'}
+      - value: 2.6496
+        errors:
+          - {symerror: 0.00849, label: 'stat'}
+          - {asymerror: {plus: 0.33188, minus: 0.0313}, label: 'sys'}
+      - value: 2.9141
+        errors:
+          - {symerror: 0.01078, label: 'stat'}
+          - {asymerror: {plus: 0.36403, minus: 0.0313}, label: 'sys'}
+      - value: 3.1927
+        errors:
+          - {symerror: 0.01361, label: 'stat'}
+          - {asymerror: {plus: 0.39816, minus: 0.0313}, label: 'sys'}
+      - value: 3.4621
+        errors:
+          - {symerror: 0.01702, label: 'stat'}
+          - {asymerror: {plus: 0.43146, minus: 0.0313}, label: 'sys'}
+      - value: 3.6990
+        errors:
+          - {symerror: 0.02106, label: 'stat'}
+          - {asymerror: {plus: 0.46113, minus: 0.0313}, label: 'sys'}
+      - value: 3.8919
+        errors:
+          - {symerror: 0.02575, label: 'stat'}
+          - {asymerror: {plus: 0.48579, minus: 0.0313}, label: 'sys'}
+      - value: 4.1822
+        errors:
+          - {symerror: 0.03162, label: 'stat'}
+          - {asymerror: {plus: 0.52316, minus: 0.0313}, label: 'sys'}
+      - value: 4.3670
+        errors:
+          - {symerror: 0.03803, label: 'stat'}
+          - {asymerror: {plus: 0.54796, minus: 0.0313}, label: 'sys'}
+      - value: 4.5203
+        errors:
+          - {symerror: 0.04556, label: 'stat'}
+          - {asymerror: {plus: 0.56942, minus: 0.0313}, label: 'sys'}
+      - value: 4.6827
+        errors:
+          - {symerror: 0.05451, label: 'stat'}
+          - {asymerror: {plus: 0.59267, minus: 0.0313}, label: 'sys'}
+      - value: 4.8064
+        errors:
+          - {symerror: 0.04946, label: 'stat'}
+          - {asymerror: {plus: 0.61357, minus: 0.0313}, label: 'sys'}
+      - value: 4.8977
+        errors:
+          - {symerror: 0.06793, label: 'stat'}
+          - {asymerror: {plus: 0.63408, minus: 0.0313}, label: 'sys'}
+      - value: 4.9234
+        errors:
+          - {symerror: 0.09139, label: 'stat'}
+          - {asymerror: {plus: 0.64826, minus: 0.0313}, label: 'sys'}
+      - value: 4.8634
+        errors:
+          - {symerror: 0.12020, label: 'stat'}
+          - {asymerror: {plus: 0.65297, minus: 0.0313}, label: 'sys'}
+      - value: 4.7002
+        errors:
+          - {symerror: 0.15598, label: 'stat'}
+          - {asymerror: {plus: 0.64506, minus: 0.0313}, label: 'sys'}
+      - value: 4.5341
+        errors:
+          - {symerror: 0.18373, label: 'stat'}
+          - {asymerror: {plus: 0.63961, minus: 0.0313}, label: 'sys'}
+      - value: 4.2929
+        errors:
+          - {symerror: 0.24703, label: 'stat'}
+          - {asymerror: {plus: 0.62639, minus: 0.0313}, label: 'sys'}
+      - value: 4.1577
+        errors:
+          - {symerror: 0.33077, label: 'stat'}
+          - {asymerror: {plus: 0.62951, minus: 0.0313}, label: 'sys'}
+      - value: 3.1974
+        errors:
+          - {symerror: 0.38216, label: 'stat'}
+          - {asymerror: {plus: 0.50385, minus: 0.0313}, label: 'sys'}
+      - value: 3.8333
+        errors:
+          - {symerror: 0.46148, label: 'stat'}
+          - {asymerror: {plus: 0.64470, minus: 0.0313}, label: 'sys'}
+  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '45–50%'}
+    values:
+      - value: 0.9336
+        errors:
+          - {symerror: 0.00390, label: 'stat'}
+          - {symerror: 0.12323, label: 'sys'}
+      - value: 0.9113
+        errors:
+          - {symerror: 0.00403, label: 'stat'}
+          - {symerror: 0.12029, label: 'sys'}
+      - value: 0.8897
+        errors:
+          - {symerror: 0.00441, label: 'stat'}
+          - {symerror: 0.11745, label: 'sys'}
+      - value: 0.8743
+        errors:
+          - {symerror: 0.00498, label: 'stat'}
+          - {symerror: 0.11541, label: 'sys'}
+      - value: 0.8542
+        errors:
+          - {symerror: 0.00566, label: 'stat'}
+          - {symerror: 0.11276, label: 'sys'}
+      - value: 0.8390
+        errors:
+          - {symerror: 0.00501, label: 'stat'}
+          - {symerror: 0.11074, label: 'sys'}
+      - value: 0.8201
+        errors:
+          - {symerror: 0.00567, label: 'stat'}
+          - {symerror: 0.10825, label: 'sys'}
+      - value: 0.7837
+        errors:
+          - {symerror: 0.00637, label: 'stat'}
+          - {symerror: 0.10345, label: 'sys'}
+      - value: 0.7890
+        errors:
+          - {symerror: 0.00736, label: 'stat'}
+          - {symerror: 0.10415, label: 'sys'}
+      - value: 0.7805
+        errors:
+          - {symerror: 0.00843, label: 'stat'}
+          - {symerror: 0.10303, label: 'sys'}
+      - value: 0.7629
+        errors:
+          - {symerror: 0.00960, label: 'stat'}
+          - {symerror: 0.10070, label: 'sys'}
+      - value: 0.7507
+        errors:
+          - {symerror: 0.01099, label: 'stat'}
+          - {symerror: 0.09909, label: 'sys'}
+      - value: 0.7435
+        errors:
+          - {symerror: 0.01263, label: 'stat'}
+          - {symerror: 0.09815, label: 'sys'}
+      - value: 0.7433
+        errors:
+          - {symerror: 0.01456, label: 'stat'}
+          - {symerror: 0.09812, label: 'sys'}
+      - value: 0.7632
+        errors:
+          - {symerror: 0.01700, label: 'stat'}
+          - {symerror: 0.10074, label: 'sys'}
+      - value: 0.7276
+        errors:
+          - {symerror: 0.01913, label: 'stat'}
+          - {symerror: 0.09604, label: 'sys'}
+      - value: 0.7289
+        errors:
+          - {symerror: 0.02215, label: 'stat'}
+          - {symerror: 0.09622, label: 'sys'}
+      - value: 0.7587
+        errors:
+          - {symerror: 0.02602, label: 'stat'}
+          - {symerror: 0.10015, label: 'sys'}
+      - value: 0.7536
+        errors:
+          - {symerror: 0.02291, label: 'stat'}
+          - {symerror: 0.09948, label: 'sys'}
+      - value: 0.7778
+        errors:
+          - {symerror: 0.03162, label: 'stat'}
+          - {symerror: 0.10266, label: 'sys'}
+      - value: 0.8727
+        errors:
+          - {symerror: 0.04495, label: 'stat'}
+          - {symerror: 0.11520, label: 'sys'}
+      - value: 0.9965
+        errors:
+          - {symerror: 0.06419, label: 'stat'}
+          - {symerror: 0.13154, label: 'sys'}
+      - value: 0.7724
+        errors:
+          - {symerror: 0.07502, label: 'stat'}
+          - {symerror: 0.10196, label: 'sys'}
+      - value: 0.9612
+        errors:
+          - {symerror: 0.10076, label: 'stat'}
+          - {symerror: 0.12688, label: 'sys'}
+      - value: 0.8463
+        errors:
+          - {symerror: 0.14306, label: 'stat'}
+          - {symerror: 0.11172, label: 'sys'}
+      - value: 0.8897
+        errors:
+          - {symerror: 0.19415, label: 'stat'}
+          - {symerror: 0.11744, label: 'sys'}
+      - value: 0.8157
+        errors:
+          - {symerror: 0.25795, label: 'stat'}
+          - {symerror: 0.10767, label: 'sys'}
+      - value: 0.0000
+  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '35–45%'}
+    values:
+      - value: 0.9059
+        errors:
+          - {symerror: 0.00218, label: 'stat'}
+          - {symerror: 0.10871, label: 'sys'}
+      - value: 0.8887
+        errors:
+          - {symerror: 0.00227, label: 'stat'}
+          - {symerror: 0.10665, label: 'sys'}
+      - value: 0.8655
+        errors:
+          - {symerror: 0.00248, label: 'stat'}
+          - {symerror: 0.10386, label: 'sys'}
+      - value: 0.8536
+        errors:
+          - {symerror: 0.00280, label: 'stat'}
+          - {symerror: 0.10243, label: 'sys'}
+      - value: 0.8453
+        errors:
+          - {symerror: 0.00321, label: 'stat'}
+          - {symerror: 0.10144, label: 'sys'}
+      - value: 0.8243
+        errors:
+          - {symerror: 0.00282, label: 'stat'}
+          - {symerror: 0.09891, label: 'sys'}
+      - value: 0.8223
+        errors:
+          - {symerror: 0.00324, label: 'stat'}
+          - {symerror: 0.09868, label: 'sys'}
+      - value: 0.8112
+        errors:
+          - {symerror: 0.00369, label: 'stat'}
+          - {symerror: 0.09734, label: 'sys'}
+      - value: 0.8006
+        errors:
+          - {symerror: 0.00422, label: 'stat'}
+          - {symerror: 0.09607, label: 'sys'}
+      - value: 0.7953
+        errors:
+          - {symerror: 0.00484, label: 'stat'}
+          - {symerror: 0.09543, label: 'sys'}
+      - value: 0.7887
+        errors:
+          - {symerror: 0.00556, label: 'stat'}
+          - {symerror: 0.09464, label: 'sys'}
+      - value: 0.7824
+        errors:
+          - {symerror: 0.00640, label: 'stat'}
+          - {symerror: 0.09389, label: 'sys'}
+      - value: 0.7787
+        errors:
+          - {symerror: 0.00735, label: 'stat'}
+          - {symerror: 0.09344, label: 'sys'}
+      - value: 0.7738
+        errors:
+          - {symerror: 0.00848, label: 'stat'}
+          - {symerror: 0.09286, label: 'sys'}
+      - value: 0.7944
+        errors:
+          - {symerror: 0.00989, label: 'stat'}
+          - {symerror: 0.09533, label: 'sys'}
+      - value: 0.7561
+        errors:
+          - {symerror: 0.01115, label: 'stat'}
+          - {symerror: 0.09073, label: 'sys'}
+      - value: 0.7813
+        errors:
+          - {symerror: 0.01305, label: 'stat'}
+          - {symerror: 0.09376, label: 'sys'}
+      - value: 0.7637
+        errors:
+          - {symerror: 0.01490, label: 'stat'}
+          - {symerror: 0.09164, label: 'sys'}
+      - value: 0.8017
+        errors:
+          - {symerror: 0.01359, label: 'stat'}
+          - {symerror: 0.09620, label: 'sys'}
+      - value: 0.8373
+        errors:
+          - {symerror: 0.01861, label: 'stat'}
+          - {symerror: 0.10048, label: 'sys'}
+      - value: 0.8564
+        errors:
+          - {symerror: 0.02540, label: 'stat'}
+          - {symerror: 0.10277, label: 'sys'}
+      - value: 0.8646
+        errors:
+          - {symerror: 0.03415, label: 'stat'}
+          - {symerror: 0.10375, label: 'sys'}
+      - value: 0.9163
+        errors:
+          - {symerror: 0.04676, label: 'stat'}
+          - {symerror: 0.10996, label: 'sys'}
+      - value: 0.8705
+        errors:
+          - {symerror: 0.05506, label: 'stat'}
+          - {symerror: 0.10446, label: 'sys'}
+      - value: 1.0014
+        errors:
+          - {symerror: 0.08345, label: 'stat'}
+          - {symerror: 0.12017, label: 'sys'}
+      - value: 0.7901
+        errors:
+          - {symerror: 0.10286, label: 'stat'}
+          - {symerror: 0.09481, label: 'sys'}
+      - value: 0.8644
+        errors:
+          - {symerror: 0.14611, label: 'stat'}
+          - {symerror: 0.10373, label: 'sys'}
+      - value: 1.2553
+        errors:
+          - {symerror: 0.19848, label: 'stat'}
+          - {symerror: 0.15063, label: 'sys'}
+  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '25–35%'}
+    values:
+      - value: 0.9094
+        errors:
+          - {symerror: 0.00176, label: 'stat'}
+          - {symerror: 0.09003, label: 'sys'}
+      - value: 0.8992
+        errors:
+          - {symerror: 0.00183, label: 'stat'}
+          - {symerror: 0.08902, label: 'sys'}
+      - value: 0.8811
+        errors:
+          - {symerror: 0.00201, label: 'stat'}
+          - {symerror: 0.08723, label: 'sys'}
+      - value: 0.8768
+        errors:
+          - {symerror: 0.00228, label: 'stat'}
+          - {symerror: 0.08681, label: 'sys'}
+      - value: 0.8792
+        errors:
+          - {symerror: 0.00263, label: 'stat'}
+          - {symerror: 0.08704, label: 'sys'}
+      - value: 0.8569
+        errors:
+          - {symerror: 0.00232, label: 'stat'}
+          - {symerror: 0.08483, label: 'sys'}
+      - value: 0.8511
+        errors:
+          - {symerror: 0.00265, label: 'stat'}
+          - {symerror: 0.08425, label: 'sys'}
+      - value: 0.8565
+        errors:
+          - {symerror: 0.00305, label: 'stat'}
+          - {symerror: 0.08480, label: 'sys'}
+      - value: 0.8535
+        errors:
+          - {symerror: 0.00350, label: 'stat'}
+          - {symerror: 0.08450, label: 'sys'}
+      - value: 0.8479
+        errors:
+          - {symerror: 0.00402, label: 'stat'}
+          - {symerror: 0.08395, label: 'sys'}
+      - value: 0.8455
+        errors:
+          - {symerror: 0.00463, label: 'stat'}
+          - {symerror: 0.08370, label: 'sys'}
+      - value: 0.8468
+        errors:
+          - {symerror: 0.00535, label: 'stat'}
+          - {symerror: 0.08383, label: 'sys'}
+      - value: 0.8333
+        errors:
+          - {symerror: 0.00612, label: 'stat'}
+          - {symerror: 0.08250, label: 'sys'}
+      - value: 0.8453
+        errors:
+          - {symerror: 0.00710, label: 'stat'}
+          - {symerror: 0.08368, label: 'sys'}
+      - value: 0.8475
+        errors:
+          - {symerror: 0.00820, label: 'stat'}
+          - {symerror: 0.08391, label: 'sys'}
+      - value: 0.8521
+        errors:
+          - {symerror: 0.00951, label: 'stat'}
+          - {symerror: 0.08435, label: 'sys'}
+      - value: 0.8550
+        errors:
+          - {symerror: 0.01098, label: 'stat'}
+          - {symerror: 0.08465, label: 'sys'}
+      - value: 0.8571
+        errors:
+          - {symerror: 0.01271, label: 'stat'}
+          - {symerror: 0.08485, label: 'sys'}
+      - value: 0.8777
+        errors:
+          - {symerror: 0.01139, label: 'stat'}
+          - {symerror: 0.08690, label: 'sys'}
+      - value: 0.8968
+        errors:
+          - {symerror: 0.01554, label: 'stat'}
+          - {symerror: 0.08878, label: 'sys'}
+      - value: 0.9693
+        errors:
+          - {symerror: 0.02172, label: 'stat'}
+          - {symerror: 0.09596, label: 'sys'}
+      - value: 0.9102
+        errors:
+          - {symerror: 0.02805, label: 'stat'}
+          - {symerror: 0.09011, label: 'sys'}
+      - value: 0.9477
+        errors:
+          - {symerror: 0.03788, label: 'stat'}
+          - {symerror: 0.09383, label: 'sys'}
+      - value: 1.0148
+        errors:
+          - {symerror: 0.04849, label: 'stat'}
+          - {symerror: 0.10046, label: 'sys'}
+      - value: 0.9696
+        errors:
+          - {symerror: 0.06628, label: 'stat'}
+          - {symerror: 0.09599, label: 'sys'}
+      - value: 0.8444
+        errors:
+          - {symerror: 0.08618, label: 'stat'}
+          - {symerror: 0.08359, label: 'sys'}
+      - value: 1.1119
+        errors:
+          - {symerror: 0.13584, label: 'stat'}
+          - {symerror: 0.11008, label: 'sys'}
+      - value: 1.1829
+        errors:
+          - {symerror: 0.15668, label: 'stat'}
+          - {symerror: 0.11711, label: 'sys'}
+  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '15–25%'}
+    values:
+      - value: 0.9252
+        errors:
+          - {symerror: 0.00148, label: 'stat'}
+          - {symerror: 0.06477, label: 'sys'}
+      - value: 0.9206
+        errors:
+          - {symerror: 0.00155, label: 'stat'}
+          - {symerror: 0.06444, label: 'sys'}
+      - value: 0.9133
+        errors:
+          - {symerror: 0.00171, label: 'stat'}
+          - {symerror: 0.06393, label: 'sys'}
+      - value: 0.9086
+        errors:
+          - {symerror: 0.00194, label: 'stat'}
+          - {symerror: 0.06360, label: 'sys'}
+      - value: 0.9141
+        errors:
+          - {symerror: 0.00224, label: 'stat'}
+          - {symerror: 0.06399, label: 'sys'}
+      - value: 0.9011
+        errors:
+          - {symerror: 0.00199, label: 'stat'}
+          - {symerror: 0.06308, label: 'sys'}
+      - value: 0.9058
+        errors:
+          - {symerror: 0.00228, label: 'stat'}
+          - {symerror: 0.06341, label: 'sys'}
+      - value: 0.9083
+        errors:
+          - {symerror: 0.00263, label: 'stat'}
+          - {symerror: 0.06358, label: 'sys'}
+      - value: 0.9075
+        errors:
+          - {symerror: 0.00302, label: 'stat'}
+          - {symerror: 0.06352, label: 'sys'}
+      - value: 0.9073
+        errors:
+          - {symerror: 0.00348, label: 'stat'}
+          - {symerror: 0.06351, label: 'sys'}
+      - value: 0.9075
+        errors:
+          - {symerror: 0.00401, label: 'stat'}
+          - {symerror: 0.06353, label: 'sys'}
+      - value: 0.9084
+        errors:
+          - {symerror: 0.00464, label: 'stat'}
+          - {symerror: 0.06359, label: 'sys'}
+      - value: 0.9089
+        errors:
+          - {symerror: 0.00535, label: 'stat'}
+          - {symerror: 0.06363, label: 'sys'}
+      - value: 0.9015
+        errors:
+          - {symerror: 0.00613, label: 'stat'}
+          - {symerror: 0.06311, label: 'sys'}
+      - value: 0.9220
+        errors:
+          - {symerror: 0.00717, label: 'stat'}
+          - {symerror: 0.06454, label: 'sys'}
+      - value: 0.9127
+        errors:
+          - {symerror: 0.00822, label: 'stat'}
+          - {symerror: 0.06389, label: 'sys'}
+      - value: 0.9131
+        errors:
+          - {symerror: 0.00949, label: 'stat'}
+          - {symerror: 0.06392, label: 'sys'}
+      - value: 0.9412
+        errors:
+          - {symerror: 0.01114, label: 'stat'}
+          - {symerror: 0.06589, label: 'sys'}
+      - value: 0.9608
+        errors:
+          - {symerror: 0.00997, label: 'stat'}
+          - {symerror: 0.06725, label: 'sys'}
+      - value: 0.9887
+        errors:
+          - {symerror: 0.01363, label: 'stat'}
+          - {symerror: 0.06921, label: 'sys'}
+      - value: 0.9841
+        errors:
+          - {symerror: 0.01829, label: 'stat'}
+          - {symerror: 0.06889, label: 'sys'}
+      - value: 0.9871
+        errors:
+          - {symerror: 0.02446, label: 'stat'}
+          - {symerror: 0.06909, label: 'sys'}
+      - value: 0.9846
+        errors:
+          - {symerror: 0.03255, label: 'stat'}
+          - {symerror: 0.06892, label: 'sys'}
+      - value: 1.0556
+        errors:
+          - {symerror: 0.04103, label: 'stat'}
+          - {symerror: 0.07389, label: 'sys'}
+      - value: 1.0716
+        errors:
+          - {symerror: 0.05899, label: 'stat'}
+          - {symerror: 0.07501, label: 'sys'}
+      - value: 1.1231
+        errors:
+          - {symerror: 0.08280, label: 'stat'}
+          - {symerror: 0.07862, label: 'sys'}
+      - value: 1.2596
+        errors:
+          - {symerror: 0.12235, label: 'stat'}
+          - {symerror: 0.08817, label: 'sys'}
+      - value: 0.9193
+        errors:
+          - {symerror: 0.11231, label: 'stat'}
+          - {symerror: 0.06435, label: 'sys'}
+  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '6–15%'}
+    values:
+      - value: 0.9519
+        errors:
+          - {symerror: 0.00136, label: 'stat'}
+          - {symerror: 0.03141, label: 'sys'}
+      - value: 0.9542
+        errors:
+          - {symerror: 0.00142, label: 'stat'}
+          - {symerror: 0.03149, label: 'sys'}
+      - value: 0.9473
+        errors:
+          - {symerror: 0.00157, label: 'stat'}
+          - {symerror: 0.03126, label: 'sys'}
+      - value: 0.9475
+        errors:
+          - {symerror: 0.00179, label: 'stat'}
+          - {symerror: 0.03127, label: 'sys'}
+      - value: 0.9562
+        errors:
+          - {symerror: 0.00207, label: 'stat'}
+          - {symerror: 0.03156, label: 'sys'}
+      - value: 0.9440
+        errors:
+          - {symerror: 0.00184, label: 'stat'}
+          - {symerror: 0.03115, label: 'sys'}
+      - value: 0.9470
+        errors:
+          - {symerror: 0.00211, label: 'stat'}
+          - {symerror: 0.03125, label: 'sys'}
+      - value: 0.9506
+        errors:
+          - {symerror: 0.00243, label: 'stat'}
+          - {symerror: 0.03137, label: 'sys'}
+      - value: 0.9581
+        errors:
+          - {symerror: 0.00281, label: 'stat'}
+          - {symerror: 0.03162, label: 'sys'}
+      - value: 0.9520
+        errors:
+          - {symerror: 0.00322, label: 'stat'}
+          - {symerror: 0.03142, label: 'sys'}
+      - value: 0.9478
+        errors:
+          - {symerror: 0.00370, label: 'stat'}
+          - {symerror: 0.03128, label: 'sys'}
+      - value: 0.9548
+        errors:
+          - {symerror: 0.00429, label: 'stat'}
+          - {symerror: 0.03151, label: 'sys'}
+      - value: 0.9546
+        errors:
+          - {symerror: 0.00495, label: 'stat'}
+          - {symerror: 0.03150, label: 'sys'}
+      - value: 0.9526
+        errors:
+          - {symerror: 0.00571, label: 'stat'}
+          - {symerror: 0.03143, label: 'sys'}
+      - value: 0.9552
+        errors:
+          - {symerror: 0.00660, label: 'stat'}
+          - {symerror: 0.03152, label: 'sys'}
+      - value: 0.9613
+        errors:
+          - {symerror: 0.00763, label: 'stat'}
+          - {symerror: 0.03172, label: 'sys'}
+      - value: 0.9580
+        errors:
+          - {symerror: 0.00880, label: 'stat'}
+          - {symerror: 0.03161, label: 'sys'}
+      - value: 0.9637
+        errors:
+          - {symerror: 0.01021, label: 'stat'}
+          - {symerror: 0.03180, label: 'sys'}
+      - value: 0.9882
+        errors:
+          - {symerror: 0.00913, label: 'stat'}
+          - {symerror: 0.03261, label: 'sys'}
+      - value: 1.0030
+        errors:
+          - {symerror: 0.01240, label: 'stat'}
+          - {symerror: 0.03310, label: 'sys'}
+      - value: 1.0085
+        errors:
+          - {symerror: 0.01673, label: 'stat'}
+          - {symerror: 0.03328, label: 'sys'}
+      - value: 0.9728
+        errors:
+          - {symerror: 0.02190, label: 'stat'}
+          - {symerror: 0.03210, label: 'sys'}
+      - value: 0.9885
+        errors:
+          - {symerror: 0.02935, label: 'stat'}
+          - {symerror: 0.03262, label: 'sys'}
+      - value: 1.0715
+        errors:
+          - {symerror: 0.03767, label: 'stat'}
+          - {symerror: 0.03536, label: 'sys'}
+      - value: 1.0900
+        errors:
+          - {symerror: 0.05294, label: 'stat'}
+          - {symerror: 0.03597, label: 'sys'}
+      - value: 1.1057
+        errors:
+          - {symerror: 0.07489, label: 'stat'}
+          - {symerror: 0.03649, label: 'sys'}
+      - value: 0.9544
+        errors:
+          - {symerror: 0.09496, label: 'stat'}
+          - {symerror: 0.03149, label: 'sys'}
+      - value: 1.0321
+        errors:
+          - {symerror: 0.10879, label: 'stat'}
+          - {symerror: 0.03406, label: 'sys'}
+  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: 'Centrality', value: '0–6%'}
+    values:
+      - value: 0.9965
+        errors:
+          - {symerror: 0.00155, label: 'stat'}
+      - value: 1.0009
+        errors:
+          - {symerror: 0.00163, label: 'stat'}
+      - value: 0.9904
+        errors:
+          - {symerror: 0.00180, label: 'stat'}
+      - value: 0.9981
+        errors:
+          - {symerror: 0.00206, label: 'stat'}
+      - value: 1.0025
+        errors:
+          - {symerror: 0.00238, label: 'stat'}
+      - value: 0.9950
+        errors:
+          - {symerror: 0.00211, label: 'stat'}
+      - value: 0.9934
+        errors:
+          - {symerror: 0.00242, label: 'stat'}
+      - value: 0.9995
+        errors:
+          - {symerror: 0.00278, label: 'stat'}
+      - value: 1.0018
+        errors:
+          - {symerror: 0.00321, label: 'stat'}
+      - value: 0.9977
+        errors:
+          - {symerror: 0.00369, label: 'stat'}
+      - value: 0.9983
+        errors:
+          - {symerror: 0.00426, label: 'stat'}
+      - value: 0.9975
+        errors:
+          - {symerror: 0.00490, label: 'stat'}
+      - value: 0.9914
+        errors:
+          - {symerror: 0.00564, label: 'stat'}
+      - value: 0.9794
+        errors:
+          - {symerror: 0.00648, label: 'stat'}
+      - value: 0.9976
+        errors:
+          - {symerror: 0.00754, label: 'stat'}
+      - value: 0.9963
+        errors:
+          - {symerror: 0.00868, label: 'stat'}
+      - value: 0.9950
+        errors:
+          - {symerror: 0.01003, label: 'stat'}
+      - value: 1.0026
+        errors:
+          - {symerror: 0.01167, label: 'stat'}
+      - value: 1.0007
+        errors:
+          - {symerror: 0.01030, label: 'stat'}
+      - value: 1.0035
+        errors:
+          - {symerror: 0.01392, label: 'stat'}
+      - value: 1.0108
+        errors:
+          - {symerror: 0.01876, label: 'stat'}
+      - value: 1.0128
+        errors:
+          - {symerror: 0.02503, label: 'stat'}
+      - value: 1.0006
+        errors:
+          - {symerror: 0.03321, label: 'stat'}
+      - value: 0.9953
+        errors:
+          - {symerror: 0.04033, label: 'stat'}
+      - value: 0.9791
+        errors:
+          - {symerror: 0.05634, label: 'stat'}
+      - value: 0.9883
+        errors:
+          - {symerror: 0.07862, label: 'stat'}
+      - value: 0.7939
+        errors:
+          - {symerror: 0.09489, label: 'stat'}
+      - value: 1.0203
+        errors:
+          - {symerror: 0.12283, label: 'stat'}
+  - header: {name: '$R_{PC}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Centrality', value: '45–50%'}
+    values:
+      - value: 0.9036
+        errors:
+          - {symerror: 0.00308, label: 'stat'}
+      - value: 0.8977
+        errors:
+          - {symerror: 0.00319, label: 'stat'}
+      - value: 0.8707
+        errors:
+          - {symerror: 0.00345, label: 'stat'}
+      - value: 0.8555
+        errors:
+          - {symerror: 0.00387, label: 'stat'}
+      - value: 0.8336
+        errors:
+          - {symerror: 0.00435, label: 'stat'}
+      - value: 0.8213
+        errors:
+          - {symerror: 0.00378, label: 'stat'}
+      - value: 0.8074
+        errors:
+          - {symerror: 0.00425, label: 'stat'}
+      - value: 0.8002
+        errors:
+          - {symerror: 0.00481, label: 'stat'}
+      - value: 0.7904
+        errors:
+          - {symerror: 0.00544, label: 'stat'}
+      - value: 0.7762
+        errors:
+          - {symerror: 0.00613, label: 'stat'}
+      - value: 0.7834
+        errors:
+          - {symerror: 0.00702, label: 'stat'}
+      - value: 0.7718
+        errors:
+          - {symerror: 0.00794, label: 'stat'}
+      - value: 0.7736
+        errors:
+          - {symerror: 0.00906, label: 'stat'}
+      - value: 0.7534
+        errors:
+          - {symerror: 0.01021, label: 'stat'}
+      - value: 0.7630
+        errors:
+          - {symerror: 0.01173, label: 'stat'}
+      - value: 0.7830
+        errors:
+          - {symerror: 0.01357, label: 'stat'}
+      - value: 0.7724
+        errors:
+          - {symerror: 0.01541, label: 'stat'}
+      - value: 0.7690
+        errors:
+          - {symerror: 0.01755, label: 'stat'}
+      - value: 0.7969
+        errors:
+          - {symerror: 0.01548, label: 'stat'}
+      - value: 0.8103
+        errors:
+          - {symerror: 0.02043, label: 'stat'}
+      - value: 0.8364
+        errors:
+          - {symerror: 0.02705, label: 'stat'}
+      - value: 0.8353
+        errors:
+          - {symerror: 0.03525, label: 'stat'}
+      - value: 0.8728
+        errors:
+          - {symerror: 0.04669, label: 'stat'}
+      - value: 0.9418
+        errors:
+          - {symerror: 0.05783, label: 'stat'}
+      - value: 1.0157
+        errors:
+          - {symerror: 0.08185, label: 'stat'}
+      - value: 0.9496
+        errors:
+          - {symerror: 0.10539, label: 'stat'}
+      - value: 0.7796
+        errors:
+          - {symerror: 0.12722, label: 'stat'}
+      - value: 1.1925
+        errors:
+          - {symerror: 0.16487, label: 'stat'}
+  - header: {name: '$R_{PC}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Centrality', value: '35–45%'}
+    values:
+      - value: 0.8856
+        errors:
+          - {symerror: 0.00180, label: 'stat'}
+      - value: 0.8838
+        errors:
+          - {symerror: 0.00187, label: 'stat'}
+      - value: 0.8682
+        errors:
+          - {symerror: 0.00204, label: 'stat'}
+      - value: 0.8594
+        errors:
+          - {symerror: 0.00230, label: 'stat'}
+      - value: 0.8485
+        errors:
+          - {symerror: 0.00260, label: 'stat'}
+      - value: 0.8359
+        errors:
+          - {symerror: 0.00226, label: 'stat'}
+      - value: 0.8326
+        errors:
+          - {symerror: 0.00256, label: 'stat'}
+      - value: 0.8271
+        errors:
+          - {symerror: 0.00290, label: 'stat'}
+      - value: 0.8135
+        errors:
+          - {symerror: 0.00327, label: 'stat'}
+      - value: 0.8225
+        errors:
+          - {symerror: 0.00375, label: 'stat'}
+      - value: 0.8165
+        errors:
+          - {symerror: 0.00426, label: 'stat'}
+      - value: 0.8147
+        errors:
+          - {symerror: 0.00485, label: 'stat'}
+      - value: 0.8135
+        errors:
+          - {symerror: 0.00553, label: 'stat'}
+      - value: 0.8215
+        errors:
+          - {symerror: 0.00635, label: 'stat'}
+      - value: 0.8115
+        errors:
+          - {symerror: 0.00720, label: 'stat'}
+      - value: 0.8264
+        errors:
+          - {symerror: 0.00830, label: 'stat'}
+      - value: 0.8247
+        errors:
+          - {symerror: 0.00948, label: 'stat'}
+      - value: 0.8385
+        errors:
+          - {symerror: 0.01092, label: 'stat'}
+      - value: 0.8487
+        errors:
+          - {symerror: 0.00952, label: 'stat'}
+      - value: 0.8708
+        errors:
+          - {symerror: 0.01261, label: 'stat'}
+      - value: 0.9045
+        errors:
+          - {symerror: 0.01678, label: 'stat'}
+      - value: 0.9755
+        errors:
+          - {symerror: 0.02270, label: 'stat'}
+      - value: 0.9551
+        errors:
+          - {symerror: 0.02913, label: 'stat'}
+      - value: 1.0865
+        errors:
+          - {symerror: 0.03704, label: 'stat'}
+      - value: 1.1194
+        errors:
+          - {symerror: 0.05113, label: 'stat'}
+      - value: 1.2019
+        errors:
+          - {symerror: 0.07084, label: 'stat'}
+      - value: 1.1038
+        errors:
+          - {symerror: 0.09009, label: 'stat'}
+      - value: 1.1714
+        errors:
+          - {symerror: 0.09658, label: 'stat'}
+  - header: {name: '$R_{PC}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Centrality', value: '25–35%'}
+    values:
+      - value: 0.9061
+        errors:
+          - {symerror: 0.00151, label: 'stat'}
+      - value: 0.9090
+        errors:
+          - {symerror: 0.00157, label: 'stat'}
+      - value: 0.9012
+        errors:
+          - {symerror: 0.00173, label: 'stat'}
+      - value: 0.8970
+        errors:
+          - {symerror: 0.00195, label: 'stat'}
+      - value: 0.8903
+        errors:
+          - {symerror: 0.00221, label: 'stat'}
+      - value: 0.8840
+        errors:
+          - {symerror: 0.00193, label: 'stat'}
+      - value: 0.8803
+        errors:
+          - {symerror: 0.00218, label: 'stat'}
+      - value: 0.8838
+        errors:
+          - {symerror: 0.00249, label: 'stat'}
+      - value: 0.8802
+        errors:
+          - {symerror: 0.00282, label: 'stat'}
+      - value: 0.8769
+        errors:
+          - {symerror: 0.00321, label: 'stat'}
+      - value: 0.8864
+        errors:
+          - {symerror: 0.00368, label: 'stat'}
+      - value: 0.8941
+        errors:
+          - {symerror: 0.00421, label: 'stat'}
+      - value: 0.8844
+        errors:
+          - {symerror: 0.00478, label: 'stat'}
+      - value: 0.8926
+        errors:
+          - {symerror: 0.00548, label: 'stat'}
+      - value: 0.8881
+        errors:
+          - {symerror: 0.00624, label: 'stat'}
+      - value: 0.8877
+        errors:
+          - {symerror: 0.00713, label: 'stat'}
+      - value: 0.8924
+        errors:
+          - {symerror: 0.00816, label: 'stat'}
+      - value: 0.9190
+        errors:
+          - {symerror: 0.00947, label: 'stat'}
+      - value: 0.9181
+        errors:
+          - {symerror: 0.00819, label: 'stat'}
+      - value: 0.9179
+        errors:
+          - {symerror: 0.01070, label: 'stat'}
+      - value: 0.9669
+        errors:
+          - {symerror: 0.01433, label: 'stat'}
+      - value: 0.9768
+        errors:
+          - {symerror: 0.01875, label: 'stat'}
+      - value: 1.0178
+        errors:
+          - {symerror: 0.02481, label: 'stat'}
+      - value: 1.1028
+        errors:
+          - {symerror: 0.03078, label: 'stat'}
+      - value: 1.1956
+        errors:
+          - {symerror: 0.04357, label: 'stat'}
+      - value: 1.1818
+        errors:
+          - {symerror: 0.05803, label: 'stat'}
+      - value: 1.2564
+        errors:
+          - {symerror: 0.07890, label: 'stat'}
+      - value: 1.2623
+        errors:
+          - {symerror: 0.08226, label: 'stat'}
+  - header: {name: '$R_{PC}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Centrality', value: '15–25%'}
+    values:
+      - value: 0.9178
+        errors:
+          - {symerror: 0.00127, label: 'stat'}
+      - value: 0.9235
+        errors:
+          - {symerror: 0.00133, label: 'stat'}
+      - value: 0.9174
+        errors:
+          - {symerror: 0.00146, label: 'stat'}
+      - value: 0.9181
+        errors:
+          - {symerror: 0.00165, label: 'stat'}
+      - value: 0.9193
+        errors:
+          - {symerror: 0.00188, label: 'stat'}
+      - value: 0.9147
+        errors:
+          - {symerror: 0.00165, label: 'stat'}
+      - value: 0.9158
+        errors:
+          - {symerror: 0.00187, label: 'stat'}
+      - value: 0.9195
+        errors:
+          - {symerror: 0.00213, label: 'stat'}
+      - value: 0.9183
+        errors:
+          - {symerror: 0.00242, label: 'stat'}
+      - value: 0.9218
+        errors:
+          - {symerror: 0.00276, label: 'stat'}
+      - value: 0.9238
+        errors:
+          - {symerror: 0.00315, label: 'stat'}
+      - value: 0.9317
+        errors:
+          - {symerror: 0.00361, label: 'stat'}
+      - value: 0.9342
+        errors:
+          - {symerror: 0.00412, label: 'stat'}
+      - value: 0.9305
+        errors:
+          - {symerror: 0.00469, label: 'stat'}
+      - value: 0.9390
+        errors:
+          - {symerror: 0.00538, label: 'stat'}
+      - value: 0.9409
+        errors:
+          - {symerror: 0.00615, label: 'stat'}
+      - value: 0.9344
+        errors:
+          - {symerror: 0.00701, label: 'stat'}
+      - value: 0.9337
+        errors:
+          - {symerror: 0.00801, label: 'stat'}
+      - value: 0.9495
+        errors:
+          - {symerror: 0.00699, label: 'stat'}
+      - value: 0.9680
+        errors:
+          - {symerror: 0.00922, label: 'stat'}
+      - value: 0.9613
+        errors:
+          - {symerror: 0.01200, label: 'stat'}
+      - value: 0.9954
+        errors:
+          - {symerror: 0.01590, label: 'stat'}
+      - value: 1.0386
+        errors:
+          - {symerror: 0.02103, label: 'stat'}
+      - value: 1.1121
+        errors:
+          - {symerror: 0.02593, label: 'stat'}
+      - value: 1.1099
+        errors:
+          - {symerror: 0.03518, label: 'stat'}
+      - value: 1.2087
+        errors:
+          - {symerror: 0.04933, label: 'stat'}
+      - value: 1.1906
+        errors:
+          - {symerror: 0.06454, label: 'stat'}
+      - value: 1.2056
+        errors:
+          - {symerror: 0.06785, label: 'stat'}
+  - header: {name: '$R_{PC}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Centrality', value: '6–15%'}
+    values:
+      - value: 0.9327
+        errors:
+          - {symerror: 0.00117, label: 'stat'}
+      - value: 0.9385
+        errors:
+          - {symerror: 0.00122, label: 'stat'}
+      - value: 0.9417
+        errors:
+          - {symerror: 0.00135, label: 'stat'}
+      - value: 0.9416
+        errors:
+          - {symerror: 0.00152, label: 'stat'}
+      - value: 0.9468
+        errors:
+          - {symerror: 0.00175, label: 'stat'}
+      - value: 0.9452
+        errors:
+          - {symerror: 0.00153, label: 'stat'}
+      - value: 0.9485
+        errors:
+          - {symerror: 0.00174, label: 'stat'}
+      - value: 0.9509
+        errors:
+          - {symerror: 0.00198, label: 'stat'}
+      - value: 0.9537
+        errors:
+          - {symerror: 0.00226, label: 'stat'}
+      - value: 0.9584
+        errors:
+          - {symerror: 0.00258, label: 'stat'}
+      - value: 0.9685
+        errors:
+          - {symerror: 0.00296, label: 'stat'}
+      - value: 0.9652
+        errors:
+          - {symerror: 0.00337, label: 'stat'}
+      - value: 0.9701
+        errors:
+          - {symerror: 0.00385, label: 'stat'}
+      - value: 0.9756
+        errors:
+          - {symerror: 0.00441, label: 'stat'}
+      - value: 0.9771
+        errors:
+          - {symerror: 0.00504, label: 'stat'}
+      - value: 0.9672
+        errors:
+          - {symerror: 0.00573, label: 'stat'}
+      - value: 0.9966
+        errors:
+          - {symerror: 0.00665, label: 'stat'}
+      - value: 0.9648
+        errors:
+          - {symerror: 0.00748, label: 'stat'}
+      - value: 0.9811
+        errors:
+          - {symerror: 0.00654, label: 'stat'}
+      - value: 0.9920
+        errors:
+          - {symerror: 0.00858, label: 'stat'}
+      - value: 0.9986
+        errors:
+          - {symerror: 0.01124, label: 'stat'}
+      - value: 0.9963
+        errors:
+          - {symerror: 0.01462, label: 'stat'}
+      - value: 1.0299
+        errors:
+          - {symerror: 0.01925, label: 'stat'}
+      - value: 1.0979
+        errors:
+          - {symerror: 0.02364, label: 'stat'}
+      - value: 1.0577
+        errors:
+          - {symerror: 0.03147, label: 'stat'}
+      - value: 1.1060
+        errors:
+          - {symerror: 0.04305, label: 'stat'}
+      - value: 1.0423
+        errors:
+          - {symerror: 0.05511, label: 'stat'}
+      - value: 1.1244
+        errors:
+          - {symerror: 0.05953, label: 'stat'}
+  - header: {name: '$R_{PC}$'}
+    qualifiers:
+      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: 'Centrality', value: '0–6%'}
+    values:
+      - value: 0.9977
+        errors:
+          - {symerror: 0.00138, label: 'stat'}
+      - value: 1.0040
+        errors:
+          - {symerror: 0.00143, label: 'stat'}
+      - value: 1.0008
+        errors:
+          - {symerror: 0.00158, label: 'stat'}
+      - value: 0.9988
+        errors:
+          - {symerror: 0.00178, label: 'stat'}
+      - value: 0.9961
+        errors:
+          - {symerror: 0.00203, label: 'stat'}
+      - value: 0.9996
+        errors:
+          - {symerror: 0.00178, label: 'stat'}
+      - value: 0.9984
+        errors:
+          - {symerror: 0.00202, label: 'stat'}
+      - value: 1.0018
+        errors:
+          - {symerror: 0.00230, label: 'stat'}
+      - value: 0.9961
+        errors:
+          - {symerror: 0.00260, label: 'stat'}
+      - value: 0.9953
+        errors:
+          - {symerror: 0.00297, label: 'stat'}
+      - value: 1.0041
+        errors:
+          - {symerror: 0.00340, label: 'stat'}
+      - value: 1.0014
+        errors:
+          - {symerror: 0.00387, label: 'stat'}
+      - value: 1.0064
+        errors:
+          - {symerror: 0.00442, label: 'stat'}
+      - value: 1.0113
+        errors:
+          - {symerror: 0.00506, label: 'stat'}
+      - value: 0.9989
+        errors:
+          - {symerror: 0.00575, label: 'stat'}
+      - value: 1.0018
+        errors:
+          - {symerror: 0.00657, label: 'stat'}
+      - value: 0.9953
+        errors:
+          - {symerror: 0.00749, label: 'stat'}
+      - value: 0.9814
+        errors:
+          - {symerror: 0.00850, label: 'stat'}
+      - value: 0.9815
+        errors:
+          - {symerror: 0.00737, label: 'stat'}
+      - value: 0.9976
+        errors:
+          - {symerror: 0.00971, label: 'stat'}
+      - value: 1.0002
+        errors:
+          - {symerror: 0.01270, label: 'stat'}
+      - value: 0.9567
+        errors:
+          - {symerror: 0.01617, label: 'stat'}
+      - value: 1.0160
+        errors:
+          - {symerror: 0.02165, label: 'stat'}
+      - value: 1.0000
+        errors:
+          - {symerror: 0.02563, label: 'stat'}
+      - value: 1.0240
+        errors:
+          - {symerror: 0.03524, label: 'stat'}
+      - value: 1.0568
+        errors:
+          - {symerror: 0.04807, label: 'stat'}
+      - value: 0.9498
+        errors:
+          - {symerror: 0.06013, label: 'stat'}
+      - value: 1.0848
+        errors:
+          - {symerror: 0.06712, label: 'stat'}
