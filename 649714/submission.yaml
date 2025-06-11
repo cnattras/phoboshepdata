@@ -26,7 +26,7 @@ additional_resources:
 ---
 name: "Figure 1"
 location: Data from Figure 1 of PHOBOS paper Inspire ID 649714
-description: Charged particle yield versus pT for Au+Au at 62.4 Gev in different centrality bins 
+description: Charged particle yield versus $p_T$ for Au+Au at 62.4 Gev in different centrality bins 
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: fig1.yaml
@@ -35,7 +35,7 @@ additional_resources:
 ---
 name: "Figure 2"
 location: Data from Figure 2 of PHOBOS paper Inspire ID 649714
-description: R_AA versus beam energy
+description: $R_{AA}$ versus beam energy
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: fig2.yaml
@@ -44,7 +44,7 @@ additional_resources:
 ---
 name: "Figure 3"
 location: Data from Figure 3 of PHOBOS paper Inspire ID 649714
-description: Various quantities versus pT for Au+Au at 62.4 and 200 GeV in different centrality bins
+description: Various quantities versus $p_T$ for Au+Au at 62.4 and 200 GeV in different centrality bins
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
 data_file: fig3.yaml

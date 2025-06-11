@@ -32,7 +32,7 @@ independent_variables:
 dependent_variables:
   - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 GeV'}
       - {name: 'Centrality', value: '0-6%'}
     values:
       - value: 0.23755
@@ -149,7 +149,7 @@ dependent_variables:
           - {asymerror: {plus: 0.05278, minus: 0.06378}, label: 'sys'}
   - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 GeV'}
       - {name: 'Centrality', value: '6-15%'}
     values:
       - value: 0.24317
@@ -266,7 +266,7 @@ dependent_variables:
           - {asymerror: {plus: 0.04802, minus: 0.06303}, label: 'sys'}
   - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 GeV'}
       - {name: 'Centrality', value: '15-25%'}
     values:
       - value: 0.27356
@@ -383,7 +383,7 @@ dependent_variables:
           - {asymerror: {plus: 0.04735, minus: 0.07103}, label: 'sys'}
   - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 GeV'}
       - {name: 'Centrality', value: '25-35%'}
     values:
       - value: 0.31469
@@ -500,7 +500,7 @@ dependent_variables:
           - {asymerror: {plus: 0.06398, minus: 0.08797}, label: 'sys'}
   - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 GeV'}
       - {name: 'Centrality', value: '35-45%'}
     values:
       - value: 0.36150
@@ -617,7 +617,7 @@ dependent_variables:
           - {asymerror: {plus: 0.06973, minus: 0.09762}, label: 'sys'}
   - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Collision System', value: '200 GeV Au+Au'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 GeV'}
       - {name: 'Centrality', value: '45-50%'}
     values:
       - value: 0.42706
@@ -732,11 +732,9 @@ dependent_variables:
         errors:
           - {symerror: 0.08592, label: 'stat'}
           - {asymerror: {plus: 0.11551, minus: 0.13862}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
-      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '45-50%'}
     values:
       - value: 1.3009030
@@ -851,11 +849,9 @@ dependent_variables:
         errors:
           - {symerror: 0.262, label: 'stat'}
           - {asymerror: {plus: 0.535, minus: 0.392}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
-      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '35-45%'}
     values:
       - value: 1.2749505
@@ -970,11 +966,9 @@ dependent_variables:
         errors:
           - {symerror: 0.153, label: 'stat'}
           - {asymerror: {plus: 0.478, minus: 0.374}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
-      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '25-35%'}
     values:
       - value: 1.3043673
@@ -1089,11 +1083,9 @@ dependent_variables:
         errors:
           - {symerror: 0.131, label: 'stat'}
           - {asymerror: {plus: 0.529, minus: 0.416}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
-      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '15-25%'}
     values:
       - value: 1.3212936
@@ -1208,11 +1200,9 @@ dependent_variables:
         errors:
           - {symerror: 0.108, label: 'stat'}
           - {asymerror: {plus: 0.505, minus: 0.397}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
-      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '6-15%'}
     values:
       - value: 1.3427341
@@ -1327,11 +1317,9 @@ dependent_variables:
         errors:
           - {symerror: 0.095, label: 'stat'}
           - {asymerror: {plus: 0.602, minus: 0.392}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
-      - {name: 'Rapidity Range', value: '0.2 < y_π < 1.4'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '0-6%'}
     values:
       - value: 1.4363701
@@ -1446,1413 +1434,1748 @@ dependent_variables:
         errors:
           - {symerror: 0.107, label: 'stat'}
           - {asymerror: {plus: 0.726, minus: 0.442}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+  - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '45-50%'}
     values:
       - value: 0.3687
         errors:
           - {symerror: 0.00154, label: 'stat'}
-          - {asymerror: {plus: 0.04908, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.04908, label: 'sys: pt-to-pt'}
       - value: 0.3912
         errors:
           - {symerror: 0.00173, label: 'stat'}
-          - {asymerror: {plus: 0.05148, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.05148, label: 'sys: pt-to-pt'}
       - value: 0.4232
         errors:
           - {symerror: 0.00210, label: 'stat'}
-          - {asymerror: {plus: 0.05512, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.05512, label: 'sys: pt-to-pt'}
       - value: 0.4663
         errors:
           - {symerror: 0.00266, label: 'stat'}
-          - {asymerror: {plus: 0.06017, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.06017, label: 'sys: pt-to-pt'}
       - value: 0.5138
         errors:
           - {symerror: 0.00340, label: 'stat'}
-          - {asymerror: {plus: 0.06576, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.06576, label: 'sys: pt-to-pt'}
       - value: 0.5697
         errors:
           - {symerror: 0.00340, label: 'stat'}
-          - {asymerror: {plus: 0.07240, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.07240, label: 'sys: pt-to-pt'}
       - value: 0.6271
         errors:
           - {symerror: 0.00434, label: 'stat'}
-          - {asymerror: {plus: 0.07922, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.07922, label: 'sys: pt-to-pt'}
       - value: 0.6715
         errors:
           - {symerror: 0.00546, label: 'stat'}
-          - {asymerror: {plus: 0.08442, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.08442, label: 'sys: pt-to-pt'}
       - value: 0.7524
         errors:
           - {symerror: 0.00702, label: 'stat'}
-          - {asymerror: {plus: 0.09425, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.09425, label: 'sys: pt-to-pt'}
       - value: 0.8220
         errors:
           - {symerror: 0.00888, label: 'stat'}
-          - {asymerror: {plus: 0.10269, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.10269, label: 'sys: pt-to-pt'}
       - value: 0.8798
         errors:
           - {symerror: 0.01107, label: 'stat'}
-          - {asymerror: {plus: 0.10972, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.10972, label: 'sys: pt-to-pt'}
       - value: 0.9394
         errors:
           - {symerror: 0.01376, label: 'stat'}
-          - {asymerror: {plus: 0.11708, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.11708, label: 'sys: pt-to-pt'}
       - value: 1.0004
         errors:
           - {symerror: 0.01699, label: 'stat'}
-          - {asymerror: {plus: 0.12471, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.12471, label: 'sys: pt-to-pt'}
       - value: 1.0651
         errors:
           - {symerror: 0.02086, label: 'stat'}
-          - {asymerror: {plus: 0.13294, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.13294, label: 'sys: pt-to-pt'}
       - value: 1.1537
         errors:
           - {symerror: 0.02570, label: 'stat'}
-          - {asymerror: {plus: 0.14432, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.14432, label: 'sys: pt-to-pt'}
       - value: 1.1500
         errors:
           - {symerror: 0.03024, label: 'stat'}
-          - {asymerror: {plus: 0.14430, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.14430, label: 'sys: pt-to-pt'}
       - value: 1.1941
         errors:
           - {symerror: 0.03628, label: 'stat'}
-          - {asymerror: {plus: 0.15041, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.15041, label: 'sys: pt-to-pt'}
       - value: 1.2777
         errors:
           - {symerror: 0.04383, label: 'stat'}
-          - {asymerror: {plus: 0.16172, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.16172, label: 'sys: pt-to-pt'}
       - value: 1.3051
         errors:
           - {symerror: 0.03968, label: 'stat'}
-          - {asymerror: {plus: 0.16661, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.16661, label: 'sys: pt-to-pt'}
       - value: 1.3688
         errors:
           - {symerror: 0.05565, label: 'stat'}
-          - {asymerror: {plus: 0.17721, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.17721, label: 'sys: pt-to-pt'}
       - value: 1.5329
         errors:
           - {symerror: 0.07895, label: 'stat'}
-          - {asymerror: {plus: 0.20184, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.20184, label: 'sys: pt-to-pt'}
       - value: 1.7256
         errors:
           - {symerror: 0.11115, label: 'stat'}
-          - {asymerror: {plus: 0.23168, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.23168, label: 'sys: pt-to-pt'}
       - value: 1.3083
         errors:
           - {symerror: 0.12708, label: 'stat'}
-          - {asymerror: {plus: 0.17956, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.17956, label: 'sys: pt-to-pt'}
       - value: 1.5790
         errors:
           - {symerror: 0.16552, label: 'stat'}
-          - {asymerror: {plus: 0.22274, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.22274, label: 'sys: pt-to-pt'}
       - value: 1.3380
         errors:
           - {symerror: 0.22617, label: 'stat'}
-          - {asymerror: {plus: 0.19524, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.19524, label: 'sys: pt-to-pt'}
       - value: 1.3497
         errors:
           - {symerror: 0.29454, label: 'stat'}
-          - {asymerror: {plus: 0.20436, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.20436, label: 'sys: pt-to-pt'}
       - value: 1.1847
         errors:
           - {symerror: 0.37462, label: 'stat'}
-          - {asymerror: {plus: 0.18668, minus: 0.1635}, label: 'sys'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.18668, label: 'sys: pt-to-pt'}
       - value: 0.0000
-  - header: {name: 'Charged Particle Yield'}
+        errors:
+          - {symerror: 0.00000, label: 'stat'}
+          - {symerror: 0.1635, label: 'sys: overall'}
+          - {symerror: 0.00000, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
-      - {name: 'Centrality', value: '35-45%'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
+      - {name: 'Centrality', value: '30-45%'}
     values:
       - value: 0.3144
         errors:
           - {symerror: 0.00076, label: 'stat'}
-          - {asymerror: {plus: 0.04185, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.04185, label: 'sys: pt-to-pt'}
       - value: 0.3353
         errors:
           - {symerror: 0.00086, label: 'stat'}
-          - {asymerror: {plus: 0.04412, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.04412, label: 'sys: pt-to-pt'}
       - value: 0.3618
         errors:
           - {symerror: 0.00103, label: 'stat'}
-          - {asymerror: {plus: 0.04712, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.04712, label: 'sys: pt-to-pt'}
       - value: 0.4002
         errors:
           - {symerror: 0.00131, label: 'stat'}
-          - {asymerror: {plus: 0.05163, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.05163, label: 'sys: pt-to-pt'}
       - value: 0.4469
         errors:
           - {symerror: 0.00170, label: 'stat'}
-          - {asymerror: {plus: 0.05720, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.05720, label: 'sys: pt-to-pt'}
       - value: 0.4919
         errors:
           - {symerror: 0.00169, label: 'stat'}
-          - {asymerror: {plus: 0.06252, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.06252, label: 'sys: pt-to-pt'}
       - value: 0.5526
         errors:
           - {symerror: 0.00218, label: 'stat'}
-          - {asymerror: {plus: 0.06982, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.06982, label: 'sys: pt-to-pt'}
       - value: 0.6108
         errors:
           - {symerror: 0.00278, label: 'stat'}
-          - {asymerror: {plus: 0.07680, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.07680, label: 'sys: pt-to-pt'}
       - value: 0.6710
         errors:
           - {symerror: 0.00354, label: 'stat'}
-          - {asymerror: {plus: 0.08404, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.08404, label: 'sys: pt-to-pt'}
       - value: 0.7361
         errors:
           - {symerror: 0.00448, label: 'stat'}
-          - {asymerror: {plus: 0.09195, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.09195, label: 'sys: pt-to-pt'}
       - value: 0.7994
         errors:
           - {symerror: 0.00564, label: 'stat'}
-          - {asymerror: {plus: 0.09969, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.09969, label: 'sys: pt-to-pt'}
       - value: 0.8606
         errors:
           - {symerror: 0.00703, label: 'stat'}
-          - {asymerror: {plus: 0.10725, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.10725, label: 'sys: pt-to-pt'}
       - value: 0.9208
         errors:
           - {symerror: 0.00869, label: 'stat'}
-          - {asymerror: {plus: 0.11479, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.11479, label: 'sys: pt-to-pt'}
       - value: 0.9745
         errors:
           - {symerror: 0.01067, label: 'stat'}
-          - {asymerror: {plus: 0.12163, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.12163, label: 'sys: pt-to-pt'}
       - value: 1.0555
         errors:
           - {symerror: 0.01314, label: 'stat'}
-          - {asymerror: {plus: 0.13203, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.13203, label: 'sys: pt-to-pt'}
       - value: 1.0503
         errors:
           - {symerror: 0.01549, label: 'stat'}
-          - {asymerror: {plus: 0.13179, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.13179, label: 'sys: pt-to-pt'}
       - value: 1.1249
         errors:
           - {symerror: 0.01879, label: 'stat'}
-          - {asymerror: {plus: 0.14170, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.14170, label: 'sys: pt-to-pt'}
       - value: 1.1303
         errors:
           - {symerror: 0.02206, label: 'stat'}
-          - {asymerror: {plus: 0.14306, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.14306, label: 'sys: pt-to-pt'}
       - value: 1.2202
         errors:
           - {symerror: 0.02068, label: 'stat'}
-          - {asymerror: {plus: 0.15577, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.15577, label: 'sys: pt-to-pt'}
       - value: 1.2952
         errors:
           - {symerror: 0.02879, label: 'stat'}
-          - {asymerror: {plus: 0.16768, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.16768, label: 'sys: pt-to-pt'}
       - value: 1.3221
         errors:
           - {symerror: 0.03921, label: 'stat'}
-          - {asymerror: {plus: 0.17407, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.17407, label: 'sys: pt-to-pt'}
       - value: 1.3157
         errors:
           - {symerror: 0.05197, label: 'stat'}
-          - {asymerror: {plus: 0.17665, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.17665, label: 'sys: pt-to-pt'}
       - value: 1.3641
         errors:
           - {symerror: 0.06961, label: 'stat'}
-          - {asymerror: {plus: 0.18721, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.18721, label: 'sys: pt-to-pt'}
       - value: 1.2569
         errors:
           - {symerror: 0.07949, label: 'stat'}
-          - {asymerror: {plus: 0.17730, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.17730, label: 'sys: pt-to-pt'}
       - value: 1.3914
         errors:
           - {symerror: 0.11595, label: 'stat'}
-          - {asymerror: {plus: 0.20302, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.20302, label: 'sys: pt-to-pt'}
       - value: 1.0534
         errors:
           - {symerror: 0.13715, label: 'stat'}
-          - {asymerror: {plus: 0.15950, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.15950, label: 'sys: pt-to-pt'}
       - value: 1.1033
         errors:
           - {symerror: 0.18649, label: 'stat'}
-          - {asymerror: {plus: 0.17386, minus: 0.1588}, label: 'sys'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.17386, label: 'sys: pt-to-pt'}
       - value: 1.4946
         errors:
           - {symerror: 0.23632, label: 'stat'}
-          - {asymerror: {plus: 0.25137, minus: 0.1588}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+          - {symerror: 0.1588, label: 'sys: overall'}
+          - {symerror: 0.25137, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '25-35%'}
     values:
       - value: 0.2691
         errors:
           - {symerror: 0.00052, label: 'stat'}
-          - {asymerror: {plus: 0.03582, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.03582, label: 'sys: pt-to-pt'}
       - value: 0.2893
         errors:
           - {symerror: 0.00059, label: 'stat'}
-          - {asymerror: {plus: 0.03806, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.03806, label: 'sys: pt-to-pt'}
       - value: 0.3141
         errors:
           - {symerror: 0.00071, label: 'stat'}
-          - {asymerror: {plus: 0.04090, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.04090, label: 'sys: pt-to-pt'}
       - value: 0.3505
         errors:
           - {symerror: 0.00091, label: 'stat'}
-          - {asymerror: {plus: 0.04522, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.04522, label: 'sys: pt-to-pt'}
       - value: 0.3963
         errors:
           - {symerror: 0.00119, label: 'stat'}
-          - {asymerror: {plus: 0.05072, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.05072, label: 'sys: pt-to-pt'}
       - value: 0.4360
         errors:
           - {symerror: 0.00118, label: 'stat'}
-          - {asymerror: {plus: 0.05542, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.05542, label: 'sys: pt-to-pt'}
       - value: 0.4877
         errors:
           - {symerror: 0.00152, label: 'stat'}
-          - {asymerror: {plus: 0.06161, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.06161, label: 'sys: pt-to-pt'}
       - value: 0.5499
         errors:
           - {symerror: 0.00196, label: 'stat'}
-          - {asymerror: {plus: 0.06914, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.06914, label: 'sys: pt-to-pt'}
       - value: 0.6100
         errors:
           - {symerror: 0.00250, label: 'stat'}
-          - {asymerror: {plus: 0.07640, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.07640, label: 'sys: pt-to-pt'}
       - value: 0.6692
         errors:
           - {symerror: 0.00318, label: 'stat'}
-          - {asymerror: {plus: 0.08360, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.08360, label: 'sys: pt-to-pt'}
       - value: 0.7307
         errors:
           - {symerror: 0.00400, label: 'stat'}
-          - {asymerror: {plus: 0.09112, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.09112, label: 'sys: pt-to-pt'}
       - value: 0.7941
         errors:
           - {symerror: 0.00501, label: 'stat'}
-          - {asymerror: {plus: 0.09896, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.09896, label: 'sys: pt-to-pt'}
       - value: 0.8402
         errors:
           - {symerror: 0.00617, label: 'stat'}
-          - {asymerror: {plus: 0.10474, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.10474, label: 'sys: pt-to-pt'}
       - value: 0.9076
         errors:
           - {symerror: 0.00763, label: 'stat'}
-          - {asymerror: {plus: 0.11329, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.11329, label: 'sys: pt-to-pt'}
       - value: 0.9601
         errors:
           - {symerror: 0.00929, label: 'stat'}
-          - {asymerror: {plus: 0.12010, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.12010, label: 'sys: pt-to-pt'}
       - value: 1.0091
         errors:
           - {symerror: 0.01127, label: 'stat'}
-          - {asymerror: {plus: 0.12662, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.12662, label: 'sys: pt-to-pt'}
       - value: 1.0496
         errors:
           - {symerror: 0.01348, label: 'stat'}
-          - {asymerror: {plus: 0.13221, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.13221, label: 'sys: pt-to-pt'}
       - value: 1.0817
         errors:
           - {symerror: 0.01604, label: 'stat'}
-          - {asymerror: {plus: 0.13690, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.13690, label: 'sys: pt-to-pt'}
       - value: 1.1391
         errors:
           - {symerror: 0.01478, label: 'stat'}
-          - {asymerror: {plus: 0.14541, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.14541, label: 'sys: pt-to-pt'}
       - value: 1.1827
         errors:
           - {symerror: 0.02049, label: 'stat'}
-          - {asymerror: {plus: 0.15312, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.15312, label: 'sys: pt-to-pt'}
       - value: 1.2758
         errors:
           - {symerror: 0.02859, label: 'stat'}
-          - {asymerror: {plus: 0.16798, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.16798, label: 'sys: pt-to-pt'}
       - value: 1.1810
         errors:
           - {symerror: 0.03640, label: 'stat'}
-          - {asymerror: {plus: 0.15857, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.15857, label: 'sys: pt-to-pt'}
       - value: 1.2029
         errors:
           - {symerror: 0.04808, label: 'stat'}
-          - {asymerror: {plus: 0.16509, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.16509, label: 'sys: pt-to-pt'}
       - value: 1.2492
         errors:
           - {symerror: 0.05969, label: 'stat'}
-          - {asymerror: {plus: 0.17622, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.17622, label: 'sys: pt-to-pt'}
       - value: 1.1487
         errors:
           - {symerror: 0.07853, label: 'stat'}
-          - {asymerror: {plus: 0.16761, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.16761, label: 'sys: pt-to-pt'}
       - value: 0.9599
         errors:
           - {symerror: 0.09796, label: 'stat'}
-          - {asymerror: {plus: 0.14533, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.14533, label: 'sys: pt-to-pt'}
       - value: 1.2100
         errors:
           - {symerror: 0.14783, label: 'stat'}
-          - {asymerror: {plus: 0.19068, minus: 0.1229}, label: 'sys'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.19068, label: 'sys: pt-to-pt'}
       - value: 1.2009
         errors:
           - {symerror: 0.15906, label: 'stat'}
-          - {asymerror: {plus: 0.20196, minus: 0.1229}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+          - {symerror: 0.1229, label: 'sys: overall'}
+          - {symerror: 0.20196, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '15-25%'}
     values:
       - value: 0.2382
         errors:
           - {symerror: 0.00038, label: 'stat'}
-          - {asymerror: {plus: 0.03171, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.03171, label: 'sys: pt-to-pt'}
       - value: 0.2576
         errors:
           - {symerror: 0.00043, label: 'stat'}
-          - {asymerror: {plus: 0.03390, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.03390, label: 'sys: pt-to-pt'}
       - value: 0.2832
         errors:
           - {symerror: 0.00053, label: 'stat'}
-          - {asymerror: {plus: 0.03688, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.03688, label: 'sys: pt-to-pt'}
       - value: 0.3159
         errors:
           - {symerror: 0.00068, label: 'stat'}
-          - {asymerror: {plus: 0.04077, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.04077, label: 'sys: pt-to-pt'}
       - value: 0.3585
         errors:
           - {symerror: 0.00088, label: 'stat'}
-          - {asymerror: {plus: 0.04588, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.04588, label: 'sys: pt-to-pt'}
       - value: 0.3989
         errors:
           - {symerror: 0.00088, label: 'stat'}
-          - {asymerror: {plus: 0.05070, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.05070, label: 'sys: pt-to-pt'}
       - value: 0.4515
         errors:
           - {symerror: 0.00114, label: 'stat'}
-          - {asymerror: {plus: 0.05705, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.05705, label: 'sys: pt-to-pt'}
       - value: 0.5073
         errors:
           - {symerror: 0.00147, label: 'stat'}
-          - {asymerror: {plus: 0.06379, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.06379, label: 'sys: pt-to-pt'}
       - value: 0.5642
         errors:
           - {symerror: 0.00188, label: 'stat'}
-          - {asymerror: {plus: 0.07067, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.07067, label: 'sys: pt-to-pt'}
       - value: 0.6229
         errors:
           - {symerror: 0.00239, label: 'stat'}
-          - {asymerror: {plus: 0.07782, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.07782, label: 'sys: pt-to-pt'}
       - value: 0.6823
         errors:
           - {symerror: 0.00302, label: 'stat'}
-          - {asymerror: {plus: 0.08509, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.08509, label: 'sys: pt-to-pt'}
       - value: 0.7411
         errors:
           - {symerror: 0.00378, label: 'stat'}
-          - {asymerror: {plus: 0.09237, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.09237, label: 'sys: pt-to-pt'}
       - value: 0.7972
         errors:
           - {symerror: 0.00469, label: 'stat'}
-          - {asymerror: {plus: 0.09939, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.09939, label: 'sys: pt-to-pt'}
       - value: 0.8421
         errors:
           - {symerror: 0.00573, label: 'stat'}
-          - {asymerror: {plus: 0.10511, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.10511, label: 'sys: pt-to-pt'}
       - value: 0.9086
         errors:
           - {symerror: 0.00706, label: 'stat'}
-          - {asymerror: {plus: 0.11367, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.11367, label: 'sys: pt-to-pt'}
       - value: 0.9404
         errors:
           - {symerror: 0.00847, label: 'stat'}
-          - {asymerror: {plus: 0.11800, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.11800, label: 'sys: pt-to-pt'}
       - value: 0.9752
         errors:
           - {symerror: 0.01013, label: 'stat'}
-          - {asymerror: {plus: 0.12284, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.12284, label: 'sys: pt-to-pt'}
       - value: 1.0334
         errors:
           - {symerror: 0.01224, label: 'stat'}
-          - {asymerror: {plus: 0.13079, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.13079, label: 'sys: pt-to-pt'}
       - value: 1.0847
         errors:
           - {symerror: 0.01126, label: 'stat'}
-          - {asymerror: {plus: 0.13847, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.13847, label: 'sys: pt-to-pt'}
       - value: 1.1343
         errors:
           - {symerror: 0.01563, label: 'stat'}
-          - {asymerror: {plus: 0.14686, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.14686, label: 'sys: pt-to-pt'}
       - value: 1.1269
         errors:
           - {symerror: 0.02094, label: 'stat'}
-          - {asymerror: {plus: 0.14837, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.14837, label: 'sys: pt-to-pt'}
       - value: 1.1143
         errors:
           - {symerror: 0.02762, label: 'stat'}
-          - {asymerror: {plus: 0.14960, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.14960, label: 'sys: pt-to-pt'}
       - value: 1.0872
         errors:
           - {symerror: 0.03594, label: 'stat'}
-          - {asymerror: {plus: 0.14921, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.14921, label: 'sys: pt-to-pt'}
       - value: 1.1304
         errors:
           - {symerror: 0.04394, label: 'stat'}
-          - {asymerror: {plus: 0.15947, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.15947, label: 'sys: pt-to-pt'}
       - value: 1.1045
         errors:
           - {symerror: 0.06080, label: 'stat'}
-          - {asymerror: {plus: 0.16115, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.16115, label: 'sys: pt-to-pt'}
       - value: 1.1107
         errors:
           - {symerror: 0.08189, label: 'stat'}
-          - {asymerror: {plus: 0.16818, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.16818, label: 'sys: pt-to-pt'}
       - value: 1.1926
         errors:
           - {symerror: 0.11583, label: 'stat'}
-          - {asymerror: {plus: 0.18793, minus: 0.0888}, label: 'sys'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.18793, label: 'sys: pt-to-pt'}
       - value: 0.8119
         errors:
           - {symerror: 0.09919, label: 'stat'}
-          - {asymerror: {plus: 0.13654, minus: 0.0888}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+          - {symerror: 0.0888, label: 'sys: overall'}
+          - {symerror: 0.13654, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '6-15%'}
     values:
       - value: 0.2156
         errors:
           - {symerror: 0.00031, label: 'stat'}
-          - {asymerror: {plus: 0.02869, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.02869, label: 'sys: pt-to-pt'}
       - value: 0.2349
         errors:
           - {symerror: 0.00035, label: 'stat'}
-          - {asymerror: {plus: 0.03091, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.03091, label: 'sys: pt-to-pt'}
       - value: 0.2584
         errors:
           - {symerror: 0.00043, label: 'stat'}
-          - {asymerror: {plus: 0.03365, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.03365, label: 'sys: pt-to-pt'}
       - value: 0.2898
         errors:
           - {symerror: 0.00055, label: 'stat'}
-          - {asymerror: {plus: 0.03739, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.03739, label: 'sys: pt-to-pt'}
       - value: 0.3298
         errors:
           - {symerror: 0.00071, label: 'stat'}
-          - {asymerror: {plus: 0.04221, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.04221, label: 'sys: pt-to-pt'}
       - value: 0.3676
         errors:
           - {symerror: 0.00071, label: 'stat'}
-          - {asymerror: {plus: 0.04671, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.04671, label: 'sys: pt-to-pt'}
       - value: 0.4152
         errors:
           - {symerror: 0.00092, label: 'stat'}
-          - {asymerror: {plus: 0.05246, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.05246, label: 'sys: pt-to-pt'}
       - value: 0.4670
         errors:
           - {symerror: 0.00119, label: 'stat'}
-          - {asymerror: {plus: 0.05872, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.05872, label: 'sys: pt-to-pt'}
       - value: 0.5239
         errors:
           - {symerror: 0.00154, label: 'stat'}
-          - {asymerror: {plus: 0.06562, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.06562, label: 'sys: pt-to-pt'}
       - value: 0.5750
         errors:
           - {symerror: 0.00195, label: 'stat'}
-          - {asymerror: {plus: 0.07182, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.07182, label: 'sys: pt-to-pt'}
       - value: 0.6268
         errors:
           - {symerror: 0.00245, label: 'stat'}
-          - {asymerror: {plus: 0.07816, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.07816, label: 'sys: pt-to-pt'}
       - value: 0.6852
         errors:
           - {symerror: 0.00308, label: 'stat'}
-          - {asymerror: {plus: 0.08539, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.08539, label: 'sys: pt-to-pt'}
       - value: 0.7364
         errors:
           - {symerror: 0.00382, label: 'stat'}
-          - {asymerror: {plus: 0.09181, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.09181, label: 'sys: pt-to-pt'}
       - value: 0.7826
         errors:
           - {symerror: 0.00469, label: 'stat'}
-          - {asymerror: {plus: 0.09769, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.09769, label: 'sys: pt-to-pt'}
       - value: 0.8280
         errors:
           - {symerror: 0.00572, label: 'stat'}
-          - {asymerror: {plus: 0.10358, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.10358, label: 'sys: pt-to-pt'}
       - value: 0.8712
         errors:
           - {symerror: 0.00692, label: 'stat'}
-          - {asymerror: {plus: 0.10932, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.10932, label: 'sys: pt-to-pt'}
       - value: 0.8999
         errors:
           - {symerror: 0.00827, label: 'stat'}
-          - {asymerror: {plus: 0.11336, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.11336, label: 'sys: pt-to-pt'}
       - value: 0.9307
         errors:
           - {symerror: 0.00986, label: 'stat'}
-          - {asymerror: {plus: 0.11779, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.11779, label: 'sys: pt-to-pt'}
       - value: 0.9813
         errors:
           - {symerror: 0.00907, label: 'stat'}
-          - {asymerror: {plus: 0.12528, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.12528, label: 'sys: pt-to-pt'}
       - value: 1.0122
         errors:
           - {symerror: 0.01252, label: 'stat'}
-          - {asymerror: {plus: 0.13104, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.13104, label: 'sys: pt-to-pt'}
       - value: 1.0158
         errors:
           - {symerror: 0.01685, label: 'stat'}
-          - {asymerror: {plus: 0.13375, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.13375, label: 'sys: pt-to-pt'}
       - value: 0.9659
         errors:
           - {symerror: 0.02175, label: 'stat'}
-          - {asymerror: {plus: 0.12969, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.12969, label: 'sys: pt-to-pt'}
       - value: 0.9600
         errors:
           - {symerror: 0.02851, label: 'stat'}
-          - {asymerror: {plus: 0.13176, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.13176, label: 'sys: pt-to-pt'}
       - value: 1.0093
         errors:
           - {symerror: 0.03549, label: 'stat'}
-          - {asymerror: {plus: 0.14238, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.14238, label: 'sys: pt-to-pt'}
       - value: 0.9882
         errors:
           - {symerror: 0.04799, label: 'stat'}
-          - {asymerror: {plus: 0.14419, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.14419, label: 'sys: pt-to-pt'}
       - value: 0.9618
         errors:
           - {symerror: 0.06514, label: 'stat'}
-          - {asymerror: {plus: 0.14562, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.14562, label: 'sys: pt-to-pt'}
       - value: 0.7948
         errors:
           - {symerror: 0.07908, label: 'stat'}
-          - {asymerror: {plus: 0.12524, minus: 0.0743}, label: 'sys'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.12524, label: 'sys: pt-to-pt'}
       - value: 0.8017
         errors:
           - {symerror: 0.08451, label: 'stat'}
-          - {asymerror: {plus: 0.13484, minus: 0.0743}, label: 'sys'}
-  - header: {name: 'Charged Particle Yield'}
+          - {symerror: 0.0743, label: 'sys: overall'}
+          - {symerror: 0.13484, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}$'}
     qualifiers:
-      - {name: 'Experiment', value: 'Phobos'}
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '0-6%'}
     values:
       - value: 0.2071
         errors:
           - {symerror: 0.00032, label: 'stat'}
-          - {asymerror: {plus: 0.02756, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.02756, label: 'sys: pt-to-pt'}
       - value: 0.2261
         errors:
           - {symerror: 0.00037, label: 'stat'}
-          - {asymerror: {plus: 0.02975, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.02975, label: 'sys: pt-to-pt'}
       - value: 0.2479
         errors:
           - {symerror: 0.00045, label: 'stat'}
-          - {asymerror: {plus: 0.03228, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.03228, label: 'sys: pt-to-pt'}
       - value: 0.2801
         errors:
           - {symerror: 0.00058, label: 'stat'}
-          - {asymerror: {plus: 0.03615, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.03615, label: 'sys: pt-to-pt'}
       - value: 0.3173
         errors:
           - {symerror: 0.00075, label: 'stat'}
-          - {asymerror: {plus: 0.04061, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.04061, label: 'sys: pt-to-pt'}
       - value: 0.3556
         errors:
           - {symerror: 0.00075, label: 'stat'}
-          - {asymerror: {plus: 0.04519, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.04519, label: 'sys: pt-to-pt'}
       - value: 0.3997
         errors:
           - {symerror: 0.00097, label: 'stat'}
-          - {asymerror: {plus: 0.05050, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.05050, label: 'sys: pt-to-pt'}
       - value: 0.4507
         errors:
           - {symerror: 0.00126, label: 'stat'}
-          - {asymerror: {plus: 0.05666, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.05666, label: 'sys: pt-to-pt'}
       - value: 0.5028
         errors:
           - {symerror: 0.00161, label: 'stat'}
-          - {asymerror: {plus: 0.06297, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.06297, label: 'sys: pt-to-pt'}
       - value: 0.5530
         errors:
           - {symerror: 0.00205, label: 'stat'}
-          - {asymerror: {plus: 0.06907, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.06907, label: 'sys: pt-to-pt'}
       - value: 0.6058
         errors:
           - {symerror: 0.00258, label: 'stat'}
-          - {asymerror: {plus: 0.07555, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.07555, label: 'sys: pt-to-pt'}
       - value: 0.6569
         errors:
           - {symerror: 0.00323, label: 'stat'}
-          - {asymerror: {plus: 0.08187, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.08187, label: 'sys: pt-to-pt'}
       - value: 0.7019
         errors:
           - {symerror: 0.00400, label: 'stat'}
-          - {asymerror: {plus: 0.08750, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.08750, label: 'sys: pt-to-pt'}
       - value: 0.7385
         errors:
           - {symerror: 0.00489, label: 'stat'}
-          - {asymerror: {plus: 0.09218, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.09218, label: 'sys: pt-to-pt'}
       - value: 0.7936
         errors:
           - {symerror: 0.00600, label: 'stat'}
-          - {asymerror: {plus: 0.09927, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.09927, label: 'sys: pt-to-pt'}
       - value: 0.8286
         errors:
           - {symerror: 0.00722, label: 'stat'}
-          - {asymerror: {plus: 0.10398, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.10398, label: 'sys: pt-to-pt'}
       - value: 0.8577
         errors:
           - {symerror: 0.00865, label: 'stat'}
-          - {asymerror: {plus: 0.10805, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.10805, label: 'sys: pt-to-pt'}
       - value: 0.8885
         errors:
           - {symerror: 0.01034, label: 'stat'}
-          - {asymerror: {plus: 0.11246, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.11246, label: 'sys: pt-to-pt'}
       - value: 0.9120
         errors:
           - {symerror: 0.00938, label: 'stat'}
-          - {asymerror: {plus: 0.11643, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.11643, label: 'sys: pt-to-pt'}
       - value: 0.9293
         errors:
           - {symerror: 0.01289, label: 'stat'}
-          - {asymerror: {plus: 0.12032, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.12032, label: 'sys: pt-to-pt'}
       - value: 0.9342
         errors:
           - {symerror: 0.01734, label: 'stat'}
-          - {asymerror: {plus: 0.12301, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.12301, label: 'sys: pt-to-pt'}
       - value: 0.9228
         errors:
           - {symerror: 0.02281, label: 'stat'}
-          - {asymerror: {plus: 0.12390, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.12390, label: 'sys: pt-to-pt'}
       - value: 0.8919
         errors:
           - {symerror: 0.02960, label: 'stat'}
-          - {asymerror: {plus: 0.12240, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.12240, label: 'sys: pt-to-pt'}
       - value: 0.8604
         errors:
           - {symerror: 0.03486, label: 'stat'}
-          - {asymerror: {plus: 0.12137, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.12137, label: 'sys: pt-to-pt'}
       - value: 0.8146
         errors:
           - {symerror: 0.04687, label: 'stat'}
-          - {asymerror: {plus: 0.11886, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.11886, label: 'sys: pt-to-pt'}
       - value: 0.7889
         errors:
           - {symerror: 0.06276, label: 'stat'}
-          - {asymerror: {plus: 0.11945, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.11945, label: 'sys: pt-to-pt'}
       - value: 0.6067
         errors:
           - {symerror: 0.07252, label: 'stat'}
-          - {asymerror: {plus: 0.09561, minus: 0.0735}, label: 'sys'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.09561, label: 'sys: pt-to-pt'}
       - value: 0.7274
         errors:
           - {symerror: 0.08757, label: 'stat'}
-          - {asymerror: {plus: 0.12233, minus: 0.0735}, label: 'sys'}
-  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+          - {symerror: 0.0735, label: 'sys: overall'}
+          - {symerror: 0.12233, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '45–50%'}
     values:
       - value: 1.0225
         errors:
           - {symerror: 0.00427, label: 'stat'}
-          - {asymerror: {plus: 0.13610, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.13610, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 1.0849
         errors:
           - {symerror: 0.00480, label: 'stat'}
-          - {asymerror: {plus: 0.14276, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.14276, label: 'sys: pt-to-pt'}
+          - {symerror: 0.14276, label: 'sys: overall'}
       - value: 1.1737
         errors:
           - {symerror: 0.00582, label: 'stat'}
-          - {asymerror: {plus: 0.15285, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.15285, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 1.2932
         errors:
           - {symerror: 0.00737, label: 'stat'}
-          - {asymerror: {plus: 0.16687, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.16687, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 1.4250
         errors:
           - {symerror: 0.00944, label: 'stat'}
-          - {asymerror: {plus: 0.18238, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.18238, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 1.5799
         errors:
           - {symerror: 0.00943, label: 'stat'}
           - {asymerror: {plus: 0.20079, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.20079, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 1.7390
         errors:
           - {symerror: 0.01203, label: 'stat'}
-          - {asymerror: {plus: 0.21970, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.21970, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 1.8621
         errors:
           - {symerror: 0.01513, label: 'stat'}
-          - {asymerror: {plus: 0.23412, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.23412, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 2.0866
         errors:
           - {symerror: 0.01947, label: 'stat'}
-          - {asymerror: {plus: 0.26137, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.26137, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 2.2797
         errors:
           - {symerror: 0.02463, label: 'stat'}
-          - {asymerror: {plus: 0.28478, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.28478, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 2.4400
         errors:
           - {symerror: 0.03071, label: 'stat'}
-          - {asymerror: {plus: 0.30429, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.30429, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 2.6053
         errors:
           - {symerror: 0.03815, label: 'stat'}
-          - {asymerror: {plus: 0.32468, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.32468, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 2.7743
         errors:
           - {symerror: 0.04713, label: 'stat'}
-          - {asymerror: {plus: 0.34585, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.34585, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 2.9537
         errors:
           - {symerror: 0.05785, label: 'stat'}
-          - {asymerror: {plus: 0.36869, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.36869, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.1996
         errors:
           - {symerror: 0.07126, label: 'stat'}
-          - {asymerror: {plus: 0.40024, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.40024, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.1892
         errors:
           - {symerror: 0.08387, label: 'stat'}
-          - {asymerror: {plus: 0.40017, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.40017, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.3114
         errors:
           - {symerror: 0.10062, label: 'stat'}
-          - {asymerror: {plus: 0.41713, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.41713, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.5435
         errors:
           - {symerror: 0.12154, label: 'stat'}
-          - {asymerror: {plus: 0.44848, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.44848, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.6195
         errors:
           - {symerror: 0.11004, label: 'stat'}
-          - {asymerror: {plus: 0.46205, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.46205, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.7960
         errors:
           - {symerror: 0.15433, label: 'stat'}
-          - {asymerror: {plus: 0.49145, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.49145, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 4.2511
         errors:
           - {symerror: 0.21894, label: 'stat'}
-          - {asymerror: {plus: 0.55974, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.55974, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 4.7855
         errors:
           - {symerror: 0.30826, label: 'stat'}
-          - {asymerror: {plus: 0.64251, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.1142, label: 'sys: overall'}
+          - {symerror: 0.64251, label: 'sys: pt-to-pt'}
       - value: 3.6283
         errors:
           - {symerror: 0.35241, label: 'stat'}
-          - {asymerror: {plus: 0.49796, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.49796, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 4.3789
         errors:
           - {symerror: 0.45903, label: 'stat'}
-          - {asymerror: {plus: 0.61772, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.61772, label: 'sys: pt-to-pt'}
+          - {symerror: 0.1142, label: 'sys: overall'}
       - value: 3.7107
         errors:
           - {symerror: 0.62723, label: 'stat'}
-          - {asymerror: {plus: 0.54144, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.1142, label: 'sys: overall'}
+          - {symerror: 0.54144, label: 'sys: pt-to-pt'}
       - value: 3.7432
         errors:
           - {symerror: 0.81683, label: 'stat'}
-          - {asymerror: {plus: 0.56674, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.1142, label: 'sys: overall'}
+          - {symerror: 0.56674, label: 'sys: pt-to-pt'}
       - value: 3.2853
         errors:
           - {symerror: 1.03891, label: 'stat'}
-          - {asymerror: {plus: 0.51771, minus: 0.1142}, label: 'sys'}
+          - {symerror: 0.1142, label: 'sys: overall'}
+          - {symerror: 0.51771, label: 'sys: pt-to-pt'}
       - value: 0.0000
-  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '35–45%'}
     values:
       - value: 0.9922
         errors:
           - {symerror: 0.00239, label: 'stat'}
-          - {asymerror: {plus: 0.13206, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.13206, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.0580
         errors:
           - {symerror: 0.00270, label: 'stat'}
-          - {asymerror: {plus: 0.13922, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.13922, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.1418
         errors:
           - {symerror: 0.00327, label: 'stat'}
-          - {asymerror: {plus: 0.14869, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.14869, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.2627
         errors:
           - {symerror: 0.00415, label: 'stat'}
-          - {asymerror: {plus: 0.16292, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.16292, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.4102
         errors:
           - {symerror: 0.00536, label: 'stat'}
-          - {asymerror: {plus: 0.18048, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.18048, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.5523
         errors:
           - {symerror: 0.00532, label: 'stat'}
-          - {asymerror: {plus: 0.19728, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.19728, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.7439
         errors:
           - {symerror: 0.00686, label: 'stat'}
-          - {asymerror: {plus: 0.22032, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.22032, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 1.9274
         errors:
           - {symerror: 0.00878, label: 'stat'}
-          - {asymerror: {plus: 0.24233, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.24233, label: 'sys: pt-to-pt'}
       - value: 2.1172
         errors:
           - {symerror: 0.01117, label: 'stat'}
-          - {asymerror: {plus: 0.26520, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.26520, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0986, label: 'sys: overall'}
       - value: 2.3228
         errors:
           - {symerror: 0.01415, label: 'stat'}
-          - {asymerror: {plus: 0.29016, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.29016, label: 'sys: pt-to-pt'}
       - value: 2.5224
         errors:
           - {symerror: 0.01779, label: 'stat'}
-          - {asymerror: {plus: 0.31456, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.31456, label: 'sys: pt-to-pt'}
       - value: 2.7156
         errors:
           - {symerror: 0.02219, label: 'stat'}
-          - {asymerror: {plus: 0.33843, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.33843, label: 'sys: pt-to-pt'}
       - value: 2.9055
         errors:
           - {symerror: 0.02743, label: 'stat'}
-          - {asymerror: {plus: 0.36221, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.36221, label: 'sys: pt-to-pt'}
       - value: 3.0749
         errors:
           - {symerror: 0.03368, label: 'stat'}
-          - {asymerror: {plus: 0.38381, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.38381, label: 'sys: pt-to-pt'}
       - value: 3.3305
         errors:
           - {symerror: 0.04145, label: 'stat'}
-          - {asymerror: {plus: 0.41662, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.41662, label: 'sys: pt-to-pt'}
       - value: 3.3142
         errors:
           - {symerror: 0.04889, label: 'stat'}
-          - {asymerror: {plus: 0.41585, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.41585, label: 'sys: pt-to-pt'}
       - value: 3.5494
         errors:
           - {symerror: 0.05929, label: 'stat'}
-          - {asymerror: {plus: 0.44711, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.44711, label: 'sys: pt-to-pt'}
       - value: 3.5668
         errors:
           - {symerror: 0.06960, label: 'stat'}
-          - {asymerror: {plus: 0.45143, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.45143, label: 'sys: pt-to-pt'}
       - value: 3.8503
         errors:
           - {symerror: 0.06527, label: 'stat'}
-          - {asymerror: {plus: 0.49151, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.49151, label: 'sys: pt-to-pt'}
       - value: 4.0868
         errors:
           - {symerror: 0.09084, label: 'stat'}
-          - {asymerror: {plus: 0.52911, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.52911, label: 'sys: pt-to-pt'}
       - value: 4.1717
         errors:
           - {symerror: 0.12372, label: 'stat'}
-          - {asymerror: {plus: 0.54928, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.54928, label: 'sys: pt-to-pt'}
       - value: 4.1518
         errors:
           - {symerror: 0.16399, label: 'stat'}
-          - {asymerror: {plus: 0.55743, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.55743, label: 'sys: pt-to-pt'}
       - value: 4.3042
         errors:
           - {symerror: 0.21965, label: 'stat'}
-          - {asymerror: {plus: 0.59073, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.59073, label: 'sys: pt-to-pt'}
       - value: 3.9659
         errors:
           - {symerror: 0.25083, label: 'stat'}
-          - {asymerror: {plus: 0.55946, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.55946, label: 'sys: pt-to-pt'}
       - value: 4.3905
         errors:
           - {symerror: 0.36588, label: 'stat'}
-          - {asymerror: {plus: 0.64063, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.64063, label: 'sys: pt-to-pt'}
       - value: 3.3241
         errors:
           - {symerror: 0.43276, label: 'stat'}
-          - {asymerror: {plus: 0.50329, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.50329, label: 'sys: pt-to-pt'}
       - value: 3.4814
         errors:
           - {symerror: 0.58846, label: 'stat'}
-          - {asymerror: {plus: 0.54860, minus: 0.0986}, label: 'sys'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.54860, label: 'sys: pt-to-pt'}
       - value: 4.7161
         errors:
           - {symerror: 0.74569, label: 'stat'}
           - {asymerror: {plus: 0.79318, minus: 0.0986}, label: 'sys'}
-  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+          - {symerror: 0.0986, label: 'sys: overall'}
+          - {symerror: 0.79318, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '25–35%'}
     values:
       - value: 0.9960
         errors:
           - {symerror: 0.00193, label: 'stat'}
-          - {asymerror: {plus: 0.13257, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.13257, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
       - value: 1.0705
         errors:
           - {symerror: 0.00218, label: 'stat'}
-          - {asymerror: {plus: 0.14086, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.14086, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
       - value: 1.1624
         errors:
           - {symerror: 0.00265, label: 'stat'}
-          - {asymerror: {plus: 0.15137, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.15137, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+
       - value: 1.2970
         errors:
           - {symerror: 0.00338, label: 'stat'}
-          - {asymerror: {plus: 0.16735, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.16735, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
       - value: 1.4666
         errors:
           - {symerror: 0.00439, label: 'stat'}
-          - {asymerror: {plus: 0.18771, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.18771, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
       - value: 1.6137
         errors:
           - {symerror: 0.00436, label: 'stat'}
-          - {asymerror: {plus: 0.20508, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.20508, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
       - value: 1.8047
         errors:
           - {symerror: 0.00561, label: 'stat'}
-          - {asymerror: {plus: 0.22801, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.22801, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0771, label: 'sys: overall'}
       - value: 2.0352
         errors:
           - {symerror: 0.00724, label: 'stat'}
-          - {asymerror: {plus: 0.25588, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.25588, label: 'sys: pt-to-pt'}
       - value: 2.2573
         errors:
           - {symerror: 0.00926, label: 'stat'}
-          - {asymerror: {plus: 0.28275, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.28275, label: 'sys: pt-to-pt'}
       - value: 2.4767
         errors:
           - {symerror: 0.01175, label: 'stat'}
-          - {asymerror: {plus: 0.30938, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.30938, label: 'sys: pt-to-pt'}
       - value: 2.7040
         errors:
           - {symerror: 0.01481, label: 'stat'}
-          - {asymerror: {plus: 0.33722, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.33722, label: 'sys: pt-to-pt'}
       - value: 2.9388
         errors:
           - {symerror: 0.01856, label: 'stat'}
-          - {asymerror: {plus: 0.36625, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.36625, label: 'sys: pt-to-pt'}
       - value: 3.1093
         errors:
           - {symerror: 0.02284, label: 'stat'}
-          - {asymerror: {plus: 0.38762, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.38762, label: 'sys: pt-to-pt'}
       - value: 3.3589
         errors:
           - {symerror: 0.02822, label: 'stat'}
-          - {asymerror: {plus: 0.41926, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.41926, label: 'sys: pt-to-pt'}
       - value: 3.5532
         errors:
           - {symerror: 0.03440, label: 'stat'}
-          - {asymerror: {plus: 0.44448, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.44448, label: 'sys: pt-to-pt'}
       - value: 3.7347
         errors:
           - {symerror: 0.04170, label: 'stat'}
-          - {asymerror: {plus: 0.46861, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.46861, label: 'sys: pt-to-pt'}
       - value: 3.8843
         errors:
           - {symerror: 0.04987, label: 'stat'}
-          - {asymerror: {plus: 0.48929, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.48929, label: 'sys: pt-to-pt'}
       - value: 4.0031
         errors:
           - {symerror: 0.05936, label: 'stat'}
-          - {asymerror: {plus: 0.50665, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.50665, label: 'sys: pt-to-pt'}
       - value: 4.2156
         errors:
           - {symerror: 0.05469, label: 'stat'}
-          - {asymerror: {plus: 0.53815, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.53815, label: 'sys: pt-to-pt'}
       - value: 4.3770
         errors:
           - {symerror: 0.07584, label: 'stat'}
-          - {asymerror: {plus: 0.56667, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.56667, label: 'sys: pt-to-pt'}
       - value: 4.7214
         errors:
           - {symerror: 0.10581, label: 'stat'}
-          - {asymerror: {plus: 0.62166, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.62166, label: 'sys: pt-to-pt'}
       - value: 4.3708
         errors:
           - {symerror: 0.13469, label: 'stat'}
-          - {asymerror: {plus: 0.58684, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.58684, label: 'sys: pt-to-pt'}
       - value: 4.4518
         errors:
           - {symerror: 0.17793, label: 'stat'}
-          - {asymerror: {plus: 0.61098, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.61098, label: 'sys: pt-to-pt'}
       - value: 4.6231
         errors:
           - {symerror: 0.22090, label: 'stat'}
-          - {asymerror: {plus: 0.65216, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.65216, label: 'sys: pt-to-pt'}
       - value: 4.2513
         errors:
           - {symerror: 0.29061, label: 'stat'}
-          - {asymerror: {plus: 0.62032, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.62032, label: 'sys: pt-to-pt'}
       - value: 3.5523
         errors:
           - {symerror: 0.36255, label: 'stat'}
-          - {asymerror: {plus: 0.53784, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.53784, label: 'sys: pt-to-pt'}
       - value: 4.4782
         errors:
           - {symerror: 0.54710, label: 'stat'}
-          - {asymerror: {plus: 0.70568, minus: 0.0771}, label: 'sys'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.70568, label: 'sys: pt-to-pt'}
       - value: 4.4442
         errors:
           - {symerror: 0.58865, label: 'stat'}
-          - {asymerror: {plus: 0.74744, minus: 0.0771}, label: 'sys'}
-  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+          - {symerror: 0.0771, label: 'sys: overall'}
+          - {symerror: 0.74744, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '15–25%'}
     values:
       - value: 1.0134
         errors:
           - {symerror: 0.00162, label: 'stat'}
-          - {asymerror: {plus: 0.13488, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.13488, label: 'sys: pt-to-pt'}
       - value: 1.0960
         errors:
           - {symerror: 0.00184, label: 'stat'}
-          - {asymerror: {plus: 0.14421, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.14421, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0450, label: 'sys: overall'}
       - value: 1.2048
         errors:
           - {symerror: 0.00225, label: 'stat'}
-          - {asymerror: {plus: 0.15690, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.15690, label: 'sys: pt-to-pt'}
       - value: 1.3440
         errors:
           - {symerror: 0.00287, label: 'stat'}
-          - {asymerror: {plus: 0.17342, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.17342, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0450, label: 'sys: overall'}
       - value: 1.5249
         errors:
           - {symerror: 0.00374, label: 'stat'}
-          - {asymerror: {plus: 0.19516, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.19516, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0450, label: 'sys: overall'}
       - value: 1.6970
         errors:
           - {symerror: 0.00374, label: 'stat'}
-          - {asymerror: {plus: 0.21567, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.21567, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0450, label: 'sys: overall'}
       - value: 1.9208
         errors:
           - {symerror: 0.00484, label: 'stat'}
-          - {asymerror: {plus: 0.24268, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.24268, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0450, label: 'sys: overall'}
       - value: 2.1582
         errors:
           - {symerror: 0.00625, label: 'stat'}
-          - {asymerror: {plus: 0.27135, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.27135, label: 'sys: pt-to-pt'}
       - value: 2.4000
         errors:
           - {symerror: 0.00799, label: 'stat'}
-          - {asymerror: {plus: 0.30062, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.30062, label: 'sys: pt-to-pt'}
       - value: 2.6499
         errors:
           - {symerror: 0.01016, label: 'stat'}
-          - {asymerror: {plus: 0.33103, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.33103, label: 'sys: pt-to-pt'}
       - value: 2.9025
         errors:
           - {symerror: 0.01284, label: 'stat'}
-          - {asymerror: {plus: 0.36198, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.36198, label: 'sys: pt-to-pt'}
       - value: 3.1528
         errors:
           - {symerror: 0.01609, label: 'stat'}
-          - {asymerror: {plus: 0.39292, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.39292, label: 'sys: pt-to-pt'}
       - value: 3.3914
         errors:
           - {symerror: 0.01996, label: 'stat'}
-          - {asymerror: {plus: 0.42279, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.42279, label: 'sys: pt-to-pt'}
       - value: 3.5823
         errors:
           - {symerror: 0.02438, label: 'stat'}
-          - {asymerror: {plus: 0.44715, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.44715, label: 'sys: pt-to-pt'}
       - value: 3.8654
         errors:
           - {symerror: 0.03005, label: 'stat'}
-          - {asymerror: {plus: 0.48353, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.48353, label: 'sys: pt-to-pt'}
       - value: 4.0004
         errors:
           - {symerror: 0.03603, label: 'stat'}
-          - {asymerror: {plus: 0.50196, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.50196, label: 'sys: pt-to-pt'}
       - value: 4.1483
         errors:
           - {symerror: 0.04310, label: 'stat'}
-          - {asymerror: {plus: 0.52255, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.52255, label: 'sys: pt-to-pt'}
       - value: 4.3961
         errors:
           - {symerror: 0.05205, label: 'stat'}
-          - {asymerror: {plus: 0.55640, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.55640, label: 'sys: pt-to-pt'}
       - value: 4.6144
         errors:
           - {symerror: 0.04788, label: 'stat'}
-          - {asymerror: {plus: 0.58906, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.58906, label: 'sys: pt-to-pt'}
       - value: 4.8253
         errors:
           - {symerror: 0.06650, label: 'stat'}
-          - {asymerror: {plus: 0.62472, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.62472, label: 'sys: pt-to-pt'}
       - value: 4.7936
         errors:
           - {symerror: 0.08909, label: 'stat'}
-          - {asymerror: {plus: 0.63117, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.63117, label: 'sys: pt-to-pt'}
       - value: 4.7400
         errors:
           - {symerror: 0.11748, label: 'stat'}
-          - {asymerror: {plus: 0.63640, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.63640, label: 'sys: pt-to-pt'}
       - value: 4.6249
         errors:
           - {symerror: 0.15290, label: 'stat'}
-          - {asymerror: {plus: 0.63474, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.63474, label: 'sys: pt-to-pt'}
       - value: 4.8088
         errors:
           - {symerror: 0.18690, label: 'stat'}
-          - {asymerror: {plus: 0.67836, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.67836, label: 'sys: pt-to-pt'}
       - value: 4.6983
         errors:
           - {symerror: 0.25864, label: 'stat'}
-          - {asymerror: {plus: 0.68554, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.68554, label: 'sys: pt-to-pt'}
       - value: 4.7251
         errors:
           - {symerror: 0.34834, label: 'stat'}
-          - {asymerror: {plus: 0.71541, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.71541, label: 'sys: pt-to-pt'}
       - value: 5.0732
         errors:
           - {symerror: 0.49276, label: 'stat'}
-          - {asymerror: {plus: 0.79945, minus: 0.0450}, label: 'sys'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+          - {symerror: 0.79945, label: 'sys: pt-to-pt'}
       - value: 3.4537
         errors:
           - {symerror: 0.42194, label: 'stat'}
-          - {asymerror: {plus: 0.58086, minus: 0.0450}, label: 'sys'}
-  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+          - {symerror: 0.58086, label: 'sys: pt-to-pt'}
+          - {symerror: 0.0450, label: 'sys: overall'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
       - {name: 'Centrality', value: '6–15%'}
     values:
       - value: 1.0426
         errors:
           - {symerror: 0.00149, label: 'stat'}
-          - {asymerror: {plus: 0.13877, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.13877, label: 'sys: pt-to-pt'}
       - value: 1.1360
         errors:
           - {symerror: 0.00169, label: 'stat'}
-          - {asymerror: {plus: 0.14949, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.14949, label: 'sys: pt-to-pt'}
       - value: 1.2496
         errors:
           - {symerror: 0.00207, label: 'stat'}
-          - {asymerror: {plus: 0.16274, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.16274, label: 'sys: pt-to-pt'}
       - value: 1.4015
         errors:
           - {symerror: 0.00265, label: 'stat'}
-          - {asymerror: {plus: 0.18084, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.18084, label: 'sys: pt-to-pt'}
       - value: 1.5952
         errors:
           - {symerror: 0.00345, label: 'stat'}
-          - {asymerror: {plus: 0.20416, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.20416, label: 'sys: pt-to-pt'}
       - value: 1.7777
         errors:
           - {symerror: 0.00346, label: 'stat'}
-          - {asymerror: {plus: 0.22592, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.22592, label: 'sys: pt-to-pt'}
       - value: 2.0083
         errors:
           - {symerror: 0.00447, label: 'stat'}
-          - {asymerror: {plus: 0.25373, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.25373, label: 'sys: pt-to-pt'}
       - value: 2.2586
         errors:
           - {symerror: 0.00577, label: 'stat'}
-          - {asymerror: {plus: 0.28397, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.28397, label: 'sys: pt-to-pt'}
       - value: 2.5338
         errors:
           - {symerror: 0.00742, label: 'stat'}
-          - {asymerror: {plus: 0.31738, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.31738, label: 'sys: pt-to-pt'}
       - value: 2.7807
         errors:
           - {symerror: 0.00941, label: 'stat'}
-          - {asymerror: {plus: 0.34736, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.34736, label: 'sys: pt-to-pt'}
       - value: 3.0313
         errors:
           - {symerror: 0.01185, label: 'stat'}
-          - {asymerror: {plus: 0.37803, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.37803, label: 'sys: pt-to-pt'}
       - value: 3.3138
         errors:
-          - {symerror: 0.01489, label: 'stat'}
-          - {asymerror: {plus: 0.41299, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.01498, label: 'stat'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.41299, label: 'sys: pt-to-pt'}
       - value: 3.5617
         errors:
           - {symerror: 0.01848, label: 'stat'}
-          - {asymerror: {plus: 0.44402, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.44402, label: 'sys: pt-to-pt'}
       - value: 3.7852
         errors:
           - {symerror: 0.02269, label: 'stat'}
-          - {asymerror: {plus: 0.47247, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.47247, label: 'sys: pt-to-pt'}
       - value: 4.0047
         errors:
           - {symerror: 0.02765, label: 'stat'}
-          - {asymerror: {plus: 0.50096, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.50096, label: 'sys: pt-to-pt'}
       - value: 4.2137
         errors:
           - {symerror: 0.03345, label: 'stat'}
-          - {asymerror: {plus: 0.52871, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.52871, label: 'sys: pt-to-pt'}
       - value: 4.3523
         errors:
           - {symerror: 0.03997, label: 'stat'}
-          - {asymerror: {plus: 0.54825, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.54825, label: 'sys: pt-to-pt'}
       - value: 4.5012
         errors:
           - {symerror: 0.04769, label: 'stat'}
-          - {asymerror: {plus: 0.56970, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.56970, label: 'sys: pt-to-pt'}
       - value: 4.7462
         errors:
           - {symerror: 0.04387, label: 'stat'}
-          - {asymerror: {plus: 0.60588, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.60588, label: 'sys: pt-to-pt'}
       - value: 4.8954
         errors:
           - {symerror: 0.06053, label: 'stat'}
-          - {asymerror: {plus: 0.63378, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.63378, label: 'sys: pt-to-pt'}
       - value: 4.9127
         errors:
           - {symerror: 0.08149, label: 'stat'}
-          - {asymerror: {plus: 0.64685, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.64685, label: 'sys: pt-to-pt'}
       - value: 4.6716
         errors:
           - {symerror: 0.10517, label: 'stat'}
-          - {asymerror: {plus: 0.62721, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.62721, label: 'sys: pt-to-pt'}
       - value: 4.6431
         errors:
           - {symerror: 0.13788, label: 'stat'}
-          - {asymerror: {plus: 0.63723, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.63723, label: 'sys: pt-to-pt'}
       - value: 4.8815
         errors:
           - {symerror: 0.17162, label: 'stat'}
-          - {asymerror: {plus: 0.68862, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.68862, label: 'sys: pt-to-pt'}
       - value: 4.7792
         errors:
           - {symerror: 0.23210, label: 'stat'}
-          - {asymerror: {plus: 0.69735, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.69735, label: 'sys: pt-to-pt'}
       - value: 4.6517
         errors:
           - {symerror: 0.31505, label: 'stat'}
-          - {asymerror: {plus: 0.70430, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.70430, label: 'sys: pt-to-pt'}
       - value: 3.8438
         errors:
           - {symerror: 0.38247, label: 'stat'}
-          - {asymerror: {plus: 0.60571, minus: 0.0320}, label: 'sys'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.60571, label: 'sys: pt-to-pt'}
       - value: 3.8775
         errors:
           - {symerror: 0.40873, label: 'stat'}
-          - {asymerror: {plus: 0.65214, minus: 0.0320}, label: 'sys'}
-  - header: {name: '$R_{AA} \\times N_{\\text{part}}$'}
+          - {symerror: 0.0320, label: 'sys: overall'}
+          - {symerror: 0.65214, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{AA}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
       - {name: 'Centrality', value: '0–6%'}
     values:
       - value: 1.0914
         errors:
           - {symerror: 0.00170, label: 'stat'}
-          - {asymerror: {plus: 0.14527, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.14527, label: 'sys: pt-to-pt'}
       - value: 1.1915
         errors:
           - {symerror: 0.00194, label: 'stat'}
-          - {asymerror: {plus: 0.15679, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.15679, label: 'sys: pt-to-pt'}
       - value: 1.3065
         errors:
           - {symerror: 0.00237, label: 'stat'}
-          - {asymerror: {plus: 0.17014, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.17014, label: 'sys: pt-to-pt'}
       - value: 1.4764
         errors:
           - {symerror: 0.00304, label: 'stat'}
-          - {asymerror: {plus: 0.19050, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.19050, label: 'sys: pt-to-pt'}
       - value: 1.6724
         errors:
           - {symerror: 0.00396, label: 'stat'}
-          - {asymerror: {plus: 0.21404, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.21404, label: 'sys: pt-to-pt'}
       - value: 1.8738
         errors:
           - {symerror: 0.00397, label: 'stat'}
-          - {asymerror: {plus: 0.23814, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.23814, label: 'sys: pt-to-pt'}
       - value: 2.1066
         errors:
           - {symerror: 0.00512, label: 'stat'}
-          - {asymerror: {plus: 0.26615, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.26615, label: 'sys: pt-to-pt'}
       - value: 2.3750
         errors:
           - {symerror: 0.00662, label: 'stat'}
-          - {asymerror: {plus: 0.29860, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.29860, label: 'sys: pt-to-pt'}
       - value: 2.6496
         errors:
           - {symerror: 0.00849, label: 'stat'}
-          - {asymerror: {plus: 0.33188, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.33188, label: 'sys: pt-to-pt'}
       - value: 2.9141
         errors:
           - {symerror: 0.01078, label: 'stat'}
-          - {asymerror: {plus: 0.36403, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.36403, label: 'sys: pt-to-pt'}
       - value: 3.1927
         errors:
           - {symerror: 0.01361, label: 'stat'}
-          - {asymerror: {plus: 0.39816, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.39816, label: 'sys: pt-to-pt'}
       - value: 3.4621
         errors:
           - {symerror: 0.01702, label: 'stat'}
-          - {asymerror: {plus: 0.43146, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.43146, label: 'sys: pt-to-pt'}
       - value: 3.6990
         errors:
           - {symerror: 0.02106, label: 'stat'}
-          - {asymerror: {plus: 0.46113, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.46113, label: 'sys: pt-to-pt'}
       - value: 3.8919
         errors:
           - {symerror: 0.02575, label: 'stat'}
-          - {asymerror: {plus: 0.48579, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.48579, label: 'sys: pt-to-pt'}
       - value: 4.1822
         errors:
           - {symerror: 0.03162, label: 'stat'}
-          - {asymerror: {plus: 0.52316, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.52316, label: 'sys: pt-to-pt'}
       - value: 4.3670
         errors:
           - {symerror: 0.03803, label: 'stat'}
-          - {asymerror: {plus: 0.54796, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.54796, label: 'sys: pt-to-pt'}
       - value: 4.5203
         errors:
           - {symerror: 0.04556, label: 'stat'}
-          - {asymerror: {plus: 0.56942, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.56942, label: 'sys: pt-to-pt'}
       - value: 4.6827
         errors:
           - {symerror: 0.05451, label: 'stat'}
-          - {asymerror: {plus: 0.59267, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.59267, label: 'sys: pt-to-pt'}
       - value: 4.8064
         errors:
           - {symerror: 0.04946, label: 'stat'}
-          - {asymerror: {plus: 0.61357, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.61357, label: 'sys: pt-to-pt'}
       - value: 4.8977
         errors:
           - {symerror: 0.06793, label: 'stat'}
-          - {asymerror: {plus: 0.63408, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.63408, label: 'sys: pt-to-pt'}
       - value: 4.9234
         errors:
           - {symerror: 0.09139, label: 'stat'}
-          - {asymerror: {plus: 0.64826, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.64826, label: 'sys: pt-to-pt'}
       - value: 4.8634
         errors:
           - {symerror: 0.12020, label: 'stat'}
-          - {asymerror: {plus: 0.65297, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.65297, label: 'sys: pt-to-pt'}
       - value: 4.7002
         errors:
           - {symerror: 0.15598, label: 'stat'}
-          - {asymerror: {plus: 0.64506, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.64506, label: 'sys: pt-to-pt'}
       - value: 4.5341
         errors:
           - {symerror: 0.18373, label: 'stat'}
-          - {asymerror: {plus: 0.63961, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.63961, label: 'sys: pt-to-pt'}
       - value: 4.2929
         errors:
           - {symerror: 0.24703, label: 'stat'}
-          - {asymerror: {plus: 0.62639, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.62639, label: 'sys: pt-to-pt'}
       - value: 4.1577
         errors:
           - {symerror: 0.33077, label: 'stat'}
-          - {asymerror: {plus: 0.62951, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.62951, label: 'sys: pt-to-pt'}
       - value: 3.1974
         errors:
           - {symerror: 0.38216, label: 'stat'}
-          - {asymerror: {plus: 0.50385, minus: 0.0313}, label: 'sys'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.50385, label: 'sys: pt-to-pt'}
       - value: 3.8333
         errors:
           - {symerror: 0.46148, label: 'stat'}
-          - {asymerror: {plus: 0.64470, minus: 0.0313}, label: 'sys'}
-  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+          - {symerror: 0.0313, label: 'sys: overall'}
+          - {symerror: 0.64470, label: 'sys: pt-to-pt'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '45–50%'}
     values:
       - value: 0.9336
@@ -2964,9 +3287,9 @@ dependent_variables:
           - {symerror: 0.25795, label: 'stat'}
           - {symerror: 0.10767, label: 'sys'}
       - value: 0.0000
-  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '35–45%'}
     values:
       - value: 0.9059
@@ -3081,9 +3404,9 @@ dependent_variables:
         errors:
           - {symerror: 0.19848, label: 'stat'}
           - {symerror: 0.15063, label: 'sys'}
-  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '25–35%'}
     values:
       - value: 0.9094
@@ -3198,9 +3521,9 @@ dependent_variables:
         errors:
           - {symerror: 0.15668, label: 'stat'}
           - {symerror: 0.11711, label: 'sys'}
-  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '15–25%'}
     values:
       - value: 0.9252
@@ -3315,9 +3638,9 @@ dependent_variables:
         errors:
           - {symerror: 0.11231, label: 'stat'}
           - {symerror: 0.06435, label: 'sys'}
-  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '6–15%'}
     values:
       - value: 0.9519
@@ -3432,9 +3755,9 @@ dependent_variables:
         errors:
           - {symerror: 0.10879, label: 'stat'}
           - {symerror: 0.03406, label: 'sys'}
-  - header: {name: '$R_{PC} \\times N_{\\text{part}}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '62.4 GeV'}
       - {name: 'Centrality', value: '0–6%'}
     values:
       - value: 0.9965
@@ -3521,9 +3844,9 @@ dependent_variables:
       - value: 1.0203
         errors:
           - {symerror: 0.12283, label: 'stat'}
-  - header: {name: '$R_{PC}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '45–50%'}
     values:
       - value: 0.9036
@@ -3610,9 +3933,9 @@ dependent_variables:
       - value: 1.1925
         errors:
           - {symerror: 0.16487, label: 'stat'}
-  - header: {name: '$R_{PC}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '35–45%'}
     values:
       - value: 0.8856
@@ -3699,9 +4022,9 @@ dependent_variables:
       - value: 1.1714
         errors:
           - {symerror: 0.09658, label: 'stat'}
-  - header: {name: '$R_{PC}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '25–35%'}
     values:
       - value: 0.9061
@@ -3788,9 +4111,9 @@ dependent_variables:
       - value: 1.2623
         errors:
           - {symerror: 0.08226, label: 'stat'}
-  - header: {name: '$R_{PC}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '15–25%'}
     values:
       - value: 0.9178
@@ -3877,9 +4200,9 @@ dependent_variables:
       - value: 1.2056
         errors:
           - {symerror: 0.06785, label: 'stat'}
-  - header: {name: '$R_{PC}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '6–15%'}
     values:
       - value: 0.9327
@@ -3966,9 +4289,9 @@ dependent_variables:
       - value: 1.1244
         errors:
           - {symerror: 0.05953, label: 'stat'}
-  - header: {name: '$R_{PC}$'}
+  - header: {name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'}
     qualifiers:
-      - {name: 'Collision System', value: 'Au+Au at 200 GeV'}
+      - {name: '$\sqrt{s_{NN}}', value: '200 Gev'}
       - {name: 'Centrality', value: '0–6%'}
     values:
       - value: 0.9977

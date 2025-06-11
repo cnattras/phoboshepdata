@@ -30,7 +30,7 @@ independent_variables:
       - {value: 3.875}
       - {value: 4.250}
 dependent_variables:
-  - header: {name: 'Invariant Yield'}
+  - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '45-50'}
     values:
@@ -118,7 +118,7 @@ dependent_variables:
       - value: 0.00008450
         errors:
           - {symerror: 0.00002049, label: 'stat'}
-  - header: {name: 'Invariant Yield'}
+  - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '35-45'}
     values:
@@ -206,7 +206,7 @@ dependent_variables:
       - value: 0.00008654
         errors:
           - {symerror: 0.00001368, label: 'stat'}
-  - header: {name: 'Invariant Yield'}
+  - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '25-35'}
     values:
@@ -294,7 +294,7 @@ dependent_variables:
       - value: 0.00012271
         errors:
           - {symerror: 0.00001625, label: 'stat'}
-  - header: {name: 'Invariant Yield'}
+  - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '15-25'}
     values:
@@ -382,7 +382,7 @@ dependent_variables:
       - value: 0.00013896
         errors:
           - {symerror: 0.00001698, label: 'stat'}
-  - header: {name: 'Invariant Yield'}
+  - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '6-15'}
     values:
@@ -470,7 +470,7 @@ dependent_variables:
       - value: 0.00021949
         errors:
           - {symerror: 0.00002314, label: 'stat'}  
-  - header: {name: 'Invariant Yield'}
+  - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '0-6'}
     values:

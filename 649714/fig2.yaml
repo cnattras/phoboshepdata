@@ -11,7 +11,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'PHENIX'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energy', value: '130 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '130 GeV'}
     values:
       - value: 0.36
         errors:
@@ -29,7 +29,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'PHENIX'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energy', value: '200 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
     values:
       - value: 0.37
         errors:
@@ -47,7 +47,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'STAR'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energy', value: '130 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '130 GeV'}
 
     values:
       - value: 0.45
@@ -66,7 +66,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'STAR'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energy', value: '200 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
 
     values:
       - value: 0.47
@@ -86,7 +86,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'WA98/Wang'}
       - {name: 'Hadron Type', value: '$\pi^0$'}
-      - {name: 'Collision Energy', value: '17.2 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '17.2 GeV'}
 
     values:
       - value: 0.57
@@ -105,7 +105,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'WA98/WA98'}
       - {name: 'Hadron Type', value: '$\pi^0$'}
-      - {name: 'Collision Energy', value: '17.2 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '17.2 GeV'}
     values:
       - value: 0.43
         errors:
@@ -124,7 +124,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'Phobos'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energies', value: '62.4 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
     values:
       - value: 0.51
         errors:
@@ -142,7 +142,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'Phobos'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energies', value: '200 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
     values:
       - value: 0.40
         errors:
@@ -162,7 +162,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'Brahms'}
       - {name: 'Hadron Type', value: 'Charged Hadrons'}
-      - {name: 'Collision Energy', value: '200 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
     values:
       - value: 0.354257
         errors:
@@ -180,7 +180,7 @@ dependent_variables:
     qualifiers:
       - {name: 'Experiment', value: 'WA98/Blattnig'}
       - {name: 'Hadron Type', value: '$\pi^0$'}
-      - {name: 'Collision Energy', value: '17.2 GeV'}
+      - {name: '$\sqrt{s_{NN}}$', value: '17.2 GeV'}
     values:
       - value: 0.49
         errors:

@@ -10,7 +10,7 @@ independent_variables:
 dependent_variables:
   - header: {name: '$\langle N_{\text{part}} \rangle$'}
     qualifiers:
-    - {name: '$\sqrt{s_NN}$', value: '62.4 GeV'}
+    - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
     values:
       - value: 61
         errors: [{symerror: 7, label: 'stat'}]
@@ -26,7 +26,7 @@ dependent_variables:
         errors: [{symerror: 11, label: 'stat'}]
   - header: {name: '$\langle N_{\text{coll}} \rangle$'}
     qualifiers:
-    - {name: '$\sqrt{s_NN}$', value: '62.4 GeV'}
+    - {name: '$\sqrt{s_{NN}}$', value: '62.4 GeV'}
     values:
       - value: 76
         errors: [{symerror: 12, label: 'stat'}]
@@ -42,7 +42,7 @@ dependent_variables:
         errors: [{symerror: 25, label: 'stat'}]
   - header: {name: '$\langle N_{\text{part}} \rangle$'}
     qualifiers:
-    - {name: '$\sqrt{s_NN}$', value: '200 GeV'}
+    - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
     values:
       - value: 65
         errors: [{symerror: 4, label: 'stat'}]
@@ -58,7 +58,7 @@ dependent_variables:
         errors: [{symerror: 11, label: 'stat'}]
   - header: {name: '$\langle N_{\text{coll}} \rangle$'}
     qualifiers:
-    - {name: '$\sqrt{s_NN}$', value: '200 GeV'}
+    - {name: '$\sqrt{s_{NN}}$', value: '200 GeV'}
     values:
       - value: 107
         errors: [{symerror: 16, label: 'stat'}]
