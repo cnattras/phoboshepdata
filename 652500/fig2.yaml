@@ -1,0 +1,40 @@
+# Phobos RdAu for d+Au at √sNN = 200 GeV – Figure 2: RdAu vs η, Averaged ⟨Ncoll⟩ = 9.5
+independent_variables:
+  - header: {name: "$\\eta$"}
+    values:
+      - {value: 0.4}
+      - {value: 0.8}
+      - {value: 1.2}
+
+dependent_variables:
+  - header: {name: "$R_\\text{dAu}$ at $p_T = 2.0$ GeV/c"}
+    qualifiers:
+      - {name: "Transverse Momentum", value: "2.0 GeV/c"}
+    values:
+      - {value: 1.0189, errors: [{label: total, symerror: 0.0848}]}
+      - {value: 0.9066, errors: [{label: total, symerror: 0.0725}]}
+      - {value: 0.8081, errors: [{label: total, symerror: 0.0655}]}
+
+  - header: {name: "$R_\\text{dAu}$ at $p_T = 2.6$ GeV/c"}
+    qualifiers:
+      - {name: "Transverse Momentum", value: "2.6 GeV/c"}
+    values:
+      - {value: 1.2186, errors: [{label: total, symerror: 0.1414}]}
+      - {value: 1.0097, errors: [{label: total, symerror: 0.1161}]}
+      - {value: 0.8730, errors: [{label: total, symerror: 0.1039}]}
+
+  - header: {name: "$R_\\text{dAu}$ at $p_T = 3.2$ GeV/c"}
+    qualifiers:
+      - {name: "Transverse Momentum", value: "3.2 GeV/c"}
+    values:
+      - {value: 1.3740, errors: [{label: total, symerror: 0.1869}]}
+      - {value: 1.0637, errors: [{label: total, symerror: 0.1436}]}
+      - {value: 0.9260, errors: [{label: total, symerror: 0.1315}]}
+
+  - header: {name: "$R_\\text{dAu}$ at $p_T = 3.8$ GeV/c"}
+    qualifiers:
+      - {name: "Transverse Momentum", value: "3.8 GeV/c"}
+    values:
+      - {value: 1.4773, errors: [{label: total, symerror: 0.2438}]}
+      - {value: 1.1150, errors: [{label: total, symerror: 0.1851}]}
+      - {value: 0.9761, errors: [{label: total, symerror: 0.1738}]}

@@ -1,0 +1,117 @@
+# Phobos $R_\\text{dAu}$ for d+Au at √sNN = 200 GeV – Averaged over centrality (<Ncoll>=9.5)
+independent_variables:
+  - header: {name: "$p_T$", units: "GeV/c"}
+    values:
+      - {value: 0.550}
+      - {value: 0.650}
+      - {value: 0.750}
+      - {value: 0.850}
+      - {value: 0.950}
+      - {value: 1.050}
+      - {value: 1.150}
+      - {value: 1.250}
+      - {value: 1.350}
+      - {value: 1.450}
+      - {value: 1.550}
+      - {value: 1.650}
+      - {value: 1.750}
+      - {value: 1.850}
+      - {value: 1.950}
+      - {value: 2.100}
+      - {value: 2.300}
+      - {value: 2.500}
+      - {value: 2.700}
+      - {value: 2.900}
+      - {value: 3.125}
+      - {value: 3.375}
+      - {value: 3.625}
+      - {value: 3.875}
+
+dependent_variables:
+  - header: {name: "$R_\\text{dAu}$"}
+    qualifiers:
+      - {name: "Pseudorapidity", value: "$0.2 < \\eta < 0.6$"}
+    values:
+      - {value: 0.5019, errors: [{label: stat, symerror: 0.0022}, {label: sys, symerror: 0.0519}]}
+      - {value: 0.5381, errors: [{label: stat, symerror: 0.0027}, {label: sys, symerror: 0.0564}]}
+      - {value: 0.5822, errors: [{label: stat, symerror: 0.0034}, {label: sys, symerror: 0.0619}]}
+      - {value: 0.6143, errors: [{label: stat, symerror: 0.0041}, {label: sys, symerror: 0.0664}]}
+      - {value: 0.6535, errors: [{label: stat, symerror: 0.0050}, {label: sys, symerror: 0.0719}]}
+      - {value: 0.6984, errors: [{label: stat, symerror: 0.0060}, {label: sys, symerror: 0.0784}]}
+      - {value: 0.7345, errors: [{label: stat, symerror: 0.0073}, {label: sys, symerror: 0.0841}]}
+      - {value: 0.7622, errors: [{label: stat, symerror: 0.0087}, {label: sys, symerror: 0.0892}]}
+      - {value: 0.7822, errors: [{label: stat, symerror: 0.0103}, {label: sys, symerror: 0.0936}]}
+      - {value: 0.8218, errors: [{label: stat, symerror: 0.0123}, {label: sys, symerror: 0.1007}]}
+      - {value: 0.8446, errors: [{label: stat, symerror: 0.0144}, {label: sys, symerror: 0.1061}]}
+      - {value: 0.8923, errors: [{label: stat, symerror: 0.0172}, {label: sys, symerror: 0.1149}]}
+      - {value: 0.9556, errors: [{label: stat, symerror: 0.0205}, {label: sys, symerror: 0.1264}]}
+      - {value: 0.9406, errors: [{label: stat, symerror: 0.0233}, {label: sys, symerror: 0.1278}]}
+      - {value: 1.0381, errors: [{label: stat, symerror: 0.0282}, {label: sys, symerror: 0.1450}]}
+      - {value: 1.0425, errors: [{label: stat, symerror: 0.0244}, {label: sys, symerror: 0.1519}]}
+      - {value: 1.1572, errors: [{label: stat, symerror: 0.0335}, {label: sys, symerror: 0.1787}]}
+      - {value: 1.1217, errors: [{label: stat, symerror: 0.0422}, {label: sys, symerror: 0.1838}]}
+      - {value: 1.2447, errors: [{label: stat, symerror: 0.0562}, {label: sys, symerror: 0.2167}]}
+      - {value: 1.3587, errors: [{label: stat, symerror: 0.0737}, {label: sys, symerror: 0.2514}]}
+      - {value: 1.4455, errors: [{label: stat, symerror: 0.0885}, {label: sys, symerror: 0.2866}]}
+      - {value: 1.4906, errors: [{label: stat, symerror: 0.1171}, {label: sys, symerror: 0.3191}]}
+      - {value: 1.3703, errors: [{label: stat, symerror: 0.1478}, {label: sys, symerror: 0.3166}]}
+      - {value: 1.4897, errors: [{label: stat, symerror: 0.1939}, {label: sys, symerror: 0.3712}]}
+  - header: {name: "$R_\\text{dAu}$"}
+    qualifiers:
+      - {name: "Pseudorapidity", value: "$0.6 < \\eta < 1.0$"}
+    values:
+      - {value: 0.4587, errors: [{label: stat, symerror: 0.0016}, {label: sys, symerror: 0.0475}]}
+      - {value: 0.4844, errors: [{label: stat, symerror: 0.0020}, {label: sys, symerror: 0.0508}]}
+      - {value: 0.5241, errors: [{label: stat, symerror: 0.0025}, {label: sys, symerror: 0.0558}]}
+      - {value: 0.5533, errors: [{label: stat, symerror: 0.0030}, {label: sys, symerror: 0.0598}]}
+      - {value: 0.5812, errors: [{label: stat, symerror: 0.0036}, {label: sys, symerror: 0.0640}]}
+      - {value: 0.6180, errors: [{label: stat, symerror: 0.0044}, {label: sys, symerror: 0.0693}]}
+      - {value: 0.6385, errors: [{label: stat, symerror: 0.0053}, {label: sys, symerror: 0.0731}]}
+      - {value: 0.6752, errors: [{label: stat, symerror: 0.0064}, {label: sys, symerror: 0.0790}]}
+      - {value: 0.7009, errors: [{label: stat, symerror: 0.0076}, {label: sys, symerror: 0.0839}]}
+      - {value: 0.7269, errors: [{label: stat, symerror: 0.0090}, {label: sys, symerror: 0.0891}]}
+      - {value: 0.7894, errors: [{label: stat, symerror: 0.0110}, {label: sys, symerror: 0.0991}]}
+      - {value: 0.8245, errors: [{label: stat, symerror: 0.0130}, {label: sys, symerror: 0.1062}]}
+      - {value: 0.8498, errors: [{label: stat, symerror: 0.0151}, {label: sys, symerror: 0.1124}]}
+      - {value: 0.8789, errors: [{label: stat, symerror: 0.0176}, {label: sys, symerror: 0.1194}]}
+      - {value: 0.9396, errors: [{label: stat, symerror: 0.0209}, {label: sys, symerror: 0.1312}]}
+      - {value: 0.9495, errors: [{label: stat, symerror: 0.0181}, {label: sys, symerror: 0.1384}]}
+      - {value: 0.9982, errors: [{label: stat, symerror: 0.0240}, {label: sys, symerror: 0.1541}]}
+      - {value: 1.0616, errors: [{label: stat, symerror: 0.0314}, {label: sys, symerror: 0.1740}]}
+      - {value: 0.9513, errors: [{label: stat, symerror: 0.0368}, {label: sys, symerror: 0.1656}]}
+      - {value: 0.9920, errors: [{label: stat, symerror: 0.0472}, {label: sys, symerror: 0.1836}]}
+      - {value: 0.9952, errors: [{label: stat, symerror: 0.0528}, {label: sys, symerror: 0.1973}]}
+      - {value: 1.1957, errors: [{label: stat, symerror: 0.0767}, {label: sys, symerror: 0.2560}]}
+      - {value: 1.0768, errors: [{label: stat, symerror: 0.0879}, {label: sys, symerror: 0.2488}]}
+      - {value: 1.1139, errors: [{label: stat, symerror: 0.1137}, {label: sys, symerror: 0.2776}]}
+  - header: {name: "$R_\\text{dAu}$"}
+    qualifiers:
+      - {name: "Pseudorapidity", value: "$1.0 < \\eta < 1.4$"}
+    values:
+      - {value: 0.4415, errors: [{label: stat, symerror: 0.0017}, {label: sys, symerror: 0.0457}]}
+      - {value: 0.4672, errors: [{label: stat, symerror: 0.0020}, {label: sys, symerror: 0.0490}]}
+      - {value: 0.5117, errors: [{label: stat, symerror: 0.0026}, {label: sys, symerror: 0.0545}]}
+      - {value: 0.5381, errors: [{label: stat, symerror: 0.0031}, {label: sys, symerror: 0.0582}]}
+      - {value: 0.5635, errors: [{label: stat, symerror: 0.0038}, {label: sys, symerror: 0.0620}]}
+      - {value: 0.5878, errors: [{label: stat, symerror: 0.0045}, {label: sys, symerror: 0.0659}]}
+      - {value: 0.6258, errors: [{label: stat, symerror: 0.0055}, {label: sys, symerror: 0.0717}]}
+      - {value: 0.6501, errors: [{label: stat, symerror: 0.0065}, {label: sys, symerror: 0.0761}]}
+      - {value: 0.6818, errors: [{label: stat, symerror: 0.0078}, {label: sys, symerror: 0.0816}]}
+      - {value: 0.7035, errors: [{label: stat, symerror: 0.0092}, {label: sys, symerror: 0.0862}]}
+      - {value: 0.7503, errors: [{label: stat, symerror: 0.0110}, {label: sys, symerror: 0.0942}]}
+      - {value: 0.7620, errors: [{label: stat, symerror: 0.0128}, {label: sys, symerror: 0.0982}]}
+      - {value: 0.7716, errors: [{label: stat, symerror: 0.0148}, {label: sys, symerror: 0.1020}]}
+      - {value: 0.7701, errors: [{label: stat, symerror: 0.0169}, {label: sys, symerror: 0.1046}]}
+      - {value: 0.7739, errors: [{label: stat, symerror: 0.0194}, {label: sys, symerror: 0.1081}]}
+      - {value: 0.8146, errors: [{label: stat, symerror: 0.0172}, {label: sys, symerror: 0.1187}]}
+      - {value: 0.8335, errors: [{label: stat, symerror: 0.0222}, {label: sys, symerror: 0.1287}]}
+      - {value: 0.8272, errors: [{label: stat, symerror: 0.0278}, {label: sys, symerror: 0.1356}]}
+      - {value: 0.9384, errors: [{label: stat, symerror: 0.0376}, {label: sys, symerror: 0.1634}]}
+      - {value: 0.8880, errors: [{label: stat, symerror: 0.0459}, {label: sys, symerror: 0.1643}]}
+      - {value: 0.9167, errors: [{label: stat, symerror: 0.0525}, {label: sys, symerror: 0.1818}]}
+      - {value: 0.8707, errors: [{label: stat, symerror: 0.0660}, {label: sys, symerror: 0.1864}]}
+      - {value: 0.8754, errors: [{label: stat, symerror: 0.0831}, {label: sys, symerror: 0.2023}]}
+      - {value: 1.0265, errors: [{label: stat, symerror: 0.1134}, {label: sys, symerror: 0.2558}]}
+
+
+     
