@@ -18,7 +18,12 @@ name: "Table 1"
 location: Data from Table 1 of PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $dN_{\text{ch}}/d\eta$ for $|\eta|<1$, $dN_{\text{ch}}/d\eta / \langle N_{\text{part}}/2 \rangle$ as shown in Fig. 4 in the 0-3% bin is explained in the text. 
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: 693686table1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure4.png}
@@ -27,7 +32,12 @@ name: "Table 2"
 location: Data from Table 1 of PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, including $\langle N_{\text{ch}} \rangle$ and $\langle N_{\text{ch}} \rangle / \langle N_{\text{part}}/2 \rangle$ as shown in Fig. 7. The difference in $N_{\text{part}}$ in the 0-3% bin is explained in the text.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: 693686table2.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_figure7.png}
@@ -37,7 +47,12 @@ name: "Centrality 0-6%"
 location: Data from PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 0-6% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: centrality0to6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -48,7 +63,12 @@ name: "Centrality 6-15%"
 location: Data from PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 6-15% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: centrality6to15.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -60,7 +80,12 @@ name: "Centrality 15-25%"
 location: Data from PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 15-25% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: centrality15to25.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -71,7 +96,12 @@ name: "Centrality 25-35%"
 location: Data from PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 25-35% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: centrality25to35.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -82,7 +112,12 @@ name: "Centrality 35-45%"
 location: Data from PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 35-45% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: centrality35to45.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -93,7 +128,12 @@ name: "Centrality 45-50%"
 location: Data from PHOBOS paper Inspire ID 693686
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV, for the 45-50% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130.0]
 data_file: centrality45to50.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
