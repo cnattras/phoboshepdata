@@ -64,57 +64,57 @@ independent_variables:
 dependent_variables:
 - header: { name: "$dN/d\\eta$" }
   values:
-    - { value: 21.20, errors: [{ symerror: 7.6 }, { symerror: 9.9 }] }
-    - { value: 24.55, errors: [{ symerror: 8.7 }, { symerror: 10 }] }
-    - { value: 29.17, errors: [{ symerror: 9.4 }, { symerror: 11 }] }
-    - { value: 34.12, errors: [{ symerror: 11 }, { symerror: 10 }] }
-    - { value: 38.00, errors: [{ symerror: 14 }, { symerror: 7.4 }] }
-    - { value: 45.70, errors: [{ symerror: 17 }, { symerror: 6.9 }] }
-    - { value: 56.93, errors: [{ symerror: 18 }, { symerror: 8.4 }] }
-    - { value: 68.29, errors: [{ symerror: 20 }, { symerror: 8.4 }] }
-    - { value: 83.58, errors: [{ symerror: 19 }, { symerror: 11 }] }
-    - { value: 99.71, errors: [{ symerror: 19 }, { symerror: 13 }] }
-    - { value: 119.22, errors: [{ symerror: 16 }, { symerror: 17 }] }
-    - { value: 136.79, errors: [{ symerror: 16 }, { symerror: 18 }] }
-    - { value: 151.41, errors: [{ symerror: 18 }, { symerror: 16 }] }
-    - { value: 168.06, errors: [{ symerror: 18 }, { symerror: 17 }] }
-    - { value: 183.73, errors: [{ symerror: 17 }, { symerror: 17 }] }
-    - { value: 197.73, errors: [{ symerror: 17 }, { symerror: 18 }] }
-    - { value: 208.91, errors: [{ symerror: 17 }, { symerror: 17 }] }
-    - { value: 218.89, errors: [{ symerror: 17 }, { symerror: 17 }] }
-    - { value: 225.20, errors: [{ symerror: 18 }, { symerror: 17 }] }
-    - { value: 230.61, errors: [{ symerror: 17 }, { symerror: 17 }] }
-    - { value: 233.87, errors: [{ symerror: 17 }, { symerror: 18 }] }
-    - { value: 236.10, errors: [{ symerror: 16 }, { symerror: 20 }] }
-    - { value: 235.32, errors: [{ symerror: 17 }, { symerror: 20 }] }
-    - { value: 233.01, errors: [{ symerror: 19 }, { symerror: 19 }] }
-    - { value: 232.23, errors: [{ symerror: 18 }, { symerror: 20 }] }
-    - { value: 231.31, errors: [{ symerror: 18 }, { symerror: 21 }] }
-    - { value: 230.73, errors: [{ symerror: 18 }, { symerror: 21 }] }
-    - { value: 230.61, errors: [{ symerror: 18 }, { symerror: 21 }] }
-    - { value: 230.96, errors: [{ symerror: 19 }, { symerror: 20 }] }
-    - { value: 231.27, errors: [{ symerror: 19 }, { symerror: 19 }] }
-    - { value: 231.89, errors: [{ symerror: 20 }, { symerror: 18 }] }
-    - { value: 231.84, errors: [{ symerror: 20 }, { symerror: 16 }] }
-    - { value: 231.69, errors: [{ symerror: 21 }, { symerror: 15 }] }
-    - { value: 230.68, errors: [{ symerror: 20 }, { symerror: 15 }] }
-    - { value: 227.87, errors: [{ symerror: 20 }, { symerror: 15 }] }
-    - { value: 222.93, errors: [{ symerror: 20 }, { symerror: 14 }] }
-    - { value: 216.71, errors: [{ symerror: 19 }, { symerror: 15 }] }
-    - { value: 208.58, errors: [{ symerror: 18 }, { symerror: 17 }] }
-    - { value: 197.39, errors: [{ symerror: 17 }, { symerror: 17 }] }
-    - { value: 184.80, errors: [{ symerror: 16 }, { symerror: 18 }] }
-    - { value: 169.05, errors: [{ symerror: 17 }, { symerror: 18 }] }
-    - { value: 152.71, errors: [{ symerror: 17 }, { symerror: 18 }] }
-    - { value: 147.32, errors: [{ symerror: 5.2 }, { symerror: 29 }] }
-    - { value: 128.51, errors: [{ symerror: 7.0 }, { symerror: 26 }] }
-    - { value: 107.79, errors: [{ symerror: 11 }, { symerror: 21 }] }
-    - { value: 89.50, errors: [{ symerror: 13 }, { symerror: 17 }] }
-    - { value: 69.81, errors: [{ symerror: 18 }, { symerror: 9.9 }] }
-    - { value: 57.56, errors: [{ symerror: 17 }, { symerror: 9.0 }] }
-    - { value: 46.88, errors: [{ symerror: 16 }, { symerror: 8.1 }] }
-    - { value: 40.43, errors: [{ symerror: 12 }, { symerror: 9.8 }] }
-    - { value: 34.03, errors: [{ symerror: 11 }, { symerror: 10 }] }
-    - { value: 29.01, errors: [{ symerror: 9.6 }, { symerror: 10 }] }
-    - { value: 24.36, errors: [{ symerror: 8.9 }, { symerror: 9.9 }] }
-    - { value: 20.73, errors: [{ symerror: 8.1 }, { symerror: 9.4 }] }
+    - { value: 21.20, errors: [{ label: "stat", asymerror: { plus: 7.6, minus: 9.9 } }] }
+    - { value: 24.55, errors: [{ label: "stat", asymerror: { plus: 8.7, minus: 10 } }] }
+    - { value: 29.17, errors: [{ label: "stat", asymerror: { plus: 9.4, minus: 11 } }] }
+    - { value: 34.12, errors: [{ label: "stat", asymerror: { plus: 11, minus: 10 } }] }
+    - { value: 38.00, errors: [{ label: "stat", asymerror: { plus: 14, minus: 7.4 } }] }
+    - { value: 45.70, errors: [{ label: "stat", asymerror: { plus: 17, minus: 6.9 } }] }
+    - { value: 56.93, errors: [{ label: "stat", asymerror: { plus: 18, minus: 8.4 } }] }
+    - { value: 68.29, errors: [{ label: "stat", asymerror: { plus: 20, minus: 8.4 } }] }
+    - { value: 83.58, errors: [{ label: "stat", asymerror: { plus: 19, minus: 11 } }] }
+    - { value: 99.71, errors: [{ label: "stat", asymerror: { plus: 19, minus: 13 } }] }
+    - { value: 119.22, errors: [{ label: "stat", asymerror: { plus: 16, minus: 17 } }] }
+    - { value: 136.79, errors: [{ label: "stat", asymerror: { plus: 16, minus: 18 } }] }
+    - { value: 151.41, errors: [{ label: "stat", asymerror: { plus: 18, minus: 16 } }] }
+    - { value: 168.06, errors: [{ label: "stat", asymerror: { plus: 18, minus: 17 } }] }
+    - { value: 183.73, errors: [{ label: "stat", asymerror: { plus: 17, minus: 17 } }] }
+    - { value: 197.73, errors: [{ label: "stat", asymerror: { plus: 17, minus: 18 } }] }
+    - { value: 208.91, errors: [{ label: "stat", asymerror: { plus: 17, minus: 17 } }] }
+    - { value: 218.89, errors: [{ label: "stat", asymerror: { plus: 17, minus: 17 } }] }
+    - { value: 225.20, errors: [{ label: "stat", asymerror: { plus: 18, minus: 17 } }] }
+    - { value: 230.61, errors: [{ label: "stat", asymerror: { plus: 17, minus: 17 } }] }
+    - { value: 233.87, errors: [{ label: "stat", asymerror: { plus: 17, minus: 18 } }] }
+    - { value: 236.10, errors: [{ label: "stat", asymerror: { plus: 16, minus: 20 } }] }
+    - { value: 235.32, errors: [{ label: "stat", asymerror: { plus: 17, minus: 20 } }] }
+    - { value: 233.01, errors: [{ label: "stat", asymerror: { plus: 19, minus: 19 } }] }
+    - { value: 232.23, errors: [{ label: "stat", asymerror: { plus: 18, minus: 20 } }] }
+    - { value: 231.31, errors: [{ label: "stat", asymerror: { plus: 18, minus: 21 } }] }
+    - { value: 230.73, errors: [{ label: "stat", asymerror: { plus: 18, minus: 21 } }] }
+    - { value: 230.61, errors: [{ label: "stat", asymerror: { plus: 18, minus: 21 } }] }
+    - { value: 230.96, errors: [{ label: "stat", asymerror: { plus: 19, minus: 20 } }] }
+    - { value: 231.27, errors: [{ label: "stat", asymerror: { plus: 19, minus: 19 } }] }
+    - { value: 231.89, errors: [{ label: "stat", asymerror: { plus: 20, minus: 18 } }] }
+    - { value: 231.84, errors: [{ label: "stat", asymerror: { plus: 20, minus: 16 } }] }
+    - { value: 231.69, errors: [{ label: "stat", asymerror: { plus: 21, minus: 15 } }] }
+    - { value: 230.68, errors: [{ label: "stat", asymerror: { plus: 20, minus: 15 } }] }
+    - { value: 227.87, errors: [{ label: "stat", asymerror: { plus: 20, minus: 15 } }] }
+    - { value: 222.93, errors: [{ label: "stat", asymerror: { plus: 20, minus: 14 } }] }
+    - { value: 216.71, errors: [{ label: "stat", asymerror: { plus: 19, minus: 15 } }] }
+    - { value: 208.58, errors: [{ label: "stat", asymerror: { plus: 18, minus: 17 } }] }
+    - { value: 197.39, errors: [{ label: "stat", asymerror: { plus: 17, minus: 17 } }] }
+    - { value: 184.80, errors: [{ label: "stat", asymerror: { plus: 16, minus: 18 } }] }
+    - { value: 169.05, errors: [{ label: "stat", asymerror: { plus: 17, minus: 18 } }] }
+    - { value: 152.71, errors: [{ label: "stat", asymerror: { plus: 17, minus: 18 } }] }
+    - { value: 147.32, errors: [{ label: "stat", asymerror: { plus: 5.2, minus: 29 } }] }
+    - { value: 128.51, errors: [{ label: "stat", asymerror: { plus: 7.0, minus: 26 } }] }
+    - { value: 107.79, errors: [{ label: "stat", asymerror: { plus: 11, minus: 21 } }] }
+    - { value: 89.50, errors: [{ label: "stat", asymerror: { plus: 13, minus: 17 } }] }
+    - { value: 69.81, errors: [{ label: "stat", asymerror: { plus: 18, minus: 9.9 } }] }
+    - { value: 57.56, errors: [{ label: "stat", asymerror: { plus: 17, minus: 9.0 } }] }
+    - { value: 46.88, errors: [{ label: "stat", asymerror: { plus: 16, minus: 8.1 } }] }
+    - { value: 40.43, errors: [{ label: "stat", asymerror: { plus: 12, minus: 9.8 } }] }
+    - { value: 34.03, errors: [{ label: "stat", asymerror: { plus: 11, minus: 10 } }] }
+    - { value: 29.01, errors: [{ label: "stat", asymerror: { plus: 9.6, minus: 10 } }] }
+    - { value: 24.36, errors: [{ label: "stat", asymerror: { plus: 8.9, minus: 9.9 } }] }
+    - { value: 20.73, errors: [{ label: "stat", asymerror: { plus: 8.1, minus: 9.4 } }] }
