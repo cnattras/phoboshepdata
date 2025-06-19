@@ -83,7 +83,7 @@ dependent_variables:
     - value: 17.16
       errors:
       - {symerror: 1.80, label: 'sys'}
-  - header: {name: '$n_{\text{part}}$'}
+  - header: {name: '$N_{\text{part}}$'}
     values:
     - value: 349
       errors:
