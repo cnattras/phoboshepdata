@@ -4,7 +4,7 @@
 # Author: Rachid Nouicer
 
 independent_variables:
-  - header: { name: "$\eta$" }
+  - header: { name: "$\\eta$" }
     values:
       - { value: -5.3 }
       - { value: -5.1 }
@@ -62,7 +62,7 @@ independent_variables:
       - { value: 5.3 }
 
 dependent_variables:
-  - header: { name: "$dN/d\eta$"}
+  - header: { name: "$dN/d\\eta$"}
     values:
       - { value: 19.639706, errors: [{symerror: 8.980820}, {symerror: 8.250368}] }
       - { value: 22.412849, errors: [{symerror: 8.580261}, {symerror: 8.809293}] }

@@ -13,7 +13,7 @@ independent_variables:
     - {low: 40, high: 45}
     - {low: 45, high: 50}
 dependent_variables:
-  - header: {name: 'N_ch'}
+  - header: {name: '$N_{\text{ch}}$'}
     values:
     - value: 2988
       errors:
@@ -83,7 +83,7 @@ dependent_variables:
     - value: 17.16
       errors:
       - {symerror: 1.80, label: 'sys'}
-  - header: {name: 'n_part'}
+  - header: {name: '$n_{\text{part}}$'}
     values:
     - value: 349
       errors:
