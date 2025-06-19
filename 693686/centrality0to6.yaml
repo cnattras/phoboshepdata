@@ -60,7 +60,7 @@ independent_variables:
       - { value: 5.3 }
 
 dependent_variables:
-  - header: { name: "$\\frac{dN}{d\eta}$" }
+  - header: { name: "$\\frac{dN}{d\\eta}$" }
     values:
       - value: 15.113744
         errors: [{ label: "stat", asymerror: { plus: 6.305482, minus: 5.001158 } }]
