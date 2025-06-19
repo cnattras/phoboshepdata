@@ -64,111 +64,111 @@ independent_variables:
 dependent_variables:
   - header: { name: "$\\frac{dN}{d\\eta}$" }
     values:
-      - value: 18.788795
-        errors: [{ label: "stat", asymerror: { plus: 3.647591, minus: 7.955454 } }]
-      - value: 23.463654
-        errors: [{ label: "stat", asymerror: { plus: 5.458094, minus: 8.882051 } }]
-      - value: 29.617702
-        errors: [{ label: "stat", asymerror: { plus: 7.479092, minus: 10.068422 } }]
-      - value: 36.736553
-        errors: [{ label: "stat", asymerror: { plus: 10.550358, minus: 10.663475 } }]
-      - value: 44.775257
-        errors: [{ label: "stat", asymerror: { plus: 15.037292, minus: 10.237175 } }]
-      - value: 56.462826
-        errors: [{ label: "stat", asymerror: { plus: 18.484234, minus: 11.110615 } }]
-      - value: 72.706932
-        errors: [{ label: "stat", asymerror: { plus: 20.151665, minus: 13.811348 } }]
-      - value: 88.989975
-        errors: [{ label: "stat", asymerror: { plus: 24.552521, minus: 13.549599 } }]
-      - value: 113.794083
-        errors: [{ label: "stat", asymerror: { plus: 22.964996, minus: 18.746933 } }]
-      - value: 137.233795
-        errors: [{ label: "stat", asymerror: { plus: 24.764389, minus: 19.773315 } }]
-      - value: 164.283600
-        errors: [{ label: "stat", asymerror: { plus: 24.209015, minus: 22.238358 } }]
-      - value: 189.870071
-        errors: [{ label: "stat", asymerror: { plus: 25.421249, minus: 22.060684 } }]
-      - value: 212.901733
-        errors: [{ label: "stat", asymerror: { plus: 28.479614, minus: 19.368118 } }]
-      - value: 236.920776
-        errors: [{ label: "stat", asymerror: { plus: 28.905670, minus: 18.941605 } }]
-      - value: 259.773193
-        errors: [{ label: "stat", asymerror: { plus: 28.109802, minus: 19.671295 } }]
-      - value: 281.685364
-        errors: [{ label: "stat", asymerror: { plus: 25.377991, minus: 22.489166 } }]
-      - value: 299.209259
-        errors: [{ label: "stat", asymerror: { plus: 23.931549, minus: 24.276031 } }]
-      - value: 314.690735
-        errors: [{ label: "stat", asymerror: { plus: 21.418915, minus: 27.382538 } }]
-      - value: 324.796631
-        errors: [{ label: "stat", asymerror: { plus: 21.327759, minus: 28.254578 } }]
-      - value: 331.221710
-        errors: [{ label: "stat", asymerror: { plus: 22.218719, minus: 28.239532 } }]
-      - value: 335.937866
-        errors: [{ label: "stat", asymerror: { plus: 22.434540, minus: 28.906769 } }]
-      - value: 338.567902
-        errors: [{ label: "stat", asymerror: { plus: 22.709259, minus: 29.455353 } }]
-      - value: 338.096130
-        errors: [{ label: "stat", asymerror: { plus: 24.464661, minus: 28.424164 } }]
-      - value: 337.618805
-        errors: [{ label: "stat", asymerror: { plus: 25.081940, minus: 28.420868 } }]
-      - value: 336.724304
-        errors: [{ label: "stat", asymerror: { plus: 25.535828, minus: 28.484680 } }]
-      - value: 335.692719
-        errors: [{ label: "stat", asymerror: { plus: 26.167267, minus: 28.306396 } }]
-      - value: 334.232819
-        errors: [{ label: "stat", asymerror: { plus: 27.849976, minus: 27.050995 } }]
-      - value: 332.677399
-        errors: [{ label: "stat", asymerror: { plus: 29.405396, minus: 25.495575 } }]
-      - value: 332.120514
-        errors: [{ label: "stat", asymerror: { plus: 29.739471, minus: 24.734192 } }]
-      - value: 333.463623
-        errors: [{ label: "stat", asymerror: { plus: 28.796509, minus: 25.223999 } }]
-      - value: 335.237183
-        errors: [{ label: "stat", asymerror: { plus: 27.463562, minus: 26.039246 } }]
-      - value: 335.275696
-        errors: [{ label: "stat", asymerror: { plus: 27.285095, minus: 25.603729 } }]
-      - value: 334.237457
-        errors: [{ label: "stat", asymerror: { plus: 27.039703, minus: 25.124908 } }]
-      - value: 331.954468
-        errors: [{ label: "stat", asymerror: { plus: 26.417938, minus: 24.923370 } }]
-      - value: 327.251007
-        errors: [{ label: "stat", asymerror: { plus: 26.189392, minus: 24.268860 } }]
-      - value: 320.305023
-        errors: [{ label: "stat", asymerror: { plus: 25.819366, minus: 23.763000 } }]
-      - value: 309.857941
-        errors: [{ label: "stat", asymerror: { plus: 26.251709, minus: 22.549744 } }]
-      - value: 297.442017
-        errors: [{ label: "stat", asymerror: { plus: 25.698761, minus: 22.508820 } }]
-      - value: 281.099396
-        errors: [{ label: "stat", asymerror: { plus: 25.963928, minus: 21.903229 } }]
-      - value: 260.982971
-        errors: [{ label: "stat", asymerror: { plus: 26.899994, minus: 20.881088 } }]
-      - value: 238.162018
-        errors: [{ label: "stat", asymerror: { plus: 27.664429, minus: 20.182846 } }]
-      - value: 214.788544
-        errors: [{ label: "stat", asymerror: { plus: 26.592773, minus: 21.254959 } }]
-      - value: 205.056625
-        errors: [{ label: "stat", asymerror: { plus: 10.234665, minus: 37.247269 } }]
-      - value: 178.813934
-        errors: [{ label: "stat", asymerror: { plus: 9.678650, minus: 36.768723 } }]
-      - value: 149.392365
-        errors: [{ label: "stat", asymerror: { plus: 12.605789, minus: 31.931908 } }]
-      - value: 122.250168
-        errors: [{ label: "stat", asymerror: { plus: 14.508911, minus: 27.203018 } }]
-      - value: 91.168236
-        errors: [{ label: "stat", asymerror: { plus: 22.374237, minus: 15.727875 } }]
-      - value: 73.461494
-        errors: [{ label: "stat", asymerror: { plus: 19.397057, minus: 14.565945 } }]
-      - value: 57.607285
-        errors: [{ label: "stat", asymerror: { plus: 17.339775, minus: 12.255074 } }]
-      - value: 45.821381
-        errors: [{ label: "stat", asymerror: { plus: 13.991169, minus: 11.283298 } }]
-      - value: 36.329605
-        errors: [{ label: "stat", asymerror: { plus: 10.957279, minus: 10.256546 } }]
-      - value: 29.487867
-        errors: [{ label: "stat", asymerror: { plus: 7.608927, minus: 9.938587 } }]
-      - value: 22.951048
-        errors: [{ label: "stat", asymerror: { plus: 5.970684, minus: 8.369456 } }]
-      - value: 18.345886
-        errors: [{ label: "stat", asymerror: { plus: 4.090500, minus: 7.512545 } }]
+      - value: 18.79
+        errors: [{ label: "stat", asymerror: { plus: 3.65, minus: 7.96 } }]
+      - value: 23.46
+        errors: [{ label: "stat", asymerror: { plus: 5.46, minus: 8.88 } }]
+      - value: 29.62
+        errors: [{ label: "stat", asymerror: { plus: 7.48, minus: 10.07 } }]
+      - value: 36.74
+        errors: [{ label: "stat", asymerror: { plus: 10.6, minus: 10.7 } }]
+      - value: 44.78
+        errors: [{ label: "stat", asymerror: { plus: 15, minus: 10 } }]
+      - value: 56.46
+        errors: [{ label: "stat", asymerror: { plus: 18, minus: 11 } }]
+      - value: 72.71
+        errors: [{ label: "stat", asymerror: { plus: 20, minus: 14 } }]
+      - value: 88.99
+        errors: [{ label: "stat", asymerror: { plus: 25, minus: 14 } }]
+      - value: 113.79
+        errors: [{ label: "stat", asymerror: { plus: 23, minus: 19 } }]
+      - value: 137.23
+        errors: [{ label: "stat", asymerror: { plus: 25, minus: 20 } }]
+      - value: 164.28
+        errors: [{ label: "stat", asymerror: { plus: 24, minus: 22 } }]
+      - value: 189.87
+        errors: [{ label: "stat", asymerror: { plus: 25, minus: 22 } }]
+      - value: 212.90
+        errors: [{ label: "stat", asymerror: { plus: 28, minus: 19 } }]
+      - value: 236.92
+        errors: [{ label: "stat", asymerror: { plus: 29, minus: 19 } }]
+      - value: 259.77
+        errors: [{ label: "stat", asymerror: { plus: 28, minus: 20 } }]
+      - value: 281.69
+        errors: [{ label: "stat", asymerror: { plus: 25, minus: 22 } }]
+      - value: 299.21
+        errors: [{ label: "stat", asymerror: { plus: 24, minus: 24 } }]
+      - value: 314.69
+        errors: [{ label: "stat", asymerror: { plus: 21, minus: 27 } }]
+      - value: 324.80
+        errors: [{ label: "stat", asymerror: { plus: 21, minus: 28 } }]
+      - value: 331.22
+        errors: [{ label: "stat", asymerror: { plus: 22, minus: 28 } }]
+      - value: 335.94
+        errors: [{ label: "stat", asymerror: { plus: 22, minus: 29 } }]
+      - value: 338.57
+        errors: [{ label: "stat", asymerror: { plus: 23, minus: 29 } }]
+      - value: 338.10
+        errors: [{ label: "stat", asymerror: { plus: 24, minus: 28 } }]
+      - value: 337.62
+        errors: [{ label: "stat", asymerror: { plus: 25, minus: 28 } }]
+      - value: 336.72
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 28 } }]
+      - value: 335.69
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 28 } }]
+      - value: 334.23
+        errors: [{ label: "stat", asymerror: { plus: 28, minus: 27 } }]
+      - value: 332.68
+        errors: [{ label: "stat", asymerror: { plus: 29, minus: 25 } }]
+      - value: 332.12
+        errors: [{ label: "stat", asymerror: { plus: 30, minus: 25 } }]
+      - value: 333.46
+        errors: [{ label: "stat", asymerror: { plus: 29, minus: 25 } }]
+      - value: 335.24
+        errors: [{ label: "stat", asymerror: { plus: 27, minus: 26 } }]
+      - value: 335.28
+        errors: [{ label: "stat", asymerror: { plus: 27, minus: 26 } }]
+      - value: 334.24
+        errors: [{ label: "stat", asymerror: { plus: 27, minus: 25 } }]
+      - value: 331.95
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 25 } }]
+      - value: 327.25
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 24 } }]
+      - value: 320.31
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 24 } }]
+      - value: 309.86
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 23 } }]
+      - value: 297.44
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 23 } }]
+      - value: 281.10
+        errors: [{ label: "stat", asymerror: { plus: 26, minus: 22 } }]
+      - value: 260.98
+        errors: [{ label: "stat", asymerror: { plus: 27, minus: 21 } }]
+      - value: 238.16
+        errors: [{ label: "stat", asymerror: { plus: 28, minus: 20 } }]
+      - value: 214.79
+        errors: [{ label: "stat", asymerror: { plus: 27, minus: 21 } }]
+      - value: 205.06
+        errors: [{ label: "stat", asymerror: { plus: 10, minus: 37 } }]
+      - value: 178.81
+        errors: [{ label: "stat", asymerror: { plus: 9.7, minus: 37 } }]
+      - value: 149.39
+        errors: [{ label: "stat", asymerror: { plus: 13, minus: 32 } }]
+      - value: 122.25
+        errors: [{ label: "stat", asymerror: { plus: 15, minus: 27 } }]
+      - value: 91.17
+        errors: [{ label: "stat", asymerror: { plus: 22, minus: 16 } }]
+      - value: 73.46
+        errors: [{ label: "stat", asymerror: { plus: 19, minus: 15 } }]
+      - value: 57.61
+        errors: [{ label: "stat", asymerror: { plus: 17, minus: 12 } }]
+      - value: 45.82
+        errors: [{ label: "stat", asymerror: { plus: 14, minus: 11 } }]
+      - value: 36.33
+        errors: [{ label: "stat", asymerror: { plus: 11, minus: 10 } }]
+      - value: 29.49
+        errors: [{ label: "stat", asymerror: { plus: 7.6, minus: 9.9 } }]
+      - value: 22.95
+        errors: [{ label: "stat", asymerror: { plus: 6, minus: 8.4 } }]
+      - value: 18.35
+        errors: [{ label: "stat", asymerror: { plus: 4.1, minus: 7.5 } }]

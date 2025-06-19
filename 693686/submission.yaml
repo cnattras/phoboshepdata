@@ -23,7 +23,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: 693686table1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure4.png}
@@ -37,7 +37,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: 693686table2.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_figure7.png}
@@ -52,7 +52,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: centrality0to6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -68,7 +68,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: centrality6to15.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -85,7 +85,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: centrality15to25.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -101,7 +101,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: centrality25to35.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -117,7 +117,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: centrality35to45.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -133,7 +133,7 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: observables
   values: [DN/DETARAP]
 - name: cmenergies
-  values: [130.0]
+  values: [62.4]
 data_file: centrality45to50.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}

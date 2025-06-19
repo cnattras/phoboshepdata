@@ -62,59 +62,59 @@ independent_variables:
       - { value: 5.3 }
 
 dependent_variables:
-  - header: { name: "$dN/d\\eta$"}
-    values:
-      - { value: 17.534985, errors: [{symerror: 8.902672}, {symerror: 6.909070}] }
-      - { value: 19.458504, errors: [{symerror: 7.805779}, {symerror: 7.473827}] }
-      - { value: 21.831284, errors: [{symerror: 6.602919}, {symerror: 8.081810}] }
-      - { value: 23.771605, errors: [{symerror: 6.194613}, {symerror: 7.779519}] }
-      - { value: 22.489664, errors: [{symerror: 9.371067}, {symerror: 3.710587}] }
-      - { value: 26.138723, errors: [{symerror: 9.376440}, {symerror: 3.974079}] }
-      - { value: 31.130657, errors: [{symerror: 8.670181}, {symerror: 4.948223}] }
-      - { value: 35.884350, errors: [{symerror: 8.827652}, {symerror: 5.047153}] }
-      - { value: 41.115410, errors: [{symerror: 9.091518}, {symerror: 5.018116}] }
-      - { value: 47.728828, errors: [{symerror: 8.474907}, {symerror: 5.839588}] }
-      - { value: 55.625591, errors: [{symerror: 6.953796}, {symerror: 7.530174}] }
-      - { value: 63.002495, errors: [{symerror: 6.170250}, {symerror: 8.446373}] }
-      - { value: 68.240303, errors: [{symerror: 7.551743}, {symerror: 7.163799}] }
-      - { value: 75.136871, errors: [{symerror: 7.089935}, {symerror: 7.698387}] }
-      - { value: 81.142868, errors: [{symerror: 7.120422}, {symerror: 7.725838}] }
-      - { value: 86.182976, errors: [{symerror: 7.519279}, {symerror: 7.383675}] }
-      - { value: 91.016693, errors: [{symerror: 7.360504}, {symerror: 7.611870}] }
-      - { value: 95.053177, errors: [{symerror: 7.117592}, {symerror: 7.949097}] }
-      - { value: 97.860023, errors: [{symerror: 7.167229}, {symerror: 8.026955}] }
-      - { value: 99.381851, errors: [{symerror: 7.577316}, {symerror: 7.780342}] }
-      - { value: 100.438431, errors: [{symerror: 7.608208}, {symerror: 7.945267}] }
-      - { value: 100.973061, errors: [{symerror: 7.456177}, {symerror: 8.315491}] }
-      - { value: 101.146362, errors: [{symerror: 7.144318}, {symerror: 8.852631}] }
-      - { value: 100.408188, errors: [{symerror: 7.429779}, {symerror: 8.780785}] }
-      - { value: 99.683701, errors: [{symerror: 7.593681}, {symerror: 8.799141}] }
-      - { value: 99.175201, errors: [{symerror: 7.614937}, {symerror: 8.910896}] }
-      - { value: 98.711739, errors: [{symerror: 7.798996}, {symerror: 8.797012}] }
-      - { value: 98.375412, errors: [{symerror: 8.135323}, {symerror: 8.460686}] }
-      - { value: 98.961082, errors: [{symerror: 7.829056}, {symerror: 8.696777}] }
-      - { value: 99.013634, errors: [{symerror: 8.263748}, {symerror: 8.129074}] }
-      - { value: 99.153572, errors: [{symerror: 8.684395}, {symerror: 7.526169}] }
-      - { value: 99.496544, errors: [{symerror: 8.794136}, {symerror: 7.202812}] }
-      - { value: 99.574753, errors: [{symerror: 8.854485}, {symerror: 6.917183}] }
-      - { value: 98.801109, errors: [{symerror: 9.245529}, {symerror: 6.307945}] }
-      - { value: 97.867218, errors: [{symerror: 9.091942}, {symerror: 6.265709}] }
-      - { value: 96.138458, errors: [{symerror: 8.888794}, {symerror: 6.305397}] }
-      - { value: 93.250366, errors: [{symerror: 8.920403}, {symerror: 6.146286}] }
-      - { value: 90.413116, errors: [{symerror: 7.964073}, {symerror: 7.008301}] }
-      - { value: 85.956764, errors: [{symerror: 7.745483}, {symerror: 7.157471}] }
-      - { value: 80.997849, errors: [{symerror: 7.265434}, {symerror: 7.580826}] }
-      - { value: 75.011177, errors: [{symerror: 7.215630}, {symerror: 7.572693}] }
-      - { value: 68.416977, errors: [{symerror: 7.375061}, {symerror: 7.340481}] }
-      - { value: 67.310188, errors: [{symerror: 1.862541}, {symerror: 12.754078}] }
-      - { value: 58.896435, errors: [{symerror: 3.682945}, {symerror: 10.801025}] }
-      - { value: 50.569878, errors: [{symerror: 5.633850}, {symerror: 8.680641}] }
-      - { value: 43.213757, errors: [{symerror: 6.993172}, {symerror: 7.116463}] }
-      - { value: 36.515308, errors: [{symerror: 8.196686}, {symerror: 5.678118}] }
-      - { value: 30.994907, errors: [{symerror: 8.805920}, {symerror: 4.812483}] }
-      - { value: 26.468294, errors: [{symerror: 9.046869}, {symerror: 4.303650}] }
-      - { value: 25.188719, errors: [{symerror: 6.672012}, {symerror: 6.409641}] }
-      - { value: 23.474226, errors: [{symerror: 6.491985}, {symerror: 7.482147}] }
-      - { value: 21.611116, errors: [{symerror: 6.823086}, {symerror: 7.861643}] }
-      - { value: 19.059410, errors: [{symerror: 8.204868}, {symerror: 7.074739}] }
-      - { value: 16.797033, errors: [{symerror: 9.640623}, {symerror: 6.171119}] }
+- header: { name: "$dN/d\\eta$" }
+  values:
+    - { value: 17.53, errors: [{ symerror: 8.9 }, { symerror: 6.9 }] }
+    - { value: 19.46, errors: [{ symerror: 7.8 }, { symerror: 7.5 }] }
+    - { value: 21.83, errors: [{ symerror: 6.6 }, { symerror: 8.1 }] }
+    - { value: 23.77, errors: [{ symerror: 6.2 }, { symerror: 7.8 }] }
+    - { value: 22.49, errors: [{ symerror: 9.4 }, { symerror: 3.7 }] }
+    - { value: 26.14, errors: [{ symerror: 9.4 }, { symerror: 4.0 }] }
+    - { value: 31.13, errors: [{ symerror: 8.7 }, { symerror: 4.9 }] }
+    - { value: 35.88, errors: [{ symerror: 8.8 }, { symerror: 5.0 }] }
+    - { value: 41.12, errors: [{ symerror: 9.1 }, { symerror: 5.0 }] }
+    - { value: 47.73, errors: [{ symerror: 8.5 }, { symerror: 5.8 }] }
+    - { value: 55.63, errors: [{ symerror: 7.0 }, { symerror: 7.5 }] }
+    - { value: 63.00, errors: [{ symerror: 6.2 }, { symerror: 8.4 }] }
+    - { value: 68.24, errors: [{ symerror: 7.6 }, { symerror: 7.2 }] }
+    - { value: 75.14, errors: [{ symerror: 7.1 }, { symerror: 7.7 }] }
+    - { value: 81.14, errors: [{ symerror: 7.1 }, { symerror: 7.7 }] }
+    - { value: 86.18, errors: [{ symerror: 7.5 }, { symerror: 7.4 }] }
+    - { value: 91.02, errors: [{ symerror: 7.4 }, { symerror: 7.6 }] }
+    - { value: 95.05, errors: [{ symerror: 7.1 }, { symerror: 7.9 }] }
+    - { value: 97.86, errors: [{ symerror: 7.2 }, { symerror: 8.0 }] }
+    - { value: 99.38, errors: [{ symerror: 7.6 }, { symerror: 7.8 }] }
+    - { value: 100.44, errors: [{ symerror: 7.6 }, { symerror: 7.9 }] }
+    - { value: 100.97, errors: [{ symerror: 7.5 }, { symerror: 8.3 }] }
+    - { value: 101.15, errors: [{ symerror: 7.1 }, { symerror: 8.9 }] }
+    - { value: 100.41, errors: [{ symerror: 7.4 }, { symerror: 8.8 }] }
+    - { value: 99.68, errors: [{ symerror: 7.6 }, { symerror: 8.8 }] }
+    - { value: 99.18, errors: [{ symerror: 7.6 }, { symerror: 8.9 }] }
+    - { value: 98.71, errors: [{ symerror: 7.8 }, { symerror: 8.8 }] }
+    - { value: 98.38, errors: [{ symerror: 8.1 }, { symerror: 8.5 }] }
+    - { value: 98.96, errors: [{ symerror: 7.8 }, { symerror: 8.7 }] }
+    - { value: 99.01, errors: [{ symerror: 8.3 }, { symerror: 8.1 }] }
+    - { value: 99.15, errors: [{ symerror: 8.7 }, { symerror: 7.5 }] }
+    - { value: 99.50, errors: [{ symerror: 8.8 }, { symerror: 7.2 }] }
+    - { value: 99.57, errors: [{ symerror: 8.9 }, { symerror: 6.9 }] }
+    - { value: 98.80, errors: [{ symerror: 9.2 }, { symerror: 6.3 }] }
+    - { value: 97.87, errors: [{ symerror: 9.1 }, { symerror: 6.3 }] }
+    - { value: 96.14, errors: [{ symerror: 8.9 }, { symerror: 6.3 }] }
+    - { value: 93.25, errors: [{ symerror: 8.9 }, { symerror: 6.1 }] }
+    - { value: 90.41, errors: [{ symerror: 8.0 }, { symerror: 7.0 }] }
+    - { value: 85.96, errors: [{ symerror: 7.7 }, { symerror: 7.2 }] }
+    - { value: 81.00, errors: [{ symerror: 7.3 }, { symerror: 7.6 }] }
+    - { value: 75.01, errors: [{ symerror: 7.2 }, { symerror: 7.6 }] }
+    - { value: 68.42, errors: [{ symerror: 7.4 }, { symerror: 7.3 }] }
+    - { value: 67.31, errors: [{ symerror: 1.9 }, { symerror: 13 }] }
+    - { value: 58.90, errors: [{ symerror: 3.7 }, { symerror: 11 }] }
+    - { value: 50.57, errors: [{ symerror: 5.6 }, { symerror: 8.7 }] }
+    - { value: 43.21, errors: [{ symerror: 7.0 }, { symerror: 7.1 }] }
+    - { value: 36.52, errors: [{ symerror: 8.2 }, { symerror: 5.7 }] }
+    - { value: 30.99, errors: [{ symerror: 8.8 }, { symerror: 4.8 }] }
+    - { value: 26.47, errors: [{ symerror: 9.0 }, { symerror: 4.3 }] }
+    - { value: 25.19, errors: [{ symerror: 6.7 }, { symerror: 6.4 }] }
+    - { value: 23.47, errors: [{ symerror: 6.5 }, { symerror: 7.5 }] }
+    - { value: 21.61, errors: [{ symerror: 6.8 }, { symerror: 7.9 }] }
+    - { value: 19.06, errors: [{ symerror: 8.2 }, { symerror: 7.1 }] }
+    - { value: 16.80, errors: [{ symerror: 9.6 }, { symerror: 6.2 }] }
