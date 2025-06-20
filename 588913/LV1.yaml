@@ -8,7 +8,7 @@ independent_variables:
       - {value: '$p$'}
       - {value: '$\bar{p}$'}
 dependent_variables:
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '+'}
@@ -20,7 +20,7 @@ dependent_variables:
   - value: 250
   - value: 472
   - value: 324
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '+'}
@@ -32,11 +32,10 @@ dependent_variables:
   - value: 243
   - value: 458
   - value: 319
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$p_T$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '+'}
-  - {name: 'Transverse Momentum', value: '$p$'}
   values:
     - value: 418
       errors:
@@ -56,7 +55,7 @@ dependent_variables:
     - value: 480
       errors:
         - {symerror: 7, label: 'sys'}
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '-'}
@@ -68,7 +67,7 @@ dependent_variables:
   - value: 198
   - value: 405
   - value: 291
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '-'}
@@ -80,11 +79,10 @@ dependent_variables:
   - value: 208
   - value: 398
   - value: 293
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$p_T$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '-'}
-  - {name: 'Transverse Momentum', value: '$p$'}
   values:
     - value: 289
       errors:
@@ -104,7 +102,7 @@ dependent_variables:
     - value: 596
       errors:
         - {symerror: 8, label: 'sys'}
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '+'}
@@ -116,7 +114,7 @@ dependent_variables:
   - value: 310
   - value: 427
   - value: 346
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '+'}
@@ -128,11 +126,10 @@ dependent_variables:
   - value: 308
   - value: 409
   - value: 327
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$p_T$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '+'}
-  - {name: 'Transverse Momentum', value: '$p$'}
   values:
     - value: 414
       errors:
@@ -152,7 +149,7 @@ dependent_variables:
     - value: 474
       errors:
         - {symerror: 7, label: 'sys'}
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '-'}
@@ -164,7 +161,7 @@ dependent_variables:
   - value: 182
   - value: 433
   - value: 264
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '-'}
@@ -176,11 +173,10 @@ dependent_variables:
   - value: 179
   - value: 424
   - value: 267
-- header: {name: '$\frac{dE_T}{d\eta}$ [GeV]'}
+- header: {name: '$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '-'}
-  - {name: 'Transverse Momentum', value: '$p$'}
   values:
     - value: 279
       errors:
