@@ -31,118 +31,33 @@ independent_variables:
       - { value: 4.250 }
 
 dependent_variables:
-  - header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield" }
-    values:
-      - value: 1.2749505
-        errors:
-          - { label: "stat", symerror: 0.003 }
-          - { label: "sys", asymerror: { plus: 0.101, minus: 0.151 } }
-      - value: 1.3054131
-        errors:
-          - { label: "stat", symerror: 0.003 }
-          - { label: "sys", asymerror: { plus: 0.103, minus: 0.151 } }
-      - value: 1.3560605
-        errors:
-          - { label: "stat", symerror: 0.003 }
-          - { label: "sys", asymerror: { plus: 0.106, minus: 0.154 } }
-      - value: 1.4423375
-        errors:
-          - { label: "stat", symerror: 0.004 }
-          - { label: "sys", asymerror: { plus: 0.112, minus: 0.161 } }
-      - value: 1.5426681
-        errors:
-          - { label: "stat", symerror: 0.005 }
-          - { label: "sys", asymerror: { plus: 0.119, minus: 0.169 } }
-      - value: 1.6507556
-        errors:
-          - { label: "stat", symerror: 0.004 }
-          - { label: "sys", asymerror: { plus: 0.127, minus: 0.178 } }
-      - value: 1.7839473
-        errors:
-          - { label: "stat", symerror: 0.005 }
-          - { label: "sys", asymerror: { plus: 0.137, minus: 0.190 } }
-      - value: 1.9151117
-        errors:
-          - { label: "stat", symerror: 0.007 }
-          - { label: "sys", asymerror: { plus: 0.148, minus: 0.201 } }
-      - value: 2.0242105
-        errors:
-          - { label: "stat", symerror: 0.008 }
-          - { label: "sys", asymerror: { plus: 0.158, minus: 0.211 } }
-      - value: 2.1844404
-        errors:
-          - { label: "stat", symerror: 0.010 }
-          - { label: "sys", asymerror: { plus: 0.172, minus: 0.226 } }
-      - value: 2.2969346
-        errors:
-          - { label: "stat", symerror: 0.012 }
-          - { label: "sys", asymerror: { plus: 0.182, minus: 0.236 } }
-      - value: 2.4086096
-        errors:
-          - { label: "stat", symerror: 0.014 }
-          - { label: "sys", asymerror: { plus: 0.194, minus: 0.247 } }
-      - value: 2.5073509
-        errors:
-          - { label: "stat", symerror: 0.017 }
-          - { label: "sys", asymerror: { plus: 0.205, minus: 0.257 } }
-      - value: 2.6189420
-        errors:
-          - { label: "stat", symerror: 0.020 }
-          - { label: "sys", asymerror: { plus: 0.219, minus: 0.268 } }
-      - value: 2.6550262
-        errors:
-          - { label: "stat", symerror: 0.024 }
-          - { label: "sys", asymerror: { plus: 0.226, minus: 0.273 } }
-      - value: 2.7541559
-        errors:
-          - { label: "stat", symerror: 0.028 }
-          - { label: "sys", asymerror: { plus: 0.240, minus: 0.284 } }
-      - value: 2.7795529
-        errors:
-          - { label: "stat", symerror: 0.032 }
-          - { label: "sys", asymerror: { plus: 0.249, minus: 0.289 } }
-      - value: 2.8388000
-        errors:
-          - { label: "stat", symerror: 0.037 }
-          - { label: "sys", asymerror: { plus: 0.261, minus: 0.298 } }
-      - value: 2.8580606
-        errors:
-          - { label: "stat", symerror: 0.032 }
-          - { label: "sys", asymerror: { plus: 0.275, minus: 0.306 } }
-      - value: 2.8539262
-        errors:
-          - { label: "stat", symerror: 0.041 }
-          - { label: "sys", asymerror: { plus: 0.294, minus: 0.315 } }
-      - value: 2.8282275
-        errors:
-          - { label: "stat", symerror: 0.052 }
-          - { label: "sys", asymerror: { plus: 0.314, minus: 0.325 } }
-      - value: 2.8640244
-        errors:
-          - { label: "stat", symerror: 0.067 }
-          - { label: "sys", asymerror: { plus: 0.345, minus: 0.344 } }
-      - value: 2.6004283
-        errors:
-          - { label: "stat", symerror: 0.079 }
-          - { label: "sys", asymerror: { plus: 0.341, minus: 0.330 } }
-      - value: 2.6903410
-        errors:
-          - { label: "stat", symerror: 0.092 }
-          - { label: "sys", asymerror: { plus: 0.391, minus: 0.364 } }
-      - value: 2.4800498
-        errors:
-          - { label: "stat", symerror: 0.113 }
-          - { label: "sys", asymerror: { plus: 0.406, minus: 0.363 } }
-      - value: 2.3863089
-        errors:
-          - { label: "stat", symerror: 0.141 }
-          - { label: "sys", asymerror: { plus: 0.443, minus: 0.381 } }
-      - value: 1.9815198
-        errors:
-          - { label: "stat", symerror: 0.162 }
-          - { label: "sys", asymerror: { plus: 0.418, minus: 0.346 } }
-      - value: 1.8612411
-        errors:
-          - { label: "stat", symerror: 0.153 }
-          - { label: "sys", asymerror: { plus: 0.478, minus: 0.374 } }
-
+- header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield" }
+  values:
+    - { value: 1.275, errors: [{ label: "stat", symerror: 0.003 }, { label: "sys", asymerror: { plus: 0.10, minus: 0.15 } }] }
+    - { value: 1.305, errors: [{ label: "stat", symerror: 0.003 }, { label: "sys", asymerror: { plus: 0.10, minus: 0.15 } }] }
+    - { value: 1.356, errors: [{ label: "stat", symerror: 0.003 }, { label: "sys", asymerror: { plus: 0.11, minus: 0.15 } }] }
+    - { value: 1.442, errors: [{ label: "stat", symerror: 0.004 }, { label: "sys", asymerror: { plus: 0.11, minus: 0.16 } }] }
+    - { value: 1.543, errors: [{ label: "stat", symerror: 0.005 }, { label: "sys", asymerror: { plus: 0.12, minus: 0.17 } }] }
+    - { value: 1.651, errors: [{ label: "stat", symerror: 0.004 }, { label: "sys", asymerror: { plus: 0.13, minus: 0.18 } }] }
+    - { value: 1.784, errors: [{ label: "stat", symerror: 0.005 }, { label: "sys", asymerror: { plus: 0.14, minus: 0.19 } }] }
+    - { value: 1.915, errors: [{ label: "stat", symerror: 0.007 }, { label: "sys", asymerror: { plus: 0.15, minus: 0.20 } }] }
+    - { value: 2.024, errors: [{ label: "stat", symerror: 0.008 }, { label: "sys", asymerror: { plus: 0.16, minus: 0.21 } }] }
+    - { value: 2.184, errors: [{ label: "stat", symerror: 0.010 }, { label: "sys", asymerror: { plus: 0.17, minus: 0.23 } }] }
+    - { value: 2.297, errors: [{ label: "stat", symerror: 0.012 }, { label: "sys", asymerror: { plus: 0.18, minus: 0.24 } }] }
+    - { value: 2.409, errors: [{ label: "stat", symerror: 0.014 }, { label: "sys", asymerror: { plus: 0.19, minus: 0.25 } }] }
+    - { value: 2.507, errors: [{ label: "stat", symerror: 0.017 }, { label: "sys", asymerror: { plus: 0.21, minus: 0.26 } }] }
+    - { value: 2.619, errors: [{ label: "stat", symerror: 0.020 }, { label: "sys", asymerror: { plus: 0.22, minus: 0.27 } }] }
+    - { value: 2.655, errors: [{ label: "stat", symerror: 0.024 }, { label: "sys", asymerror: { plus: 0.23, minus: 0.27 } }] }
+    - { value: 2.754, errors: [{ label: "stat", symerror: 0.028 }, { label: "sys", asymerror: { plus: 0.24, minus: 0.28 } }] }
+    - { value: 2.780, errors: [{ label: "stat", symerror: 0.032 }, { label: "sys", asymerror: { plus: 0.25, minus: 0.29 } }] }
+    - { value: 2.839, errors: [{ label: "stat", symerror: 0.037 }, { label: "sys", asymerror: { plus: 0.26, minus: 0.30 } }] }
+    - { value: 2.858, errors: [{ label: "stat", symerror: 0.032 }, { label: "sys", asymerror: { plus: 0.28, minus: 0.31 } }] }
+    - { value: 2.854, errors: [{ label: "stat", symerror: 0.041 }, { label: "sys", asymerror: { plus: 0.29, minus: 0.32 } }] }
+    - { value: 2.828, errors: [{ label: "stat", symerror: 0.052 }, { label: "sys", asymerror: { plus: 0.31, minus: 0.33 } }] }
+    - { value: 2.864, errors: [{ label: "stat", symerror: 0.067 }, { label: "sys", asymerror: { plus: 0.35, minus: 0.34 } }] }
+    - { value: 2.600, errors: [{ label: "stat", symerror: 0.079 }, { label: "sys", asymerror: { plus: 0.34, minus: 0.33 } }] }
+    - { value: 2.690, errors: [{ label: "stat", symerror: 0.092 }, { label: "sys", asymerror: { plus: 0.39, minus: 0.36 } }] }
+    - { value: 2.480, errors: [{ label: "stat", symerror: 0.113 }, { label: "sys", asymerror: { plus: 0.41, minus: 0.36 } }] }
+    - { value: 2.386, errors: [{ label: "stat", symerror: 0.141 }, { label: "sys", asymerror: { plus: 0.44, minus: 0.38 } }] }
+    - { value: 1.982, errors: [{ label: "stat", symerror: 0.162 }, { label: "sys", asymerror: { plus: 0.42, minus: 0.35 } }] }
+    - { value: 1.861, errors: [{ label: "stat", symerror: 0.153 }, { label: "sys", asymerror: { plus: 0.48, minus: 0.37 } }] }

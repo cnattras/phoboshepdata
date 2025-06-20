@@ -9,11 +9,11 @@ independent_variables:
       - { value: 344 }
 
 dependent_variables:
-  - header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield ($p_T=2.3$ GeV)" }
-    values:
-      - { value: 1.0023282, errors: [{ label: "stat", symerror: 0.025 }, { label: "sys", asymerror: { plus: 0.131, minus: 0.151 } }] }
-      - { value: 1.0772237, errors: [{ label: "stat", symerror: 0.016 }, { label: "sys", asymerror: { plus: 0.136, minus: 0.162 } }] }
-      - { value: 1.1354126, errors: [{ label: "stat", symerror: 0.013 }, { label: "sys", asymerror: { plus: 0.141, minus: 0.172 } }] }
-      - { value: 1.1974570, errors: [{ label: "stat", symerror: 0.011 }, { label: "sys", asymerror: { plus: 0.148, minus: 0.190 } }] }
-      - { value: 1.2271498, errors: [{ label: "stat", symerror: 0.011 }, { label: "sys", asymerror: { plus: 0.158, minus: 0.218 } }] }
-      - { value: 1.2340238, errors: [{ label: "stat", symerror: 0.012 }, { label: "sys", asymerror: { plus: 0.168, minus: 0.250 } }] }
+- header: { name: "Ratio to $N_{\\mathrm{part}}/2$ yield ($p_T=2.3$ GeV)" }
+  values:
+    - { value: 1.002, errors: [{ label: "stat", symerror: 0.025 }, { label: "sys", asymerror: { plus: 0.13, minus: 0.15 } }] }
+    - { value: 1.077, errors: [{ label: "stat", symerror: 0.016 }, { label: "sys", asymerror: { plus: 0.14, minus: 0.16 } }] }
+    - { value: 1.135, errors: [{ label: "stat", symerror: 0.013 }, { label: "sys", asymerror: { plus: 0.14, minus: 0.17 } }] }
+    - { value: 1.197, errors: [{ label: "stat", symerror: 0.011 }, { label: "sys", asymerror: { plus: 0.15, minus: 0.19 } }] }
+    - { value: 1.227, errors: [{ label: "stat", symerror: 0.011 }, { label: "sys", asymerror: { plus: 0.16, minus: 0.22 } }] }
+    - { value: 1.234, errors: [{ label: "stat", symerror: 0.012 }, { label: "sys", asymerror: { plus: 0.17, minus: 0.25 } }] }
