@@ -7,7 +7,7 @@ independent_variables:
       - {value: 0.206}
 
 dependent_variables:
-  - header: {name: 'Invariant Yield [$c^2/GeV^2]'}
+  - header: {name: '$\frac{1}{2\pi p_T N_{ev}}$ $\frac{d2}{\text{GeV}^2}$'}
     qualifiers:
       - {name: 'Particle Type', value: '$p$ + $\bar{p}$'}
       - {name: 'Collision System', value: 'Au+Au'}

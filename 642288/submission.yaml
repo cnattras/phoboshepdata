@@ -18,7 +18,12 @@ name: "$\\pi^+ + \\pi^-$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 642288
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where Yield = $\frac{1}{2\pi p_T N_{ev}}$ $\frac{d2}{\text{GeV}^2}$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: 1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_LV1.png}
@@ -31,7 +36,12 @@ name: " $K^+ + K^-$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 642288
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where Yield = $\frac{1}{2\pi p_T N_{ev}}$ $\frac{d2}{\text{GeV}^2}$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: 2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_LV1.png}
@@ -44,7 +54,12 @@ name: "$p + \\bar{p}$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 642288
 description: Data for invariant yields of charged particles in 15% most central Au + Au collisions at $\sqrt{s_{NN}} = 200 \text{ GeV}$. Where Yield = $\frac{1}{2\pi p_T N_{ev}}$  $\frac{d2}{\text{GeV}^2}$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: 3.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_LV1.png}
