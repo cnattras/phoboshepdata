@@ -13,35 +13,15 @@ independent_variables:
       - { value: 353.593 }
 
 dependent_variables:
-  - header: { name: "$\\frac{dN}{d\\eta}$ (all $\\eta$)" }
-    values:
-      - value: 909.663
-        errors:
-          - { symerror: 98.8035, label: "sys" }
-      - value: 1140.88
-        errors:
-          - { symerror: 121.76, label: "sys" }
-      - value: 1395.43
-        errors:
-          - { symerror: 148.586, label: "sys" }
-      - value: 1697.3
-        errors:
-          - { symerror: 180.672, label: "sys" }
-      - value: 2029.28
-        errors:
-          - { symerror: 213.795, label: "sys" }
-      - value: 2432.82
-        errors:
-          - { symerror: 258.462, label: "sys" }
-      - value: 2926.23
-        errors:
-          - { symerror: 311.489, label: "sys" }
-      - value: 3449.32
-        errors:
-          - { symerror: 364.85, label: "sys" }
-      - value: 3861.32
-        errors:
-          - { symerror: 412.987, label: "sys" }
-      - value: 4197.33
-        errors:
-          - { symerror: 450.676, label: "sys" }
+- header: { name: "$\\frac{dN}{d\\eta}$ (all $\\eta$)" }
+  values:
+    - { value: 910, errors: [{ label: "sys", symerror: 99 }] }
+    - { value: 1141, errors: [{ label: "sys", symerror: 122 }] }
+    - { value: 1395, errors: [{ label: "sys", symerror: 149 }] }
+    - { value: 1697, errors: [{ label: "sys", symerror: 181 }] }
+    - { value: 2029, errors: [{ label: "sys", symerror: 214 }] }
+    - { value: 2433, errors: [{ label: "sys", symerror: 258 }] }
+    - { value: 2926, errors: [{ label: "sys", symerror: 311 }] }
+    - { value: 3449, errors: [{ label: "sys", symerror: 365 }] }
+    - { value: 3861, errors: [{ label: "sys", symerror: 413 }] }
+    - { value: 4197, errors: [{ label: "sys", symerror: 451 }] }

@@ -14,6 +14,13 @@ comment: |
 name: "Centrality 0-6%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 0-6% centrality bin, as defined by different fractions of the total observed cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1centrality0to6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -23,6 +30,13 @@ additional_resources:
 name: "Centrality 6-15%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 6-15% centrality bin, as defined by different fractions of the total observed cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1centrality6to15.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -33,6 +47,13 @@ additional_resources:
 name: "Centrality 15-25%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 15-25% centrality bin, as defined by different fractions of the total observed cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1centrality15to25.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -42,6 +63,13 @@ additional_resources:
 name: "Centrality 25-35%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 25-35% centrality bin, as defined by different fractions of the total observed cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1centrality25to35.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -51,6 +79,13 @@ additional_resources:
 name: "Centrality 35-45%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 35-45% centrality bin, as defined by different fractions of the total observed cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1centrality35to45.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -60,6 +95,13 @@ additional_resources:
 name: "Centrality 45-55%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 45-55% centrality bin, as defined by different fractions of the total observed cross section.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1centrality45to55.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -69,6 +111,13 @@ additional_resources:
 name: "Centrality 0-6% Per Participant"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 0-6% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1part0to6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -78,6 +127,13 @@ additional_resources:
 name: "Centrality 6-15 Per Participant%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 6-15% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1part6to15.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -87,6 +143,13 @@ additional_resources:
 name: "Centrality 15-25 Per Participant%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 15-25% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1part15to25.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -96,6 +159,13 @@ additional_resources:
 name: "Centrality 25-35 Per Participant%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 25-35% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1part25to35.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -105,6 +175,13 @@ additional_resources:
 name: "Centrality 35-45 Per Participant%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 35-45% centrality bin.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig1part35to45.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -114,6 +191,13 @@ additional_resources:
 name: "$0<\\eta<1$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$. 
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig2eta0to1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -123,6 +207,13 @@ additional_resources:
 name: "$2<\\eta<2.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig2eta2to2.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -132,6 +223,13 @@ additional_resources:
 name: "$3<\\eta<3.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig2eta3to3.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -141,6 +239,13 @@ additional_resources:
 name: "$4<\\eta<4.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig2eta4to4.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -150,6 +255,13 @@ additional_resources:
 name: "$5<\\eta<5.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: fig2eta5to5.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -159,6 +271,13 @@ additional_resources:
 name: "Estimated data from HIJING model"
 location: Data from figure 2
 description: HIJING model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: HIJING.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -168,6 +287,13 @@ additional_resources:
 name: "Estimated data from AMPT model"
 location: Data from figure 2
 description: AMPT model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: AMPT.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -177,6 +303,13 @@ additional_resources:
 name: "Estimated data from LUCIFER model"
 location: Data from figure 2
 description: LUCIFER model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: LUCIFER.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -186,6 +319,13 @@ additional_resources:
 name: "Total $\\frac{dN}{d\\eta}$"
 location: Data from figure 2
 description: Total $dN_{ch}/d\eta$ vs $N_{\\{part}}$ for all in Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV. Not normalized by participant pairs.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: LOOKfig2Rapidities.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
@@ -195,6 +335,13 @@ additional_resources:
 name: "Proton-Proton Extrapolation Data"
 location: Data from figure 2
 description: Extrapolated $pp$ prediction for $dN_{ch}/d\eta$ vs $\eta$ in $pp$ collisions at $\sqrt{s_{NN}}$=130 GeV
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: pp.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}

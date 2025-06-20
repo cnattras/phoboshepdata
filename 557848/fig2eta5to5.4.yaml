@@ -13,15 +13,15 @@ independent_variables:
       - { value: 353.593 }
 
 dependent_variables:
-  - header: { name: "$\\frac{dN}{d\\eta}$ (for $5<\\eta<5.4$)" }
-    values:
-      - { value: 0.594589, errors: [{ label: "stat", symerror: 0.0713407 }] }
-      - { value: 0.57107,  errors: [{ label: "stat", symerror: 0.0669679 }] }
-      - { value: 0.532099, errors: [{ label: "stat", symerror: 0.0624858 }] }
-      - { value: 0.489339, errors: [{ label: "stat", symerror: 0.0565431 }] }
-      - { value: 0.455115, errors: [{ label: "stat", symerror: 0.0502093 }] }
-      - { value: 0.418571, errors: [{ label: "stat", symerror: 0.0481528 }] }
-      - { value: 0.383001, errors: [{ label: "stat", symerror: 0.042553 }] }
-      - { value: 0.339651, errors: [{ label: "stat", symerror: 0.0397825 }] }
-      - { value: 0.315803, errors: [{ label: "stat", symerror: 0.0357337 }] }
-      - { value: 0.27574,  errors: [{ label: "stat", symerror: 0.0350442 }] }
+- header: { name: "$\\frac{dN}{d\\eta}$ (for $5<\\eta<5.4$)" }
+  values:
+    - { value: 0.5946, errors: [{ label: "stat", symerror: 0.071 }] }
+    - { value: 0.5711, errors: [{ label: "stat", symerror: 0.067 }] }
+    - { value: 0.5321, errors: [{ label: "stat", symerror: 0.062 }] }
+    - { value: 0.4893, errors: [{ label: "stat", symerror: 0.057 }] }
+    - { value: 0.4551, errors: [{ label: "stat", symerror: 0.050 }] }
+    - { value: 0.4186, errors: [{ label: "stat", symerror: 0.048 }] }
+    - { value: 0.3830, errors: [{ label: "stat", symerror: 0.043 }] }
+    - { value: 0.3397, errors: [{ label: "stat", symerror: 0.040 }] }
+    - { value: 0.3158, errors: [{ label: "stat", symerror: 0.036 }] }
+    - { value: 0.2757, errors: [{ label: "stat", symerror: 0.035 }] }
