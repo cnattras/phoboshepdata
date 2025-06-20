@@ -20,7 +20,12 @@ name: "Table 1: Condition 1"
 location: Data from Table 1 of PHOBOS paper Inspire ID 588913
 description: Number of accepted events, accepted identified particles and average transverse momentum ($\langle p_T \rangle$) in (MeV/c) of these particles at each magnetic field polarity. Data are split up by beam orbit condition and spectrometer arm.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: LV1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_LV1.png}
@@ -33,7 +38,12 @@ name: "Table 1: Condition 2"
 location: Data from Table 1 of PHOBOS paper Inspire ID 588913
 description: Number of accepted events, accepted identified particles and average transverse momentum ($\langle p_T \rangle$) in (MeV/c) of these particles at each magnetic field polarity. Data are split up by beam orbit condition and spectrometer arm.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: LV2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_LV1.png}
