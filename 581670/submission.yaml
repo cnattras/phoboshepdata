@@ -18,11 +18,25 @@ comment: |
 name: "130 GeV Au+Au"
 location: Data from Table 1 of PHOBOS paper Inspire ID 581670
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 130$ and $\sqrt{s_{NN}} = 200$ GeV
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: table2.yaml
 ---
 name: "200 GeV / 130 GeV Ratios" 
 location: Data from Table 1 of PHOBOS paper Inspire ID 581670
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 130$ and $\sqrt{s_{NN}} = 200$ GeV
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130, 200]
 data_file: table3.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_figure1.png}
@@ -32,4 +46,11 @@ additional_resources:
 name: "200 GeV Au+Au"
 location: Data Table 1 from PHOBOS paper Inspire ID 581670
 description: Data for Au+Au collisions at $\sqrt{s_{NN}} = 130$ and $\sqrt{s_{NN}} = 200$ GeV
-data_file: table1.yaml
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+  data_file: table1.yaml
