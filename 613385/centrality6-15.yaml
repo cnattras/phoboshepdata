@@ -31,7 +31,7 @@ independent_variables:
       - { value: 4.250 }
 
 dependent_variables:
-- header: { name: "$1/2\\pi p_T$) $d^2N/dp_Tdy$ [c/GeV]" }
+- header: { name: "$1/2\\pi p_T$ $d^2N/dp_Tdy$ [c/GeV]" }
   values:
     - { value: 283.1, errors: [{ label: "stat", asymerror: { plus: 31, minus: 36 } }] }
     - { value: 166.3, errors: [{ label: "stat", asymerror: { plus: 18, minus: 20 } }] }
