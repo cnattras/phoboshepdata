@@ -13,16 +13,29 @@ name: "Flow versus Pseudorapidity"
 location: Data from figure 3
 description: This is flow versus psuedorapidity.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+  - {name: phrases, values: [flow]}
+  - name: reactions
+    values: [AU AU --> MULT(CHARGED) X]
+  - name: observables
+    values: [DN/DETARAP]
+  - name: cmenergies
+    values: [130]
+
 data_file: table1.yaml
 additional_resources:
 - {description: Thumbnail image file, location: thumb_figure3.png }
 ---
 name: "Figure 4 Flow versus Npart"
 location: Data from figure 4
-description: This is flow versus Npart.
+description: This is flow versus $N_{\text{part}}$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- {name: phrases, values: [flow]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
 data_file: table2.yaml
 additional_resources:
 - {description: Thumbnail image file, location: thumb_figure4.png }
