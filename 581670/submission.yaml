@@ -9,7 +9,6 @@ additional_resources: # additional references (e.g. experiment TWiki page for an
 - {location: "https://inspirehep.net/literature/581670", description: "InspireHEP ID: 581670"}
 - {location: "https://arxiv.org/pdf/nucl-ex/0201005", description: "arXiv ID: nucl-ex/0201005"}
 - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Cent_200/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 581670"}
----
 comment: |
   The PHOBOS experiment has measured the charged particle multiplicity at mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}} = 200~\mathrm{GeV}$ as a function of the collision centrality. Results on $dN_{\mathrm{ch}}/d\eta|_{|\eta|<1}$ divided by the number of participating nucleon pairs $\langle N_{\mathrm{part}} \rangle / 2$ are presented as a function of $\langle N_{\mathrm{part}} \rangle$. As was found from similar data at $\sqrt{s_{NN}} = 130~\mathrm{GeV}$, the data can be equally well described by parton saturation models and two-component fits which include contributions that scale with $N_{\mathrm{part}}$ and the number of binary collisions $N_{\mathrm{coll}}$. We compare the data at the two energies by means of the ratio $R_{200/130}$ of the charged particle multiplicity for $\sqrt{s_{NN}} = 200~\mathrm{GeV}$ and $\sqrt{s_{NN}} = 130~\mathrm{GeV}$ as a function of $\langle N_{\mathrm{part}} \rangle$. For events with $\langle N_{\mathrm{part}} \rangle > 100$, we find that this ratio is consistent with a constant value of $1.14 \pm 0.01~\mathrm{(stat.)} \pm 0.05~\mathrm{(syst.)}$.
 ---
