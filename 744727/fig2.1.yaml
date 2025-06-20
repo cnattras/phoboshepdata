@@ -1,5 +1,5 @@
 independent_variables:
-  - header: { name: "$N_{\text{part}}$" }
+  - header: { name: "$N_{\\text{part}}$" }
     values:
       - { value: 80.3 }
       - { value: 99.2 }

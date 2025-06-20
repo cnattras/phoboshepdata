@@ -17,7 +17,12 @@ name: "$v_2$ as a function of $N_{\\text{part}}$"
 location: Data from Figure 1 of PHOBOS paper Inspire ID 744727
 description: $\langle v_2 \rangle$ (top) and $\sigma_{\\{dyn}}$ (bottom) versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: fig1.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_fig1.png}
@@ -26,7 +31,12 @@ name: "$\\sigma_{\\text{dyn}}(v_2)$ as a function of centrality"
 location: Data from Figure 1 of PHOBOS paper Inspire ID 744727
 description: $\langle v_2 \rangle$ (top) and $\sigma_{\\{dyn}}$ (bottom) versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: fig1.2.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_fig1.png}
@@ -36,7 +46,12 @@ name: "$\\sigma_{\\text{dyn}}(v_2)/v_2$ as a function of centrality"
 location: Data from Figure 2 of PHOBOS paper Inspire ID 744727
 description: $\frac{\sigma_{\text{dyn}}}{\langle v_2 \rangle}$ versus $N_{\text{part}}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: fig2.1.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_fig2.png}
@@ -45,12 +60,22 @@ name: "Glauber Model"
 location: Data from Figure 2 from PHOBOS paper Inspire ID 744727
 description: Glauber model prediction for $\sigma(\epsilon_{\text{part}}) / \langle \epsilon_{\text{part}} \rangle$ versus $N_{part}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: fig2.2.yaml
 ---
 name: "CGC Model"
 location: Data From Figure 2 from PHOBOS paper Inspire ID 744727
 description: CGC model prediction for $\sigma(\epsilon_{\text{part}}) / \langle \epsilon_{\text{part}} \rangle$ versus $N_{part}$ for Au+Au collisions at $\sqrt{s_{_{\it NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: fig2.3.yaml
