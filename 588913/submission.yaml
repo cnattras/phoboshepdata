@@ -8,6 +8,11 @@
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/588913", description: "InspireHEP ID: 588913"}
 - {location: "https://arxiv.org/pdf/nucl-ex/0206012", description: "arXiv ID: nucl-ex/0206012"}
+- {description: Thumbnail Image file, location: thumb_LV1.png}
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_fig4.png}
 
 # - {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/AuAu_Mult_62/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 588913"}
 comment: |
@@ -28,10 +33,6 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [200]
 data_file: LV1.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_LV1.png}
-- {description: Thumbnail Image file, location: thumb_fig1.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
-- {description: Thumbnail Image file, location: thumb_fig3.png}
 - {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
 name: "Table 1: Condition 2"
@@ -46,8 +47,4 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [200]
 data_file: LV2.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_LV1.png}
-- {description: Thumbnail Image file, location: thumb_fig1.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
-- {description: Thumbnail Image file, location: thumb_fig3.png}
 - {description: Thumbnail Image file, location: thumb_fig4.png}

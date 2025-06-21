@@ -1,5 +1,5 @@
 independent_variables:
-  - header: {name: 'Centrality'}
+  - header: {name: 'Particle Type'}
     values:
       - {value: '$\pi^+$'}
       - {value: '$\pi^-$'}
@@ -8,10 +8,11 @@ independent_variables:
       - {value: '$p$'}
       - {value: '$\bar{p}$'}
 dependent_variables:
-- header: {name: '$N_{\text{particles}} Local$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'Local'}
   values:
   - value: 8286
   - value: 14692
@@ -19,10 +20,11 @@ dependent_variables:
   - value: 250
   - value: 472
   - value: 324
-- header: {name: '$N_{\text{particles}} Global$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'Global'}
   values:
   - value: 8532
   - value: 14298
@@ -34,6 +36,7 @@ dependent_variables:
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: '-'}
   values:
     - value: 418
       errors:
@@ -53,10 +56,11 @@ dependent_variables:
     - value: 480
       errors:
         - {symerror: 7, label: 'sys'}
-- header: {name: '$N_{\text{particles}} Local$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'Local'}
   values:
   - value: 12935
   - value: 7472
@@ -64,10 +68,11 @@ dependent_variables:
   - value: 198
   - value: 405
   - value: 291
-- header: {name: '$N_{\text{particles}} Global$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'Global'}
   values:
   - value: 12501
   - value: 7643
@@ -79,6 +84,7 @@ dependent_variables:
   qualifiers:
   - {name: 'arm', value: 'N'}
   - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: '-'}
   values:
     - value: 289
       errors:
@@ -98,10 +104,11 @@ dependent_variables:
     - value: 596
       errors:
         - {symerror: 8, label: 'sys'}
-- header: {name: '$N_{\text{particles}} Local$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'Local'}
   values:
   - value: 7273
   - value: 15344
@@ -109,10 +116,11 @@ dependent_variables:
   - value: 310
   - value: 427
   - value: 346
-- header: {name: '$N_{\text{particles}} Global$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: 'Global'}
   values:
   - value: 7139
   - value: 14961
@@ -124,6 +132,7 @@ dependent_variables:
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '+'}
+  - {name: 'vertex', value: '-'}
   values:
     - value: 414
       errors:
@@ -143,10 +152,11 @@ dependent_variables:
     - value: 474
       errors:
         - {symerror: 7, label: 'sys'}
-- header: {name: '$N_{\text{particles}} Local$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: ':Local'}
   values:
   - value: 13423
   - value: 6569
@@ -154,10 +164,11 @@ dependent_variables:
   - value: 182
   - value: 433
   - value: 264
-- header: {name: '$N_{\text{particles}} Global$'}
+- header: {name: '$N_{\text{particles}}$'}
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: 'Global'}
   values:
   - value: 13172
   - value: 6432
@@ -169,6 +180,7 @@ dependent_variables:
   qualifiers:
   - {name: 'arm', value: 'P'}
   - {name: 'field polarity', value: '-'}
+  - {name: 'vertex', value: '-'}
   values:
     - value: 279
       errors:
