@@ -7,25 +7,12 @@ independent_variables:
       - {value: 14.600}
 
 dependent_variables:
-  - header: {name: '$R_{dAu}$'}
-    qualifiers:
-      - {name: 'Systematic Uncertainty', value: '90% CL'}
-      - {name: '$p_T$', value: '3 GeV/c'}
-      - {name: 'Overall Sys Uncertainty', value: 0.173}
-    values:
-      - value: 1.015000
-        errors:
-          - {symerror: 0.0598, label: 'stat'}
-          - {symerror: 0.294350, label: 'sys'}
-      - value: 0.989000
-        errors:
-          - {symerror: 0.0271, label: 'stat'}
-          - {symerror: 0.148350, label: 'sys'}
-      - value: 1.055000
-        errors:
-          - {symerror: 0.0204, label: 'stat'}
-          - {symerror: 0.084400, label: 'sys'}
-      - value: 1.033000
-        errors:
-          - {symerror: 0.0158, label: 'stat'}
-          - {symerror: 0.061980, label: 'sys'}
+- header: { name: '$R_{dAu}$' }
+  qualifiers:
+    - { name: 'Systematic Uncertainty', value: '90% CL' }
+    - { name: '$p_T$', value: '3 GeV/c' }
+  values:
+    - { value: 1.015, errors: [{ label: 'stat', symerror: 0.060 }, { label: 'sys', symerror: 0.29 }, {label: 'Overall Sys', symerror: 0.173}] }
+    - { value: 0.989, errors: [{ label: 'stat', symerror: 0.027 }, { label: 'sys', symerror: 0.15 }, {label: 'Overall Sys', symerror: 0.173}] }
+    - { value: 1.055, errors: [{ label: 'stat', symerror: 0.020 }, { label: 'sys', symerror: 0.084 }, {label: 'Overall Sys', symerror: 0.173}] }
+    - { value: 1.033, errors: [{ label: 'stat', symerror: 0.016 }, { label: 'sys', symerror: 0.062 }, {label: 'Overall Sys', symerror: 0.173}] }

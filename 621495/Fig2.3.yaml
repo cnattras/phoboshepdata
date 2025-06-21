@@ -7,24 +7,12 @@ independent_variables:
       - {value: 15.531}
 
 dependent_variables:
-  - header: {name: 'Relative Yield'}
-    qualifiers:
-      - {name: 'Systematic Uncertainty', value: '90% CL'}
-      - {name: '$p_T$', value: '3 GeV/c'}
-    values:
-      - value: 1.423562
-        errors:
-          - {symerror: 0.0840, label: 'stat'}
-          - {symerror: 0.271640, label: 'sys'}
-      - value: 1.845149
-        errors:
-          - {symerror: 0.0508, label: 'stat'}
-          - {symerror: 0.352086, label: 'sys'}
-      - value: 2.293473
-        errors:
-          - {symerror: 0.0446, label: 'stat'}
-          - {symerror: 0.437635, label: 'sys'}
-      - value: 2.489157
-        errors:
-          - {symerror: 0.0382, label: 'stat'}
-          - {symerror: 0.474974, label: 'sys'}
+- header: { name: 'Relative Yield' }
+  qualifiers:
+    - { name: 'Systematic Uncertainty', value: '90% CL' }
+    - { name: '$p_T$', value: '3 GeV/c' }
+  values:
+    - { value: 1.424, errors: [{ label: 'stat', symerror: 0.084 }, { label: 'sys', symerror: 0.27 }] }
+    - { value: 1.845, errors: [{ label: 'stat', symerror: 0.051 }, { label: 'sys', symerror: 0.35 }] }
+    - { value: 2.293, errors: [{ label: 'stat', symerror: 0.045 }, { label: 'sys', symerror: 0.44 }] }
+    - { value: 2.489, errors: [{ label: 'stat', symerror: 0.038 }, { label: 'sys', symerror: 0.47 }] }

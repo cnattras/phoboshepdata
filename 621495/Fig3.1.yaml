@@ -35,133 +35,39 @@ independent_variables:
 
 
 dependent_variables:
-  - header: {name: '$R_{dAu}$'}
-    qualifiers:
-      - {name: 'Systematic Uncertainty', value: '90% CL'}
-      - {name: 'Centrality', value: '70-100%'}
-      - {name: 'Overall Sys Uncertainty', value: 0.31}
-    values:
-      - value: 0.6331685
-        errors:
-          - {symerror: 0.0039517, label: 'stat'}
-          - {symerror: 0.0636257, label: 'sys'}
-      - value: 0.6945042
-        errors:
-          - {symerror: 0.0043002, label: 'stat'}
-          - {symerror: 0.0703518, label: 'sys'}
-      - value: 0.7136781
-        errors:
-          - {symerror: 0.0048698, label: 'stat'}
-          - {symerror: 0.0730054, label: 'sys'}
-      - value: 0.7110133
-        errors:
-          - {symerror: 0.0055460, label: 'stat'}
-          - {symerror: 0.0735743, label: 'sys'}
-      - value: 0.7316828
-        errors:
-          - {symerror: 0.0066041, label: 'stat'}
-          - {symerror: 0.0767158, label: 'sys'}
-      - value: 0.7568155
-        errors:
-          - {symerror: 0.0079577, label: 'stat'}
-          - {symerror: 0.0805293, label: 'sys'}
-      - value: 0.7509679
-        errors:
-          - {symerror: 0.0093125, label: 'stat'}
-          - {symerror: 0.0812167, label: 'sys'}
-      - value: 0.7765474
-        errors:
-          - {symerror: 0.0111841, label: 'stat'}
-          - {symerror: 0.0854823, label: 'sys'}
-      - value: 0.7994794
-        errors:
-          - {symerror: 0.0133974, label: 'stat'}
-          - {symerror: 0.0896994, label: 'sys'}
-      - value: 0.8211882
-        errors:
-          - {symerror: 0.0159102, label: 'stat'}
-          - {symerror: 0.0940272, label: 'sys'}
-      - value: 0.8119693
-        errors:
-          - {symerror: 0.0186426, label: 'stat'}
-          - {symerror: 0.0949942, label: 'sys'}
-      - value: 0.8142290
-        errors:
-          - {symerror: 0.0215317, label: 'stat'}
-          - {symerror: 0.0974388, label: 'sys'}
-      - value: 0.9052525
-        errors:
-          - {symerror: 0.0267410, label: 'stat'}
-          - {symerror: 0.1109247, label: 'sys'}
-      - value: 0.9092513
-        errors:
-          - {symerror: 0.0287531, label: 'stat'}
-          - {symerror: 0.1141890, label: 'sys'}
-      - value: 0.8984919
-        errors:
-          - {symerror: 0.0328521, label: 'stat'}
-          - {symerror: 0.1157471, label: 'sys'}
-      - value: 0.8808853
-        errors:
-          - {symerror: 0.0373915, label: 'stat'}
-          - {symerror: 0.1164958, label: 'sys'}
-      - value: 0.8925386
-        errors:
-          - {symerror: 0.0433455, label: 'stat'}
-          - {symerror: 0.1212604, label: 'sys'}
-      - value: 0.9768248
-        errors:
-          - {symerror: 0.0523633, label: 'stat'}
-          - {symerror: 0.1364218, label: 'sys'}
-      - value: 1.0105052
-        errors:
-          - {symerror: 0.0459321, label: 'stat'}
-          - {symerror: 0.1472368, label: 'sys'}
-      - value: 1.0268246
-        errors:
-          - {symerror: 0.0592837, label: 'stat'}
-          - {symerror: 0.1585657, label: 'sys'}
-      - value: 1.0045466
-        errors:
-          - {symerror: 0.0746674, label: 'stat'}
-          - {symerror: 0.1646329, label: 'sys'}
-      - value: 1.1579658
-        errors:
-          - {symerror: 0.0951842, label: 'stat'}
-          - {symerror: 0.2016009, label: 'sys'}
-      - value: 0.8430302
-        errors:
-          - {symerror: 0.1000493, label: 'stat'}
-          - {symerror: 0.1560093, label: 'sys'}
-      - value: 0.9821837
-        errors:
-          - {symerror: 0.1267994, label: 'stat'}
-          - {symerror: 0.1947465, label: 'sys'}
-      - value: 0.9039549
-        errors:
-          - {symerror: 0.1486093, label: 'stat'}
-          - {symerror: 0.1935172, label: 'sys'}
-      - value: 0.8788617
-        errors:
-          - {symerror: 0.1917834, label: 'stat'}
-          - {symerror: 0.2030566, label: 'sys'}
-      - value: 0.9893041
-        errors:
-          - {symerror: 0.2473260, label: 'stat'}
-          - {symerror: 0.2465138, label: 'sys'}
-      - value: 1.2010319
-        errors:
-          - {symerror: 0.2755356, label: 'stat'}
-          - {symerror: 0.3345699, label: 'sys'}
-      - value: 1.4902130
-        errors:
-          - {symerror: 0.4493161, label: 'stat'}
-          - {symerror: 0.4796110, label: 'sys'}
-      - value: 0.5667579
-        errors:
-          - {symerror: 0.4007583, label: 'stat'}
-          - {symerror: 0.2095767, label: 'sys'}
-      - value: 1.5809313
-        errors:
-          - {symerror: 0.9127511, label: 'stat'}
-          - {symerror: 0.6677730, label: 'sys'}
+- header: { name: '$R_{dAu}$' }
+  qualifiers:
+    - { name: 'Systematic Uncertainty', value: '90% CL' }
+    - { name: 'Centrality', value: '70-100%' }
+  values:
+    - { value: 0.633, errors: [{ label: 'stat', symerror: 0.0040 }, { label: 'sys', symerror: 0.064 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.695, errors: [{ label: 'stat', symerror: 0.0043 }, { label: 'sys', symerror: 0.070 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.714, errors: [{ label: 'stat', symerror: 0.0049 }, { label: 'sys', symerror: 0.073 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.711, errors: [{ label: 'stat', symerror: 0.0055 }, { label: 'sys', symerror: 0.074 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.732, errors: [{ label: 'stat', symerror: 0.0066 }, { label: 'sys', symerror: 0.077 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.757, errors: [{ label: 'stat', symerror: 0.0080 }, { label: 'sys', symerror: 0.081 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.751, errors: [{ label: 'stat', symerror: 0.0093 }, { label: 'sys', symerror: 0.081 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.777, errors: [{ label: 'stat', symerror: 0.011 }, { label: 'sys', symerror: 0.085 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.799, errors: [{ label: 'stat', symerror: 0.013 }, { label: 'sys', symerror: 0.090 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.821, errors: [{ label: 'stat', symerror: 0.016 }, { label: 'sys', symerror: 0.094 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.812, errors: [{ label: 'stat', symerror: 0.019 }, { label: 'sys', symerror: 0.095 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.814, errors: [{ label: 'stat', symerror: 0.022 }, { label: 'sys', symerror: 0.097 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.905, errors: [{ label: 'stat', symerror: 0.027 }, { label: 'sys', symerror: 0.11 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.909, errors: [{ label: 'stat', symerror: 0.029 }, { label: 'sys', symerror: 0.11 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.898, errors: [{ label: 'stat', symerror: 0.033 }, { label: 'sys', symerror: 0.12 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.881, errors: [{ label: 'stat', symerror: 0.037 }, { label: 'sys', symerror: 0.12 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.893, errors: [{ label: 'stat', symerror: 0.043 }, { label: 'sys', symerror: 0.12 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.977, errors: [{ label: 'stat', symerror: 0.052 }, { label: 'sys', symerror: 0.14 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.011, errors: [{ label: 'stat', symerror: 0.046 }, { label: 'sys', symerror: 0.15 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.027, errors: [{ label: 'stat', symerror: 0.059 }, { label: 'sys', symerror: 0.16 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.005, errors: [{ label: 'stat', symerror: 0.075 }, { label: 'sys', symerror: 0.16 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.158, errors: [{ label: 'stat', symerror: 0.095 }, { label: 'sys', symerror: 0.20 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.843, errors: [{ label: 'stat', symerror: 0.100 }, { label: 'sys', symerror: 0.16 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.982, errors: [{ label: 'stat', symerror: 0.127 }, { label: 'sys', symerror: 0.19 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.904, errors: [{ label: 'stat', symerror: 0.149 }, { label: 'sys', symerror: 0.19 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.879, errors: [{ label: 'stat', symerror: 0.192 }, { label: 'sys', symerror: 0.20 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.989, errors: [{ label: 'stat', symerror: 0.25 }, { label: 'sys', symerror: 0.25 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.201, errors: [{ label: 'stat', symerror: 0.28 }, { label: 'sys', symerror: 0.33 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.490, errors: [{ label: 'stat', symerror: 0.45 }, { label: 'sys', symerror: 0.48 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 0.567, errors: [{ label: 'stat', symerror: 0.40 }, { label: 'sys', symerror: 0.21 }, {label: 'Overall Sys', symerror: 0.31}] }
+    - { value: 1.581, errors: [{ label: 'stat', symerror: 0.91 }, { label: 'sys', symerror: 0.67 }, {label: 'Overall Sys', symerror: 0.31}] }

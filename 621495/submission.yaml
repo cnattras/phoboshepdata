@@ -18,7 +18,12 @@ name: "Fig 4: $p_T = 1 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus centrality for 4 $p_T$ bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig4.1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
@@ -27,7 +32,12 @@ name: "Fig 4: $p_T = 2 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus centrality for 4 $p_T$ bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig4.2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
@@ -36,7 +46,12 @@ name: "Fig 4: $p_T = 3 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus centrality for 4 $p_T$ bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig4.3.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
@@ -45,7 +60,12 @@ name: "Fig 4: $p_T = 4 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus centrality for 4 $p_T$ bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig4.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
@@ -54,7 +74,12 @@ name: "Table 1"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Estimated values for $\langle N_{\text{part}}$ and $\langle N_{\text{coll}}$ and the respective systematic uncertainties for the four centrality bins used in this analysis.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: table1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
@@ -63,7 +88,12 @@ name: "Fig 3: 70-100% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig3.1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
@@ -72,7 +102,12 @@ name: "Fig 3: 40-70% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig3.2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
@@ -81,7 +116,12 @@ name: "Fig 3: 20-40% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig3.3.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
@@ -90,7 +130,12 @@ name: "Fig 3: 0-20% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Nuclear modification factors versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig3.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
@@ -99,7 +144,12 @@ name: "Fig 2: $p_T = 1 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Invariant yield at given $p_T$ divided by UA1 and normalized to 1.0 at $p_T$=0.5 GeV/c versus integrated $dN/d\eta$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig2.1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
@@ -108,7 +158,12 @@ name: "Fig 2: $p_T = 2 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Invariant yield at given $p_T$ divided by UA1 and normalized to 1.0 at $p_T$=0.5 GeV/c versus integrated $dN/d\eta$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig2.2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
@@ -117,7 +172,12 @@ name: "Fig 2: $p_T = 3 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Invariant yield at given $p_T$ divided by UA1 and normalized to 1.0 at $p_T$=0.5 GeV/c versus integrated $dN/d\eta$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig2.3.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
@@ -126,7 +186,12 @@ name: "Fig 2: $p_T = 4 [GeV/c]$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Invariant yield at given $p_T$ divided by UA1 and normalized to 1.0 at $p_T$=0.5 GeV/c versus integrated $dN/d\eta$.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig2.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
@@ -135,7 +200,12 @@ name: "Fig 1: 70-100% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Charged hadron invariant yield versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig1.1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
@@ -144,7 +214,12 @@ name: "Fig 1: 40-70% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Charged hadron invariant yield versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig1.2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
@@ -153,7 +228,12 @@ name: "Fig 1: 20-40% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Charged hadron invariant yield versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig1.3.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
@@ -162,7 +242,12 @@ name: "Fig 1: 0-20% Centrality"
 location: Data from Table 1 of PHOBOS paper Inspire ID 621495
 description: Charged hadron invariant yield versus $p_T$ for 4 centrality bins.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: Fig1.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
