@@ -15,13 +15,13 @@ independent_variables:
 dependent_variables:
 - header: { name: "$\\frac{dN}{d\\eta}$ (for $0<\\eta<1$)" }
   values:
-    - { value: 2.793, errors: [{ label: "stat", symerror: 0.32 }] }
-    - { value: 2.872, errors: [{ label: "stat", symerror: 0.32 }] }
-    - { value: 2.944, errors: [{ label: "stat", symerror: 0.32 }] }
-    - { value: 2.956, errors: [{ label: "stat", symerror: 0.32 }] }
-    - { value: 2.971, errors: [{ label: "stat", symerror: 0.32 }] }
-    - { value: 2.990, errors: [{ label: "stat", symerror: 0.32 }] }
-    - { value: 3.102, errors: [{ label: "stat", symerror: 0.33 }] }
-    - { value: 3.203, errors: [{ label: "stat", symerror: 0.33 }] }
-    - { value: 3.186, errors: [{ label: "stat", symerror: 0.34 }] }
-    - { value: 3.216, errors: [{ label: "stat", symerror: 0.34 }] }
+    - { value: 2.793, errors: [{ label: "sys", symerror: 0.32 }] }
+    - { value: 2.872, errors: [{ label: "sys", symerror: 0.32 }] }
+    - { value: 2.944, errors: [{ label: "sys", symerror: 0.32 }] }
+    - { value: 2.956, errors: [{ label: "sys", symerror: 0.32 }] }
+    - { value: 2.971, errors: [{ label: "sys", symerror: 0.32 }] }
+    - { value: 2.990, errors: [{ label: "sys", symerror: 0.32 }] }
+    - { value: 3.102, errors: [{ label: "sys", symerror: 0.33 }] }
+    - { value: 3.203, errors: [{ label: "sys", symerror: 0.33 }] }
+    - { value: 3.186, errors: [{ label: "sys", symerror: 0.34 }] }
+    - { value: 3.216, errors: [{ label: "sys", symerror: 0.34 }] }

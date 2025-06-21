@@ -11,7 +11,7 @@ comment: |
   The charged-particle pseudorapidity density $dN_{ch}/d\eta$ has been measured for Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV at RHIC, using the PHOBOS apparatus.  The total number of charged particles produced for the \% most central Au+Au collisions for $|\eta|\leq$5.4 is found to be 4200$\pm$470.  The evolution of $dN_{ch}/d\eta$ with centrality is discussed, and compared to model calculations and to data from proton-induced collisions. The data show an enhancement in charged-particle production at mid-rapidity, while in the fragmentation regions, the results are consistent with expectations from $pp$ and $pA$ scattering.
 ---
 # This is data for the 0-6% centrality bin
-name: "Centrality 0-6%"
+name: "$dN_{ch}/d\\eta$ Centrality 0-6%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 0-6% centrality bin, as defined by different fractions of the total observed cross section.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -27,7 +27,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 6-15% centrality bin
-name: "Centrality 6-15%"
+name: "$dN_{ch}/d\\eta$ Centrality 6-15%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 6-15% centrality bin, as defined by different fractions of the total observed cross section.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -44,7 +44,7 @@ additional_resources:
 
 ---
 # This is data for the 15-25% centrality bin
-name: "Centrality 15-25%"
+name: "$dN_{ch}/d\\eta$ Centrality 15-25%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 15-25% centrality bin, as defined by different fractions of the total observed cross section.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -60,7 +60,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 25-35% centrality bin
-name: "Centrality 25-35%"
+name: "$dN_{ch}/d\\eta$ Centrality 25-35%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 25-35% centrality bin, as defined by different fractions of the total observed cross section.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -76,7 +76,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 35-45% centrality bin
-name: "Centrality 35-45%"
+name: "$dN_{ch}/d\\eta$ Centrality 35-45%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 35-45% centrality bin, as defined by different fractions of the total observed cross section.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -92,7 +92,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 45-55% centrality bin
-name: "Centrality 45-55%"
+name: "$dN_{ch}/d\\eta$ Centrality 45-55%"
 location: Data from figure 1
 description: Charged-particle pseudorapidity density $dN_{ch}/d\eta$ from $\sqrt{s_{NN}}$=130 GeV Au+Au collisions, for the 45-55% centrality bin, as defined by different fractions of the total observed cross section.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -108,7 +108,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 --- 
 # This is data for the 0-6% centrality bin for particle production
-name: "Centrality 0-6% Per Participant"
+name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 0-6%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 0-6% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -124,7 +124,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 6-15% centrality bin for particle production
-name: "Centrality 6-15 Per Participant%"
+name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 6-15%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 6-15% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -140,7 +140,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 15-25% centrality bin for particle production
-name: "Centrality 15-25 Per Participant%"
+name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 15-25%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 15-25% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -156,7 +156,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 25-35% centrality bin for particle production
-name: "Centrality 25-35 Per Participant%"
+name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 25-35%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 25-35% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -172,7 +172,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 35-45% centrality bin for particle production
-name: "Centrality 35-45 Per Participant%"
+name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 35-45%"
 location: Data from figure 1
 description: The number of participants $<N_{part}>$ for 35-45% centrality bin.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -188,7 +188,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 0 to 1 for particle production
-name: "$0<\\eta<1$"
+name: "$dN_{ch}/d\\eta$ $0<\\eta<1$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$. 
 keywords: # used for searching, possibly multiple values for each keyword
@@ -204,7 +204,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 2 to 2.4 for particle production
-name: "$2<\\eta<2.4$"
+name: "$dN_{ch}/d\\eta$ $2<\\eta<2.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -220,7 +220,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 3 to 3.4 for particle production
-name: "$3<\\eta<3.4$"
+name: "$dN_{ch}/d\\eta$ $3<\\eta<3.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -236,7 +236,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 4 to 4.4 for particle production
-name: "$4<\\eta<4.4$"
+name: "$dN_{ch}/d\\eta$ $4<\\eta<4.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -252,7 +252,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 5 to 5.4 for particle production
-name: "$5<\\eta<5.4$"
+name: "$dN_{ch}/d\\eta$ $5<\\eta<5.4$"
 location: Data from figure 2
 description:  Centrality dependence of $dN_{ch}/d\eta$ for different ranges of $|\eta|$.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -268,7 +268,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2 
-name: "Estimated data from HIJING model"
+name: "HIJING"
 location: Data from figure 2
 description: HIJING model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
 keywords: # used for searching, possibly multiple values for each keyword
@@ -284,7 +284,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2
-name: "Estimated data from AMPT model"
+name: "AMPT"
 location: Data from figure 2
 description: AMPT model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
 keywords: # used for searching, possibly multiple values for each keyword
@@ -300,7 +300,7 @@ additional_resources:
 - {description: Link to Text data files from PHOBOS paper Inspire ID 557848 , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2
-name: "Estimated data from LUCIFER model"
+name: "LUCIFER"
 location: Data from figure 2
 description: LUCIFER model prediction for $dN_{ch}/d\eta$ in central Au+Au collisions at  GeV
 keywords: # used for searching, possibly multiple values for each keyword
