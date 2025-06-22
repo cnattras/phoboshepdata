@@ -9,9 +9,6 @@ independent_variables:
 dependent_variables:
   - header: {name: '$\frac{1}{2\pi p_T N_{ev}}$ $\frac{d2}{\text{GeV}^2}$'}
     qualifiers:
-      - {name: 'Particle Type', value: '$p$ + $\bar{p}$'}
-      - {name: 'Collision System', value: 'Au+Au'}
-      - {name: 'Energy', value: '$\sqrt{s_{NN}}=200$ GeV'}
       - {name: 'Centrality', value: 'Top 15%'}
     values:
       - value: 7.518
