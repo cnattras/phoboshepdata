@@ -6,7 +6,7 @@
 
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/557848", description: "InspireHEP ID: 557848"}
-- {location: "https://arxiv.org/pdf/nucl-ex/102303", description: "arXiv ID: nucl-ex/102303"}
+- {location: "https://arxiv.org/pdf/nucl-ex/0106006", description: "arXiv ID: nucl-ex/0106006"}
 comment: |
   The charged-particle pseudorapidity density $dN_{ch}/d\eta$ has been measured for Au+Au collisions at $\sqrt{s_{NN}}$=130 GeV at RHIC, using the PHOBOS apparatus.  The total number of charged particles produced for the \% most central Au+Au collisions for $|\eta|\leq$5.4 is found to be 4200$\pm$470.  The evolution of $dN_{ch}/d\eta$ with centrality is discussed, and compared to model calculations and to data from proton-induced collisions. The data show an enhancement in charged-particle production at mid-rapidity, while in the fragmentation regions, the results are consistent with expectations from $pp$ and $pA$ scattering.
 ---
