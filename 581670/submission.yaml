@@ -25,6 +25,8 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: cmenergies
   values: [130]
 data_file: table2.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_figure2.png}
 ---
 name: "200 GeV / 130 GeV Ratios" 
 location: Data from Table 1 of PHOBOS paper Inspire ID 581670
@@ -39,7 +41,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: table3.yaml
 additional_resources: 
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Thumbnail Image file, location: thumb_figure2.png}
 ---
 # 200 GeV Au+Au data
 name: "200 GeV Au+Au"
@@ -53,3 +54,5 @@ keywords: # used for searching, possibly multiple values for each keyword
 - name: cmenergies
   values: [200]
 data_file: table1.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_figure2.png}
