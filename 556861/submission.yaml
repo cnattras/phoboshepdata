@@ -6,7 +6,7 @@ additional_resources: # additional references (e.g. experiment TWiki page for an
 - {location: "https://inspirehep.net/literature/556861", description: "InspireHEP ID: 556861"}
 - {location: "https://arxiv.org/abs/nucl-ex/0105011", description: "arXiv ID: nucl-ex/0105011"}
 comment: |
-  We present a measurement of the pseudorapidity density of primary charged particles near mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}} =$ 130 GeV as a function of the number of participating nucleons.  These results are compared to models in an attempt to discriminate between competing scenarios of particle production in heavy ion collisions.
+  BNL-RHIC. We present a measurement of the pseudorapidity density of primary charged particles near mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}} =$ 130 GeV as a function of the number of participating nucleons.  These results are compared to models in an attempt to discriminate between competing scenarios of particle production in heavy ion collisions.
 ---
 data_file: Table.yaml
 description: For each measured centrality bin, based on percentile of the total cross-section, we show $dNch/d\eta|_{|\eta|<1}$, the number of participants, and the final result for $dNch/d\eta|_{|\eta|<1}/( \frac{1}{2}\langle N_{part}\rangle )$, including the full error estimation.

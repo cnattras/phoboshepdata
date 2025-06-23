@@ -7,7 +7,7 @@
 
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/784449", description: "InspireHEP ID: 784449"}
-comment: The PHOBOS experiment at RHIC has the unique capability of measuring particle production at very low transverse momenta. New results on low-transverse momentum invariant yields of $\pi^{\pm}$, $K^{\pm}$, and $(p + \bar{p})$ in 200 GeV Au+Au collisions are presented as a function of the collision centrality for the 50% most central events. In contrast to the results from d+Au collisions, no $m_T$ scaling is observed in the very low $p_T$ region. The low transverse momentum yields agree with extrapolations from intermediate transverse momentum measurements. For all collision centralities, a flattening of the transverse momentum spectra is observed, consistent with a rapid transverse expansion of the system.
+comment: BNL-RHIC. The PHOBOS experiment at RHIC has the unique capability of measuring particle production at very low transverse momenta. New results on low-transverse momentum invariant yields of $\pi^{\pm}$, $K^{\pm}$, and $(p + \bar{p})$ in 200 GeV Au+Au collisions are presented as a function of the collision centrality for the 50% most central events. In contrast to the results from d+Au collisions, no $m_T$ scaling is observed in the very low $p_T$ region. The low transverse momentum yields agree with extrapolations from intermediate transverse momentum measurements. For all collision centralities, a flattening of the transverse momentum spectra is observed, consistent with a rapid transverse expansion of the system.
 ---
 # Start of table entries.
 # This is Table 1.
