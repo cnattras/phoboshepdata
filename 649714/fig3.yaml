@@ -5601,7 +5601,7 @@ dependent_variables:
     - symerror: 0.645
       label: 'sys: pt-to-pt'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '62.4 GeV'
@@ -5772,7 +5772,7 @@ dependent_variables:
       label: 'sys'
   - value: 0.0
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '62.4 GeV'
@@ -5948,7 +5948,7 @@ dependent_variables:
     - symerror: 0.15
       label: 'sys'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '62.4 GeV'
@@ -6124,7 +6124,7 @@ dependent_variables:
     - symerror: 0.12
       label: 'sys'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '62.4 GeV'
@@ -6300,7 +6300,7 @@ dependent_variables:
     - symerror: 0.06
       label: 'sys'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '62.4 GeV'
@@ -6476,7 +6476,7 @@ dependent_variables:
     - symerror: 0.034
       label: 'sys'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '62.4 GeV'
@@ -6596,12 +6596,12 @@ dependent_variables:
     - symerror: 0.12
       label: 'stat'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '200 Gev'
   - name: 'Centrality'
-    value: "'45-50%'"
+    value: '45-50%'
   values:
   - value: 0.9036
     errors:
@@ -6716,7 +6716,7 @@ dependent_variables:
     - symerror: 0.16
       label: 'stat'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '200 Gev'
@@ -6836,7 +6836,7 @@ dependent_variables:
     - symerror: 0.1
       label: 'stat'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '200 Gev'
@@ -6956,7 +6956,7 @@ dependent_variables:
     - symerror: 0.08
       label: 'stat'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '200 Gev'
@@ -7076,7 +7076,7 @@ dependent_variables:
     - symerror: 0.07
       label: 'stat'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '200 Gev'
@@ -7196,12 +7196,12 @@ dependent_variables:
     - symerror: 0.06
       label: 'stat'
 - header:
-    name: $R_{PC}^{\langle{N_{\text{part}}\rangle}}$
+    name: '$R_{PC}^{\langle{N_{\text{part}}\rangle}}$'
   qualifiers:
   - name: '$\sqrt{s_{NN}}$'
     value: '200 Gev'
   - name: 'Centrality'
-    value: "'0-6%'"
+    value: '0-6%'
   values:
   - value: 0.9977
     errors:
