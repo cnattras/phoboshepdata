@@ -11,7 +11,12 @@ comment: |
 data_file: table.yaml
 description:  Minimum-bias pseudorapidity distribution data of PHOBOS experiment in d + Au collisions at 200 GeV 
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 name: $dN/d\eta$ data 
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
