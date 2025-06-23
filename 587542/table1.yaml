@@ -11,13 +11,12 @@ independent_variables:
       - {value: 269.649}
       - {value: 337.943}
 dependent_variables:
-  - header: {name: '$v^2$'}
-    values:
-      - {value: 0.058, errors: [{label: stat, symerror: 0.0355}, {label: syst, asymerror: {plus: 0.024264, minus: 0.023383}}]}
-      - {value: 0.0697, errors: [{label: stat, symerror: 0.0128}, {label: syst, asymerror: {plus: 0.00523, minus: 0.00499}}]}
-      - {value: 0.0604, errors: [{label: stat, symerror: 0.0075}, {label: syst, asymerror: {plus: 0.005209, minus: 0.005038}}]}
-      - {value: 0.056, errors: [{label: stat, symerror: 0.0054}, {label: syst, asymerror: {plus: 0.00368, minus: 0.004928}}]}
-      - {value: 0.0489, errors: [{label: stat, symerror: 0.0046}, {label: syst, asymerror: {plus: 0.003257, minus: 0.004638}}]}
-      - {value: 0.0376, errors: [{label: stat, symerror: 0.0044}, {label: syst, asymerror: {plus: 0.004381, minus: 0.011263}}]}
-      - {value: 0.0257, errors: [{label: stat, symerror: 0.0044}, {label: syst, asymerror: {plus: 0.003115, minus: 0.018946}}]}
-
+- header: { name: '$v^2$' }
+  values:
+    - { value: 0.058, errors: [{ label: stat, symerror: 0.036 }, { label: syst, asymerror: { plus: 0.024, minus: 0.023 } }] }
+    - { value: 0.0697, errors: [{ label: stat, symerror: 0.0128 }, { label: syst, asymerror: { plus: 0.0052, minus: 0.0050 } }] }
+    - { value: 0.0604, errors: [{ label: stat, symerror: 0.0075 }, { label: syst, asymerror: { plus: 0.0052, minus: 0.0050 } }] }
+    - { value: 0.056, errors: [{ label: stat, symerror: 0.0054 }, { label: syst, asymerror: { plus: 0.0037, minus: 0.0049 } }] }
+    - { value: 0.0489, errors: [{ label: stat, symerror: 0.0046 }, { label: syst, asymerror: { plus: 0.0033, minus: 0.0046 } }] }
+    - { value: 0.0376, errors: [{ label: stat, symerror: 0.0044 }, { label: syst, asymerror: { plus: 0.0044, minus: 0.011 } }] }
+    - { value: 0.0257, errors: [{ label: stat, symerror: 0.0044 }, { label: syst, asymerror: { plus: 0.0031, minus: 0.019 } }] }

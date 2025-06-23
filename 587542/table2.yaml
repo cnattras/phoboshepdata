@@ -19,19 +19,19 @@ independent_variables:
       - {value: 4.22}
       - {value: 5.0}
 dependent_variables:
-  - header: {name: '$v^2$'}
-    values:
-      - {value: 0.0113, errors: [{label: stat, symerror: 0.004}, {label: syst, asymerror: {plus: 0.004038, minus: 0.0113}}]}
-      - {value: 0.0229, errors: [{label: stat, symerror: 0.0036}, {label: syst, asymerror: {plus: 0.003876, minus: 0.003857}}]}
-      - {value: 0.0251, errors: [{label: stat, symerror: 0.0031}, {label: syst, asymerror: {plus: 0.003374, minus: 0.003232}}]}
-      - {value: 0.0339, errors: [{label: stat, symerror: 0.0026}, {label: syst, asymerror: {plus: 0.003856, minus: 0.003729}}]}
-      - {value: 0.0385, errors: [{label: stat, symerror: 0.0026}, {label: syst, asymerror: {plus: 0.003494, minus: 0.003306}}]}
-      - {value: 0.042, errors: [{label: stat, symerror: 0.0029}, {label: syst, asymerror: {plus: 0.003806, minus: 0.003748}}]}
-      - {value: 0.047, errors: [{label: stat, symerror: 0.004}, {label: syst, asymerror: {plus: 0.004232, minus: 0.004362}}]}
-      - {value: 0.0466, errors: [{label: stat, symerror: 0.0034}, {label: syst, asymerror: {plus: 0.0039, minus: 0.003797}}]}
-      - {value: 0.0424, errors: [{label: stat, symerror: 0.0029}, {label: syst, asymerror: {plus: 0.003656, minus: 0.003545}}]}
-      - {value: 0.0391, errors: [{label: stat, symerror: 0.003}, {label: syst, asymerror: {plus: 0.004044, minus: 0.003925}}]}
-      - {value: 0.0354, errors: [{label: stat, symerror: 0.0026}, {label: syst, asymerror: {plus: 0.003626, minus: 0.003594}}]}
-      - {value: 0.0258, errors: [{label: stat, symerror: 0.003}, {label: syst, asymerror: {plus: 0.006012, minus: 0.007992}}]}
-      - {value: 0.0224, errors: [{label: stat, symerror: 0.0035}, {label: syst, asymerror: {plus: 0.006004, minus: 0.009016}}]}
-      - {value: 0.0168, errors: [{label: stat, symerror: 0.0106}, {label: syst, asymerror: {plus: 0.009801, minus: 0.01698}}]}
+- header: { name: '$v^2$' }
+  values:
+    - { value: 0.0113, errors: [{ label: stat, symerror: 0.0040 }, { label: syst, asymerror: { plus: 0.0040, minus: 0.011 } }] }
+    - { value: 0.0229, errors: [{ label: stat, symerror: 0.0036 }, { label: syst, asymerror: { plus: 0.0039, minus: 0.0039 } }] }
+    - { value: 0.0251, errors: [{ label: stat, symerror: 0.0031 }, { label: syst, asymerror: { plus: 0.0034, minus: 0.0032 } }] }
+    - { value: 0.0339, errors: [{ label: stat, symerror: 0.0026 }, { label: syst, asymerror: { plus: 0.0039, minus: 0.0037 } }] }
+    - { value: 0.0385, errors: [{ label: stat, symerror: 0.0026 }, { label: syst, asymerror: { plus: 0.0035, minus: 0.0033 } }] }
+    - { value: 0.0420, errors: [{ label: stat, symerror: 0.0029 }, { label: syst, asymerror: { plus: 0.0038, minus: 0.0037 } }] }
+    - { value: 0.0470, errors: [{ label: stat, symerror: 0.0040 }, { label: syst, asymerror: { plus: 0.0042, minus: 0.0044 } }] }
+    - { value: 0.0466, errors: [{ label: stat, symerror: 0.0034 }, { label: syst, asymerror: { plus: 0.0039, minus: 0.0038 } }] }
+    - { value: 0.0424, errors: [{ label: stat, symerror: 0.0029 }, { label: syst, asymerror: { plus: 0.0037, minus: 0.0035 } }] }
+    - { value: 0.0391, errors: [{ label: stat, symerror: 0.0030 }, { label: syst, asymerror: { plus: 0.0040, minus: 0.0039 } }] }
+    - { value: 0.0354, errors: [{ label: stat, symerror: 0.0026 }, { label: syst, asymerror: { plus: 0.0036, minus: 0.0036 } }] }
+    - { value: 0.0258, errors: [{ label: stat, symerror: 0.0030 }, { label: syst, asymerror: { plus: 0.0060, minus: 0.0080 } }] }
+    - { value: 0.0224, errors: [{ label: stat, symerror: 0.0035 }, { label: syst, asymerror: { plus: 0.0060, minus: 0.0090 } }] }
+    - { value: 0.0168, errors: [{ label: stat, symerror: 0.011 }, { label: syst, asymerror: { plus: 0.0098, minus: 0.017 } }] }
