@@ -8,7 +8,9 @@ independent_variables:
       - {value: 'dAPeriph'}
       - {value: 'dAPeriph'}
 dependent_variables:
-  - header: {name: 'Centrality %'}
+  - header: {name: '%'}
+    qualifiers:
+      - name: 'Centrality'
     values:
       - value: '60-100'
       - value: '30-60'
