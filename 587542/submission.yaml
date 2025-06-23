@@ -25,7 +25,7 @@ data_file: table1.yaml
 additional_resources:
 - {description: Thumbnail image file, location: thumb_figure3.png }
 ---
-name: "Figure 4 Flow versus Npart"
+name: "Figure 4: Flow versus $\\langleN_{\\text{part}}\\rangle$"
 location: Data from figure 4
 description: This is flow versus $N_{\text{part}}$.
 keywords: # used for searching, possibly multiple values for each keyword
