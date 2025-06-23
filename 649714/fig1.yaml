@@ -34,527 +34,527 @@ dependent_variables:
     qualifiers:
       - {name: 'Centrality', value: '45-50'}
     values:
-      - value: 37.97333908
+      - value: 37.97
         errors:
-          - {symerror: 0.15868576, label: 'stat'}
-      - value: 22.38726616
+          - {symerror: 0.16, label: 'stat'}
+      - value: 22.39
         errors:
-          - {symerror: 0.09905967, label: 'stat'}
-      - value: 13.54705429
+          - {symerror: 0.10, label: 'stat'}
+      - value: 13.55
         errors:
-          - {symerror: 0.06714943, label: 'stat'}
-      - value: 8.48234844
+          - {symerror: 0.07, label: 'stat'}
+      - value: 8.48
         errors:
-          - {symerror: 0.04833816, label: 'stat'}
-      - value: 5.40634060
+          - {symerror: 0.05, label: 'stat'}
+      - value: 5.41
         errors:
-          - {symerror: 0.03582086, label: 'stat'}
-      - value: 3.52887106
+          - {symerror: 0.04, label: 'stat'}
+      - value: 3.53
         errors:
-          - {symerror: 0.02105935, label: 'stat'}
-      - value: 2.32594204
+          - {symerror: 0.02, label: 'stat'}
+      - value: 2.33
         errors:
-          - {symerror: 0.01608965, label: 'stat'}
-      - value: 1.51575136
+          - {symerror: 0.02, label: 'stat'}
+      - value: 1.52
         errors:
-          - {symerror: 0.01231871, label: 'stat'}
-      - value: 1.04961646
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.05
         errors:
-          - {symerror: 0.00979283, label: 'stat'}
-      - value: 0.71898139
+          - {symerror: 0.01, label: 'stat'}
+      - value: 0.719
         errors:
-          - {symerror: 0.00776835, label: 'stat'}
-      - value: 0.48909822
+          - {symerror: 0.0078, label: 'stat'}
+      - value: 0.489
         errors:
-          - {symerror: 0.00615522, label: 'stat'}
-      - value: 0.33623385
+          - {symerror: 0.0062, label: 'stat'}
+      - value: 0.336
         errors:
-          - {symerror: 0.00492337, label: 'stat'}
-      - value: 0.23335782
+          - {symerror: 0.0049, label: 'stat'}
+      - value: 0.233
         errors:
-          - {symerror: 0.00396434, label: 'stat'}
-      - value: 0.16381249
+          - {symerror: 0.0040, label: 'stat'}
+      - value: 0.164
         errors:
-          - {symerror: 0.00320831, label: 'stat'}
-      - value: 0.11828453
+          - {symerror: 0.0032, label: 'stat'}
+      - value: 0.118
         errors:
-          - {symerror: 0.00263441, label: 'stat'}
-      - value: 0.07941577
+          - {symerror: 0.0026, label: 'stat'}
+      - value: 0.0794
         errors:
-          - {symerror: 0.00208844, label: 'stat'}
-      - value: 0.05609318
+          - {symerror: 0.0021, label: 'stat'}
+      - value: 0.0561
         errors:
-          - {symerror: 0.00170450, label: 'stat'}
-      - value: 0.04121767
+          - {symerror: 0.0017, label: 'stat'}
+      - value: 0.0412
         errors:
-          - {symerror: 0.00141375, label: 'stat'}
-      - value: 0.02436018
+          - {symerror: 0.0014, label: 'stat'}
+      - value: 0.0244
         errors:
-          - {symerror: 0.00074057, label: 'stat'}
-      - value: 0.01268039
+          - {symerror: 0.0007, label: 'stat'}
+      - value: 0.0127
         errors:
-          - {symerror: 0.00051553, label: 'stat'}
-      - value: 0.00726667
+          - {symerror: 0.0005, label: 'stat'}
+      - value: 0.00727
         errors:
-          - {symerror: 0.00037425, label: 'stat'}
-      - value: 0.00430462
+          - {symerror: 0.00037, label: 'stat'}
+      - value: 0.00430
         errors:
-          - {symerror: 0.00027728, label: 'stat'}
-      - value: 0.00176223
+          - {symerror: 0.00028, label: 'stat'}
+      - value: 0.00176
         errors:
-          - {symerror: 0.00017116, label: 'stat'}
-      - value: 0.00109373
+          - {symerror: 0.00017, label: 'stat'}
+      - value: 0.00109
         errors:
-          - {symerror: 0.00011465, label: 'stat'}
-      - value: 0.00045720
+          - {symerror: 0.00011, label: 'stat'}
+      - value: 0.000457
         errors:
-          - {symerror: 0.00007728, label: 'stat'}
-      - value: 0.00023468
+          - {symerror: 0.000077, label: 'stat'}
+      - value: 0.000235
         errors:
-          - {symerror: 0.00005121, label: 'stat'}
-      - value: 0.00010783
+          - {symerror: 0.000051, label: 'stat'}
+      - value: 0.000108
         errors:
-          - {symerror: 0.00003410, label: 'stat'}
-      - value: 0.00008450
+          - {symerror: 0.000034, label: 'stat'}
+      - value: 0.0000845
         errors:
-          - {symerror: 0.00002049, label: 'stat'}
+          - {symerror: 0.0000205, label: 'stat'}
   - header: {name: 'Yield'}
     qualifiers:
-      - {name: 'Centrality', value: '35-45'}
+    - {name: 'Centrality', value: '35-45'}
     values:
-      - value: 51.81375122
-        errors:
-          - {symerror: 0.12489194, label: 'stat'}
-      - value: 30.70126534
-        errors:
-          - {symerror: 0.07833765, label: 'stat'}
-      - value: 18.53159523
-        errors:
-          - {symerror: 0.05299979, label: 'stat'}
-      - value: 11.64598083
-        errors:
-          - {symerror: 0.03826487, label: 'stat'}
-      - value: 7.52334881
-        errors:
-          - {symerror: 0.02857719, label: 'stat'}
-      - value: 4.87542868
-        errors:
-          - {symerror: 0.01670726, label: 'stat'}
-      - value: 3.27984238
-        errors:
-          - {symerror: 0.01290926, label: 'stat'}
-      - value: 2.20615220
-        errors:
-          - {symerror: 0.01004864, label: 'stat'}
-      - value: 1.49759603
-        errors:
-          - {symerror: 0.00790071, label: 'stat'}
-      - value: 1.03011930
-        errors:
-          - {symerror: 0.00627480, label: 'stat'}
-      - value: 0.71098685
-        errors:
-          - {symerror: 0.00501554, label: 'stat'}
-      - value: 0.49283326
-        errors:
-          - {symerror: 0.00402800, label: 'stat'}
-      - value: 0.34366316
-        errors:
-          - {symerror: 0.00324471, label: 'stat'}
-      - value: 0.23979984
-        errors:
-          - {symerror: 0.00262646, label: 'stat'}
-      - value: 0.17313948
-        errors:
-          - {symerror: 0.00215500, label: 'stat'}
-      - value: 0.11605020
-        errors:
-          - {symerror: 0.00171181, label: 'stat'}
-      - value: 0.08454742
-        errors:
-          - {symerror: 0.00141227, label: 'stat'}
-      - value: 0.05834111
-        errors:
-          - {symerror: 0.00113849, label: 'stat'}
-      - value: 0.03643947
-        errors:
-          - {symerror: 0.00061771, label: 'stat'}
-      - value: 0.01919734
-        errors:
-          - {symerror: 0.00042671, label: 'stat'}
-      - value: 0.01002752
-        errors:
-          - {symerror: 0.00029738, label: 'stat'}
-      - value: 0.00525158
-        errors:
-          - {symerror: 0.00020742, label: 'stat'}
-      - value: 0.00293969
-        errors:
-          - {symerror: 0.00015002, label: 'stat'}
-      - value: 0.00139296
-        errors:
-          - {symerror: 0.00008810, label: 'stat'}
-      - value: 0.00076069
-        errors:
-          - {symerror: 0.00006339, label: 'stat'}
-      - value: 0.00029306
-        errors:
-          - {symerror: 0.00003815, label: 'stat'}
-      - value: 0.00016069
-        errors:
-          - {symerror: 0.00002716, label: 'stat'}
-      - value: 0.00008654
-        errors:
-          - {symerror: 0.00001368, label: 'stat'}
+    - value: 51.81
+      errors:
+        - {symerror: 0.12, label: 'stat'}
+    - value: 30.70
+      errors:
+        - {symerror: 0.08, label: 'stat'}
+    - value: 18.53
+      errors:
+        - {symerror: 0.05, label: 'stat'}
+    - value: 11.65
+      errors:
+        - {symerror: 0.04, label: 'stat'}
+    - value: 7.52
+      errors:
+        - {symerror: 0.03, label: 'stat'}
+    - value: 4.88
+      errors:
+        - {symerror: 0.02, label: 'stat'}
+    - value: 3.28
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 2.21
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 1.50
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 1.03
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 0.711
+      errors:
+        - {symerror: 0.0050, label: 'stat'}
+    - value: 0.493
+      errors:
+        - {symerror: 0.0040, label: 'stat'}
+    - value: 0.344
+      errors:
+        - {symerror: 0.0032, label: 'stat'}
+    - value: 0.240
+      errors:
+        - {symerror: 0.0026, label: 'stat'}
+    - value: 0.173
+      errors:
+        - {symerror: 0.0022, label: 'stat'}
+    - value: 0.116
+      errors:
+        - {symerror: 0.0017, label: 'stat'}
+    - value: 0.0845
+      errors:
+        - {symerror: 0.0014, label: 'stat'}
+    - value: 0.0583
+      errors:
+        - {symerror: 0.0011, label: 'stat'}
+    - value: 0.0364
+      errors:
+        - {symerror: 0.0006, label: 'stat'}
+    - value: 0.0192
+      errors:
+        - {symerror: 0.0004, label: 'stat'}
+    - value: 0.0100
+      errors:
+        - {symerror: 0.0003, label: 'stat'}
+    - value: 0.00525
+      errors:
+        - {symerror: 0.00021, label: 'stat'}
+    - value: 0.00294
+      errors:
+        - {symerror: 0.00015, label: 'stat'}
+    - value: 0.00139
+      errors:
+        - {symerror: 0.000088, label: 'stat'}
+    - value: 0.000761
+      errors:
+        - {symerror: 0.000063, label: 'stat'}
+    - value: 0.000293
+      errors:
+        - {symerror: 0.000038, label: 'stat'}
+    - value: 0.000161
+      errors:
+        - {symerror: 0.000027, label: 'stat'}
+    - value: 0.0000865
+      errors:
+        - {symerror: 0.0000137, label: 'stat'}
   - header: {name: 'Yield'}
     qualifiers:
-      - {name: 'Centrality', value: '25-35'}
+    - {name: 'Centrality', value: '25-35'}
     values:
-      - value: 78.26253510
-        errors:
-          - {symerror: 0.15127270, label: 'stat'}
-      - value: 46.73687363
-        errors:
-          - {symerror: 0.09517843, label: 'stat'}
-      - value: 28.38619423
-        errors:
-          - {symerror: 0.06461478, label: 'stat'}
-      - value: 17.99942017
-        errors:
-          - {symerror: 0.04686984, label: 'stat'}
-      - value: 11.77289677
-        errors:
-          - {symerror: 0.03525546, label: 'stat'}
-      - value: 7.62607384
-        errors:
-          - {symerror: 0.02060371, label: 'stat'}
-      - value: 5.10729504
-        errors:
-          - {symerror: 0.01588524, label: 'stat'}
-      - value: 3.50508857
-        errors:
-          - {symerror: 0.01247647, label: 'stat'}
-      - value: 2.40249062
-        errors:
-          - {symerror: 0.00986053, label: 'stat'}
-      - value: 1.65264368
-        errors:
-          - {symerror: 0.00784248, label: 'stat'}
-      - value: 1.14683652
-        errors:
-          - {symerror: 0.00628019, label: 'stat'}
-      - value: 0.80248076
-        errors:
-          - {symerror: 0.00506754, label: 'stat'}
-      - value: 0.55336499
-        errors:
-          - {symerror: 0.00406480, label: 'stat'}
-      - value: 0.39413610
-        errors:
-          - {symerror: 0.00331183, label: 'stat'}
-      - value: 0.27793196
-        errors:
-          - {symerror: 0.00269039, label: 'stat'}
-      - value: 0.19676703
-        errors:
-          - {symerror: 0.00219704, label: 'stat'}
-      - value: 0.13921486
-        errors:
-          - {symerror: 0.00178745, label: 'stat'}
-      - value: 0.09852034
-        errors:
-          - {symerror: 0.00146104, label: 'stat'}
-      - value: 0.06003074
-        errors:
-          - {symerror: 0.00077883, label: 'stat'}
-      - value: 0.03093609
-        errors:
-          - {symerror: 0.00053602, label: 'stat'}
-      - value: 0.01707578
-        errors:
-          - {symerror: 0.00038269, label: 'stat'}
-      - value: 0.00831866
-        errors:
-          - {symerror: 0.00025635, label: 'stat'}
-      - value: 0.00457483
-        errors:
-          - {symerror: 0.00018285, label: 'stat'}
-      - value: 0.00244319
-        errors:
-          - {symerror: 0.00011674, label: 'stat'}
-      - value: 0.00110828
-        errors:
-          - {symerror: 0.00007576, label: 'stat'}
-      - value: 0.00047122
-        errors:
-          - {symerror: 0.00004809, label: 'stat'}
-      - value: 0.00031100
-        errors:
-          - {symerror: 0.00003799, label: 'stat'}
-      - value: 0.00012271
-        errors:
-          - {symerror: 0.00001625, label: 'stat'}
+    - value: 78.26
+      errors:
+        - {symerror: 0.15, label: 'stat'}
+    - value: 46.74
+      errors:
+        - {symerror: 0.10, label: 'stat'}
+    - value: 28.39
+      errors:
+        - {symerror: 0.06, label: 'stat'}
+    - value: 18.00
+      errors:
+        - {symerror: 0.05, label: 'stat'}
+    - value: 11.77
+      errors:
+        - {symerror: 0.04, label: 'stat'}
+    - value: 7.63
+      errors:
+        - {symerror: 0.02, label: 'stat'}
+    - value: 5.11
+      errors:
+        - {symerror: 0.02, label: 'stat'}
+    - value: 3.51
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 2.40
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 1.65
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 1.15
+      errors:
+        - {symerror: 0.01, label: 'stat'}
+    - value: 0.802
+      errors:
+        - {symerror: 0.0051, label: 'stat'}
+    - value: 0.553
+      errors:
+        - {symerror: 0.0041, label: 'stat'}
+    - value: 0.394
+      errors:
+        - {symerror: 0.0033, label: 'stat'}
+    - value: 0.278
+      errors:
+        - {symerror: 0.0027, label: 'stat'}
+    - value: 0.197
+      errors:
+        - {symerror: 0.0022, label: 'stat'}
+    - value: 0.139
+      errors:
+        - {symerror: 0.0018, label: 'stat'}
+    - value: 0.0985
+      errors:
+        - {symerror: 0.0015, label: 'stat'}
+    - value: 0.0600
+      errors:
+        - {symerror: 0.0008, label: 'stat'}
+    - value: 0.0309
+      errors:
+        - {symerror: 0.0005, label: 'stat'}
+    - value: 0.0171
+      errors:
+        - {symerror: 0.0004, label: 'stat'}
+    - value: 0.00832
+      errors:
+        - {symerror: 0.00026, label: 'stat'}
+    - value: 0.00457
+      errors:
+        - {symerror: 0.00018, label: 'stat'}
+    - value: 0.00244
+      errors:
+        - {symerror: 0.00012, label: 'stat'}
+    - value: 0.00111
+      errors:
+        - {symerror: 0.000076, label: 'stat'}
+    - value: 0.000471
+      errors:
+        - {symerror: 0.000048, label: 'stat'}
+    - value: 0.000311
+      errors:
+        - {symerror: 0.000038, label: 'stat'}
+    - value: 0.000123
+      errors:
+        - {symerror: 0.000016, label: 'stat'}
   - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '15-25'}
     values:
-      - value: 116.03291321
+      - value: 116.03
         errors:
-          - {symerror: 0.18596664, label: 'stat'}
-      - value: 69.72810364
+          - {symerror: 0.19, label: 'stat'}
+      - value: 69.73
         errors:
-          - {symerror: 0.11734813, label: 'stat'}
-      - value: 42.87524796
+          - {symerror: 0.12, label: 'stat'}
+      - value: 42.88
         errors:
-          - {symerror: 0.08019993, label: 'stat'}
-      - value: 27.17919159
+          - {symerror: 0.08, label: 'stat'}
+      - value: 27.18
         errors:
-          - {symerror: 0.05813056, label: 'stat'}
-      - value: 17.83693314
+          - {symerror: 0.06, label: 'stat'}
+      - value: 17.84
         errors:
-          - {symerror: 0.04379235, label: 'stat'}
-      - value: 11.68612003
+          - {symerror: 0.04, label: 'stat'}
+      - value: 11.69
         errors:
-          - {symerror: 0.02574391, label: 'stat'}
-      - value: 7.92115021
+          - {symerror: 0.03, label: 'stat'}
+      - value: 7.92
         errors:
-          - {symerror: 0.01997808, label: 'stat'}
-      - value: 5.41642141
+          - {symerror: 0.02, label: 'stat'}
+      - value: 5.42
         errors:
-          - {symerror: 0.01567838, label: 'stat'}
-      - value: 3.72222066
+          - {symerror: 0.02, label: 'stat'}
+      - value: 3.72
         errors:
-          - {symerror: 0.01239419, label: 'stat'}
-      - value: 2.57672763
+          - {symerror: 0.01, label: 'stat'}
+      - value: 2.58
         errors:
-          - {symerror: 0.00988152, label: 'stat'}
-      - value: 1.79385877
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.79
         errors:
-          - {symerror: 0.00793324, label: 'stat'}
-      - value: 1.25454831
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.25
         errors:
-          - {symerror: 0.00640184, label: 'stat'}
-      - value: 0.87954408
+          - {symerror: 0.01, label: 'stat'}
+      - value: 0.880
         errors:
-          - {symerror: 0.00517594, label: 'stat'}
-      - value: 0.61255181
+          - {symerror: 0.0052, label: 'stat'}
+      - value: 0.613
         errors:
-          - {symerror: 0.00416808, label: 'stat'}
-      - value: 0.44058537
+          - {symerror: 0.0042, label: 'stat'}
+      - value: 0.441
         errors:
-          - {symerror: 0.00342539, label: 'stat'}
-      - value: 0.30713329
+          - {symerror: 0.0034, label: 'stat'}
+      - value: 0.307
         errors:
-          - {symerror: 0.00276596, label: 'stat'}
-      - value: 0.21665345
+          - {symerror: 0.0028, label: 'stat'}
+      - value: 0.217
         errors:
-          - {symerror: 0.00225083, label: 'stat'}
-      - value: 0.15766072
+          - {symerror: 0.0023, label: 'stat'}
+      - value: 0.158
         errors:
-          - {symerror: 0.00186662, label: 'stat'}
-      - value: 0.09575259
+          - {symerror: 0.0019, label: 'stat'}
+      - value: 0.0958
         errors:
-          - {symerror: 0.00099355, label: 'stat'}
-      - value: 0.04969778
+          - {symerror: 0.0010, label: 'stat'}
+      - value: 0.0497
         errors:
-          - {symerror: 0.00068492, label: 'stat'}
-      - value: 0.02526367
+          - {symerror: 0.0007, label: 'stat'}
+      - value: 0.0253
         errors:
-          - {symerror: 0.00046954, label: 'stat'}
-      - value: 0.01314591
+          - {symerror: 0.0005, label: 'stat'}
+      - value: 0.0131
         errors:
-          - {symerror: 0.00032581, label: 'stat'}
-      - value: 0.00692576
+          - {symerror: 0.0003, label: 'stat'}
+      - value: 0.00693
         errors:
-          - {symerror: 0.00022896, label: 'stat'}
-      - value: 0.00370328
+          - {symerror: 0.00023, label: 'stat'}
+      - value: 0.00370
         errors:
-          - {symerror: 0.00014393, label: 'stat'}
-      - value: 0.00178481
+          - {symerror: 0.00014, label: 'stat'}
+      - value: 0.00178
         errors:
-          - {symerror: 0.00009825, label: 'stat'}
-      - value: 0.00091337
+          - {symerror: 0.00010, label: 'stat'}
+      - value: 0.000913
         errors:
-          - {symerror: 0.00006733, label: 'stat'}
-      - value: 0.00051341
+          - {symerror: 0.000067, label: 'stat'}
+      - value: 0.000513
         errors:
-          - {symerror: 0.00004987, label: 'stat'}
-      - value: 0.00013896
+          - {symerror: 0.000050, label: 'stat'}
+      - value: 0.000139
         errors:
-          - {symerror: 0.00001698, label: 'stat'}
+          - {symerror: 0.000017, label: 'stat'}
   - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '6-15'}
     values:
-      - value: 167.95397949
+      - value: 167.95
         errors:
-          - {symerror: 0.23927447, label: 'stat'}
-      - value: 101.68534851
+          - {symerror: 0.24, label: 'stat'}
+      - value: 101.69
         errors:
-          - {symerror: 0.15165319, label: 'stat'}
-      - value: 62.56501770
+          - {symerror: 0.15, label: 'stat'}
+      - value: 62.57
         errors:
-          - {symerror: 0.10368471, label: 'stat'}
-      - value: 39.87414551
+          - {symerror: 0.10, label: 'stat'}
+      - value: 39.87
         errors:
-          - {symerror: 0.07534631, label: 'stat'}
-      - value: 26.25153160
+          - {symerror: 0.08, label: 'stat'}
+      - value: 26.25
         errors:
-          - {symerror: 0.05684428, label: 'stat'}
-      - value: 17.22298813
+          - {symerror: 0.06, label: 'stat'}
+      - value: 17.22
         errors:
-          - {symerror: 0.03349014, label: 'stat'}
-      - value: 11.65151596
+          - {symerror: 0.03, label: 'stat'}
+      - value: 11.65
         errors:
-          - {symerror: 0.02594619, label: 'stat'}
-      - value: 7.97474957
+          - {symerror: 0.03, label: 'stat'}
+      - value: 7.97
         errors:
-          - {symerror: 0.02038345, label: 'stat'}
-      - value: 5.52867460
+          - {symerror: 0.02, label: 'stat'}
+      - value: 5.53
         errors:
-          - {symerror: 0.01619934, label: 'stat'}
-      - value: 3.80404925
+          - {symerror: 0.02, label: 'stat'}
+      - value: 3.80
         errors:
-          - {symerror: 0.01287085, label: 'stat'}
-      - value: 2.63567901
+          - {symerror: 0.01, label: 'stat'}
+      - value: 2.64
         errors:
-          - {symerror: 0.01030010, label: 'stat'}
-      - value: 1.85513055
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.86
         errors:
-          - {symerror: 0.00833769, label: 'stat'}
-      - value: 1.29954994
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.30
         errors:
-          - {symerror: 0.00674293, label: 'stat'}
-      - value: 0.91058201
+          - {symerror: 0.01, label: 'stat'}
+      - value: 0.911
         errors:
-          - {symerror: 0.00545768, label: 'stat'}
-      - value: 0.64219093
+          - {symerror: 0.0055, label: 'stat'}
+      - value: 0.642
         errors:
-          - {symerror: 0.00443418, label: 'stat'}
-      - value: 0.45513061
+          - {symerror: 0.0044, label: 'stat'}
+      - value: 0.455
         errors:
-          - {symerror: 0.00361351, label: 'stat'}
-      - value: 0.31979337
+          - {symerror: 0.0036, label: 'stat'}
+      - value: 0.320
         errors:
-          - {symerror: 0.00293710, label: 'stat'}
-      - value: 0.22711208
+          - {symerror: 0.0029, label: 'stat'}
+      - value: 0.227
         errors:
-          - {symerror: 0.00240630, label: 'stat'}
-      - value: 0.13855943
+          - {symerror: 0.0024, label: 'stat'}
+      - value: 0.139
         errors:
-          - {symerror: 0.00128082, label: 'stat'}
-      - value: 0.07093327
+          - {symerror: 0.0013, label: 'stat'}
+      - value: 0.0709
         errors:
-          - {symerror: 0.00087712, label: 'stat'}
-      - value: 0.03642596
+          - {symerror: 0.0009, label: 'stat'}
+      - value: 0.0364
         errors:
-          - {symerror: 0.00060425, label: 'stat'}
-      - value: 0.01822764
+          - {symerror: 0.0006, label: 'stat'}
+      - value: 0.0182
         errors:
-          - {symerror: 0.00041036, label: 'stat'}
-      - value: 0.00978198
+          - {symerror: 0.0004, label: 'stat'}
+      - value: 0.00978
         errors:
-          - {symerror: 0.00029048, label: 'stat'}
-      - value: 0.00528882
+          - {symerror: 0.00029, label: 'stat'}
+      - value: 0.00529
         errors:
-          - {symerror: 0.00018595, label: 'stat'}
-      - value: 0.00255425
+          - {symerror: 0.00019, label: 'stat'}
+      - value: 0.00255
         errors:
-          - {symerror: 0.00012405, label: 'stat'}
-      - value: 0.00126504
+          - {symerror: 0.00012, label: 'stat'}
+      - value: 0.00127
         errors:
-          - {symerror: 0.00008568, label: 'stat'}
-      - value: 0.00054726
+          - {symerror: 0.000086, label: 'stat'}
+      - value: 0.000547
         errors:
-          - {symerror: 0.00005445, label: 'stat'}
-      - value: 0.00021949
+          - {symerror: 0.000054, label: 'stat'}
+      - value: 0.000219
         errors:
-          - {symerror: 0.00002314, label: 'stat'}  
+          - {symerror: 0.000023, label: 'stat'}
   - header: {name: 'Yield'}
     qualifiers:
       - {name: 'Centrality', value: '0-6'}
     values:
-      - value: 221.57247925
+      - value: 221.57
         errors:
-          - {symerror: 0.34536153, label: 'stat'}
-      - value: 134.40917969
+          - {symerror: 0.35, label: 'stat'}
+      - value: 134.41
         errors:
-          - {symerror: 0.21917038, label: 'stat'}
-      - value: 82.43180084
+          - {symerror: 0.22, label: 'stat'}
+      - value: 82.43
         errors:
-          - {symerror: 0.14954369, label: 'stat'}
-      - value: 52.93646622
+          - {symerror: 0.15, label: 'stat'}
+      - value: 52.94
         errors:
-          - {symerror: 0.10916802, label: 'stat'}
-      - value: 34.68452072
+          - {symerror: 0.11, label: 'stat'}
+      - value: 34.68
         errors:
-          - {symerror: 0.08218089, label: 'stat'}
-      - value: 22.87926292
+          - {symerror: 0.08, label: 'stat'}
+      - value: 22.88
         errors:
-          - {symerror: 0.04844475, label: 'stat'}
-      - value: 15.40263367
+          - {symerror: 0.05, label: 'stat'}
+      - value: 15.40
         errors:
-          - {symerror: 0.03744840, label: 'stat'}
-      - value: 10.56786060
+          - {symerror: 0.04, label: 'stat'}
+      - value: 10.57
         errors:
-          - {symerror: 0.02944288, label: 'stat'}
-      - value: 7.28575373
+          - {symerror: 0.03, label: 'stat'}
+      - value: 7.29
         errors:
-          - {symerror: 0.02333536, label: 'stat'}
-      - value: 5.02406120
+          - {symerror: 0.02, label: 'stat'}
+      - value: 5.02
         errors:
-          - {symerror: 0.01858687, label: 'stat'}
-      - value: 3.49850798
+          - {symerror: 0.02, label: 'stat'}
+      - value: 3.50
         errors:
-          - {symerror: 0.01491850, label: 'stat'}
-      - value: 2.44251943
+          - {symerror: 0.01, label: 'stat'}
+      - value: 2.44
         errors:
-          - {symerror: 0.01200636, label: 'stat'}
-      - value: 1.70084858
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.70
         errors:
-          - {symerror: 0.00968222, label: 'stat'}
-      - value: 1.17990279
+          - {symerror: 0.01, label: 'stat'}
+      - value: 1.18
         errors:
-          - {symerror: 0.00780606, label: 'stat'}
-      - value: 0.84519792
+          - {symerror: 0.01, label: 'stat'}
+      - value: 0.845
         errors:
-          - {symerror: 0.00639037, label: 'stat'}
-      - value: 0.59445566
+          - {symerror: 0.0064, label: 'stat'}
+      - value: 0.594
         errors:
-          - {symerror: 0.00517701, label: 'stat'}
-      - value: 0.41858101
+          - {symerror: 0.0052, label: 'stat'}
+      - value: 0.419
         errors:
-          - {symerror: 0.00421885, label: 'stat'}
-      - value: 0.29775894
+          - {symerror: 0.0042, label: 'stat'}
+      - value: 0.298
         errors:
-          - {symerror: 0.00346583, label: 'stat'}
-      - value: 0.17683423
+          - {symerror: 0.0035, label: 'stat'}
+      - value: 0.177
         errors:
-          - {symerror: 0.00181956, label: 'stat'}
-      - value: 0.08943584
+          - {symerror: 0.0018, label: 'stat'}
+      - value: 0.0894
         errors:
-          - {symerror: 0.00124037, label: 'stat'}
-      - value: 0.04600595
+          - {symerror: 0.0012, label: 'stat'}
+      - value: 0.0460
         errors:
-          - {symerror: 0.00085401, label: 'stat'}
-      - value: 0.02391476
+          - {symerror: 0.0009, label: 'stat'}
+      - value: 0.0239
         errors:
-          - {symerror: 0.00059107, label: 'stat'}
-      - value: 0.01247918
+          - {symerror: 0.0006, label: 'stat'}
+      - value: 0.0125
         errors:
-          - {symerror: 0.00041414, label: 'stat'}
-      - value: 0.00619090
+          - {symerror: 0.0004, label: 'stat'}
+      - value: 0.00619
         errors:
-          - {symerror: 0.00025087, label: 'stat'}
-      - value: 0.00289142
+          - {symerror: 0.00025, label: 'stat'}
+      - value: 0.00289
         errors:
-          - {symerror: 0.00016638, label: 'stat'}
-      - value: 0.00142497
+          - {symerror: 0.00017, label: 'stat'}
+      - value: 0.00142
         errors:
-          - {symerror: 0.00011336, label: 'stat'}
-      - value: 0.00057370
+          - {symerror: 0.00011, label: 'stat'}
+      - value: 0.000574
         errors:
-          - {symerror: 0.00006857, label: 'stat'}
-      - value: 0.00027346
+          - {symerror: 0.000069, label: 'stat'}
+      - value: 0.000273
         errors:
-          - {symerror: 0.00003292, label: 'stat'}        
+          - {symerror: 0.000033, label: 'stat'}

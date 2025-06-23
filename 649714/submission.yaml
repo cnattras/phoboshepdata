@@ -19,7 +19,12 @@ name: "Table 1"
 location: Data from Table 1 of PHOBOS paper Inspire ID 649714
 description: Details of the centrality classes used in this analysis. 
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
 data_file: table1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
@@ -28,7 +33,12 @@ name: "Figure 1"
 location: Data from Figure 1 of PHOBOS paper Inspire ID 649714
 description: Charged particle yield versus $p_T$ for Au+Au at 62.4 Gev in different centrality bins 
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
 data_file: fig1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
@@ -37,7 +47,12 @@ name: "Figure 2"
 location: Data from Figure 2 of PHOBOS paper Inspire ID 649714
 description: $R_{AA}$ versus beam energy
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
 data_file: fig2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
@@ -46,7 +61,12 @@ name: "Figure 3"
 location: Data from Figure 3 of PHOBOS paper Inspire ID 649714
 description: Various quantities versus $p_T$ for Au+Au at 62.4 and 200 GeV in different centrality bins
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
 data_file: fig3.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
