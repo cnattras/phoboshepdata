@@ -19,7 +19,12 @@ name: "Table 1"
 location: Data from Table 1 of PHOBOS paper Inspire ID 628536
 description: Antiparticle to particle ratios within the acceptance for each centrality bin
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: table1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
@@ -32,7 +37,12 @@ name: "Table 2"
 location: Data from Table 2 of PHOBOS paper Inspire ID 628536
 description: Summary of particle and event counts
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: table2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table2.png}

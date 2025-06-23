@@ -82,79 +82,27 @@ dependent_variables:
       - value: 0.29
   - header: {name: '$\langle \pi^- \rangle$ / $\langle \pi^+ \rangle$'}
     values:
-      - value: 0.995
-        errors:
-          - {symerror: 0.015, label: 'stat'}
-          - {symerror: 0.017, label: 'sys'}
-      - value: 1.004
-        errors:
-          - {symerror: 0.007, label: 'stat'}
-          - {symerror: 0.017, label: 'sys'}
-      - value: 1.008
-        errors:
-          - {symerror: 0.006, label: 'stat'}
-          - {symerror: 0.017, label: 'sys'}
-      - value: 1.016
-        errors:
-          - {symerror: 0.007, label: 'stat'}
-          - {symerror: 0.017, label: 'sys'}
-      - value: 0.996
-        errors:
-          - {symerror: 0.008, label: 'stat'}
-          - {symerror: 0.017, label: 'sys'}
-      - value: 1.014
-        errors:
-          - {symerror: 0.007, label: 'stat'}
-          - {symerror: 0.017, label: 'sys'}
+    - { value: 0.995, errors: [{ label: stat, symerror: 0.015 }, { label: sys, symerror: 0.017 }] }
+    - { value: 1.004, errors: [{ label: stat, symerror: 0.007 }, { label: sys, symerror: 0.017 }] }
+    - { value: 1.008, errors: [{ label: stat, symerror: 0.006 }, { label: sys, symerror: 0.017 }] }
+    - { value: 1.016, errors: [{ label: stat, symerror: 0.007 }, { label: sys, symerror: 0.017 }] }
+    - { value: 0.996, errors: [{ label: stat, symerror: 0.008 }, { label: sys, symerror: 0.017 }] }
+    - { value: 1.014, errors: [{ label: stat, symerror: 0.007 }, { label: sys, symerror: 0.017 }] }
+
   - header: {name: '$\langle K^- \rangle$ / $\langle K^+ \rangle$'}
     values:
-      - value: 0.97
-        errors:
-          - {symerror: 0.07, label: 'stat'}
-          - {symerror: 0.003, label: 'sys'}
-      - value: 0.95
-        errors:
-          - {symerror: 0.03, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 0.97
-        errors:
-          - {symerror: 0.02, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 0.97
-        errors:
-          - {symerror: 0.03, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 1.02
-        errors:
-          - {symerror: 0.04, label: 'stat'}
-          - {symerror: 0.04, label: 'sys'}
-      - value: 0.97
-        errors:
-          - {symerror: 0.03, label: 'stat'}
-          - {symerror: 0.04, label: 'sys'}
+    - { value: 0.97, errors: [{ label: stat, symerror: 0.070 }, { label: sys, symerror: 0.003 }] }
+    - { value: 0.95, errors: [{ label: stat, symerror: 0.030 }, { label: sys, symerror: 0.030 }] }
+    - { value: 0.97, errors: [{ label: stat, symerror: 0.020 }, { label: sys, symerror: 0.030 }] }
+    - { value: 0.97, errors: [{ label: stat, symerror: 0.030 }, { label: sys, symerror: 0.030 }] }
+    - { value: 1.02, errors: [{ label: stat, symerror: 0.040 }, { label: sys, symerror: 0.040 }] }
+    - { value: 0.97, errors: [{ label: stat, symerror: 0.030 }, { label: sys, symerror: 0.040 }] }
+
   - header: {name: '$\langle \bar{p} \rangle$ / $\langle p \rangle$'}
     values:
-      - value: 0.84
-        errors:
-          - {symerror: 0.04, label: 'stat'}
-          - {symerror: 0.04, label: 'sys'}
-      - value: 0.80
-        errors:
-          - {symerror: 0.02, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 0.83
-        errors:
-          - {symerror: 0.02, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 0.86
-        errors:
-          - {symerror: 0.02, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 0.86
-        errors:
-          - {symerror: 0.03, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
-      - value: 0.82
-        errors:
-          - {symerror: 0.02, label: 'stat'}
-          - {symerror: 0.03, label: 'sys'}
+    - { value: 0.84, errors: [{ label: stat, symerror: 0.040 }, { label: sys, symerror: 0.040 }] }
+    - { value: 0.80, errors: [{ label: stat, symerror: 0.020 }, { label: sys, symerror: 0.030 }] }
+    - { value: 0.83, errors: [{ label: stat, symerror: 0.020 }, { label: sys, symerror: 0.030 }] }
+    - { value: 0.86, errors: [{ label: stat, symerror: 0.020 }, { label: sys, symerror: 0.030 }] }
+    - { value: 0.86, errors: [{ label: stat, symerror: 0.030 }, { label: sys, symerror: 0.030 }] }
+    - { value: 0.82, errors: [{ label: stat, symerror: 0.020 }, { label: sys, symerror: 0.030 }] }
