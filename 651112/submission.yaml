@@ -19,7 +19,12 @@ name: "Table 1: 200 GeV"
 location: Data from Table 1 of PHOBOS paper Inspire ID 651112
 description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
 data_file: 200.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
@@ -32,7 +37,12 @@ name: "Table 1: 19.6 GeV"
 location: Data from Table 1 of PHOBOS paper Inspire ID 651112
 description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
 data_file: 19.6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
@@ -45,7 +55,12 @@ name: "Table 1: Ratios X-Section "
 location: Data from Table 1 of PHOBOS paper Inspire ID 651112
 description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200, 19.6]
 data_file: ratios1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
@@ -58,7 +73,12 @@ name: "Table 1: Ratios $N_{\\text{part}}$"
 location: Data from Table 1 of PHOBOS paper Inspire ID 651112
 description:  Experimental results for the charged particle pseudorapidity density at midrapidity as a function of percentile cross section.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Au+Au Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200, 19.6]
 data_file: ratios2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_table1.png}
