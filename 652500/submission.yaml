@@ -9,7 +9,7 @@ additional_resources: # additional references (e.g. experiment TWiki page for an
 - {location: "https://arxiv.org/pdf/nucl-ex/0406017", description: "arXiv ID: nucl-ex/0406017"}
 # https://www.sdcc.bnl.gov/phobos/Publications/Physics/RdAuEtaDepend/index.htm
 comment: |
- We have measured the transverse momentum distributions of charged hadrons in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV in the range of $0.5 < p_T < 4.0$ GeV/c. The total range of pseudorapidity, $\eta$, is $0.2 < \eta < 1.4$, where positive $\eta$ is in the deuteron direction. The data has been divided into three regions of pseudorapidity, covering $0.2 < \eta < 0.6$, $0.6 < \eta < 1.0$, and $1.0 < \eta < 1.4$ and has been compared to charged hadron spectra from $\textrm{p}+\overline{\textrm{p}}$ collisions at the same energy.  There is a significant change in the spectral shape as a function of pseudorapidity. As $\eta$ increases we see a decrease in the nuclear modification factor $R_{\it dAu}$.
+ BNL-RHIC. We have measured the transverse momentum distributions of charged hadrons in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV in the range of $0.5 < p_T < 4.0$ GeV/c. The total range of pseudorapidity, $\eta$, is $0.2 < \eta < 1.4$, where positive $\eta$ is in the deuteron direction. The data has been divided into three regions of pseudorapidity, covering $0.2 < \eta < 0.6$, $0.6 < \eta < 1.0$, and $1.0 < \eta < 1.4$ and has been compared to charged hadron spectra from $\textrm{p}+\overline{\textrm{p}}$ collisions at the same energy.  There is a significant change in the spectral shape as a function of pseudorapidity. As $\eta$ increases we see a decrease in the nuclear modification factor $R_{\it dAu}$.
 
 ---
 # Start of table entries.
