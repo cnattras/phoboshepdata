@@ -1,0 +1,111 @@
+# Figure 1: Flow Subtraction (0–10%) — Full Dataset
+
+independent_variables:
+  - header: {name: "$\\Delta\\phi$"}
+    values:
+      - {value: -3.04343}
+      - {value: -2.84707}
+      - {value: -2.65072}
+      - {value: -2.45437}
+      - {value: -2.25802}
+      - {value: -2.06168}
+      - {value: -1.86532}
+      - {value: -1.66898}
+      - {value: -1.47262}
+      - {value: -1.27628}
+      - {value: -1.07992}
+      - {value: -0.883575}
+      - {value: -0.687225}
+      - {value: -0.490875}
+      - {value: -0.294525}
+      - {value: -0.098175}
+      - {value: 0.098175}
+      - {value: 0.294525}
+      - {value: 0.490875}
+      - {value: 0.687225}
+      - {value: 0.883575}
+      - {value: 1.07992}
+      - {value: 1.27628}
+      - {value: 1.47262}
+      - {value: 1.66898}
+      - {value: 1.86532}
+      - {value: 2.06168}
+      - {value: 2.25802}
+      - {value: 2.45437}
+      - {value: 2.65072}
+      - {value: 2.84707}
+      - {value: 3.04343}
+
+dependent_variables:
+  - header: {name: "s/b"}
+    qualifiers:
+      - {name: "Δη window", value: "-4 < Δη < -2"}
+    values:
+      - {value: 1.0088, errors: [{label: s/b error, symerror: 0.000523688}], extras: {flow: 1.00383, flow_hi: 1.00453, flow_lo: 1.00309}}
+      - {value: 1.00878, errors: [{label: s/b error, symerror: 0.000552395}], extras: {flow: 1.0035, flow_hi: 1.0041, flow_lo: 1.00284}}
+      - {value: 1.0072, errors: [{label: s/b error, symerror: 0.000538021}], extras: {flow: 1.00287, flow_hi: 1.00332, flow_lo: 1.00238}}
+      - {value: 1.0079, errors: [{label: s/b error, symerror: 0.000546009}], extras: {flow: 1.00206, flow_hi: 1.00229, flow_lo: 1.00178}}
+      - {value: 1.00579, errors: [{label: s/b error, symerror: 0.000512939}], extras: {flow: 1.00118, flow_hi: 1.00119, flow_lo: 1.00112}}
+      - {value: 1.00471, errors: [{label: s/b error, symerror: 0.00052191}], extras: {flow: 1.00037, flow_hi: 1.00016, flow_lo: 1.00052}}
+      - {value: 1.00407, errors: [{label: s/b error, symerror: 0.000545039}], extras: {flow: 0.999743, flow_hi: 0.999377, flow_lo: 1.00006}}
+      - {value: 1.00231, errors: [{label: s/b error, symerror: 0.000521466}], extras: {flow: 0.999406, flow_hi: 0.998953, flow_lo: 0.999808}}
+      - {value: 1.00188, errors: [{label: s/b error, symerror: 0.000521484}], extras: {flow: 0.999406, flow_hi: 0.998953, flow_lo: 0.999808}}
+      - {value: 1.00032, errors: [{label: s/b error, symerror: 0.000531854}], extras: {flow: 0.999743, flow_hi: 0.999377, flow_lo: 1.00006}}
+      - {value: 1.00087, errors: [{label: s/b error, symerror: 0.000505213}], extras: {flow: 1.00037, flow_hi: 1.00016, flow_lo: 1.00052}}
+      - {value: 1.00109, errors: [{label: s/b error, symerror: 0.000509524}], extras: {flow: 1.00118, flow_hi: 1.00119, flow_lo: 1.00112}}
+      - {value: 1.00272, errors: [{label: s/b error, symerror: 0.000499769}], extras: {flow: 1.00206, flow_hi: 1.00229, flow_lo: 1.00178}}
+      - {value: 1.00402, errors: [{label: s/b error, symerror: 0.000522273}], extras: {flow: 1.00287, flow_hi: 1.00332, flow_lo: 1.00238}}
+      - {value: 1.00632, errors: [{label: s/b error, symerror: 0.000528481}], extras: {flow: 1.0035, flow_hi: 1.0041, flow_lo: 1.00284}}
+      - {value: 1.00637, errors: [{label: s/b error, symerror: 0.000535887}], extras: {flow: 1.00383, flow_hi: 1.00453, flow_lo: 1.00309}}
+      - {value: 1.00607, errors: [{label: s/b error, symerror: 0.000523259}], extras: {flow: 1.00383, flow_hi: 1.00453, flow_lo: 1.00309}}
+      - {value: 1.00536, errors: [{label: s/b error, symerror: 0.00055194}], extras: {flow: 1.0035, flow_hi: 1.0041, flow_lo: 1.00284}}
+      - {value: 1.00365, errors: [{label: s/b error, symerror: 0.00053709}], extras: {flow: 1.00287, flow_hi: 1.00332, flow_lo: 1.00238}}
+      - {value: 1.00176, errors: [{label: s/b error, symerror: 0.000545244}], extras: {flow: 1.00206, flow_hi: 1.00229, flow_lo: 1.00178}}
+      - {value: 1.00103, errors: [{label: s/b error, symerror: 0.000511564}], extras: {flow: 1.00118, flow_hi: 1.00119, flow_lo: 1.00112}}
+      - {value: 1.00073, errors: [{label: s/b error, symerror: 0.000520876}], extras: {flow: 1.00037, flow_hi: 1.00016, flow_lo: 1.00052}}
+      - {value: 1.00036, errors: [{label: s/b error, symerror: 0.000543892}], extras: {flow: 0.999743, flow_hi: 0.999377, flow_lo: 1.00006}}
+      - {value: 1.00175, errors: [{label: s/b error, symerror: 0.000520886}], extras: {flow: 0.999406, flow_hi: 0.998953, flow_lo: 0.999808}}
+      - {value: 1.00237, errors: [{label: s/b error, symerror: 0.00052138}], extras: {flow: 0.999406, flow_hi: 0.998953, flow_lo: 0.999808}}
+      - {value: 1.00267, errors: [{label: s/b error, symerror: 0.000532311}], extras: {flow: 0.999743, flow_hi: 0.999377, flow_lo: 1.00006}}
+      - {value: 1.00556, errors: [{label: s/b error, symerror: 0.000506245}], extras: {flow: 1.00037, flow_hi: 1.00016, flow_lo: 1.00052}}
+      - {value: 1.00506, errors: [{label: s/b error, symerror: 0.000510455}], extras: {flow: 1.00118, flow_hi: 1.00119, flow_lo: 1.00112}}
+      - {value: 1.0065, errors: [{label: s/b error, symerror: 0.000500644}], extras: {flow: 1.00206, flow_hi: 1.00229, flow_lo: 1.00178}}
+      - {value: 1.00711, errors: [{label: s/b error, symerror: 0.000523081}], extras: {flow: 1.00287, flow_hi: 1.00332, flow_lo: 1.00238}}
+      - {value: 1.0084, errors: [{label: s/b error, symerror: 0.000528892}], extras: {flow: 1.0035, flow_hi: 1.0041, flow_lo: 1.00284}}
+      - {value: 1.00781, errors: [{label: s/b error, symerror: 0.000535663}], extras: {flow: 1.00383, flow_hi: 1.00453, flow_lo: 1.00309}}
+  - header: {name: "s/b"}
+    qualifiers:
+      - {name: "Δη window", value: "-1 < Δη < 1"}
+    values:
+      - {value: 1.00863, errors: [{label: s/b error, symerror: 0.000580767}], extras: {flow: 1.00519, flow_hi: 1.00617, flow_lo: 1.00416}}
+      - {value: 1.00502, errors: [{label: s/b error, symerror: 0.00247153}], extras: {flow: 1.00479, flow_hi: 1.00567, flow_lo: 1.00388}}
+      - {value: 1.00683, errors: [{label: s/b error, symerror: 0.000522765}], extras: {flow: 1.00406, flow_hi: 1.00473, flow_lo: 1.00336}}
+      - {value: 1.00762, errors: [{label: s/b error, symerror: 0.000540958}], extras: {flow: 1.00311, flow_hi: 1.0035, flow_lo: 1.00267}}
+      - {value: 1.00529, errors: [{label: s/b error, symerror: 0.000506055}], extras: {flow: 1.00208, flow_hi: 1.00218, flow_lo: 1.00193}}
+      - {value: 1.00466, errors: [{label: s/b error, symerror: 0.000472585}], extras: {flow: 1.00112, flow_hi: 1.00095, flow_lo: 1.00125}}
+      - {value: 1.00442, errors: [{label: s/b error, symerror: 0.000467943}], extras: {flow: 1.00039, flow_hi: 1.00001, flow_lo: 1.00073}}
+      - {value: 1.00191, errors: [{label: s/b error, symerror: 0.000458326}], extras: {flow: 0.999997, flow_hi: 0.999507, flow_lo: 1.00044}}
+      - {value: 1.00205, errors: [{label: s/b error, symerror: 0.000457775}], extras: {flow: 0.999997, flow_hi: 0.999507, flow_lo: 1.00044}}
+      - {value: 1.00096, errors: [{label: s/b error, symerror: 0.00046346}], extras: {flow: 1.00039, flow_hi: 1.00001, flow_lo: 1.00073}}
+      - {value: 1.00111, errors: [{label: s/b error, symerror: 0.000462771}], extras: {flow: 1.00112, flow_hi: 1.00095, flow_lo: 1.00125}}
+      - {value: 1.00239, errors: [{label: s/b error, symerror: 0.000493693}], extras: {flow: 1.00208, flow_hi: 1.00218, flow_lo: 1.00193}}
+      - {value: 1.00385, errors: [{label: s/b error, symerror: 0.000481624}], extras: {flow: 1.00311, flow_hi: 1.0035, flow_lo: 1.00267}}
+      - {value: 1.00586, errors: [{label: s/b error, symerror: 0.000523135}], extras: {flow: 1.00406, flow_hi: 1.00473, flow_lo: 1.00336}}
+      - {value: 1.00716, errors: [{label: s/b error, symerror: 0.0021728}], extras: {flow: 1.00479, flow_hi: 1.00567, flow_lo: 1.00388}}
+      - {value: 1.01299, errors: [{label: s/b error, symerror: 0.000571708}], extras: {flow: 1.00519, flow_hi: 1.00617, flow_lo: 1.00416}}
+      - {value: 1.01239, errors: [{label: s/b error, symerror: 0.000582605}], extras: {flow: 1.00519, flow_hi: 1.00617, flow_lo: 1.00416}}
+      - {value: 1.00992, errors: [{label: s/b error, symerror: 0.00255472}], extras: {flow: 1.00479, flow_hi: 1.00567, flow_lo: 1.00388}}
+      - {value: 1.00694, errors: [{label: s/b error, symerror: 0.000521646}], extras: {flow: 1.00406, flow_hi: 1.00473, flow_lo: 1.00336}}
+      - {value: 1.00373, errors: [{label: s/b error, symerror: 0.000541911}], extras: {flow: 1.00311, flow_hi: 1.0035, flow_lo: 1.00267}}
+      - {value: 1.00257, errors: [{label: s/b error, symerror: 0.000506199}], extras: {flow: 1.00208, flow_hi: 1.00218, flow_lo: 1.00193}}
+      - {value: 1.00137, errors: [{label: s/b error, symerror: 0.000471137}], extras: {flow: 1.00112, flow_hi: 1.00095, flow_lo: 1.00125}}
+      - {value: 1.00117, errors: [{label: s/b error, symerror: 0.000467152}], extras: {flow: 1.00039, flow_hi: 1.00001, flow_lo: 1.00073}}
+      - {value: 1.00198, errors: [{label: s/b error, symerror: 0.000458451}], extras: {flow: 0.999997, flow_hi: 0.999507, flow_lo: 1.00044}}
+      - {value: 1.00202, errors: [{label: s/b error, symerror: 0.000458009}], extras: {flow: 0.999997, flow_hi: 0.999507, flow_lo: 1.00044}}
+      - {value: 1.00353, errors: [{label: s/b error, symerror: 0.000463911}], extras: {flow: 1.00039, flow_hi: 1.00001, flow_lo: 1.00073}}
+      - {value: 1.00446, errors: [{label: s/b error, symerror: 0.000463469}], extras: {flow: 1.00112, flow_hi: 1.00095, flow_lo: 1.00125}}
+      - {value: 1.00566, errors: [{label: s/b error, symerror: 0.000494473}], extras: {flow: 1.00208, flow_hi: 1.00218, flow_lo: 1.00193}}
+      - {value: 1.00662, errors: [{label: s/b error, symerror: 0.000481548}], extras: {flow: 1.00311, flow_hi: 1.0035, flow_lo: 1.00267}}
+      - {value: 1.00765, errors: [{label: s/b error, symerror: 0.000524371}], extras: {flow: 1.00406, flow_hi: 1.00473, flow_lo: 1.00336}}
+      - {value: 1.00922, errors: [{label: s/b error, symerror: 0.00213917}], extras: {flow: 1.00479, flow_hi: 1.00567, flow_lo: 1.00388}}
+      - {value: 1.01035, errors: [{label: s/b error, symerror: 0.000570179}], extras: {flow: 1.00519, flow_hi: 1.00617, flow_lo: 1.00416}}

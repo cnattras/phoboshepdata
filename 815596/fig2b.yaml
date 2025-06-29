@@ -1,0 +1,925 @@
+# Correlated Yield: 1/N_trig d²N_ch/d(Δη)d(Δφ) for 0–30% Central, Δη = -3.875
+independent_variables:
+  - header: {name: "$\\Delta\\phi$"}
+    values:
+      - {value: -0.883573}
+      - {value: -0.687223}
+      - {value: -0.490874}
+      - {value: -0.294524}
+      - {value: -0.0981748}
+      - {value: 0.0981748}
+      - {value: 0.294524}
+      - {value: 0.490874}
+      - {value: 0.687223}
+      - {value: 0.883573}
+      - {value: 1.07992}
+      - {value: 1.27627}
+      - {value: 1.47262}
+      - {value: 1.66897}
+      - {value: 1.86532}
+      - {value: 2.06167}
+      - {value: 2.25802}
+      - {value: 2.45437}
+      - {value: 2.65072}
+      - {value: 2.84707}
+      - {value: 3.04342}
+      - {value: 3.23977}
+      - {value: 3.43612}
+      - {value: 3.63247}
+      - {value: 3.82882}
+      - {value: 4.02517}
+      - {value: 4.22152}
+      - {value: 4.41786}
+      - {value: 4.61421}
+      - {value: 4.81056}
+      - {value: 5.00691}
+      - {value: 5.20326}
+
+dependent_variables:
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -3.875}
+    values:
+      - {value: -0.231297, errors: [{label: stat, symerror: 0.0829109}, {label: v2 lo sys, symerror: -0.223134}, {label: v2 hi sys, symerror: -0.228178}]}
+      - {value: 0.164518, errors: [{label: stat, symerror: 0.0822101}, {label: v2 lo sys, symerror: 0.191666}, {label: v2 hi sys, symerror: 0.148681}]}
+      - {value: 0.210393, errors: [{label: stat, symerror: 0.086424}, {label: v2 lo sys, symerror: 0.255082}, {label: v2 hi sys, symerror: 0.177044}]}
+      - {value: 0.377713, errors: [{label: stat, symerror: 0.0889046}, {label: v2 lo sys, symerror: 0.435827}, {label: v2 hi sys, symerror: 0.33096}]}
+      - {value: 0.129805, errors: [{label: stat, symerror: 0.0885042}, {label: v2 lo sys, symerror: 0.195184}, {label: v2 hi sys, symerror: 0.0757981}]}
+      - {value: 0.199187, errors: [{label: stat, symerror: 0.0825557}, {label: v2 lo sys, symerror: 0.264565}, {label: v2 hi sys, symerror: 0.145179}]}
+      - {value: 0.247476, errors: [{label: stat, symerror: 0.0928776}, {label: v2 lo sys, symerror: 0.305589}, {label: v2 hi sys, symerror: 0.200722}]}
+      - {value: 0.197087, errors: [{label: stat, symerror: 0.0888729}, {label: v2 lo sys, symerror: 0.241775}, {label: v2 hi sys, symerror: 0.163737}]}
+      - {value: 0.0587049, errors: [{label: stat, symerror: 0.0837534}, {label: v2 lo sys, symerror: 0.0858531}, {label: v2 hi sys, symerror: 0.0428682}]}
+      - {value: -0.039367, errors: [{label: stat, symerror: 0.0836689}, {label: v2 lo sys, symerror: -0.0312041}, {label: v2 hi sys, symerror: -0.0362479}]}
+      - {value: 0.0951411, errors: [{label: stat, symerror: 0.0852217}, {label: v2 lo sys, symerror: 0.0857637}, {label: v2 hi sys, symerror: 0.115773}]}
+      - {value: 0.219143, errors: [{label: stat, symerror: 0.0877789}, {label: v2 lo sys, symerror: 0.196341}, {label: v2 hi sys, symerror: 0.253179}]}
+      - {value: 0.141222, errors: [{label: stat, symerror: 0.0827462}, {label: v2 lo sys, symerror: 0.111154}, {label: v2 hi sys, symerror: 0.182511}]}
+      - {value: 0.110772, errors: [{label: stat, symerror: 0.0809948}, {label: v2 lo sys, symerror: 0.0807049}, {label: v2 hi sys, symerror: 0.152062}]}
+      - {value: 0.107739, errors: [{label: stat, symerror: 0.08516}, {label: v2 lo sys, symerror: 0.0849368}, {label: v2 hi sys, symerror: 0.141774}]}
+      - {value: 0.384051, errors: [{label: stat, symerror: 0.0846639}, {label: v2 lo sys, symerror: 0.374674}, {label: v2 hi sys, symerror: 0.404683}]}
+      - {value: 0.22187, errors: [{label: stat, symerror: 0.0832423}, {label: v2 lo sys, symerror: 0.230033}, {label: v2 hi sys, symerror: 0.224989}]}
+      - {value: 0.252639, errors: [{label: stat, symerror: 0.0822151}, {label: v2 lo sys, symerror: 0.279788}, {label: v2 hi sys, symerror: 0.236803}]}
+      - {value: 0.386728, errors: [{label: stat, symerror: 0.0864654}, {label: v2 lo sys, symerror: 0.431416}, {label: v2 hi sys, symerror: 0.353378}]}
+      - {value: 0.401079, errors: [{label: stat, symerror: 0.0888111}, {label: v2 lo sys, symerror: 0.459193}, {label: v2 hi sys, symerror: 0.354326}]}
+      - {value: 0.135098, errors: [{label: stat, symerror: 0.0884356}, {label: v2 lo sys, symerror: 0.200476}, {label: v2 hi sys, symerror: 0.0810905}]}
+      - {value: 0.227558, errors: [{label: stat, symerror: 0.0825639}, {label: v2 lo sys, symerror: 0.292937}, {label: v2 hi sys, symerror: 0.173551}]}
+      - {value: 0.34004, errors: [{label: stat, symerror: 0.0927645}, {label: v2 lo sys, symerror: 0.398154}, {label: v2 hi sys, symerror: 0.293287}]}
+      - {value: 0.394553, errors: [{label: stat, symerror: 0.089076}, {label: v2 lo sys, symerror: 0.439242}, {label: v2 hi sys, symerror: 0.361204}]}
+      - {value: 0.46046, errors: [{label: stat, symerror: 0.0840925}, {label: v2 lo sys, symerror: 0.487609}, {label: v2 hi sys, symerror: 0.444624}]}
+      - {value: 0.159307, errors: [{label: stat, symerror: 0.0838576}, {label: v2 lo sys, symerror: 0.16747}, {label: v2 hi sys, symerror: 0.162426}]}
+      - {value: 0.180512, errors: [{label: stat, symerror: 0.0852892}, {label: v2 lo sys, symerror: 0.171135}, {label: v2 hi sys, symerror: 0.201144}]}
+      - {value: 0.323222, errors: [{label: stat, symerror: 0.0877411}, {label: v2 lo sys, symerror: 0.30042}, {label: v2 hi sys, symerror: 0.357258}]}
+      - {value: 0.20356, errors: [{label: stat, symerror: 0.0828216}, {label: v2 lo sys, symerror: 0.173493}, {label: v2 hi sys, symerror: 0.24485}]}
+      - {value: 0.0496684, errors: [{label: stat, symerror: 0.0809655}, {label: v2 lo sys, symerror: 0.0196009}, {label: v2 hi sys, symerror: 0.0909579}]}
+      - {value: 0.000274732, errors: [{label: stat, symerror: 0.0850593}, {label: v2 lo sys, symerror: -0.0225274}, {label: v2 hi sys, symerror: 0.0343102}]}
+      - {value: -0.150856, errors: [{label: stat, symerror: 0.0842914}, {label: v2 lo sys, symerror: -0.160233}, {label: v2 hi sys, symerror: -0.130224}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -3.625}
+    values:
+      - {value: -0.104124, errors: [{label: stat, symerror: 0.0776485}, {label: v2 lo sys, symerror: -0.0955325}, {label: v2 hi sys, symerror: -0.100739}]}
+      - {value: 0.0137631, errors: [{label: stat, symerror: 0.0770752}, {label: v2 lo sys, symerror: 0.0442491}, {label: v2 hi sys, symerror: -0.00471325}]}
+      - {value: -0.0165899, errors: [{label: stat, symerror: 0.0799183}, {label: v2 lo sys, symerror: 0.0341241}, {label: v2 hi sys, symerror: -0.0552638}]}
+      - {value: 0.260221, errors: [{label: stat, symerror: 0.0814976}, {label: v2 lo sys, symerror: 0.326417}, {label: v2 hi sys, symerror: 0.206089}]}
+      - {value: 0.167766, errors: [{label: stat, symerror: 0.0831265}, {label: v2 lo sys, symerror: 0.24234}, {label: v2 hi sys, symerror: 0.105267}]}
+      - {value: 0.14749, errors: [{label: stat, symerror: 0.0785256}, {label: v2 lo sys, symerror: 0.222065}, {label: v2 hi sys, symerror: 0.0849917}]}
+      - {value: 0.21207, errors: [{label: stat, symerror: 0.0849274}, {label: v2 lo sys, symerror: 0.278266}, {label: v2 hi sys, symerror: 0.157938}]}
+      - {value: 0.0254493, errors: [{label: stat, symerror: 0.083251}, {label: v2 lo sys, symerror: 0.0761633}, {label: v2 hi sys, symerror: -0.0132245}]}
+      - {value: 0.116813, errors: [{label: stat, symerror: 0.0784112}, {label: v2 lo sys, symerror: 0.147299}, {label: v2 hi sys, symerror: 0.0983367}]}
+      - {value: 0.0752865, errors: [{label: stat, symerror: 0.0780359}, {label: v2 lo sys, symerror: 0.0838779}, {label: v2 hi sys, symerror: 0.0786716}]}
+      - {value: 0.0699035, errors: [{label: stat, symerror: 0.0798433}, {label: v2 lo sys, symerror: 0.0582669}, {label: v2 hi sys, symerror: 0.0934861}]}
+      - {value: -0.0148967, errors: [{label: stat, symerror: 0.0799063}, {label: v2 lo sys, symerror: -0.0420152}, {label: v2 hi sys, symerror: 0.0241444}]}
+      - {value: 0.203116, errors: [{label: stat, symerror: 0.0778177}, {label: v2 lo sys, symerror: 0.167618}, {label: v2 hi sys, symerror: 0.250523}]}
+      - {value: 0.051025, errors: [{label: stat, symerror: 0.0772702}, {label: v2 lo sys, symerror: 0.0155278}, {label: v2 hi sys, symerror: 0.0984321}]}
+      - {value: 0.203227, errors: [{label: stat, symerror: 0.0802392}, {label: v2 lo sys, symerror: 0.176108}, {label: v2 hi sys, symerror: 0.242268}]}
+      - {value: 0.289089, errors: [{label: stat, symerror: 0.0785583}, {label: v2 lo sys, symerror: 0.277453}, {label: v2 hi sys, symerror: 0.312672}]}
+      - {value: 0.278746, errors: [{label: stat, symerror: 0.0779174}, {label: v2 lo sys, symerror: 0.287338}, {label: v2 hi sys, symerror: 0.282131}]}
+      - {value: 0.377248, errors: [{label: stat, symerror: 0.0773779}, {label: v2 lo sys, symerror: 0.407734}, {label: v2 hi sys, symerror: 0.358772}]}
+      - {value: 0.548954, errors: [{label: stat, symerror: 0.0801036}, {label: v2 lo sys, symerror: 0.599668}, {label: v2 hi sys, symerror: 0.51028}]}
+      - {value: 0.355753, errors: [{label: stat, symerror: 0.0815095}, {label: v2 lo sys, symerror: 0.421949}, {label: v2 hi sys, symerror: 0.301621}]}
+      - {value: 0.200582, errors: [{label: stat, symerror: 0.0831102}, {label: v2 lo sys, symerror: 0.275157}, {label: v2 hi sys, symerror: 0.138084}]}
+      - {value: 0.544769, errors: [{label: stat, symerror: 0.0787813}, {label: v2 lo sys, symerror: 0.619343}, {label: v2 hi sys, symerror: 0.48227}]}
+      - {value: 0.518592, errors: [{label: stat, symerror: 0.085001}, {label: v2 lo sys, symerror: 0.584788}, {label: v2 hi sys, symerror: 0.464459}]}
+      - {value: 0.330966, errors: [{label: stat, symerror: 0.0835093}, {label: v2 lo sys, symerror: 0.38168}, {label: v2 hi sys, symerror: 0.292292}]}
+      - {value: 0.471202, errors: [{label: stat, symerror: 0.0785951}, {label: v2 lo sys, symerror: 0.501688}, {label: v2 hi sys, symerror: 0.452726}]}
+      - {value: 0.417799, errors: [{label: stat, symerror: 0.078236}, {label: v2 lo sys, symerror: 0.42639}, {label: v2 hi sys, symerror: 0.421184}]}
+      - {value: 0.351674, errors: [{label: stat, symerror: 0.0800048}, {label: v2 lo sys, symerror: 0.340037}, {label: v2 hi sys, symerror: 0.375256}]}
+      - {value: 0.323478, errors: [{label: stat, symerror: 0.0800293}, {label: v2 lo sys, symerror: 0.29636}, {label: v2 hi sys, symerror: 0.362519}]}
+      - {value: 0.163104, errors: [{label: stat, symerror: 0.0778217}, {label: v2 lo sys, symerror: 0.127607}, {label: v2 hi sys, symerror: 0.210512}]}
+      - {value: 0.0418453, errors: [{label: stat, symerror: 0.0772561}, {label: v2 lo sys, symerror: 0.0063481}, {label: v2 hi sys, symerror: 0.0892524}]}
+      - {value: 0.185256, errors: [{label: stat, symerror: 0.0801663}, {label: v2 lo sys, symerror: 0.158138}, {label: v2 hi sys, symerror: 0.224297}]}
+      - {value: -0.014241, errors: [{label: stat, symerror: 0.0783421}, {label: v2 lo sys, symerror: -0.0258776}, {label: v2 hi sys, symerror: 0.00934165}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -3.375}
+    values:
+      - {value: 0.0182845, errors: [{label: stat, symerror: 0.0775746}, {label: v2 lo sys, symerror: 0.0272654}, {label: v2 hi sys, symerror: 0.0216992}]}
+      - {value: 0.0327232, errors: [{label: stat, symerror: 0.0767704}, {label: v2 lo sys, symerror: 0.066483}, {label: v2 hi sys, symerror: 0.0113942}]}
+      - {value: 0.0198716, errors: [{label: stat, symerror: 0.0794104}, {label: v2 lo sys, symerror: 0.0765242}, {label: v2 hi sys, symerror: -0.0243174}]}
+      - {value: 0.0846861, errors: [{label: stat, symerror: 0.0795775}, {label: v2 lo sys, symerror: 0.15886}, {label: v2 hi sys, symerror: 0.0230008}]}
+      - {value: 0.302119, errors: [{label: stat, symerror: 0.0825474}, {label: v2 lo sys, symerror: 0.385775}, {label: v2 hi sys, symerror: 0.230964}]}
+      - {value: 0.259102, errors: [{label: stat, symerror: 0.0792159}, {label: v2 lo sys, symerror: 0.342759}, {label: v2 hi sys, symerror: 0.187948}]}
+      - {value: 0.249616, errors: [{label: stat, symerror: 0.082908}, {label: v2 lo sys, symerror: 0.32379}, {label: v2 hi sys, symerror: 0.187931}]}
+      - {value: 0.0602164, errors: [{label: stat, symerror: 0.0827593}, {label: v2 lo sys, symerror: 0.116869}, {label: v2 hi sys, symerror: 0.0160274}]}
+      - {value: 0.0559648, errors: [{label: stat, symerror: 0.0783388}, {label: v2 lo sys, symerror: 0.0897246}, {label: v2 hi sys, symerror: 0.0346359}]}
+      - {value: 0.0316653, errors: [{label: stat, symerror: 0.0774896}, {label: v2 lo sys, symerror: 0.0406462}, {label: v2 hi sys, symerror: 0.0350799}]}
+      - {value: 0.0321616, errors: [{label: stat, symerror: 0.0799997}, {label: v2 lo sys, symerror: 0.0182497}, {label: v2 hi sys, symerror: 0.0584363}]}
+      - {value: 0.00944215, errors: [{label: stat, symerror: 0.0788025}, {label: v2 lo sys, symerror: -0.0219911}, {label: v2 hi sys, symerror: 0.0532132}]}
+      - {value: 0.254293, errors: [{label: stat, symerror: 0.077769}, {label: v2 lo sys, symerror: 0.213377}, {label: v2 hi sys, symerror: 0.307533}]}
+      - {value: 0.313732, errors: [{label: stat, symerror: 0.0779672}, {label: v2 lo sys, symerror: 0.272816}, {label: v2 hi sys, symerror: 0.366972}]}
+      - {value: 0.26759, errors: [{label: stat, symerror: 0.0802481}, {label: v2 lo sys, symerror: 0.236157}, {label: v2 hi sys, symerror: 0.311361}]}
+      - {value: 0.439492, errors: [{label: stat, symerror: 0.0782865}, {label: v2 lo sys, symerror: 0.42558}, {label: v2 hi sys, symerror: 0.465767}]}
+      - {value: 0.384483, errors: [{label: stat, symerror: 0.0777213}, {label: v2 lo sys, symerror: 0.393464}, {label: v2 hi sys, symerror: 0.387897}]}
+      - {value: 0.441892, errors: [{label: stat, symerror: 0.0770937}, {label: v2 lo sys, symerror: 0.475652}, {label: v2 hi sys, symerror: 0.420563}]}
+      - {value: 0.45916, errors: [{label: stat, symerror: 0.07965}, {label: v2 lo sys, symerror: 0.515812}, {label: v2 hi sys, symerror: 0.414971}]}
+      - {value: 0.464672, errors: [{label: stat, symerror: 0.0797372}, {label: v2 lo sys, symerror: 0.538846}, {label: v2 hi sys, symerror: 0.402986}]}
+      - {value: 0.425087, errors: [{label: stat, symerror: 0.0826966}, {label: v2 lo sys, symerror: 0.508743}, {label: v2 hi sys, symerror: 0.353932}]}
+      - {value: 0.37761, errors: [{label: stat, symerror: 0.0793331}, {label: v2 lo sys, symerror: 0.461266}, {label: v2 hi sys, symerror: 0.306456}]}
+      - {value: 0.462315, errors: [{label: stat, symerror: 0.0829165}, {label: v2 lo sys, symerror: 0.536489}, {label: v2 hi sys, symerror: 0.40063}]}
+      - {value: 0.390189, errors: [{label: stat, symerror: 0.0829088}, {label: v2 lo sys, symerror: 0.446841}, {label: v2 hi sys, symerror: 0.346}]}
+      - {value: 0.399772, errors: [{label: stat, symerror: 0.0784885}, {label: v2 lo sys, symerror: 0.433532}, {label: v2 hi sys, symerror: 0.378443}]}
+      - {value: 0.470711, errors: [{label: stat, symerror: 0.0777824}, {label: v2 lo sys, symerror: 0.479692}, {label: v2 hi sys, symerror: 0.474126}]}
+      - {value: 0.403031, errors: [{label: stat, symerror: 0.0801621}, {label: v2 lo sys, symerror: 0.389119}, {label: v2 hi sys, symerror: 0.429305}]}
+      - {value: 0.341138, errors: [{label: stat, symerror: 0.079025}, {label: v2 lo sys, symerror: 0.309705}, {label: v2 hi sys, symerror: 0.384909}]}
+      - {value: 0.234865, errors: [{label: stat, symerror: 0.077822}, {label: v2 lo sys, symerror: 0.193949}, {label: v2 hi sys, symerror: 0.288105}]}
+      - {value: 0.0986664, errors: [{label: stat, symerror: 0.0778225}, {label: v2 lo sys, symerror: 0.0577508}, {label: v2 hi sys, symerror: 0.151906}]}
+      - {value: 0.0049492, errors: [{label: stat, symerror: 0.0802151}, {label: v2 lo sys, symerror: -0.026484}, {label: v2 hi sys, symerror: 0.0487202}]}
+      - {value: 0.110297, errors: [{label: stat, symerror: 0.0782079}, {label: v2 lo sys, symerror: 0.096385}, {label: v2 hi sys, symerror: 0.136572}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -3.125}
+    values:
+      - {value: 0.127111, errors: [{label: stat, symerror: 0.0795659}, {label: v2 lo sys, symerror: 0.13649}, {label: v2 hi sys, symerror: 0.130246}]}
+      - {value: 0.0986862, errors: [{label: stat, symerror: 0.0781585}, {label: v2 lo sys, symerror: 0.135616}, {label: v2 hi sys, symerror: 0.0743067}]}
+      - {value: 0.167289, errors: [{label: stat, symerror: 0.0817728}, {label: v2 lo sys, symerror: 0.229672}, {label: v2 hi sys, symerror: 0.11749}]}
+      - {value: 0.165263, errors: [{label: stat, symerror: 0.0810242}, {label: v2 lo sys, symerror: 0.247128}, {label: v2 hi sys, symerror: 0.0960078}]}
+      - {value: 0.208464, errors: [{label: stat, symerror: 0.0834498}, {label: v2 lo sys, symerror: 0.300872}, {label: v2 hi sys, symerror: 0.12868}]}
+      - {value: 0.403038, errors: [{label: stat, symerror: 0.0811738}, {label: v2 lo sys, symerror: 0.495446}, {label: v2 hi sys, symerror: 0.323254}]}
+      - {value: 0.278291, errors: [{label: stat, symerror: 0.0845421}, {label: v2 lo sys, symerror: 0.360156}, {label: v2 hi sys, symerror: 0.209036}]}
+      - {value: 0.18215, errors: [{label: stat, symerror: 0.0847488}, {label: v2 lo sys, symerror: 0.244533}, {label: v2 hi sys, symerror: 0.132351}]}
+      - {value: 0.049789, errors: [{label: stat, symerror: 0.080355}, {label: v2 lo sys, symerror: 0.0867187}, {label: v2 hi sys, symerror: 0.0254095}]}
+      - {value: -0.0390552, errors: [{label: stat, symerror: 0.07896}, {label: v2 lo sys, symerror: -0.0296763}, {label: v2 hi sys, symerror: -0.0359202}]}
+      - {value: 0.0221729, errors: [{label: stat, symerror: 0.082596}, {label: v2 lo sys, symerror: 0.00609815}, {label: v2 hi sys, symerror: 0.050728}]}
+      - {value: 0.11299, errors: [{label: stat, symerror: 0.0820594}, {label: v2 lo sys, symerror: 0.077434}, {label: v2 hi sys, symerror: 0.161001}]}
+      - {value: 0.0785786, errors: [{label: stat, symerror: 0.0799173}, {label: v2 lo sys, symerror: 0.0324793}, {label: v2 hi sys, symerror: 0.137119}]}
+      - {value: 0.385946, errors: [{label: stat, symerror: 0.0807346}, {label: v2 lo sys, symerror: 0.339847}, {label: v2 hi sys, symerror: 0.444486}]}
+      - {value: 0.215992, errors: [{label: stat, symerror: 0.0821492}, {label: v2 lo sys, symerror: 0.180436}, {label: v2 hi sys, symerror: 0.264002}]}
+      - {value: 0.356119, errors: [{label: stat, symerror: 0.0803801}, {label: v2 lo sys, symerror: 0.340044}, {label: v2 hi sys, symerror: 0.384674}]}
+      - {value: 0.537162, errors: [{label: stat, symerror: 0.0798245}, {label: v2 lo sys, symerror: 0.546541}, {label: v2 hi sys, symerror: 0.540297}]}
+      - {value: 0.4191, errors: [{label: stat, symerror: 0.0782797}, {label: v2 lo sys, symerror: 0.45603}, {label: v2 hi sys, symerror: 0.394721}]}
+      - {value: 0.546203, errors: [{label: stat, symerror: 0.0819803}, {label: v2 lo sys, symerror: 0.608587}, {label: v2 hi sys, symerror: 0.496404}]}
+      - {value: 0.516054, errors: [{label: stat, symerror: 0.0812103}, {label: v2 lo sys, symerror: 0.597918}, {label: v2 hi sys, symerror: 0.446799}]}
+      - {value: 0.349307, errors: [{label: stat, symerror: 0.0835335}, {label: v2 lo sys, symerror: 0.441715}, {label: v2 hi sys, symerror: 0.269522}]}
+      - {value: 0.453099, errors: [{label: stat, symerror: 0.081161}, {label: v2 lo sys, symerror: 0.545507}, {label: v2 hi sys, symerror: 0.373315}]}
+      - {value: 0.467527, errors: [{label: stat, symerror: 0.0846156}, {label: v2 lo sys, symerror: 0.549392}, {label: v2 hi sys, symerror: 0.398272}]}
+      - {value: 0.349896, errors: [{label: stat, symerror: 0.0847}, {label: v2 lo sys, symerror: 0.412279}, {label: v2 hi sys, symerror: 0.300096}]}
+      - {value: 0.418428, errors: [{label: stat, symerror: 0.0805399}, {label: v2 lo sys, symerror: 0.455357}, {label: v2 hi sys, symerror: 0.394048}]}
+      - {value: 0.56295, errors: [{label: stat, symerror: 0.0793849}, {label: v2 lo sys, symerror: 0.572329}, {label: v2 hi sys, symerror: 0.566085}]}
+      - {value: 0.477031, errors: [{label: stat, symerror: 0.0827738}, {label: v2 lo sys, symerror: 0.460957}, {label: v2 hi sys, symerror: 0.505586}]}
+      - {value: 0.409007, errors: [{label: stat, symerror: 0.0821596}, {label: v2 lo sys, symerror: 0.373451}, {label: v2 hi sys, symerror: 0.457018}]}
+      - {value: 0.273117, errors: [{label: stat, symerror: 0.0800925}, {label: v2 lo sys, symerror: 0.227017}, {label: v2 hi sys, symerror: 0.331657}]}
+      - {value: 0.268826, errors: [{label: stat, symerror: 0.0804605}, {label: v2 lo sys, symerror: 0.222726}, {label: v2 hi sys, symerror: 0.327366}]}
+      - {value: 0.0791789, errors: [{label: stat, symerror: 0.0822585}, {label: v2 lo sys, symerror: 0.0436228}, {label: v2 hi sys, symerror: 0.12719}]}
+      - {value: 0.0643727, errors: [{label: stat, symerror: 0.080313}, {label: v2 lo sys, symerror: 0.048298}, {label: v2 hi sys, symerror: 0.0929278}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -2.875}
+    values:
+      - {value: 0.113819, errors: [{label: stat, symerror: 0.082501}, {label: v2 lo sys, symerror: 0.123657}, {label: v2 hi sys, symerror: 0.116317}]}
+      - {value: 0.0899519, errors: [{label: stat, symerror: 0.080218}, {label: v2 lo sys, symerror: 0.12993}, {label: v2 hi sys, symerror: 0.0623469}]}
+      - {value: 0.199658, errors: [{label: stat, symerror: 0.0844891}, {label: v2 lo sys, symerror: 0.267481}, {label: v2 hi sys, symerror: 0.144241}]}
+      - {value: 0.15507, errors: [{label: stat, symerror: 0.0829779}, {label: v2 lo sys, symerror: 0.244205}, {label: v2 hi sys, symerror: 0.0783662}]}
+      - {value: 0.184533, errors: [{label: stat, symerror: 0.0847462}, {label: v2 lo sys, symerror: 0.285202}, {label: v2 hi sys, symerror: 0.096309}]}
+      - {value: 0.220415, errors: [{label: stat, symerror: 0.0835816}, {label: v2 lo sys, symerror: 0.321084}, {label: v2 hi sys, symerror: 0.132191}]}
+      - {value: 0.274447, errors: [{label: stat, symerror: 0.0878731}, {label: v2 lo sys, symerror: 0.363582}, {label: v2 hi sys, symerror: 0.197743}]}
+      - {value: 0.0408567, errors: [{label: stat, symerror: 0.0863535}, {label: v2 lo sys, symerror: 0.10868}, {label: v2 hi sys, symerror: -0.0145605}]}
+      - {value: 0.156773, errors: [{label: stat, symerror: 0.0853817}, {label: v2 lo sys, symerror: 0.196751}, {label: v2 hi sys, symerror: 0.129168}]}
+      - {value: 0.126413, errors: [{label: stat, symerror: 0.0815032}, {label: v2 lo sys, symerror: 0.136251}, {label: v2 hi sys, symerror: 0.128911}]}
+      - {value: -0.0025888, errors: [{label: stat, symerror: 0.084722}, {label: v2 lo sys, symerror: -0.0205953}, {label: v2 hi sys, symerror: 0.0277221}]}
+      - {value: 0.169152, errors: [{label: stat, symerror: 0.0910194}, {label: v2 lo sys, symerror: 0.129834}, {label: v2 hi sys, symerror: 0.220749}]}
+      - {value: 0.0282149, errors: [{label: stat, symerror: 0.0871015}, {label: v2 lo sys, symerror: -0.0226373}, {label: v2 hi sys, symerror: 0.0913324}]}
+      - {value: 0.251264, errors: [{label: stat, symerror: 0.0869277}, {label: v2 lo sys, symerror: 0.200412}, {label: v2 hi sys, symerror: 0.314382}]}
+      - {value: 0.371673, errors: [{label: stat, symerror: 0.0881172}, {label: v2 lo sys, symerror: 0.332354}, {label: v2 hi sys, symerror: 0.42327}]}
+      - {value: 0.687216, errors: [{label: stat, symerror: 0.0818559}, {label: v2 lo sys, symerror: 0.66921}, {label: v2 hi sys, symerror: 0.717527}]}
+      - {value: 0.530116, errors: [{label: stat, symerror: 0.0827354}, {label: v2 lo sys, symerror: 0.539955}, {label: v2 hi sys, symerror: 0.532615}]}
+      - {value: 0.594323, errors: [{label: stat, symerror: 0.0804178}, {label: v2 lo sys, symerror: 0.634302}, {label: v2 hi sys, symerror: 0.566718}]}
+      - {value: 0.526899, errors: [{label: stat, symerror: 0.0847144}, {label: v2 lo sys, symerror: 0.594722}, {label: v2 hi sys, symerror: 0.471482}]}
+      - {value: 0.623779, errors: [{label: stat, symerror: 0.0833369}, {label: v2 lo sys, symerror: 0.712914}, {label: v2 hi sys, symerror: 0.547075}]}
+      - {value: 0.464786, errors: [{label: stat, symerror: 0.084741}, {label: v2 lo sys, symerror: 0.565455}, {label: v2 hi sys, symerror: 0.376562}]}
+      - {value: 0.558806, errors: [{label: stat, symerror: 0.0837362}, {label: v2 lo sys, symerror: 0.659474}, {label: v2 hi sys, symerror: 0.470582}]}
+      - {value: 0.522966, errors: [{label: stat, symerror: 0.0880036}, {label: v2 lo sys, symerror: 0.612101}, {label: v2 hi sys, symerror: 0.446263}]}
+      - {value: 0.461395, errors: [{label: stat, symerror: 0.0867481}, {label: v2 lo sys, symerror: 0.529219}, {label: v2 hi sys, symerror: 0.405978}]}
+      - {value: 0.548211, errors: [{label: stat, symerror: 0.0855134}, {label: v2 lo sys, symerror: 0.588189}, {label: v2 hi sys, symerror: 0.520606}]}
+      - {value: 0.525272, errors: [{label: stat, symerror: 0.0817255}, {label: v2 lo sys, symerror: 0.535111}, {label: v2 hi sys, symerror: 0.527771}]}
+      - {value: 0.466286, errors: [{label: stat, symerror: 0.0850155}, {label: v2 lo sys, symerror: 0.44828}, {label: v2 hi sys, symerror: 0.496597}]}
+      - {value: 0.538126, errors: [{label: stat, symerror: 0.0913262}, {label: v2 lo sys, symerror: 0.498808}, {label: v2 hi sys, symerror: 0.589723}]}
+      - {value: 0.383137, errors: [{label: stat, symerror: 0.0874263}, {label: v2 lo sys, symerror: 0.332284}, {label: v2 hi sys, symerror: 0.446254}]}
+      - {value: 0.199685, errors: [{label: stat, symerror: 0.0870398}, {label: v2 lo sys, symerror: 0.148833}, {label: v2 hi sys, symerror: 0.262803}]}
+      - {value: 0.12299, errors: [{label: stat, symerror: 0.0879524}, {label: v2 lo sys, symerror: 0.0836721}, {label: v2 hi sys, symerror: 0.174588}]}
+      - {value: 0.0785742, errors: [{label: stat, symerror: 0.0815336}, {label: v2 lo sys, symerror: 0.0605677}, {label: v2 hi sys, symerror: 0.108885}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -2.625}
+    values:
+      - {value: 0.000517016, errors: [{label: stat, symerror: 0.0837551}, {label: v2 lo sys, symerror: 0.0109285}, {label: v2 hi sys, symerror: 0.00200806}]}
+      - {value: -0.0251239, errors: [{label: stat, symerror: 0.0807472}, {label: v2 lo sys, symerror: 0.0177852}, {label: v2 hi sys, symerror: -0.0560971}]}
+      - {value: 0.0471624, errors: [{label: stat, symerror: 0.0856028}, {label: v2 lo sys, symerror: 0.120095}, {label: v2 hi sys, symerror: -0.0138039}]}
+      - {value: 0.291132, errors: [{label: stat, symerror: 0.0843792}, {label: v2 lo sys, symerror: 0.387044}, {label: v2 hi sys, symerror: 0.20721}]}
+      - {value: 0.191027, errors: [{label: stat, symerror: 0.0846127}, {label: v2 lo sys, symerror: 0.299375}, {label: v2 hi sys, symerror: 0.0946814}]}
+      - {value: 0.282767, errors: [{label: stat, symerror: 0.0841266}, {label: v2 lo sys, symerror: 0.391116}, {label: v2 hi sys, symerror: 0.186422}]}
+      - {value: 0.324553, errors: [{label: stat, symerror: 0.0888167}, {label: v2 lo sys, symerror: 0.420465}, {label: v2 hi sys, symerror: 0.240631}]}
+      - {value: 0.261469, errors: [{label: stat, symerror: 0.0881188}, {label: v2 lo sys, symerror: 0.334402}, {label: v2 hi sys, symerror: 0.200503}]}
+      - {value: -0.143968, errors: [{label: stat, symerror: 0.091781}, {label: v2 lo sys, symerror: -0.101059}, {label: v2 hi sys, symerror: -0.174941}]}
+      - {value: 0.0888736, errors: [{label: stat, symerror: 0.0823479}, {label: v2 lo sys, symerror: 0.099285}, {label: v2 hi sys, symerror: 0.0903646}]}
+      - {value: -0.0200552, errors: [{label: stat, symerror: 0.0849919}, {label: v2 lo sys, symerror: -0.0396676}, {label: v2 hi sys, symerror: 0.0114289}]}
+      - {value: 0.22742, errors: [{label: stat, symerror: 0.0974199}, {label: v2 lo sys, symerror: 0.184829}, {label: v2 hi sys, symerror: 0.28186}]}
+      - {value: 0.305147, errors: [{label: stat, symerror: 0.0899183}, {label: v2 lo sys, symerror: 0.250119}, {label: v2 hi sys, symerror: 0.37201}]}
+      - {value: 0.321696, errors: [{label: stat, symerror: 0.0905158}, {label: v2 lo sys, symerror: 0.266668}, {label: v2 hi sys, symerror: 0.388559}]}
+      - {value: 0.411805, errors: [{label: stat, symerror: 0.0907915}, {label: v2 lo sys, symerror: 0.369213}, {label: v2 hi sys, symerror: 0.466245}]}
+      - {value: 0.410925, errors: [{label: stat, symerror: 0.0809615}, {label: v2 lo sys, symerror: 0.391312}, {label: v2 hi sys, symerror: 0.442409}]}
+      - {value: 0.440256, errors: [{label: stat, symerror: 0.083945}, {label: v2 lo sys, symerror: 0.450667}, {label: v2 hi sys, symerror: 0.441747}]}
+      - {value: 0.462619, errors: [{label: stat, symerror: 0.0810707}, {label: v2 lo sys, symerror: 0.505528}, {label: v2 hi sys, symerror: 0.431646}]}
+      - {value: 0.341474, errors: [{label: stat, symerror: 0.0857898}, {label: v2 lo sys, symerror: 0.414407}, {label: v2 hi sys, symerror: 0.280508}]}
+      - {value: 0.614246, errors: [{label: stat, symerror: 0.0847286}, {label: v2 lo sys, symerror: 0.710158}, {label: v2 hi sys, symerror: 0.530324}]}
+      - {value: 0.379019, errors: [{label: stat, symerror: 0.0845774}, {label: v2 lo sys, symerror: 0.487368}, {label: v2 hi sys, symerror: 0.282674}]}
+      - {value: 0.579677, errors: [{label: stat, symerror: 0.0843606}, {label: v2 lo sys, symerror: 0.688026}, {label: v2 hi sys, symerror: 0.483332}]}
+      - {value: 0.561885, errors: [{label: stat, symerror: 0.0889198}, {label: v2 lo sys, symerror: 0.657797}, {label: v2 hi sys, symerror: 0.477963}]}
+      - {value: 0.503578, errors: [{label: stat, symerror: 0.0882878}, {label: v2 lo sys, symerror: 0.576511}, {label: v2 hi sys, symerror: 0.442612}]}
+      - {value: 0.428668, errors: [{label: stat, symerror: 0.0917769}, {label: v2 lo sys, symerror: 0.471577}, {label: v2 hi sys, symerror: 0.397695}]}
+      - {value: 0.546426, errors: [{label: stat, symerror: 0.082638}, {label: v2 lo sys, symerror: 0.556837}, {label: v2 hi sys, symerror: 0.547917}]}
+      - {value: 0.51495, errors: [{label: stat, symerror: 0.0852899}, {label: v2 lo sys, symerror: 0.495337}, {label: v2 hi sys, symerror: 0.546434}]}
+      - {value: 0.516616, errors: [{label: stat, symerror: 0.0978056}, {label: v2 lo sys, symerror: 0.474024}, {label: v2 hi sys, symerror: 0.571056}]}
+      - {value: 0.463573, errors: [{label: stat, symerror: 0.0900899}, {label: v2 lo sys, symerror: 0.408545}, {label: v2 hi sys, symerror: 0.530436}]}
+      - {value: 0.305239, errors: [{label: stat, symerror: 0.0906938}, {label: v2 lo sys, symerror: 0.250211}, {label: v2 hi sys, symerror: 0.372102}]}
+      - {value: 0.121291, errors: [{label: stat, symerror: 0.0906504}, {label: v2 lo sys, symerror: 0.0786995}, {label: v2 hi sys, symerror: 00.175731}]}
+      - {value: -0.108437, errors: [{label: stat, symerror: 0.0806479}, {label: v2 lo sys, symerror: -0.128049}, {label: v2 hi sys, symerror: -0.0769528}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -2.375}
+    values:
+      - {value: -0.0919988, errors: [{label: stat, symerror: 0.084873}, {label: v2 lo sys, symerror: -0.0808592}, {label: v2 hi sys, symerror: -0.0918651}]}
+      - {value: -0.0236178, errors: [{label: stat, symerror: 0.0827122}, {label: v2 lo sys, symerror: 0.0221269}, {label: v2 hi sys, symerror: -0.0580597}]}
+      - {value: 0.155681, errors: [{label: stat, symerror: 0.0871012}, {label: v2 lo sys, symerror: 0.233396}, {label: v2 hi sys, symerror: 0.089295}]}
+      - {value: 0.193184, errors: [{label: stat, symerror: 0.0871599}, {label: v2 lo sys, symerror: 0.29537}, {label: v2 hi sys, symerror: 0.10235}]}
+      - {value: 0.273337, errors: [{label: stat, symerror: 0.0873032}, {label: v2 lo sys, symerror: 0.388765}, {label: v2 hi sys, symerror: 0.169271}]}
+      - {value: 0.309481, errors: [{label: stat, symerror: 0.0889923}, {label: v2 lo sys, symerror: 0.424909}, {label: v2 hi sys, symerror: 0.205415}]}
+      - {value: 0.319597, errors: [{label: stat, symerror: 0.0909445}, {label: v2 lo sys, symerror: 0.421783}, {label: v2 hi sys, symerror: 0.228763}]}
+      - {value: 0.129443, errors: [{label: stat, symerror: 0.0881554}, {label: v2 lo sys, symerror: 0.207159}, {label: v2 hi sys, symerror: 0.0630578}]}
+      - {value: -0.0751442, errors: [{label: stat, symerror: 0.100703}, {label: v2 lo sys, symerror: -0.0293995}, {label: v2 hi sys, symerror: -0.109586}]}
+      - {value: 0.00146268, errors: [{label: stat, symerror: 0.0858735}, {label: v2 lo sys, symerror: 0.0126023}, {label: v2 hi sys, symerror: 0.00159638}]}
+      - {value: 0.0382079, errors: [{label: stat, symerror: 0.0854854}, {label: v2 lo sys, symerror: 0.0173765}, {label: v2 hi sys, symerror: 0.0702853}]}
+      - {value: 0.173255, errors: [{label: stat, symerror: 0.0955838}, {label: v2 lo sys, symerror: 0.127954}, {label: v2 hi sys, symerror: 0.229781}]}
+      - {value: 0.239538, errors: [{label: stat, symerror: 0.0901431}, {label: v2 lo sys, symerror: 0.180994}, {label: v2 hi sys, symerror: 0.309296}]}
+      - {value: 0.304335, errors: [{label: stat, symerror: 0.0915854}, {label: v2 lo sys, symerror: 0.245792}, {label: v2 hi sys, symerror: 0.374093}]}
+      - {value: 0.422388, errors: [{label: stat, symerror: 0.0916251}, {label: v2 lo sys, symerror: 0.377087}, {label: v2 hi sys, symerror: 0.478914}]}
+      - {value: 0.453721, errors: [{label: stat, symerror: 0.0817466}, {label: v2 lo sys, symerror: 0.43289}, {label: v2 hi sys, symerror: 0.485798}]}
+      - {value: 0.577892, errors: [{label: stat, symerror: 0.0851699}, {label: v2 lo sys, symerror: 0.589032}, {label: v2 hi sys, symerror: 0.578026}]}
+      - {value: 0.600797, errors: [{label: stat, symerror: 0.0830443}, {label: v2 lo sys, symerror: 0.646542}, {label: v2 hi sys, symerror: 0.566355}]}
+      - {value: 0.425537, errors: [{label: stat, symerror: 0.0872608}, {label: v2 lo sys, symerror: 0.503253}, {label: v2 hi sys, symerror: 0.359152}]}
+      - {value: 0.588293, errors: [{label: stat, symerror: 0.0873901}, {label: v2 lo sys, symerror: 0.690479}, {label: v2 hi sys, symerror: 0.497459}]}
+      - {value: 0.610715, errors: [{label: stat, symerror: 0.087269}, {label: v2 lo sys, symerror: 0.726143}, {label: v2 hi sys, symerror: 0.506649}]}
+      - {value: 0.593334, errors: [{label: stat, symerror: 0.0890615}, {label: v2 lo sys, symerror: 0.708762}, {label: v2 hi sys, symerror: 0.489268}]}
+      - {value: 0.788807, errors: [{label: stat, symerror: 0.0911776}, {label: v2 lo sys, symerror: 0.890993}, {label: v2 hi sys, symerror: 0.697973}]}
+      - {value: 0.566007, errors: [{label: stat, symerror: 0.0882515}, {label: v2 lo sys, symerror: 0.643722}, {label: v2 hi sys, symerror: 0.499621}]}
+      - {value: 0.697534, errors: [{label: stat, symerror: 0.100831}, {label: v2 lo sys, symerror: 0.743279}, {label: v2 hi sys, symerror: 0.663093}]}
+      - {value: 0.695329, errors: [{label: stat, symerror: 0.0862893}, {label: v2 lo sys, symerror: 0.706468}, {label: v2 hi sys, symerror: 0.695462}]}
+      - {value: 0.56388, errors: [{label: stat, symerror: 0.0858081}, {label: v2 lo sys, symerror: 0.543048}, {label: v2 hi sys, symerror: 0.595957}]}
+      - {value: 0.335156, errors: [{label: stat, symerror: 0.0957021}, {label: v2 lo sys, symerror: 0.289855}, {label: v2 hi sys, symerror: 0.391682}]}
+      - {value: 0.265961, errors: [{label: stat, symerror: 0.090228}, {label: v2 lo sys, symerror: 0.207417}, {label: v2 hi sys, symerror: 0.335718}]}
+      - {value: 0.345317, errors: [{label: stat, symerror: 0.0917791}, {label: v2 lo sys, symerror: 0.286773}, {label: v2 hi sys, symerror: 0.415074}]}
+      - {value: 0.225038, errors: [{label: stat, symerror: 0.0915174}, {label: v2 lo sys, symerror: 0.179737}, {label: v2 hi sys, symerror: 0.281564}]}
+      - {value: 0.0877306, errors: [{label: stat, symerror: 0.0816286}, {label: v2 lo sys, symerror: 0.0668992}, {label: v2 hi sys, symerror: 0.119808}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -2.125}
+    values:
+      - {value: 0.0617017, errors: [{label: stat, symerror: 0.0850268}, {label: v2 lo sys, symerror: 0.0737529}, {label: v2 hi sys, symerror: 0.0601828}]}
+      - {value: 0.146602, errors: [{label: stat, symerror: 0.0831781}, {label: v2 lo sys, symerror: 0.19512}, {label: v2 hi sys, symerror: 0.108641}]}
+      - {value: 0.235827, errors: [{label: stat, symerror: 0.0878045}, {label: v2 lo sys, symerror: 0.318036}, {label: v2 hi sys, symerror: 0.164198}]}
+      - {value: 0.295258, errors: [{label: stat, symerror: 0.0945213}, {label: v2 lo sys, symerror: 0.403252}, {label: v2 hi sys, symerror: 0.19786}]}
+      - {value: 0.312621, errors: [{label: stat, symerror: 0.0948746}, {label: v2 lo sys, symerror: 0.434571}, {label: v2 hi sys, symerror: 0.201278}]}
+      - {value: 0.235952, errors: [{label: stat, symerror: 0.0975883}, {label: v2 lo sys, symerror: 0.357902}, {label: v2 hi sys, symerror: 0.124609}]}
+      - {value: 0.240087, errors: [{label: stat, symerror: 0.0979483}, {label: v2 lo sys, symerror: 0.348082}, {label: v2 hi sys, symerror: 0.142689}]}
+      - {value: 0.01624, errors: [{label: stat, symerror: 0.0888282}, {label: v2 lo sys, symerror: 0.0984487}, {label: v2 hi sys, symerror: -0.0553893}]}
+      - {value: 0.152496, errors: [{label: stat, symerror: 0.104824}, {label: v2 lo sys, symerror: 0.201014}, {label: v2 hi sys, symerror: 0.114535}]}
+      - {value: 0.0250497, errors: [{label: stat, symerror: 0.0884313}, {label: v2 lo sys, symerror: 0.0371009}, {label: v2 hi sys, symerror: 0.0235308}]}
+      - {value: 0.144249, errors: [{label: stat, symerror: 0.0857235}, {label: v2 lo sys, symerror: 0.12261}, {label: v2 hi sys, symerror: 0.176398}]}
+      - {value: 0.0413846, errors: [{label: stat, symerror: 0.0885872}, {label: v2 lo sys, symerror: -0.00604071}, {label: v2 hi sys, symerror: 0.0993026}]}
+      - {value: 0.356546, errors: [{label: stat, symerror: 0.0844473}, {label: v2 lo sys, symerror: 0.295165}, {label: v2 hi sys, symerror: 0.42841}]}
+      - {value: 0.376486, errors: [{label: stat, symerror: 0.0857048}, {label: v2 lo sys, symerror: 0.315106}, {label: v2 hi sys, symerror: 0.44835}]}
+      - {value: 0.432902, errors: [{label: stat, symerror: 0.087402}, {label: v2 lo sys, symerror: 0.385477}, {label: v2 hi sys, symerror: 0.49082}]}
+      - {value: 0.516982, errors: [{label: stat, symerror: 0.082223}, {label: v2 lo sys, symerror: 0.495342}, {label: v2 hi sys, symerror: 0.549131}]}
+      - {value: 0.428656, errors: [{label: stat, symerror: 0.0852126}, {label: v2 lo sys, symerror: 0.440708}, {label: v2 hi sys, symerror: 0.427138}]}
+      - {value: 0.670148, errors: [{label: stat, symerror: 0.0833477}, {label: v2 lo sys, symerror: 0.718666}, {label: v2 hi sys, symerror: 0.632187}]}
+      - {value: 0.493736, errors: [{label: stat, symerror: 0.0881642}, {label: v2 lo sys, symerror: 0.575944}, {label: v2 hi sys, symerror: 0.422106}]}
+      - {value: 0.593606, errors: [{label: stat, symerror: 0.0947699}, {label: v2 lo sys, symerror: 0.7016}, {label: v2 hi sys, symerror: 0.496208}]}
+      - {value: 0.41784, errors: [{label: stat, symerror: 0.0947463}, {label: v2 lo sys, symerror: 0.53979}, {label: v2 hi sys, symerror: 0.306496}]}
+      - {value: 0.440656, errors: [{label: stat, symerror: 0.0974616}, {label: v2 lo sys, symerror: 0.562606}, {label: v2 hi sys, symerror: 0.329312}]}
+      - {value: 0.590482, errors: [{label: stat, symerror: 0.0982086}, {label: v2 lo sys, symerror: 0.698476}, {label: v2 hi sys, symerror: 0.493084}]}
+      - {value: 0.728132, errors: [{label: stat, symerror: 0.0892488}, {label: v2 lo sys, symerror: 0.810341}, {label: v2 hi sys, symerror: 0.656503}]}
+      - {value: 0.497388, errors: [{label: stat, symerror: 0.104919}, {label: v2 lo sys, symerror: 0.545906}, {label: v2 hi sys, symerror: 0.459427}]}
+      - {value: 0.66272, errors: [{label: stat, symerror: 0.0886451}, {label: v2 lo sys, symerror: 0.674771}, {label: v2 hi sys, symerror: 0.661201}]}
+      - {value: 0.454877, errors: [{label: stat, symerror: 0.0858527}, {label: v2 lo sys, symerror: 0.433237}, {label: v2 hi sys, symerror: 0.487026}]}
+      - {value: 0.403011, errors: [{label: stat, symerror: 0.0888707}, {label: v2 lo sys, symerror: 0.355585}, {label: v2 hi sys, symerror: 0.460929}]}
+      - {value: 0.346461, errors: [{label: stat, symerror: 0.0845092}, {label: v2 lo sys, symerror: 0.28508}, {label: v2 hi sys, symerror: 0.418324}]}
+      - {value: 0.260878, errors: [{label: stat, symerror: 0.0857207}, {label: v2 lo sys, symerror: 0.199498}, {label: v2 hi sys, symerror: 0.332742}]}
+      - {value: 0.0754991, errors: [{label: stat, symerror: 0.0872905}, {label: v2 lo sys, symerror: 0.0280738}, {label: v2 hi sys, symerror: 0.133417}]}
+      - {value: -0.00749283, errors: [{label: stat, symerror: 0.0819868}, {label: v2 lo sys, symerror: -0.0291324}, {label: v2 hi sys, symerror: 0.0246566}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -1.875}
+    values:
+      - {value: -0.0461334, errors: [{label: stat, symerror: 0.0853225}, {label: v2 lo sys, symerror: -0.0329758}, {label: v2 hi sys, symerror: -0.0495199}]}
+      - {value: -0.125439, errors: [{label: stat, symerror: 0.0834323}, {label: v2 lo sys, symerror: -0.0741742}, {label: v2 hi sys, symerror: -0.166913}]}
+      - {value: -0.00983006, errors: [{label: stat, symerror: 0.0878736}, {label: v2 lo sys, symerror: 0.0766402}, {label: v2 hi sys, symerror: -0.0864938}]}
+      - {value: 0.294432, errors: [{label: stat, symerror: 0.106706}, {label: v2 lo sys, symerror: 0.407847}, {label: v2 hi sys, symerror: 0.190835}]}
+      - {value: 0.278349, errors: [{label: stat, symerror: 0.108003}, {label: v2 lo sys, symerror: 0.406347}, {label: v2 hi sys, symerror: 0.160177}]}
+      - {value: 0.276655, errors: [{label: stat, symerror: 0.112032}, {label: v2 lo sys, symerror: 0.404654}, {label: v2 hi sys, symerror: 0.158483}]}
+      - {value: 0.166197, errors: [{label: stat, symerror: 0.11014}, {label: v2 lo sys, symerror: 0.279613}, {label: v2 hi sys, symerror: 0.0626012}]}
+      - {value: 0.10062, errors: [{label: stat, symerror: 0.0885093}, {label: v2 lo sys, symerror: 0.187091}, {label: v2 hi sys, symerror: 0.0239566}]}
+      - {value: -0.0594521, errors: [{label: stat, symerror: 0.102304}, {label: v2 lo sys, symerror: -0.00818782}, {label: v2 hi sys, symerror: -0.100927}]}
+      - {value: -0.0794172, errors: [{label: stat, symerror: 0.0899957}, {label: v2 lo sys, symerror: -0.0662596}, {label: v2 hi sys, symerror: -0.0828037}]}
+      - {value: 0.0566378, errors: [{label: stat, symerror: 0.0849898}, {label: v2 lo sys, symerror: 0.0345895}, {label: v2 hi sys, symerror: 0.0884402}]}
+      - {value: 0.144061, errors: [{label: stat, symerror: 0.0816528}, {label: v2 lo sys, symerror: 0.0950674}, {label: v2 hi sys, symerror: 0.202796}]}
+      - {value: 0.285887, errors: [{label: stat, symerror: 0.0793583}, {label: v2 lo sys, symerror: 0.22231}, {label: v2 hi sys, symerror: 0.359197}]}
+      - {value: 0.391786, errors: [{label: stat, symerror: 0.0804006}, {label: v2 lo sys, symerror: 0.328209}, {label: v2 hi sys, symerror: 0.465096}]}
+      - {value: 0.395035, errors: [{label: stat, symerror: 0.0811781}, {label: v2 lo sys, symerror: 0.346041}, {label: v2 hi sys, symerror: 0.45377}]}
+      - {value: 0.43033, errors: [{label: stat, symerror: 0.0824427}, {label: v2 lo sys, symerror: 0.408282}, {label: v2 hi sys, symerror: 0.462133}]}
+      - {value: 0.609363, errors: [{label: stat, symerror: 0.085631}, {label: v2 lo sys, symerror: 0.622521}, {label: v2 hi sys, symerror: 0.605977}]}
+      - {value: 0.473656, errors: [{label: stat, symerror: 0.0835833}, {label: v2 lo sys, symerror: 0.52492}, {label: v2 hi sys, symerror: 0.432181}]}
+      - {value: 0.515508, errors: [{label: stat, symerror: 0.0884138}, {label: v2 lo sys, symerror: 0.601978}, {label: v2 hi sys, symerror: 0.438844}]}
+      - {value: 0.606208, errors: [{label: stat, symerror: 0.107008}, {label: v2 lo sys, symerror: 0.719624}, {label: v2 hi sys, symerror: 0.502612}]}
+      - {value: 0.429954, errors: [{label: stat, symerror: 0.107903}, {label: v2 lo sys, symerror: 0.557952}, {label: v2 hi sys, symerror: 0.311782}]}
+      - {value: 0.587063, errors: [{label: stat, symerror: 0.111978}, {label: v2 lo sys, symerror: 0.715061}, {label: v2 hi sys, symerror: 0.468891}]}
+      - {value: 0.277049, errors: [{label: stat, symerror: 0.110309}, {label: v2 lo sys, symerror: 0.390465}, {label: v2 hi sys, symerror: 0.173453}]}
+      - {value: 0.546504, errors: [{label: stat, symerror: 0.0888997}, {label: v2 lo sys, symerror: 0.632974}, {label: v2 hi sys, symerror: 0.46984}]}
+      - {value: 0.502176, errors: [{label: stat, symerror: 0.102348}, {label: v2 lo sys, symerror: 0.553441}, {label: v2 hi sys, symerror: 0.460702}]}
+      - {value: 0.57484, errors: [{label: stat, symerror: 0.09029}, {label: v2 lo sys, symerror: 0.587997}, {label: v2 hi sys, symerror: 0.571453}]}
+      - {value: 0.569732, errors: [{label: stat, symerror: 0.0852774}, {label: v2 lo sys, symerror: 0.547683}, {label: v2 hi sys, symerror: 0.601534}]}
+      - {value: 0.42646, errors: [{label: stat, symerror: 0.0818319}, {label: v2 lo sys, symerror: 0.377466}, {label: v2 hi sys, symerror: 0.485195}]}
+      - {value: 0.284461, errors: [{label: stat, symerror: 0.0793771}, {label: v2 lo sys, symerror: 0.220885}, {label: v2 hi sys, symerror: 0.357772}]}
+      - {value: 0.230779, errors: [{label: stat, symerror: 0.0803632}, {label: v2 lo sys, symerror: 0.167202}, {label: v2 hi sys, symerror: 0.304089}]}
+      - {value: 0.0717045, errors: [{label: stat, symerror: 0.0810473}, {label: v2 lo sys, symerror: 0.0227107}, {label: v2 hi sys, symerror: 0.130439}]}
+      - {value: 0.0108604, errors: [{label: stat, symerror: 0.0822859}, {label: v2 lo sys, symerror: -0.0111879}, {label: v2 hi sys, symerror: 0.0426629}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -1.625}
+    values:
+      - {value: -0.0150134, errors: [{label: stat, symerror: 0.0849547}, {label: v2 lo sys, symerror: -0.000561094}, {label: v2 hi sys, symerror: -0.0203861}]}
+      - {value: 0.0648924, errors: [{label: stat, symerror: 0.0832964}, {label: v2 lo sys, symerror: 0.118906}, {label: v2 hi sys, symerror: 0.0199706}]}
+      - {value: 0.0132766, errors: [{label: stat, symerror: 0.0879547}, {label: v2 lo sys, symerror: 0.10384}, {label: v2 hi sys, symerror: -0.0681838}]}
+      - {value: 0.338767, errors: [{label: stat, symerror: 0.123015}, {label: v2 lo sys, symerror: 0.457304}, {label: v2 hi sys, symerror: 0.229341}]}
+      - {value: 0.166196, errors: [{label: stat, symerror: 0.120904}, {label: v2 lo sys, symerror: 0.299872}, {label: v2 hi sys, symerror: 0.0416353}]}
+      - {value: 0.1558, errors: [{label: stat, symerror: 0.126297}, {label: v2 lo sys, symerror: 0.289476}, {label: v2 hi sys, symerror: 0.0312391}]}
+      - {value: 0.260596, errors: [{label: stat, symerror: 0.127039}, {label: v2 lo sys, symerror: 0.379133}, {label: v2 hi sys, symerror: 0.15117}]}
+      - {value: 0.0753187, errors: [{label: stat, symerror: 0.0875782}, {label: v2 lo sys, symerror: 0.165882}, {label: v2 hi sys, symerror: -0.00614174}]}
+      - {value: 0.0652323, errors: [{label: stat, symerror: 0.0989985}, {label: v2 lo sys, symerror: 0.119246}, {label: v2 hi sys, symerror: 0.0203104}]}
+      - {value: -0.0631589, errors: [{label: stat, symerror: 0.0891858}, {label: v2 lo sys, symerror: -0.0487066}, {label: v2 hi sys, symerror: -0.0685316}]}
+      - {value: 0.0889277, errors: [{label: stat, symerror: 0.0839594}, {label: v2 lo sys, symerror: 0.0668303}, {label: v2 hi sys, symerror: 0.120093}]}
+      - {value: 0.288362, errors: [{label: stat, symerror: 0.0797992}, {label: v2 lo sys, symerror: 0.238291}, {label: v2 hi sys, symerror: 0.347493}]}
+      - {value: 0.304422, errors: [{label: stat, symerror: 0.0784198}, {label: v2 lo sys, symerror: 0.239212}, {label: v2 hi sys, symerror: 0.378688}]}
+      - {value: 0.382076, errors: [{label: stat, symerror: 0.079119}, {label: v2 lo sys, symerror: 0.316866}, {label: v2 hi sys, symerror: 0.456342}]}
+      - {value: 0.507134, errors: [{label: stat, symerror: 0.0795688}, {label: v2 lo sys, symerror: 0.457063}, {label: v2 hi sys, symerror: 0.566266}]}
+      - {value: 0.467061, errors: [{label: stat, symerror: 0.0819486}, {label: v2 lo sys, symerror: 0.444964}, {label: v2 hi sys, symerror: 0.498227}]}
+      - {value: 0.413372, errors: [{label: stat, symerror: 0.0851546}, {label: v2 lo sys, symerror: 0.427825}, {label: v2 hi sys, symerror: 0.408}]}
+      - {value: 0.408838, errors: [{label: stat, symerror: 0.0833636}, {label: v2 lo sys, symerror: 0.462852}, {label: v2 hi sys, symerror: 0.363917}]}
+      - {value: 0.587549, errors: [{label: stat, symerror: 0.0884637}, {label: v2 lo sys, symerror: 0.678112}, {label: v2 hi sys, symerror: 0.506088}]}
+      - {value: 0.53189, errors: [{label: stat, symerror: 0.123455}, {label: v2 lo sys, symerror: 0.650427}, {label: v2 hi sys, symerror: 0.422464}]}
+      - {value: 0.645074, errors: [{label: stat, symerror: 0.12118}, {label: v2 lo sys, symerror: 0.77875}, {label: v2 hi sys, symerror: 0.520513}]}
+      - {value: 0.473964, errors: [{label: stat, symerror: 0.126061}, {label: v2 lo sys, symerror: 0.60764}, {label: v2 hi sys, symerror: 0.349403}]}
+      - {value: 0.462569, errors: [{label: stat, symerror: 0.127219}, {label: v2 lo sys, symerror: 0.581105}, {label: v2 hi sys, symerror: 0.353143}]}
+      - {value: 0.419195, errors: [{label: stat, symerror: 0.0879415}, {label: v2 lo sys, symerror: 0.509758}, {label: v2 hi sys, symerror: 0.337734}]}
+      - {value: 0.585333, errors: [{label: stat, symerror: 0.0987615}, {label: v2 lo sys, symerror: 0.639346}, {label: v2 hi sys, symerror: 0.540411}]}
+      - {value: 0.455384, errors: [{label: stat, symerror: 0.0893671}, {label: v2 lo sys, symerror: 0.469836}, {label: v2 hi sys, symerror: 0.450011}]}
+      - {value: 0.447365, errors: [{label: stat, symerror: 0.0841403}, {label: v2 lo sys, symerror: 0.425268}, {label: v2 hi sys, symerror: 0.478531}]}
+      - {value: 0.48052, errors: [{label: stat, symerror: 0.0799059}, {label: v2 lo sys, symerror: 0.430449}, {label: v2 hi sys, symerror: 0.539652}]}
+      - {value: 0.251187, errors: [{label: stat, symerror: 0.0783987}, {label: v2 lo sys, symerror: 0.185976}, {label: v2 hi sys, symerror: 0.325453}]}
+      - {value: 0.382282, errors: [{label: stat, symerror: 0.0791319}, {label: v2 lo sys, symerror: 0.317071}, {label: v2 hi sys, symerror: 0.456548}]}
+      - {value: 0.248406, errors: [{label: stat, symerror: 0.0794492}, {label: v2 lo sys, symerror: 0.198335}, {label: v2 hi sys, symerror: 0.307537}]}
+      - {value: -0.00933284, errors: [{label: stat, symerror: 0.081748}, {label: v2 lo sys, symerror: -0.0314302}, {label: v2 hi sys, symerror: 0.021833}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -1.375}
+    values:
+      - {value: 0.00310278, errors: [{label: stat, symerror: 0.0862013}, {label: v2 lo sys, symerror: 0.0190141}, {label: v2 hi sys, symerror: -0.00427052}]}
+      - {value: -0.15903, errors: [{label: stat, symerror: 0.0843569}, {label: v2 lo sys, symerror: -0.10225}, {label: v2 hi sys, symerror: -0.207265}]}
+      - {value: -0.0215951, errors: [{label: stat, symerror: 0.0893766}, {label: v2 lo sys, symerror: 0.0729411}, {label: v2 hi sys, symerror: -0.107582}]}
+      - {value: 0.303194, errors: [{label: stat, symerror: 0.139371}, {label: v2 lo sys, symerror: 0.426628}, {label: v2 hi sys, symerror: 0.188313}]}
+      - {value: 0.373807, errors: [{label: stat, symerror: 0.11806}, {label: v2 lo sys, symerror: 0.512881}, {label: v2 hi sys, symerror: 0.243289}]}
+      - {value: 0.15821, errors: [{label: stat, symerror: 0.12306}, {label: v2 lo sys, symerror: 0.297283}, {label: v2 hi sys, symerror: 0.0276913}]}
+      - {value: 0.126749, errors: [{label: stat, symerror: 0.143375}, {label: v2 lo sys, symerror: 0.250183}, {label: v2 hi sys, symerror: 0.0118678}]}
+      - {value: 0.163789, errors: [{label: stat, symerror: 0.0878955}, {label: v2 lo sys, symerror: 0.258325}, {label: v2 hi sys, symerror: 0.0778013}]}
+      - {value: -0.0557478, errors: [{label: stat, symerror: 0.0985916}, {label: v2 lo sys, symerror: 0.00103141}, {label: v2 hi sys, symerror: -0.103983}]}
+      - {value: -0.125208, errors: [{label: stat, symerror: 0.0890674}, {label: v2 lo sys, symerror: -0.109296}, {label: v2 hi sys, symerror: -0.132581}]}
+      - {value: 0.0991354, errors: [{label: stat, symerror: 0.0836596}, {label: v2 lo sys, symerror: 0.0772898}, {label: v2 hi sys, symerror: 0.129514}]}
+      - {value: 0.190015, errors: [{label: stat, symerror: 0.0792775}, {label: v2 lo sys, symerror: 0.139271}, {label: v2 hi sys, symerror: 0.249287}]}
+      - {value: 0.225538, errors: [{label: stat, symerror: 0.0783863}, {label: v2 lo sys, symerror: 0.159155}, {label: v2 hi sys, symerror: 0.300448}]}
+      - {value: 0.261356, errors: [{label: stat, symerror: 0.0787286}, {label: v2 lo sys, symerror: 0.194973}, {label: v2 hi sys, symerror: 0.336266}]}
+      - {value: 0.380188, errors: [{label: stat, symerror: 0.0790624}, {label: v2 lo sys, symerror: 0.329445}, {label: v2 hi sys, symerror: 0.439461}]}
+      - {value: 0.525426, errors: [{label: stat, symerror: 0.0823334}, {label: v2 lo sys, symerror: 0.503581}, {label: v2 hi sys, symerror: 0.555805}]}
+      - {value: 0.486507, errors: [{label: stat, symerror: 0.0863755}, {label: v2 lo sys, symerror: 0.502418}, {label: v2 hi sys, symerror: 0.479134}]}
+      - {value: 0.468387, errors: [{label: stat, symerror: 0.0845583}, {label: v2 lo sys, symerror: 0.525167}, {label: v2 hi sys, symerror: 0.420152}]}
+      - {value: 0.511101, errors: [{label: stat, symerror: 0.0898578}, {label: v2 lo sys, symerror: 0.605637}, {label: v2 hi sys, symerror: 0.425114}]}
+      - {value: 0.497319, errors: [{label: stat, symerror: 0.139822}, {label: v2 lo sys, symerror: 0.620754}, {label: v2 hi sys, symerror: 0.382438}]}
+      - {value: 0.397703, errors: [{label: stat, symerror: 0.11784}, {label: v2 lo sys, symerror: 0.536777}, {label: v2 hi sys, symerror: 0.267185}]}
+      - {value: 0.394837, errors: [{label: stat, symerror: 0.122786}, {label: v2 lo sys, symerror: 0.53391}, {label: v2 hi sys, symerror: 0.264318}]}
+      - {value: 0.529568, errors: [{label: stat, symerror: 0.143932}, {label: v2 lo sys, symerror: 0.653002}, {label: v2 hi sys, symerror: 0.414687}]}
+      - {value: 0.339536, errors: [{label: stat, symerror: 0.0882143}, {label: v2 lo sys, symerror: 0.434072}, {label: v2 hi sys, symerror: 0.253549}]}
+      - {value: 0.484445, errors: [{label: stat, symerror: 0.098237}, {label: v2 lo sys, symerror: 0.541225}, {label: v2 hi sys, symerror: 0.43621}]}
+      - {value: 0.60337, errors: [{label: stat, symerror: 0.0893965}, {label: v2 lo sys, symerror: 0.619282}, {label: v2 hi sys, symerror: 0.595997}]}
+      - {value: 0.593546, errors: [{label: stat, symerror: 0.0839757}, {label: v2 lo sys, symerror: 0.5717}, {label: v2 hi sys, symerror: 0.623924}]}
+      - {value: 0.391041, errors: [{label: stat, symerror: 0.0794134}, {label: v2 lo sys, symerror: 0.340297}, {label: v2 hi sys, symerror: 0.450313}]}
+      - {value: 0.338329, errors: [{label: stat, symerror: 0.07846}, {label: v2 lo sys, symerror: 0.271946}, {label: v2 hi sys, symerror: 0.413239}]}
+      - {value: 0.247317, errors: [{label: stat, symerror: 0.0787485}, {label: v2 lo sys, symerror: 0.180934}, {label: v2 hi sys, symerror: 0.322227}]}
+      - {value: 0.15932, errors: [{label: stat, symerror: 0.0789615}, {label: v2 lo sys, symerror: 0.108577}, {label: v2 hi sys, symerror: 0.218593}]}
+      - {value: 0.045532, errors: [{label: stat, symerror: 0.0821242}, {label: v2 lo sys, symerror: 0.0236864}, {label: v2 hi sys, symerror: 0.0759104}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -1.125}
+    values:
+      - {value: -0.0427235, errors: [{label: stat, symerror: 0.0875231}, {label: v2 lo sys, symerror: -0.0252289}, {label: v2 hi sys, symerror: -0.0520059}]}
+      - {value: -0.0440489, errors: [{label: stat, symerror: 0.0854552}, {label: v2 lo sys, symerror: 0.0155038}, {label: v2 hi sys, symerror: -0.0953894}]}
+      - {value: 0.209122, errors: [{label: stat, symerror: 0.09112}, {label: v2 lo sys, symerror: 0.307531}, {label: v2 hi sys, symerror: 0.118924}]}
+      - {value: 0.338699, errors: [{label: stat, symerror: 0.156036}, {label: v2 lo sys, symerror: 0.466848}, {label: v2 hi sys, symerror: 0.218763}]}
+      - {value: 0.251374, errors: [{label: stat, symerror: 0.107714}, {label: v2 lo sys, symerror: 0.395617}, {label: v2 hi sys, symerror: 0.115342}]}
+      - {value: 0.486995, errors: [{label: stat, symerror: 0.111967}, {label: v2 lo sys, symerror: 0.631239}, {label: v2 hi sys, symerror: 0.350963}]}
+      - {value: 0.221707, errors: [{label: stat, symerror: 0.16041}, {label: v2 lo sys, symerror: 0.349856}, {label: v2 hi sys, symerror: 0.10177}]}
+      - {value: 0.178205, errors: [{label: stat, symerror: 0.0887783}, {label: v2 lo sys, symerror: 0.276614}, {label: v2 hi sys, symerror: 0.0880074}]}
+      - {value: -0.115835, errors: [{label: stat, symerror: 0.0983638}, {label: v2 lo sys, symerror: -0.0562818}, {label: v2 hi sys, symerror: -0.167175}]}
+      - {value: 0.0323433, errors: [{label: stat, symerror: 0.0891362}, {label: v2 lo sys, symerror: 0.0498379}, {label: v2 hi sys, symerror: 0.0230609}]}
+      - {value: 0.000527262, errors: [{label: stat, symerror: 0.0838856}, {label: v2 lo sys, symerror: -0.0208348}, {label: v2 hi sys, symerror: 0.0301015}]}
+      - {value: 0.0609885, errors: [{label: stat, symerror: 0.0789619}, {label: v2 lo sys, symerror: 0.00988691}, {label: v2 hi sys, symerror: 0.120302}]}
+      - {value: 0.136673, errors: [{label: stat, symerror: 0.0783878}, {label: v2 lo sys, symerror: 0.0694766}, {label: v2 hi sys, symerror: 0.212082}]}
+      - {value: 0.319553, errors: [{label: stat, symerror: 0.0785706}, {label: v2 lo sys, symerror: 0.252356}, {label: v2 hi sys, symerror: 0.394961}]}
+      - {value: 0.367762, errors: [{label: stat, symerror: 0.0788863}, {label: v2 lo sys, symerror: 0.316661}, {label: v2 hi sys, symerror: 0.427076}]}
+      - {value: 0.510493, errors: [{label: stat, symerror: 0.0828335}, {label: v2 lo sys, symerror: 0.489131}, {label: v2 hi sys, symerror: 0.540067}]}
+      - {value: 0.409601, errors: [{label: stat, symerror: 0.087639}, {label: v2 lo sys, symerror: 0.427095}, {label: v2 hi sys, symerror: 0.400318}]}
+      - {value: 0.566845, errors: [{label: stat, symerror: 0.0856992}, {label: v2 lo sys, symerror: 0.626398}, {label: v2 hi sys, symerror: 0.515505}]}
+      - {value: 0.525007, errors: [{label: stat, symerror: 0.0913271}, {label: v2 lo sys, symerror: 0.623416}, {label: v2 hi sys, symerror: 0.43481}]}
+      - {value: 0.505879, errors: [{label: stat, symerror: 0.156683}, {label: v2 lo sys, symerror: 0.634028}, {label: v2 hi sys, symerror: 0.385942}]}
+      - {value: 0.422925, errors: [{label: stat, symerror: 0.107533}, {label: v2 lo sys, symerror: 0.567169}, {label: v2 hi sys, symerror: 0.286893}]}
+      - {value: 0.585722, errors: [{label: stat, symerror: 0.111869}, {label: v2 lo sys, symerror: 0.729966}, {label: v2 hi sys, symerror: 0.44969}]}
+      - {value: 0.513988, errors: [{label: stat, symerror: 0.160666}, {label: v2 lo sys, symerror: 0.642137}, {label: v2 hi sys, symerror: 0.394052}]}
+      - {value: 0.499431, errors: [{label: stat, symerror: 0.089178}, {label: v2 lo sys, symerror: 0.59784}, {label: v2 hi sys, symerror: 0.409234}]}
+      - {value: 0.317971, errors: [{label: stat, symerror: 0.0979371}, {label: v2 lo sys, symerror: 0.377524}, {label: v2 hi sys, symerror: 0.26663}]}
+      - {value: 0.371556, errors: [{label: stat, symerror: 0.0893041}, {label: v2 lo sys, symerror: 0.389051}, {label: v2 hi sys, symerror: 0.362274}]}
+      - {value: 0.43785, errors: [{label: stat, symerror: 0.084206}, {label: v2 lo sys, symerror: 0.416488}, {label: v2 hi sys, symerror: 0.467424}]}
+      - {value: 0.423026, errors: [{label: stat, symerror: 0.0791435}, {label: v2 lo sys, symerror: 0.371924}, {label: v2 hi sys, symerror: 0.48234}]}
+      - {value: 0.451345, errors: [{label: stat, symerror: 0.0785284}, {label: v2 lo sys, symerror: 0.384149}, {label: v2 hi sys, symerror: 0.526754}]}
+      - {value: 0.252904, errors: [{label: stat, symerror: 0.0785599}, {label: v2 lo sys, symerror: 0.185707}, {label: v2 hi sys, symerror: 0.328313}]}
+      - {value: 0.140957, errors: [{label: stat, symerror: 0.0787881}, {label: v2 lo sys, symerror: 0.0898558}, {label: v2 hi sys, symerror: 0.200271}]}
+      - {value: 0.00509338, errors: [{label: stat, symerror: 0.0826218}, {label: v2 lo sys, symerror: -0.0162686}, {label: v2 hi sys, symerror: 0.0346676}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -0.875}
+    values:
+      - {value: -0.0278198, errors: [{label: stat, symerror: 0.0875175}, {label: v2 lo sys, symerror: -0.00867408}, {label: v2 hi sys, symerror: -0.0388172}]}
+      - {value: -0.140469, errors: [{label: stat, symerror: 0.085138}, {label: v2 lo sys, symerror: -0.0781748}, {label: v2 hi sys, symerror: -0.194619}]}
+      - {value: 0.164237, errors: [{label: stat, symerror: 0.0913132}, {label: v2 lo sys, symerror: 0.266395}, {label: v2 hi sys, symerror: 0.0702193}]}
+      - {value: 0.37222, errors: [{label: stat, symerror: 0.173569}, {label: v2 lo sys, symerror: 0.497889}, {label: v2 hi sys, symerror: 0.254688}]}
+      - {value: 0.580203, errors: [{label: stat, symerror: 0.0978142}, {label: v2 lo sys, symerror: 0.729383}, {label: v2 hi sys, symerror: 0.439157}]}
+      - {value: 0.603543, errors: [{label: stat, symerror: 0.100936}, {label: v2 lo sys, symerror: 0.752723}, {label: v2 hi sys, symerror: 0.462498}]}
+      - {value: 0.361275, errors: [{label: stat, symerror: 0.177978}, {label: v2 lo sys, symerror: 0.486943}, {label: v2 hi sys, symerror: 0.243743}]}
+      - {value: 0.119006, errors: [{label: stat, symerror: 0.0896458}, {label: v2 lo sys, symerror: 0.221164}, {label: v2 hi sys, symerror: 0.0249884}]}
+      - {value: -0.0631754, errors: [{label: stat, symerror: 0.0966377}, {label: v2 lo sys, symerror: -0.000881637}, {label: v2 hi sys, symerror: -0.117325}]}
+      - {value: 0.0285036, errors: [{label: stat, symerror: 0.0882352}, {label: v2 lo sys, symerror: 0.0476493}, {label: v2 hi sys, symerror: 0.0175063}]}
+      - {value: 0.0383603, errors: [{label: stat, symerror: 0.0834362}, {label: v2 lo sys, symerror: 0.0176424}, {label: v2 hi sys, symerror: 0.0672308}]}
+      - {value: 0.121125, errors: [{label: stat, symerror: 0.0791317}, {label: v2 lo sys, symerror: 0.0698968}, {label: v2 hi sys, symerror: 0.180509}]}
+      - {value: 0.24134, errors: [{label: stat, symerror: 0.0785493}, {label: v2 lo sys, symerror: 0.1736}, {label: v2 hi sys, symerror: 0.317238}]}
+      - {value: 0.32634, errors: [{label: stat, symerror: 0.0786328}, {label: v2 lo sys, symerror: 0.258599}, {label: v2 hi sys, symerror: 0.402238}]}
+      - {value: 0.360774, errors: [{label: stat, symerror: 0.0789151}, {label: v2 lo sys, symerror: 0.309546}, {label: v2 hi sys, symerror: 0.420158}]}
+      - {value: 0.395622, errors: [{label: stat, symerror: 0.0824711}, {label: v2 lo sys, symerror: 0.374904}, {label: v2 hi sys, symerror: 0.424493}]}
+      - {value: 0.393731, errors: [{label: stat, symerror: 0.0876309}, {label: v2 lo sys, symerror: 0.412877}, {label: v2 hi sys, symerror: 0.382734}]}
+      - {value: 0.479848, errors: [{label: stat, symerror: 0.0854012}, {label: v2 lo sys, symerror: 0.542142}, {label: v2 hi sys, symerror: 0.425698}]}
+      - {value: 0.491817, errors: [{label: stat, symerror: 0.0915195}, {label: v2 lo sys, symerror: 0.593974}, {label: v2 hi sys, symerror: 0.397799}]}
+      - {value: 0.429592, errors: [{label: stat, symerror: 0.174249}, {label: v2 lo sys, symerror: 0.555261}, {label: v2 hi sys, symerror: 0.312061}]}
+      - {value: 0.367368, errors: [{label: stat, symerror: 0.0974641}, {label: v2 lo sys, symerror: 0.516547}, {label: v2 hi sys, symerror: 0.226322}]}
+      - {value: 0.547153, errors: [{label: stat, symerror: 0.100787}, {label: v2 lo sys, symerror: 0.696333}, {label: v2 hi sys, symerror: 0.406108}]}
+      - {value: 0.585482, errors: [{label: stat, symerror: 0.17843}, {label: v2 lo sys, symerror: 0.711151}, {label: v2 hi sys, symerror: 0.467951}]}
+      - {value: 0.623812, errors: [{label: stat, symerror: 0.0902455}, {label: v2 lo sys, symerror: 0.725969}, {label: v2 hi sys, symerror: 0.529794}]}
+      - {value: 0.504099, errors: [{label: stat, symerror: 0.0963684}, {label: v2 lo sys, symerror: 0.566393}, {label: v2 hi sys, symerror: 0.449949}]}
+      - {value: 0.381947, errors: [{label: stat, symerror: 0.0883578}, {label: v2 lo sys, symerror: 0.401093}, {label: v2 hi sys, symerror: 0.37095}]}
+      - {value: 0.425085, errors: [{label: stat, symerror: 0.0836956}, {label: v2 lo sys, symerror: 0.404367}, {label: v2 hi sys, symerror: 0.453955}]}
+      - {value: 0.386807, errors: [{label: stat, symerror: 0.0792157}, {label: v2 lo sys, symerror: 0.335579}, {label: v2 hi sys, symerror: 0.446191}]}
+      - {value: 0.220422, errors: [{label: stat, symerror: 0.0785068}, {label: v2 lo sys, symerror: 0.152682}, {label: v2 hi sys, symerror: 0.29632}]}
+      - {value: 0.127848, errors: [{label: stat, symerror: 0.0785185}, {label: v2 lo sys, symerror: 0.0601074}, {label: v2 hi sys, symerror: 0.203746}]}
+      - {value: -0.001511, errors: [{label: stat, symerror: 0.0787208}, {label: v2 lo sys, symerror: -0.0527392}, {label: v2 hi sys, symerror: 0.0578732}]}
+      - {value: -0.0903171, errors: [{label: stat, symerror: 0.0822776}, {label: v2 lo sys, symerror: -0.111035}, {label: v2 hi sys, symerror: -0.0614465}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -0.625}
+    values:
+      - {value: 0.0242847, errors: [{label: stat, symerror: 0.0876954}, {label: v2 lo sys, symerror: 0.0450774}, {label: v2 hi sys, symerror: 0.0118635}]}
+      - {value: 0.0265883, errors: [{label: stat, symerror: 0.0851275}, {label: v2 lo sys, symerror: 0.0915143}, {label: v2 hi sys, symerror: -0.0299741}]}
+      - {value: 0.166309, errors: [{label: stat, symerror: 0.0914589}, {label: v2 lo sys, symerror: 0.272009}, {label: v2 hi sys, symerror: 0.0689657}]}
+      - {value: 0.454429, errors: [{label: stat, symerror: 0.198207}, {label: v2 lo sys, symerror: 0.584177}, {label: v2 hi sys, symerror: 0.333033}]}
+      - {value: 0.742549, errors: [{label: stat, symerror: 0.0910193}, {label: v2 lo sys, symerror: 0.896345}, {label: v2 hi sys, symerror: 0.597101}]}
+      - {value: 0.765062, errors: [{label: stat, symerror: 0.0935296}, {label: v2 lo sys, symerror: 0.918858}, {label: v2 hi sys, symerror: 0.619614}]}
+      - {value: 0.494827, errors: [{label: stat, symerror: 0.202769}, {label: v2 lo sys, symerror: 0.624574}, {label: v2 hi sys, symerror: 0.373431}]}
+      - {value: 0.224591, errors: [{label: stat, symerror: 0.0905607}, {label: v2 lo sys, symerror: 0.33029}, {label: v2 hi sys, symerror: 0.127247}]}
+      - {value: 0.035495, errors: [{label: stat, symerror: 0.0952797}, {label: v2 lo sys, symerror: 0.100421}, {label: v2 hi sys, symerror: -0.0210674}]}
+      - {value: -0.0577039, errors: [{label: stat, symerror: 0.0878651}, {label: v2 lo sys, symerror: -0.0369112}, {label: v2 hi sys, symerror: -0.0701251}]}
+      - {value: 0.0261916, errors: [{label: stat, symerror: 0.0831085}, {label: v2 lo sys, symerror: 0.00621047}, {label: v2 hi sys, symerror: 0.0545516}]}
+      - {value: 0.109731, errors: [{label: stat, symerror: 0.0792611}, {label: v2 lo sys, symerror: 0.0585431}, {label: v2 hi sys, symerror: 0.169304}]}
+      - {value: 0.308073, errors: [{label: stat, symerror: 0.0785358}, {label: v2 lo sys, symerror: 0.239996}, {label: v2 hi sys, symerror: 0.384538}]}
+      - {value: 0.242842, errors: [{label: stat, symerror: 0.0784581}, {label: v2 lo sys, symerror: 0.174765}, {label: v2 hi sys, symerror: 0.319306}]}
+      - {value: 0.175514, errors: [{label: stat, symerror: 0.0786811}, {label: v2 lo sys, symerror: 0.124326}, {label: v2 hi sys, symerror: 0.235086}]}
+      - {value: 0.447736, errors: [{label: stat, symerror: 0.082339}, {label: v2 lo sys, symerror: 0.427755}, {label: v2 hi sys, symerror: 0.476096}]}
+      - {value: 0.430168, errors: [{label: stat, symerror: 0.0878354}, {label: v2 lo sys, symerror: 0.450961}, {label: v2 hi sys, symerror: 0.417747}]}
+      - {value: 0.45824, errors: [{label: stat, symerror: 0.0853064}, {label: v2 lo sys, symerror: 0.523166}, {label: v2 hi sys, symerror: 0.401678}]}
+      - {value: 0.599649, errors: [{label: stat, symerror: 0.0918178}, {label: v2 lo sys, symerror: 0.705348}, {label: v2 hi sys, symerror: 0.502305}]}
+      - {value: 0.684461, errors: [{label: stat, symerror: 0.198837}, {label: v2 lo sys, symerror: 0.814209}, {label: v2 hi sys, symerror: 0.563065}]}
+      - {value: 0.769274, errors: [{label: stat, symerror: 0.0907997}, {label: v2 lo sys, symerror: 0.92307}, {label: v2 hi sys, symerror: 0.623826}]}
+      - {value: 0.410496, errors: [{label: stat, symerror: 0.0932881}, {label: v2 lo sys, symerror: 0.564291}, {label: v2 hi sys, symerror: 0.265047}]}
+      - {value: 0.464882, errors: [{label: stat, symerror: 0.203053}, {label: v2 lo sys, symerror: 0.594629}, {label: v2 hi sys, symerror: 0.343486}]}
+      - {value: 0.519268, errors: [{label: stat, symerror: 0.0908717}, {label: v2 lo sys, symerror: 0.624968}, {label: v2 hi sys, symerror: 0.421924}]}
+      - {value: 0.531905, errors: [{label: stat, symerror: 0.095181}, {label: v2 lo sys, symerror: 0.59683}, {label: v2 hi sys, symerror: 0.475342}]}
+      - {value: 0.374405, errors: [{label: stat, symerror: 0.0879871}, {label: v2 lo sys, symerror: 0.395198}, {label: v2 hi sys, symerror: 0.361984}]}
+      - {value: 0.352569, errors: [{label: stat, symerror: 0.0833627}, {label: v2 lo sys, symerror: 0.332588}, {label: v2 hi sys, symerror: 0.380929}]}
+      - {value: 0.357825, errors: [{label: stat, symerror: 0.0793583}, {label: v2 lo sys, symerror: 0.306637}, {label: v2 hi sys, symerror: 0.417398}]}
+      - {value: 0.317356, errors: [{label: stat, symerror: 0.0784996}, {label: v2 lo sys, symerror: 0.249279}, {label: v2 hi sys, symerror: 0.393821}]}
+      - {value: 0.186276, errors: [{label: stat, symerror: 0.0784182}, {label: v2 lo sys, symerror: 0.118199}, {label: v2 hi sys, symerror: 0.262741}]}
+      - {value: 0.13459, errors: [{label: stat, symerror: 0.0786268}, {label: v2 lo sys, symerror: 0.0834017}, {label: v2 hi sys, symerror: 00.194162}]}
+      - {value: 0.0511318, errors: [{label: stat, symerror: 0.0821769}, {label: v2 lo sys, symerror: 0.0311507}, {label: v2 hi sys, symerror: 0.0794918}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -0.375}
+    values:
+      - {value: 0.0426883, errors: [{label: stat, symerror: 0.087632}, {label: v2 lo sys, symerror: 0.0650366}, {label: v2 hi sys, symerror: 0.0292225}]}
+      - {value: 0.0178211, errors: [{label: stat, symerror: 0.0849957}, {label: v2 lo sys, symerror: 0.0851544}, {label: v2 hi sys, symerror: -0.0406392}]}
+      - {value: 0.243911, errors: [{label: stat, symerror: 0.0914429}, {label: v2 lo sys, symerror: 0.352805}, {label: v2 hi sys, symerror: 0.143881}]}
+      - {value: 0.55347, errors: [{label: stat, symerror: 0.23603}, {label: v2 lo sys, symerror: 0.686876}, {label: v2 hi sys, symerror: 0.428923}]}
+      - {value: 0.863029, errors: [{label: stat, symerror: 0.0854948}, {label: v2 lo sys, symerror: 1.02095}, {label: v2 hi sys, symerror: 0.713964}]}
+      - {value: 1.03178, errors: [{label: stat, symerror: 0.0876566}, {label: v2 lo sys, symerror: 1.18969}, {label: v2 hi sys, symerror: 0.882712}]}
+      - {value: 0.697703, errors: [{label: stat, symerror: 0.241534}, {label: v2 lo sys, symerror: 0.831109}, {label: v2 hi sys, symerror: 0.573155}]}
+      - {value: 0.363629, errors: [{label: stat, symerror: 0.0904655}, {label: v2 lo sys, symerror: 0.472522}, {label: v2 hi sys, symerror: 0.263599}]}
+      - {value: 0.28673, errors: [{label: stat, symerror: 0.0934681}, {label: v2 lo sys, symerror: 0.354063}, {label: v2 hi sys, symerror: 0.228269}]}
+      - {value: 0.167806, errors: [{label: stat, symerror: 0.0873664}, {label: v2 lo sys, symerror: 0.190154}, {label: v2 hi sys, symerror: 0.15434}]}
+      - {value: 0.0999057, errors: [{label: stat, symerror: 0.0827754}, {label: v2 lo sys, symerror: 0.0806933}, {label: v2 hi sys, symerror: 0.128009}]}
+      - {value: -0.0199326, errors: [{label: stat, symerror: 0.0786264}, {label: v2 lo sys, symerror: -0.0709541}, {label: v2 hi sys, symerror: 0.0399871}]}
+      - {value: 0.240418, errors: [{label: stat, symerror: 0.0778357}, {label: v2 lo sys, symerror: 0.172182}, {label: v2 hi sys, symerror: 0.317557}]}
+      - {value: 0.286458, errors: [{label: stat, symerror: 0.0776954}, {label: v2 lo sys, symerror: 0.218221}, {label: v2 hi sys, symerror: 0.363596}]}
+      - {value: 0.192716, errors: [{label: stat, symerror: 0.0779639}, {label: v2 lo sys, symerror: 0.141695}, {label: v2 hi sys, symerror: 0.252636}]}
+      - {value: 0.506247, errors: [{label: stat, symerror: 0.0820357}, {label: v2 lo sys, symerror: 0.487035}, {label: v2 hi sys, symerror: 0.534351}]}
+      - {value: 0.353251, errors: [{label: stat, symerror: 0.0876996}, {label: v2 lo sys, symerror: 0.375599}, {label: v2 hi sys, symerror: 0.339785}]}
+      - {value: 0.423667, errors: [{label: stat, symerror: 0.0851202}, {label: v2 lo sys, symerror: 0.491}, {label: v2 hi sys, symerror: 0.365206}]}
+      - {value: 0.33761, errors: [{label: stat, symerror: 0.0916003}, {label: v2 lo sys, symerror: 0.446504}, {label: v2 hi sys, symerror: 0.23758}]}
+      - {value: 0.4049, errors: [{label: stat, symerror: 0.236577}, {label: v2 lo sys, symerror: 0.538306}, {label: v2 hi sys, symerror: 0.280352}]}
+      - {value: 0.47219, errors: [{label: stat, symerror: 0.0850833}, {label: v2 lo sys, symerror: 0.630108}, {label: v2 hi sys, symerror: 0.323125}]}
+      - {value: 0.455313, errors: [{label: stat, symerror: 0.087387}, {label: v2 lo sys, symerror: 0.613231}, {label: v2 hi sys, symerror: 0.306249}]}
+      - {value: 0.422453, errors: [{label: stat, symerror: 0.239811}, {label: v2 lo sys, symerror: 0.555859}, {label: v2 hi sys, symerror: 0.297906}]}
+      - {value: 0.389593, errors: [{label: stat, symerror: 0.0905854}, {label: v2 lo sys, symerror: 0.498487}, {label: v2 hi sys, symerror: 0.289563}]}
+      - {value: 0.521629, errors: [{label: stat, symerror: 0.0933648}, {label: v2 lo sys, symerror: 0.588963}, {label: v2 hi sys, symerror: 0.463169}]}
+      - {value: 0.331441, errors: [{label: stat, symerror: 0.087285}, {label: v2 lo sys, symerror: 0.353789}, {label: v2 hi sys, symerror: 0.317975}]}
+      - {value: 0.492903, errors: [{label: stat, symerror: 0.0830793}, {label: v2 lo sys, symerror: 0.473691}, {label: v2 hi sys, symerror: 0.521007}]}
+      - {value: 0.374287, errors: [{label: stat, symerror: 0.078796}, {label: v2 lo sys, symerror: 0.323266}, {label: v2 hi sys, symerror: 0.434207}]}
+      - {value: 0.307661, errors: [{label: stat, symerror: 0.0778285}, {label: v2 lo sys, symerror: 0.239425}, {label: v2 hi sys, symerror: 0.384799}]}
+      - {value: 0.209936, errors: [{label: stat, symerror: 0.0776617}, {label: v2 lo sys, symerror: 0.141699}, {label: v2 hi sys, symerror: 0.287074}]}
+      - {value: 0.0694689, errors: [{label: stat, symerror: 0.0779035}, {label: v2 lo sys, symerror: 0.0184474}, {label: v2 hi sys, symerror: 0.129389}]}
+      - {value: 0.000752635, errors: [{label: stat, symerror: 0.0818201}, {label: v2 lo sys, symerror: -0.0184597}, {label: v2 hi sys, symerror: 0.0288564}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: -0.125}
+    values:
+      - {value: -0.0228837, errors: [{label: stat, symerror: 0.0868463}, {label: v2 lo sys, symerror: 0.000828563}, {label: v2 hi sys, symerror: -0.0369401}]}
+      - {value: 0.0472022, errors: [{label: stat, symerror: 0.0845847}, {label: v2 lo sys, symerror: 0.116563}, {label: v2 hi sys, symerror: -0.0125125}]}
+      - {value: 0.315187, errors: [{label: stat, symerror: 0.0913282}, {label: v2 lo sys, symerror: 0.426722}, {label: v2 hi sys, symerror: 0.213289}]}
+      - {value: 0.704018, errors: [{label: stat, symerror: 0.300761}, {label: v2 lo sys, symerror: 0.840427}, {label: v2 hi sys, symerror: 0.577242}]}
+      - {value: 1.09285, errors: [{label: stat, symerror: 0.0807096}, {label: v2 lo sys, symerror: 1.25413}, {label: v2 hi sys, symerror: 0.941194}]}
+      - {value: 1.067, errors: [{label: stat, symerror: 0.0825804}, {label: v2 lo sys, symerror: 1.22828}, {label: v2 hi sys, symerror: 0.915346}]}
+      - {value: 0.722319, errors: [{label: stat, symerror: 0.311636}, {label: v2 lo sys, symerror: 0.858727}, {label: v2 hi sys, symerror: 0.595542}]}
+      - {value: 0.377636, errors: [{label: stat, symerror: 0.0907583}, {label: v2 lo sys, symerror: 0.489171}, {label: v2 hi sys, symerror: 0.275739}]}
+      - {value: 0.0418562, errors: [{label: stat, symerror: 0.0911278}, {label: v2 lo sys, symerror: 0.111217}, {label: v2 hi sys, symerror: -0.0178584}]}
+      - {value: 0.00228598, errors: [{label: stat, symerror: 0.0867047}, {label: v2 lo sys, symerror: 0.0259983}, {label: v2 hi sys, symerror: -0.0117704}]}
+      - {value: -0.0898205, errors: [{label: stat, symerror: 0.082303}, {label: v2 lo sys, symerror: -0.108282}, {label: v2 hi sys, symerror: -0.0616941}]}
+      - {value: 0.127969, errors: [{label: stat, symerror: 0.0776752}, {label: v2 lo sys, symerror: 0.0772289}, {label: v2 hi sys, symerror: 0.188381}]}
+      - {value: 0.107708, errors: [{label: stat, symerror: 0.0766109}, {label: v2 lo sys, symerror: 0.0394992}, {label: v2 hi sys, symerror: 0.185593}]}
+      - {value: 0.066514, errors: [{label: stat, symerror: 0.0762976}, {label: v2 lo sys, symerror: -0.00169505}, {label: v2 hi sys, symerror: 0.144398}]}
+      - {value: 0.176933, errors: [{label: stat, symerror: 0.0769053}, {label: v2 lo sys, symerror: 0.126193}, {label: v2 hi sys, symerror: 0.237345}]}
+      - {value: 0.377639, errors: [{label: stat, symerror: 0.081485}, {label: v2 lo sys, symerror: 0.359177}, {label: v2 hi sys, symerror: 0.405765}]}
+      - {value: 0.472087, errors: [{label: stat, symerror: 0.087103}, {label: v2 lo sys, symerror: 0.495799}, {label: v2 hi sys, symerror: 0.458031}]}
+      - {value: 0.42185, errors: [{label: stat, symerror: 0.0846676}, {label: v2 lo sys, symerror: 0.491211}, {label: v2 hi sys, symerror: 0.362136}]}
+      - {value: 0.45555, errors: [{label: stat, symerror: 0.0915666}, {label: v2 lo sys, symerror: 0.567084}, {label: v2 hi sys, symerror: 0.353652}]}
+      - {value: 0.514595, errors: [{label: stat, symerror: 0.30086}, {label: v2 lo sys, symerror: 0.651004}, {label: v2 hi sys, symerror: 0.387819}]}
+      - {value: 0.57364, errors: [{label: stat, symerror: 0.0799176}, {label: v2 lo sys, symerror: 0.734923}, {label: v2 hi sys, symerror: 0.421985}]}
+      - {value: 0.461145, errors: [{label: stat, symerror: 0.0819335}, {label: v2 lo sys, symerror: 0.622427}, {label: v2 hi sys, symerror: 0.309489}]}
+      - {value: 0.416054, errors: [{label: stat, symerror: 0.308852}, {label: v2 lo sys, symerror: 0.552462}, {label: v2 hi sys, symerror: 0.289277}]}
+      - {value: 0.370963, errors: [{label: stat, symerror: 0.0909323}, {label: v2 lo sys, symerror: 0.482498}, {label: v2 hi sys, symerror: 0.269065}]}
+      - {value: 0.422096, errors: [{label: stat, symerror: 0.0911526}, {label: v2 lo sys, symerror: 0.491457}, {label: v2 hi sys, symerror: 0.362381}]}
+      - {value: 0.430454, errors: [{label: stat, symerror: 0.086678}, {label: v2 lo sys, symerror: 0.454166}, {label: v2 hi sys, symerror: 0.416398}]}
+      - {value: 0.304009, errors: [{label: stat, symerror: 0.0825893}, {label: v2 lo sys, symerror: 0.285548}, {label: v2 hi sys, symerror: 0.332136}]}
+      - {value: 0.218265, errors: [{label: stat, symerror: 0.0777215}, {label: v2 lo sys, symerror: 0.167525}, {label: v2 hi sys, symerror: 0.278677}]}
+      - {value: 0.144666, errors: [{label: stat, symerror: 0.0766188}, {label: v2 lo sys, symerror: 0.0764571}, {label: v2 hi sys, symerror: 0.222551}]}
+      - {value: 0.126428, errors: [{label: stat, symerror: 0.076317}, {label: v2 lo sys, symerror: 0.0582186}, {label: v2 hi sys, symerror: 0.204312}]}
+      - {value: 0.158332, errors: [{label: stat, symerror: 0.0768829}, {label: v2 lo sys, symerror: 0.107592}, {label: v2 hi sys, symerror: 0.218744}]}
+      - {value: 0.0187063, errors: [{label: stat, symerror: 0.0813128}, {label: v2 lo sys, symerror: 0.00024471}, {label: v2 hi sys, symerror: 0.0468327}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 0.125}
+    values:
+      - {value: -0.105575, errors: [{label: stat, symerror: 0.0863967}, {label: v2 lo sys, symerror: -0.080799}, {label: v2 hi sys, symerror: -0.119714}]}
+      - {value: 0.0825157, errors: [{label: stat, symerror: 0.0844921}, {label: v2 lo sys, symerror: 0.153339}, {label: v2 hi sys, symerror: 0.0223227}]}
+      - {value: 0.275221, errors: [{label: stat, symerror: 0.092021}, {label: v2 lo sys, symerror: 0.388586}, {label: v2 hi sys, symerror: 0.172479}]}
+      - {value: 0.713433, errors: [{label: stat, symerror: 0.421386}, {label: v2 lo sys, symerror: 0.851888}, {label: v2 hi sys, symerror: 0.585596}]}
+      - {value: 1.15165, errors: [{label: stat, symerror: 0.0807947}, {label: v2 lo sys, symerror: 1.31519}, {label: v2 hi sys, symerror: 0.998713}]}
+      - {value: 0.896875, errors: [{label: stat, symerror: 0.0819013}, {label: v2 lo sys, symerror: 1.06042}, {label: v2 hi sys, symerror: 0.743943}]}
+      - {value: 0.627124, errors: [{label: stat, symerror: 0.466401}, {label: v2 lo sys, symerror: 0.76558}, {label: v2 hi sys, symerror: 0.499287}]}
+      - {value: 0.357374, errors: [{label: stat, symerror: 0.0917873}, {label: v2 lo sys, symerror: 0.470739}, {label: v2 hi sys, symerror: 0.254632}]}
+      - {value: 0.200539, errors: [{label: stat, symerror: 0.0899958}, {label: v2 lo sys, symerror: 0.271363}, {label: v2 hi sys, symerror: 0.140346}]}
+      - {value: 0.0652446, errors: [{label: stat, symerror: 0.0873916}, {label: v2 lo sys, symerror: 0.0900211}, {label: v2 hi sys, symerror: 0.0511064}]}
+      - {value: -0.00469765, errors: [{label: stat, symerror: 0.0821499}, {label: v2 lo sys, symerror: -0.0224628}, {label: v2 hi sys, symerror: 0.0237133}]}
+      - {value: 0.0904313, errors: [{label: stat, symerror: 0.0794339}, {label: v2 lo sys, symerror: 0.0401061}, {label: v2 hi sys, symerror: 0.151408}]}
+      - {value: 0.0826765, errors: [{label: stat, symerror: 0.0776482}, {label: v2 lo sys, symerror: 0.01473}, {label: v2 hi sys, symerror: 0.161278}]}
+      - {value: 0.263365, errors: [{label: stat, symerror: 0.0772678}, {label: v2 lo sys, symerror: 0.195419}, {label: v2 hi sys, symerror: 0.341966}]}
+      - {value: 0.25594, errors: [{label: stat, symerror: 0.0785774}, {label: v2 lo sys, symerror: 0.205615}, {label: v2 hi sys, symerror: 0.316917}]}
+      - {value: 0.379129, errors: [{label: stat, symerror: 0.0814424}, {label: v2 lo sys, symerror: 0.361364}, {label: v2 hi sys, symerror: 0.40754}]}
+      - {value: 0.428641, errors: [{label: stat, symerror: 0.086688}, {label: v2 lo sys, symerror: 0.453417}, {label: v2 hi sys, symerror: 0.414502}]}
+      - {value: 0.384794, errors: [{label: stat, symerror: 0.084435}, {label: v2 lo sys, symerror: 0.455617}, {label: v2 hi sys, symerror: 0.324601}]}
+      - {value: 0.501924, errors: [{label: stat, symerror: 0.0923694}, {label: v2 lo sys, symerror: 0.615289}, {label: v2 hi sys, symerror: 0.399182}]}
+      - {value: 0.612535, errors: [{label: stat, symerror: 0.415229}, {label: v2 lo sys, symerror: 0.75099}, {label: v2 hi sys, symerror: 0.484697}]}
+      - {value: 0.723145, errors: [{label: stat, symerror: 0.0801366}, {label: v2 lo sys, symerror: 0.886691}, {label: v2 hi sys, symerror: 0.570213}]}
+      - {value: 0.428055, errors: [{label: stat, symerror: 0.0813741}, {label: v2 lo sys, symerror: 0.591601}, {label: v2 hi sys, symerror: 0.275123}]}
+      - {value: 0.382746, errors: [{label: stat, symerror: 0.458185}, {label: v2 lo sys, symerror: 0.521202}, {label: v2 hi sys, symerror: 0.254909}]}
+      - {value: 0.337437, errors: [{label: stat, symerror: 0.0919896}, {label: v2 lo sys, symerror: 0.450802}, {label: v2 hi sys, symerror: 0.234695}]}
+      - {value: 0.469999, errors: [{label: stat, symerror: 0.0900731}, {label: v2 lo sys, symerror: 0.540823}, {label: v2 hi sys, symerror: 0.409806}]}
+      - {value: 0.38637, errors: [{label: stat, symerror: 0.0872931}, {label: v2 lo sys, symerror: 0.411147}, {label: v2 hi sys, symerror: 0.372232}]}
+      - {value: 0.446447, errors: [{label: stat, symerror: 0.0825333}, {label: v2 lo sys, symerror: 0.428682}, {label: v2 hi sys, symerror: 0.474858}]}
+      - {value: 0.328853, errors: [{label: stat, symerror: 0.0794991}, {label: v2 lo sys, symerror: 0.278528}, {label: v2 hi sys, symerror: 0.38983}]}
+      - {value: 0.201983, errors: [{label: stat, symerror: 0.0776379}, {label: v2 lo sys, symerror: 0.134037}, {label: v2 hi sys, symerror: 0.280584}]}
+      - {value: 0.212291, errors: [{label: stat, symerror: 0.0772101}, {label: v2 lo sys, symerror: 0.144344}, {label: v2 hi sys, symerror: 0.290892}]}
+      - {value: 0.0909317, errors: [{label: stat, symerror: 0.0784695}, {label: v2 lo sys, symerror: 0.0406065}, {label: v2 hi sys, symerror: 0.151908}]}
+      - {value: 0.0896598, errors: [{label: stat, symerror: 0.0812661}, {label: v2 lo sys, symerror: 0.0718946}, {label: v2 hi sys, symerror: 0.118071}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 0.375}
+    values:
+      - {value: 0.104311, errors: [{label: stat, symerror: 0.0866805}, {label: v2 lo sys, symerror: 0.129745}, {label: v2 hi sys, symerror: 0.0906249}]}
+      - {value: 0.258403, errors: [{label: stat, symerror: 0.0847959}, {label: v2 lo sys, symerror: 0.329921}, {label: v2 hi sys, symerror: 0.198627}]}
+      - {value: 0.329225, errors: [{label: stat, symerror: 0.0936867}, {label: v2 lo sys, symerror: 0.44332}, {label: v2 hi sys, symerror: 0.226868}]}
+      - {value: 0.659563, errors: [{label: stat, symerror: 0.449028}, {label: v2 lo sys, symerror: 0.798769}, {label: v2 hi sys, symerror: 0.532092}]}
+      - {value: 0.989901, errors: [{label: stat, symerror: 0.0862385}, {label: v2 lo sys, symerror: 1.15422}, {label: v2 hi sys, symerror: 0.837316}]}
+      - {value: 0.859051, errors: [{label: stat, symerror: 0.0874068}, {label: v2 lo sys, symerror: 1.02337}, {label: v2 hi sys, symerror: 0.706466}]}
+      - {value: 0.575109, errors: [{label: stat, symerror: 0.525347}, {label: v2 lo sys, symerror: 0.714315}, {label: v2 hi sys, symerror: 0.447638}]}
+      - {value: 0.291167, errors: [{label: stat, symerror: 0.0931615}, {label: v2 lo sys, symerror: 0.405262}, {label: v2 hi sys, symerror: 0.18881}]}
+      - {value: 0.16564, errors: [{label: stat, symerror: 0.0924408}, {label: v2 lo sys, symerror: 0.237158}, {label: v2 hi sys, symerror: 0.105864}]}
+      - {value: 0.0346168, errors: [{label: stat, symerror: 0.0888121}, {label: v2 lo sys, symerror: 0.0600508}, {label: v2 hi sys, symerror: 0.0209309}]}
+      - {value: 0.144673, errors: [{label: stat, symerror: 0.0829944}, {label: v2 lo sys, symerror: 0.127531}, {label: v2 hi sys, symerror: 0.173568}]}
+      - {value: 0.0288593, errors: [{label: stat, symerror: 0.0828945}, {label: v2 lo sys, symerror: -0.0208698}, {label: v2 hi sys, symerror: 0.0903449}]}
+      - {value: 0.182582, errors: [{label: stat, symerror: 0.0806288}, {label: v2 lo sys, symerror: 0.115217}, {label: v2 hi sys, symerror: 0.261705}]}
+      - {value: 0.26276, errors: [{label: stat, symerror: 0.0803523}, {label: v2 lo sys, symerror: 0.195396}, {label: v2 hi sys, symerror: 0.341884}]}
+      - {value: 0.342794, errors: [{label: stat, symerror: 0.0820083}, {label: v2 lo sys, symerror: 0.293064}, {label: v2 hi sys, symerror: 0.404279}]}
+      - {value: 0.360023, errors: [{label: stat, symerror: 0.0818444}, {label: v2 lo sys, symerror: 0.34288}, {label: v2 hi sys, symerror: 0.388918}]}
+      - {value: 0.482331, errors: [{label: stat, symerror: 0.0869489}, {label: v2 lo sys, symerror: 0.507765}, {label: v2 hi sys, symerror: 0.468645}]}
+      - {value: 0.377233, errors: [{label: stat, symerror: 0.0846863}, {label: v2 lo sys, symerror: 0.448752}, {label: v2 hi sys, symerror: 0.317458}]}
+      - {value: 0.432553, errors: [{label: stat, symerror: 0.0938244}, {label: v2 lo sys, symerror: 0.546648}, {label: v2 hi sys, symerror: 0.330196}]}
+      - {value: 0.402281, errors: [{label: stat, symerror: 0.442147}, {label: v2 lo sys, symerror: 0.541487}, {label: v2 hi sys, symerror: 0.27481}]}
+      - {value: 0.372008, errors: [{label: stat, symerror: 0.0858882}, {label: v2 lo sys, symerror: 0.536325}, {label: v2 hi sys, symerror: 0.219423}]}
+      - {value: 0.372199, errors: [{label: stat, symerror: 0.0871327}, {label: v2 lo sys, symerror: 0.536516}, {label: v2 hi sys, symerror: 0.219614}]}
+      - {value: 0.391912, errors: [{label: stat, symerror: 0.512589}, {label: v2 lo sys, symerror: 0.531118}, {label: v2 hi sys, symerror: 0.264441}]}
+      - {value: 0.411626, errors: [{label: stat, symerror: 0.0934435}, {label: v2 lo sys, symerror: 0.525721}, {label: v2 hi sys, symerror: 0.309269}]}
+      - {value: 0.583495, errors: [{label: stat, symerror: 0.0925794}, {label: v2 lo sys, symerror: 0.655013}, {label: v2 hi sys, symerror: 0.523719}]}
+      - {value: 0.456409, errors: [{label: stat, symerror: 0.0888797}, {label: v2 lo sys, symerror: 0.481843}, {label: v2 hi sys, symerror: 0.442723}]}
+      - {value: 0.41483, errors: [{label: stat, symerror: 0.0832407}, {label: v2 lo sys, symerror: 0.397688}, {label: v2 hi sys, symerror: 0.443725}]}
+      - {value: 0.314159, errors: [{label: stat, symerror: 0.0829784}, {label: v2 lo sys, symerror: 0.26443}, {label: v2 hi sys, symerror: 0.375645}]}
+      - {value: 0.282168, errors: [{label: stat, symerror: 0.0806216}, {label: v2 lo sys, symerror: 0.214804}, {label: v2 hi sys, symerror: 0.361292}]}
+      - {value: 0.129907, errors: [{label: stat, symerror: 0.0801566}, {label: v2 lo sys, symerror: 0.0625418}, {label: v2 hi sys, symerror: 0.20903}]}
+      - {value: 0.140584, errors: [{label: stat, symerror: 0.0818939}, {label: v2 lo sys, symerror: 0.0908548}, {label: v2 hi sys, symerror: 0.202069}]}
+      - {value: -0.00717393, errors: [{label: stat, symerror: 0.0816558}, {label: v2 lo sys, symerror: -0.0243164}, {label: v2 hi sys, symerror: 0.0217213}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 0.625}
+    values:
+      - {value: -0.0105656, errors: [{label: stat, symerror: 0.0849988}, {label: v2 lo sys, symerror: 0.015027}, {label: v2 hi sys, symerror: -0.023279}]}
+      - {value: 0.170102, errors: [{label: stat, symerror: 0.0835076}, {label: v2 lo sys, symerror: 0.241355}, {label: v2 hi sys, symerror: 0.111726}]}
+      - {value: 0.242128, errors: [{label: stat, symerror: 0.093286}, {label: v2 lo sys, symerror: 0.355566}, {label: v2 hi sys, symerror: 0.141566}]}
+      - {value: 0.410394, errors: [{label: stat, symerror: 0.475237}, {label: v2 lo sys, symerror: 0.548713}, {label: v2 hi sys, symerror: 0.284951}]}
+      - {value: 0.57866, errors: [{label: stat, symerror: 0.100584}, {label: v2 lo sys, symerror: 0.741859}, {label: v2 hi sys, symerror: 0.428336}]}
+      - {value: 0.64162, errors: [{label: stat, symerror: 0.102629}, {label: v2 lo sys, symerror: 0.804819}, {label: v2 hi sys, symerror: 0.491296}]}
+      - {value: 0.474556, errors: [{label: stat, symerror: 0.57152}, {label: v2 lo sys, symerror: 0.612875}, {label: v2 hi sys, symerror: 0.349113}]}
+      - {value: 0.307493, errors: [{label: stat, symerror: 0.0942117}, {label: v2 lo sys, symerror: 0.420931}, {label: v2 hi sys, symerror: 0.206931}]}
+      - {value: -0.0366831, errors: [{label: stat, symerror: 0.0959918}, {label: v2 lo sys, symerror: 0.0345703}, {label: v2 hi sys, symerror: -0.0950587}]}
+      - {value: -0.041971, errors: [{label: stat, symerror: 0.0894079}, {label: v2 lo sys, symerror: -0.0163784}, {label: v2 hi sys, symerror: -0.0546844}]}
+      - {value: 0.0505093, errors: [{label: stat, symerror: 0.0829898}, {label: v2 lo sys, symerror: 0.0339167}, {label: v2 hi sys, symerror: 0.0799822}]}
+      - {value: 0.0111204, errors: [{label: stat, symerror: 0.0869944}, {label: v2 lo sys, symerror: -0.0377594}, {label: v2 hi sys, symerror: 0.0728813}]}
+      - {value: 0.116597, errors: [{label: stat, symerror: 0.0841117}, {label: v2 lo sys, symerror: 0.0502435}, {label: v2 hi sys, symerror: 0.195832}]}
+      - {value: 0.311532, errors: [{label: stat, symerror: 0.084376}, {label: v2 lo sys, symerror: 0.245178}, {label: v2 hi sys, symerror: 0.390767}]}
+      - {value: 0.329084, errors: [{label: stat, symerror: 0.0863021}, {label: v2 lo sys, symerror: 0.280204}, {label: v2 hi sys, symerror: 0.390844}]}
+      - {value: 0.27142, errors: [{label: stat, symerror: 0.0812542}, {label: v2 lo sys, symerror: 0.254827}, {label: v2 hi sys, symerror: 0.300893}]}
+      - {value: 0.379345, errors: [{label: stat, symerror: 0.0852623}, {label: v2 lo sys, symerror: 0.404937}, {label: v2 hi sys, symerror: 0.366631}]}
+      - {value: 0.414043, errors: [{label: stat, symerror: 0.0835438}, {label: v2 lo sys, symerror: 0.485297}, {label: v2 hi sys, symerror: 0.355668}]}
+      - {value: 0.332864, errors: [{label: stat, symerror: 0.0932465}, {label: v2 lo sys, symerror: 0.446302}, {label: v2 hi sys, symerror: 0.232302}]}
+      - {value: 0.388473, errors: [{label: stat, symerror: 0.465154}, {label: v2 lo sys, symerror: 0.526792}, {label: v2 hi sys, symerror: 0.26303}]}
+      - {value: 0.444082, errors: [{label: stat, symerror: 0.100704}, {label: v2 lo sys, symerror: 0.607282}, {label: v2 hi sys, symerror: 0.293758}]}
+      - {value: 0.456695, errors: [{label: stat, symerror: 0.102351}, {label: v2 lo sys, symerror: 0.619894}, {label: v2 hi sys, symerror: 0.306371}]}
+      - {value: 0.429623, errors: [{label: stat, symerror: 0.559826}, {label: v2 lo sys, symerror: 0.567942}, {label: v2 hi sys, symerror: 0.30418}]}
+      - {value: 0.40255, errors: [{label: stat, symerror: 0.0944016}, {label: v2 lo sys, symerror: 0.515989}, {label: v2 hi sys, symerror: 0.301988}]}
+      - {value: 0.457736, errors: [{label: stat, symerror: 0.0960195}, {label: v2 lo sys, symerror: 0.528989}, {label: v2 hi sys, symerror: 0.39936}]}
+      - {value: 0.429577, errors: [{label: stat, symerror: 0.0895213}, {label: v2 lo sys, symerror: 0.45517}, {label: v2 hi sys, symerror: 0.416864}]}
+      - {value: 0.428921, errors: [{label: stat, symerror: 0.0832386}, {label: v2 lo sys, symerror: 0.412329}, {label: v2 hi sys, symerror: 0.458394}]}
+      - {value: 0.48687, errors: [{label: stat, symerror: 0.0873235}, {label: v2 lo sys, symerror: 0.437991}, {label: v2 hi sys, symerror: 0.548631}]}
+      - {value: 0.340409, errors: [{label: stat, symerror: 0.0842617}, {label: v2 lo sys, symerror: 0.274056}, {label: v2 hi sys, symerror: 0.419645}]}
+      - {value: 0.200074, errors: [{label: stat, symerror: 0.0841982}, {label: v2 lo sys, symerror: 0.133721}, {label: v2 hi sys, symerror: 0.279309}]}
+      - {value: 0.15246, errors: [{label: stat, symerror: 0.0863484}, {label: v2 lo sys, symerror: 0.10358}, {label: v2 hi sys, symerror: 0.214221}]}
+      - {value: -0.228548, errors: [{label: stat, symerror: 0.0810161}, {label: v2 lo sys, symerror: -0.245141}, {label: v2 hi sys, symerror: -0.199075}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 0.875}
+    values:
+      - {value: 0.0174936, errors: [{label: stat, symerror: 0.0821078}, {label: v2 lo sys, symerror: 0.0426839}, {label: v2 hi sys, symerror: 0.00621305}]}
+      - {value: 0.173466, errors: [{label: stat, symerror: 0.0807735}, {label: v2 lo sys, symerror: 0.243341}, {label: v2 hi sys, symerror: 0.117504}]}
+      - {value: 0.242873, errors: [{label: stat, symerror: 0.090026}, {label: v2 lo sys, symerror: 0.35403}, {label: v2 hi sys, symerror: 0.145631}]}
+      - {value: 0.527759, errors: [{label: stat, symerror: 0.585517}, {label: v2 lo sys, symerror: 0.663265}, {label: v2 hi sys, symerror: 0.40617}]}
+      - {value: 0.812646, errors: [{label: stat, symerror: 0.159713}, {label: v2 lo sys, symerror: 0.9725}, {label: v2 hi sys, symerror: 0.66671}]}
+      - {value: 0.574487, errors: [{label: stat, symerror: 0.16292}, {label: v2 lo sys, symerror: 0.734341}, {label: v2 hi sys, symerror: 0.428551}]}
+      - {value: 0.40879, errors: [{label: stat, symerror: 0.780906}, {label: v2 lo sys, symerror: 0.544296}, {label: v2 hi sys, symerror: 0.287201}]}
+      - {value: 0.243093, errors: [{label: stat, symerror: 0.0917333}, {label: v2 lo sys, symerror: 0.354251}, {label: v2 hi sys, symerror: 0.145851}]}
+      - {value: 0.0153292, errors: [{label: stat, symerror: 0.0989556}, {label: v2 lo sys, symerror: 0.085204}, {label: v2 hi sys, symerror: -0.0406326}]}
+      - {value: -0.0204807, errors: [{label: stat, symerror: 0.089598}, {label: v2 lo sys, symerror: 0.00470961}, {label: v2 hi sys, symerror: -0.0317613}]}
+      - {value: -0.00448785, errors: [{label: stat, symerror: 0.0826303}, {label: v2 lo sys, symerror: -0.0205805}, {label: v2 hi sys, symerror: 0.0255118}]}
+      - {value: 0.0532655, errors: [{label: stat, symerror: 0.0926238}, {label: v2 lo sys, symerror: 0.00557616}, {label: v2 hi sys, symerror: 0.11486}]}
+      - {value: 0.265374, errors: [{label: stat, symerror: 0.0893922}, {label: v2 lo sys, symerror: 0.200584}, {label: v2 hi sys, symerror: 0.344067}]}
+      - {value: 0.221752, errors: [{label: stat, symerror: 0.0896739}, {label: v2 lo sys, symerror: 0.156962}, {label: v2 hi sys, symerror: 0.300444}]}
+      - {value: 0.460573, errors: [{label: stat, symerror: 0.0928263}, {label: v2 lo sys, symerror: 0.412883}, {label: v2 hi sys, symerror: 0.522167}]}
+      - {value: 0.466198, errors: [{label: stat, symerror: 0.0802715}, {label: v2 lo sys, symerror: 0.450105}, {label: v2 hi sys, symerror: 0.496198}]}
+      - {value: 0.542342, errors: [{label: stat, symerror: 0.0824129}, {label: v2 lo sys, symerror: 0.567532}, {label: v2 hi sys, symerror: 0.531061}]}
+      - {value: 0.415721, errors: [{label: stat, symerror: 0.0809125}, {label: v2 lo sys, symerror: 0.485596}, {label: v2 hi sys, symerror: 0.35976}]}
+      - {value: 0.327244, errors: [{label: stat, symerror: 0.0901445}, {label: v2 lo sys, symerror: 0.438402}, {label: v2 hi sys, symerror: 0.230002}]}
+      - {value: 0.299588, errors: [{label: stat, symerror: 0.573751}, {label: v2 lo sys, symerror: 0.435094}, {label: v2 hi sys, symerror: 0.177999}]}
+      - {value: 0.271931, errors: [{label: stat, symerror: 0.15944}, {label: v2 lo sys, symerror: 0.431786}, {label: v2 hi sys, symerror: 0.125996}]}
+      - {value: 0.46908, errors: [{label: stat, symerror: 0.162596}, {label: v2 lo sys, symerror: 0.628934}, {label: v2 hi sys, symerror: 0.323144}]}
+      - {value: 0.430845, errors: [{label: stat, symerror: 0.735944}, {label: v2 lo sys, symerror: 0.566351}, {label: v2 hi sys, symerror: 0.309256}]}
+      - {value: 0.392611, errors: [{label: stat, symerror: 0.0921378}, {label: v2 lo sys, symerror: 0.503768}, {label: v2 hi sys, symerror: 0.295369}]}
+      - {value: 0.634461, errors: [{label: stat, symerror: 0.0988102}, {label: v2 lo sys, symerror: 0.704336}, {label: v2 hi sys, symerror: 0.578499}]}
+      - {value: 0.582703, errors: [{label: stat, symerror: 0.0899833}, {label: v2 lo sys, symerror: 0.607893}, {label: v2 hi sys, symerror: 0.571422}]}
+      - {value: 0.488386, errors: [{label: stat, symerror: 0.083006}, {label: v2 lo sys, symerror: 0.472293}, {label: v2 hi sys, symerror: 0.518386}]}
+      - {value: 0.643056, errors: [{label: stat, symerror: 0.0930031}, {label: v2 lo sys, symerror: 0.595366}, {label: v2 hi sys, symerror: 0.70465}]}
+      - {value: 0.350019, errors: [{label: stat, symerror: 0.0895195}, {label: v2 lo sys, symerror: 0.28523}, {label: v2 hi sys, symerror: 0.428712}]}
+      - {value: 0.130483, errors: [{label: stat, symerror: 0.0895348}, {label: v2 lo sys, symerror: 0.0656937}, {label: v2 hi sys, symerror: 0.209176}]}
+      - {value: 0.0597225, errors: [{label: stat, symerror: 0.0928192}, {label: v2 lo sys, symerror: 0.0120332}, {label: v2 hi sys, symerror: 0.121317}]}
+      - {value: 0.0789345, errors: [{label: stat, symerror: 0.0800867}, {label: v2 lo sys, symerror: 0.0628418}, {label: v2 hi sys, symerror: 0.108934}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 1.125}
+    values:
+      - {value: -0.0320275, errors: [{label: stat, symerror: 0.080474}, {label: v2 lo sys, symerror: -0.00781697}, {label: v2 hi sys, symerror: -0.0415211}]}
+      - {value: 0.110931, errors: [{label: stat, symerror: 0.080311}, {label: v2 lo sys, symerror: 0.178232}, {label: v2 hi sys, symerror: 0.0583555}]}
+      - {value: 0.358837, errors: [{label: stat, symerror: 0.0881657}, {label: v2 lo sys, symerror: 0.465947}, {label: v2 hi sys, symerror: 0.266458}]}
+      - {value: 0.0864549, errors: [{label: stat, symerror: 0.212211}, {label: v2 lo sys, symerror: 0.217044}, {label: v2 hi sys, symerror: -0.0293993}]}
+      - {value: -0.185927, errors: [{label: stat, symerror: 0.220133}, {label: v2 lo sys, symerror: -0.0318585}, {label: v2 hi sys, symerror: -0.325257}]}
+      - {value: 0.566293, errors: [{label: stat, symerror: 0.265438}, {label: v2 lo sys, symerror: 0.720362}, {label: v2 hi sys, symerror: 0.426964}]}
+      - {value: 0.257458, errors: [{label: stat, symerror: 0.241939}, {label: v2 lo sys, symerror: 0.388047}, {label: v2 hi sys, symerror: 0.141604}]}
+      - {value: -0.0513776, errors: [{label: stat, symerror: 0.0889643}, {label: v2 lo sys, symerror: 0.0557324}, {label: v2 hi sys, symerror: -0.143756}]}
+      - {value: 0.0145902, errors: [{label: stat, symerror: 0.101594}, {label: v2 lo sys, symerror: 0.0818904}, {label: v2 hi sys, symerror: -0.0379858}]}
+      - {value: -0.062002, errors: [{label: stat, symerror: 0.090172}, {label: v2 lo sys, symerror: -0.0377915}, {label: v2 hi sys, symerror: -0.0714956}]}
+      - {value: -0.112181, errors: [{label: stat, symerror: 0.0829085}, {label: v2 lo sys, symerror: -0.12778}, {label: v2 hi sys, symerror: -0.0818719}]}
+      - {value: 0.126874, errors: [{label: stat, symerror: 0.089022}, {label: v2 lo sys, symerror: 0.0808053}, {label: v2 hi sys, symerror: 0.187647}]}
+      - {value: 0.167279, errors: [{label: stat, symerror: 0.0885531}, {label: v2 lo sys, symerror: 0.104721}, {label: v2 hi sys, symerror: 0.244539}]}
+      - {value: 0.0370606, errors: [{label: stat, symerror: 0.0886092}, {label: v2 lo sys, symerror: -0.0254974}, {label: v2 hi sys, symerror: 0.114321}]}
+      - {value: 0.304796, errors: [{label: stat, symerror: 0.0898286}, {label: v2 lo sys, symerror: 0.258728}, {label: v2 hi sys, symerror: 0.365569}]}
+      - {value: 0.520888, errors: [{label: stat, symerror: 0.0801118}, {label: v2 lo sys, symerror: 0.505289}, {label: v2 hi sys, symerror: 0.551197}]}
+      - {value: 0.398559, errors: [{label: stat, symerror: 0.0806171}, {label: v2 lo sys, symerror: 0.42277}, {label: v2 hi sys, symerror: 0.389065}]}
+      - {value: 0.369316, errors: [{label: stat, symerror: 0.0803772}, {label: v2 lo sys, symerror: 0.436616}, {label: v2 hi sys, symerror: 0.31674}]}
+      - {value: 0.428389, errors: [{label: stat, symerror: 0.0884043}, {label: v2 lo sys, symerror: 0.535499}, {label: v2 hi sys, symerror: 0.336011}]}
+      - {value: 0.469616, errors: [{label: stat, symerror: 0.21321}, {label: v2 lo sys, symerror: 0.600205}, {label: v2 hi sys, symerror: 0.353761}]}
+      - {value: 0.510842, errors: [{label: stat, symerror: 0.223493}, {label: v2 lo sys, symerror: 0.664911}, {label: v2 hi sys, symerror: 0.371512}]}
+      - {value: 0.415946, errors: [{label: stat, symerror: 0.265006}, {label: v2 lo sys, symerror: 0.570014}, {label: v2 hi sys, symerror: 0.276616}]}
+      - {value: 0.383284, errors: [{label: stat, symerror: 0.239005}, {label: v2 lo sys, symerror: 0.513873}, {label: v2 hi sys, symerror: 0.267429}]}
+      - {value: 0.350622, errors: [{label: stat, symerror: 0.0893837}, {label: v2 lo sys, symerror: 0.457732}, {label: v2 hi sys, symerror: 0.258243}]}
+      - {value: 0.465702, errors: [{label: stat, symerror: 0.101166}, {label: v2 lo sys, symerror: 0.533002}, {label: v2 hi sys, symerror: 0.413126}]}
+      - {value: 0.493834, errors: [{label: stat, symerror: 0.0902873}, {label: v2 lo sys, symerror: 0.518044}, {label: v2 hi sys, symerror: 0.48434}]}
+      - {value: 0.554062, errors: [{label: stat, symerror: 0.08335}, {label: v2 lo sys, symerror: 0.538463}, {label: v2 hi sys, symerror: 0.584372}]}
+      - {value: 0.500382, errors: [{label: stat, symerror: 0.0893562}, {label: v2 lo sys, symerror: 0.454314}, {label: v2 hi sys, symerror: 0.561156}]}
+      - {value: 0.393791, errors: [{label: stat, symerror: 0.0887428}, {label: v2 lo sys, symerror: 0.331233}, {label: v2 hi sys, symerror: 0.471051}]}
+      - {value: 0.0871678, errors: [{label: stat, symerror: 0.0885705}, {label: v2 lo sys, symerror: 0.0246099}, {label: v2 hi sys, symerror: 0.164428}]}
+      - {value: 0.153379, errors: [{label: stat, symerror: 0.0898609}, {label: v2 lo sys, symerror: 0.107311}, {label: v2 hi sys, symerror: 0.214152}]}
+      - {value: 0.0173345, errors: [{label: stat, symerror: 0.0797742}, {label: v2 lo sys, symerror: 0.00173533}, {label: v2 hi sys, symerror: 0.0476438}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 1.375}
+    values:
+      - {value: 0.00703629, errors: [{label: stat, symerror: 0.0776323}, {label: v2 lo sys, symerror: 0.0297263}, {label: v2 hi sys, symerror: -0.000460927}]}
+      - {value: 0.0887451, errors: [{label: stat, symerror: 0.0782398}, {label: v2 lo sys, symerror: 0.15229}, {label: v2 hi sys, symerror: 0.0404045}]}
+      - {value: 0.238101, errors: [{label: stat, symerror: 0.0835854}, {label: v2 lo sys, symerror: 0.33939}, {label: v2 hi sys, symerror: 0.152026}]}
+      - {value: 0.273971, errors: [{label: stat, symerror: 0.116464}, {label: v2 lo sys, symerror: 0.397521}, {label: v2 hi sys, symerror: 0.16564}]}
+      - {value: 0.309841, errors: [{label: stat, symerror: 0.118931}, {label: v2 lo sys, symerror: 0.455653}, {label: v2 hi sys, symerror: 0.179255}]}
+      - {value: 0.307745, errors: [{label: stat, symerror: 0.12989}, {label: v2 lo sys, symerror: 0.453557}, {label: v2 hi sys, symerror: 0.177159}]}
+      - {value: 0.229015, errors: [{label: stat, symerror: 0.120831}, {label: v2 lo sys, symerror: 0.352565}, {label: v2 hi sys, symerror: 0.120684}]}
+      - {value: 0.150284, errors: [{label: stat, symerror: 0.0833592}, {label: v2 lo sys, symerror: 0.251574}, {label: v2 hi sys, symerror: 0.0642095}]}
+      - {value: 0.1939, errors: [{label: stat, symerror: 0.0899353}, {label: v2 lo sys, symerror: 0.257445}, {label: v2 hi sys, symerror: 0.14556}]}
+      - {value: -0.0481169, errors: [{label: stat, symerror: 0.084185}, {label: v2 lo sys, symerror: -0.0254269}, {label: v2 hi sys, symerror: -0.0556141}]}
+      - {value: -0.0257382, errors: [{label: stat, symerror: 0.0807777}, {label: v2 lo sys, symerror: -0.0407928}, {label: v2 hi sys, symerror: 0.0044989}]}
+      - {value: 0.0984455, errors: [{label: stat, symerror: 0.0796339}, {label: v2 lo sys, symerror: 0.0545024}, {label: v2 hi sys, symerror: 0.157563}]}
+      - {value: 0.202152, errors: [{label: stat, symerror: 0.0781945}, {label: v2 lo sys, symerror: 0.142575}, {label: v2 hi sys, symerror: 0.2769}]}
+      - {value: 0.136221, errors: [{label: stat, symerror: 0.0775443}, {label: v2 lo sys, symerror: 0.0766439}, {label: v2 hi sys, symerror: 0.210969}]}
+      - {value: 0.403052, errors: [{label: stat, symerror: 0.0801623}, {label: v2 lo sys, symerror: 0.359109}, {label: v2 hi sys, symerror: 0.46217}]}
+      - {value: 0.408986, errors: [{label: stat, symerror: 0.0780626}, {label: v2 lo sys, symerror: 0.393932}, {label: v2 hi sys, symerror: 0.439224}]}
+      - {value: 0.360904, errors: [{label: stat, symerror: 0.077729}, {label: v2 lo sys, symerror: 0.383594}, {label: v2 hi sys, symerror: 0.353406}]}
+      - {value: 0.642676, errors: [{label: stat, symerror: 0.0782555}, {label: v2 lo sys, symerror: 0.706221}, {label: v2 hi sys, symerror: 0.594336}]}
+      - {value: 0.361861, errors: [{label: stat, symerror: 0.0838641}, {label: v2 lo sys, symerror: 0.46315}, {label: v2 hi sys, symerror: 0.275786}]}
+      - {value: 0.297201, errors: [{label: stat, symerror: 0.116766}, {label: v2 lo sys, symerror: 0.420752}, {label: v2 hi sys, symerror: 0.188871}]}
+      - {value: 0.232542, errors: [{label: stat, symerror: 0.118538}, {label: v2 lo sys, symerror: 0.378354}, {label: v2 hi sys, symerror: 0.101956}]}
+      - {value: 0.46385, errors: [{label: stat, symerror: 0.130633}, {label: v2 lo sys, symerror: 0.609662}, {label: v2 hi sys, symerror: 0.333264}]}
+      - {value: 0.52639, errors: [{label: stat, symerror: 0.120722}, {label: v2 lo sys, symerror: 0.64994}, {label: v2 hi sys, symerror: 0.418059}]}
+      - {value: 0.58893, errors: [{label: stat, symerror: 0.0837704}, {label: v2 lo sys, symerror: 0.690219}, {label: v2 hi sys, symerror: 0.502855}]}
+      - {value: 0.482993, errors: [{label: stat, symerror: 0.0899282}, {label: v2 lo sys, symerror: 0.546537}, {label: v2 hi sys, symerror: 0.434652}]}
+      - {value: 0.492675, errors: [{label: stat, symerror: 0.084354}, {label: v2 lo sys, symerror: 0.515365}, {label: v2 hi sys, symerror: 0.485178}]}
+      - {value: 0.492047, errors: [{label: stat, symerror: 0.0811581}, {label: v2 lo sys, symerror: 0.476992}, {label: v2 hi sys, symerror: 0.522284}]}
+      - {value: 0.415053, errors: [{label: stat, symerror: 0.0798544}, {label: v2 lo sys, symerror: 0.37111}, {label: v2 hi sys, symerror: 0.474171}]}
+      - {value: 0.324376, errors: [{label: stat, symerror: 0.07826}, {label: v2 lo sys, symerror: 0.264799}, {label: v2 hi sys, symerror: 0.399124}]}
+      - {value: 0.204489, errors: [{label: stat, symerror: 0.0775774}, {label: v2 lo sys, symerror: 0.144912}, {label: v2 hi sys, symerror: 0.279237}]}
+      - {value: 0.0335423, errors: [{label: stat, symerror: 0.0799947}, {label: v2 lo sys, symerror: -0.0104008}, {label: v2 hi sys, symerror: 0.09266}]}
+      - {value: 0.0904071, errors: [{label: stat, symerror: 0.0777084}, {label: v2 lo sys, symerror: 0.0753525}, {label: v2 hi sys, symerror: 0.120644}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 1.625}
+    values:
+      - {value: 0.0201899, errors: [{label: stat, symerror: 0.0752445}, {label: v2 lo sys, symerror: 0.0409086}, {label: v2 hi sys, symerror: 0.0147338}]}
+      - {value: -0.0358318, errors: [{label: stat, symerror: 0.0765823}, {label: v2 lo sys, symerror: 0.0228977}, {label: v2 hi sys, symerror: -0.0792846}]}
+      - {value: 0.258435, errors: [{label: stat, symerror: 0.0802147}, {label: v2 lo sys, symerror: 0.352282}, {label: v2 hi sys, symerror: 0.179878}]}
+      - {value: 0.246216, errors: [{label: stat, symerror: 0.0856999}, {label: v2 lo sys, symerror: 0.366941}, {label: v2 hi sys, symerror: 0.140791}]}
+      - {value: 0.444804, errors: [{label: stat, symerror: 0.0856552}, {label: v2 lo sys, symerror: 0.580075}, {label: v2 hi sys, symerror: 0.324838}]}
+      - {value: 0.353758, errors: [{label: stat, symerror: 0.090834}, {label: v2 lo sys, symerror: 0.489029}, {label: v2 hi sys, symerror: 0.233792}]}
+      - {value: 0.362068, errors: [{label: stat, symerror: 0.0866451}, {label: v2 lo sys, symerror: 0.482792}, {label: v2 hi sys, symerror: 0.256643}]}
+      - {value: 0.190103, errors: [{label: stat, symerror: 0.0797346}, {label: v2 lo sys, symerror: 0.28395}, {label: v2 hi sys, symerror: 0.111546}]}
+      - {value: 0.0817084, errors: [{label: stat, symerror: 0.0778552}, {label: v2 lo sys, symerror: 0.140438}, {label: v2 hi sys, symerror: 0.0382556}]}
+      - {value: 0.0927025, errors: [{label: stat, symerror: 0.0791308}, {label: v2 lo sys, symerror: 0.113421}, {label: v2 hi sys, symerror: 0.0872464}]}
+      - {value: 0.0121054, errors: [{label: stat, symerror: 0.0775067}, {label: v2 lo sys, symerror: -0.00229317}, {label: v2 hi sys, symerror: 0.0417538}]}
+      - {value: 0.0726982, errors: [{label: stat, symerror: 0.078024}, {label: v2 lo sys, symerror: 0.0314219}, {label: v2 hi sys, symerror: 0.129214}]}
+      - {value: 0.0807865, errors: [{label: stat, symerror: 0.0755853}, {label: v2 lo sys, symerror: 0.0249642}, {label: v2 hi sys, symerror: 0.151843}]}
+      - {value: 0.190528, errors: [{label: stat, symerror: 0.07586}, {label: v2 lo sys, symerror: 0.134706}, {label: v2 hi sys, symerror: 0.261585}]}
+      - {value: 0.266645, errors: [{label: stat, symerror: 0.0784618}, {label: v2 lo sys, symerror: 0.225369}, {label: v2 hi sys, symerror: 0.323161}]}
+      - {value: 0.365508, errors: [{label: stat, symerror: 0.0759995}, {label: v2 lo sys, symerror: 0.351109}, {label: v2 hi sys, symerror: 0.395156}]}
+      - {value: 0.501655, errors: [{label: stat, symerror: 0.0754807}, {label: v2 lo sys, symerror: 0.522374}, {label: v2 hi sys, symerror: 0.496199}]}
+      - {value: 0.472464, errors: [{label: stat, symerror: 0.0767774}, {label: v2 lo sys, symerror: 0.531194}, {label: v2 hi sys, symerror: 0.429012}]}
+      - {value: 0.321555, errors: [{label: stat, symerror: 0.0802313}, {label: v2 lo sys, symerror: 0.415402}, {label: v2 hi sys, symerror: 0.242998}]}
+      - {value: 0.528169, errors: [{label: stat, symerror: 0.0860152}, {label: v2 lo sys, symerror: 0.648893}, {label: v2 hi sys, symerror: 0.422744}]}
+      - {value: 0.406662, errors: [{label: stat, symerror: 0.0856758}, {label: v2 lo sys, symerror: 0.541933}, {label: v2 hi sys, symerror: 0.286696}]}
+      - {value: 0.337151, errors: [{label: stat, symerror: 0.0907017}, {label: v2 lo sys, symerror: 0.472421}, {label: v2 hi sys, symerror: 0.217185}]}
+      - {value: 0.532376, errors: [{label: stat, symerror: 0.0865673}, {label: v2 lo sys, symerror: 0.6531}, {label: v2 hi sys, symerror: 0.426951}]}
+      - {value: 0.58045, errors: [{label: stat, symerror: 0.0801852}, {label: v2 lo sys, symerror: 0.674296}, {label: v2 hi sys, symerror: 0.501892}]}
+      - {value: 0.410114, errors: [{label: stat, symerror: 0.0779481}, {label: v2 lo sys, symerror: 0.468843}, {label: v2 hi sys, symerror: 0.366661}]}
+      - {value: 0.416379, errors: [{label: stat, symerror: 0.0791787}, {label: v2 lo sys, symerror: 0.437098}, {label: v2 hi sys, symerror: 0.410923}]}
+      - {value: 0.376972, errors: [{label: stat, symerror: 0.0776711}, {label: v2 lo sys, symerror: 0.362573}, {label: v2 hi sys, symerror: 0.40662}]}
+      - {value: 0.477565, errors: [{label: stat, symerror: 0.078231}, {label: v2 lo sys, symerror: 0.436289}, {label: v2 hi sys, symerror: 0.534081}]}
+      - {value: 0.201106, errors: [{label: stat, symerror: 0.0756506}, {label: v2 lo sys, symerror: 0.145284}, {label: v2 hi sys, symerror: 0.272163}]}
+      - {value: 0.127841, errors: [{label: stat, symerror: 0.0758617}, {label: v2 lo sys, symerror: 0.0720185}, {label: v2 hi sys, symerror: 0.198898}]}
+      - {value: -0.0254041, errors: [{label: stat, symerror: 0.0756346}, {label: v2 lo sys, symerror: -0.0398027}, {label: v2 hi sys, symerror: 0.00424421}]}
+  - header: {name: "Correlated Yield"}
+    qualifiers:
+      - {name: "Centrality", value: "0–30%"}
+      - {name: "$\\Delta\\eta$", value: 1.875}
+    values:
+      - {value: 0.041851, errors: [{label: stat, symerror: 0.0719451}, {label: v2 lo sys, symerror: 0.0602791}, {label: v2 hi sys, symerror: 0.0383201}]}
+      - {value: -0.0205833, errors: [{label: stat, symerror: 0.0740412}, {label: v2 lo sys, symerror: 0.0324931}, {label: v2 hi sys, symerror: -0.0587468}]}
+      - {value: 0.101375, errors: [{label: stat, symerror: 0.0782855}, {label: v2 lo sys, symerror: 0.186462}, {label: v2 hi sys, symerror: 0.0312151}]}
+      - {value: 0.308685, errors: [{label: stat, symerror: 0.077428}, {label: v2 lo sys, symerror: 0.418273}, {label: v2 hi sys, symerror: 0.214036}]}
+      - {value: 0.234472, errors: [{label: stat, symerror: 0.0744903}, {label: v2 lo sys, symerror: 0.357319}, {label: v2 hi sys, symerror: 0.12657}]}
+      - {value: 0.148996, errors: [{label: stat, symerror: 0.076623}, {label: v2 lo sys, symerror: 0.271842}, {label: v2 hi sys, symerror: 0.0410934}]}
+      - {value: 0.29545, errors: [{label: stat, symerror: 0.0758149}, {label: v2 lo sys, symerror: 0.405037}, {label: v2 hi sys, symerror: 0.200801}]}
+      - {value: 0.235658, errors: [{label: stat, symerror: 0.0766296}, {label: v2 lo sys, symerror: 0.320745}, {label: v2 hi sys, symerror: 0.165498}]}
+      - {value: 0.0677556, errors: [{label: stat, symerror: 0.0722162}, {label: v2 lo sys, symerror: 0.120832}, {label: v2 hi sys, symerror: 0.029592}]}
+      - {value: -0.0593121, errors: [{label: stat, symerror: 0.0742938}, {label: v2 lo sys, symerror: -0.040884}, {label: v2 hi sys, symerror: -0.062843}]}
+      - {value: 0.0809837, errors: [{label: stat, symerror: 0.0739815}, {label: v2 lo sys, symerror: 0.067401}, {label: v2 hi sys, symerror: 0.109449}]}
+      - {value: 0.0578659, errors: [{label: stat, symerror: 0.0760423}, {label: v2 lo sys, symerror: 0.0197831}, {label: v2 hi sys, symerror: 0.11082}]}
+      - {value: 0.025891, errors: [{label: stat, symerror: 0.0721872}, {label: v2 lo sys, symerror: -0.0254511}, {label: v2 hi sys, symerror: 0.0920989}]}
+      - {value: 0.275373, errors: [{label: stat, symerror: 0.0735103}, {label: v2 lo sys, symerror: 0.224031}, {label: v2 hi sys, symerror: 0.341581}]}
+      - {value: 0.319198, errors: [{label: stat, symerror: 0.0751824}, {label: v2 lo sys, symerror: 0.281115}, {label: v2 hi sys, symerror: 0.372153}]}
+      - {value: 0.398364, errors: [{label: stat, symerror: 0.0739487}, {label: v2 lo sys, symerror: 0.384781}, {label: v2 hi sys, symerror: 0.426829}]}
+      - {value: 0.306846, errors: [{label: stat, symerror: 0.0721345}, {label: v2 lo sys, symerror: 0.325274}, {label: v2 hi sys, symerror: 0.303315}]}
+      - {value: 0.430417, errors: [{label: stat, symerror: 0.0741612}, {label: v2 lo sys, symerror: 0.483493}, {label: v2 hi sys, symerror: 0.392253}]}
+      - {value: 0.399491, errors: [{label: stat, symerror: 0.0784484}, {label: v2 lo sys, symerror: 0.484579}, {label: v2 hi sys, symerror: 0.329331}]}
+      - {value: 0.451019, errors: [{label: stat, symerror: 0.0778562}, {label: v2 lo sys, symerror: 0.560606}, {label: v2 hi sys, symerror: 0.35637}]}
+      - {value: 0.390543, errors: [{label: stat, symerror: 0.0745074}, {label: v2 lo sys, symerror: 0.51339}, {label: v2 hi sys, symerror: 0.282641}]}
+      - {value: 0.455143, errors: [{label: stat, symerror: 0.076678}, {label: v2 lo sys, symerror: 0.57799}, {label: v2 hi sys, symerror: 0.347241}]}
+      - {value: 0.417318, errors: [{label: stat, symerror: 0.0758278}, {label: v2 lo sys, symerror: 0.526905}, {label: v2 hi sys, symerror: 0.322669}]}
+      - {value: 0.470952, errors: [{label: stat, symerror: 0.0769418}, {label: v2 lo sys, symerror: 0.556039}, {label: v2 hi sys, symerror: 0.400792}]}
+      - {value: 0.438665, errors: [{label: stat, symerror: 0.0724383}, {label: v2 lo sys, symerror: 0.491742}, {label: v2 hi sys, symerror: 0.400502}]}
+      - {value: 0.390762, errors: [{label: stat, symerror: 0.0744564}, {label: v2 lo sys, symerror: 0.40919}, {label: v2 hi sys, symerror: 0.387231}]}
+      - {value: 0.342159, errors: [{label: stat, symerror: 0.0741409}, {label: v2 lo sys, symerror: 0.328577}, {label: v2 hi sys, symerror: 0.370625}]}
+      - {value: 0.294775, errors: [{label: stat, symerror: 0.0761664}, {label: v2 lo sys, symerror: 0.256692}, {label: v2 hi sys, symerror: 0.34773}]}
+      - {value: 0.187379, errors: [{label: stat, symerror: 0.0723008}, {label: v2 lo sys, symerror: 0.136036}, {label: v2 hi sys, symerror: 0.253586}]}
+      - {value: 0.213274, errors: [{label: stat, symerror: 0.0735119}, {label: v2 lo sys, symerror: 0.161931}, {label: v2 hi sys, symerror: 0.279481}]}
+      - {value: 0.130094, errors: [{label: stat, symerror: 0.0750267}, {label: v2 lo sys, symerror: 0.0920115}, {label: v2 hi sys, symerror: 0.1830.183049}]}
+      - {value: -0.0489437, errors: [{label: stat, symerror: 0.0736204}, {label: v2 lo sys, symerror: -0.0625265}, {label: v2 hi sys, symerror: -0.0204782}]}

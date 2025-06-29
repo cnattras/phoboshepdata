@@ -1,0 +1,7 @@
+independent_variables:
+  - header: {name: "Yield"}
+    values:
+      - {value: "Near-side Long-range Yield"}
+      - {value: "Near-side Short-range Yield (minus PYTHIA)"}
+      - {value: "Away-side Long-range Yield"}
+      - {value: "Away-side Short-range Yield "}
