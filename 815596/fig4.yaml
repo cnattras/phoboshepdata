@@ -1,7 +1,111 @@
 independent_variables:
-  - header: {name: "Yield"}
     values:
-      - {value: "Near-side Long-range Yield"}
-      - {value: "Near-side Short-range Yield (minus PYTHIA)"}
-      - {value: "Away-side Long-range Yield"}
-      - {value: "Away-side Short-range Yield "}
+      - { value: "Near-side Long-range Yield" }
+      - { value: "Near-side Short-range Yield (minus PYTHIA)" }
+      - { value: "Away-side Long-range Yield" }
+      - { value: "Away-side Short-range Yield" }
+
+dependent_variables:
+  - header: { name: "Yield" }
+    qualifiers:
+      - { name: "Npart", values: [73.5] }
+    values:
+      - value: -0.02063
+        errors:
+          - { label: stat, symerror: 0.0291598 }
+          - { label: syst, asymerror: { plus: 0.107104, minus: -0.113984 } }
+      - value: -0.171316
+        errors:
+          - { label: stat, symerror: 0.0361616 }
+          - { label: syst, asymerror: { plus: 0.0143296, minus: -0.329817 } }
+      - value: 0.982812
+        errors:
+          - { label: stat, symerror: 0.043343 }
+          - { label: syst, asymerror: { plus: 1.02772, minus: 1.01246 } }
+      - value: 0.816317
+        errors:
+          - { label: stat, symerror: 0.0728623 }
+          - { label: syst, asymerror: { plus: 0.927766, minus: 0.76623 } }
+  - header: { name: "Yield" }
+    qualifiers:
+      - { name: "Npart", values: [107] }
+    values:
+      - value: 0.093785
+        errors:
+          - { label: stat, symerror: 0.029412 }
+          - { label: syst, asymerror: { minus: -0.0393582, plus: 0.26703 } }
+      - value: 0.0328078
+        errors:
+          - { label: stat, symerror: 0.036556 }
+          - { label: syst, asymerror: { minus: -0.177491, plus: 0.277128 } }
+      - value: 1.16638
+        errors:
+          - { label: stat, symerror: 0.0435908 }
+          - { label: syst, asymerror: { minus: 1.16449, plus: 1.25554 } }
+      - value: 1.07308
+        errors:
+          - { label: stat, symerror: 0.0755892 }
+          - { label: syst, asymerror: { minus: 1.00945, plus: 1.21411 } }
+
+  - header: { name: "Yield" }
+    qualifiers:
+      - { name: "Npart", values: [165] }
+    values:
+      - value: 0.245773
+        errors:
+          - { label: stat, symerror: 0.0300949 }
+          - { label: syst, asymerror: { minus: 0.0889542, plus: 0.437146 } }
+      - value: 0.178035
+        errors:
+          - { label: stat, symerror: 0.0377326 }
+          - { label: syst, asymerror: { minus: -0.0669769, plus: 0.450931 } }
+      - value: 1.34024
+        errors:
+          - { label: stat, symerror: 0.0445579 }
+          - { label: syst, asymerror: { minus: 1.31559, plus: 1.44035 } }
+      - value: 1.29519
+        errors:
+          - { label: stat, symerror: 0.0768994 }
+          - { label: syst, asymerror: { minus: 1.22697, plus: 1.43039 } }
+
+  - header: { name: "Yield" }
+    qualifiers:
+      - { name: "Npart", values: [235.5] }
+    values:
+      - value: 0.31742
+        errors:
+          - { label: stat, symerror: 0.0316626 }
+          - { label: syst, asymerror: { minus: 0.174146, plus: 0.485669 } }
+      - value: 0.233638
+        errors:
+          - { label: stat, symerror: 0.0392903 }
+          - { label: syst, asymerror: { minus: 0.0243458, plus: 0.466178 } }
+      - value: 1.50214
+        errors:
+          - { label: stat, symerror: 0.0469037 }
+          - { label: syst, asymerror: { minus: 1.4558, plus: 1.60324 } }
+      - value: 1.49821
+        errors:
+          - { label: stat, symerror: 0.0816779 }
+          - { label: syst, asymerror: { minus: 1.41773, plus: 1.62792 } }
+
+  - header: { name: "Yield" }
+    qualifiers:
+      - { name: "Npart", values: [325.5] }
+    values:
+      - value: 0.22946
+        errors:
+          - { label: stat, symerror: 0.0347354 }
+          - { label: syst, asymerror: { minus: 0.0763766, plus: 0.39271 } }
+      - value: 0.246142
+        errors:
+          - { label: stat, symerror: 0.044389 }
+          - { label: syst, asymerror: { minus: 0.0576046, plus: 0.443322 } }
+      - value: 1.5871
+        errors:
+          - { label: stat, symerror: 0.0514884 }
+          - { label: syst, asymerror: { minus: 1.52373, plus: 1.67284 } }
+      - value: 1.36863
+        errors:
+          - { label: stat, symerror: 0.0896389 }
+          - { label: syst, asymerror: { minus: 1.28337, plus: 1.47416 } }
