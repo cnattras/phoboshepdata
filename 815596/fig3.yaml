@@ -18,7 +18,7 @@ independent_variables:
     - {value: 2.84707}
     - {value: 3.04342}
 dependent_variables:
-- header: {name: "Short-range Correlated Yield", note: "|Δη| < 1", scale uncertainty: 0.047}
+- header: {name: "Short-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "0–10%"}
   values:
@@ -86,7 +86,7 @@ dependent_variables:
         errors:
           - { label: stat, symerror: 0.0948583 }
           - { label: flow sys, asymerror: { minus: 0.757859, plus: 1.22827 } }
-- header: {name: "Short-range Correlated Yield", note: "|Δη| < 1", scale uncertainty: 0.0283}
+- header: {name: "Short-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "10–20%"}
   values:
@@ -222,7 +222,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0820011 }
       - { label: flow sys, asymerror: { minus: 0.35499, plus: 0.38602 } }
-- header: {name: "Short-range Correlated Yield", note: "|Δη| < 1", scale uncertainty: 0.0371}
+- header: {name: "Short-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "30–40%"}
   values:
@@ -290,7 +290,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0806522 }
       - { label: flow sys, asymerror: { minus: 0.297241, plus: 0.33332 } }
-- header: {name: "Short-range Correlated Yield", note: "|Δη| < 1", scale uncertainty: 0.0447}
+- header: {name: "Short-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "40–50%"}
   values:
@@ -358,7 +358,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0783201 }
       - { label: flow sys, asymerror: { minus: 0.196641, plus: 0.225376 } }
-- header: {name: "Long-range Correlated Yield", note: "$-4 < \\Delta\\eta < -2$", scale uncertainty: 0.0676}
+- header: {name: "Long-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "0–10%"}
   values:
@@ -426,7 +426,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0797098 }
       - { label: flow sys, asymerror: { minus: 0.152633, plus: 0.162985 } }
-- header: {name: "Long-range Correlated Yield", note: "$-4 < \\Delta\\eta < -2$", scale uncertainty: 0.0514}
+- header: {name: "Long-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "10–20%"}
   values:
@@ -494,7 +494,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0727096 }
       - { label: flow sys, asymerror: { minus: 0.164215, plus: 0.189721 } }
-- header: {name: "Long-range Correlated Yield", note: "$-4 < \\Delta\\eta < -2$", scale uncertainty: 0.0597}
+- header: {name: "Long-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "20–30%"}
   values:
@@ -562,7 +562,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0692734 }
       - { label: flow sys, asymerror: { minus: 0.183718, plus: 0.219104 } }
-- header: {name: "Long-range Correlated Yield", note: "$-4 < \\Delta\\eta < -2$", scale uncertainty: 0.0696}
+- header: {name: "Long-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "30–40%"}
   values:
@@ -630,7 +630,7 @@ dependent_variables:
     errors:
       - { label: stat, symerror: 0.0678303 }
       - { label: flow sys, asymerror: { minus: 0.135469, plus: 0.176644 } }
-- header: {name: "Long-range Correlated Yield", note: "$-4 < \\Delta\\eta < -2$", scale uncertainty: 0.0782}
+- header: {name: "Long-range Correlated Yield"}
   qualifiers:
     - {name: "Centrality", value: "40–50%"}
   values:
