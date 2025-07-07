@@ -80,3 +80,15 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
+--- 
+name: "Full Data Before Flow Subtraction"
+location: Data from all figures of PHOBOS paper Inspire ID:815596
+description: Full data tables for data before flow subtraction for |delta-eta|<1 & -4<delta-eta<-2  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: centrality1.yaml

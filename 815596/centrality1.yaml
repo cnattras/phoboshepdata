@@ -1,0 +1,786 @@
+independent_variables:
+- header: { name: "$\\Delta\\phi$" }
+  values:
+    - { value: -3.04 }
+    - { value: -2.85 }
+    - { value: -2.65 }
+    - { value: -2.45 }
+    - { value: -2.26 }
+    - { value: -2.06 }
+    - { value: -1.87 }
+    - { value: -1.67 }
+    - { value: -1.47 }
+    - { value: -1.28 }
+    - { value: -1.08 }
+    - { value: -0.88 }
+    - { value: -0.69 }
+    - { value: -0.49 }
+    - { value: -0.29 }
+    - { value: -0.10 }
+    - { value:  0.10 }
+    - { value:  0.29 }
+    - { value:  0.49 }
+    - { value:  0.69 }
+    - { value:  0.88 }
+    - { value:  1.08 }
+    - { value:  1.28 }
+    - { value:  1.47 }
+    - { value:  1.67 }
+    - { value:  1.87 }
+    - { value:  2.06 }
+    - { value:  2.26 }
+    - { value:  2.45 }
+    - { value:  2.65 }
+    - { value:  2.85 }
+    - { value:  3.04 }
+
+dependent_variables:
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "0-10%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2" }
+  values:
+    - { value: 1.0088, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0088, errors: [ { symerror: 0.00055, label: "stat." } ] }
+    - { value: 1.0072, errors: [ { symerror: 0.00054, label: "stat." } ] }
+    - { value: 1.0079, errors: [ { symerror: 0.00055, label: "stat." } ] }
+    - { value: 1.0058, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0047, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0041, errors: [ { symerror: 0.00055, label: "stat." } ] }
+    - { value: 1.0023, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0019, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0003, errors: [ { symerror: 0.00053, label: "stat." } ] }
+    - { value: 1.0009, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0011, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0027, errors: [ { symerror: 0.00050, label: "stat." } ] }
+    - { value: 1.0040, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0063, errors: [ { symerror: 0.00053, label: "stat." } ] }
+    - { value: 1.0064, errors: [ { symerror: 0.00054, label: "stat." } ] }
+    - { value: 1.0061, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0054, errors: [ { symerror: 0.00055, label: "stat." } ] }
+    - { value: 1.0037, errors: [ { symerror: 0.00054, label: "stat." } ] }
+    - { value: 1.0018, errors: [ { symerror: 0.00055, label: "stat." } ] }
+    - { value: 1.0010, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0007, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0004, errors: [ { symerror: 0.00054, label: "stat." } ] }
+    - { value: 1.0018, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0024, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0027, errors: [ { symerror: 0.00053, label: "stat." } ] }
+    - { value: 1.0056, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0051, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0065, errors: [ { symerror: 0.00050, label: "stat." } ] }
+    - { value: 1.0071, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0084, errors: [ { symerror: 0.00053, label: "stat." } ] }
+    - { value: 1.0078, errors: [ { symerror: 0.00054, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "0-10%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2" }
+  values:
+    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0029, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0029, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0029, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "10-20%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$"}
+  values:
+    - { value: 1.0181, errors: [ { symerror: 0.00070, label: "stat." } ] }
+    - { value: 1.0177, errors: [ { symerror: 0.00074, label: "stat." } ] }
+    - { value: 1.0155, errors: [ { symerror: 0.00072, label: "stat." } ] }
+    - { value: 1.0126, errors: [ { symerror: 0.00073, label: "stat." } ] }
+    - { value: 1.0106, errors: [ { symerror: 0.00068, label: "stat." } ] }
+    - { value: 1.0062, errors: [ { symerror: 0.00070, label: "stat." } ] }
+    - { value: 1.0025, errors: [ { symerror: 0.00073, label: "stat." } ] }
+    - { value: 1.0000, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 0.9984, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 0.9993, errors: [ { symerror: 0.00071, label: "stat." } ] }
+    - { value: 1.0001, errors: [ { symerror: 0.00067, label: "stat." } ] }
+    - { value: 1.0021, errors: [ { symerror: 0.00068, label: "stat." } ] }
+    - { value: 1.0070, errors: [ { symerror: 0.00067, label: "stat." } ] }
+    - { value: 1.0102, errors: [ { symerror: 0.00070, label: "stat." } ] }
+    - { value: 1.0143, errors: [ { symerror: 0.00071, label: "stat." } ] }
+    - { value: 1.0150, errors: [ { symerror: 0.00072, label: "stat." } ] }
+    - { value: 1.0177, errors: [ { symerror: 0.00070, label: "stat." } ] }
+    - { value: 1.0157, errors: [ { symerror: 0.00074, label: "stat." } ] }
+    - { value: 1.0117, errors: [ { symerror: 0.00072, label: "stat." } ] }
+    - { value: 1.0067, errors: [ { symerror: 0.00073, label: "stat." } ] }
+    - { value: 1.0028, errors: [ { symerror: 0.00068, label: "stat." } ] }
+    - { value: 0.9999, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 0.9998, errors: [ { symerror: 0.00073, label: "stat." } ] }
+    - { value: 0.9982, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 0.9993, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 1.0023, errors: [ { symerror: 0.00071, label: "stat." } ] }
+    - { value: 1.0051, errors: [ { symerror: 0.00068, label: "stat." } ] }
+    - { value: 1.0084, errors: [ { symerror: 0.00068, label: "stat." } ] }
+    - { value: 1.0125, errors: [ { symerror: 0.00067, label: "stat." } ] }
+    - { value: 1.0159, errors: [ { symerror: 0.00070, label: "stat." } ] }
+    - { value: 1.0179, errors: [ { symerror: 0.00071, label: "stat." } ] }
+    - { value: 1.0166, errors: [ { symerror: 0.00072, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "10-20%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0122, errors: [ { asymerror: { plus: 0.0012, minus: 0.0012 }, label: "sys." } ] }
+    - { value: 1.0109, errors: [ { asymerror: { plus: 0.0010, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0087, errors: [ { asymerror: { plus: 0.0008, minus: 0.0008 }, label: "sys." } ] }
+    - { value: 1.0058, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0026, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9975, errors: [ { asymerror: { plus: 0.0005, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 0.9963, errors: [ { asymerror: { plus: 0.0007, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9963, errors: [ { asymerror: { plus: 0.0007, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9975, errors: [ { asymerror: { plus: 0.0005, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0026, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0058, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0087, errors: [ { asymerror: { plus: 0.0008, minus: 0.0008 }, label: "sys." } ] }
+    - { value: 1.0109, errors: [ { asymerror: { plus: 0.0010, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0122, errors: [ { asymerror: { plus: 0.0012, minus: 0.0012 }, label: "sys." } ] }
+    - { value: 1.0122, errors: [ { asymerror: { plus: 0.0012, minus: 0.0012 }, label: "sys." } ] }
+    - { value: 1.0109, errors: [ { asymerror: { plus: 0.0010, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0087, errors: [ { asymerror: { plus: 0.0008, minus: 0.0008 }, label: "sys." } ] }
+    - { value: 1.0058, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0026, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9975, errors: [ { asymerror: { plus: 0.0005, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 0.9963, errors: [ { asymerror: { plus: 0.0007, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9963, errors: [ { asymerror: { plus: 0.0007, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 0.9975, errors: [ { asymerror: { plus: 0.0005, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0026, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0058, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0087, errors: [ { asymerror: { plus: 0.0008, minus: 0.0008 }, label: "sys." } ] }
+    - { value: 1.0109, errors: [ { asymerror: { plus: 0.0010, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0122, errors: [ { asymerror: { plus: 0.0012, minus: 0.0012 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "20-30%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0305, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0295, errors: [ { symerror: 0.00105, label: "stat." } ] }
+    - { value: 1.0239, errors: [ { symerror: 0.00102, label: "stat." } ] }
+    - { value: 1.0175, errors: [ { symerror: 0.00103, label: "stat." } ] }
+    - { value: 1.0128, errors: [ { symerror: 0.00097, label: "stat." } ] }
+    - { value: 1.0059, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0028, errors: [ { symerror: 0.00103, label: "stat." } ] }
+    - { value: 0.9987, errors: [ { symerror: 0.00098, label: "stat." } ] }
+    - { value: 0.9964, errors: [ { symerror: 0.00098, label: "stat." } ] }
+    - { value: 0.9976, errors: [ { symerror: 0.00101, label: "stat." } ] }
+    - { value: 0.9980, errors: [ { symerror: 0.00095, label: "stat." } ] }
+    - { value: 1.0041, errors: [ { symerror: 0.00096, label: "stat." } ] }
+    - { value: 1.0111, errors: [ { symerror: 0.00094, label: "stat." } ] }
+    - { value: 1.0184, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0226, errors: [ { symerror: 0.00101, label: "stat." } ] }
+    - { value: 1.0253, errors: [ { symerror: 0.00102, label: "stat." } ] }
+    - { value: 1.0239, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0246, errors: [ { symerror: 0.00105, label: "stat." } ] }
+    - { value: 1.0164, errors: [ { symerror: 0.00102, label: "stat." } ] }
+    - { value: 1.0126, errors: [ { symerror: 0.00103, label: "stat." } ] }
+    - { value: 1.0068, errors: [ { symerror: 0.00096, label: "stat." } ] }
+    - { value: 1.0011, errors: [ { symerror: 0.00098, label: "stat." } ] }
+    - { value: 0.9978, errors: [ { symerror: 0.00103, label: "stat." } ] }
+    - { value: 0.9976, errors: [ { symerror: 0.00098, label: "stat." } ] }
+    - { value: 0.9983, errors: [ { symerror: 0.00098, label: "stat." } ] }
+    - { value: 1.0002, errors: [ { symerror: 0.00101, label: "stat." } ] }
+    - { value: 1.0069, errors: [ { symerror: 0.00096, label: "stat." } ] }
+    - { value: 1.0130, errors: [ { symerror: 0.00096, label: "stat." } ] }
+    - { value: 1.0192, errors: [ { symerror: 0.00095, label: "stat." } ] }
+    - { value: 1.0239, errors: [ { symerror: 0.00100, label: "stat." } ] }
+    - { value: 1.0296, errors: [ { symerror: 0.00101, label: "stat." } ] }
+    - { value: 1.0284, errors: [ { symerror: 0.00102, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "20-30%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0016, minus: 0.0024 }, label: "sys." } ] }
+    - { value: 1.0193, errors: [ { asymerror: { plus: 0.0014, minus: 0.0022 }, label: "sys." } ] }
+    - { value: 1.0154, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0102, errors: [ { asymerror: { plus: 0.0003, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0047, errors: [ { asymerror: { plus: 0.0003, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 0.9995, errors: [ { asymerror: { plus: 0.0001, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9955, errors: [ { asymerror: { plus: 0.0007, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 0.9955, errors: [ { asymerror: { plus: 0.0007, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9995, errors: [ { asymerror: { plus: 0.0001, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0047, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0102, errors: [ { asymerror: { plus: 0.0003, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0154, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0193, errors: [ { asymerror: { plus: 0.0014, minus: 0.0022 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0016, minus: 0.0024 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0016, minus: 0.0024 }, label: "sys." } ] }
+    - { value: 1.0193, errors: [ { asymerror: { plus: 0.0014, minus: 0.0022 }, label: "sys." } ] }
+    - { value: 1.0154, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0102, errors: [ { asymerror: { plus: 0.0003, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0047, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 0.9995, errors: [ { asymerror: { plus: 0.0001, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9955, errors: [ { asymerror: { plus: 0.0007, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 0.9955, errors: [ { asymerror: { plus: 0.0007, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9995, errors: [ { asymerror: { plus: 0.0001, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0047, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0102, errors: [ { asymerror: { plus: 0.0003, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0154, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0193, errors: [ { asymerror: { plus: 0.0014, minus: 0.0022 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0016, minus: 0.0024 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "30-40%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0417, errors: [ { symerror: 0.00150, label: "stat." } ] }
+    - { value: 1.0404, errors: [ { symerror: 0.00160, label: "stat." } ] }
+    - { value: 1.0333, errors: [ { symerror: 0.00155, label: "stat." } ] }
+    - { value: 1.0244, errors: [ { symerror: 0.00155, label: "stat." } ] }
+    - { value: 1.0185, errors: [ { symerror: 0.00146, label: "stat." } ] }
+    - { value: 1.0128, errors: [ { symerror: 0.00149, label: "stat." } ] }
+    - { value: 1.0049, errors: [ { symerror: 0.00156, label: "stat." } ] }
+    - { value: 0.9996, errors: [ { symerror: 0.00148, label: "stat." } ] }
+    - { value: 0.9963, errors: [ { symerror: 0.00148, label: "stat." } ] }
+    - { value: 0.9998, errors: [ { symerror: 0.00152, label: "stat." } ] }
+    - { value: 1.0030, errors: [ { symerror: 0.00144, label: "stat." } ] }
+    - { value: 1.0063, errors: [ { symerror: 0.00144, label: "stat." } ] }
+    - { value: 1.0168, errors: [ { symerror: 0.00142, label: "stat." } ] }
+    - { value: 1.0253, errors: [ { symerror: 0.00150, label: "stat." } ] }
+    - { value: 1.0306, errors: [ { symerror: 0.00152, label: "stat." } ] }
+    - { value: 1.0331, errors: [ { symerror: 0.00154, label: "stat." } ] }
+    - { value: 1.0323, errors: [ { symerror: 0.00150, label: "stat." } ] }
+    - { value: 1.0286, errors: [ { symerror: 0.00159, label: "stat." } ] }
+    - { value: 1.0213, errors: [ { symerror: 0.00154, label: "stat." } ] }
+    - { value: 1.0163, errors: [ { symerror: 0.00155, label: "stat." } ] }
+    - { value: 1.0062, errors: [ { symerror: 0.00145, label: "stat." } ] }
+    - { value: 1.0026, errors: [ { symerror: 0.00148, label: "stat." } ] }
+    - { value: 1.0001, errors: [ { symerror: 0.00155, label: "stat." } ] }
+    - { value: 0.9990, errors: [ { symerror: 0.00148, label: "stat." } ] }
+    - { value: 0.9998, errors: [ { symerror: 0.00148, label: "stat." } ] }
+    - { value: 1.0081, errors: [ { symerror: 0.00152, label: "stat." } ] }
+    - { value: 1.0106, errors: [ { symerror: 0.00144, label: "stat." } ] }
+    - { value: 1.0186, errors: [ { symerror: 0.00145, label: "stat." } ] }
+    - { value: 1.0246, errors: [ { symerror: 0.00143, label: "stat." } ] }
+    - { value: 1.0333, errors: [ { symerror: 0.00151, label: "stat." } ] }
+    - { value: 1.0377, errors: [ { symerror: 0.00153, label: "stat." } ] }
+    - { value: 1.0391, errors: [ { symerror: 0.00154, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "30-40%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0293, errors: [ { asymerror: { plus: 0.0021, minus: 0.0026 }, label: "sys." } ] }
+    - { value: 1.0265, errors: [ { asymerror: { plus: 0.0018, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0012, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0149, errors: [ { asymerror: { plus: 0.0004, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0078, errors: [ { asymerror: { plus: 0.0004, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0002, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9962, errors: [ { asymerror: { plus: 0.0013, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0021, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0021, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9962, errors: [ { asymerror: { plus: 0.0013, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0002, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0078, errors: [ { asymerror: { plus: 0.0004, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0149, errors: [ { asymerror: { plus: 0.0004, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0012, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0265, errors: [ { asymerror: { plus: 0.0018, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0293, errors: [ { asymerror: { plus: 0.0021, minus: 0.0026 }, label: "sys." } ] }
+    - { value: 1.0293, errors: [ { asymerror: { plus: 0.0021, minus: 0.0026 }, label: "sys." } ] }
+    - { value: 1.0265, errors: [ { asymerror: { plus: 0.0018, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0012, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0149, errors: [ { asymerror: { plus: 0.0004, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0078, errors: [ { asymerror: { plus: 0.0004, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0002, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9962, errors: [ { asymerror: { plus: 0.0013, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0021, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9934, errors: [ { asymerror: { plus: 0.0021, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9962, errors: [ { asymerror: { plus: 0.0013, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0002, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0078, errors: [ { asymerror: { plus: 0.0004, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0149, errors: [ { asymerror: { plus: 0.0004, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0215, errors: [ { asymerror: { plus: 0.0012, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0265, errors: [ { asymerror: { plus: 0.0018, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0293, errors: [ { asymerror: { plus: 0.0021, minus: 0.0026 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "40-50%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0524, errors: [ { symerror: 0.00239, label: "stat." } ] }
+    - { value: 1.0506, errors: [ { symerror: 0.00254, label: "stat." } ] }
+    - { value: 1.0408, errors: [ { symerror: 0.00246, label: "stat." } ] }
+    - { value: 1.0313, errors: [ { symerror: 0.00246, label: "stat." } ] }
+    - { value: 1.0291, errors: [ { symerror: 0.00231, label: "stat." } ] }
+    - { value: 1.0241, errors: [ { symerror: 0.00237, label: "stat." } ] }
+    - { value: 1.0153, errors: [ { symerror: 0.00248, label: "stat." } ] }
+    - { value: 1.0117, errors: [ { symerror: 0.00236, label: "stat." } ] }
+    - { value: 1.0008, errors: [ { symerror: 0.00235, label: "stat." } ] }
+    - { value: 1.0064, errors: [ { symerror: 0.00241, label: "stat." } ] }
+    - { value: 1.0127, errors: [ { symerror: 0.00229, label: "stat." } ] }
+    - { value: 1.0120, errors: [ { symerror: 0.00229, label: "stat." } ] }
+    - { value: 1.0221, errors: [ { symerror: 0.00225, label: "stat." } ] }
+    - { value: 1.0280, errors: [ { symerror: 0.00238, label: "stat." } ] }
+    - { value: 1.0338, errors: [ { symerror: 0.00241, label: "stat." } ] }
+    - { value: 1.0379, errors: [ { symerror: 0.00243, label: "stat." } ] }
+    - { value: 1.0389, errors: [ { symerror: 0.00237, label: "stat." } ] }
+    - { value: 1.0322, errors: [ { symerror: 0.00252, label: "stat." } ] }
+    - { value: 1.0300, errors: [ { symerror: 0.00245, label: "stat." } ] }
+    - { value: 1.0207, errors: [ { symerror: 0.00245, label: "stat." } ] }
+    - { value: 1.0172, errors: [ { symerror: 0.00230, label: "stat." } ] }
+    - { value: 1.0092, errors: [ { symerror: 0.00235, label: "stat." } ] }
+    - { value: 1.0057, errors: [ { symerror: 0.00247, label: "stat." } ] }
+    - { value: 1.0105, errors: [ { symerror: 0.00235, label: "stat." } ] }
+    - { value: 1.0070, errors: [ { symerror: 0.00235, label: "stat." } ] }
+    - { value: 1.0163, errors: [ { symerror: 0.00243, label: "stat." } ] }
+    - { value: 1.0192, errors: [ { symerror: 0.00230, label: "stat." } ] }
+    - { value: 1.0296, errors: [ { symerror: 0.00231, label: "stat." } ] }
+    - { value: 1.0348, errors: [ { symerror: 0.00227, label: "stat." } ] }
+    - { value: 1.0418, errors: [ { symerror: 0.00239, label: "stat." } ] }
+    - { value: 1.0499, errors: [ { symerror: 0.00243, label: "stat." } ] }
+    - { value: 1.0546, errors: [ { symerror: 0.00245, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "40-50%"}
+  - { name: "Momentum", value: "$-4 < \\delta \\eta < -2$" }
+  values:
+    - { value: 1.0376, errors: [ { asymerror: { plus: 0.0015, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0347, errors: [ { asymerror: { plus: 0.0012, minus: 0.0020 }, label: "sys." } ] }
+    - { value: 1.0292, errors: [ { asymerror: { plus: 0.0006, minus: 0.0013 }, label: "sys." } ] }
+    - { value: 1.0220, errors: [ { asymerror: { plus: 0.0000, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0143, errors: [ { asymerror: { plus: 0.0012, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0071, errors: [ { asymerror: { plus: 0.0020, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0017, errors: [ { asymerror: { plus: 0.0020, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 0.9987, errors: [ { asymerror: { plus: 0.0030, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9987, errors: [ { asymerror: { plus: 0.0030, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0017, errors: [ { asymerror: { plus: 0.0020, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0071, errors: [ { asymerror: { plus: 0.0020, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0143, errors: [ { asymerror: { plus: 0.0012, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0220, errors: [ { asymerror: { plus: 0.0000, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0292, errors: [ { asymerror: { plus: 0.0006, minus: 0.0013 }, label: "sys." } ] }
+    - { value: 1.0347, errors: [ { asymerror: { plus: 0.0012, minus: 0.0020 }, label: "sys." } ] }
+    - { value: 1.0376, errors: [ { asymerror: { plus: 0.0015, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0376, errors: [ { asymerror: { plus: 0.0015, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0347, errors: [ { asymerror: { plus: 0.0012, minus: 0.0020 }, label: "sys." } ] }
+    - { value: 1.0292, errors: [ { asymerror: { plus: 0.0006, minus: 0.0013 }, label: "sys." } ] }
+    - { value: 1.0220, errors: [ { asymerror: { plus: 0.0000, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0143, errors: [ { asymerror: { plus: 0.0012, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0071, errors: [ { asymerror: { plus: 0.0020, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0017, errors: [ { asymerror: { plus: 0.0020, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 0.9987, errors: [ { asymerror: { plus: 0.0030, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9987, errors: [ { asymerror: { plus: 0.0030, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0017, errors: [ { asymerror: { plus: 0.0020, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0071, errors: [ { asymerror: { plus: 0.0020, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0143, errors: [ { asymerror: { plus: 0.0012, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0220, errors: [ { asymerror: { plus: 0.0000, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0292, errors: [ { asymerror: { plus: 0.0006, minus: 0.0013 }, label: "sys." } ] }
+    - { value: 1.0347, errors: [ { asymerror: { plus: 0.0012, minus: 0.0020 }, label: "sys." } ] }
+    - { value: 1.0376, errors: [ { asymerror: { plus: 0.0015, minus: 0.0023 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "0-10%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0086, errors: [ { symerror: 0.00058, label: "stat." } ] }
+    - { value: 1.0050, errors: [ { symerror: 0.00247, label: "stat." } ] }
+    - { value: 1.0068, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0076, errors: [ { symerror: 0.00054, label: "stat." } ] }
+    - { value: 1.0053, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0047, errors: [ { symerror: 0.00047, label: "stat." } ] }
+    - { value: 1.0044, errors: [ { symerror: 0.00047, label: "stat." } ] }
+    - { value: 1.0019, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0021, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0010, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0011, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0024, errors: [ { symerror: 0.00049, label: "stat." } ] }
+    - { value: 1.0039, errors: [ { symerror: 0.00048, label: "stat." } ] }
+    - { value: 1.0059, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0072, errors: [ { symerror: 0.00217, label: "stat." } ] }
+    - { value: 1.0130, errors: [ { symerror: 0.00057, label: "stat." } ] }
+    - { value: 1.0124, errors: [ { symerror: 0.00058, label: "stat." } ] }
+    - { value: 1.0099, errors: [ { symerror: 0.00255, label: "stat." } ] }
+    - { value: 1.0069, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0037, errors: [ { symerror: 0.00054, label: "stat." } ] }
+    - { value: 1.0026, errors: [ { symerror: 0.00051, label: "stat." } ] }
+    - { value: 1.0014, errors: [ { symerror: 0.00047, label: "stat." } ] }
+    - { value: 1.0012, errors: [ { symerror: 0.00047, label: "stat." } ] }
+    - { value: 1.0020, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0020, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0035, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0045, errors: [ { symerror: 0.00046, label: "stat." } ] }
+    - { value: 1.0057, errors: [ { symerror: 0.00049, label: "stat." } ] }
+    - { value: 1.0066, errors: [ { symerror: 0.00048, label: "stat." } ] }
+    - { value: 1.0076, errors: [ { symerror: 0.00052, label: "stat." } ] }
+    - { value: 1.0092, errors: [ { symerror: 0.00214, label: "stat." } ] }
+    - { value: 1.0104, errors: [ { symerror: 0.00057, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "0-10%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" } 
+  values:
+    - { value: 1.0052, errors: [ { asymerror: { plus: 0.0010, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0048, errors: [ { asymerror: { plus: 0.0009, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0041, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0031, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0011, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0004, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0000, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0000, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0004, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0011, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0031, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0041, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0048, errors: [ { asymerror: { plus: 0.0009, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0052, errors: [ { asymerror: { plus: 0.0010, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0052, errors: [ { asymerror: { plus: 0.0010, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0048, errors: [ { asymerror: { plus: 0.0009, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0041, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0031, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0011, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0004, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0000, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0000, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0004, minus: 0.0003 }, label: "sys." } ] }
+    - { value: 1.0011, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0001, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0031, errors: [ { asymerror: { plus: 0.0004, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0041, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0048, errors: [ { asymerror: { plus: 0.0009, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0052, errors: [ { asymerror: { plus: 0.0010, minus: 0.0010 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "10-20%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0220, errors: [ { symerror: 0.00078, label: "stat." } ] }
+    - { value: 1.0215, errors: [ { symerror: 0.00336, label: "stat." } ] }
+    - { value: 1.0174, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 1.0153, errors: [ { symerror: 0.00071, label: "stat." } ] }
+    - { value: 1.0100, errors: [ { symerror: 0.00066, label: "stat." } ] }
+    - { value: 1.0063, errors: [ { symerror: 0.00063, label: "stat." } ] }
+    - { value: 1.0027, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 1.0011, errors: [ { symerror: 0.00061, label: "stat." } ] }
+    - { value: 0.9981, errors: [ { symerror: 0.00061, label: "stat." } ] }
+    - { value: 1.0003, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 1.0004, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 1.0041, errors: [ { symerror: 0.00065, label: "stat." } ] }
+    - { value: 1.0086, errors: [ { symerror: 0.00063, label: "stat." } ] }
+    - { value: 1.0148, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 1.0190, errors: [ { symerror: 0.00289, label: "stat." } ] }
+    - { value: 1.0275, errors: [ { symerror: 0.00077, label: "stat." } ] }
+    - { value: 1.0250, errors: [ { symerror: 0.00078, label: "stat." } ] }
+    - { value: 1.0280, errors: [ { symerror: 0.00346, label: "stat." } ] }
+    - { value: 1.0150, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 1.0089, errors: [ { symerror: 0.00071, label: "stat." } ] }
+    - { value: 1.0038, errors: [ { symerror: 0.00066, label: "stat." } ] }
+    - { value: 1.0009, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 0.9992, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 0.9992, errors: [ { symerror: 0.00061, label: "stat." } ] }
+    - { value: 1.0000, errors: [ { symerror: 0.00061, label: "stat." } ] }
+    - { value: 1.0023, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 1.0064, errors: [ { symerror: 0.00062, label: "stat." } ] }
+    - { value: 1.0106, errors: [ { symerror: 0.00065, label: "stat." } ] }
+    - { value: 1.0136, errors: [ { symerror: 0.00063, label: "stat." } ] }
+    - { value: 1.0177, errors: [ { symerror: 0.00069, label: "stat." } ] }
+    - { value: 1.0219, errors: [ { symerror: 0.00285, label: "stat." } ] }
+    - { value: 1.0225, errors: [ { symerror: 0.00076, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "10-20%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0151, errors: [ { asymerror: { plus: 0.0024, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0137, errors: [ { asymerror: { plus: 0.0021, minus: 0.0015 }, label: "sys." } ] }
+    - { value: 1.0111, errors: [ { asymerror: { plus: 0.0017, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0076, errors: [ { asymerror: { plus: 0.0012, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0039, errors: [ { asymerror: { plus: 0.0006, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0005, errors: [ { asymerror: { plus: 0.0001, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9979, errors: [ { asymerror: { plus: 0.0000, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9965, errors: [ { asymerror: { plus: 0.0006, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9965, errors: [ { asymerror: { plus: 0.0006, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9979, errors: [ { asymerror: { plus: 0.0004, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0005, errors: [ { asymerror: { plus: 0.0001, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0039, errors: [ { asymerror: { plus: 0.0006, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0076, errors: [ { asymerror: { plus: 0.0012, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0111, errors: [ { asymerror: { plus: 0.0017, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0137, errors: [ { asymerror: { plus: 0.0021, minus: 0.0015 }, label: "sys." } ] }
+    - { value: 1.0151, errors: [ { asymerror: { plus: 0.0024, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0151, errors: [ { asymerror: { plus: 0.0024, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0137, errors: [ { asymerror: { plus: 0.0021, minus: 0.0015 }, label: "sys." } ] }
+    - { value: 1.0111, errors: [ { asymerror: { plus: 0.0017, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0076, errors: [ { asymerror: { plus: 0.0012, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0039, errors: [ { asymerror: { plus: 0.0006, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0005, errors: [ { asymerror: { plus: 0.0001, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9979, errors: [ { asymerror: { plus: 0.0000, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9965, errors: [ { asymerror: { plus: 0.0006, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9965, errors: [ { asymerror: { plus: 0.0006, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 0.9979, errors: [ { asymerror: { plus: 0.0004, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0005, errors: [ { asymerror: { plus: 0.0001, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0039, errors: [ { asymerror: { plus: 0.0006, minus: 0.0001 }, label: "sys." } ] }
+    - { value: 1.0076, errors: [ { asymerror: { plus: 0.0012, minus: 0.0005 }, label: "sys." } ] }
+    - { value: 1.0111, errors: [ { asymerror: { plus: 0.0017, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 1.0137, errors: [ { asymerror: { plus: 0.0021, minus: 0.0015 }, label: "sys." } ] }
+    - { value: 1.0151, errors: [ { asymerror: { plus: 0.0024, minus: 0.0017 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "20-30%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0352, errors: [ { symerror: 0.00111, label: "stat." } ] }
+    - { value: 1.0329, errors: [ { symerror: 0.00478, label: "stat." } ] }
+    - { value: 1.0296, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0226, errors: [ { symerror: 0.00100, label: "stat." } ] }
+    - { value: 1.0157, errors: [ { symerror: 0.00094, label: "stat." } ] }
+    - { value: 1.0089, errors: [ { symerror: 0.00089, label: "stat." } ] }
+    - { value: 1.0032, errors: [ { symerror: 0.00089, label: "stat." } ] }
+    - { value: 0.9990, errors: [ { symerror: 0.00086, label: "stat." } ] }
+    - { value: 0.9972, errors: [ { symerror: 0.00086, label: "stat." } ] }
+    - { value: 0.9979, errors: [ { symerror: 0.00088, label: "stat." } ] }
+    - { value: 1.0015, errors: [ { symerror: 0.00088, label: "stat." } ] }
+    - { value: 1.0074, errors: [ { symerror: 0.00092, label: "stat." } ] }
+    - { value: 1.0158, errors: [ { symerror: 0.00090, label: "stat." } ] }
+    - { value: 1.0252, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0317, errors: [ { symerror: 0.00408, label: "stat." } ] }
+    - { value: 1.0399, errors: [ { symerror: 0.00109, label: "stat." } ] }
+    - { value: 1.0428, errors: [ { symerror: 0.00112, label: "stat." } ] }
+    - { value: 1.0378, errors: [ { symerror: 0.00496, label: "stat." } ] }
+    - { value: 1.0246, errors: [ { symerror: 0.00098, label: "stat." } ] }
+    - { value: 1.0157, errors: [ { symerror: 0.00100, label: "stat." } ] }
+    - { value: 1.0084, errors: [ { symerror: 0.00094, label: "stat." } ] }
+    - { value: 1.0026, errors: [ { symerror: 0.00089, label: "stat." } ] }
+    - { value: 0.9974, errors: [ { symerror: 0.00088, label: "stat." } ] }
+    - { value: 0.9973, errors: [ { symerror: 0.00086, label: "stat." } ] }
+    - { value: 0.9991, errors: [ { symerror: 0.00086, label: "stat." } ] }
+    - { value: 0.9998, errors: [ { symerror: 0.00088, label: "stat." } ] }
+    - { value: 1.0082, errors: [ { symerror: 0.00088, label: "stat." } ] }
+    - { value: 1.0147, errors: [ { symerror: 0.00092, label: "stat." } ] }
+    - { value: 1.0218, errors: [ { symerror: 0.00090, label: "stat." } ] }
+    - { value: 1.0276, errors: [ { symerror: 0.00099, label: "stat." } ] }
+    - { value: 1.0324, errors: [ { symerror: 0.00401, label: "stat." } ] }
+    - { value: 1.0337, errors: [ { symerror: 0.00108, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "20-30%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0273, errors: [ { asymerror: { plus: 0.0031, minus: 0.0038 }, label: "sys." } ] }
+    - { value: 1.0248, errors: [ { asymerror: { plus: 0.0027, minus: 0.0034 }, label: "sys." } ] }
+    - { value: 1.0201, errors: [ { asymerror: { plus: 0.0020, minus: 0.0027 }, label: "sys." } ] }
+    - { value: 1.0141, errors: [ { asymerror: { plus: 0.0011, minus: 0.0018 }, label: "sys." } ] }
+    - { value: 1.0075, errors: [ { asymerror: { plus: 0.0000, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0015, errors: [ { asymerror: { plus: 0.0009, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9968, errors: [ { asymerror: { plus: 0.0010, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 0.9943, errors: [ { asymerror: { plus: 0.0020, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9943, errors: [ { asymerror: { plus: 0.0020, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9968, errors: [ { asymerror: { plus: 0.0010, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0015, errors: [ { asymerror: { plus: 0.0009, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0075, errors: [ { asymerror: { plus: 0.0000, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0141, errors: [ { asymerror: { plus: 0.0011, minus: 0.0018 }, label: "sys." } ] }
+    - { value: 1.0201, errors: [ { asymerror: { plus: 0.0020, minus: 0.0027 }, label: "sys." } ] }
+    - { value: 1.0248, errors: [ { asymerror: { plus: 0.0027, minus: 0.0034 }, label: "sys." } ] }
+    - { value: 1.0273, errors: [ { asymerror: { plus: 0.0031, minus: 0.0038 }, label: "sys." } ] }
+    - { value: 1.0273, errors: [ { asymerror: { plus: 0.0031, minus: 0.0038 }, label: "sys." } ] }
+    - { value: 1.0248, errors: [ { asymerror: { plus: 0.0027, minus: 0.0034 }, label: "sys." } ] }
+    - { value: 1.0201, errors: [ { asymerror: { plus: 0.0020, minus: 0.0027 }, label: "sys." } ] }
+    - { value: 1.0141, errors: [ { asymerror: { plus: 0.0011, minus: 0.0018 }, label: "sys." } ] }
+    - { value: 1.0075, errors: [ { asymerror: { plus: 0.0000, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0015, errors: [ { asymerror: { plus: 0.0009, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9968, errors: [ { asymerror: { plus: 0.0010, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 0.9943, errors: [ { asymerror: { plus: 0.0020, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9943, errors: [ { asymerror: { plus: 0.0020, minus: 0.0010 }, label: "sys." } ] }
+    - { value: 0.9968, errors: [ { asymerror: { plus: 0.0010, minus: 0.0009 }, label: "sys." } ] }
+    - { value: 1.0015, errors: [ { asymerror: { plus: 0.0009, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0075, errors: [ { asymerror: { plus: 0.0000, minus: 0.0007 }, label: "sys." } ] }
+    - { value: 1.0141, errors: [ { asymerror: { plus: 0.0011, minus: 0.0018 }, label: "sys." } ] }
+    - { value: 1.0201, errors: [ { asymerror: { plus: 0.0020, minus: 0.0027 }, label: "sys." } ] }
+    - { value: 1.0248, errors: [ { asymerror: { plus: 0.0027, minus: 0.0034 }, label: "sys." } ] }
+    - { value: 1.0273, errors: [ { asymerror: { plus: 0.0031, minus: 0.0038 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "30-40%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0486, errors: [ { symerror: 0.00169, label: "stat." } ] }
+    - { value: 1.0486, errors: [ { symerror: 0.00736, label: "stat." } ] }
+    - { value: 1.0404, errors: [ { symerror: 0.00150, label: "stat." } ] }
+    - { value: 1.0316, errors: [ { symerror: 0.00152, label: "stat." } ] }
+    - { value: 1.0218, errors: [ { symerror: 0.00142, label: "stat." } ] }
+    - { value: 1.0136, errors: [ { symerror: 0.00135, label: "stat." } ] }
+    - { value: 1.0065, errors: [ { symerror: 0.00134, label: "stat." } ] }
+    - { value: 1.0037, errors: [ { symerror: 0.00130, label: "stat." } ] }
+    - { value: 0.9993, errors: [ { symerror: 0.00130, label: "stat." } ] }
+    - { value: 1.0012, errors: [ { symerror: 0.00133, label: "stat." } ] }
+    - { value: 1.0052, errors: [ { symerror: 0.00133, label: "stat." } ] }
+    - { value: 1.0120, errors: [ { symerror: 0.00139, label: "stat." } ] }
+    - { value: 1.0251, errors: [ { symerror: 0.00136, label: "stat." } ] }
+    - { value: 1.0336, errors: [ { symerror: 0.00149, label: "stat." } ] }
+    - { value: 1.0401, errors: [ { symerror: 0.00600, label: "stat." } ] }
+    - { value: 1.0534, errors: [ { symerror: 0.00164, label: "stat." } ] }
+    - { value: 1.0563, errors: [ { symerror: 0.00169, label: "stat." } ] }
+    - { value: 1.0550, errors: [ { symerror: 0.00754, label: "stat." } ] }
+    - { value: 1.0368, errors: [ { symerror: 0.00149, label: "stat." } ] }
+    - { value: 1.0229, errors: [ { symerror: 0.00151, label: "stat." } ] }
+    - { value: 1.0107, errors: [ { symerror: 0.00141, label: "stat." } ] }
+    - { value: 1.0071, errors: [ { symerror: 0.00135, label: "stat." } ] }
+    - { value: 0.9989, errors: [ { symerror: 0.00134, label: "stat." } ] }
+    - { value: 0.9976, errors: [ { symerror: 0.00130, label: "stat." } ] }
+    - { value: 1.0013, errors: [ { symerror: 0.00130, label: "stat." } ] }
+    - { value: 1.0056, errors: [ { symerror: 0.00133, label: "stat." } ] }
+    - { value: 1.0140, errors: [ { symerror: 0.00133, label: "stat." } ] }
+    - { value: 1.0226, errors: [ { symerror: 0.00140, label: "stat." } ] }
+    - { value: 1.0318, errors: [ { symerror: 0.00136, label: "stat." } ] }
+    - { value: 1.0393, errors: [ { symerror: 0.00150, label: "stat." } ] }
+    - { value: 1.0440, errors: [ { symerror: 0.00594, label: "stat." } ] }
+    - { value: 1.0497, errors: [ { symerror: 0.00163, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "30-40%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0372, errors: [ { asymerror: { plus: 0.0053, minus: 0.0038 }, label: "sys." } ] }
+    - { value: 1.0340, errors: [ { asymerror: { plus: 0.0047, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0280, errors: [ { asymerror: { plus: 0.0038, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0203, errors: [ { asymerror: { plus: 0.0026, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0119, errors: [ { asymerror: { plus: 0.0012, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0042, errors: [ { asymerror: { plus: 0.0000, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9982, errors: [ { asymerror: { plus: 0.0024, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9950, errors: [ { asymerror: { plus: 0.0023, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9950, errors: [ { asymerror: { plus: 0.0023, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9982, errors: [ { asymerror: { plus: 0.0024, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0042, errors: [ { asymerror: { plus: 0.0000, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 1.0119, errors: [ { asymerror: { plus: 0.0012, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0203, errors: [ { asymerror: { plus: 0.0026, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0280, errors: [ { asymerror: { plus: 0.0038, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0340, errors: [ { asymerror: { plus: 0.0047, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0372, errors: [ { asymerror: { plus: 0.0053, minus: 0.0038 }, label: "sys." } ] }
+    - { value: 1.0372, errors: [ { asymerror: { plus: 0.0053, minus: 0.0038 }, label: "sys." } ] }
+    - { value: 1.0340, errors: [ { asymerror: { plus: 0.0047, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0280, errors: [ { asymerror: { plus: 0.0038, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0203, errors: [ { asymerror: { plus: 0.0026, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0119, errors: [ { asymerror: { plus: 0.0012, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0042, errors: [ { asymerror: { plus: 0.0000, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9982, errors: [ { asymerror: { plus: 0.0024, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 0.9950, errors: [ { asymerror: { plus: 0.0023, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9950, errors: [ { asymerror: { plus: 0.0023, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 0.9982, errors: [ { asymerror: { plus: 0.0024, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0042, errors: [ { asymerror: { plus: 0.0000, minus: 0.0014 }, label: "sys." } ] }
+    - { value: 1.0119, errors: [ { asymerror: { plus: 0.0012, minus: 0.0002 }, label: "sys." } ] }
+    - { value: 1.0203, errors: [ { asymerror: { plus: 0.0026, minus: 0.0011 }, label: "sys." } ] }
+    - { value: 1.0280, errors: [ { asymerror: { plus: 0.0038, minus: 0.0023 }, label: "sys." } ] }
+    - { value: 1.0340, errors: [ { asymerror: { plus: 0.0047, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0372, errors: [ { asymerror: { plus: 0.0053, minus: 0.0038 }, label: "sys." } ] }
+- header: { name: "Signal/Background" }
+  qualifiers:
+  - { name: "Centrality", value: "40-50%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0579, errors: [ { symerror: 0.00265, label: "stat." } ] }
+    - { value: 1.0415, errors: [ { symerror: 0.01152, label: "stat." } ] }
+    - { value: 1.0514, errors: [ { symerror: 0.00239, label: "stat." } ] }
+    - { value: 1.0428, errors: [ { symerror: 0.00241, label: "stat." } ] }
+    - { value: 1.0357, errors: [ { symerror: 0.00226, label: "stat." } ] }
+    - { value: 1.0257, errors: [ { symerror: 0.00217, label: "stat." } ] }
+    - { value: 1.0186, errors: [ { symerror: 0.00214, label: "stat." } ] }
+    - { value: 1.0142, errors: [ { symerror: 0.00208, label: "stat." } ] }
+    - { value: 1.0110, errors: [ { symerror: 0.00207, label: "stat." } ] }
+    - { value: 1.0119, errors: [ { symerror: 0.00212, label: "stat." } ] }
+    - { value: 1.0162, errors: [ { symerror: 0.00212, label: "stat." } ] }
+    - { value: 1.0244, errors: [ { symerror: 0.00222, label: "stat." } ] }
+    - { value: 1.0348, errors: [ { symerror: 0.00216, label: "stat." } ] }
+    - { value: 1.0474, errors: [ { symerror: 0.00239, label: "stat." } ] }
+    - { value: 1.0566, errors: [ { symerror: 0.00927, label: "stat." } ] }
+    - { value: 1.0632, errors: [ { symerror: 0.00255, label: "stat." } ] }
+    - { value: 1.0616, errors: [ { symerror: 0.00266, label: "stat." } ] }
+    - { value: 1.0765, errors: [ { symerror: 0.01211, label: "stat." } ] }
+    - { value: 1.0495, errors: [ { symerror: 0.00238, label: "stat." } ] }
+    - { value: 1.0328, errors: [ { symerror: 0.00241, label: "stat." } ] }
+    - { value: 1.0251, errors: [ { symerror: 0.00225, label: "stat." } ] }
+    - { value: 1.0172, errors: [ { symerror: 0.00215, label: "stat." } ] }
+    - { value: 1.0140, errors: [ { symerror: 0.00214, label: "stat." } ] }
+    - { value: 1.0101, errors: [ { symerror: 0.00207, label: "stat." } ] }
+    - { value: 1.0127, errors: [ { symerror: 0.00208, label: "stat." } ] }
+    - { value: 1.0203, errors: [ { symerror: 0.00213, label: "stat." } ] }
+    - { value: 1.0280, errors: [ { symerror: 0.00214, label: "stat." } ] }
+    - { value: 1.0337, errors: [ { symerror: 0.00222, label: "stat." } ] }
+    - { value: 1.0467, errors: [ { symerror: 0.00217, label: "stat." } ] }
+    - { value: 1.0502, errors: [ { symerror: 0.00239, label: "stat." } ] }
+    - { value: 1.0445, errors: [ { symerror: 0.00900, label: "stat." } ] }
+    - { value: 1.0584, errors: [ { symerror: 0.00255, label: "stat." } ] }
+
+- header: { name: "Flow Estimate" }
+  qualifiers:
+  - { name: "Centrality", value: "40-50%"}
+  - { name: "Momentum", value: "$-1 < \\delta \\eta < 1$" }
+  values:
+    - { value: 1.0517, errors: [ { asymerror: { plus: 0.0035, minus: 0.0061 }, label: "sys." } ] }
+    - { value: 1.0482, errors: [ { asymerror: { plus: 0.0030, minus: 0.0056 }, label: "sys." } ] }
+    - { value: 1.0417, errors: [ { asymerror: { plus: 0.0019, minus: 0.0045 }, label: "sys." } ] }
+    - { value: 1.0332, errors: [ { asymerror: { plus: 0.0006, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0240, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0156, errors: [ { asymerror: { plus: 0.0014, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0091, errors: [ { asymerror: { plus: 0.0031, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0056, errors: [ { asymerror: { plus: 0.0037, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0056, errors: [ { asymerror: { plus: 0.0037, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0091, errors: [ { asymerror: { plus: 0.0031, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0156, errors: [ { asymerror: { plus: 0.0014, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0240, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0332, errors: [ { asymerror: { plus: 0.0006, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0417, errors: [ { asymerror: { plus: 0.0019, minus: 0.0045 }, label: "sys." } ] }
+    - { value: 1.0482, errors: [ { asymerror: { plus: 0.0030, minus: 0.0056 }, label: "sys." } ] }
+    - { value: 1.0517, errors: [ { asymerror: { plus: 0.0035, minus: 0.0061 }, label: "sys." } ] }
+    - { value: 1.0517, errors: [ { asymerror: { plus: 0.0035, minus: 0.0061 }, label: "sys." } ] }
+    - { value: 1.0482, errors: [ { asymerror: { plus: 0.0030, minus: 0.0056 }, label: "sys." } ] }
+    - { value: 1.0417, errors: [ { asymerror: { plus: 0.0019, minus: 0.0045 }, label: "sys." } ] }
+    - { value: 1.0332, errors: [ { asymerror: { plus: 0.0006, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0240, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0156, errors: [ { asymerror: { plus: 0.0014, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0091, errors: [ { asymerror: { plus: 0.0031, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0056, errors: [ { asymerror: { plus: 0.0037, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0056, errors: [ { asymerror: { plus: 0.0037, minus: 0.0006 }, label: "sys." } ] }
+    - { value: 1.0091, errors: [ { asymerror: { plus: 0.0031, minus: 0.0000 }, label: "sys." } ] }
+    - { value: 1.0156, errors: [ { asymerror: { plus: 0.0014, minus: 0.0004 }, label: "sys." } ] }
+    - { value: 1.0240, errors: [ { asymerror: { plus: 0.0009, minus: 0.0017 }, label: "sys." } ] }
+    - { value: 1.0332, errors: [ { asymerror: { plus: 0.0006, minus: 0.0032 }, label: "sys." } ] }
+    - { value: 1.0417, errors: [ { asymerror: { plus: 0.0019, minus: 0.0045 }, label: "sys." } ] }
+    - { value: 1.0482, errors: [ { asymerror: { plus: 0.0030, minus: 0.0056 }, label: "sys." } ] }
+    - { value: 1.0517, errors: [ { asymerror: { plus: 0.0035, minus: 0.0061 }, label: "sys." } ] }
