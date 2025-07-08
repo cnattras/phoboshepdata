@@ -26,7 +26,7 @@ independent_variables:
     - {value:  1.625}
     - {value:  1.875}
 dependent_variables:
-- header: {name: "Near-side Yield", note: "|Δφ| < 1"}
+- header: {name: "Near-side Yield"}
   qualifiers:
     - {name: "Centrality", value: "0–30%"}
   values:

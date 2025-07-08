@@ -78,37 +78,70 @@ dependent_variables:
   - { name: "Centrality", value: "0-10%"}
   - { name: "Momentum", value: "$-4 < \\delta \\eta < -2" }
   values:
-    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0029, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
-    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
-    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
-    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
-    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
-    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
-    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
-    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0029, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
-    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
-    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
-    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
-    - { value: 0.9994, errors: [ { asymerror: { plus: 0.0005, minus: 0.0004 }, label: "sys." } ] }
-    - { value: 0.9997, errors: [ { asymerror: { plus: 0.0003, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 1.0004, errors: [ { asymerror: { plus: 0.0002, minus: 0.0002 }, label: "sys." } ] }
-    - { value: 1.0012, errors: [ { asymerror: { plus: 0.0001, minus: 0.0001 }, label: "sys." } ] }
-    - { value: 1.0021, errors: [ { asymerror: { plus: 0.0002, minus: 0.0003 }, label: "sys." } ] }
-    - { value: 1.0029, errors: [ { asymerror: { plus: 0.0004, minus: 0.0005 }, label: "sys." } ] }
-    - { value: 1.0035, errors: [ { asymerror: { plus: 0.0006, minus: 0.0007 }, label: "sys." } ] }
-    - { value: 1.0038, errors: [ { asymerror: { plus: 0.0007, minus: 0.0007 }, label: "sys." } ] }
+    - value: 1.00383
+      errors: [{label: syst., asymerror: {plus: 0.00070, minus: 0.00074}}]
+    - value: 1.00350
+      errors: [{label: syst., asymerror: {plus: 0.00060, minus: 0.00066}}]
+    - value: 1.00287
+      errors: [{label: syst., asymerror: {plus: 0.00045, minus: 0.00049}}]
+    - value: 1.00206
+      errors: [{label: syst., asymerror: {plus: 0.00023, minus: 0.00028}}]
+    - value: 1.00118
+      errors: [{label: syst., asymerror: {plus: 0.00001, minus: 0.00006}}]
+    - value: 1.00037
+      errors: [{label: syst., asymerror: {plus: 0.00015, minus: 0.00021}}]
+    - value: 0.99974
+      errors: [{label: syst., asymerror: {plus: 0.00032, minus: 0.00036}}]
+    - value: 0.99941
+      errors: [{label: syst., asymerror: {plus: 0.00046, minus: 0.00046}}]
+    - value: 0.99941
+      errors: [{label: syst., asymerror: {plus: 0.00046, minus: 0.00046}}]
+    - value: 0.99974
+      errors: [{label: syst., asymerror: {plus: 0.00032, minus: 0.00036}}]
+    - value: 1.00037
+      errors: [{label: syst., asymerror: {plus: 0.00015, minus: 0.00021}}]
+    - value: 1.00118
+      errors: [{label: syst., asymerror: {plus: 0.00001, minus: 0.00006}}]
+    - value: 1.00206
+      errors: [{label: syst., asymerror: {plus: 0.00023, minus: 0.00028}}]
+    - value: 1.00287
+      errors: [{label: syst., asymerror: {plus: 0.00045, minus: 0.00049}}]
+    - value: 1.00350
+      errors: [{label: syst., asymerror: {plus: 0.00060, minus: 0.00066}}]
+    - value: 1.00383
+      errors: [{label: syst., asymerror: {plus: 0.00070, minus: 0.00074}}]
+    - value: 1.00383
+      errors: [{label: syst., asymerror: {plus: 0.00070, minus: 0.00074}}]
+    - value: 1.00350
+      errors: [{label: syst., asymerror: {plus: 0.00060, minus: 0.00066}}]
+    - value: 1.00287
+      errors: [{label: syst., asymerror: {plus: 0.00045, minus: 0.00049}}]
+    - value: 1.00206
+      errors: [{label: syst., asymerror: {plus: 0.00023, minus: 0.00028}}]
+    - value: 1.00118
+      errors: [{label: syst., asymerror: {plus: 0.00001, minus: 0.00006}}]
+    - value: 1.00037
+      errors: [{label: syst., asymerror: {plus: 0.00015, minus: 0.00021}}]
+    - value: 0.99974
+      errors: [{label: syst., asymerror: {plus: 0.00032, minus: 0.00036}}]
+    - value: 0.99941
+      errors: [{label: syst., asymerror: {plus: 0.00046, minus: 0.00046}}]
+    - value: 0.99941
+      errors: [{label: syst., asymerror: {plus: 0.00046, minus: 0.00046}}]
+    - value: 0.99974
+      errors: [{label: syst., asymerror: {plus: 0.00032, minus: 0.00036}}]
+    - value: 1.00037
+      errors: [{label: syst., asymerror: {plus: 0.00015, minus: 0.00021}}]
+    - value: 1.00118
+      errors: [{label: syst., asymerror: {plus: 0.00001, minus: 0.00006}}]
+    - value: 1.00206
+      errors: [{label: syst., asymerror: {plus: 0.00023, minus: 0.00028}}]
+    - value: 1.00287
+      errors: [{label: syst., asymerror: {plus: 0.00045, minus: 0.00049}}]
+    - value: 1.00350
+      errors: [{label: syst., asymerror: {plus: 0.00060, minus: 0.00066}}]
+    - value: 1.00383
+      errors: [{label: syst., asymerror: {plus: 0.00070, minus: 0.00074}}]
 - header: { name: "Signal/Background" }
   qualifiers:
   - { name: "Centrality", value: "10-20%"}

@@ -77,29 +77,198 @@ dependent_variables:
     qualifiers:
       - {name: "Δη window", value: "-4 < Δη < -2"}
     values:
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00383, plus: 0.00453 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00350, plus: 0.00410 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00287, plus: 0.00332 } } ] }
-      - { value: 1.002, errors: [ { label: sys, asymerror: { minus: 0.00206, plus: 0.00229 } } ] }
-      - { value: 1.001, errors: [ { label: sys, asymerror: { minus: 0.00118, plus: 0.00119 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.00137, plus: 0.00163 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.000623, plus: 0.000377 } } ] }
-      - { value: 0.999, errors: [ { label: sys, asymerror: { minus: 0.000053, plus: 0.000447 } } ] }
-      - { value: 0.999, errors: [ { label: sys, asymerror: { minus: 0.000053, plus: 0.000447 } } ] }
-      - { value: 0.9997, errors: [ { label: sys, asymerror: { minus: 0.000377, plus: 0.000623 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.00163, plus: 0.00137 } } ] }
-      - { value: 1.001, errors: [ { label: sys, asymerror: { minus: 0.00118, plus: 0.00112 } } ] }
-      - { value: 1.002, errors: [ { label: sys, asymerror: { minus: 0.00206, plus: 0.00178 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00287, plus: 0.00238 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00350, plus: 0.00284 } } ] }
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00383, plus: 0.00309 } } ] }
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00383, plus: 0.00309 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00350, plus: 0.00284 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00287, plus: 0.00238 } } ] }
-      - { value: 1.002, errors: [ { label: sys, asymerror: { minus: 0.00206, plus: 0.00229 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00287, plus: 0.00332 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00350, plus: 0.00410 } } ] }
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00383, plus: 0.00453 } } ] }
+        - value: 1.00383
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00070
+                minus: 0.00074
+        - value: 1.00350
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00060
+                minus: 0.00066
+        - value: 1.00287
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00045
+                minus: 0.00049
+        - value: 1.00206
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00023
+                minus: 0.00028
+        - value: 1.00118
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00007
+                minus: 0.00006
+        - value: 1.00037
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00016
+                minus: 0.00021
+        - value: 0.99974
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00032
+                minus: 0.00036
+        - value: 0.99941
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00046
+                minus: 0.00045
+        - value: 0.99941
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00046
+                minus: 0.00045
+        - value: 0.99974
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00032
+                minus: 0.00036
+        - value: 1.00037
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00016
+                minus: 0.00021
+        - value: 1.00118
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00007
+                minus: 0.00006
+        - value: 1.00206
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00023
+                minus: 0.00028
+        - value: 1.00287
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00045
+                minus: 0.00049
+        - value: 1.00350
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00060
+                minus: 0.00066
+        - value: 1.00383
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00070
+                minus: 0.00074
+        - value: 1.00383
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00070
+                minus: 0.00074
+        - value: 1.00350
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00060
+                minus: 0.00066
+        - value: 1.00287
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00045
+                minus: 0.00049
+        - value: 1.00206
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00023
+                minus: 0.00028
+        - value: 1.00118
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00007
+                minus: 0.00006
+        - value: 1.00037
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00016
+                minus: 0.00021
+        - value: 0.99974
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00032
+                minus: 0.00036
+        - value: 0.99941
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00046
+                minus: 0.00045
+        - value: 0.99941
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00046
+                minus: 0.00045
+        - value: 0.99974
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00032
+                minus: 0.00036
+        - value: 1.00037
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00016
+                minus: 0.00021
+        - value: 1.00118
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00007
+                minus: 0.00006
+        - value: 1.00206
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00023
+                minus: 0.00028
+        - value: 1.00287
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00045
+                minus: 0.00049
+        - value: 1.00350
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00060
+                minus: 0.00066
+        - value: 1.00383
+          errors:
+            - label: syst.
+              asymerror:
+                plus: 0.00070
+                minus: 0.00074
   - header: {name: "s/b"}
     qualifiers:
       - {name: "Δη window", value: "-1 < Δη < 1"}
@@ -141,28 +310,67 @@ dependent_variables:
     qualifiers:
       - {name: "Δη window", value: "-1 < Δη < 1"}
     values:
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00416, plus: 0.00617 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00388, plus: 0.00567 } } ] }
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00336, plus: 0.00473 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00267, plus: 0.00350 } } ] }
-      - { value: 1.002, errors: [ { label: sys, asymerror: { minus: 0.00193, plus: 0.00218 } } ] }
-      - { value: 1.001, errors: [ { label: sys, asymerror: { minus: 0.00125, plus: 0.00095 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.00073, plus: 0.00001 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.00044, plus: 0.000493 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.00044, plus: 0.000493 } } ] }
-      - { value: 1.000, errors: [ { label: sys, asymerror: { minus: 0.00073, plus: 0.00001 } } ] }
-      - { value: 1.001, errors: [ { label: sys, asymerror: { minus: 0.00125, plus: 0.00095 } } ] }
-      - { value: 1.002, errors: [ { label: sys, asymerror: { minus: 0.00193, plus: 0.00218 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00267, plus: 0.00350 } } ] }
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00336, plus: 0.00473 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00388, plus: 0.00567 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00416, plus: 0.00617 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00416, plus: 0.00617 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00388, plus: 0.00567 } } ] }
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00336, plus: 0.00473 } } ] }
-      - { value: 1.003, errors: [ { label: sys, asymerror: { minus: 0.00267, plus: 0.00350 } } ] } 
-      - { value: 1.004, errors: [ { label: sys, asymerror: { minus: 0.00336, plus: 0.00473 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00388, plus: 0.00567 } } ] }
-      - { value: 1.005, errors: [ { label: sys, asymerror: { minus: 0.00416, plus: 0.00617 } } ] }
-
- 
+        - value: 1.00519
+          errors: [{label: syst., asymerror: {plus: 0.00098, minus: 0.00103}}]
+        - value: 1.00479
+          errors: [{label: syst., asymerror: {plus: 0.00088, minus: 0.00091}}]
+        - value: 1.00406
+          errors: [{label: syst., asymerror: {plus: 0.00067, minus: 0.00070}}]
+        - value: 1.00311
+          errors: [{label: syst., asymerror: {plus: 0.00039, minus: 0.00044}}]
+        - value: 1.00208
+          errors: [{label: syst., asymerror: {plus: 0.00010, minus: 0.00015}}]
+        - value: 1.00112
+          errors: [{label: syst., asymerror: {plus: 0.00013, minus: 0.00017}}]
+        - value: 1.00039
+          errors: [{label: syst., asymerror: {plus: 0.00034, minus: 0.00038}}]
+        - value: 1.00000
+          errors: [{label: syst., asymerror: {plus: 0.00049, minus: 0.00056}}]
+        - value: 1.00000
+          errors: [{label: syst., asymerror: {plus: 0.00049, minus: 0.00056}}]
+        - value: 1.00039
+          errors: [{label: syst., asymerror: {plus: 0.00034, minus: 0.00038}}]
+        - value: 1.00112
+          errors: [{label: syst., asymerror: {plus: 0.00013, minus: 0.00017}}]
+        - value: 1.00208
+          errors: [{label: syst., asymerror: {plus: 0.00010, minus: 0.00015}}]
+        - value: 1.00311
+          errors: [{label: syst., asymerror: {plus: 0.00039, minus: 0.00044}}]
+        - value: 1.00406
+          errors: [{label: syst., asymerror: {plus: 0.00067, minus: 0.00070}}]
+        - value: 1.00479
+          errors: [{label: syst., asymerror: {plus: 0.00088, minus: 0.00091}}]
+        - value: 1.00519
+          errors: [{label: syst., asymerror: {plus: 0.00098, minus: 0.00103}}]
+        - value: 1.00519
+          errors: [{label: syst., asymerror: {plus: 0.00098, minus: 0.00103}}]
+        - value: 1.00479
+          errors: [{label: syst., asymerror: {plus: 0.00088, minus: 0.00091}}]
+        - value: 1.00406
+          errors: [{label: syst., asymerror: {plus: 0.00067, minus: 0.00070}}]
+        - value: 1.00311
+          errors: [{label: syst., asymerror: {plus: 0.00039, minus: 0.00044}}]
+        - value: 1.00208
+          errors: [{label: syst., asymerror: {plus: 0.00010, minus: 0.00015}}]
+        - value: 1.00112
+          errors: [{label: syst., asymerror: {plus: 0.00013, minus: 0.00017}}]
+        - value: 1.00039
+          errors: [{label: syst., asymerror: {plus: 0.00034, minus: 0.00038}}]
+        - value: 1.00000
+          errors: [{label: syst., asymerror: {plus: 0.00049, minus: 0.00056}}]
+        - value: 1.00000
+          errors: [{label: syst., asymerror: {plus: 0.00049, minus: 0.00056}}]
+        - value: 1.00039
+          errors: [{label: syst., asymerror: {plus: 0.00034, minus: 0.00038}}]
+        - value: 1.00112
+          errors: [{label: syst., asymerror: {plus: 0.00013, minus: 0.00017}}]
+        - value: 1.00208
+          errors: [{label: syst., asymerror: {plus: 0.00010, minus: 0.00015}}]
+        - value: 1.00311
+          errors: [{label: syst., asymerror: {plus: 0.00039, minus: 0.00044}}]
+        - value: 1.00406
+          errors: [{label: syst., asymerror: {plus: 0.00067, minus: 0.00070}}]
+        - value: 1.00479
+          errors: [{label: syst., asymerror: {plus: 0.00088, minus: 0.00091}}]
+        - value: 1.00519
+          errors: [{label: syst., asymerror: {plus: 0.00098, minus: 0.00103}}]
