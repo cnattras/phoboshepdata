@@ -41,7 +41,7 @@ additional_resources:
 ---
 name: "Figure 2c"
 location: Data from Figure 2c of PHOBOS paper Inspire ID:815596
-description: 1D projected triggered correlation function for central Au+Au integrated over |delta-phi|<1 and plotted versus delta-eta
+description: 1D projected triggered correlation function for central Au+Au integrated over $|\delta-\phi|<1$ and plotted versus $\delta-\eta$
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -55,7 +55,7 @@ additional_resources:
 ---
 name: "Figure 3"
 location: Data from Figure 3 of PHOBOS paper Inspire ID:815596
-description: 1D projected triggered correlation functions for Au+Au at various centralities, integrated over |delta-eta|<1 & -4<delta-eta<-2 and plotted versus delta-phi
+description: 1D projected triggered correlation functions for Au+Au at various centralities, integrated over $|\delta-\eta|<1$ and $-4<\delta-\eta<-2$ and plotted versus $\delta-\phi$
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -69,7 +69,7 @@ additional_resources:
 ---
 name: "Figure 4"
 location: Data from Figure 4 of PHOBOS paper Inspire ID:815596
-description: Averaged yields for |delta-eta|<1 & -4<delta-eta<-2 in the regions |delta-phi|<1 and delta-phi>1 versus number of participants 
+description: Averaged yields for $|\delta-\eta|<1$ & $-4<\delta-\eta<-2$ in the regions $|\delta-\phi|<1$ and $\delta-\phi>1$ versus number of participants 
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -83,7 +83,7 @@ additional_resources:
 --- 
 name: "Full Data Before Flow Subtraction"
 location: Data from all figures of PHOBOS paper Inspire ID:815596
-description: Full data tables for data before flow subtraction for |delta-eta|<1 & -4<delta-eta<-2  
+description: Full data tables for data before flow subtraction for $|\delta-\eta|<1$ & $-4<\delta-\eta<-2$  
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
