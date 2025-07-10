@@ -9,7 +9,7 @@ independent_variables:
 dependent_variables:
   - header: { name: "Yield" }
     qualifiers:
-      - { name: "$N_{\\text_{part}}$", value: 73.5 }
+      - { name: "$N_{part}$", value: 73.5 }
     values:
       - value: -0.02063
         errors:
@@ -29,7 +29,7 @@ dependent_variables:
           - { label: syst, asymerror: { plus: 0.927766, minus: 0.76623 } }
   - header: { name: "Yield" }
     qualifiers:
-      - { name: "$N_{\\text_{part}}$", value: 107 }
+      - { name: "$N_{part}$", value: 107 }
     values:
       - value: 0.093785
         errors:
@@ -50,7 +50,7 @@ dependent_variables:
 
   - header: { name: "Yield" }
     qualifiers:
-      - { name: "$N_{\\text_{part}}$", value: 165 }
+      - { name: "$N_{part}$", value: 165 }
     values:
       - value: 0.245773
         errors:
@@ -71,7 +71,7 @@ dependent_variables:
 
   - header: { name: "Yield" }
     qualifiers:
-      - { name: "$N_{\\text_{part}}$", value: 235.5 }
+      - { name: "$N_{part}$", value: 235.5 }
     values:
       - value: 0.31742
         errors:
@@ -92,7 +92,7 @@ dependent_variables:
 
   - header: { name: "Yield" }
     qualifiers:
-      - { name: "$N_{\\text_{part}}$", value: 325.5 }
+      - { name: "$N_{part}$", value: 325.5 }
     values:
       - value: 0.22946
         errors:
