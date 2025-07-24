@@ -9,7 +9,7 @@ comment: |
   BNL-RHIC. We present a measurement of the pseudorapidity density of primary charged particles near mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}} =$ 130 GeV as a function of the number of participating nucleons.  These results are compared to models in an attempt to discriminate between competing scenarios of particle production in heavy ion collisions.
 ---
 data_file: Table.yaml
-description: For each measured centrality bin, based on percentile of the total cross-section, we show $dNch/d\eta|_{|\eta|<1}$,  the midrapidity charged particle density per unit of pseudorapidity, <Npart>, the average number of nucleons participating in the collision in the given centrality range, and the final result for $dNch/d\eta|_{|\eta|<1}/( \frac{1}{2}\langle N_{part}\rangle )$, including the full error estimation.
+description: For each measured centrality bin, based on percentile of the total cross-section, we show $dNch/d\eta|_{|\eta|<1}$,  the midrapidity charged particle density per unit of pseudorapidity, $\langle N_{part}\rangle$ , the average number of nucleons participating in the collision in the given centrality range, and the final result for $dNch/d\eta|_{|\eta|<1}/( \frac{1}{2}\langle N_{part}\rangle )$, including the full error estimation.
 keywords:
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
