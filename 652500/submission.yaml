@@ -15,7 +15,7 @@ comment: |
 # Start of table entries.
 # This is Table 1.
 name: "Figure 1"
-location: Data from Figure 1 of PHOBOS paper Inspire ID 652500
+location: Data from Figure 1 of PRC 70 (2004) 061901
 description: Nuclear modification factor $R_\text{dAu}$ for three different pseudorapidity ranges.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -29,7 +29,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
 name: "Figure 2"
-location: Data from Figure 2 of PHOBOS paper Inspire ID 652500
+location: Data from Figure 2 of PRC 70 (2004) 061901
 description: Nuclear modification factor $R_\text{dAu}$ for four different values of $p_T$ for the three different $\eta$ bins.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions

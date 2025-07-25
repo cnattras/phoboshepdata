@@ -11,30 +11,30 @@ dependent_variables:
     qualifiers:
       - {name: "Transverse Momentum", value: "2.0 GeV/c"}
     values:
-      - {value: 1.0189, errors: [{label: total, symerror: 0.0848}]}
-      - {value: 0.9066, errors: [{label: total, symerror: 0.0725}]}
-      - {value: 0.8081, errors: [{label: total, symerror: 0.0655}]}
+      - {value: 1.019, errors: [{label: total, symerror: 0.085}]}
+      - {value: 0.907, errors: [{label: total, symerror: 0.073}]}
+      - {value: 0.808, errors: [{label: total, symerror: 0.066}]}
 
   - header: {name: "$R_\\text{dAu}$ at $p_T = 2.6$ GeV/c"}
     qualifiers:
       - {name: "Transverse Momentum", value: "2.6 GeV/c"}
     values:
-      - {value: 1.2186, errors: [{label: total, symerror: 0.1414}]}
-      - {value: 1.0097, errors: [{label: total, symerror: 0.1161}]}
-      - {value: 0.8730, errors: [{label: total, symerror: 0.1039}]}
+      - {value: 1.219, errors: [{label: total, symerror: 0.141}]}
+      - {value: 1.010, errors: [{label: total, symerror: 0.116}]}
+      - {value: 0.873, errors: [{label: total, symerror: 0.104}]}
 
   - header: {name: "$R_\\text{dAu}$ at $p_T = 3.2$ GeV/c"}
     qualifiers:
       - {name: "Transverse Momentum", value: "3.2 GeV/c"}
     values:
-      - {value: 1.3740, errors: [{label: total, symerror: 0.1869}]}
-      - {value: 1.0637, errors: [{label: total, symerror: 0.1436}]}
-      - {value: 0.9260, errors: [{label: total, symerror: 0.1315}]}
+      - {value: 1.374, errors: [{label: total, symerror: 0.187}]}
+      - {value: 1.064, errors: [{label: total, symerror: 0.144}]}
+      - {value: 0.926, errors: [{label: total, symerror: 0.132}]}
 
   - header: {name: "$R_\\text{dAu}$ at $p_T = 3.8$ GeV/c"}
     qualifiers:
       - {name: "Transverse Momentum", value: "3.8 GeV/c"}
     values:
-      - {value: 1.4773, errors: [{label: total, symerror: 0.2438}]}
-      - {value: 1.1150, errors: [{label: total, symerror: 0.1851}]}
-      - {value: 0.9761, errors: [{label: total, symerror: 0.1738}]}
+      - {value: 1.477, errors: [{label: total, symerror: 0.244}]}
+      - {value: 1.115, errors: [{label: total, symerror: 0.185}]}
+      - {value: 0.976, errors: [{label: total, symerror: 0.174}]}
