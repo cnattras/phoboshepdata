@@ -9,7 +9,7 @@ comment: |
  BNL-RHIC. The measured pseudorapidity distribution of primary charged particles in minimum-bias ${\rm d}+{\rm Au}$ collisions at ${ \sqrt{s_{_{NN}}}~ = \rm {200~GeV} }$ is presented for the first time. This distribution falls off less rapidly in the gold direction as compared to the deuteron direction. The average value of the charged particle pseudorapidity density at midrapidity is ${\rm \langle dN_{ch}/d\eta \rangle_{\mid \eta \mid \le 0.6} = 9.4 \pm  0.7(syst)}$ and the integrated primary charged particle multiplicity in the measured region is 82 $\pm$ 6(syst). Estimates of the total charged particle production, based on extrapolations outside the measured pseudorapidity region, are also presented.The pseudorapidity distribution, normalized to the number of participants in ${\rm d}+{\rm Au}$ collisions, is compared to those of ${\rm Au}+{\rm Au}$ and ${\rm p}+\bar{\rm p}$ systems at the same energy. The ${\rm d}+{\rm Au}$ distribution is also compared to the predictions of the parton saturation model, as well as microscopic models.
 ---
 data_file: table.yaml
-description:  Minimum-bias pseudorapidity distribution data of PHOBOS experiment in d + Au collisions at 200 GeV 
+description:  Minimum-bias pseudorapidity distribution data of Phys.Rev.C 70 (2004) 011901 in d + Au collisions at 200 GeV 
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -20,6 +20,4 @@ keywords: # used for searching, possibly multiple values for each keyword
 name: $dN/d\eta$ data 
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Thumbnail Image file, location: thumb_figure2.png}  
-- {description: Thumbnail Image file, location: thumb_figure3.png}
 
