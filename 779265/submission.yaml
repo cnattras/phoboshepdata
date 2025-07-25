@@ -15,7 +15,7 @@ comment: |
 # Start of table entries.
 # This is Table 1.
 name: "Table 1"
-location: Data from Table 1 of PHOBOS paper Inspire ID 779265
+location: Data from Table 1 of PRC 77 (2008) 061901
 description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
@@ -28,7 +28,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
 name: "Table 2"
-location: Data from Table 2 of PHOBOS paper Inspire ID 779265
+location: Data from Table 2 of PRC 77 (2008) 061901
 description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
 keywords: # used for searching, possibly multiple values for each keyword
   - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
