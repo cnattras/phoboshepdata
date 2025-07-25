@@ -17,72 +17,72 @@ dependent_variables:
   - header: {name: '$\langle N_{\text{part}} \rangle$'}
     values:
       - value: 361
-        errors: [{symerror: 11, label: 'stat'}]
+        errors: [{symerror: 11, label: 'sys'}]
       - value: 331
-        errors: [{symerror: 10, label: 'stat'}]
+        errors: [{symerror: 10, label: 'sys'}]
       - value: 297
-        errors: [{symerror: 9, label: 'stat'}]
+        errors: [{symerror: 9, label: 'sys'}]
       - value: 255
-        errors: [{symerror: 8, label: 'stat'}]
+        errors: [{symerror: 8, label: 'sys'}]
       - value: 215
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
       - value: 180
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
       - value: 150
-        errors: [{symerror: 6, label: 'stat'}]
+        errors: [{symerror: 6, label: 'sys'}]
       - value: 124
-        errors: [{symerror: 6, label: 'stat'}]
+        errors: [{symerror: 6, label: 'sys'}]
       - value: 101
-        errors: [{symerror: 6, label: 'stat'}]
+        errors: [{symerror: 6, label: 'sys'}]
       - value: 82
-        errors: [{symerror: 6, label: 'stat'}]
+        errors: [{symerror: 6, label: 'sys'}]
       - value: 65
-        errors: [{symerror: 6, label: 'stat'}]
+        errors: [{symerror: 6, label: 'sys'}]
   - header: {name: '$dN_{\text{ch}}/d\eta$'}
     values:
       - value: 691
-        errors: [{symerror: 52, label: 'stat'}]
+        errors: [{symerror: 52, label: 'sys'}]
       - value: 619
-        errors: [{symerror: 46, label: 'stat'}]
+        errors: [{symerror: 46, label: 'sys'}]
       - value: 540
-        errors: [{symerror: 41, label: 'stat'}]
+        errors: [{symerror: 41, label: 'sys'}]
       - value: 465
-        errors: [{symerror: 35, label: 'stat'}]
+        errors: [{symerror: 35, label: 'sys'}]
       - value: 384
-        errors: [{symerror: 29, label: 'stat'}]
+        errors: [{symerror: 29, label: 'sys'}]
       - value: 313
-        errors: [{symerror: 24, label: 'stat'}]
+        errors: [{symerror: 24, label: 'sys'}]
       - value: 257
-        errors: [{symerror: 19, label: 'stat'}]
+        errors: [{symerror: 19, label: 'sys'}]
       - value: 208
-        errors: [{symerror: 16, label: 'stat'}]
+        errors: [{symerror: 16, label: 'sys'}]
       - value: 165
-        errors: [{symerror: 12, label: 'stat'}]
+        errors: [{symerror: 12, label: 'sys'}]
       - value: 133
-        errors: [{symerror: 10, label: 'stat'}]
+        errors: [{symerror: 10, label: 'sys'}]
       - value: 100
-        errors: [{symerror: 8, label: 'stat'}]
+        errors: [{symerror: 8, label: 'sys'}]
   - header: {name: '$dN_{\text{ch}}/d\eta/(1/2\langle N_{\text{part}}\rangle)$'}
     values:
       - value: 3.82
-        errors: [{symerror: 0.31, label: 'stat'}]
+        errors: [{symerror: 0.31, label: 'sys'}]
       - value: 3.74
-        errors: [{symerror: 0.30, label: 'stat'}]
+        errors: [{symerror: 0.30, label: 'sys'}]
       - value: 3.64
-        errors: [{symerror: 0.30, label: 'stat'}]
+        errors: [{symerror: 0.30, label: 'sys'}]
       - value: 3.65
-        errors: [{symerror: 0.30, label: 'stat'}]
+        errors: [{symerror: 0.30, label: 'sys'}]
       - value: 3.57
-        errors: [{symerror: 0.29, label: 'stat'}]
+        errors: [{symerror: 0.29, label: 'sys'}]
       - value: 3.47
-        errors: [{symerror: 0.30, label: 'stat'}]
+        errors: [{symerror: 0.30, label: 'sys'}]
       - value: 3.42
-        errors: [{symerror: 0.29, label: 'stat'}]
+        errors: [{symerror: 0.29, label: 'sys'}]
       - value: 3.37
-        errors: [{symerror: 0.30, label: 'stat'}]
+        errors: [{symerror: 0.30, label: 'sys'}]
       - value: 3.25
-        errors: [{symerror: 0.31, label: 'stat'}]
+        errors: [{symerror: 0.31, label: 'sys'}]
       - value: 3.25
-        errors: [{symerror: 0.34, label: 'stat'}]
+        errors: [{symerror: 0.34, label: 'sys'}]
       - value: 3.10
-        errors: [{symerror: 0.38, label: 'stat'}]
+        errors: [{symerror: 0.38, label: 'sys'}]

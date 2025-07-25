@@ -15,61 +15,61 @@ dependent_variables:
   - header: {name: '$\langle N_{\text{part}} \rangle$'}
     values:
       - value: 351
-        errors: [{symerror: 11, label: 'stat'}]
+        errors: [{symerror: 11, label: 'sys'}]
       - value: 322
-        errors: [{symerror: 10, label: 'stat'}]
+        errors: [{symerror: 10, label: 'sys'}]
       - value: 286
-        errors: [{symerror: 9, label: 'stat'}]
+        errors: [{symerror: 9, label: 'sys'}]
       - value: 247
-        errors: [{symerror: 8, label: 'stat'}]
+        errors: [{symerror: 8, label: 'sys'}]
       - value: 206
-        errors: [{symerror: 8, label: 'stat'}]
+        errors: [{symerror: 8, label: 'sys'}]
       - value: 171
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
       - value: 142
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
       - value: 117
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
       - value: 95
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
   - header: {name: '$dN_{\text{ch}}/d\eta$'}
     values:
       - value: 331
-        errors: [{symerror: 24, label: 'stat'}]
+        errors: [{symerror: 24, label: 'sys'}]
       - value: 297
-        errors: [{symerror: 22, label: 'stat'}]
+        errors: [{symerror: 22, label: 'sys'}]
       - value: 260
-        errors: [{symerror: 20, label: 'stat'}]
+        errors: [{symerror: 20, label: 'sys'}]
       - value: 216
-        errors: [{symerror: 16, label: 'stat'}]
+        errors: [{symerror: 16, label: 'sys'}]
       - value: 181
-        errors: [{symerror: 14, label: 'stat'}]
+        errors: [{symerror: 14, label: 'sys'}]
       - value: 148
-        errors: [{symerror: 11, label: 'stat'}]
+        errors: [{symerror: 11, label: 'sys'}]
       - value: 121
-        errors: [{symerror: 9, label: 'stat'}]
+        errors: [{symerror: 9, label: 'sys'}]
       - value: 97
-        errors: [{symerror: 7, label: 'stat'}]
+        errors: [{symerror: 7, label: 'sys'}]
       - value: 78
-        errors: [{symerror: 6, label: 'stat'}]
+        errors: [{symerror: 6, label: 'sys'}]
 
   - header: {name: '$dN_{\text{ch}}/d\eta/(1/2\langle N_{\text{part}}\rangle)$'}
     values:
       - value: 1.89
-        errors: [{symerror: 0.15, label: 'stat'}]
+        errors: [{symerror: 0.15, label: 'sys'}]
       - value: 1.84
-        errors: [{symerror: 0.15, label: 'stat'}]
+        errors: [{symerror: 0.15, label: 'sys'}]
       - value: 1.82
-        errors: [{symerror: 0.15, label: 'stat'}]
+        errors: [{symerror: 0.15, label: 'sys'}]
       - value: 1.76
-        errors: [{symerror: 0.14, label: 'stat'}]
+        errors: [{symerror: 0.14, label: 'sys'}]
       - value: 1.75
-        errors: [{symerror: 0.15, label: 'stat'}]
+        errors: [{symerror: 0.15, label: 'sys'}]
       - value: 1.73
-        errors: [{symerror: 0.15, label: 'stat'}]
+        errors: [{symerror: 0.15, label: 'sys'}]
       - value: 1.70
-        errors: [{symerror: 0.15, label: 'stat'}]
+        errors: [{symerror: 0.15, label: 'sys'}]
       - value: 1.65
-        errors: [{symerror: 0.16, label: 'stat'}]
+        errors: [{symerror: 0.16, label: 'sys'}]
       - value: 1.64
-        errors: [{symerror: 0.17, label: 'stat'}]
+        errors: [{symerror: 0.17, label: 'sys'}]
