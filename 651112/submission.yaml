@@ -27,11 +27,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [200]
 data_file: 200.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_table1.png}
-- {description: Thumbnail Image file, location: thumb_fig1.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
 - {description: Thumbnail Image file, location: thumb_fig3.png}
-- {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
 name: "Table 1: 19.6 GeV"
 location: Data from Table 1 of PRC 70 (2004) 021902
@@ -45,11 +41,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   values: [19.6]
 data_file: 19.6.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_table1.png}
-- {description: Thumbnail Image file, location: thumb_fig1.png}
-- {description: Thumbnail Image file, location: thumb_fig2.png}
 - {description: Thumbnail Image file, location: thumb_fig3.png}
-- {description: Thumbnail Image file, location: thumb_fig4.png}
 ---
 name: "Table 1: Ratios X-Section "
 location: Data from Table 1 of PRC 70 (2004) 021902
