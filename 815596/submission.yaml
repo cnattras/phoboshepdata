@@ -7,12 +7,12 @@
 
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/815596", description: "InspireHEP ID: 815596"}
-- {location: "https://arxiv.org/pdf/nucl-ex/0903.2811", description: "arXiv ID: nucl-ex/0903.2811"}
-- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Trig_Correl/index.htm", description: "Link to Text data files from PHOBOS paper Inspire ID 815596"}
+- {location: "https://arxiv.org/abs/0903.2811", description: "arXiv ID: nucl-ex/0903.2811"}
+- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Trig_Correl/index.htm", description: " Phys.Rev.Lett. 104 (2010) 062301"}
 comment: A measurement of two-particle correlations with a high transverse momentum trigger particle ($p_T^{trig} > 2.5$~GeV/c) is presented for Au+Au collisions at $\sqrt{s_{_{NN}}}$=200 GeV over the uniquely broad longitudinal acceptance of the PHOBOS detector ($-4 < \Delta\eta < 2$).  A broadening of the away-side azimuthal correlation compared to elementary collisions is observed at all $\Delta\eta$.  As in p+p collisions, the near-side is characterized by a peak of correlated partners at small angle relative to the trigger particle.  However, in central Au+Au collisions an additional correlation extended in $\Delta\eta$ and known as the `ridge' is found to reach at least $|\Delta\eta| \approx 4$.  The ridge yield is largely independent of $\Delta\eta$ over the measured range, and it decreases towards more peripheral collisions.  For the chosen $p_T^{trig}$ cut, the ridge yield is consistent with zero for events with less than roughly 100 participating nucleons.
 ---
 name: "Figure 1"
-location: Data from Figure 1 of PHOBOS paper Inspire ID:815596
+location: Data from Figure 1 of Phys.Rev.Lett. 104 (2010) 062301
 description: Illustration of flow subtraction.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -26,7 +26,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
 name: "Figure 2b"
-location: Data from Figure 2b of PHOBOS paper Inspire ID:815596
+location: Data from Figure 2b of Phys.Rev.Lett. 104 (2010) 062301
 description: 2D triggered correlation function for Au+Au
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -40,7 +40,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2b.png}
 ---
 name: "Figure 2c"
-location: Data from Figure 2c of PHOBOS paper Inspire ID:815596
+location: Data from Figure 2c of Phys.Rev.Lett. 104 (2010) 062301
 description: 1D projected triggered correlation function for central Au+Au integrated over $|\delta-\phi|<1$ and plotted versus $\delta-\eta$
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -54,7 +54,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2c.png}
 ---
 name: "Figure 3"
-location: Data from Figure 3 of PHOBOS paper Inspire ID:815596
+location: Data from Figure 3 of Phys.Rev.Lett. 104 (2010) 062301
 description: 1D projected triggered correlation functions for Au+Au at various centralities, integrated over $|\delta-\eta|<1$ and $-4<\delta-\eta<-2$ and plotted versus $\delta-\phi$
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -68,7 +68,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig3.png}
 ---
 name: "Figure 4"
-location: Data from Figure 4 of PHOBOS paper Inspire ID:815596
+location: Data from Figure 4 of Phys.Rev.Lett. 104 (2010) 062301
 description: Averaged yields for $|\delta-\eta|<1$ & $-4<\delta-\eta<-2$ in the regions $|\delta-\phi|<1$ and $\delta-\phi>1$ versus number of participants 
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -82,7 +82,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig4.png}
 --- 
 name: "Full Data Before Flow Subtraction"
-location: Data from all figures of PHOBOS paper Inspire ID:815596
+location: Data from all figures of Phys.Rev.Lett. 104 (2010) 062301
 description: Full data tables for data before flow subtraction for $|\delta-\eta|<1$ & $-4<\delta-\eta<-2$  
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
