@@ -12,7 +12,7 @@ dependent_variables:
     - { name: 'Systematic Uncertainty', value: '90% CL' }
     - { name: '$p_T$', value: '3 GeV/c' }
   values:
-    - { value: 1.015, errors: [{ label: 'stat', symerror: 0.060 }, { label: 'sys', symerror: 0.29 }, {label: 'Overall Sys', symerror: 0.173}] }
-    - { value: 0.989, errors: [{ label: 'stat', symerror: 0.027 }, { label: 'sys', symerror: 0.15 }, {label: 'Overall Sys', symerror: 0.173}] }
-    - { value: 1.055, errors: [{ label: 'stat', symerror: 0.020 }, { label: 'sys', symerror: 0.084 }, {label: 'Overall Sys', symerror: 0.173}] }
-    - { value: 1.033, errors: [{ label: 'stat', symerror: 0.016 }, { label: 'sys', symerror: 0.062 }, {label: 'Overall Sys', symerror: 0.173}] }
+    - { value: 1.015, errors: [{ label: 'stat', symerror: 0.060 }, { label: 'sys', symerror: 0.29 }, {label: 'Scale', symerror: 0.173}] }
+    - { value: 0.989, errors: [{ label: 'stat', symerror: 0.027 }, { label: 'sys', symerror: 0.15 }, {label: 'Scale', symerror: 0.173}] }
+    - { value: 1.055, errors: [{ label: 'stat', symerror: 0.020 }, { label: 'sys', symerror: 0.084 }, {label: 'Scale', symerror: 0.173}] }
+    - { value: 1.033, errors: [{ label: 'stat', symerror: 0.016 }, { label: 'sys', symerror: 0.062 }, {label: 'Scale', symerror: 0.173}] }
