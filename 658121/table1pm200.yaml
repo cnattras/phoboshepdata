@@ -1,0 +1,100 @@
+independent_variables:
+  - header: {name: "$\\langle k_T \\rangle$", units: "GeV/c"}
+    qualifiers:
+      - {name: "Species", value: "$\\pi^-\\pi^-$"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+    values:
+      - value: 0.198
+      - value: 0.393
+      - value: 0.690
+
+dependent_variables:
+  - header: {name: "$\\lambda$"}
+    qualifiers:
+      - {name: "Species", value: "$\\pi^-\\pi^-$"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+    values:
+      - value: 0.541
+        errors:
+          - {symerror: 0.036, label: "stat"}
+          - {symerror: 0.048, label: "syst"}
+      - value: 0.559
+        errors:
+          - {symerror: 0.044, label: "stat"}
+          - {symerror: 0.054, label: "syst"}
+      - value: 0.469
+        errors:
+          - {symerror: 0.055, label: "stat"}
+          - {symerror: 0.060, label: "syst"}
+
+  - header: {name: "$R_o$", units: "fm"}
+    qualifiers:
+      - {name: "Species", value: "$\\pi^-\\pi^-$"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+    values:
+      - value: 5.97
+        errors:
+          - {symerror: 0.31, label: "stat"}
+          - {symerror: 0.65, label: "syst"}
+      - value: 4.59
+        errors:
+          - {symerror: 0.30, label: "stat"}
+          - {symerror: 0.43, label: "syst"}
+      - value: 3.15
+        errors:
+          - {symerror: 0.37, label: "stat"}
+          - {symerror: 0.64, label: "syst"}
+
+  - header: {name: "$R_s$", units: "fm"}
+    qualifiers:
+      - {name: "Species", value: "$\\pi^-\\pi^-$"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+    values:
+      - value: 4.79
+        errors:
+          - {symerror: 0.67, label: "stat"}
+          - {symerror: 1.30, label: "syst"}
+      - value: 4.26
+        errors:
+          - {symerror: 0.39, label: "stat"}
+          - {symerror: 0.31, label: "syst"}
+      - value: 4.08
+        errors:
+          - {symerror: 0.35, label: "stat"}
+          - {symerror: 0.25, label: "syst"}
+
+  - header: {name: "$R_l$", units: "fm"}
+    qualifiers:
+      - {name: "Species", value: "$\\pi^-\\pi^-$"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+    values:
+      - value: 6.86
+        errors:
+          - {symerror: 0.38, label: "stat"}
+          - {symerror: 0.36, label: "syst"}
+      - value: 4.89
+        errors:
+          - {symerror: 0.32, label: "stat"}
+          - {symerror: 0.49, label: "syst"}
+      - value: 3.10
+        errors:
+          - {symerror: 0.31, label: "stat"}
+          - {symerror: 0.51, label: "syst"}
+
+  - header: {name: "$R_{ol}^2$", units: "fm$^2$"}
+    qualifiers:
+      - {name: "Species", value: "$\\pi^-\\pi^-$"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+    values:
+      - value: 5.7
+        errors:
+          - {symerror: 3.0, label: "stat"}
+          - {symerror: 2.2, label: "syst"}
+      - value: 1.1
+        errors:
+          - {symerror: 1.9, label: "stat"}
+          - {symerror: 3.0, label: "syst"}
+      - value: 0.93
+        errors:
+          - {symerror: 1.1, label: "stat"}
+          - {symerror: 2.1, label: "syst"}
