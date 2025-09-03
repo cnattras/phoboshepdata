@@ -16,7 +16,7 @@ comment: |
 # This is Table 1.
 name: "Table 1"
 location: Data from Table 1 of PRL 91 (2003) 072302
-description: Estimated values for $\langle N_{\text{part}}$ and $\langle N_{\text{coll}}$ and the respective systematic uncertainties for the four centrality bins used in this analysis.
+description: Estimated values for $\langle N_{\text{part}} \rangle$ and $\langle N_{\text{coll}} \rangle$ and the respective systematic uncertainties for the four centrality bins used in this analysis.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
