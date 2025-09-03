@@ -70,20 +70,6 @@ data_file: Fig1.2.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig1.png}
 ---
-name: "Fig 1: 40-70% Centrality"
-location: Data from Table 1 of PRL 91 (2003) 072302
-description: Charged hadron invariant yield versus $p_T$ for 4 centrality bins.
-keywords: # used for searching, possibly multiple values for each keyword
-- name: reactions
-  values: [AU AU --> MULT(CHARGED) X]
-- name: observables
-  values: [DN/DETARAP]
-- name: cmenergies
-  values: [200]
-data_file: Fig1.2.yaml
-additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig1.png}
----
 name: "Fig 1: 70-100% Centrality"
 location: Data from Table 1 of PRL 91 (2003) 072302
 description: Charged hadron invariant yield versus $p_T$ for 4 centrality bins.
