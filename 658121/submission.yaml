@@ -25,7 +25,7 @@ data_file: table1pp62.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 1 $\\pi^\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
+name: "Table 1 $\\pi^-\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
 description: Bertsch-Pratt fit parameters for pi+pi+ and pi-pi- in the rapidity range 0.4 < y_pipi < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -82,7 +82,7 @@ data_file: table2.pp62.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 2 $\\pi^\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
+name: "Table 2 $\\pi^-\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 2 of Phys. Rev. C73, 031901(R) (2006)
 description: Yano-Koonin-Podgoretskii fit parameters for pi+pi+ and pi-pi-in the k_T range 0.1 < k_T < 1.4 GeV/c for the 15% most central Au+Au collisions. Radii are in fm. Errors are statistical (1 sigma) followed by systematic (90% C.L.)
 keywords: # used for searching, possibly multiple values for each keyword
