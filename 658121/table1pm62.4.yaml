@@ -1,8 +1,5 @@
 independent_variables:
   - header: {name: "$\\langle k_T \\rangle$", units: "GeV/c"}
-    qualifiers:
-      - {name: "Species", value: "$\\pi^-\\pi^-$"}
-      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "62.4"}
     values:
       - value: 0.198
       - value: 0.391

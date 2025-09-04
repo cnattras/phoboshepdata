@@ -1,8 +1,5 @@
 independent_variables:
   - header: {name: "$\\langle y \\rangle$"}
-    qualifiers:
-      - {name: "Species", value: "$\\pi^+\\pi^+$"}
-      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
     values:
       - value: 0.602
       - value: 0.878
