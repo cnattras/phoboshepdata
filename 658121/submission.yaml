@@ -6,12 +6,12 @@
 #Prepared by Eleanna Soto
 
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
-- {location: "https://inspirehep.net/literature/658121", description: "InspireHEP ID: 658121"}
-- {location: "https://arxiv.org/abs/nucl-ex/0409001", description: "arXiv ID: nucl-ex/0409001"}
-- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/HBT_200_62/index.htm", description: " Phys. Rev. C73, 031901(R) (2006)"}
+- {location: "https:\\inspirehep.net/literature/658121", description: "InspireHEP ID: 658121"}
+- {location: "https:\\arxiv.org/abs/nucl-ex/0409001", description: "arXiv ID: nucl-ex/0409001"}
+- {location: "https:\\www.sdcc.bnl.gov/phobos/Publications/Physics/HBT_200_62/index.htm", description: " Phys. Rev. C73, 031901(R) (2006)"}
 comment: Two-particle correlations of identical charged pion pairs from Au+Au collisions at $\sqrt{s_{NN}} = 62.4$ and $200~\mathrm{GeV}$ were measured by the PHOBOS experiment at RHIC. Data for the $15\%$ most central events were analyzed using the Bertsch--Pratt and Yano--Koonin--Podgoretskii parameterizations, employing pairs with rapidities $0.4 < y_{\pi\pi} < 1.3$ and transverse momenta $0.1 < k_T < 1.4~\mathrm{GeV}/c$. The Bertsch--Pratt radii $R_o$ and $R_l$ decrease as a function of pair transverse momentum, while $R_s$ exhibits a weaker dependence. The radii $R_o$ and $R_s$ are independent of collision energy, whereas $R_l$ shows a slight increase. The source rapidity $y_{\mathrm{ykp}}$ scales approximately with the pair rapidity $y_{\pi\pi}$, indicating strong dynamical correlations.---
 ---
-name: "Table 1 $//pi^+//pi^+$ at $\\sqrt{s_{NN}}=62.4$ GeV"
+name: "Table 1 $\\pi^+\\pi^+$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
 description: Bertsch-Pratt fit parameters for pi+pi+ and pi-pi- in the rapidity range 0.4 < y_pipi < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -25,7 +25,7 @@ data_file: table1pp62.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 1 $//pi^//pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
+name: "Table 1 $\\pi^\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
 description: Bertsch-Pratt fit parameters for pi+pi+ and pi-pi- in the rapidity range 0.4 < y_pipi < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -39,7 +39,7 @@ data_file: table1pm62.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 1 $//pi^+//pi^+$ at $\\sqrt{s_{NN}}=200$ GeV"
+name: "Table 1 $\\pi^+\\pi^+$ at $\\sqrt{s_{NN}}=200$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
 description: Bertsch-Pratt fit parameters for pi+pi+ and pi-pi- in the rapidity range 0.4 < y_pipi < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -53,7 +53,7 @@ data_file: table1pp200.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 1 $//pi^-//pi^-$ at $\\sqrt{s_{NN}}=200$ GeV"
+name: "Table 1 $\\pi^-\\pi^-$ at $\\sqrt{s_{NN}}=200$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
 description: Bertsch-Pratt fit parameters for pi+pi+ and pi-pi- in the rapidity range 0.4 < y_pipi < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
@@ -68,7 +68,7 @@ additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
 
-name: "Table 2 $//pi^+//pi^+$ at $\\sqrt{s_{NN}}=62.4$ GeV"
+name: "Table 2 $\\pi^+\\pi^+$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 2 of Phys. Rev. C73, 031901(R) (2006)
 description: Yano-Koonin-Podgoretskii fit parameters for pi+pi+ and pi-pi-in the k_T range 0.1 < k_T < 1.4 GeV/c for the 15% most central Au+Au collisions. Radii are in fm. Errors are statistical (1 sigma) followed by systematic (90% C.L.)
 keywords: # used for searching, possibly multiple values for each keyword
@@ -82,7 +82,7 @@ data_file: table2.pp62.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 2 $//pi^//pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
+name: "Table 2 $\\pi^\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 2 of Phys. Rev. C73, 031901(R) (2006)
 description: Yano-Koonin-Podgoretskii fit parameters for pi+pi+ and pi-pi-in the k_T range 0.1 < k_T < 1.4 GeV/c for the 15% most central Au+Au collisions. Radii are in fm. Errors are statistical (1 sigma) followed by systematic (90% C.L.)
 keywords: # used for searching, possibly multiple values for each keyword
@@ -96,7 +96,7 @@ data_file: table2pm62.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 2 $//pi^+//pi^+$ at $\\sqrt{s_{NN}}=200$ GeV"
+name: "Table 2 $\\pi^+\\pi^+$ at $\\sqrt{s_{NN}}=200$ GeV"
 location: Data from Table 2 of Phys. Rev. C73, 031901(R) (2006)
 description: Yano-Koonin-Podgoretskii fit parameters for pi+pi+ and pi-pi-in the k_T range 0.1 < k_T < 1.4 GeV/c for the 15% most central Au+Au collisions. Radii are in fm. Errors are statistical (1 sigma) followed by systematic (90% C.L.)
 keywords: # used for searching, possibly multiple values for each keyword
@@ -110,7 +110,7 @@ data_file: table2pp200.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_fig2.png}
 ---
-name: "Table 2 $//pi^-//pi^-$ at $\\sqrt{s_{NN}}=200$ GeV"
+name: "Table 2 $\\pi^-\\pi^-$ at $\\sqrt{s_{NN}}=200$ GeV"
 location: Data from Table 2 of Phys. Rev. C73, 031901(R) (2006)
 description: Yano-Koonin-Podgoretskii fit parameters for pi+pi+ and pi-pi-in the k_T range 0.1 < k_T < 1.4 GeV/c for the 15% most central Au+Au collisions. Radii are in fm. Errors are statistical (1 sigma) followed by systematic (90% C.L.)
 keywords: # used for searching, possibly multiple values for each keyword
