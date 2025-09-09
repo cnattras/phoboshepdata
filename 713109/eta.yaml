@@ -1,0 +1,65 @@
+independent_variables:
+  - header: { name: "$\\eta$" }
+    values:
+      - { value: 0.250 }
+      - { value: 0.750 }
+      - { value: 1.250 }
+      - { value: 1.750 }
+      - { value: 2.250 }
+      - { value: 2.750 }
+
+dependent_variables:
+ - header: { name: "$\\sigma ^2_C$"}
+ - qualifiers: { name: "centrality", value: "0-20%" }
+   values:
+   - value: 1.106
+     errors:
+       - { label: "stat", symerror: 0.039 }
+       - { label: "sys", symerror: 0.104 }
+   - value: 1.424
+     errors:
+       - { label: "stat", symerror: 0.055 }
+       - { label: "sys", symerror: 0.156 }
+   - value: 1.376
+     errors:
+       - { label: "stat", symerror: 0.034 }
+       - { label: "sys", symerror: 0.130}  
+   - value: 1.418
+     errors:
+       - { label: "stat", symerror: 0.034 }
+       - { label: "sys", symerror: 0.104}  
+   - value: 1.488
+     errors:
+       - { label: "stat", symerror: 0.037 }
+       - { label: "sys", symerror: 0.104}
+   - value: 1.464
+     errors:
+       - { label: "stat", symerror: 0.036 }
+       - { label: "sys", symerror: 0.104 }
+ - header: { name: "$\\sigma ^2_C$"}
+ - qualifiers: { name: "centrality", value: "40-60%" }
+   values:
+   - value: 1.006
+     errors:
+       - { label: "stat", symerror: 0.010 }
+       - { label: "sys", symerror: 0.074 }
+   - value: 1.297
+     errors:
+       - { label: "stat", symerror: 0.066 }
+       - { label: "sys", symerror: 0.074 }
+   - value: 1.408
+     errors:
+       - { label: "stat", symerror: 0.048 }
+       - { label: "sys", symerror: 0.074 }  
+   - value: 1.437
+     errors:
+       - { label: "stat", symerror: 0.038 }
+       - { label: "sys", symerror: 0.074 }  
+   - value: 1.595
+     errors:
+       - { label: "stat", symerror: 0.038 }
+       - { label: "sys", symerror: 0.074 }
+   - value: 1.706
+     errors:
+       - { label: "stat", symerror: 0.038 }
+       - { label: "sys", symerror: 0.074 }

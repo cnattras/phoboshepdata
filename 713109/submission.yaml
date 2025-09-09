@@ -1,0 +1,41 @@
+#PHOBOS PAPER
+#
+#TITLE: Forward-Backward Multiplicity Correlations in sqrt(s_NN) = 200 GeV Gold-Gold Collisions#InspireHEP ID: 713109
+#
+#Prepared by Eleanna Soto
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/713109", description: "InspireHEP ID: 713109"}
+- {location: "https://arxiv.org/abs/nucl-ex/0603026", description: "arXiv ID: nucl-ex/0603026"}
+- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/FBCorrelAuAu/fluct_table_20050315.txt", description: "Phys. Rev. C74, 011901(RC) (2006)"}
+comment: |
+ Forward-backward correlations of charged-particle multiplicities in symmetric bins in pseudorapidity are studied in order to gain insight into the underlying correlation structure of particle production in Au+Au collisions. The PHOBOS detector is used to measure integrated multiplicities in bins centered at $\eta$, defined within $|\eta|<3$, and covering intervals $\Delta \eta$.  The variance $\stc$ of a suitably defined forward-backward asymmetry variable $C$ is calculated as a function of $\eta$, $\Delta\eta$, and centrality.  It is found to be sensitive to short range correlations, and the concept of ``clustering'' is used to interpret comparisons to phenomenological models.
+---
+# Start of table entries.
+# This is Fig 1.
+name: "$\\sigma ^2_C$ as a function of $d\\eta$"
+location: Phys. Rev. C74, 011901(RC) (2006)
+description: $\\sigma ^2_C$ as a function of $d\\eta$ for Au+Au collisions at $\sqrt{s_{_{NN}}} =$ 200~GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: deta.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_fig5.png}
+---
+name: "$\\sigma ^2_C$ as a function of $\\eta$"
+location: Phys. Rev. C74, 011901(RC) (2006)
+description: $\\sigma ^2_C$ as a function of $\\eta$ at $\sqrt{s_{_{NN}}} =$ 200~GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: eta.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_fig5.png}
