@@ -10,7 +10,7 @@ independent_variables:
 
 dependent_variables:
  - header: { name: "$\\sigma ^2_C$"}
- - qualifiers: 
+   qualifiers: 
     - { name: "centrality", value: "0-20%" }
    values:
    - value: 1.106
@@ -38,7 +38,7 @@ dependent_variables:
        - { label: "stat", symerror: 0.036 }
        - { label: "sys", symerror: 0.104 }
  - header: { name: "$\\sigma ^2_C$"}
- - qualifiers: 
+   qualifiers: 
     - { name: "centrality", value: "40-60%" }
    values:
    - value: 1.006
