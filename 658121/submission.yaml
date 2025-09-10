@@ -13,7 +13,7 @@ comment: Two-particle correlations of identical charged pion pairs from Au+Au co
 ---
 name: "Table 1 $\\pi^+\\pi^+$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
-description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_[\pi\pi]$ < 1.3 for the 15% most central Au+Au collisions.
+description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_{\pi\pi}$ < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -27,7 +27,7 @@ additional_resources:
 ---
 name: "Table 1 $\\pi^-\\pi^-$ at $\\sqrt{s_{NN}}=62.4$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
-description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_[\pi\pi]$ < 1.3 for the 15% most central Au+Au collisions.
+description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_{\pi\pi}$ < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -41,7 +41,7 @@ additional_resources:
 ---
 name: "Table 1 $\\pi^+\\pi^+$ at $\\sqrt{s_{NN}}=200$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
-description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_[\pi\pi]$ < 1.3 for the 15% most central Au+Au collisions.
+description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_{\pi\pi}$ < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -55,7 +55,7 @@ additional_resources:
 ---
 name: "Table 1 $\\pi^-\\pi^-$ at $\\sqrt{s_{NN}}=200$ GeV"
 location: Data from Table 1 of Phys. Rev. C73, 031901(R) (2006)
-description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_[\pi\pi]$ < 1.3 for the 15% most central Au+Au collisions.
+description: Bertsch-Pratt fit parameters for $\pi^+\pi^+$ and $\pi^-\pi^-$ in the rapidity range 0.4 < $y_{\pi\pi}$ < 1.3 for the 15% most central Au+Au collisions.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
