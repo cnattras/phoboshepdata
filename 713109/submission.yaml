@@ -14,7 +14,7 @@ comment: |
 # This is Fig 1.
 name: "$\\sigma ^2_C$ as a function of $d\\eta$"
 location: Phys. Rev. C74, 011901(RC) (2006)
-description: $\\sigma ^2_C$ as a function of $d\\eta$ for Au+Au collisions at $\sqrt{s_{_{NN}}} =$ 200~GeV.
+description: $\sigma ^2_C$ as a function of $d\eta$ for Au+Au collisions at $\sqrt{s_{_{NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -28,7 +28,7 @@ additional_resources:
 ---
 name: "$\\sigma ^2_C$ as a function of $\\eta$"
 location: Phys. Rev. C74, 011901(RC) (2006)
-description: $\\sigma ^2_C$ as a function of $\\eta$ at $\sqrt{s_{_{NN}}} =$ 200~GeV.
+description: $\sigma ^2_C$ as a function of $\eta$ at $\sqrt{s_{_{NN}}} =$ 200~GeV.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
