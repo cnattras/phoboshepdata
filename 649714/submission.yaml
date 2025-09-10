@@ -29,7 +29,7 @@ data_file: table1.yaml
 ---
 name: "Figure 1"
 location: Data from Figure 1 of PRL. 94 (2005) 082304
-description: Charged particle yield versus $p_T$ for Au+Au at 62.4 Gev in different centrality bins 
+description: Charged particle yield versus $p_T$ for Au+Au at 62.4 Gev in different centrality bins. Systematic uncertainties were not tabulated but are reported to be similar to those in Phys. Lett. B 578, 297 (2004)
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
