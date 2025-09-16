@@ -1,0 +1,25 @@
+
+independent_variables:
+  - header: {name: "|η| - y_beam"}
+    values:
+      - {value: -3.90, errors: [{symerror: 0.08, label: "stat"}]}
+      - {value: -3.45, errors: [{symerror: 0.10, label: "stat"}]}
+      - {value: -2.95, errors: [{symerror: 0.10, label: "stat"}]}
+      - {value: -2.45, errors: [{symerror: 0.10, label: "stat"}]}
+      - {value: -1.96, errors: [{symerror: 0.10, label: "stat"}]}
+      - {value: -1.51, errors: [{symerror: 0.09, label: "stat"}]}
+      - {value: -0.81, errors: [{symerror: 0.11, label: "stat"}]}
+      - {value: -0.06, errors: [{symerror: 0.13, label: "stat"}]}
+      - {value:  0.70, errors: [{symerror: 0.14, label: "stat"}]}
+dependent_variables:
+  - header: {name: "v2"}
+    values:
+      - {value: 0.0434, errors: [{symerror: 0.0018, label: "stat"}]}
+      - {value: 0.0421, errors: [{symerror: 0.0017, label: "stat"}]}
+      - {value: 0.0370, errors: [{symerror: 0.0015, label: "stat"}]}
+      - {value: 0.0325, errors: [{symerror: 0.0013, label: "stat"}]}
+      - {value: 0.0292, errors: [{symerror: 0.0012, label: "stat"}]}
+      - {value: 0.0247, errors: [{symerror: 0.0012, label: "stat"}]}
+      - {value: 0.0194, errors: [{symerror: 0.0008, label: "stat"}]}
+      - {value: 0.0172, errors: [{symerror: 0.0010, label: "stat"}]}
+      - {value: 0.0195, errors: [{symerror: 0.0015, label: "stat"}]}

@@ -1,0 +1,43 @@
+independent_variables:
+  - header: {name: "Pseudorapidity - y_beam"}
+    values:
+      - {value: -10.26, errors: [{symerror: 0.19, label: "stat"}]}
+      - {value: -9.52,  errors: [{symerror: 0.18, label: "stat"}]}
+      - {value: -8.78,  errors: [{symerror: 0.16, label: "stat"}]}
+      - {value: -8.07,  errors: [{symerror: 0.13, label: "stat"}]}
+      - {value: -7.62,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -7.12,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -6.62,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -6.12,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -5.67,  errors: [{symerror: 0.12, label: "stat"}]}
+      - {value: -5.07,  errors: [{symerror: 0.12, label: "stat"}]}
+      - {value: -4.61,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -4.11,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -3.61,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -3.12,  errors: [{symerror: 0.14, label: "stat"}]}
+      - {value: -2.67,  errors: [{symerror: 0.13, label: "stat"}]}
+      - {value: -1.96,  errors: [{symerror: 0.17, label: "stat"}]}
+      - {value: -1.21,  errors: [{symerror: 0.19, label: "stat"}]}
+      - {value: -0.43,  errors: [{symerror: 0.20, label: "stat"}]}
+
+dependent_variables:
+  - header: {name: "v2"}
+    values:
+      - {value: 0.0166, errors: [{symerror: 0.0015, label: "stat"}]}
+      - {value: 0.0214, errors: [{symerror: 0.0011, label: "stat"}]}
+      - {value: 0.0281, errors: [{symerror: 0.0010, label: "stat"}]}
+      - {value: 0.0338, errors: [{symerror: 0.0017, label: "stat"}]}
+      - {value: 0.0370, errors: [{symerror: 0.0015, label: "stat"}]}
+      - {value: 0.0387, errors: [{symerror: 0.0016, label: "stat"}]}
+      - {value: 0.0439, errors: [{symerror: 0.0019, label: "stat"}]}
+      - {value: 0.0464, errors: [{symerror: 0.0021, label: "stat"}]}
+      - {value: 0.0476, errors: [{symerror: 0.0022, label: "stat"}]}
+      - {value: 0.0510, errors: [{symerror: 0.0024, label: "stat"}]}
+      - {value: 0.0478, errors: [{symerror: 0.0022, label: "stat"}]}
+      - {value: 0.0455, errors: [{symerror: 0.0022, label: "stat"}]}
+      - {value: 0.0410, errors: [{symerror: 0.0020, label: "stat"}]}
+      - {value: 0.0377, errors: [{symerror: 0.0017, label: "stat"}]}
+      - {value: 0.0349, errors: [{symerror: 0.0015, label: "stat"}]}
+      - {value: 0.0291, errors: [{symerror: 0.0011, label: "stat"}]}
+      - {value: 0.0247, errors: [{symerror: 0.0010, label: "stat"}]}
+      - {value: 0.0214, errors: [{symerror: 0.0013, label: "stat"}]}

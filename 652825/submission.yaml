@@ -1,0 +1,255 @@
+#PHOBOS PAPER
+#
+#InspireHEP ID: 652825
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/652825", description: "InspireHEP ID: 652825"}
+- {location: "https://arxiv.org/abs/nucl-ex/0406021", description: "arXiv ID: nucl-ex/0406021"}
+# https://www.sdcc.bnl.gov/phobos/Publications/Physics/Flow_v2_limfrag/v2LimFrag.txt
+comment: |
+  This paper describes the measurement of the energy dependence of elliptic flow for charged particles in Au+Au collisions using the PHOBOS detector at the Relativistic Heavy Ion Collider (RHIC). Data taken at collision energies of $\sqrt{s_{_{NN}}} =$ 19.6, 62.4, 130 and 200 GeV are shown over a wide range in pseudorapidity. These results, when plotted as a function of $\eta'=|\eta|-y_{beam}$, scale with approximate linearity throughout $\eta'$, implying no sharp changes in the dynamics of particle production as a function of pseudorapidity or increasing beam energy.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Fig 1: 19.6 GeV"
+location: Data from Figure 1 of Phys. Rev. Lett. 94, 122303 (2005)
+description: elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ shown separately for four beam energies. 
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: 19.6fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Fig 1: 62.4 GeV"
+location: Data from figure 1 of Phys. Rev. Lett. 94, 122303 (2005)
+description: elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ shown separately for four beam energies. 
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
+data_file: 62.4fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Fig 1: 130 GeV"
+location: Data from Figure 1 of Phys. Rev. Lett. 94, 122303 (2005)
+description: elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ shown separately for four beam energies. 
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
+data_file: 130fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Fig 1: 200 GeV"
+location: Data from figure 1 of Phys. Rev. Lett. 94, 122303 (2005)
+description: elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ shown separately for four beam energies. 
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: 200fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Fig 2"
+location: Data from Figure 2 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The evolution of the elliptic flow in $\eta$ bins, averaged over centrality (0-40%), as a function of $\sqrt(S_{NN})$.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6,62.4,130,200]
+data_file: fig2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Fig 3: -ybeam 19.6 GeV"
+location: Data from Figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: 19.6fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: -ybeam 62.4 GeV"
+location: Data from figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
+data_file: 62.4fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: -ybeam 130 GeV"
+location: Data from Figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
+data_file: 130fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: -ybeam 200 GeV"
+location: Data from figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: 200fig3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: +ybeam 19.6 GeV"
+location: Data from Figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: 19.6fig3+.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: +ybeam 62.4 GeV"
+location: Data from figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
+data_file: 62.4fig3+.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: +ybeam 130 GeV"
+location: Data from Figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
+data_file: 130fig3+.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Fig 3: +ybeam 200 GeV"
+location: Data from figure 3 of Phys. Rev. Lett. 94, 122303 (2005)
+description: The elliptic flow, averaged over centrality (0-40%), as a function of $\eta$ - ybeam (top) and $\eta$ + ybeam (bottom) for each of the four energies  
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: 200fig3+.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+
+---
+name: "Fig 4: 19.6 GeV"
+location: Data from figure 4 of Phys. Rev. Lett. 94, 122303 (2005)
+description: Elliptic flow, averaged over centrality (0-40%), as a function of η′ = |η| − ybeam for four beam energies.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: 19.6fig4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Fig 4: 62.4 GeV"
+location: Data from figure 4 of Phys. Rev. Lett. 94, 122303 (2005)
+description: Elliptic flow, averaged over centrality (0-40%), as a function of η′ = |η| − ybeam for four beam energies.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [62.4]
+data_file: 62.4fig4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Fig 4: 130 GeV"
+location: Data from figure 4 of Phys. Rev. Lett. 94, 122303 (2005)
+description: Elliptic flow, averaged over centrality (0-40%), as a function of η′ = |η| − ybeam for four beam energies.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
+data_file: 130fig4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Fig 4: 200 GeV"
+location: Data from figure 4 of Phys. Rev. Lett. 94, 122303 (2005)
+description: Elliptic flow, averaged over centrality (0-40%), as a function of η′ = |η| − ybeam for four beam energies.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: 200fig4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
