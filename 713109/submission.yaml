@@ -6,7 +6,7 @@
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/713109", description: "InspireHEP ID: 713109"}
 - {location: "https://arxiv.org/abs/nucl-ex/0603026", description: "arXiv ID: nucl-ex/0603026"}
-- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/FBCorrelAuAu/fluct_table_20050315.txt", description: "Phys. Rev. C74, 011901(RC) (2006)"}
+- {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.74.011901", description: "Phys. Rev. C74, 011901(RC) (2006)"}
 comment: |
  Forward-backward correlations of charged-particle multiplicities in symmetric bins in pseudorapidity are studied in order to gain insight into the underlying correlation structure of particle production in Au+Au collisions. The PHOBOS detector is used to measure integrated multiplicities in bins centered at $\eta$, defined within $|\eta|<3$, and covering intervals $\Delta \eta$.  The variance $\sigma^2_C$ of a suitably defined forward-backward asymmetry variable $C$ is calculated as a function of $\eta$, $\Delta\eta$, and centrality.  It is found to be sensitive to short range correlations, and the concept of "clustering" is used to interpret comparisons to phenomenological models.
 ---
