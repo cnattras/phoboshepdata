@@ -1,27 +1,68 @@
 independent_variables:
-  - header: {name: "Pseudorapidity - y_beam"}
+  - header: {name: "$\\eta -y$"}
     values:
-      - {value: -9.09, errors: [{symerror: 0.19, label: "stat"}]}
-      - {value: -8.35, errors: [{symerror: 0.18, label: "stat"}]}
-      - {value: -7.61, errors: [{symerror: 0.16, label: "stat"}]}
-      - {value: -6.90, errors: [{symerror: 0.13, label: "stat"}]}
-      - {value: -6.45, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -5.95, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -5.46, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -4.96, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -4.51, errors: [{symerror: 0.12, label: "stat"}]}
-      - {value: -3.90, errors: [{symerror: 0.12, label: "stat"}]}
-      - {value: -3.45, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -2.95, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -2.45, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -1.96, errors: [{symerror: 0.14, label: "stat"}]}
-      - {value: -1.50, errors: [{symerror: 0.13, label: "stat"}]}
-      - {value: -0.81, errors: [{symerror: 0.17, label: "stat"}]}
-      - {value: -0.06, errors: [{symerror: 0.19, label: "stat"}]}
-      - {value:  0.71, errors: [{symerror: 0.20, label: "stat"}]}
+      - value: -9.09
+      - value: -8.35
+      - value: -7.61
+      - value: -6.90
+      - value: -6.45
+      - value: -5.95
+      - value: -5.46
+      - value: -4.96
+      - value: -4.51
+      - value: -3.90
+      - value: -3.45
+      - value: -2.95
+      - value: -2.45
+      - value: -1.96
+      - value: -1.50
+      - value: -0.81
+      - value: -0.06
+      - value: 0.71
 
+  - header: {name: "$\\eta +y$"}
+    values:
+      - value: -0.68
+      - value: 0.06
+      - value: 0.80
+      - value: 1.51
+      - value: 1.96
+      - value: 2.46
+      - value: 2.95
+      - value: 3.45
+      - value: 3.90
+      - value: 4.51
+      - value: 4.96
+      - value: 5.46
+      - value: 5.96
+      - value: 6.45
+      - value: 6.91
+      - value: 7.60
+      - value: 8.35
+      - value: 9.12
+
+  - header: {name: "$\\eta_e$"}
+    values:
+      - value: 0.19
+      - value: 0.18
+      - value: 0.16
+      - value: 0.13
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.12
+      - value: 0.12
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.13
+      - value: 0.17
+      - value: 0.19
+      - value: 0.20
 dependent_variables:
-  - header: {name: "v2"}
+  - header: {name: "$v^2$"}
     values:
       - {value: 0.0200, errors: [{symerror: 0.0025, label: "stat"}]}
       - {value: 0.0168, errors: [{symerror: 0.0016, label: "stat"}]}

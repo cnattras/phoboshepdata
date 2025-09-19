@@ -1,44 +1,47 @@
 independent_variables:
-  - header: {name: "eta"}
+  - header: {name: "$\\eta$"}
     values:
       - value: -4.90
-        errors: [{label: "stat", symerror: 0.19}]
       - value: -4.16
-        errors: [{label: "stat", symerror: 0.18}]
       - value: -3.41
-        errors: [{label: "stat", symerror: 0.16}]
       - value: -2.70
-        errors: [{label: "stat", symerror: 0.13}]
       - value: -2.25
-        errors: [{label: "stat", symerror: 0.14}]
       - value: -1.75
-        errors: [{label: "stat", symerror: 0.14}]
       - value: -1.26
-        errors: [{label: "stat", symerror: 0.14}]
       - value: -0.76
-        errors: [{label: "stat", symerror: 0.14}]
       - value: -0.30
-        errors: [{label: "stat", symerror: 0.12}]
       - value: 0.30
-        errors: [{label: "stat", symerror: 0.12}]
       - value: 0.76
-        errors: [{label: "stat", symerror: 0.14}]
       - value: 1.26
-        errors: [{label: "stat", symerror: 0.14}]
       - value: 1.75
-        errors: [{label: "stat", symerror: 0.14}]
       - value: 2.25
-        errors: [{label: "stat", symerror: 0.14}]
       - value: 2.70
-        errors: [{label: "stat", symerror: 0.13}]
       - value: 3.41
-        errors: [{label: "stat", symerror: 0.17}]
       - value: 4.16
-        errors: [{label: "stat", symerror: 0.19}]
       - value: 4.94
-        errors: [{label: "stat", symerror: 0.20}]
 
-  - header: {name: "sy_l"}
+  - header: {name: "$\\eta_e$"}
+    values:
+      - value: 0.19
+      - value: 0.18
+      - value: 0.16
+      - value: 0.13
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.12
+      - value: 0.12
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.14
+      - value: 0.13
+      - value: 0.17
+      - value: 0.19
+      - value: 0.20
+
+  - header: {name: "Left bound of Systematic Error Band"}
     values:
       - value: -5.25
       - value: -4.50
@@ -59,7 +62,7 @@ independent_variables:
       - value: 3.85
       - value: 4.60
 
-  - header: {name: "sy_r"}
+  - header: {name: "Right bound of Systematic Error Band"}
     values:
       - value: -4.57
       - value: -3.85
@@ -79,9 +82,8 @@ independent_variables:
       - value: 3.72
       - value: 4.52
       - value: 5.31
-
 dependent_variables:
-  - header: {name: "v2"}
+  - header: {name: "$v^2$"}
     values:
       - value: 0.0166
         errors:
