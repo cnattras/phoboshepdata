@@ -6,7 +6,8 @@
 
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/779265", description: "InspireHEP ID: 779265"}
-- {location: "https://arxiv.org/pdf/nucl-ex/0802.1695", description: "arXiv ID: nucl-ex/0802.1695"}
+- {location: "https://arxiv.org/abs/0802.1695", description: "arXiv ID: nucl-ex/0802.1695"}
+- {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.77.061901", description: "PRC 77 (2008) 061901"}
 # https://www.sdcc.bnl.gov/phobos/Publications/Physics/CuCu_Ratios/index.htm
 comment: |
  BNL-RHIC. Antiparticle to particle ratios for identified protons, kaons and pions at $\sqrt{s_{_{NN}}}$ = 62.4 and 200 GeV in Cu+Cu collisions are presented as a function of centrality for the midrapidity region of  $0.2 < \eta < 1.4$.  No strong dependence on centrality is observed. For  the $\langle \overline{p} \rangle / \langle p \rangle$ ratio at $\langle p_T \rangle \approx 0.51$ GeV/c,  we observe an average value of  $0.50 \pm 0.003_\textrm{(stat)} \pm 0.04_\textrm{(syst)}$ and $0.77 \pm 0.008_\textrm{(stat)} \pm 0.05_\textrm{(syst)}$  for the 10% most central collisions of 62.4 and 200 GeV Cu+Cu, respectively. The values for all three particle species measured at $\sqrt{s_{_{NN}}}$ = 200 GeV are in agreement within systematic uncertainties with that seen in both heavier and lighter systems measured at the same RHIC energy. This indicates that system size does not appear to play a strong role in determining the midrapidity chemical freeze-out properties affecting the antiparticle to particle ratios of the three most abundant particle species produced in these collisions.
