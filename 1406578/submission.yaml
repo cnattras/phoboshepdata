@@ -1,0 +1,85 @@
+#InspireHEP ID: 1406578
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/1406578", description: "InspireHEP ID: 1406578"}
+- {location: "https://arxiv.org/abs/1511.07921", description: "arXiv ID: nucl-ex/1511.07921"}
+- {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.94.024903", description: "Phys.Rev.C 94 (2016) 2, 024903"}
+comment: |
+ BNL-RHIC. Antiparticle to particle ratios for identified protons, kaons and pions at $\sqrt{s_{_{NN}}}$ = 62.4 and 200 GeV in Cu+Cu collisions are presented as a function of centrality for the midrapidity region of  $0.2 < \eta < 1.4$.  No strong dependence on centrality is observed. For  the $\langle \overline{p} \rangle / \langle p \rangle$ ratio at $\langle p_T \rangle \approx 0.51$ GeV/c,  we observe an average value of  $0.50 \pm 0.003_\textrm{(stat)} \pm 0.04_\textrm{(syst)}$ and $0.77 \pm 0.008_\textrm{(stat)} \pm 0.05_\textrm{(syst)}$  for the 10% most central collisions of 62.4 and 200 GeV Cu+Cu, respectively. The values for all three particle species measured at $\sqrt{s_{_{NN}}}$ = 200 GeV are in agreement within systematic uncertainties with that seen in both heavier and lighter systems measured at the same RHIC energy. This indicates that system size does not appear to play a strong role in determining the midrapidity chemical freeze-out properties affecting the antiparticle to particle ratios of the three most abundant particle species produced in these collisions.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1: Au + Au"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1au.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 1: Cu + Cu"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1cu.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 2"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1au.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 3"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1cu.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 4"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1au.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 5"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1cu.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 6"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1au.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}
+---
+name: "Table 7"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+keywords: # used for searching, possibly multiple values for each keyword
+  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+data_file: table1cu.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig3.png}

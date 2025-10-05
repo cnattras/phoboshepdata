@@ -1,0 +1,30 @@
+independent_variables:
+  - header: {name: "Centrality Bin (%)"}
+    values:
+      - {value: "0–10"}
+      - {value: "10–20"}
+      - {value: "20–30"}
+      - {value: "30–40"}
+      - {value: "40–50"}
+      - {value: "50–60"}
+
+  - header: {name: "$N_{part}$"}
+    values:
+      - value: 93.8
+        errors:
+          - {symerror: 3.0, label: "stat"}
+      - value: 68.5
+        errors:
+          - {symerror: 3.0, label: "stat"}
+      - value: 48.5
+        errors:
+          - {symerror: 3.0, label: "stat"}
+      - value: 33.5
+        errors:
+          - {symerror: 3.0, label: "stat"}
+      - value: 22.0
+        errors:
+          - {symerror: 3.0, label: "stat"}
+      - value: 14.3
+        errors:
+          - {symerror: 3.0, label: "stat"}

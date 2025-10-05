@@ -1,0 +1,167 @@
+
+independent_variables:
+  - header: {name: "Centrality Bin (%)"}
+    values:
+      - {value: "0–10"}
+      - {value: "10–20"}
+      - {value: "20–30"}
+      - {value: "30–40"}
+      - {value: "40–50"}
+      - {value: "50–60"}
+      - {value: "60–70"}
+
+dependent_variables:
+  - header: {name: "d$N_{Be}$/d$\\eta$ × 100 (3.0 < |$\\eta$| < 3.5)"}
+    values:
+      - value: 0.09
+        errors:
+          - {symerror: 0.45, label: "stat"}
+          - {symerror: 0.73, label: "syst"}
+      - value: 0.02
+        errors:
+          - {symerror: 0.41, label: "stat"}
+          - {symerror: 0.65, label: "syst"}
+      - value: -0.37
+        errors:
+          - {symerror: 0.37, label: "stat"}
+          - {symerror: 0.95, label: "syst"}
+      - value: -0.43
+        errors:
+          - {symerror: 0.36, label: "stat"}
+          - {symerror: 1.46, label: "syst"}
+      - value: -0.47
+        errors:
+          - {symerror: 0.29, label: "stat"}
+          - {symerror: 1.22, label: "syst"}
+      - value: -0.14
+        errors:
+          - {symerror: 0.23, label: "stat"}
+          - {symerror: 0.59, label: "syst"}
+      - value: -0.24
+        errors:
+          - {symerror: 0.17, label: "stat"}
+          - {symerror: 0.42, label: "syst"}
+
+  - header: {name: "d$N_{Be}$/d$\\eta$ × 100 (3.5 < |$\\eta$| < 4.0)"}
+    values:
+      - value: -0.43
+        errors:
+          - {symerror: 0.30, label: "stat"}
+          - {symerror: 1.14, label: "syst"}
+      - value: -0.53
+        errors:
+          - {symerror: 0.30, label: "stat"}
+          - {symerror: 1.58, label: "syst"}
+      - value: -0.52
+        errors:
+          - {symerror: 0.25, label: "stat"}
+          - {symerror: 1.18, label: "syst"}
+      - value: 0.03
+        errors:
+          - {symerror: 0.25, label: "stat"}
+          - {symerror: 0.48, label: "syst"}
+      - value: -0.25
+        errors:
+          - {symerror: 0.21, label: "stat"}
+          - {symerror: 0.73, label: "syst"}
+      - value: -0.11
+        errors:
+          - {symerror: 0.23, label: "stat"}
+          - {symerror: 0.43, label: "syst"}
+      - value: 0.03
+        errors:
+          - {symerror: 0.15, label: "stat"}
+          - {symerror: 0.26, label: "syst"}
+
+  - header: {name: "d$N_{Be}$/d$\\eta$ × 100 (4.0 < |$\\eta$| < 4.5)"}
+    values:
+      - value: -0.24
+        errors:
+          - {symerror: 0.22, label: "stat"}
+          - {symerror: 0.59, label: "syst"}
+      - value: -0.38
+        errors:
+          - {symerror: 0.25, label: "stat"}
+          - {symerror: 1.02, label: "syst"}
+      - value: 0.18
+        errors:
+          - {symerror: 0.26, label: "stat"}
+          - {symerror: 0.63, label: "syst"}
+      - value: 0.22
+        errors:
+          - {symerror: 0.20, label: "stat"}
+          - {symerror: 0.67, label: "syst"}
+      - value: -0.18
+        errors:
+          - {symerror: 0.22, label: "stat"}
+          - {symerror: 0.83, label: "syst"}
+      - value: 0.34
+        errors:
+          - {symerror: 0.23, label: "stat"}
+          - {symerror: 0.87, label: "syst"}
+      - value: -0.20
+        errors:
+          - {symerror: 0.18, label: "stat"}
+          - {symerror: 0.66, label: "syst"}
+
+  - header: {name: "d$N_{Be}$/d$\\eta$ × 100 (4.5 < |$\\eta$| < 5.0)"}
+    values:
+      - value: -0.31
+        errors:
+          - {symerror: 0.14, label: "stat"}
+          - {symerror: 0.30, label: "syst"}
+      - value: 0.21
+        errors:
+          - {symerror: 0.38, label: "stat"}
+          - {symerror: 1.17, label: "syst"}
+      - value: 0.58
+        errors:
+          - {symerror: 0.27, label: "stat"}
+          - {symerror: 0.43, label: "syst"}
+      - value: 0.12
+        errors:
+          - {symerror: 0.34, label: "stat"}
+          - {symerror: 0.27, label: "syst"}
+      - value: 0.56
+        errors:
+          - {symerror: 0.25, label: "stat"}
+          - {symerror: 0.52, label: "syst"}
+      - value: 0.53
+        errors:
+          - {symerror: 0.36, label: "stat"}
+          - {symerror: 0.47, label: "syst"}
+      - value: 0.24
+        errors:
+          - {symerror: 0.23, label: "stat"}
+          - {symerror: 0.47, label: "syst"}
+
+  - header: {name: "d$N_{Be}$/d$\\eta$ × 100 (5.0 < |$\\eta$| < 5.4)"}
+    values:
+      - value: 0.26
+        errors:
+          - {symerror: 0.22, label: "stat"}
+          - {symerror: 0.41, label: "syst"}
+      - value: 1.17
+        errors:
+          - {symerror: 0.36, label: "stat"}
+          - {symerror: 0.96, label: "syst"}
+      - value: 2.09
+        errors:
+          - {symerror: 0.49, label: "stat"}
+          - {symerror: 1.24, label: "syst"}
+      - value: 2.84
+        errors:
+          - {symerror: 0.58, label: "stat"}
+          - {symerror: 0.62, label: "syst"}
+      - value: 3.13
+        errors:
+          - {symerror: 0.61, label: "stat"}
+          - {symerror: 0.66, label: "syst"}
+      - value: 2.29
+        errors:
+          - {symerror: 0.55, label: "stat"}
+          - {symerror: 2.32, label: "syst"}
+      - value: 2.04
+        errors:
+          - {symerror: 0.51, label: "stat"}
+          - {symerror: 1.32, label: "syst"}

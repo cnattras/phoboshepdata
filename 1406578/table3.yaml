@@ -1,0 +1,166 @@
+independent_variables:
+  - header: {name: "Centrality Bin (%)"}
+    values:
+      - {value: "0–10"}
+      - {value: "10–20"}
+      - {value: "20–30"}
+      - {value: "30–40"}
+      - {value: "40–50"}
+      - {value: "50–60"}
+      - {value: "60–70"}
+
+dependent_variables:
+  - header: {name: "d$N_{Li}$/d$\\eta$ × 10 (3.0 < |$\\eta$| < 3.5)"}
+    values:
+      - value: 0.41
+        errors:
+          - {symerror: 0.07, label: "stat"}
+          - {symerror: 0.47, label: "syst"}
+      - value: 0.06
+        errors:
+          - {symerror: 0.07, label: "stat"}
+          - {symerror: 0.48, label: "syst"}
+      - value: 0.12
+        errors:
+          - {symerror: 0.06, label: "stat"}
+          - {symerror: 0.36, label: "syst"}
+      - value: -0.05
+        errors:
+          - {symerror: 0.07, label: "stat"}
+          - {symerror: 0.43, label: "syst"}
+      - value: -0.09
+        errors:
+          - {symerror: 0.05, label: "stat"}
+          - {symerror: 0.51, label: "syst"}
+      - value: 0.03
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.25, label: "syst"}
+      - value: 0.04
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+
+  - header: {name: "d$N_{Li}$/d$\\eta$ × 10 (3.5 < |$\\eta$| < 4.0)"}
+    values:
+      - value: 0.01
+        errors:
+          - {symerror: 0.05, label: "stat"}
+          - {symerror: 0.34, label: "syst"}
+      - value: -0.19
+        errors:
+          - {symerror: 0.05, label: "stat"}
+          - {symerror: 0.76, label: "syst"}
+      - value: 0.09
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.36, label: "syst"}
+      - value: 0.14
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.34, label: "syst"}
+      - value: 0.01
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.27, label: "syst"}
+      - value: -0.02
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.21, label: "syst"}
+      - value: 0.08
+        errors:
+          - {symerror: 0.02, label: "stat"}
+          - {symerror: 0.28, label: "syst"}
+
+  - header: {name: "d$N_{Li}$/d$\\eta$ × 10 (4.0 < |$\\eta$| < 4.5)"}
+    values:
+      - value: 0.05
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.22, label: "syst"}
+      - value: 0.08
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.29, label: "syst"}
+      - value: 0.13
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.33, label: "syst"}
+      - value: 0.04
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.26, label: "syst"}
+      - value: 0.25
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.35, label: "syst"}
+      - value: 0.04
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 0.02
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+
+  - header: {name: "d$N_{Li}$/d$\\eta$ × 10 (4.5 < |$\\eta$| < 5.0)"}
+    values:
+      - value: 0.03
+        errors:
+          - {symerror: 0.03, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 0.17
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 0.26
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 0.59
+        errors:
+          - {symerror: 0.05, label: "stat"}
+          - {symerror: 0.26, label: "syst"}
+      - value: 0.65
+        errors:
+          - {symerror: 0.05, label: "stat"}
+          - {symerror: 0.37, label: "syst"}
+      - value: 0.41
+        errors:
+          - {symerror: 0.05, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 0.28
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+
+  - header: {name: "d$N_{Li}$/d$\\eta$ × 10 (5.0 < |$\\eta$| < 5.4)"}
+    values:
+      - value: 0.08
+        errors:
+          - {symerror: 0.04, label: "stat"}
+          - {symerror: 0.51, label: "syst"}
+      - value: 0.66
+        errors:
+          - {symerror: 0.07, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 1.23
+        errors:
+          - {symerror: 0.09, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 1.88
+        errors:
+          - {symerror: 0.11, label: "stat"}
+          - {symerror: 0.63, label: "syst"}
+      - value: 1.88
+        errors:
+          - {symerror: 0.11, label: "stat"}
+          - {symerror: 0.20, label: "syst"}
+      - value: 1.71
+        errors:
+          - {symerror: 0.11, label: "stat"}
+          - {symerror: 0.25, label: "syst"}
+      - value: 1.19
+        errors:
+          - {symerror: 0.10, label: "stat"}
+          - {symerror: 0.30, label: "syst"}
