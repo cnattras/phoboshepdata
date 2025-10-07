@@ -1,6 +1,5 @@
-
 independent_variables:
-  - header: {name: "Centrality Bin (%)"}
+  - header: {name: "Centrality Bin (%)", units: "%"}
     values:
       - {value: "0–10"}
       - {value: "10–20"}
@@ -11,10 +10,9 @@ independent_variables:
       - {value: "60–70"}
 
 dependent_variables:
-  - header: {name: "$dN/d\\eta$ (3.0<|$\\eta$|<3.5)"}
+  - header: {name: "$dN/d\\eta$ (3.0<|$\\eta$|<3.5)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 19.6}
-
+      - {name: "Energy (GeV)", value: 19.6}
     values:
       - value: 0.01
         errors:
@@ -45,10 +43,9 @@ dependent_variables:
           - {symerror: 0.01, label: "stat"}
           - {symerror: 0.20, label: "syst"}
 
-  - header: {name: "$dN/d\\eta$ (3.5<|$\\eta$|<4.0)"}
+  - header: {name: "$dN/d\\eta$ (3.5<|$\\eta$|<4.0)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 19.6}
-
+      - {name: "Energy (GeV)", value: 19.6}
     values:
       - value: -0.05
         errors:
@@ -79,10 +76,9 @@ dependent_variables:
           - {symerror: 0.01, label: "stat"}
           - {symerror: 0.22, label: "syst"}
 
-  - header: {name: "$dN/d\\eta$ (4.0<|$\\eta$|<4.5)"}
+  - header: {name: "$dN/d\\eta$ (4.0<|$\\eta$|<4.5)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 19.6}
-
+      - {name: "Energy (GeV)", value: 19.6}
     values:
       - value: 0.14
         errors:
@@ -113,10 +109,9 @@ dependent_variables:
           - {symerror: 0.01, label: "stat"}
           - {symerror: 0.20, label: "syst"}
 
-  - header: {name: "$dN/d\\eta$ (4.5<|$\\eta$|<5.0)"}
+  - header: {name: "$dN/d\\eta$ (4.5<|$\\eta$|<5.0)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 19.6}
-
+      - {name: "Energy (GeV)", value: 19.6}
     values:
       - value: 0.26
         errors:
@@ -147,10 +142,9 @@ dependent_variables:
           - {symerror: 0.02, label: "stat"}
           - {symerror: 0.32, label: "syst"}
 
-  - header: {name: "$dN/d\\eta$ (5.0<|$\\eta$|<5.4)"}
+  - header: {name: "$dN/d\\eta$ (5.0<|$\\eta$|<5.4)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 19.6}
-
+      - {name: "Energy (GeV)", value: 19.6}
     values:
       - value: 0.45
         errors:

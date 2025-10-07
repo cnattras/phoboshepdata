@@ -1,5 +1,5 @@
 independent_variables:
-  - header: {name: "Centrality Bin (%)"}
+  - header: {name: "Centrality Bin (%)", units: "%"}
     values:
       - {value: "0–10"}
       - {value: "10–20"}
@@ -9,10 +9,9 @@ independent_variables:
       - {value: "50–60"}
 
 dependent_variables:
-  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (3.0 < |$\\eta$| < 3.5)"}
+  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (3.0 < |$\\eta$| < 3.5)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 22.4}
-
+      - {name: "Energy (GeV)", value: 22.4}
     values:
       - value: -0.15
         errors:
@@ -39,10 +38,9 @@ dependent_variables:
           - {symerror: 0.05, label: "stat"}
           - {symerror: 0.50, label: "syst"}
 
-  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (3.5 < |$\\eta$| < 4.0)"}
+  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (3.5 < |$\\eta$| < 4.0)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 22.4}
-
+      - {name: "Energy (GeV)", value: 22.4}
     values:
       - value: -0.16
         errors:
@@ -69,10 +67,9 @@ dependent_variables:
           - {symerror: 0.06, label: "stat"}
           - {symerror: 0.50, label: "syst"}
 
-  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (4.0 < |$\\eta$| < 4.5)"}
+  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (4.0 < |$\\eta$| < 4.5)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 22.4}
-
+      - {name: "Energy (GeV)", value: 22.4}
     values:
       - value: 0.28
         errors:
@@ -99,10 +96,9 @@ dependent_variables:
           - {symerror: 0.04, label: "stat"}
           - {symerror: 0.50, label: "syst"}
 
-  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (4.5 < |$\\eta$| < 5.0)"}
+  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (4.5 < |$\\eta$| < 5.0)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 22.4}
-
+      - {name: "Energy (GeV)", value: 22.4}
     values:
       - value: 0.87
         errors:
@@ -129,10 +125,9 @@ dependent_variables:
           - {symerror: 0.05, label: "stat"}
           - {symerror: 0.50, label: "syst"}
 
-  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (5.0 < |$\\eta$| < 5.4)"}
+  - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (5.0 < |$\\eta$| < 5.4)", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 22.4}
-
+      - {name: "Energy (GeV)", value: 22.4}
     values:
       - value: 1.94
         errors:

@@ -1,5 +1,5 @@
 independent_variables:
-  - header: {name: "Centrality Bin (%)"}
+  - header: {name: "Centrality Bin (%)", units: "%"}
     values:
       - {value: "0–10"}
       - {value: "10–20"}
@@ -8,10 +8,11 @@ independent_variables:
       - {value: "40–50"}
       - {value: "50–60"}
       - {value: "60–70"}
+
 dependent_variables:
-  - header: {name: "$N_{part}$"}
+  - header: {name: "$N_{part}$", units: ""}
     qualifiers:
-      - header: {name: "Energy (GeV)", value: 19.6}
+      - {name: "Energy (GeV)", value: 19.6}
     values:
       - value: 316.3
         errors:

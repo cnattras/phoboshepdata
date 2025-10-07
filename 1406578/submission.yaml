@@ -7,14 +7,14 @@ additional_resources: # additional references (e.g. experiment TWiki page for an
 - {location: "https://arxiv.org/abs/1511.07921", description: "arXiv ID: nucl-ex/1511.07921"}
 - {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.94.024903", description: "Phys.Rev.C 94 (2016) 2, 024903"}
 comment: |
- BNL-RHIC. Antiparticle to particle ratios for identified protons, kaons and pions at $\sqrt{s_{_{NN}}}$ = 62.4 and 200 GeV in Cu+Cu collisions are presented as a function of centrality for the midrapidity region of  $0.2 < \eta < 1.4$.  No strong dependence on centrality is observed. For  the $\langle \overline{p} \rangle / \langle p \rangle$ ratio at $\langle p_T \rangle \approx 0.51$ GeV/c,  we observe an average value of  $0.50 \pm 0.003_\textrm{(stat)} \pm 0.04_\textrm{(syst)}$ and $0.77 \pm 0.008_\textrm{(stat)} \pm 0.05_\textrm{(syst)}$  for the 10% most central collisions of 62.4 and 200 GeV Cu+Cu, respectively. The values for all three particle species measured at $\sqrt{s_{_{NN}}}$ = 200 GeV are in agreement within systematic uncertainties with that seen in both heavier and lighter systems measured at the same RHIC energy. This indicates that system size does not appear to play a strong role in determining the midrapidity chemical freeze-out properties affecting the antiparticle to particle ratios of the three most abundant particle species produced in these collisions.
+ Spectator fragments resulting from relativistic heavy ion collisions, consisting of single protons and neutrons along with groups of stable nuclear fragments up to Nitrogen ($Z$=7), are measured in PHOBOS. These fragments are observed in Au+Au ($\sqrt{s_{NN}}$ = 19.6 GeV) and Cu+Cu (22.4 GeV) collisions at high pseudorapidity ($\eta$). The dominant multiply-charged fragment is the tightly bound Helium ($\alpha$), with Lithium, Beryllium, and Boron all clearly seen as a function of collision centrality and pseudorapidity. We observe that in Cu+Cu collisions, it becomes much more favorable for the $\alpha$ fragments to be released than Lithium. The yields of fragments approximately scale with the number of spectator nucleons, independent of the colliding ion. The shapes of the pseudorapidity distributions of fragments indicate that the average deflection of the fragments away from the beam direction increases for more central collisions. A detailed comparison of the shapes for $\alpha$ and Lithium fragments indicates that the centrality dependence of the deflections favors a scaling with the number of participants in the collision.
 
 ---
 # Start of table entries.
 # This is Table 1.
 name: "Table 1: Au + Au"
 location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: $N_{\text{part}}$ values determined from a Glauber model calculation for Au+Au ($\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$) collisions. Uncertainties are 90\% C.L. systematic.
+description: $N_{\text{part}}$ values determined from a Glauber model calculation for Au+Au ($\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$) collisions. Uncertainties are 90% C.L. systematic.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -28,7 +28,7 @@ additional_resources:
 ---
 name: "Table 1: Cu + Cu"
 location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: $N_{\text{part}}$ values determined from a Glauber model calculation for  Cu+Cu ($\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$) collisions. Uncertainties are 90\% C.L. systematic.
+description: $N_{\text{part}}$ values determined from a Glauber model calculation for  Cu+Cu ($\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$) collisions. Uncertainties are 90% C.L. systematic.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [CU CU --> MULT(CHARGED) X]
@@ -42,7 +42,7 @@ additional_resources:
 ---
 name: "Table 2"
 location: Data from Table 2 of Phys.Rev.C 94 (2016) 2, 024903
-description: $dN_{\alpha}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic.
+description: $dN_{\alpha}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -56,7 +56,7 @@ additional_resources:
 ---
 name: "Table 3"
 location: Data from Table 3 of Phys.Rev.C 94 (2016) 2, 024903
-description: $dN_{\text{Li}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
+description: $dN_{\text{Li}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -70,7 +70,7 @@ additional_resources:
 ---
 name: "Table 4"
 location: Data from Table 4 of Phys.Rev.C 94 (2016) 2, 024903
-description: $dN_{\text{Be}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
+description: $dN_{\text{Be}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -84,7 +84,7 @@ additional_resources:
 ---
 name: "Table 5"
 location: Data from Table 5 of Phys.Rev.C 94 (2016) 2, 024903
-description: $dN_{\text{B}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
+description: $dN_{\text{B}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
@@ -98,7 +98,7 @@ additional_resources:
 ---
 name: "Table 6"
 location: Data from Table 6 of Phys.Rev.C 94 (2016) 2, 024903
-description: $dN_{\alpha}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
+description: $dN_{\alpha}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
 
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -113,7 +113,7 @@ additional_resources:
 ---
 name: "Table 7"
 location: Data from Table 7 of Phys.Rev.C 94 (2016) 2, 024903
-description: $dN_{\text{Li}}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
+description: $dN_{\text{Li}}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [CU CU --> MULT(CHARGED) X]
