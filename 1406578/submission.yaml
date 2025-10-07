@@ -14,72 +14,113 @@ comment: |
 # This is Table 1.
 name: "Table 1: Au + Au"
 location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+description: $N_{\text{part}}$ values determined from a Glauber model calculation for Au+Au ($\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$) collisions. Uncertainties are 90\% C.L. systematic.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
 data_file: table1au.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_1.png}
 ---
 name: "Table 1: Cu + Cu"
 location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+description: $N_{\text{part}}$ values determined from a Glauber model calculation for  Cu+Cu ($\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$) collisions. Uncertainties are 90\% C.L. systematic.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
+- name: reactions
+  values: [CU CU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [22.4]
 data_file: table1cu.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_1.png}
 ---
 name: "Table 2"
-location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+location: Data from Table 2 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\alpha}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1au.yaml
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table2.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_2.png}
 ---
 name: "Table 3"
-location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+location: Data from Table 3 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{Li}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1cu.yaml
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table3.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_3.png}
 ---
 name: "Table 4"
-location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+location: Data from Table 4 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{Be}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1au.yaml
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table4.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_4.png}
 ---
 name: "Table 5"
-location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+location: Data from Table 5 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{B}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1cu.yaml
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table5.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_5.png}
 ---
 name: "Table 6"
-location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 62.4 $GeV
+location: Data from Table 6 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\alpha}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
+
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1au.yaml
+- name: reactions
+  values: [CU CU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [22.4]
+data_file: table6.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_6.png}
 ---
 name: "Table 7"
-location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
-description: Cu+Cu collision results for antiparticle to particle ratios at $\sqrt{s_{NN}} = 200 $GeV
+location: Data from Table 7 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{Li}}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90\% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
 keywords: # used for searching, possibly multiple values for each keyword
-  - {name: phrases, values: [Cu+Cu Collisions, Pseudorapidity, centrality, PHOBOS]}
-data_file: table1cu.yaml
+- name: reactions
+  values: [CU CU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [22.4]
+data_file: table7.yaml
 additional_resources:
-- {description: Thumbnail Image file, location: thumb_fig3.png}
+- {description: Thumbnail Image file, location: thumb_7.png}

@@ -9,6 +9,8 @@ independent_variables:
       - {value: "50–60"}
 
   - header: {name: "$N_{part}$"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
     values:
       - value: 93.8
         errors:

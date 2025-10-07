@@ -10,6 +10,9 @@ independent_variables:
 
 dependent_variables:
   - header: {name: "d$N_{Li}$/d$\\eta$ × 100 (3.0 < |$\\eta$| < 3.5)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.61
         errors:
@@ -37,6 +40,9 @@ dependent_variables:
           - {symerror: 0.65, label: "syst"}
 
   - header: {name: "d$N_{Li}$/d$\\eta$ × 100 (3.5 < |$\\eta$| < 4.0)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.41
         errors:
@@ -64,6 +70,9 @@ dependent_variables:
           - {symerror: 0.40, label: "syst"}
 
   - header: {name: "d$N_{Li}$/d$\\eta$ × 100 (4.0 < |$\\eta$| < 4.5)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.25
         errors:
@@ -91,6 +100,9 @@ dependent_variables:
           - {symerror: 0.40, label: "syst"}
 
   - header: {name: "d$N_{Li}$/d$\\eta$ × 100 (4.5 < |$\\eta$| < 5.0)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.37
         errors:
@@ -118,6 +130,9 @@ dependent_variables:
           - {symerror: 0.40, label: "syst"}
 
   - header: {name: "d$N_{Li}$/d$\\eta$ × 100 (5.0 < |$\\eta$| < 5.4)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.03
         errors:

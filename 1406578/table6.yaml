@@ -10,6 +10,9 @@ independent_variables:
 
 dependent_variables:
   - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (3.0 < |$\\eta$| < 3.5)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: -0.15
         errors:
@@ -37,6 +40,9 @@ dependent_variables:
           - {symerror: 0.50, label: "syst"}
 
   - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (3.5 < |$\\eta$| < 4.0)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: -0.16
         errors:
@@ -64,6 +70,9 @@ dependent_variables:
           - {symerror: 0.50, label: "syst"}
 
   - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (4.0 < |$\\eta$| < 4.5)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.28
         errors:
@@ -91,6 +100,9 @@ dependent_variables:
           - {symerror: 0.50, label: "syst"}
 
   - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (4.5 < |$\\eta$| < 5.0)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 0.87
         errors:
@@ -118,6 +130,9 @@ dependent_variables:
           - {symerror: 0.50, label: "syst"}
 
   - header: {name: "d$N_{\\alpha}$/d$\\eta$ × 10 (5.0 < |$\\eta$| < 5.4)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 22.4}
+
     values:
       - value: 1.94
         errors:

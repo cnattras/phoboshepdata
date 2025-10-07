@@ -12,6 +12,9 @@ independent_variables:
 
 dependent_variables:
   - header: {name: "$dN/d\\eta$ (3.0<|$\\eta$|<3.5)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 19.6}
+
     values:
       - value: 0.01
         errors:
@@ -43,6 +46,9 @@ dependent_variables:
           - {symerror: 0.20, label: "syst"}
 
   - header: {name: "$dN/d\\eta$ (3.5<|$\\eta$|<4.0)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 19.6}
+
     values:
       - value: -0.05
         errors:
@@ -74,6 +80,9 @@ dependent_variables:
           - {symerror: 0.22, label: "syst"}
 
   - header: {name: "$dN/d\\eta$ (4.0<|$\\eta$|<4.5)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 19.6}
+
     values:
       - value: 0.14
         errors:
@@ -105,6 +114,9 @@ dependent_variables:
           - {symerror: 0.20, label: "syst"}
 
   - header: {name: "$dN/d\\eta$ (4.5<|$\\eta$|<5.0)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 19.6}
+
     values:
       - value: 0.26
         errors:
@@ -136,6 +148,9 @@ dependent_variables:
           - {symerror: 0.32, label: "syst"}
 
   - header: {name: "$dN/d\\eta$ (5.0<|$\\eta$|<5.4)"}
+    qualifiers:
+      - header: {name: "Energy (GeV)", value: 19.6}
+
     values:
       - value: 0.45
         errors:
