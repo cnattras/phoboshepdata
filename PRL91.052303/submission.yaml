@@ -1,0 +1,140 @@
+#PHOBOS PAPER
+#
+#{The significance of the fragmentation region in ultrarelativistic
+# heavy ion collisions} 
+#
+#Prepared by Eleanna Soto
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://arxiv.org/abs/nucl-ex/0210015", description: "arXiv ID: nucl-ex/0210015"}
+comment: 
+     We present measurements of the pseudorapidity distribution of primary charged particles produced in Au Au collisions at three energies, $\sqrt_{s_{nn}}=19.6$, 130, and 200~GeV, for a range of collision centralities. The centrality dependence is shown to be non-trivial-- the distribution narrows for more central collisions and excess particles are produced at high pseudorapidity in peripheral collisions. For a given centrality, however, the distributions are found to scale with energy according to the "limiting fragmentation" hypothesis.  The universal fragmentation region described by this scaling grows in pseudorapidity with increasing collision energy, extending well away from the beam rapidity and covering more than half of the pseudorapidity range over which particles are produced.  This approach to a universal limiting curve appears to be a dominant feature of the pseudorapidity distribution and therefore of the total particle production in these collisions.
+---
+name: "Table 1"
+location: Data from Table 1 of Phys. Rev. Lett. 88, 22302 (2002)
+description: Estimated number of nucleon participants in 19.6 GeV Au + Au collisions according to the centrality bin
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Table 2"
+location: Data from Table 2 of Phys. Rev. Lett. 88, 22302 (2002)
+description: Total charged multiplicity in three fiducial ranges of $\eta$ for central (0–6%) collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6,130,200]
+data_file: table2.yaml
+additional_resources: 
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 1"
+location: Data from Figure 1 of Phys. Rev. Lett. 88, 22302 (2002)
+description: The charged particle pseudorapidity distribution, $dN_{ch}/d\eta$, measured for Au + Au at $sqrt{S_{NN}}$= 200, 130, and 19.6 GeV for the specified centrality bins.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6,130,200]
+data_file: fig1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
+name: "Figure 2: 200 GeV"
+location: Data from Figure 2 of Phys. Rev. Lett. 88, 223
+description: $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 200 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: fig200.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 2: 130 GeV"
+location: Data from Figure 2 of Phys. Rev. Lett. 88, 223
+description: $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 130 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
+data_file: fig130.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 2: 19.6 GeV"
+location: Data from Figure 2 of Phys. Rev. Lett. 88, 223
+description: $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 19.6 GeV.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: fig19.6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig2.png}
+---
+name: "Figure 4: 200 GeV"
+location: Data from Figure 4 of Phys. Rev. Lett. 88, 223
+description: Ratio of $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 200 GeV to that for central (0–6%) collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]   
+data_file: fig4.200.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Figure 4: 130 GeV"
+
+location: Data from Figure 4 of Phys. Rev. Lett. 88, 223
+description: Ratio of $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 130 GeV to that for central (0–6%) collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [130]
+data_file: fig4.130.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
+name: "Figure 4: 19.6 GeV"
+location: Data from Figure 4 of Phys. Rev. Lett. 88, 223
+description: Ratio of $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 19.6 GeV to that for central (0–6%) collisions.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: fig4.19.6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig4.png}
+---
