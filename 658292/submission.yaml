@@ -1,0 +1,29 @@
+#InspireHEP ID: 658292
+#
+#Prepared by Eleanna Soto
+#\title{Charged antiparticle to particle ratios \\ near midrapidity in p+p collisions at $\sqrt{s_{_{NN}}}=200$ GeV}
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/658292", description: "InspireHEP ID: 658292"}
+- {location: "https://arxiv.org/abs/nucl-ex/0409003", description: "arXiv ID: nucl-ex/0409003"}
+- {location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.71.021901", description: "Phys. Rev. C 71, 021901(R)"}
+comment: |
+ The ratios of the yields of primary charged antiparticles to particles have been obtained for pions, kaons, and protons near midrapidity for p+p collisions at $\sqrt{s_{_{NN}}} = 200$~GeV. Ratios of $\left<\pi^-/\pi^+\right>=1.000~\pm~0.012$ (stat.) $\pm~0.019$ (syst.), $\left<K^-/K^+\right>=0.93~\pm~0.05$ (stat.) $\pm~0.03$ (syst.), and $\left<\bar{p}/p\right>=0.85~\pm~0.04$ (stat.) $\pm~0.03$ (syst.) have been measured.  The reported values represent the ratio of the yields averaged over the rapidity range of $0.1<y_{\pi}<1.3$ and $0<y_{K,p}<0.8$, and for transverse momenta of $0.1<p_{T}^{\pi,K}<1.0$~GeV/c and $0.3<p_{T}^{p}<1.0$~GeV/c. Within the uncertainties, all three ratios are consistent with the values measured in d+Au collisions at the same energy. The data are compared to results from other collision systems and energies.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1"
+location: Data from Table 1 of Phys. Rev. C 71, 021901(R)
+description: Summary of analyzed event and particle counts.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [200]
+data_file: table1.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_fig1.png}
+---
