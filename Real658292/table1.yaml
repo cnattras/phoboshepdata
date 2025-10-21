@@ -1,0 +1,36 @@
+independent_variables:
+  - header: { name: "Polarity" }
+    values:
+      - { value: "+" }
+      - { value: "-" }
+
+
+dependent_variables:
+  - header: { name: "Events" }
+    values:
+      - value: 2537906
+      - value: 1686214
+  - header: { name: "$\\pi^-$" }
+    values:
+      - value: 5233
+      - value: 16235
+  - header: { name: "$\\pi^+$" }
+    values:
+      - value: 24478
+      - value: 3500
+  - header: { name: "$K^-$" }
+    values:
+      - value: 287
+      - value: 551
+  - header: { name: "$K^+$" }
+    values:
+      - value: 899
+      - value: 190
+  - header: { name: "$\\bar{p}$" }
+    values:
+      - value: 506
+      - value: 585
+  - header: { name: "$p$" }
+    values:
+      - value: 1141
+      - value: 396

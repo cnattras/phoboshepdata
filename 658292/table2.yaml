@@ -1,0 +1,29 @@
+independent_variables:
+  - header: { name: "$\\sqrt{S_{NN}}$"}
+    values:
+      - { value: "19.6 Gev" }
+      - { value: "130 Gev" }
+      - { value: "200 Gev" }
+dependent_variables:
+  - header: { name: "$N_{ch}$" }
+    qualifiers:
+      - { name: "$|\\eta|$", value: "< 4.7" }
+    values:
+      - { value: 1670, errors: [{ symerror: 100 }] }
+      - { value: 4020, errors: [{ symerror: 200 }] }
+      - { value: 4810, errors: [{ symerror: 240 }] }
+  - header: { name: "$N_{ch}$" }
+    qualifiers:
+      - { name: "$|\\eta|$", value: "< 5.7" }
+    values:
+      - { value: 1680, errors: [{ symerror: 100 }] }
+      - { value: 4100, errors: [{ symerror: 210 }] }
+      - { value: 4960, errors: [{ symerror: 250 }] }
+  - header: { name: "$N_{ch}$" }
+    qualifiers:
+      - { name: "$|\\eta|$", value: "total" }
+    values:
+      - { value: 1680, errors: [{ symerror: 100 }] }
+      - { value: 4170, errors: [{ symerror: 210 }] }
+      - { value: 5060, errors: [{ symerror: 250 }] }
+
