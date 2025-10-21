@@ -1,0 +1,1094 @@
+independent_variables:
+  - header: {name: "$\\eta$"}
+    values:
+      - {value: -5.3, errors: [{symerror: 0.0}]}
+      - {value: -5.1, errors: [{symerror: 0.0}]}
+      - {value: -4.9, errors: [{symerror: 0.0}]}
+      - {value: -4.7, errors: [{symerror: 0.0}]}
+      - {value: -4.5, errors: [{symerror: 0.0}]}
+      - {value: -4.3, errors: [{symerror: 0.0}]}
+      - {value: -4.1, errors: [{symerror: 0.0}]}
+      - {value: -3.9, errors: [{symerror: 0.0}]}
+      - {value: -3.7, errors: [{symerror: 0.0}]}
+      - {value: -3.5, errors: [{symerror: 0.0}]}
+      - {value: -3.3, errors: [{symerror: 0.0}]}
+      - {value: -3.1, errors: [{symerror: 0.0}]}
+      - {value: -2.9, errors: [{symerror: 0.0}]}
+      - {value: -2.7, errors: [{symerror: 0.0}]}
+      - {value: -2.5, errors: [{symerror: 0.0}]}
+      - {value: -2.3, errors: [{symerror: 0.0}]}
+      - {value: -2.1, errors: [{symerror: 0.0}]}
+      - {value: -1.9, errors: [{symerror: 0.0}]}
+      - {value: -1.7, errors: [{symerror: 0.0}]}
+      - {value: -1.5, errors: [{symerror: 0.0}]}
+      - {value: -1.3, errors: [{symerror: 0.0}]}
+      - {value: -1.1, errors: [{symerror: 0.0}]}
+      - {value: -0.9, errors: [{symerror: 0.0}]}
+      - {value: -0.7, errors: [{symerror: 0.0}]}
+      - {value: -0.5, errors: [{symerror: 0.0}]}
+      - {value: -0.3, errors: [{symerror: 0.0}]}
+      - {value: -0.1, errors: [{symerror: 0.0}]}
+      - {value: 0.1, errors: [{symerror: 0.0}]}
+      - {value: 0.3, errors: [{symerror: 0.0}]}
+      - {value: 0.5, errors: [{symerror: 0.0}]}
+      - {value: 0.7, errors: [{symerror: 0.0}]}
+      - {value: 0.9, errors: [{symerror: 0.0}]}
+      - {value: 1.1, errors: [{symerror: 0.0}]}
+      - {value: 1.3, errors: [{symerror: 0.0}]}
+      - {value: 1.5, errors: [{symerror: 0.0}]}
+      - {value: 1.7, errors: [{symerror: 0.0}]}
+      - {value: 1.9, errors: [{symerror: 0.0}]}
+      - {value: 2.1, errors: [{symerror: 0.0}]}
+      - {value: 2.3, errors: [{symerror: 0.0}]}
+      - {value: 2.5, errors: [{symerror: 0.0}]}
+      - {value: 2.7, errors: [{symerror: 0.0}]}
+      - {value: 2.9, errors: [{symerror: 0.0}]}
+      - {value: 3.1, errors: [{symerror: 0.0}]}
+      - {value: 3.3, errors: [{symerror: 0.0}]}
+      - {value: 3.5, errors: [{symerror: 0.0}]}
+      - {value: 3.7, errors: [{symerror: 0.0}]}
+      - {value: 3.9, errors: [{symerror: 0.0}]}
+      - {value: 4.1, errors: [{symerror: 0.0}]}
+      - {value: 4.3, errors: [{symerror: 0.0}]}
+      - {value: 4.5, errors: [{symerror: 0.0}]}
+      - {value: 4.7, errors: [{symerror: 0.0}]}
+      - {value: 4.9, errors: [{symerror: 0.0}]}
+      - {value: 5.1, errors: [{symerror: 0.0}]}
+      - {value: 5.3, errors: [{symerror: 0.0}]}
+
+dependent_variables:
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "0-6%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}   
+      - {name: "$N_{part}$", value: "344 +/- 11"}
+    values:
+      - {value: 72.29, errors: [{asymerror: {plus: 20.00, minus: 16.15}}]}
+      - {value: 88.96, errors: [{asymerror: {plus: 25.74, minus: 16.39}}]}
+      - {value: 116.83, errors: [{asymerror: {plus: 24.65, minus: 23.80}}]}
+      - {value: 147.45, errors: [{asymerror: {plus: 25.43, minus: 29.46}}]}
+      - {value: 173.09, errors: [{asymerror: {plus: 35.92, minus: 25.31}}]}
+      - {value: 223.51, errors: [{asymerror: {plus: 26.11, minus: 41.16}}]}
+      - {value: 262.48, errors: [{asymerror: {plus: 31.63, minus: 41.26}}]}
+      - {value: 297.87, errors: [{asymerror: {plus: 43.58, minus: 34.51}}]}
+      - {value: 345.33, errors: [{asymerror: {plus: 44.99, minus: 38.01}}]}
+      - {value: 387.88, errors: [{asymerror: {plus: 51.31, minus: 36.57}}]}
+      - {value: 420.48, errors: [{asymerror: {plus: 66.01, minus: 26.91}}]}
+      - {value: 472.00, errors: [{asymerror: {plus: 58.83, minus: 39.42}}]}
+      - {value: 519.50, errors: [{asymerror: {plus: 51.59, minus: 52.27}}]}
+      - {value: 546.58, errors: [{asymerror: {plus: 59.94, minus: 49.63}}]}
+      - {value: 572.94, errors: [{asymerror: {plus: 63.81, minus: 51.32}}]}
+      - {value: 600.29, errors: [{asymerror: {plus: 61.44, minus: 58.82}}]}
+      - {value: 617.31, errors: [{asymerror: {plus: 64.32, minus: 60.35}}]}
+      - {value: 641.83, errors: [{asymerror: {plus: 54.94, minus: 73.19}}]}
+      - {value: 653.07, errors: [{asymerror: {plus: 54.46, minus: 76.02}}]}
+      - {value: 652.29, errors: [{asymerror: {plus: 62.07, minus: 69.56}}]}
+      - {value: 655.51, errors: [{asymerror: {plus: 62.18, minus: 69.36}}]}
+      - {value: 653.15, errors: [{asymerror: {plus: 64.88, minus: 65.42}}]}
+      - {value: 652.75, errors: [{asymerror: {plus: 63.27, minus: 64.83}}]}
+      - {value: 647.52, errors: [{asymerror: {plus: 64.96, minus: 60.32}}]}
+      - {value: 637.69, errors: [{asymerror: {plus: 70.80, minus: 51.61}}]}
+      - {value: 649.77, errors: [{asymerror: {plus: 55.56, minus: 64.62}}]}
+      - {value: 642.60, errors: [{asymerror: {plus: 61.62, minus: 57.66}}]}
+      - {value: 640.51, errors: [{asymerror: {plus: 63.71, minus: 55.58}}]}
+      - {value: 647.69, errors: [{asymerror: {plus: 57.63, minus: 62.55}}]}
+      - {value: 634.54, errors: [{asymerror: {plus: 73.95, minus: 48.46}}]}
+      - {value: 641.31, errors: [{asymerror: {plus: 71.17, minus: 54.12}}]}
+      - {value: 644.12, errors: [{asymerror: {plus: 71.89, minus: 56.20}}]}
+      - {value: 645.97, errors: [{asymerror: {plus: 72.05, minus: 58.24}}]}
+      - {value: 653.93, errors: [{asymerror: {plus: 63.75, minus: 67.79}}]}
+      - {value: 656.53, errors: [{asymerror: {plus: 57.83, minus: 73.79}}]}
+      - {value: 652.85, errors: [{asymerror: {plus: 54.69, minus: 75.79}}]}
+      - {value: 640.41, errors: [{asymerror: {plus: 56.35, minus: 71.77}}]}
+      - {value: 630.09, errors: [{asymerror: {plus: 51.55, minus: 73.12}}]}
+      - {value: 607.75, errors: [{asymerror: {plus: 53.99, minus: 66.28}}]}
+      - {value: 577.86, errors: [{asymerror: {plus: 58.89, minus: 56.25}}]}
+      - {value: 560.94, errors: [{asymerror: {plus: 45.58, minus: 63.99}}]}
+      - {value: 516.96, errors: [{asymerror: {plus: 54.13, minus: 49.73}}]}
+      - {value: 480.39, errors: [{asymerror: {plus: 50.44, minus: 47.81}}]}
+      - {value: 435.68, errors: [{asymerror: {plus: 50.82, minus: 42.10}}]}
+      - {value: 402.11, errors: [{asymerror: {plus: 37.08, minus: 50.80}}]}
+      - {value: 349.75, errors: [{asymerror: {plus: 40.57, minus: 42.44}}]}
+      - {value: 305.84, errors: [{asymerror: {plus: 35.60, minus: 42.48}}]}
+      - {value: 262.54, errors: [{asymerror: {plus: 31.56, minus: 41.33}}]}
+      - {value: 225.12, errors: [{asymerror: {plus: 24.51, minus: 42.77}}]}
+      - {value: 182.78, errors: [{asymerror: {plus: 26.23, minus: 35.00}}]}
+      - {value: 147.91, errors: [{asymerror: {plus: 24.98, minus: 29.91}}]}
+      - {value: 117.97, errors: [{asymerror: {plus: 23.51, minus: 24.94}}]}
+      - {value: 93.34, errors: [{asymerror: {plus: 21.37, minus: 20.76}}]}
+      - {value: 72.88, errors: [{asymerror: {plus: 19.40, minus: 16.74}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "6–15%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "274 +/- 9"}
+    values:
+      - {value: 64.17, errors: [{asymerror: {plus: 16.29, minus: 15.25}}]}
+      - {value: 78.23, errors: [{asymerror: {plus: 20.58, minus: 15.78}}]}
+      - {value: 99.88, errors: [{asymerror: {plus: 20.50, minus: 20.85}}]}
+      - {value: 124.64, errors: [{asymerror: {plus: 20.69, minus: 25.64}}]}
+      - {value: 146.53, errors: [{asymerror: {plus: 27.06, minus: 24.08}}]}
+      - {value: 179.48, errors: [{asymerror: {plus: 25.43, minus: 30.19}}]}
+      - {value: 211.73, errors: [{asymerror: {plus: 27.03, minus: 32.66}}]}
+      - {value: 236.80, errors: [{asymerror: {plus: 37.58, minus: 25.81}}]}
+      - {value: 271.68, errors: [{asymerror: {plus: 39.10, minus: 27.69}}]}
+      - {value: 305.84, errors: [{asymerror: {plus: 41.05, minus: 29.03}}]}
+      - {value: 333.07, errors: [{asymerror: {plus: 48.58, minus: 24.85}}]}
+      - {value: 374.59, errors: [{asymerror: {plus: 39.54, minus: 37.40}}]}
+      - {value: 401.62, errors: [{asymerror: {plus: 41.97, minus: 38.66}}]}
+      - {value: 423.85, errors: [{asymerror: {plus: 45.70, minus: 38.70}}]}
+      - {value: 446.06, errors: [{asymerror: {plus: 45.72, minus: 42.39}}]}
+      - {value: 465.17, errors: [{asymerror: {plus: 45.06, minus: 46.50}}]}
+      - {value: 474.51, errors: [{asymerror: {plus: 50.50, minus: 44.07}}]}
+      - {value: 491.80, errors: [{asymerror: {plus: 44.53, minus: 52.44}}]}
+      - {value: 499.62, errors: [{asymerror: {plus: 44.84, minus: 53.80}}]}
+      - {value: 507.07, errors: [{asymerror: {plus: 42.59, minus: 56.90}}]}
+      - {value: 504.87, errors: [{asymerror: {plus: 47.39, minus: 52.11}}]}
+      - {value: 502.99, errors: [{asymerror: {plus: 49.62, minus: 49.10}}]}
+      - {value: 500.65, errors: [{asymerror: {plus: 50.52, minus: 46.72}}]}
+      - {value: 498.36, errors: [{asymerror: {plus: 50.22, minus: 45.13}}]}
+      - {value: 496.57, errors: [{asymerror: {plus: 49.07, minus: 44.34}}]}
+      - {value: 492.06, errors: [{asymerror: {plus: 51.26, minus: 40.65}}]}
+      - {value: 499.16, errors: [{asymerror: {plus: 43.42, minus: 47.93}}]}
+      - {value: 497.45, errors: [{asymerror: {plus: 45.13, minus: 46.23}}]}
+      - {value: 499.12, errors: [{asymerror: {plus: 44.21, minus: 47.70}}]}
+      - {value: 492.76, errors: [{asymerror: {plus: 52.88, minus: 40.53}}]}
+      - {value: 498.46, errors: [{asymerror: {plus: 50.12, minus: 45.23}}]}
+      - {value: 502.55, errors: [{asymerror: {plus: 48.63, minus: 48.62}}]}
+      - {value: 499.29, errors: [{asymerror: {plus: 53.32, minus: 45.40}}]}
+      - {value: 501.84, errors: [{asymerror: {plus: 50.42, minus: 49.09}}]}
+      - {value: 504.43, errors: [{asymerror: {plus: 45.23, minus: 54.26}}]}
+      - {value: 499.21, errors: [{asymerror: {plus: 45.25, minus: 53.39}}]}
+      - {value: 491.00, errors: [{asymerror: {plus: 45.33, minus: 51.64}}]}
+      - {value: 477.16, errors: [{asymerror: {plus: 47.85, minus: 46.72}}]}
+      - {value: 466.77, errors: [{asymerror: {plus: 43.46, minus: 48.10}}]}
+      - {value: 447.37, errors: [{asymerror: {plus: 44.40, minus: 43.71}}]}
+      - {value: 425.37, errors: [{asymerror: {plus: 44.18, minus: 40.22}}]}
+      - {value: 404.32, errors: [{asymerror: {plus: 39.26, minus: 41.36}}]}
+      - {value: 385.03, errors: [{asymerror: {plus: 29.10, minus: 47.84}}]}
+      - {value: 347.51, errors: [{asymerror: {plus: 34.13, minus: 39.29}}]}
+      - {value: 317.15, errors: [{asymerror: {plus: 29.74, minus: 40.34}}]}
+      - {value: 279.51, errors: [{asymerror: {plus: 31.27, minus: 35.52}}]}
+      - {value: 242.28, errors: [{asymerror: {plus: 32.10, minus: 31.28}}]}
+      - {value: 211.13, errors: [{asymerror: {plus: 27.64, minus: 32.06}}]}
+      - {value: 181.26, errors: [{asymerror: {plus: 23.65, minus: 31.97}}]}
+      - {value: 148.32, errors: [{asymerror: {plus: 25.27, minus: 25.87}}]}
+      - {value: 123.01, errors: [{asymerror: {plus: 22.31, minus: 24.02}}]}
+      - {value: 101.04, errors: [{asymerror: {plus: 19.34, minus: 22.00}}]}
+      - {value: 81.56, errors: [{asymerror: {plus: 17.25, minus: 19.11}}]}
+      - {value: 65.09, errors: [{asymerror: {plus: 15.38, minus: 16.17}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "15–25%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "200 +/- 8"}
+    values:
+      - {value: 51.68, errors: [{asymerror: {plus: 11.71, minus: 14.39}}]}
+      - {value: 60.40, errors: [{asymerror: {plus: 16.63, minus: 12.87}}]}
+      - {value: 75.77, errors: [{asymerror: {plus: 17.09, minus: 15.77}}]}
+      - {value: 95.51, errors: [{asymerror: {plus: 15.39, minus: 20.64}}]}
+      - {value: 108.92, errors: [{asymerror: {plus: 22.16, minus: 16.73}}]}
+      - {value: 133.48, errors: [{asymerror: {plus: 19.67, minus: 21.71}}]}
+      - {value: 157.21, errors: [{asymerror: {plus: 19.49, minus: 24.02}}]}
+      - {value: 175.47, errors: [{asymerror: {plus: 25.72, minus: 19.65}}]}
+      - {value: 199.76, errors: [{asymerror: {plus: 26.21, minus: 20.96}}]}
+      - {value: 221.85, errors: [{asymerror: {plus: 28.50, minus: 20.57}}]}
+      - {value: 242.19, errors: [{asymerror: {plus: 31.47, minus: 19.75}}]}
+      - {value: 271.68, errors: [{asymerror: {plus: 23.67, minus: 30.03}}]}
+      - {value: 283.93, errors: [{asymerror: {plus: 31.04, minus: 25.43}}]}
+      - {value: 299.88, errors: [{asymerror: {plus: 32.36, minus: 27.04}}]}
+      - {value: 313.03, errors: [{asymerror: {plus: 34.00, minus: 28.34}}]}
+      - {value: 326.00, errors: [{asymerror: {plus: 33.33, minus: 31.75}}]}
+      - {value: 335.80, errors: [{asymerror: {plus: 33.40, minus: 34.06}}]}
+      - {value: 346.12, errors: [{asymerror: {plus: 30.66, minus: 38.66}}]}
+      - {value: 351.22, errors: [{asymerror: {plus: 31.02, minus: 39.56}}]}
+      - {value: 354.21, errors: [{asymerror: {plus: 31.52, minus: 39.60}}]}
+      - {value: 352.90, errors: [{asymerror: {plus: 34.57, minus: 36.39}}]}
+      - {value: 352.47, errors: [{asymerror: {plus: 35.20, minus: 34.90}}]}
+      - {value: 354.05, errors: [{asymerror: {plus: 32.61, minus: 36.07}}]}
+      - {value: 352.77, errors: [{asymerror: {plus: 32.09, minus: 34.80}}]}
+      - {value: 349.73, errors: [{asymerror: {plus: 33.09, minus: 31.99}}]}
+      - {value: 350.20, errors: [{asymerror: {plus: 31.03, minus: 32.66}}]}
+      - {value: 346.83, errors: [{asymerror: {plus: 33.92, minus: 29.24}}]}
+      - {value: 348.11, errors: [{asymerror: {plus: 32.64, minus: 30.52}}]}
+      - {value: 347.05, errors: [{asymerror: {plus: 34.18, minus: 29.50}}]}
+      - {value: 349.40, errors: [{asymerror: {plus: 33.41, minus: 31.66}}]}
+      - {value: 349.04, errors: [{asymerror: {plus: 35.82, minus: 31.07}}]}
+      - {value: 350.97, errors: [{asymerror: {plus: 35.69, minus: 32.98}}]}
+      - {value: 349.92, errors: [{asymerror: {plus: 37.75, minus: 32.35}}]}
+      - {value: 351.55, errors: [{asymerror: {plus: 35.92, minus: 35.04}}]}
+      - {value: 348.48, errors: [{asymerror: {plus: 37.25, minus: 33.88}}]}
+      - {value: 347.16, errors: [{asymerror: {plus: 35.08, minus: 35.49}}]}
+      - {value: 343.29, errors: [{asymerror: {plus: 33.50, minus: 35.83}}]}
+      - {value: 338.67, errors: [{asymerror: {plus: 30.53, minus: 36.92}}]}
+      - {value: 327.30, errors: [{asymerror: {plus: 32.02, minus: 33.05}}]}
+      - {value: 315.83, errors: [{asymerror: {plus: 31.20, minus: 31.13}}]}
+      - {value: 300.63, errors: [{asymerror: {plus: 31.61, minus: 27.79}}]}
+      - {value: 284.74, errors: [{asymerror: {plus: 30.22, minus: 26.24}}]}
+      - {value: 276.58, errors: [{asymerror: {plus: 18.76, minus: 34.94}}]}
+      - {value: 253.08, errors: [{asymerror: {plus: 20.58, minus: 30.64}}]}
+      - {value: 229.08, errors: [{asymerror: {plus: 21.27, minus: 27.80}}]}
+      - {value: 199.13, errors: [{asymerror: {plus: 26.84, minus: 20.33}}]}
+      - {value: 178.27, errors: [{asymerror: {plus: 22.92, minus: 22.46}}]}
+      - {value: 154.80, errors: [{asymerror: {plus: 21.90, minus: 21.61}}]}
+      - {value: 133.00, errors: [{asymerror: {plus: 20.15, minus: 21.23}}]}
+      - {value: 111.68, errors: [{asymerror: {plus: 19.40, minus: 19.49}}]}
+      - {value: 93.24, errors: [{asymerror: {plus: 17.66, minus: 18.37}}]}
+      - {value: 78.60, errors: [{asymerror: {plus: 14.26, minus: 18.60}}]}
+      - {value: 63.34, errors: [{asymerror: {plus: 13.70, minus: 15.81}}]}
+      - {value: 52.99, errors: [{asymerror: {plus: 10.40, minus: 15.70}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "25–35%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "138 +/- 6"}
+    values:
+      - {value: 40.98, errors: [{asymerror: {plus: 7.57, minus: 11.22}}]}
+      - {value: 48.10, errors: [{asymerror: {plus: 10.08, minus: 11.00}}]}
+      - {value: 58.49, errors: [{asymerror: {plus: 10.69, minus: 12.66}}]}
+      - {value: 70.52, errors: [{asymerror: {plus: 10.98, minus: 14.52}}]}
+      - {value: 77.78, errors: [{asymerror: {plus: 17.30, minus: 10.20}}]}
+      - {value: 93.47, errors: [{asymerror: {plus: 16.25, minus: 13.04}}]}
+      - {value: 109.24, errors: [{asymerror: {plus: 15.88, minus: 14.99}}]}
+      - {value: 123.18, errors: [{asymerror: {plus: 17.80, minus: 14.50}}]}
+      - {value: 136.88, errors: [{asymerror: {plus: 19.99, minus: 13.65}}]}
+      - {value: 151.18, errors: [{asymerror: {plus: 21.22, minus: 13.75}}]}
+      - {value: 165.84, errors: [{asymerror: {plus: 21.35, minus: 15.02}}]}
+      - {value: 183.28, errors: [{asymerror: {plus: 17.66, minus: 20.21}}]}
+      - {value: 191.91, errors: [{asymerror: {plus: 21.48, minus: 17.98}}]}
+      - {value: 204.11, errors: [{asymerror: {plus: 20.26, minus: 20.83}}]}
+      - {value: 209.88, errors: [{asymerror: {plus: 23.95, minus: 18.74}}]}
+      - {value: 221.71, errors: [{asymerror: {plus: 20.04, minus: 24.14}}]}
+      - {value: 225.85, errors: [{asymerror: {plus: 22.30, minus: 23.17}}]}
+      - {value: 230.80, errors: [{asymerror: {plus: 22.32, minus: 24.17}}]}
+      - {value: 235.84, errors: [{asymerror: {plus: 20.89, minus: 26.28}}]}
+      - {value: 236.91, errors: [{asymerror: {plus: 22.17, minus: 25.30}}]}
+      - {value: 239.29, errors: [{asymerror: {plus: 21.00, minus: 26.38}}]}
+      - {value: 237.81, errors: [{asymerror: {plus: 22.68, minus: 24.22}}]}
+      - {value: 237.89, errors: [{asymerror: {plus: 22.00, minus: 24.10}}]}
+      - {value: 236.01, errors: [{asymerror: {plus: 22.75, minus: 22.34}}]}
+      - {value: 237.03, errors: [{asymerror: {plus: 20.45, minus: 23.63}}]}
+      - {value: 234.32, errors: [{asymerror: {plus: 22.17, minus: 21.13}}]}
+      - {value: 234.10, errors: [{asymerror: {plus: 22.14, minus: 20.89}}]}
+      - {value: 232.35, errors: [{asymerror: {plus: 23.89, minus: 19.14}}]}
+      - {value: 233.45, errors: [{asymerror: {plus: 23.04, minus: 20.26}}]}
+      - {value: 234.00, errors: [{asymerror: {plus: 23.47, minus: 20.60}}]}
+      - {value: 235.65, errors: [{asymerror: {plus: 23.12, minus: 21.97}}]}
+      - {value: 236.42, errors: [{asymerror: {plus: 23.47, minus: 22.62}}]}
+      - {value: 235.04, errors: [{asymerror: {plus: 25.46, minus: 21.44}}]}
+      - {value: 233.52, errors: [{asymerror: {plus: 26.76, minus: 20.61}}]}
+      - {value: 234.76, errors: [{asymerror: {plus: 24.32, minus: 23.15}}]}
+      - {value: 232.15, errors: [{asymerror: {plus: 24.58, minus: 22.59}}]}
+      - {value: 231.46, errors: [{asymerror: {plus: 21.66, minus: 24.83}}]}
+      - {value: 229.17, errors: [{asymerror: {plus: 18.99, minus: 26.49}}]}
+      - {value: 219.42, errors: [{asymerror: {plus: 22.33, minus: 21.85}}]}
+      - {value: 210.95, errors: [{asymerror: {plus: 22.88, minus: 19.82}}]}
+      - {value: 202.08, errors: [{asymerror: {plus: 22.30, minus: 18.79}}]}
+      - {value: 193.28, errors: [{asymerror: {plus: 20.10, minus: 19.36}}]}
+      - {value: 187.91, errors: [{asymerror: {plus: 13.03, minus: 24.84}}]}
+      - {value: 173.10, errors: [{asymerror: {plus: 14.09, minus: 22.28}}]}
+      - {value: 158.67, errors: [{asymerror: {plus: 13.73, minus: 21.23}}]}
+      - {value: 138.87, errors: [{asymerror: {plus: 17.99, minus: 15.64}}]}
+      - {value: 123.78, errors: [{asymerror: {plus: 17.19, minus: 15.10}}]}
+      - {value: 109.84, errors: [{asymerror: {plus: 15.29, minus: 15.58}}]}
+      - {value: 94.94, errors: [{asymerror: {plus: 14.77, minus: 14.51}}]}
+      - {value: 80.16, errors: [{asymerror: {plus: 14.92, minus: 12.57}}]}
+      - {value: 70.06, errors: [{asymerror: {plus: 11.44, minus: 14.06}}]}
+      - {value: 59.26, errors: [{asymerror: {plus: 9.92, minus: 13.43}}]}
+      - {value: 48.61, errors: [{asymerror: {plus: 9.57, minus: 11.51}}]}
+      - {value: 41.96, errors: [{asymerror: {plus: 6.59, minus: 12.20}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "35–45%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "93 +/- 5"}
+    values:
+      - {value: 29.88, errors: [{asymerror: {plus: 5.35, minus: 8.56}}]}
+      - {value: 33.69, errors: [{asymerror: {plus: 7.96, minus: 7.43}}]}
+      - {value: 40.90, errors: [{asymerror: {plus: 7.97, minus: 8.85}}]}
+      - {value: 49.88, errors: [{asymerror: {plus: 6.98, minus: 11.16}}]}
+      - {value: 53.22, errors: [{asymerror: {plus: 12.32, minus: 7.02}}]}
+      - {value: 64.48, errors: [{asymerror: {plus: 10.30, minus: 10.08}}]}
+      - {value: 74.36, errors: [{asymerror: {plus: 10.07, minus: 11.21}}]}
+      - {value: 82.29, errors: [{asymerror: {plus: 11.99, minus: 10.09}}]}
+      - {value: 90.22, errors: [{asymerror: {plus: 13.88, minus: 8.94}}]}
+      - {value: 98.83, errors: [{asymerror: {plus: 14.84, minus: 8.73}}]}
+      - {value: 108.68, errors: [{asymerror: {plus: 14.11, minus: 10.26}}]}
+      - {value: 121.95, errors: [{asymerror: {plus: 9.33, minus: 15.91}}]}
+      - {value: 125.49, errors: [{asymerror: {plus: 13.50, minus: 12.68}}]}
+      - {value: 131.56, errors: [{asymerror: {plus: 14.29, minus: 12.88}}]}
+      - {value: 135.85, errors: [{asymerror: {plus: 15.95, minus: 12.20}}]}
+      - {value: 141.71, errors: [{asymerror: {plus: 15.11, minus: 13.95}}]}
+      - {value: 145.56, errors: [{asymerror: {plus: 15.39, minus: 14.50}}]}
+      - {value: 149.14, errors: [{asymerror: {plus: 15.03, minus: 15.50}}]}
+      - {value: 152.07, errors: [{asymerror: {plus: 14.50, minus: 16.48}}]}
+      - {value: 153.67, errors: [{asymerror: {plus: 14.51, minus: 16.69}}]}
+      - {value: 154.10, errors: [{asymerror: {plus: 14.96, minus: 16.20}}]}
+      - {value: 154.84, errors: [{asymerror: {plus: 14.45, minus: 16.42}}]}
+      - {value: 154.53, errors: [{asymerror: {plus: 14.47, minus: 15.91}}]}
+      - {value: 154.14, errors: [{asymerror: {plus: 14.23, minus: 15.52}}]}
+      - {value: 155.65, errors: [{asymerror: {plus: 11.97, minus: 17.13}}]}
+      - {value: 153.00, errors: [{asymerror: {plus: 14.06, minus: 14.57}}]}
+      - {value: 152.97, errors: [{asymerror: {plus: 14.00, minus: 14.49}}]}
+      - {value: 149.79, errors: [{asymerror: {plus: 17.18, minus: 11.31}}]}
+      - {value: 151.78, errors: [{asymerror: {plus: 15.28, minus: 13.36}}]}
+      - {value: 153.50, errors: [{asymerror: {plus: 14.12, minus: 14.98}}]}
+      - {value: 153.10, errors: [{asymerror: {plus: 15.26, minus: 14.48}}]}
+      - {value: 151.99, errors: [{asymerror: {plus: 17.01, minus: 13.36}}]}
+      - {value: 151.42, errors: [{asymerror: {plus: 17.87, minus: 13.00}}]}
+      - {value: 152.74, errors: [{asymerror: {plus: 16.32, minus: 14.84}}]}
+      - {value: 153.20, errors: [{asymerror: {plus: 14.98, minus: 16.22}}]}
+      - {value: 150.98, errors: [{asymerror: {plus: 15.59, minus: 15.39}}]}
+      - {value: 148.73, errors: [{asymerror: {plus: 15.45, minus: 15.09}}]}
+      - {value: 147.04, errors: [{asymerror: {plus: 13.91, minus: 15.97}}]}
+      - {value: 141.78, errors: [{asymerror: {plus: 15.04, minus: 14.02}}]}
+      - {value: 139.30, errors: [{asymerror: {plus: 12.50, minus: 15.64}}]}
+      - {value: 133.31, errors: [{asymerror: {plus: 12.54, minus: 14.62}}]}
+      - {value: 124.38, errors: [{asymerror: {plus: 14.61, minus: 11.57}}]}
+      - {value: 121.21, errors: [{asymerror: {plus: 10.07, minus: 15.18}}]}
+      - {value: 113.97, errors: [{asymerror: {plus: 8.82, minus: 15.55}}]}
+      - {value: 102.34, errors: [{asymerror: {plus: 11.33, minus: 12.24}}]}
+      - {value: 92.81, errors: [{asymerror: {plus: 11.29, minus: 11.53}}]}
+      - {value: 84.12, errors: [{asymerror: {plus: 10.16, minus: 11.92}}]}
+      - {value: 72.66, errors: [{asymerror: {plus: 11.77, minus: 9.51}}]}
+      - {value: 63.86, errors: [{asymerror: {plus: 10.92, minus: 9.46}}]}
+      - {value: 55.00, errors: [{asymerror: {plus: 10.54, minus: 8.80}}]}
+      - {value: 48.91, errors: [{asymerror: {plus: 7.95, minus: 10.20}}]}
+      - {value: 40.96, errors: [{asymerror: {plus: 7.91, minus: 8.91}}]}
+      - {value: 34.00, errors: [{asymerror: {plus: 7.65, minus: 7.74}}]}
+      - {value: 29.30, errors: [{asymerror: {plus: 5.93, minus: 7.98}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "45–55%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "Not Provided"}
+    values:
+      - {value: 19.50, errors: [{asymerror: {plus: 3.96, minus: 5.75}}]}
+      - {value: 22.53, errors: [{asymerror: {plus: 4.98, minus: 5.63}}]}
+      - {value: 27.04, errors: [{asymerror: {plus: 4.96, minus: 6.47}}]}
+      - {value: 31.52, errors: [{asymerror: {plus: 5.39, minus: 6.75}}]}
+      - {value: 35.48, errors: [{asymerror: {plus: 6.72, minus: 6.03}}]}
+      - {value: 39.57, errors: [{asymerror: {plus: 8.20, minus: 5.04}}]}
+      - {value: 47.15, errors: [{asymerror: {plus: 6.36, minus: 7.27}}]}
+      - {value: 51.61, errors: [{asymerror: {plus: 7.71, minus: 6.25}}]}
+      - {value: 55.86, errors: [{asymerror: {plus: 9.20, minus: 5.09}}]}
+      - {value: 62.65, errors: [{asymerror: {plus: 7.96, minus: 6.67}}]}
+      - {value: 66.83, errors: [{asymerror: {plus: 9.03, minus: 6.01}}]}
+      - {value: 75.86, errors: [{asymerror: {plus: 4.86, minus: 10.66}}]}
+      - {value: 76.47, errors: [{asymerror: {plus: 8.65, minus: 7.42}}]}
+      - {value: 80.58, errors: [{asymerror: {plus: 8.45, minus: 8.22}}]}
+      - {value: 83.76, errors: [{asymerror: {plus: 8.64, minus: 8.63}}]}
+      - {value: 86.13, errors: [{asymerror: {plus: 9.13, minus: 8.73}}]}
+      - {value: 88.22, errors: [{asymerror: {plus: 9.36, minus: 9.02}}]}
+      - {value: 89.52, errors: [{asymerror: {plus: 9.89, minus: 8.93}}]}
+      - {value: 91.49, errors: [{asymerror: {plus: 9.26, minus: 9.86}}]}
+      - {value: 91.71, errors: [{asymerror: {plus: 9.92, minus: 9.37}}]}
+      - {value: 93.20, errors: [{asymerror: {plus: 8.90, minus: 10.39}}]}
+      - {value: 92.79, errors: [{asymerror: {plus: 9.42, minus: 9.74}}]}
+      - {value: 92.33, errors: [{asymerror: {plus: 9.67, minus: 9.21}}]}
+      - {value: 93.63, errors: [{asymerror: {plus: 7.95, minus: 10.57}}]}
+      - {value: 93.59, errors: [{asymerror: {plus: 7.54, minus: 10.62}}]}
+      - {value: 90.05, errors: [{asymerror: {plus: 10.72, minus: 7.17}}]}
+      - {value: 92.34, errors: [{asymerror: {plus: 8.38, minus: 9.45}}]}
+      - {value: 91.35, errors: [{asymerror: {plus: 9.37, minus: 8.45}}]}
+      - {value: 91.78, errors: [{asymerror: {plus: 9.00, minus: 8.89}}]}
+      - {value: 91.94, errors: [{asymerror: {plus: 9.18, minus: 8.98}}]}
+      - {value: 90.90, errors: [{asymerror: {plus: 10.68, minus: 7.84}}]}
+      - {value: 92.88, errors: [{asymerror: {plus: 9.11, minus: 9.77}}]}
+      - {value: 91.64, errors: [{asymerror: {plus: 10.56, minus: 8.59}}]}
+      - {value: 91.81, errors: [{asymerror: {plus: 10.29, minus: 9.00}}]}
+      - {value: 92.43, errors: [{asymerror: {plus: 9.21, minus: 10.08}}]}
+      - {value: 91.51, errors: [{asymerror: {plus: 9.24, minus: 9.89}}]}
+      - {value: 90.28, errors: [{asymerror: {plus: 9.12, minus: 9.69}}]}
+      - {value: 87.92, errors: [{asymerror: {plus: 9.66, minus: 8.73}}]}
+      - {value: 85.94, errors: [{asymerror: {plus: 9.32, minus: 8.54}}]}
+      - {value: 83.56, errors: [{asymerror: {plus: 8.84, minus: 8.43}}]}
+      - {value: 80.66, errors: [{asymerror: {plus: 8.37, minus: 8.30}}]}
+      - {value: 77.46, errors: [{asymerror: {plus: 7.67, minus: 8.40}}]}
+      - {value: 76.12, errors: [{asymerror: {plus: 4.60, minus: 10.92}}]}
+      - {value: 70.02, errors: [{asymerror: {plus: 5.84, minus: 9.20}}]}
+      - {value: 63.88, errors: [{asymerror: {plus: 6.73, minus: 7.90}}]}
+      - {value: 57.58, errors: [{asymerror: {plus: 7.47, minus: 6.81}}]}
+      - {value: 51.60, errors: [{asymerror: {plus: 7.72, minus: 6.25}}]}
+      - {value: 45.30, errors: [{asymerror: {plus: 8.21, minus: 5.42}}]}
+      - {value: 40.77, errors: [{asymerror: {plus: 7.00, minus: 6.24}}]}
+      - {value: 35.12, errors: [{asymerror: {plus: 7.08, minus: 5.67}}]}
+      - {value: 32.03, errors: [{asymerror: {plus: 4.89, minus: 7.26}}]}
+      - {value: 26.12, errors: [{asymerror: {plus: 5.88, minus: 5.55}}]}
+      - {value: 22.52, errors: [{asymerror: {plus: 4.98, minus: 5.63}}]}
+      - {value: 19.78, errors: [{asymerror: {plus: 3.67, minus: 6.04}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "0–6%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "340 +/- 11"}
+    values:
+      - {value: 41.29, errors: [{asymerror: {plus: 18.30, minus: 9.02}}]}
+      - {value: 53.20, errors: [{asymerror: {plus: 19.40, minus: 10.23}}]}
+      - {value: 69.21, errors: [{asymerror: {plus: 19.87, minus: 12.42}}]}
+      - {value: 89.79, errors: [{asymerror: {plus: 21.76, minus: 15.39}}]}
+      - {value: 111.36, errors: [{asymerror: {plus: 27.03, minus: 15.02}}]}
+      - {value: 148.54, errors: [{asymerror: {plus: 21.28, minus: 25.54}}]}
+      - {value: 182.05, errors: [{asymerror: {plus: 23.70, minus: 27.66}}]}
+      - {value: 219.80, errors: [{asymerror: {plus: 25.94, minus: 29.78}}]}
+      - {value: 255.87, errors: [{asymerror: {plus: 33.03, minus: 27.05}}]}
+      - {value: 302.01, errors: [{asymerror: {plus: 31.95, minus: 32.79}}]}
+      - {value: 340.32, errors: [{asymerror: {plus: 39.08, minus: 31.02}}]}
+      - {value: 382.04, errors: [{asymerror: {plus: 41.58, minus: 34.77}}]}
+      - {value: 415.75, errors: [{asymerror: {plus: 49.36, minus: 34.12}}]}
+      - {value: 447.63, errors: [{asymerror: {plus: 55.06, minus: 36.18}}]}
+      - {value: 476.02, errors: [{asymerror: {plus: 59.54, minus: 39.64}}]}
+      - {value: 503.43, errors: [{asymerror: {plus: 59.90, minus: 46.91}}]}
+      - {value: 523.42, errors: [{asymerror: {plus: 62.49, minus: 51.14}}]}
+      - {value: 546.02, errors: [{asymerror: {plus: 57.51, minus: 61.75}}]}
+      - {value: 557.25, errors: [{asymerror: {plus: 59.27, minus: 64.17}}]}
+      - {value: 562.20, errors: [{asymerror: {plus: 63.12, minus: 62.91}}]}
+      - {value: 574.83, errors: [{asymerror: {plus: 55.60, minus: 71.41}}]}
+      - {value: 572.77, errors: [{asymerror: {plus: 59.61, minus: 66.85}}]}
+      - {value: 573.11, errors: [{asymerror: {plus: 58.73, minus: 65.93}}]}
+      - {value: 563.58, errors: [{asymerror: {plus: 66.05, minus: 55.98}}]}
+      - {value: 566.55, errors: [{asymerror: {plus: 60.22, minus: 58.98}}]}
+      - {value: 566.54, errors: [{asymerror: {plus: 57.92, minus: 59.07}}]}
+      - {value: 570.80, errors: [{asymerror: {plus: 53.03, minus: 63.15}}]}
+      - {value: 557.18, errors: [{asymerror: {plus: 66.65, minus: 49.52}}]}
+      - {value: 569.61, errors: [{asymerror: {plus: 54.84, minus: 62.14}}]}
+      - {value: 559.17, errors: [{asymerror: {plus: 67.60, minus: 51.60}}]}
+      - {value: 569.71, errors: [{asymerror: {plus: 59.91, minus: 62.11}}]}
+      - {value: 568.39, errors: [{asymerror: {plus: 63.45, minus: 61.21}}]}
+      - {value: 566.97, errors: [{asymerror: {plus: 65.41, minus: 61.06}}]}
+      - {value: 570.95, errors: [{asymerror: {plus: 59.48, minus: 67.53}}]}
+      - {value: 567.01, errors: [{asymerror: {plus: 58.31, minus: 67.72}}]}
+      - {value: 560.09, errors: [{asymerror: {plus: 56.43, minus: 67.01}}]}
+      - {value: 544.52, errors: [{asymerror: {plus: 59.01, minus: 60.25}}]}
+      - {value: 532.84, errors: [{asymerror: {plus: 53.07, minus: 60.56}}]}
+      - {value: 511.34, errors: [{asymerror: {plus: 51.98, minus: 54.83}}]}
+      - {value: 480.93, errors: [{asymerror: {plus: 54.63, minus: 44.55}}]}
+      - {value: 455.51, errors: [{asymerror: {plus: 47.18, minus: 44.05}}]}
+      - {value: 424.93, errors: [{asymerror: {plus: 40.18, minus: 43.29}}]}
+      - {value: 398.32, errors: [{asymerror: {plus: 25.30, minus: 51.05}}]}
+      - {value: 350.66, errors: [{asymerror: {plus: 28.75, minus: 41.35}}]}
+      - {value: 309.84, errors: [{asymerror: {plus: 24.12, minus: 40.63}}]}
+      - {value: 263.64, errors: [{asymerror: {plus: 25.26, minus: 34.81}}]}
+      - {value: 220.47, errors: [{asymerror: {plus: 25.28, minus: 30.44}}]}
+      - {value: 181.65, errors: [{asymerror: {plus: 24.10, minus: 27.26}}]}
+      - {value: 148.39, errors: [{asymerror: {plus: 21.43, minus: 25.39}}]}
+      - {value: 116.95, errors: [{asymerror: {plus: 21.44, minus: 20.61}}]}
+      - {value: 94.64, errors: [{asymerror: {plus: 16.90, minus: 20.24}}]}
+      - {value: 71.44, errors: [{asymerror: {plus: 17.64, minus: 14.65}}]}
+      - {value: 53.41, errors: [{asymerror: {plus: 19.18, minus: 10.45}}]}
+      - {value: 41.16, errors: [{asymerror: {plus: 18.44, minus: 8.89}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "6–15%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "275 +/- 9"}
+    values:
+      - {value: 41.09, errors: [{asymerror: {plus: 13.93, minus: 11.31}}]}
+      - {value: 52.30, errors: [{asymerror: {plus: 13.58, minus: 13.18}}]}
+      - {value: 64.83, errors: [{asymerror: {plus: 14.62, minus: 13.82}}]}
+      - {value: 82.13, errors: [{asymerror: {plus: 15.91, minus: 16.27}}]}
+      - {value: 96.69, errors: [{asymerror: {plus: 23.15, minus: 12.66}}]}
+      - {value: 125.22, errors: [{asymerror: {plus: 19.66, minus: 19.54}}]}
+      - {value: 152.39, errors: [{asymerror: {plus: 20.58, minus: 21.72}}]}
+      - {value: 178.97, errors: [{asymerror: {plus: 24.69, minus: 20.48}}]}
+      - {value: 208.10, errors: [{asymerror: {plus: 28.12, minus: 19.85}}]}
+      - {value: 244.35, errors: [{asymerror: {plus: 25.36, minus: 25.62}}]}
+      - {value: 272.34, errors: [{asymerror: {plus: 30.71, minus: 23.73}}]}
+      - {value: 308.67, errors: [{asymerror: {plus: 26.49, minus: 32.03}}]}
+      - {value: 329.08, errors: [{asymerror: {plus: 35.99, minus: 27.20}}]}
+      - {value: 352.56, errors: [{asymerror: {plus: 39.49, minus: 28.80}}]}
+      - {value: 373.72, errors: [{asymerror: {plus: 41.89, minus: 31.62}}]}
+      - {value: 392.87, errors: [{asymerror: {plus: 42.65, minus: 35.84}}]}
+      - {value: 407.38, errors: [{asymerror: {plus: 44.36, minus: 38.52}}]}
+      - {value: 420.06, errors: [{asymerror: {plus: 44.38, minus: 42.05}}]}
+      - {value: 433.40, errors: [{asymerror: {plus: 40.44, minus: 48.49}}]}
+      - {value: 438.27, errors: [{asymerror: {plus: 41.96, minus: 48.29}}]}
+      - {value: 439.87, errors: [{asymerror: {plus: 44.06, minus: 46.30}}]}
+      - {value: 443.39, errors: [{asymerror: {plus: 41.93, minus: 47.40}}]}
+      - {value: 445.91, errors: [{asymerror: {plus: 38.97, minus: 48.37}}]}
+      - {value: 440.70, errors: [{asymerror: {plus: 42.50, minus: 42.24}}]}
+      - {value: 440.40, errors: [{asymerror: {plus: 40.66, minus: 41.42}}]}
+      - {value: 435.79, errors: [{asymerror: {plus: 43.56, minus: 36.45}}]}
+      - {value: 438.25, errors: [{asymerror: {plus: 40.68, minus: 38.51}}]}
+      - {value: 437.14, errors: [{asymerror: {plus: 41.80, minus: 37.40}}]}
+      - {value: 436.41, errors: [{asymerror: {plus: 42.94, minus: 37.07}}]}
+      - {value: 438.91, errors: [{asymerror: {plus: 42.16, minus: 39.93}}]}
+      - {value: 440.39, errors: [{asymerror: {plus: 42.81, minus: 41.94}}]}
+      - {value: 442.80, errors: [{asymerror: {plus: 42.08, minus: 45.26}}]}
+      - {value: 441.03, errors: [{asymerror: {plus: 44.29, minus: 45.03}}]}
+      - {value: 438.13, errors: [{asymerror: {plus: 45.79, minus: 44.57}}]}
+      - {value: 437.15, errors: [{asymerror: {plus: 43.08, minus: 47.17}}]}
+      - {value: 431.94, errors: [{asymerror: {plus: 41.90, minus: 47.02}}]}
+      - {value: 423.44, errors: [{asymerror: {plus: 41.01, minus: 45.42}}]}
+      - {value: 411.20, errors: [{asymerror: {plus: 40.55, minus: 42.33}}]}
+      - {value: 393.45, errors: [{asymerror: {plus: 42.07, minus: 36.41}}]}
+      - {value: 378.39, errors: [{asymerror: {plus: 37.22, minus: 36.29}}]}
+      - {value: 353.19, errors: [{asymerror: {plus: 38.86, minus: 29.43}}]}
+      - {value: 335.23, errors: [{asymerror: {plus: 29.85, minus: 33.35}}]}
+      - {value: 316.27, errors: [{asymerror: {plus: 18.89, minus: 39.63}}]}
+      - {value: 281.76, errors: [{asymerror: {plus: 21.29, minus: 33.15}}]}
+      - {value: 249.86, errors: [{asymerror: {plus: 19.85, minus: 31.12}}]}
+      - {value: 213.40, errors: [{asymerror: {plus: 22.82, minus: 25.15}}]}
+      - {value: 181.66, errors: [{asymerror: {plus: 22.00, minus: 23.17}}]}
+      - {value: 150.80, errors: [{asymerror: {plus: 22.17, minus: 20.12}}]}
+      - {value: 125.53, errors: [{asymerror: {plus: 19.35, minus: 19.85}}]}
+      - {value: 99.60, errors: [{asymerror: {plus: 20.24, minus: 15.57}}]}
+      - {value: 84.87, errors: [{asymerror: {plus: 13.18, minus: 19.00}}]}
+      - {value: 67.28, errors: [{asymerror: {plus: 12.18, minus: 16.27}}]}
+      - {value: 52.12, errors: [{asymerror: {plus: 13.76, minus: 13.00}}]}
+      - {value: 40.39, errors: [{asymerror: {plus: 14.63, minus: 10.61}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "15–25%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "196 +/- 8"}
+    values:
+      - {value: 37.01, errors: [{asymerror: {plus: 9.18, minus: 12.00}}]}
+      - {value: 44.68, errors: [{asymerror: {plus: 9.22, minus: 12.47}}]}
+      - {value: 54.23, errors: [{asymerror: {plus: 9.19, minus: 13.06}}]}
+      - {value: 65.62, errors: [{asymerror: {plus: 11.27, minus: 13.52}}]}
+      - {value: 74.47, errors: [{asymerror: {plus: 17.90, minus: 9.31}}]}
+      - {value: 93.06, errors: [{asymerror: {plus: 16.76, minus: 12.70}}]}
+      - {value: 112.34, errors: [{asymerror: {plus: 16.71, minus: 14.82}}]}
+      - {value: 132.29, errors: [{asymerror: {plus: 17.44, minus: 16.04}}]}
+      - {value: 151.26, errors: [{asymerror: {plus: 20.13, minus: 15.31}}]}
+      - {value: 174.20, errors: [{asymerror: {plus: 19.25, minus: 18.32}}]}
+      - {value: 193.01, errors: [{asymerror: {plus: 22.24, minus: 17.76}}]}
+      - {value: 218.68, errors: [{asymerror: {plus: 17.52, minus: 25.32}}]}
+      - {value: 228.19, errors: [{asymerror: {plus: 27.53, minus: 18.51}}]}
+      - {value: 246.24, errors: [{asymerror: {plus: 27.17, minus: 22.34}}]}
+      - {value: 259.15, errors: [{asymerror: {plus: 29.81, minus: 23.24}}]}
+      - {value: 272.05, errors: [{asymerror: {plus: 30.18, minus: 26.26}}]}
+      - {value: 281.22, errors: [{asymerror: {plus: 31.95, minus: 27.53}}]}
+      - {value: 291.61, errors: [{asymerror: {plus: 30.25, minus: 31.75}}]}
+      - {value: 297.72, errors: [{asymerror: {plus: 30.69, minus: 33.16}}]}
+      - {value: 302.48, errors: [{asymerror: {plus: 30.50, minus: 34.46}}]}
+      - {value: 303.98, errors: [{asymerror: {plus: 31.77, minus: 33.51}}]}
+      - {value: 304.49, errors: [{asymerror: {plus: 32.46, minus: 32.39}}]}
+      - {value: 307.08, errors: [{asymerror: {plus: 29.80, minus: 33.99}}]}
+      - {value: 306.84, errors: [{asymerror: {plus: 29.11, minus: 33.19}}]}
+      - {value: 304.64, errors: [{asymerror: {plus: 30.04, minus: 30.71}}]}
+      - {value: 302.57, errors: [{asymerror: {plus: 31.12, minus: 28.44}}]}
+      - {value: 300.13, errors: [{asymerror: {plus: 33.45, minus: 25.72}}]}
+      - {value: 302.08, errors: [{asymerror: {plus: 31.49, minus: 27.68}}]}
+      - {value: 303.50, errors: [{asymerror: {plus: 30.19, minus: 29.37}}]}
+      - {value: 305.46, errors: [{asymerror: {plus: 29.21, minus: 31.53}}]}
+      - {value: 304.15, errors: [{asymerror: {plus: 31.79, minus: 30.51}}]}
+      - {value: 303.89, errors: [{asymerror: {plus: 32.99, minus: 30.79}}]}
+      - {value: 304.82, errors: [{asymerror: {plus: 32.12, minus: 32.73}}]}
+      - {value: 302.09, errors: [{asymerror: {plus: 33.66, minus: 31.62}}]}
+      - {value: 302.66, errors: [{asymerror: {plus: 30.32, minus: 34.63}}]}
+      - {value: 299.68, errors: [{asymerror: {plus: 28.73, minus: 35.12}}]}
+      - {value: 292.39, errors: [{asymerror: {plus: 29.47, minus: 32.53}}]}
+      - {value: 283.34, errors: [{asymerror: {plus: 29.83, minus: 29.65}}]}
+      - {value: 272.22, errors: [{asymerror: {plus: 30.00, minus: 26.44}}]}
+      - {value: 262.47, errors: [{asymerror: {plus: 26.49, minus: 26.55}}]}
+      - {value: 246.92, errors: [{asymerror: {plus: 26.49, minus: 23.02}}]}
+      - {value: 232.98, errors: [{asymerror: {plus: 22.75, minus: 23.29}}]}
+      - {value: 220.93, errors: [{asymerror: {plus: 15.27, minus: 27.57}}]}
+      - {value: 200.75, errors: [{asymerror: {plus: 14.51, minus: 25.50}}]}
+      - {value: 178.00, errors: [{asymerror: {plus: 15.45, minus: 22.12}}]}
+      - {value: 155.52, errors: [{asymerror: {plus: 15.87, minus: 19.57}}]}
+      - {value: 132.86, errors: [{asymerror: {plus: 16.87, minus: 16.61}}]}
+      - {value: 110.88, errors: [{asymerror: {plus: 18.16, minus: 13.36}}]}
+      - {value: 92.22, errors: [{asymerror: {plus: 17.60, minus: 11.86}}]}
+      - {value: 75.73, errors: [{asymerror: {plus: 16.64, minus: 10.57}}]}
+      - {value: 65.85, errors: [{asymerror: {plus: 11.04, minus: 13.74}}]}
+      - {value: 53.59, errors: [{asymerror: {plus: 9.83, minus: 12.42}}]}
+      - {value: 44.30, errors: [{asymerror: {plus: 9.60, minus: 12.09}}]}
+      - {value: 35.14, errors: [{asymerror: {plus: 11.05, minus: 10.13}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "25–35%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "136 +/- "}
+    values:
+      - {value: 30.95, errors: [{asymerror: {plus: 5.85, minus: 11.52}}]}
+      - {value: 35.11, errors: [{asymerror: {plus: 6.79, minus: 10.40}}]}
+      - {value: 41.56, errors: [{asymerror: {plus: 6.62, minus: 10.42}}]}
+      - {value: 49.49, errors: [{asymerror: {plus: 8.23, minus: 10.62}}]}
+      - {value: 54.54, errors: [{asymerror: {plus: 13.96, minus: 6.61}}]}
+      - {value: 66.75, errors: [{asymerror: {plus: 13.69, minus: 8.47}}]}
+      - {value: 80.29, errors: [{asymerror: {plus: 13.11, minus: 10.52}}]}
+      - {value: 93.74, errors: [{asymerror: {plus: 13.37, minus: 11.63}}]}
+      - {value: 105.74, errors: [{asymerror: {plus: 15.52, minus: 10.84}}]}
+      - {value: 120.85, errors: [{asymerror: {plus: 14.63, minus: 13.17}}]}
+      - {value: 133.83, errors: [{asymerror: {plus: 15.54, minus: 13.85}}]}
+      - {value: 150.39, errors: [{asymerror: {plus: 12.18, minus: 18.98}}]}
+      - {value: 156.18, errors: [{asymerror: {plus: 18.61, minus: 14.51}}]}
+      - {value: 166.01, errors: [{asymerror: {plus: 19.78, minus: 15.40}}]}
+      - {value: 174.71, errors: [{asymerror: {plus: 20.71, minus: 16.55}}]}
+      - {value: 182.58, errors: [{asymerror: {plus: 21.03, minus: 18.20}}]}
+      - {value: 188.74, errors: [{asymerror: {plus: 21.61, minus: 19.37}}]}
+      - {value: 196.27, errors: [{asymerror: {plus: 19.43, minus: 22.99}}]}
+      - {value: 199.51, errors: [{asymerror: {plus: 20.20, minus: 23.26}}]}
+      - {value: 198.75, errors: [{asymerror: {plus: 23.74, minus: 20.33}}]}
+      - {value: 202.66, errors: [{asymerror: {plus: 21.48, minus: 22.72}}]}
+      - {value: 201.22, errors: [{asymerror: {plus: 23.58, minus: 20.31}}]}
+      - {value: 203.84, errors: [{asymerror: {plus: 20.82, minus: 22.36}}]}
+      - {value: 203.71, errors: [{asymerror: {plus: 20.27, minus: 21.97}}]}
+      - {value: 204.43, errors: [{asymerror: {plus: 18.67, minus: 22.59}}]}
+      - {value: 202.20, errors: [{asymerror: {plus: 20.21, minus: 20.30}}]}
+      - {value: 200.54, errors: [{asymerror: {plus: 21.79, minus: 18.48}}]}
+      - {value: 200.34, errors: [{asymerror: {plus: 21.99, minus: 18.28}}]}
+      - {value: 202.83, errors: [{asymerror: {plus: 19.58, minus: 20.93}}]}
+      - {value: 202.10, errors: [{asymerror: {plus: 20.99, minus: 20.26}}]}
+      - {value: 203.81, errors: [{asymerror: {plus: 20.17, minus: 22.07}}]}
+      - {value: 202.03, errors: [{asymerror: {plus: 22.63, minus: 20.56}}]}
+      - {value: 202.20, errors: [{asymerror: {plus: 22.60, minus: 21.29}}]}
+      - {value: 201.03, errors: [{asymerror: {plus: 23.10, minus: 21.10}}]}
+      - {value: 200.62, errors: [{asymerror: {plus: 21.87, minus: 22.19}}]}
+      - {value: 198.37, errors: [{asymerror: {plus: 21.35, minus: 22.12}}]}
+      - {value: 194.25, errors: [{asymerror: {plus: 21.45, minus: 20.97}}]}
+      - {value: 191.17, errors: [{asymerror: {plus: 19.19, minus: 21.79}}]}
+      - {value: 184.28, errors: [{asymerror: {plus: 19.33, minus: 19.90}}]}
+      - {value: 177.76, errors: [{asymerror: {plus: 17.66, minus: 19.60}}]}
+      - {value: 168.85, errors: [{asymerror: {plus: 16.94, minus: 18.24}}]}
+      - {value: 159.11, errors: [{asymerror: {plus: 15.68, minus: 17.43}}]}
+      - {value: 152.59, errors: [{asymerror: {plus: 9.98, minus: 21.18}}]}
+      - {value: 139.29, errors: [{asymerror: {plus: 10.08, minus: 19.30}}]}
+      - {value: 123.28, errors: [{asymerror: {plus: 12.19, minus: 15.60}}]}
+      - {value: 107.09, errors: [{asymerror: {plus: 14.17, minus: 12.19}}]}
+      - {value: 93.53, errors: [{asymerror: {plus: 13.58, minus: 11.42}}]}
+      - {value: 78.78, errors: [{asymerror: {plus: 14.62, minus: 9.01}}]}
+      - {value: 66.02, errors: [{asymerror: {plus: 14.42, minus: 7.74}}]}
+      - {value: 55.24, errors: [{asymerror: {plus: 13.25, minus: 7.32}}]}
+      - {value: 49.89, errors: [{asymerror: {plus: 7.82, minus: 11.03}}]}
+      - {value: 40.97, errors: [{asymerror: {plus: 7.21, minus: 9.83}}]}
+      - {value: 34.93, errors: [{asymerror: {plus: 6.97, minus: 10.23}}]}
+      - {value: 29.13, errors: [{asymerror: {plus: 7.67, minus: 9.70}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "35–45%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "90 +/- 5"}
+    values:
+      - {value: 23.18, errors: [{asymerror: {plus: 5.71, minus: 8.56}}]}
+      - {value: 26.07, errors: [{asymerror: {plus: 5.66, minus: 7.78}}]}
+      - {value: 30.13, errors: [{asymerror: {plus: 5.13, minus: 7.46}}]}
+      - {value: 35.62, errors: [{asymerror: {plus: 5.89, minus: 7.80}}]}
+      - {value: 38.18, errors: [{asymerror: {plus: 10.26, minus: 4.45}}]}
+      - {value: 45.71, errors: [{asymerror: {plus: 10.28, minus: 5.36}}]}
+      - {value: 54.76, errors: [{asymerror: {plus: 9.29, minus: 7.21}}]}
+      - {value: 63.25, errors: [{asymerror: {plus: 9.22, minus: 8.10}}]}
+      - {value: 70.22, errors: [{asymerror: {plus: 10.84, minus: 7.32}}]}
+      - {value: 80.85, errors: [{asymerror: {plus: 8.78, minus: 10.29}}]}
+      - {value: 87.12, errors: [{asymerror: {plus: 10.85, minus: 9.25}}]}
+      - {value: 99.00, errors: [{asymerror: {plus: 6.90, minus: 14.37}}]}
+      - {value: 100.29, errors: [{asymerror: {plus: 12.97, minus: 9.59}}]}
+      - {value: 107.07, errors: [{asymerror: {plus: 12.84, minus: 11.08}}]}
+      - {value: 112.27, errors: [{asymerror: {plus: 13.52, minus: 11.78}}]}
+      - {value: 117.32, errors: [{asymerror: {plus: 13.52, minus: 13.09}}]}
+      - {value: 120.83, errors: [{asymerror: {plus: 14.23, minus: 13.55}}]}
+      - {value: 124.47, errors: [{asymerror: {plus: 13.98, minus: 14.76}}]}
+      - {value: 125.77, errors: [{asymerror: {plus: 15.28, minus: 14.17}}]}
+      - {value: 127.88, errors: [{asymerror: {plus: 15.01, minus: 14.86}}]}
+      - {value: 127.47, errors: [{asymerror: {plus: 16.56, minus: 13.41}}]}
+      - {value: 131.16, errors: [{asymerror: {plus: 13.41, minus: 16.37}}]}
+      - {value: 131.21, errors: [{asymerror: {plus: 13.37, minus: 15.95}}]}
+      - {value: 130.29, errors: [{asymerror: {plus: 13.97, minus: 14.73}}]}
+      - {value: 130.38, errors: [{asymerror: {plus: 13.42, minus: 14.64}}]}
+      - {value: 128.92, errors: [{asymerror: {plus: 14.54, minus: 13.04}}]}
+      - {value: 128.69, errors: [{asymerror: {plus: 14.81, minus: 12.64}}]}
+      - {value: 129.08, errors: [{asymerror: {plus: 14.41, minus: 13.04}}]}
+      - {value: 128.32, errors: [{asymerror: {plus: 15.14, minus: 12.43}}]}
+      - {value: 130.91, errors: [{asymerror: {plus: 12.89, minus: 15.17}}]}
+      - {value: 129.46, errors: [{asymerror: {plus: 14.80, minus: 13.90}}]}
+      - {value: 129.28, errors: [{asymerror: {plus: 15.31, minus: 14.01}}]}
+      - {value: 128.72, errors: [{asymerror: {plus: 15.85, minus: 13.93}}]}
+      - {value: 129.28, errors: [{asymerror: {plus: 14.75, minus: 15.22}}]}
+      - {value: 127.47, errors: [{asymerror: {plus: 15.42, minus: 14.45}}]}
+      - {value: 127.63, errors: [{asymerror: {plus: 13.41, minus: 16.04}}]}
+      - {value: 124.62, errors: [{asymerror: {plus: 13.83, minus: 14.91}}]}
+      - {value: 122.53, errors: [{asymerror: {plus: 12.53, minus: 15.25}}]}
+      - {value: 117.62, errors: [{asymerror: {plus: 13.23, minus: 13.38}}]}
+      - {value: 114.84, errors: [{asymerror: {plus: 10.95, minus: 14.34}}]}
+      - {value: 106.33, errors: [{asymerror: {plus: 13.58, minus: 10.34}}]}
+      - {value: 101.51, errors: [{asymerror: {plus: 11.74, minus: 10.82}}]}
+      - {value: 98.25, errors: [{asymerror: {plus: 7.65, minus: 13.62}}]}
+      - {value: 91.29, errors: [{asymerror: {plus: 6.68, minus: 13.42}}]}
+      - {value: 80.88, errors: [{asymerror: {plus: 8.75, minus: 10.32}}]}
+      - {value: 71.12, errors: [{asymerror: {plus: 9.94, minus: 8.21}}]}
+      - {value: 63.96, errors: [{asymerror: {plus: 8.51, minus: 8.81}}]}
+      - {value: 53.37, errors: [{asymerror: {plus: 10.68, minus: 5.82}}]}
+      - {value: 44.92, errors: [{asymerror: {plus: 11.07, minus: 4.57}}]}
+      - {value: 38.20, errors: [{asymerror: {plus: 10.24, minus: 4.47}}]}
+      - {value: 36.07, errors: [{asymerror: {plus: 5.44, minus: 8.26}}]}
+      - {value: 30.69, errors: [{asymerror: {plus: 4.58, minus: 8.02}}]}
+      - {value: 25.92, errors: [{asymerror: {plus: 5.80, minus: 7.64}}]}
+      - {value: 22.43, errors: [{asymerror: {plus: 6.45, minus: 7.81}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "45–55%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "Not Provided"}
+    values:
+      - {value: 15.51, errors: [{asymerror: {plus: 5.56, minus: 5.93}}]}
+      - {value: 16.90, errors: [{asymerror: {plus: 5.25, minus: 4.94}}]}
+      - {value: 20.41, errors: [{asymerror: {plus: 3.19, minus: 5.65}}]}
+      - {value: 23.98, errors: [{asymerror: {plus: 3.46, minus: 5.94}}]}
+      - {value: 25.19, errors: [{asymerror: {plus: 6.46, minus: 3.41}}]}
+      - {value: 29.04, errors: [{asymerror: {plus: 7.13, minus: 3.11}}]}
+      - {value: 34.65, errors: [{asymerror: {plus: 6.29, minus: 4.25}}]}
+      - {value: 40.34, errors: [{asymerror: {plus: 5.52, minus: 5.28}}]}
+      - {value: 45.66, errors: [{asymerror: {plus: 5.19, minus: 5.89}}]}
+      - {value: 49.78, errors: [{asymerror: {plus: 6.00, minus: 5.40}}]}
+      - {value: 54.66, errors: [{asymerror: {plus: 5.90, minus: 5.93}}]}
+      - {value: 61.11, errors: [{asymerror: {plus: 3.99, minus: 8.38}}]}
+      - {value: 61.77, errors: [{asymerror: {plus: 7.52, minus: 5.49}}]}
+      - {value: 64.70, errors: [{asymerror: {plus: 8.39, minus: 5.35}}]}
+      - {value: 68.40, errors: [{asymerror: {plus: 8.06, minus: 6.46}}]}
+      - {value: 71.18, errors: [{asymerror: {plus: 8.18, minus: 7.10}}]}
+      - {value: 73.95, errors: [{asymerror: {plus: 7.85, minus: 8.14}}]}
+      - {value: 76.34, errors: [{asymerror: {plus: 7.43, minus: 9.17}}]}
+      - {value: 77.97, errors: [{asymerror: {plus: 7.32, minus: 9.76}}]}
+      - {value: 77.05, errors: [{asymerror: {plus: 9.33, minus: 8.07}}]}
+      - {value: 78.65, errors: [{asymerror: {plus: 8.42, minus: 9.11}}]}
+      - {value: 79.27, errors: [{asymerror: {plus: 8.13, minus: 9.38}}]}
+      - {value: 80.29, errors: [{asymerror: {plus: 7.13, minus: 10.18}}]}
+      - {value: 79.81, errors: [{asymerror: {plus: 7.43, minus: 9.59}}]}
+      - {value: 78.32, errors: [{asymerror: {plus: 8.68, minus: 8.04}}]}
+      - {value: 77.64, errors: [{asymerror: {plus: 9.17, minus: 7.33}}]}
+      - {value: 77.33, errors: [{asymerror: {plus: 9.53, minus: 6.95}}]}
+      - {value: 77.69, errors: [{asymerror: {plus: 9.17, minus: 7.31}}]}
+      - {value: 76.82, errors: [{asymerror: {plus: 9.99, minus: 6.51}}]}
+      - {value: 78.91, errors: [{asymerror: {plus: 8.09, minus: 8.63}}]}
+      - {value: 79.27, errors: [{asymerror: {plus: 7.97, minus: 9.05}}]}
+      - {value: 78.97, errors: [{asymerror: {plus: 8.46, minus: 8.86}}]}
+      - {value: 78.77, errors: [{asymerror: {plus: 8.63, minus: 8.87}}]}
+      - {value: 78.20, errors: [{asymerror: {plus: 8.88, minus: 8.66}}]}
+      - {value: 76.48, errors: [{asymerror: {plus: 9.91, minus: 7.49}}]}
+      - {value: 76.64, errors: [{asymerror: {plus: 8.65, minus: 8.43}}]}
+      - {value: 76.13, errors: [{asymerror: {plus: 7.64, minus: 8.96}}]}
+      - {value: 73.81, errors: [{asymerror: {plus: 7.99, minus: 8.00}}]}
+      - {value: 72.60, errors: [{asymerror: {plus: 6.76, minus: 8.52}}]}
+      - {value: 69.79, errors: [{asymerror: {plus: 6.67, minus: 7.85}}]}
+      - {value: 66.01, errors: [{asymerror: {plus: 7.08, minus: 6.66}}]}
+      - {value: 62.61, errors: [{asymerror: {plus: 6.68, minus: 6.34}}]}
+      - {value: 61.16, errors: [{asymerror: {plus: 3.93, minus: 8.43}}]}
+      - {value: 55.82, errors: [{asymerror: {plus: 4.74, minus: 7.09}}]}
+      - {value: 49.99, errors: [{asymerror: {plus: 5.79, minus: 5.61}}]}
+      - {value: 45.42, errors: [{asymerror: {plus: 5.43, minus: 5.65}}]}
+      - {value: 39.64, errors: [{asymerror: {plus: 6.22, minus: 4.58}}]}
+      - {value: 34.19, errors: [{asymerror: {plus: 6.75, minus: 3.80}}]}
+      - {value: 28.87, errors: [{asymerror: {plus: 7.30, minus: 2.94}}]}
+      - {value: 24.46, errors: [{asymerror: {plus: 7.20, minus: 2.68}}]}
+      - {value: 24.34, errors: [{asymerror: {plus: 3.10, minus: 6.30}}]}
+      - {value: 20.07, errors: [{asymerror: {plus: 3.53, minus: 5.31}}]}
+      - {value: 16.94, errors: [{asymerror: {plus: 5.20, minus: 4.99}}]}
+      - {value: 14.91, errors: [{asymerror: {plus: 6.16, minus: 5.33}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "0–6%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.6"}
+      - {name: "$N_{part}$", value: "337 +/- 12"}
+    values:
+      - {value: 4.68, errors: [{asymerror: {plus: 0.96, minus: 4.68}}]}
+      - {value: 5.64, errors: [{asymerror: {plus: 2.73, minus: 5.64}}]}
+      - {value: 7.44, errors: [{asymerror: {plus: 4.07, minus: 6.58}}]}
+      - {value: 10.30, errors: [{asymerror: {plus: 4.86, minus: 7.25}}]}
+      - {value: 11.42, errors: [{asymerror: {plus: 8.01, minus: 5.67}}]}
+      - {value: 14.51, errors: [{asymerror: {plus: 9.98, minus: 5.36}}]}
+      - {value: 19.51, errors: [{asymerror: {plus: 11.01, minus: 6.04}}]}
+      - {value: 27.23, errors: [{asymerror: {plus: 10.58, minus: 8.49}}]}
+      - {value: 33.06, errors: [{asymerror: {plus: 13.64, minus: 7.70}}]}
+      - {value: 45.63, errors: [{asymerror: {plus: 12.00, minus: 11.50}}]}
+      - {value: 61.82, errors: [{asymerror: {plus: 9.28, minus: 16.23}}]}
+      - {value: 79.54, errors: [{asymerror: {plus: 8.14, minus: 19.26}}]}
+      - {value: 88.64, errors: [{asymerror: {plus: 19.28, minus: 10.02}}]}
+      - {value: 114.95, errors: [{asymerror: {plus: 17.23, minus: 14.27}}]}
+      - {value: 144.15, errors: [{asymerror: {plus: 16.32, minus: 18.12}}]}
+      - {value: 175.04, errors: [{asymerror: {plus: 17.23, minus: 21.40}}]}
+      - {value: 205.20, errors: [{asymerror: {plus: 21.18, minus: 23.20}}]}
+      - {value: 236.86, errors: [{asymerror: {plus: 24.11, minus: 27.48}}]}
+      - {value: 265.75, errors: [{asymerror: {plus: 28.16, minus: 31.55}}]}
+      - {value: 291.83, errors: [{asymerror: {plus: 31.29, minus: 36.44}}]}
+      - {value: 308.74, errors: [{asymerror: {plus: 38.34, minus: 36.26}}]}
+      - {value: 328.53, errors: [{asymerror: {plus: 36.46, minus: 43.01}}]}
+      - {value: 342.30, errors: [{asymerror: {plus: 34.55, minus: 47.37}}]}
+      - {value: 343.87, errors: [{asymerror: {plus: 39.45, minus: 42.57}}]}
+      - {value: 348.63, errors: [{asymerror: {plus: 37.10, minus: 43.28}}]}
+      - {value: 349.92, errors: [{asymerror: {plus: 36.11, minus: 42.03}}]}
+      - {value: 347.37, errors: [{asymerror: {plus: 39.53, minus: 37.59}}]}
+      - {value: 346.65, errors: [{asymerror: {plus: 40.24, minus: 36.88}}]}
+      - {value: 346.41, errors: [{asymerror: {plus: 39.62, minus: 38.52}}]}
+      - {value: 342.03, errors: [{asymerror: {plus: 43.70, minus: 36.68}}]}
+      - {value: 343.55, errors: [{asymerror: {plus: 39.76, minus: 42.26}}]}
+      - {value: 330.89, errors: [{asymerror: {plus: 45.96, minus: 35.97}}]}
+      - {value: 321.19, errors: [{asymerror: {plus: 43.80, minus: 35.67}}]}
+      - {value: 303.62, errors: [{asymerror: {plus: 43.46, minus: 31.14}}]}
+      - {value: 286.45, errors: [{asymerror: {plus: 36.67, minus: 31.06}}]}
+      - {value: 266.12, errors: [{asymerror: {plus: 27.79, minus: 31.92}}]}
+      - {value: 236.08, errors: [{asymerror: {plus: 24.90, minus: 26.70}}]}
+      - {value: 204.81, errors: [{asymerror: {plus: 21.57, minus: 22.80}}]}
+      - {value: 171.21, errors: [{asymerror: {plus: 21.06, minus: 17.57}}]}
+      - {value: 140.79, errors: [{asymerror: {plus: 19.68, minus: 14.77}}]}
+      - {value: 113.80, errors: [{asymerror: {plus: 18.37, minus: 13.13}}]}
+      - {value: 90.11, errors: [{asymerror: {plus: 17.81, minus: 11.49}}]}
+      - {value: 72.81, errors: [{asymerror: {plus: 14.87, minus: 12.53}}]}
+      - {value: 63.81, errors: [{asymerror: {plus: 7.30, minus: 18.22}}]}
+      - {value: 47.41, errors: [{asymerror: {plus: 10.22, minus: 13.29}}]}
+      - {value: 37.39, errors: [{asymerror: {plus: 9.31, minus: 12.04}}]}
+      - {value: 30.33, errors: [{asymerror: {plus: 7.48, minus: 11.59}}]}
+      - {value: 22.97, errors: [{asymerror: {plus: 7.55, minus: 9.50}}]}
+      - {value: 18.75, errors: [{asymerror: {plus: 5.74, minus: 9.59}}]}
+      - {value: 13.09, errors: [{asymerror: {plus: 6.35, minus: 7.33}}]}
+      - {value: 9.53, errors: [{asymerror: {plus: 5.62, minus: 6.48}}]}
+      - {value: 7.04, errors: [{asymerror: {plus: 4.47, minus: 6.19}}]}
+      - {value: 5.35, errors: [{asymerror: {plus: 3.01, minus: 5.35}}]}
+      - {value: 4.53, errors: [{asymerror: {plus: 1.10, minus: 4.53}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "6–15%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.6"}
+      - {name: "$N_{part}$", value: "265 +/- 11"}
+    values:
+      - {value: 7.97, errors: [{asymerror: {plus: 3.85, minus: 7.97}}]}
+      - {value: 9.66, errors: [{asymerror: {plus: 4.89, minus: 8.37}}]}
+      - {value: 12.19, errors: [{asymerror: {plus: 5.40, minus: 8.83}}]}
+      - {value: 13.57, errors: [{asymerror: {plus: 7.43, minus: 7.79}}]}
+      - {value: 15.87, errors: [{asymerror: {plus: 8.97, minus: 7.23}}]}
+      - {value: 19.13, errors: [{asymerror: {plus: 10.09, minus: 7.06}}]}
+      - {value: 24.56, errors: [{asymerror: {plus: 9.73, minus: 8.29}}]}
+      - {value: 31.27, errors: [{asymerror: {plus: 8.94, minus: 10.14}}]}
+      - {value: 32.77, errors: [{asymerror: {plus: 14.47, minus: 5.84}}]}
+      - {value: 44.41, errors: [{asymerror: {plus: 11.27, minus: 10.11}}]}
+      - {value: 58.10, errors: [{asymerror: {plus: 7.83, minus: 14.50}}]}
+      - {value: 70.52, errors: [{asymerror: {plus: 7.84, minus: 15.42}}]}
+      - {value: 77.68, errors: [{asymerror: {plus: 15.72, minus: 8.61}}]}
+      - {value: 97.61, errors: [{asymerror: {plus: 13.71, minus: 12.14}}]}
+      - {value: 118.28, errors: [{asymerror: {plus: 13.87, minus: 14.25}}]}
+      - {value: 140.66, errors: [{asymerror: {plus: 14.86, minus: 16.60}}]}
+      - {value: 163.59, errors: [{asymerror: {plus: 16.94, minus: 19.01}}]}
+      - {value: 187.17, errors: [{asymerror: {plus: 18.63, minus: 22.74}}]}
+      - {value: 209.40, errors: [{asymerror: {plus: 20.34, minus: 26.84}}]}
+      - {value: 225.59, errors: [{asymerror: {plus: 25.22, minus: 27.44}}]}
+      - {value: 239.03, errors: [{asymerror: {plus: 28.83, minus: 28.29}}]}
+      - {value: 253.58, errors: [{asymerror: {plus: 26.73, minus: 33.34}}]}
+      - {value: 261.46, errors: [{asymerror: {plus: 26.79, minus: 34.58}}]}
+      - {value: 263.74, errors: [{asymerror: {plus: 28.54, minus: 32.64}}]}
+      - {value: 265.73, errors: [{asymerror: {plus: 27.72, minus: 32.26}}]}
+      - {value: 264.54, errors: [{asymerror: {plus: 28.78, minus: 29.81}}]}
+      - {value: 265.72, errors: [{asymerror: {plus: 28.20, minus: 29.84}}]}
+      - {value: 263.36, errors: [{asymerror: {plus: 30.56, minus: 27.48}}]}
+      - {value: 262.90, errors: [{asymerror: {plus: 30.42, minus: 28.16}}]}
+      - {value: 261.29, errors: [{asymerror: {plus: 32.16, minus: 27.82}}]}
+      - {value: 261.62, errors: [{asymerror: {plus: 30.65, minus: 30.52}}]}
+      - {value: 258.36, errors: [{asymerror: {plus: 29.89, minus: 31.47}}]}
+      - {value: 244.17, errors: [{asymerror: {plus: 36.15, minus: 23.93}}]}
+      - {value: 232.84, errors: [{asymerror: {plus: 35.01, minus: 22.11}}]}
+      - {value: 222.50, errors: [{asymerror: {plus: 28.31, minus: 24.36}}]}
+      - {value: 207.15, errors: [{asymerror: {plus: 22.59, minus: 24.58}}]}
+      - {value: 186.14, errors: [{asymerror: {plus: 19.67, minus: 21.70}}]}
+      - {value: 161.39, errors: [{asymerror: {plus: 19.13, minus: 16.82}}]}
+      - {value: 138.79, errors: [{asymerror: {plus: 16.73, minus: 14.73}}]}
+      - {value: 117.24, errors: [{asymerror: {plus: 14.92, minus: 13.21}}]}
+      - {value: 97.31, errors: [{asymerror: {plus: 14.01, minus: 11.83}}]}
+      - {value: 78.82, errors: [{asymerror: {plus: 14.58, minus: 9.75}}]}
+      - {value: 65.53, errors: [{asymerror: {plus: 12.83, minus: 10.42}}]}
+      - {value: 57.56, errors: [{asymerror: {plus: 8.36, minus: 13.97}}]}
+      - {value: 46.35, errors: [{asymerror: {plus: 9.33, minus: 12.05}}]}
+      - {value: 37.84, errors: [{asymerror: {plus: 9.40, minus: 10.90}}]}
+      - {value: 33.00, errors: [{asymerror: {plus: 7.20, minus: 11.87}}]}
+      - {value: 25.90, errors: [{asymerror: {plus: 8.38, minus: 9.63}}]}
+      - {value: 23.16, errors: [{asymerror: {plus: 6.06, minus: 11.09}}]}
+      - {value: 16.79, errors: [{asymerror: {plus: 8.05, minus: 8.15}}]}
+      - {value: 14.51, errors: [{asymerror: {plus: 6.49, minus: 8.73}}]}
+      - {value: 11.57, errors: [{asymerror: {plus: 6.02, minus: 8.21}}]}
+      - {value: 9.57, errors: [{asymerror: {plus: 4.99, minus: 8.28}}]}
+      - {value: 8.37, errors: [{asymerror: {plus: 3.45, minus: 8.37}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "15–25%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.6"}
+      - {name: "$N_{part}$", value: "194 +/- 12"}
+    values:
+      - {value: 14.55, errors: [{asymerror: {plus: 8.21, minus: 13.80}}]}
+      - {value: 15.52, errors: [{asymerror: {plus: 8.71, minus: 12.14}}]}
+      - {value: 17.84, errors: [{asymerror: {plus: 8.02, minus: 11.80}}]}
+      - {value: 19.62, errors: [{asymerror: {plus: 8.10, minus: 10.85}}]}
+      - {value: 19.72, errors: [{asymerror: {plus: 10.10, minus: 8.11}}]}
+      - {value: 21.82, errors: [{asymerror: {plus: 10.44, minus: 7.18}}]}
+      - {value: 26.17, errors: [{asymerror: {plus: 8.97, minus: 8.18}}]}
+      - {value: 30.75, errors: [{asymerror: {plus: 7.84, minus: 9.25}}]}
+      - {value: 31.23, errors: [{asymerror: {plus: 11.58, minus: 5.85}}]}
+      - {value: 39.35, errors: [{asymerror: {plus: 8.69, minus: 9.16}}]}
+      - {value: 48.78, errors: [{asymerror: {plus: 5.80, minus: 12.55}}]}
+      - {value: 56.93, errors: [{asymerror: {plus: 5.86, minus: 13.11}}]}
+      - {value: 60.36, errors: [{asymerror: {plus: 12.64, minus: 7.17}}]}
+      - {value: 73.69, errors: [{asymerror: {plus: 11.78, minus: 9.21}}]}
+      - {value: 88.54, errors: [{asymerror: {plus: 11.64, minus: 10.99}}]}
+      - {value: 106.23, errors: [{asymerror: {plus: 10.56, minus: 14.27}}]}
+      - {value: 122.21, errors: [{asymerror: {plus: 12.29, minus: 15.28}}]}
+      - {value: 137.06, errors: [{asymerror: {plus: 15.11, minus: 15.57}}]}
+      - {value: 153.18, errors: [{asymerror: {plus: 15.36, minus: 18.51}}]}
+      - {value: 163.18, errors: [{asymerror: {plus: 19.38, minus: 17.45}}]}
+      - {value: 174.15, errors: [{asymerror: {plus: 19.39, minus: 19.93}}]}
+      - {value: 180.70, errors: [{asymerror: {plus: 20.61, minus: 20.56}}]}
+      - {value: 186.57, errors: [{asymerror: {plus: 19.52, minus: 22.80}}]}
+      - {value: 189.36, errors: [{asymerror: {plus: 19.03, minus: 23.75}}]}
+      - {value: 188.05, errors: [{asymerror: {plus: 20.90, minus: 21.72}}]}
+      - {value: 187.61, errors: [{asymerror: {plus: 21.11, minus: 20.91}}]}
+      - {value: 188.85, errors: [{asymerror: {plus: 19.97, minus: 21.31}}]}
+      - {value: 187.63, errors: [{asymerror: {plus: 21.19, minus: 20.10}}]}
+      - {value: 186.60, errors: [{asymerror: {plus: 22.11, minus: 19.91}}]}
+      - {value: 187.47, errors: [{asymerror: {plus: 21.48, minus: 21.14}}]}
+      - {value: 186.07, errors: [{asymerror: {plus: 22.32, minus: 20.47}}]}
+      - {value: 185.90, errors: [{asymerror: {plus: 20.18, minus: 22.14}}]}
+      - {value: 178.10, errors: [{asymerror: {plus: 23.21, minus: 17.96}}]}
+      - {value: 172.43, errors: [{asymerror: {plus: 21.12, minus: 18.20}}]}
+      - {value: 162.85, errors: [{asymerror: {plus: 19.71, minus: 17.12}}]}
+      - {value: 152.15, errors: [{asymerror: {plus: 16.40, minus: 17.47}}]}
+      - {value: 137.27, errors: [{asymerror: {plus: 14.90, minus: 15.78}}]}
+      - {value: 120.69, errors: [{asymerror: {plus: 13.80, minus: 13.77}}]}
+      - {value: 103.33, errors: [{asymerror: {plus: 13.46, minus: 11.37}}]}
+      - {value: 88.82, errors: [{asymerror: {plus: 11.36, minus: 11.27}}]}
+      - {value: 73.98, errors: [{asymerror: {plus: 11.49, minus: 9.49}}]}
+      - {value: 61.33, errors: [{asymerror: {plus: 11.67, minus: 8.14}}]}
+      - {value: 52.10, errors: [{asymerror: {plus: 10.69, minus: 8.29}}]}
+      - {value: 45.96, errors: [{asymerror: {plus: 8.62, minus: 9.73}}]}
+      - {value: 39.80, errors: [{asymerror: {plus: 8.24, minus: 9.61}}]}
+      - {value: 33.33, errors: [{asymerror: {plus: 9.48, minus: 7.96}}]}
+      - {value: 33.66, errors: [{asymerror: {plus: 4.94, minus: 12.16}}]}
+      - {value: 27.23, errors: [{asymerror: {plus: 7.91, minus: 9.24}}]}
+      - {value: 24.78, errors: [{asymerror: {plus: 7.49, minus: 10.13}}]}
+      - {value: 20.32, errors: [{asymerror: {plus: 9.50, minus: 8.72}}]}
+      - {value: 19.33, errors: [{asymerror: {plus: 8.38, minus: 10.56}}]}
+      - {value: 16.65, errors: [{asymerror: {plus: 9.22, minus: 10.60}}]}
+      - {value: 15.43, errors: [{asymerror: {plus: 8.80, minus: 12.05}}]}
+      - {value: 14.10, errors: [{asymerror: {plus: 8.66, minus: 13.34}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "25–35%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.5"}
+      - {name: "$N_{part}$", value: "138 +/- 13"}
+    values:
+      - {value: 21.40, errors: [{asymerror: {plus: 12.21, minus: 19.13}}]}
+      - {value: 21.64, errors: [{asymerror: {plus: 12.07, minus: 16.76}}]}
+      - {value: 22.35, errors: [{asymerror: {plus: 11.53, minus: 14.90}}]}
+      - {value: 23.02, errors: [{asymerror: {plus: 11.09, minus: 13.04}}]}
+      - {value: 21.73, errors: [{asymerror: {plus: 12.73, minus: 9.21}}]}
+      - {value: 22.73, errors: [{asymerror: {plus: 12.25, minus: 7.63}}]}
+      - {value: 25.79, errors: [{asymerror: {plus: 9.95, minus: 8.00}}]}
+      - {value: 29.71, errors: [{asymerror: {plus: 7.16, minus: 9.34}}]}
+      - {value: 29.40, errors: [{asymerror: {plus: 9.11, minus: 6.43}}]}
+      - {value: 34.02, errors: [{asymerror: {plus: 6.86, minus: 7.94}}]}
+      - {value: 39.87, errors: [{asymerror: {plus: 4.38, minus: 9.99}}]}
+      - {value: 44.73, errors: [{asymerror: {plus: 4.20, minus: 10.13}}]}
+      - {value: 45.40, errors: [{asymerror: {plus: 9.80, minus: 4.98}}]}
+      - {value: 54.81, errors: [{asymerror: {plus: 8.46, minus: 7.33}}]}
+      - {value: 65.16, errors: [{asymerror: {plus: 7.92, minus: 9.41}}]}
+      - {value: 75.91, errors: [{asymerror: {plus: 8.29, minus: 10.92}}]}
+      - {value: 86.03, errors: [{asymerror: {plus: 9.86, minus: 11.25}}]}
+      - {value: 96.84, errors: [{asymerror: {plus: 10.41, minus: 12.39}}]}
+      - {value: 107.60, errors: [{asymerror: {plus: 9.86, minus: 14.27}}]}
+      - {value: 113.28, errors: [{asymerror: {plus: 12.72, minus: 12.49}}]}
+      - {value: 119.04, errors: [{asymerror: {plus: 13.67, minus: 12.60}}]}
+      - {value: 123.88, errors: [{asymerror: {plus: 13.74, minus: 13.70}}]}
+      - {value: 128.17, errors: [{asymerror: {plus: 12.72, minus: 16.00}}]}
+      - {value: 129.20, errors: [{asymerror: {plus: 13.42, minus: 16.38}}]}
+      - {value: 128.77, errors: [{asymerror: {plus: 14.25, minus: 16.07}}]}
+      - {value: 126.71, errors: [{asymerror: {plus: 15.65, minus: 14.21}}]}
+      - {value: 128.00, errors: [{asymerror: {plus: 13.45, minus: 14.97}}]}
+      - {value: 125.71, errors: [{asymerror: {plus: 15.75, minus: 12.68}}]}
+      - {value: 127.16, errors: [{asymerror: {plus: 15.20, minus: 14.66}}]}
+      - {value: 127.85, errors: [{asymerror: {plus: 15.17, minus: 15.15}}]}
+      - {value: 127.61, errors: [{asymerror: {plus: 15.01, minus: 14.79}}]}
+      - {value: 127.52, errors: [{asymerror: {plus: 13.36, minus: 15.35}}]}
+      - {value: 122.68, errors: [{asymerror: {plus: 14.95, minus: 12.50}}]}
+      - {value: 117.35, errors: [{asymerror: {plus: 15.36, minus: 10.91}}]}
+      - {value: 111.71, errors: [{asymerror: {plus: 14.29, minus: 10.92}}]}
+      - {value: 104.97, errors: [{asymerror: {plus: 12.48, minus: 11.64}}]}
+      - {value: 95.35, errors: [{asymerror: {plus: 11.90, minus: 10.90}}]}
+      - {value: 85.66, errors: [{asymerror: {plus: 10.23, minus: 10.88}}]}
+      - {value: 74.29, errors: [{asymerror: {plus: 9.92, minus: 9.29}}]}
+      - {value: 63.83, errors: [{asymerror: {plus: 9.25, minus: 8.08}}]}
+      - {value: 54.07, errors: [{asymerror: {plus: 9.20, minus: 6.59}}]}
+      - {value: 46.43, errors: [{asymerror: {plus: 8.77, minus: 6.01}}]}
+      - {value: 40.49, errors: [{asymerror: {plus: 8.44, minus: 5.89}}]}
+      - {value: 38.87, errors: [{asymerror: {plus: 5.39, minus: 8.98}}]}
+      - {value: 32.62, errors: [{asymerror: {plus: 8.26, minus: 6.55}}]}
+      - {value: 29.74, errors: [{asymerror: {plus: 8.77, minus: 6.77}}]}
+      - {value: 31.59, errors: [{asymerror: {plus: 5.28, minus: 11.22}}]}
+      - {value: 26.80, errors: [{asymerror: {plus: 8.94, minus: 9.02}}]}
+      - {value: 26.03, errors: [{asymerror: {plus: 8.95, minus: 10.93}}]}
+      - {value: 21.97, errors: [{asymerror: {plus: 12.49, minus: 9.44}}]}
+      - {value: 22.88, errors: [{asymerror: {plus: 11.23, minus: 12.90}}]}
+      - {value: 20.92, errors: [{asymerror: {plus: 12.95, minus: 13.47}}]}
+      - {value: 22.25, errors: [{asymerror: {plus: 11.47, minus: 17.37}}]}
+      - {value: 22.19, errors: [{asymerror: {plus: 11.42, minus: 19.92}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "35–45%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.5"}
+      - {name: "$N_{part}$", value: "Not Provided"}
+    values:
+      - {value: 22.01, errors: [{asymerror: {plus: 12.49, minus: 14.80}}]}
+      - {value: 22.84, errors: [{asymerror: {plus: 11.66, minus: 14.82}}]}
+      - {value: 24.14, errors: [{asymerror: {plus: 10.36, minus: 15.25}}]}
+      - {value: 24.32, errors: [{asymerror: {plus: 10.21, minus: 14.44}}]}
+      - {value: 21.42, errors: [{asymerror: {plus: 13.13, minus: 10.44}}]}
+      - {value: 20.75, errors: [{asymerror: {plus: 13.85, minus: 8.49}}]}
+      - {value: 23.74, errors: [{asymerror: {plus: 10.94, minus: 9.96}}]}
+      - {value: 26.17, errors: [{asymerror: {plus: 8.65, minus: 10.89}}]}
+      - {value: 24.48, errors: [{asymerror: {plus: 10.60, minus: 7.61}}]}
+      - {value: 27.42, errors: [{asymerror: {plus: 8.11, minus: 8.49}}]}
+      - {value: 29.98, errors: [{asymerror: {plus: 6.32, minus: 8.42}}]}
+      - {value: 33.33, errors: [{asymerror: {plus: 4.29, minus: 8.50}}]}
+      - {value: 32.07, errors: [{asymerror: {plus: 7.72, minus: 3.32}}]}
+      - {value: 37.52, errors: [{asymerror: {plus: 5.69, minus: 4.22}}]}
+      - {value: 43.22, errors: [{asymerror: {plus: 4.99, minus: 4.89}}]}
+      - {value: 49.63, errors: [{asymerror: {plus: 5.15, minus: 5.99}}]}
+      - {value: 56.20, errors: [{asymerror: {plus: 6.10, minus: 7.25}}]}
+      - {value: 62.36, errors: [{asymerror: {plus: 7.32, minus: 8.36}}]}
+      - {value: 68.02, errors: [{asymerror: {plus: 7.87, minus: 9.44}}]}
+      - {value: 71.88, errors: [{asymerror: {plus: 8.63, minus: 9.33}}]}
+      - {value: 73.98, errors: [{asymerror: {plus: 9.70, minus: 8.12}}]}
+      - {value: 78.24, errors: [{asymerror: {plus: 7.61, minus: 9.72}}]}
+      - {value: 78.99, errors: [{asymerror: {plus: 8.48, minus: 8.40}}]}
+      - {value: 79.88, errors: [{asymerror: {plus: 9.02, minus: 7.87}}]}
+      - {value: 81.44, errors: [{asymerror: {plus: 8.76, minus: 9.15}}]}
+      - {value: 81.58, errors: [{asymerror: {plus: 9.04, minus: 11.50}}]}
+      - {value: 79.15, errors: [{asymerror: {plus: 9.72, minus: 8.95}}]}
+      - {value: 80.31, errors: [{asymerror: {plus: 8.55, minus: 10.12}}]}
+      - {value: 79.46, errors: [{asymerror: {plus: 11.17, minus: 9.37}}]}
+      - {value: 80.12, errors: [{asymerror: {plus: 10.08, minus: 7.82}}]}
+      - {value: 80.00, errors: [{asymerror: {plus: 8.90, minus: 7.99}}]}
+      - {value: 79.22, errors: [{asymerror: {plus: 8.24, minus: 8.63}}]}
+      - {value: 77.15, errors: [{asymerror: {plus: 8.70, minus: 8.62}}]}
+      - {value: 74.81, errors: [{asymerror: {plus: 8.88, minus: 8.95}}]}
+      - {value: 71.89, errors: [{asymerror: {plus: 8.62, minus: 9.34}}]}
+      - {value: 66.63, errors: [{asymerror: {plus: 9.26, minus: 8.05}}]}
+      - {value: 62.61, errors: [{asymerror: {plus: 7.07, minus: 8.60}}]}
+      - {value: 56.07, errors: [{asymerror: {plus: 6.23, minus: 7.12}}]}
+      - {value: 48.40, errors: [{asymerror: {plus: 6.38, minus: 4.76}}]}
+      - {value: 42.58, errors: [{asymerror: {plus: 5.63, minus: 4.25}}]}
+      - {value: 37.41, errors: [{asymerror: {plus: 5.79, minus: 4.12}}]}
+      - {value: 32.36, errors: [{asymerror: {plus: 7.43, minus: 3.61}}]}
+      - {value: 29.55, errors: [{asymerror: {plus: 8.07, minus: 4.72}}]}
+      - {value: 29.63, errors: [{asymerror: {plus: 6.67, minus: 8.07}}]}
+      - {value: 26.01, errors: [{asymerror: {plus: 9.52, minus: 7.08}}]}
+      - {value: 27.70, errors: [{asymerror: {plus: 7.38, minus: 10.83}}]}
+      - {value: 30.15, errors: [{asymerror: {plus: 4.68, minus: 14.86}}]}
+      - {value: 26.04, errors: [{asymerror: {plus: 8.63, minus: 12.27}}]}
+      - {value: 25.93, errors: [{asymerror: {plus: 8.67, minus: 13.67}}]}
+      - {value: 22.42, errors: [{asymerror: {plus: 12.13, minus: 11.44}}]}
+      - {value: 24.62, errors: [{asymerror: {plus: 9.90, minus: 14.75}}]}
+      - {value: 21.45, errors: [{asymerror: {plus: 13.05, minus: 12.56}}]}
+      - {value: 23.20, errors: [{asymerror: {plus: 11.30, minus: 15.18}}]}
+      - {value: 21.92, errors: [{asymerror: {plus: 12.57, minus: 14.71}}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
