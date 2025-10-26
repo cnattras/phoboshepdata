@@ -1,0 +1,1079 @@
+independent_variables:
+  - header: {name: "$\\eta$"}
+    values:
+      - {value: -5.3, }
+      - {value: -5.1, }
+      - {value: -4.9, }
+      - {value: -4.7, }
+      - {value: -4.5, }
+      - {value: -4.3, }
+      - {value: -4.1, }
+      - {value: -3.9, }
+      - {value: -3.7, }
+      - {value: -3.5, }
+      - {value: -3.3, }
+      - {value: -3.1, }
+      - {value: -2.9, }
+      - {value: -2.7, }
+      - {value: -2.5, }
+      - {value: -2.3, }
+      - {value: -2.1, }
+      - {value: -1.9, }
+      - {value: -1.7, }
+      - {value: -1.5, }
+      - {value: -1.3, }
+      - {value: -1.1, }
+      - {value: -0.9, }
+      - {value: -0.7, }
+      - {value: -0.5, }
+      - {value: -0.3, }
+      - {value: -0.1, }
+      - {value: 0.1, }
+      - {value: 0.3, }
+      - {value: 0.5, }
+      - {value: 0.7, }
+      - {value: 0.9, }
+      - {value: 1.1, }
+      - {value: 1.3, }
+      - {value: 1.5, }
+      - {value: 1.7, }
+      - {value: 1.9, }
+      - {value: 2.1, }
+      - {value: 2.3, }
+      - {value: 2.5, }
+      - {value: 2.7, }
+      - {value: 2.9, }
+      - {value: 3.1, }
+      - {value: 3.3, }
+      - {value: 3.5, }
+      - {value: 3.7, }
+      - {value: 3.9, }
+      - {value: 4.1, }
+      - {value: 4.3, }
+      - {value: 4.5, }
+      - {value: 4.7, }
+      - {value: 4.9, }
+      - {value: 5.1, }
+      - {value: 5.3, }
+
+dependent_variables:
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "0-6%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}   
+      - {name: "$N_{part}$", value: "344 +/- 11"}
+    values:
+      - {value: 72, errors: [{asymerror: {plus: 20, minus: 16}}]}
+      - {value: 89, errors: [{asymerror: {plus: 26, minus: 16}}]}
+      - {value: 117, errors: [{asymerror: {plus: 25, minus: 24}}]}
+      - {value: 147, errors: [{asymerror: {plus: 25, minus: 29}}]}
+      - {value: 173, errors: [{asymerror: {plus: 36, minus: 25}}]}
+      - {value: 224, errors: [{asymerror: {plus: 26, minus: 41}}]}
+      - {value: 262, errors: [{asymerror: {plus: 32, minus: 41}}]}
+      - {value: 298, errors: [{asymerror: {plus: 44, minus: 35}}]}
+      - {value: 345, errors: [{asymerror: {plus: 45, minus: 38}}]}
+      - {value: 388, errors: [{asymerror: {plus: 51, minus: 37}}]}
+      - {value: 420, errors: [{asymerror: {plus: 66, minus: 27}}]}
+      - {value: 472, errors: [{asymerror: {plus: 59, minus: 39}}]}
+      - {value: 519, errors: [{asymerror: {plus: 52, minus: 52}}]}
+      - {value: 547, errors: [{asymerror: {plus: 60, minus: 50}}]}
+      - {value: 573, errors: [{asymerror: {plus: 64, minus: 51}}]}
+      - {value: 600, errors: [{asymerror: {plus: 61, minus: 59}}]}
+      - {value: 617, errors: [{asymerror: {plus: 64, minus: 60}}]}
+      - {value: 642, errors: [{asymerror: {plus: 55, minus: 73}}]}
+      - {value: 653, errors: [{asymerror: {plus: 54, minus: 76}}]}
+      - {value: 652, errors: [{asymerror: {plus: 62, minus: 70}}]}
+      - {value: 656, errors: [{asymerror: {plus: 62, minus: 69}}]}
+      - {value: 653, errors: [{asymerror: {plus: 65, minus: 65}}]}
+      - {value: 653, errors: [{asymerror: {plus: 63, minus: 65}}]}
+      - {value: 648, errors: [{asymerror: {plus: 65, minus: 60}}]}
+      - {value: 638, errors: [{asymerror: {plus: 71, minus: 52}}]}
+      - {value: 650, errors: [{asymerror: {plus: 56, minus: 65}}]}
+      - {value: 643, errors: [{asymerror: {plus: 62, minus: 58}}]}
+      - {value: 641, errors: [{asymerror: {plus: 64, minus: 56}}]}
+      - {value: 648, errors: [{asymerror: {plus: 58, minus: 63}}]}
+      - {value: 635, errors: [{asymerror: {plus: 74, minus: 48}}]}
+      - {value: 641, errors: [{asymerror: {plus: 71, minus: 54}}]}
+      - {value: 644, errors: [{asymerror: {plus: 72, minus: 56}}]}
+      - {value: 646, errors: [{asymerror: {plus: 72, minus: 58}}]}
+      - {value: 654, errors: [{asymerror: {plus: 64, minus: 68}}]}
+      - {value: 657, errors: [{asymerror: {plus: 58, minus: 74}}]}
+      - {value: 653, errors: [{asymerror: {plus: 55, minus: 76}}]}
+      - {value: 640, errors: [{asymerror: {plus: 56, minus: 72}}]}
+      - {value: 630, errors: [{asymerror: {plus: 52, minus: 73}}]}
+      - {value: 608, errors: [{asymerror: {plus: 54, minus: 66}}]}
+      - {value: 578, errors: [{asymerror: {plus: 59, minus: 56}}]}
+      - {value: 561, errors: [{asymerror: {plus: 46, minus: 64}}]}
+      - {value: 517, errors: [{asymerror: {plus: 54, minus: 50}}]}
+      - {value: 480, errors: [{asymerror: {plus: 50, minus: 48}}]}
+      - {value: 436, errors: [{asymerror: {plus: 51, minus: 42}}]}
+      - {value: 402, errors: [{asymerror: {plus: 37, minus: 51}}]}
+      - {value: 350, errors: [{asymerror: {plus: 41, minus: 42}}]}
+      - {value: 306, errors: [{asymerror: {plus: 36, minus: 42}}]}
+      - {value: 263, errors: [{asymerror: {plus: 32, minus: 41}}]}
+      - {value: 225, errors: [{asymerror: {plus: 25, minus: 43}}]}
+      - {value: 183, errors: [{asymerror: {plus: 26, minus: 35}}]}
+      - {value: 148, errors: [{asymerror: {plus: 25, minus: 30}}]}
+      - {value: 118, errors: [{asymerror: {plus: 24, minus: 25}}]}
+      - {value: 93, errors: [{asymerror: {plus: 21, minus: 21}}]}
+      - {value: 73, errors: [{asymerror: {plus: 19, minus: 17}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "6–15%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "274 +/- 9"}
+    values:
+      - {value: 52, errors: [{asymerror: {plus: 12, minus: 14}}]}
+      - {value: 60, errors: [{asymerror: {plus: 17, minus: 13}}]}
+      - {value: 76, errors: [{asymerror: {plus: 17, minus: 16}}]}
+      - {value: 96, errors: [{asymerror: {plus: 15, minus: 21}}]}
+      - {value: 109, errors: [{asymerror: {plus: 22, minus: 17}}]}
+      - {value: 133, errors: [{asymerror: {plus: 20, minus: 22}}]}
+      - {value: 157, errors: [{asymerror: {plus: 19, minus: 24}}]}
+      - {value: 175, errors: [{asymerror: {plus: 26, minus: 20}}]}
+      - {value: 200, errors: [{asymerror: {plus: 26, minus: 21}}]}
+      - {value: 222, errors: [{asymerror: {plus: 29, minus: 21}}]}
+      - {value: 242, errors: [{asymerror: {plus: 31, minus: 20}}]}
+      - {value: 272, errors: [{asymerror: {plus: 24, minus: 30}}]}
+      - {value: 284, errors: [{asymerror: {plus: 31, minus: 25}}]}
+      - {value: 300, errors: [{asymerror: {plus: 32, minus: 27}}]}
+      - {value: 313, errors: [{asymerror: {plus: 34, minus: 28}}]}
+      - {value: 326, errors: [{asymerror: {plus: 33, minus: 32}}]}
+      - {value: 336, errors: [{asymerror: {plus: 33, minus: 34}}]}
+      - {value: 346, errors: [{asymerror: {plus: 31, minus: 39}}]}
+      - {value: 351, errors: [{asymerror: {plus: 31, minus: 40}}]}
+      - {value: 354, errors: [{asymerror: {plus: 32, minus: 40}}]}
+      - {value: 353, errors: [{asymerror: {plus: 35, minus: 36}}]}
+      - {value: 352, errors: [{asymerror: {plus: 35, minus: 35}}]}
+      - {value: 354, errors: [{asymerror: {plus: 33, minus: 36}}]}
+      - {value: 353, errors: [{asymerror: {plus: 32, minus: 35}}]}
+      - {value: 350, errors: [{asymerror: {plus: 33, minus: 32}}]}
+      - {value: 350, errors: [{asymerror: {plus: 31, minus: 33}}]}
+      - {value: 347, errors: [{asymerror: {plus: 34, minus: 29}}]}
+      - {value: 348, errors: [{asymerror: {plus: 33, minus: 31}}]}
+      - {value: 347, errors: [{asymerror: {plus: 34, minus: 30}}]}
+      - {value: 349, errors: [{asymerror: {plus: 33, minus: 32}}]}
+      - {value: 349, errors: [{asymerror: {plus: 36, minus: 31}}]}
+      - {value: 351, errors: [{asymerror: {plus: 36, minus: 33}}]}
+      - {value: 350, errors: [{asymerror: {plus: 38, minus: 32}}]}
+      - {value: 352, errors: [{asymerror: {plus: 36, minus: 35}}]}
+      - {value: 348, errors: [{asymerror: {plus: 37, minus: 34}}]}
+      - {value: 347, errors: [{asymerror: {plus: 35, minus: 35}}]}
+      - {value: 343, errors: [{asymerror: {plus: 33, minus: 36}}]}
+      - {value: 339, errors: [{asymerror: {plus: 31, minus: 37}}]}
+      - {value: 327, errors: [{asymerror: {plus: 32, minus: 33}}]}
+      - {value: 316, errors: [{asymerror: {plus: 31, minus: 31}}]}
+      - {value: 301, errors: [{asymerror: {plus: 32, minus: 28}}]}
+      - {value: 285, errors: [{asymerror: {plus: 30, minus: 26}}]}
+      - {value: 277, errors: [{asymerror: {plus: 19, minus: 35}}]}
+      - {value: 253, errors: [{asymerror: {plus: 21, minus: 31}}]}
+      - {value: 229, errors: [{asymerror: {plus: 21, minus: 28}}]}
+      - {value: 199, errors: [{asymerror: {plus: 27, minus: 20}}]}
+      - {value: 178, errors: [{asymerror: {plus: 23, minus: 22}}]}
+      - {value: 155, errors: [{asymerror: {plus: 22, minus: 22}}]}
+      - {value: 133, errors: [{asymerror: {plus: 20, minus: 21}}]}
+      - {value: 112, errors: [{asymerror: {plus: 19, minus: 19}}]}
+      - {value: 93, errors: [{asymerror: {plus: 18, minus: 18}}]}
+      - {value: 79, errors: [{asymerror: {plus: 14, minus: 19}}]}
+      - {value: 63, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 53, errors: [{asymerror: {plus: 10, minus: 16}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "15–25%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "200 +/- 8"}
+    values:
+      - {value: 52, errors: [{asymerror: {plus: 12, minus: 14}}]}
+      - {value: 60, errors: [{asymerror: {plus: 17, minus: 13}}]}
+      - {value: 76, errors: [{asymerror: {plus: 17, minus: 16}}]}
+      - {value: 96, errors: [{asymerror: {plus: 15, minus: 21}}]}
+      - {value: 109, errors: [{asymerror: {plus: 22, minus: 17}}]}
+      - {value: 133, errors: [{asymerror: {plus: 20, minus: 22}}]}
+      - {value: 157, errors: [{asymerror: {plus: 19, minus: 24}}]}
+      - {value: 175, errors: [{asymerror: {plus: 26, minus: 20}}]}
+      - {value: 200, errors: [{asymerror: {plus: 26, minus: 21}}]}
+      - {value: 222, errors: [{asymerror: {plus: 29, minus: 21}}]}
+      - {value: 242, errors: [{asymerror: {plus: 31, minus: 20}}]}
+      - {value: 272, errors: [{asymerror: {plus: 24, minus: 30}}]}
+      - {value: 284, errors: [{asymerror: {plus: 31, minus: 25}}]}
+      - {value: 300, errors: [{asymerror: {plus: 32, minus: 27}}]}
+      - {value: 313, errors: [{asymerror: {plus: 34, minus: 28}}]}
+      - {value: 326, errors: [{asymerror: {plus: 33, minus: 32}}]}
+      - {value: 336, errors: [{asymerror: {plus: 33, minus: 34}}]}
+      - {value: 346, errors: [{asymerror: {plus: 31, minus: 39}}]}
+      - {value: 351, errors: [{asymerror: {plus: 31, minus: 40}}]}
+      - {value: 354, errors: [{asymerror: {plus: 32, minus: 40}}]}
+      - {value: 353, errors: [{asymerror: {plus: 35, minus: 36}}]}
+      - {value: 352, errors: [{asymerror: {plus: 35, minus: 35}}]}
+      - {value: 354, errors: [{asymerror: {plus: 33, minus: 36}}]}
+      - {value: 353, errors: [{asymerror: {plus: 32, minus: 35}}]}
+      - {value: 350, errors: [{asymerror: {plus: 33, minus: 32}}]}
+      - {value: 350, errors: [{asymerror: {plus: 31, minus: 33}}]}
+      - {value: 347, errors: [{asymerror: {plus: 34, minus: 29}}]}
+      - {value: 348, errors: [{asymerror: {plus: 33, minus: 31}}]}
+      - {value: 347, errors: [{asymerror: {plus: 34, minus: 30}}]}
+      - {value: 349, errors: [{asymerror: {plus: 33, minus: 32}}]}
+      - {value: 349, errors: [{asymerror: {plus: 36, minus: 31}}]}
+      - {value: 351, errors: [{asymerror: {plus: 36, minus: 33}}]}
+      - {value: 350, errors: [{asymerror: {plus: 38, minus: 32}}]}
+      - {value: 352, errors: [{asymerror: {plus: 36, minus: 35}}]}
+      - {value: 348, errors: [{asymerror: {plus: 37, minus: 34}}]}
+      - {value: 347, errors: [{asymerror: {plus: 35, minus: 35}}]}
+      - {value: 343, errors: [{asymerror: {plus: 33, minus: 36}}]}
+      - {value: 339, errors: [{asymerror: {plus: 31, minus: 37}}]}
+      - {value: 327, errors: [{asymerror: {plus: 32, minus: 33}}]}
+      - {value: 316, errors: [{asymerror: {plus: 31, minus: 31}}]}
+      - {value: 301, errors: [{asymerror: {plus: 32, minus: 28}}]}
+      - {value: 285, errors: [{asymerror: {plus: 30, minus: 26}}]}
+      - {value: 277, errors: [{asymerror: {plus: 19, minus: 35}}]}
+      - {value: 253, errors: [{asymerror: {plus: 21, minus: 31}}]}
+      - {value: 229, errors: [{asymerror: {plus: 21, minus: 28}}]}
+      - {value: 199, errors: [{asymerror: {plus: 27, minus: 20}}]}
+      - {value: 178, errors: [{asymerror: {plus: 23, minus: 22}}]}
+      - {value: 155, errors: [{asymerror: {plus: 22, minus: 22}}]}
+      - {value: 133, errors: [{asymerror: {plus: 20, minus: 21}}]}
+      - {value: 112, errors: [{asymerror: {plus: 19, minus: 19}}]}
+      - {value: 93, errors: [{asymerror: {plus: 18, minus: 18}}]}
+      - {value: 79, errors: [{asymerror: {plus: 14, minus: 19}}]}
+      - {value: 63, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 53, errors: [{asymerror: {plus: 10, minus: 16}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "25–35%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "138 +/- 6"}
+    values:
+      - {value: 41, errors: [{asymerror: {plus: 8, minus: 11}}]}
+      - {value: 48, errors: [{asymerror: {plus: 10, minus: 11}}]}
+      - {value: 58, errors: [{asymerror: {plus: 11, minus: 13}}]}
+      - {value: 71, errors: [{asymerror: {plus: 11, minus: 15}}]}
+      - {value: 78, errors: [{asymerror: {plus: 17, minus: 10}}]}
+      - {value: 93, errors: [{asymerror: {plus: 16, minus: 13}}]}
+      - {value: 109, errors: [{asymerror: {plus: 16, minus: 15}}]}
+      - {value: 123, errors: [{asymerror: {plus: 18, minus: 14}}]}
+      - {value: 137, errors: [{asymerror: {plus: 20, minus: 14}}]}
+      - {value: 151, errors: [{asymerror: {plus: 21, minus: 14}}]}
+      - {value: 166, errors: [{asymerror: {plus: 21, minus: 15}}]}
+      - {value: 183, errors: [{asymerror: {plus: 18, minus: 20}}]}
+      - {value: 192, errors: [{asymerror: {plus: 21, minus: 18}}]}
+      - {value: 204, errors: [{asymerror: {plus: 20, minus: 21}}]}
+      - {value: 210, errors: [{asymerror: {plus: 24, minus: 19}}]}
+      - {value: 222, errors: [{asymerror: {plus: 20, minus: 24}}]}
+      - {value: 226, errors: [{asymerror: {plus: 22, minus: 23}}]}
+      - {value: 231, errors: [{asymerror: {plus: 22, minus: 24}}]}
+      - {value: 236, errors: [{asymerror: {plus: 21, minus: 26}}]}
+      - {value: 237, errors: [{asymerror: {plus: 22, minus: 25}}]}
+      - {value: 239, errors: [{asymerror: {plus: 21, minus: 26}}]}
+      - {value: 238, errors: [{asymerror: {plus: 23, minus: 24}}]}
+      - {value: 238, errors: [{asymerror: {plus: 22, minus: 24}}]}
+      - {value: 236, errors: [{asymerror: {plus: 23, minus: 22}}]}
+      - {value: 237, errors: [{asymerror: {plus: 20, minus: 24}}]}
+      - {value: 234, errors: [{asymerror: {plus: 22, minus: 21}}]}
+      - {value: 234, errors: [{asymerror: {plus: 22, minus: 21}}]}
+      - {value: 232, errors: [{asymerror: {plus: 24, minus: 19}}]}
+      - {value: 233, errors: [{asymerror: {plus: 23, minus: 20}}]}
+      - {value: 234, errors: [{asymerror: {plus: 23, minus: 21}}]}
+      - {value: 236, errors: [{asymerror: {plus: 23, minus: 22}}]}
+      - {value: 236, errors: [{asymerror: {plus: 23, minus: 23}}]}
+      - {value: 235, errors: [{asymerror: {plus: 25, minus: 21}}]}
+      - {value: 234, errors: [{asymerror: {plus: 27, minus: 21}}]}
+      - {value: 235, errors: [{asymerror: {plus: 24, minus: 23}}]}
+      - {value: 232, errors: [{asymerror: {plus: 25, minus: 23}}]}
+      - {value: 231, errors: [{asymerror: {plus: 22, minus: 25}}]}
+      - {value: 229, errors: [{asymerror: {plus: 19, minus: 26}}]}
+      - {value: 219, errors: [{asymerror: {plus: 22, minus: 22}}]}
+      - {value: 211, errors: [{asymerror: {plus: 23, minus: 20}}]}
+      - {value: 202, errors: [{asymerror: {plus: 22, minus: 19}}]}
+      - {value: 193, errors: [{asymerror: {plus: 20, minus: 19}}]}
+      - {value: 188, errors: [{asymerror: {plus: 13, minus: 25}}]}
+      - {value: 173, errors: [{asymerror: {plus: 14, minus: 22}}]}
+      - {value: 159, errors: [{asymerror: {plus: 14, minus: 21}}]}
+      - {value: 139, errors: [{asymerror: {plus: 18, minus: 16}}]}
+      - {value: 124, errors: [{asymerror: {plus: 17, minus: 15}}]}
+      - {value: 110, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 95, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 80, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 70, errors: [{asymerror: {plus: 11, minus: 14}}]}
+      - {value: 59, errors: [{asymerror: {plus: 10, minus: 13}}]}
+      - {value: 49, errors: [{asymerror: {plus: 10, minus: 12}}]}
+      - {value: 42, errors: [{asymerror: {plus: 7, minus: 12}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "35–45%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "93 +/- 5"}
+    values:
+      - {value: 29.9, errors: [{asymerror: {plus: 5.3, minus: 8.6}}]}
+      - {value: 33.7, errors: [{asymerror: {plus: 8, minus: 7.4}}]}
+      - {value: 40.9, errors: [{asymerror: {plus: 8, minus: 8.8}}]}
+      - {value: 50, errors: [{asymerror: {plus: 7, minus: 11}}]}
+      - {value: 53.2, errors: [{asymerror: {plus: 12.3, minus: 7}}]}
+      - {value: 64, errors: [{asymerror: {plus: 10, minus: 10}}]}
+      - {value: 74, errors: [{asymerror: {plus: 10, minus: 11}}]}
+      - {value: 82, errors: [{asymerror: {plus: 12, minus: 10}}]}
+      - {value: 90.2, errors: [{asymerror: {plus: 13.9, minus: 8.9}}]}
+      - {value: 98.8, errors: [{asymerror: {plus: 14.8, minus: 8.7}}]}
+      - {value: 109, errors: [{asymerror: {plus: 14, minus: 10}}]}
+      - {value: 122, errors: [{asymerror: {plus: 9, minus: 16}}]}
+      - {value: 125, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 132, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 136, errors: [{asymerror: {plus: 16, minus: 12}}]}
+      - {value: 142, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 146, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 149, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 152, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 154, errors: [{asymerror: {plus: 15, minus: 17}}]}
+      - {value: 154, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 155, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 155, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 154, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 156, errors: [{asymerror: {plus: 12, minus: 17}}]}
+      - {value: 153, errors: [{asymerror: {plus: 14, minus: 15}}]}
+      - {value: 153, errors: [{asymerror: {plus: 14, minus: 14}}]}
+      - {value: 150, errors: [{asymerror: {plus: 17, minus: 11}}]}
+      - {value: 152, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 153, errors: [{asymerror: {plus: 14, minus: 15}}]}
+      - {value: 153, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 152, errors: [{asymerror: {plus: 17, minus: 13}}]}
+      - {value: 151, errors: [{asymerror: {plus: 18, minus: 13}}]}
+      - {value: 153, errors: [{asymerror: {plus: 16, minus: 15}}]}
+      - {value: 153, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 151, errors: [{asymerror: {plus: 16, minus: 15}}]}
+      - {value: 149, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 147, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 142, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 139, errors: [{asymerror: {plus: 13, minus: 16}}]}
+      - {value: 133, errors: [{asymerror: {plus: 13, minus: 15}}]}
+      - {value: 124, errors: [{asymerror: {plus: 15, minus: 12}}]}
+      - {value: 121, errors: [{asymerror: {plus: 10, minus: 15}}]}
+      - {value: 114, errors: [{asymerror: {plus: 9, minus: 16}}]}
+      - {value: 102, errors: [{asymerror: {plus: 11, minus: 12}}]}
+      - {value: 93, errors: [{asymerror: {plus: 11, minus: 12}}]}
+      - {value: 84, errors: [{asymerror: {plus: 10, minus: 12}}]}
+      - {value: 72.7, errors: [{asymerror: {plus: 11.8, minus: 9.5}}]}
+      - {value: 63.9, errors: [{asymerror: {plus: 10.9, minus: 9.5}}]}
+      - {value: 55, errors: [{asymerror: {plus: 10.5, minus: 8.8}}]}
+      - {value: 49, errors: [{asymerror: {plus: 8, minus: 10}}]}
+      - {value: 41, errors: [{asymerror: {plus: 7.9, minus: 8.9}}]}
+      - {value: 34, errors: [{asymerror: {plus: 7.6, minus: 7.7}}]}
+      - {value: 29.3, errors: [{asymerror: {plus: 5.9, minus: 8}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "45–55%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "200"}
+      - {name: "$N_{part}$", value: "Not Provided"}
+    values:
+      - {value: 19.5, errors: [{asymerror: {plus: 4.0, minus: 5.8}}]}
+      - {value: 22.5, errors: [{asymerror: {plus: 5.0, minus: 5.6}}]}
+      - {value: 27.0, errors: [{asymerror: {plus: 5.0, minus: 6.5}}]}
+      - {value: 31.5, errors: [{asymerror: {plus: 5.4, minus: 6.8}}]}
+      - {value: 35.5, errors: [{asymerror: {plus: 6.7, minus: 6.0}}]}
+      - {value: 39.6, errors: [{asymerror: {plus: 8.2, minus: 5.0}}]}
+      - {value: 47.1, errors: [{asymerror: {plus: 6.4, minus: 7.3}}]}
+      - {value: 51.6, errors: [{asymerror: {plus: 7.7, minus: 6.3}}]}
+      - {value: 55.9, errors: [{asymerror: {plus: 9.2, minus: 5.1}}]}
+      - {value: 62.6, errors: [{asymerror: {plus: 8.0, minus: 6.7}}]}
+      - {value: 66.8, errors: [{asymerror: {plus: 9.0, minus: 6.0}}]}
+      - {value: 76, errors: [{asymerror: {plus: 5, minus: 11}}]}
+      - {value: 76.5, errors: [{asymerror: {plus: 8.7, minus: 7.4}}]}
+      - {value: 80.6, errors: [{asymerror: {plus: 8.4, minus: 8.2}}]}
+      - {value: 83.8, errors: [{asymerror: {plus: 8.6, minus: 8.6}}]}
+      - {value: 86.1, errors: [{asymerror: {plus: 9.1, minus: 8.7}}]}
+      - {value: 88.2, errors: [{asymerror: {plus: 9.4, minus: 9.0}}]}
+      - {value: 89.5, errors: [{asymerror: {plus: 9.9, minus: 8.9}}]}
+      - {value: 91.5, errors: [{asymerror: {plus: 9.3, minus: 9.9}}]}
+      - {value: 91.7, errors: [{asymerror: {plus: 9.9, minus: 9.4}}]}
+      - {value: 93, errors: [{asymerror: {plus: 9.0, minus: 10.0}}]}
+      - {value: 92.8, errors: [{asymerror: {plus: 9.4, minus: 9.7}}]}
+      - {value: 92.3, errors: [{asymerror: {plus: 9.7, minus: 9.2}}]}
+      - {value: 94, errors: [{asymerror: {plus: 8.0, minus: 11.0}}]}
+      - {value: 94, errors: [{asymerror: {plus: 8.0, minus: 11.0}}]}
+      - {value: 90.1, errors: [{asymerror: {plus: 10.7, minus: 7.2}}]}
+      - {value: 92.3, errors: [{asymerror: {plus: 8.4, minus: 9.4}}]}
+      - {value: 91.3, errors: [{asymerror: {plus: 9.4, minus: 8.4}}]}
+      - {value: 91.8, errors: [{asymerror: {plus: 9.0, minus: 8.9}}]}
+      - {value: 91.9, errors: [{asymerror: {plus: 9.2, minus: 9.0}}]}
+      - {value: 90.9, errors: [{asymerror: {plus: 10.7, minus: 7.8}}]}
+      - {value: 92.9, errors: [{asymerror: {plus: 9.1, minus: 9.8}}]}
+      - {value: 91.6, errors: [{asymerror: {plus: 10.6, minus: 8.6}}]}
+      - {value: 91.8, errors: [{asymerror: {plus: 10.3, minus: 9.0}}]}
+      - {value: 92, errors: [{asymerror: {plus: 9.0, minus: 10.0}}]}
+      - {value: 91.5, errors: [{asymerror: {plus: 9.2, minus: 9.9}}]}
+      - {value: 90.3, errors: [{asymerror: {plus: 9.1, minus: 9.7}}]}
+      - {value: 87.9, errors: [{asymerror: {plus: 9.7, minus: 8.7}}]}
+      - {value: 85.9, errors: [{asymerror: {plus: 9.3, minus: 8.5}}]}
+      - {value: 83.6, errors: [{asymerror: {plus: 8.8, minus: 8.4}}]}
+      - {value: 80.7, errors: [{asymerror: {plus: 8.4, minus: 8.3}}]}
+      - {value: 77.5, errors: [{asymerror: {plus: 7.7, minus: 8.4}}]}
+      - {value: 76, errors: [{asymerror: {plus: 5, minus: 11}}]}
+      - {value: 70.0, errors: [{asymerror: {plus: 5.8, minus: 9.2}}]}
+      - {value: 63.9, errors: [{asymerror: {plus: 6.7, minus: 7.9}}]}
+      - {value: 57.6, errors: [{asymerror: {plus: 7.5, minus: 6.8}}]}
+      - {value: 51.6, errors: [{asymerror: {plus: 7.7, minus: 6.2}}]}
+      - {value: 45.3, errors: [{asymerror: {plus: 8.2, minus: 5.4}}]}
+      - {value: 40.8, errors: [{asymerror: {plus: 7.0, minus: 6.2}}]}
+      - {value: 35.1, errors: [{asymerror: {plus: 7.1, minus: 5.7}}]}
+      - {value: 32.0, errors: [{asymerror: {plus: 4.9, minus: 7.3}}]}
+      - {value: 26.1, errors: [{asymerror: {plus: 5.9, minus: 5.5}}]}
+      - {value: 22.5, errors: [{asymerror: {plus: 5.0, minus: 5.6}}]}
+      - {value: 19.8, errors: [{asymerror: {plus: 3.7, minus: 6.0}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "0–6%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "340 +/- 11"}
+    values:
+      - {value: 41.3, errors: [{asymerror: {plus: 18.3, minus: 9.0}}]}
+      - {value: 53, errors: [{asymerror: {plus: 19, minus: 10}}]}
+      - {value: 69, errors: [{asymerror: {plus: 20, minus: 12}}]}
+      - {value: 90, errors: [{asymerror: {plus: 22, minus: 15}}]}
+      - {value: 111, errors: [{asymerror: {plus: 27, minus: 15}}]}
+      - {value: 149, errors: [{asymerror: {plus: 21, minus: 26}}]}
+      - {value: 182, errors: [{asymerror: {plus: 24, minus: 28}}]}
+      - {value: 220, errors: [{asymerror: {plus: 26, minus: 30}}]}
+      - {value: 256, errors: [{asymerror: {plus: 33, minus: 27}}]}
+      - {value: 302, errors: [{asymerror: {plus: 32, minus: 33}}]}
+      - {value: 340, errors: [{asymerror: {plus: 39, minus: 31}}]}
+      - {value: 382, errors: [{asymerror: {plus: 42, minus: 35}}]}
+      - {value: 416, errors: [{asymerror: {plus: 49, minus: 34}}]}
+      - {value: 448, errors: [{asymerror: {plus: 55, minus: 36}}]}
+      - {value: 476, errors: [{asymerror: {plus: 60, minus: 40}}]}
+      - {value: 503, errors: [{asymerror: {plus: 60, minus: 47}}]}
+      - {value: 523, errors: [{asymerror: {plus: 62, minus: 51}}]}
+      - {value: 546, errors: [{asymerror: {plus: 58, minus: 62}}]}
+      - {value: 557, errors: [{asymerror: {plus: 59, minus: 64}}]}
+      - {value: 562, errors: [{asymerror: {plus: 63, minus: 63}}]}
+      - {value: 575, errors: [{asymerror: {plus: 56, minus: 71}}]}
+      - {value: 573, errors: [{asymerror: {plus: 60, minus: 67}}]}
+      - {value: 573, errors: [{asymerror: {plus: 59, minus: 66}}]}
+      - {value: 564, errors: [{asymerror: {plus: 66, minus: 56}}]}
+      - {value: 567, errors: [{asymerror: {plus: 60, minus: 59}}]}
+      - {value: 567, errors: [{asymerror: {plus: 58, minus: 59}}]}
+      - {value: 571, errors: [{asymerror: {plus: 53, minus: 63}}]}
+      - {value: 557, errors: [{asymerror: {plus: 67, minus: 50}}]}
+      - {value: 570, errors: [{asymerror: {plus: 55, minus: 62}}]}
+      - {value: 559, errors: [{asymerror: {plus: 68, minus: 52}}]}
+      - {value: 570, errors: [{asymerror: {plus: 60, minus: 62}}]}
+      - {value: 568, errors: [{asymerror: {plus: 63, minus: 61}}]}
+      - {value: 567, errors: [{asymerror: {plus: 65, minus: 61}}]}
+      - {value: 571, errors: [{asymerror: {plus: 59, minus: 68}}]}
+      - {value: 567, errors: [{asymerror: {plus: 58, minus: 68}}]}
+      - {value: 560, errors: [{asymerror: {plus: 56, minus: 67}}]}
+      - {value: 545, errors: [{asymerror: {plus: 59, minus: 60}}]}
+      - {value: 533, errors: [{asymerror: {plus: 53, minus: 61}}]}
+      - {value: 511, errors: [{asymerror: {plus: 52, minus: 55}}]}
+      - {value: 481, errors: [{asymerror: {plus: 55, minus: 45}}]}
+      - {value: 456, errors: [{asymerror: {plus: 47, minus: 44}}]}
+      - {value: 425, errors: [{asymerror: {plus: 40, minus: 43}}]}
+      - {value: 398, errors: [{asymerror: {plus: 25, minus: 51}}]}
+      - {value: 351, errors: [{asymerror: {plus: 29, minus: 41}}]}
+      - {value: 310, errors: [{asymerror: {plus: 24, minus: 41}}]}
+      - {value: 264, errors: [{asymerror: {plus: 25, minus: 35}}]}
+      - {value: 220, errors: [{asymerror: {plus: 25, minus: 30}}]}
+      - {value: 182, errors: [{asymerror: {plus: 24, minus: 27}}]}
+      - {value: 148, errors: [{asymerror: {plus: 21, minus: 25}}]}
+      - {value: 117, errors: [{asymerror: {plus: 21, minus: 21}}]}
+      - {value: 95, errors: [{asymerror: {plus: 17, minus: 20}}]}
+      - {value: 71, errors: [{asymerror: {plus: 18, minus: 15}}]}
+      - {value: 53, errors: [{asymerror: {plus: 19, minus: 10}}]}
+      - {value: 41.2, errors: [{asymerror: {plus: 18.4, minus: 8.9}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "6–15%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "275 +/- 9"}
+    values:
+      - {value: 41, errors: [{asymerror: {plus: 14, minus: 11}}]}
+      - {value: 52, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 65, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 82, errors: [{asymerror: {plus: 16, minus: 16}}]}
+      - {value: 97, errors: [{asymerror: {plus: 23, minus: 13}}]}
+      - {value: 125, errors: [{asymerror: {plus: 20, minus: 20}}]}
+      - {value: 152, errors: [{asymerror: {plus: 21, minus: 22}}]}
+      - {value: 179, errors: [{asymerror: {plus: 25, minus: 20}}]}
+      - {value: 208, errors: [{asymerror: {plus: 28, minus: 20}}]}
+      - {value: 244, errors: [{asymerror: {plus: 25, minus: 26}}]}
+      - {value: 272, errors: [{asymerror: {plus: 31, minus: 24}}]}
+      - {value: 309, errors: [{asymerror: {plus: 26, minus: 32}}]}
+      - {value: 329, errors: [{asymerror: {plus: 36, minus: 27}}]}
+      - {value: 353, errors: [{asymerror: {plus: 39, minus: 29}}]}
+      - {value: 374, errors: [{asymerror: {plus: 42, minus: 32}}]}
+      - {value: 393, errors: [{asymerror: {plus: 43, minus: 36}}]}
+      - {value: 407, errors: [{asymerror: {plus: 44, minus: 39}}]}
+      - {value: 420, errors: [{asymerror: {plus: 44, minus: 42}}]}
+      - {value: 433, errors: [{asymerror: {plus: 40, minus: 48}}]}
+      - {value: 438, errors: [{asymerror: {plus: 42, minus: 48}}]}
+      - {value: 440, errors: [{asymerror: {plus: 44, minus: 46}}]}
+      - {value: 443, errors: [{asymerror: {plus: 42, minus: 47}}]}
+      - {value: 446, errors: [{asymerror: {plus: 39, minus: 48}}]}
+      - {value: 441, errors: [{asymerror: {plus: 43, minus: 42}}]}
+      - {value: 440, errors: [{asymerror: {plus: 41, minus: 41}}]}
+      - {value: 436, errors: [{asymerror: {plus: 44, minus: 36}}]}
+      - {value: 438, errors: [{asymerror: {plus: 41, minus: 39}}]}
+      - {value: 437, errors: [{asymerror: {plus: 42, minus: 37}}]}
+      - {value: 436, errors: [{asymerror: {plus: 43, minus: 37}}]}
+      - {value: 439, errors: [{asymerror: {plus: 42, minus: 40}}]}
+      - {value: 440, errors: [{asymerror: {plus: 43, minus: 42}}]}
+      - {value: 443, errors: [{asymerror: {plus: 42, minus: 45}}]}
+      - {value: 441, errors: [{asymerror: {plus: 44, minus: 45}}]}
+      - {value: 438, errors: [{asymerror: {plus: 46, minus: 45}}]}
+      - {value: 437, errors: [{asymerror: {plus: 43, minus: 47}}]}
+      - {value: 432, errors: [{asymerror: {plus: 42, minus: 47}}]}
+      - {value: 423, errors: [{asymerror: {plus: 41, minus: 45}}]}
+      - {value: 411, errors: [{asymerror: {plus: 41, minus: 42}}]}
+      - {value: 393, errors: [{asymerror: {plus: 42, minus: 36}}]}
+      - {value: 378, errors: [{asymerror: {plus: 37, minus: 36}}]}
+      - {value: 353, errors: [{asymerror: {plus: 39, minus: 29}}]}
+      - {value: 335, errors: [{asymerror: {plus: 30, minus: 33}}]}
+      - {value: 316, errors: [{asymerror: {plus: 19, minus: 40}}]}
+      - {value: 282, errors: [{asymerror: {plus: 21, minus: 33}}]}
+      - {value: 250, errors: [{asymerror: {plus: 20, minus: 31}}]}
+      - {value: 213, errors: [{asymerror: {plus: 23, minus: 25}}]}
+      - {value: 182, errors: [{asymerror: {plus: 22, minus: 23}}]}
+      - {value: 151, errors: [{asymerror: {plus: 22, minus: 20}}]}
+      - {value: 126, errors: [{asymerror: {plus: 19, minus: 20}}]}
+      - {value: 100, errors: [{asymerror: {plus: 20, minus: 16}}]}
+      - {value: 85, errors: [{asymerror: {plus: 13, minus: 19}}]}
+      - {value: 67, errors: [{asymerror: {plus: 12, minus: 16}}]}
+      - {value: 52, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 40, errors: [{asymerror: {plus: 15, minus: 11}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "15–25%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "196 +/- 8"}
+    values:
+      - {value: 37, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 45, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 54, errors: [{asymerror: {plus: 9, minus: 13}}]}
+      - {value: 66, errors: [{asymerror: {plus: 11, minus: 14}}]}
+      - {value: 74.5, errors: [{asymerror: {plus: 17.9, minus: 9.3}}]}
+      - {value: 93, errors: [{asymerror: {plus: 17, minus: 13}}]}
+      - {value: 112, errors: [{asymerror: {plus: 17, minus: 15}}]}
+      - {value: 132, errors: [{asymerror: {plus: 17, minus: 16}}]}
+      - {value: 151, errors: [{asymerror: {plus: 20, minus: 15}}]}
+      - {value: 174, errors: [{asymerror: {plus: 19, minus: 18}}]}
+      - {value: 193, errors: [{asymerror: {plus: 22, minus: 18}}]}
+      - {value: 219, errors: [{asymerror: {plus: 18, minus: 25}}]}
+      - {value: 228, errors: [{asymerror: {plus: 28, minus: 19}}]}
+      - {value: 246, errors: [{asymerror: {plus: 27, minus: 22}}]}
+      - {value: 259, errors: [{asymerror: {plus: 30, minus: 23}}]}
+      - {value: 272, errors: [{asymerror: {plus: 30, minus: 26}}]}
+      - {value: 281, errors: [{asymerror: {plus: 32, minus: 28}}]}
+      - {value: 292, errors: [{asymerror: {plus: 30, minus: 32}}]}
+      - {value: 298, errors: [{asymerror: {plus: 31, minus: 33}}]}
+      - {value: 302, errors: [{asymerror: {plus: 30, minus: 34}}]}
+      - {value: 304, errors: [{asymerror: {plus: 32, minus: 34}}]}
+      - {value: 304, errors: [{asymerror: {plus: 32, minus: 32}}]}
+      - {value: 307, errors: [{asymerror: {plus: 30, minus: 34}}]}
+      - {value: 307, errors: [{asymerror: {plus: 29, minus: 33}}]}
+      - {value: 305, errors: [{asymerror: {plus: 30, minus: 31}}]}
+      - {value: 303, errors: [{asymerror: {plus: 31, minus: 28}}]}
+      - {value: 300, errors: [{asymerror: {plus: 33, minus: 26}}]}
+      - {value: 302, errors: [{asymerror: {plus: 31, minus: 28}}]}
+      - {value: 304, errors: [{asymerror: {plus: 30, minus: 29}}]}
+      - {value: 305, errors: [{asymerror: {plus: 29, minus: 32}}]}
+      - {value: 304, errors: [{asymerror: {plus: 32, minus: 31}}]}
+      - {value: 304, errors: [{asymerror: {plus: 33, minus: 31}}]}
+      - {value: 305, errors: [{asymerror: {plus: 32, minus: 33}}]}
+      - {value: 302, errors: [{asymerror: {plus: 34, minus: 32}}]}
+      - {value: 303, errors: [{asymerror: {plus: 30, minus: 35}}]}
+      - {value: 300, errors: [{asymerror: {plus: 29, minus: 35}}]}
+      - {value: 292, errors: [{asymerror: {plus: 29, minus: 33}}]}
+      - {value: 283, errors: [{asymerror: {plus: 30, minus: 30}}]}
+      - {value: 272, errors: [{asymerror: {plus: 30, minus: 26}}]}
+      - {value: 262, errors: [{asymerror: {plus: 26, minus: 27}}]}
+      - {value: 247, errors: [{asymerror: {plus: 26, minus: 23}}]}
+      - {value: 233, errors: [{asymerror: {plus: 23, minus: 23}}]}
+      - {value: 221, errors: [{asymerror: {plus: 15, minus: 28}}]}
+      - {value: 201, errors: [{asymerror: {plus: 15, minus: 25}}]}
+      - {value: 178, errors: [{asymerror: {plus: 15, minus: 22}}]}
+      - {value: 156, errors: [{asymerror: {plus: 16, minus: 20}}]}
+      - {value: 133, errors: [{asymerror: {plus: 17, minus: 17}}]}
+      - {value: 111, errors: [{asymerror: {plus: 18, minus: 13}}]}
+      - {value: 92, errors: [{asymerror: {plus: 18, minus: 12}}]}
+      - {value: 76, errors: [{asymerror: {plus: 17, minus: 11}}]}
+      - {value: 66, errors: [{asymerror: {plus: 11, minus: 14}}]}
+      - {value: 54, errors: [{asymerror: {plus: 10, minus: 12}}]}
+      - {value: 44, errors: [{asymerror: {plus: 10, minus: 12}}]}
+      - {value: 35, errors: [{asymerror: {plus: 11, minus: 10}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "25–35%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "136 +/- "}
+    values:
+      - {value: 31, errors: [{asymerror: {plus: 6, minus: 12}}]}
+      - {value: 35, errors: [{asymerror: {plus: 7, minus: 10}}]}
+      - {value: 42, errors: [{asymerror: {plus: 7, minus: 10}}]}
+      - {value: 49, errors: [{asymerror: {plus: 8, minus: 11}}]}
+      - {value: 54.5, errors: [{asymerror: {plus: 14.0, minus: 6.6}}]}
+      - {value: 66.7, errors: [{asymerror: {plus: 13.7, minus: 8.5}}]}
+      - {value: 80, errors: [{asymerror: {plus: 13, minus: 11}}]}
+      - {value: 94, errors: [{asymerror: {plus: 13, minus: 12}}]}
+      - {value: 106, errors: [{asymerror: {plus: 16, minus: 11}}]}
+      - {value: 121, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 134, errors: [{asymerror: {plus: 16, minus: 14}}]}
+      - {value: 150, errors: [{asymerror: {plus: 12, minus: 19}}]}
+      - {value: 156, errors: [{asymerror: {plus: 19, minus: 15}}]}
+      - {value: 166, errors: [{asymerror: {plus: 20, minus: 15}}]}
+      - {value: 175, errors: [{asymerror: {plus: 21, minus: 17}}]}
+      - {value: 183, errors: [{asymerror: {plus: 21, minus: 18}}]}
+      - {value: 189, errors: [{asymerror: {plus: 22, minus: 19}}]}
+      - {value: 196, errors: [{asymerror: {plus: 19, minus: 23}}]}
+      - {value: 200, errors: [{asymerror: {plus: 20, minus: 23}}]}
+      - {value: 199, errors: [{asymerror: {plus: 24, minus: 20}}]}
+      - {value: 203, errors: [{asymerror: {plus: 21, minus: 23}}]}
+      - {value: 201, errors: [{asymerror: {plus: 24, minus: 20}}]}
+      - {value: 204, errors: [{asymerror: {plus: 21, minus: 22}}]}
+      - {value: 204, errors: [{asymerror: {plus: 20, minus: 22}}]}
+      - {value: 204, errors: [{asymerror: {plus: 19, minus: 23}}]}
+      - {value: 202, errors: [{asymerror: {plus: 20, minus: 20}}]}
+      - {value: 201, errors: [{asymerror: {plus: 22, minus: 18}}]}
+      - {value: 200, errors: [{asymerror: {plus: 22, minus: 18}}]}
+      - {value: 203, errors: [{asymerror: {plus: 20, minus: 21}}]}
+      - {value: 202, errors: [{asymerror: {plus: 21, minus: 20}}]}
+      - {value: 204, errors: [{asymerror: {plus: 20, minus: 22}}]}
+      - {value: 202, errors: [{asymerror: {plus: 23, minus: 21}}]}
+      - {value: 202, errors: [{asymerror: {plus: 23, minus: 21}}]}
+      - {value: 201, errors: [{asymerror: {plus: 23, minus: 21}}]}
+      - {value: 201, errors: [{asymerror: {plus: 22, minus: 22}}]}
+      - {value: 198, errors: [{asymerror: {plus: 21, minus: 22}}]}
+      - {value: 194, errors: [{asymerror: {plus: 21, minus: 21}}]}
+      - {value: 191, errors: [{asymerror: {plus: 19, minus: 22}}]}
+      - {value: 184, errors: [{asymerror: {plus: 19, minus: 20}}]}
+      - {value: 178, errors: [{asymerror: {plus: 18, minus: 20}}]}
+      - {value: 169, errors: [{asymerror: {plus: 17, minus: 18}}]}
+      - {value: 159, errors: [{asymerror: {plus: 16, minus: 17}}]}
+      - {value: 153, errors: [{asymerror: {plus: 10, minus: 21}}]}
+      - {value: 139, errors: [{asymerror: {plus: 10, minus: 19}}]}
+      - {value: 123, errors: [{asymerror: {plus: 12, minus: 16}}]}
+      - {value: 107, errors: [{asymerror: {plus: 14, minus: 12}}]}
+      - {value: 94, errors: [{asymerror: {plus: 14, minus: 11}}]}
+      - {value: 78.8, errors: [{asymerror: {plus: 14.6, minus: 9.0}}]}
+      - {value: 66.0, errors: [{asymerror: {plus: 14.4, minus: 7.7}}]}
+      - {value: 55.2, errors: [{asymerror: {plus: 13.3, minus: 7.3}}]}
+      - {value: 50, errors: [{asymerror: {plus: 8, minus: 11}}]}
+      - {value: 41.0, errors: [{asymerror: {plus: 7.2, minus: 9.8}}]}
+      - {value: 35, errors: [{asymerror: {plus: 7, minus: 10}}]}
+      - {value: 29.1, errors: [{asymerror: {plus: 7.7, minus: 9.7}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "35–45%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "90 +/- 5"}
+    values:
+      - {value: 23.2, errors: [{asymerror: {plus: 5.7, minus: 8.6}}]}
+      - {value: 26.1, errors: [{asymerror: {plus: 5.7, minus: 7.8}}]}
+      - {value: 30.1, errors: [{asymerror: {plus: 5.1, minus: 7.5}}]}
+      - {value: 35.6, errors: [{asymerror: {plus: 5.9, minus: 7.8}}]}
+      - {value: 38.2, errors: [{asymerror: {plus: 10.3, minus: 4.4}}]}
+      - {value: 45.7, errors: [{asymerror: {plus: 10.3, minus: 5.4}}]}
+      - {value: 54.8, errors: [{asymerror: {plus: 9.3, minus: 7.2}}]}
+      - {value: 63.2, errors: [{asymerror: {plus: 9.2, minus: 8.1}}]}
+      - {value: 70.2, errors: [{asymerror: {plus: 10.8, minus: 7.3}}]}
+      - {value: 81, errors: [{asymerror: {plus: 9, minus: 10}}]}
+      - {value: 87.1, errors: [{asymerror: {plus: 10.9, minus: 9.3}}]}
+      - {value: 99, errors: [{asymerror: {plus: 7, minus: 14}}]}
+      - {value: 100.3, errors: [{asymerror: {plus: 13.0, minus: 9.6}}]}
+      - {value: 107, errors: [{asymerror: {plus: 13, minus: 11}}]}
+      - {value: 112, errors: [{asymerror: {plus: 14, minus: 12}}]}
+      - {value: 117, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 121, errors: [{asymerror: {plus: 14, minus: 14}}]}
+      - {value: 124, errors: [{asymerror: {plus: 14, minus: 15}}]}
+      - {value: 126, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 128, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 127, errors: [{asymerror: {plus: 17, minus: 13}}]}
+      - {value: 131, errors: [{asymerror: {plus: 13, minus: 16}}]}
+      - {value: 131, errors: [{asymerror: {plus: 13, minus: 16}}]}
+      - {value: 130, errors: [{asymerror: {plus: 14, minus: 15}}]}
+      - {value: 130, errors: [{asymerror: {plus: 13, minus: 15}}]}
+      - {value: 129, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 129, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 129, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 128, errors: [{asymerror: {plus: 15, minus: 12}}]}
+      - {value: 131, errors: [{asymerror: {plus: 13, minus: 15}}]}
+      - {value: 129, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 129, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 129, errors: [{asymerror: {plus: 16, minus: 14}}]}
+      - {value: 129, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 127, errors: [{asymerror: {plus: 15, minus: 14}}]}
+      - {value: 128, errors: [{asymerror: {plus: 13, minus: 16}}]}
+      - {value: 125, errors: [{asymerror: {plus: 14, minus: 15}}]}
+      - {value: 123, errors: [{asymerror: {plus: 13, minus: 15}}]}
+      - {value: 118, errors: [{asymerror: {plus: 13, minus: 13}}]}
+      - {value: 115, errors: [{asymerror: {plus: 11, minus: 14}}]}
+      - {value: 106, errors: [{asymerror: {plus: 14, minus: 10}}]}
+      - {value: 102, errors: [{asymerror: {plus: 12, minus: 11}}]}
+      - {value: 98, errors: [{asymerror: {plus: 8, minus: 14}}]}
+      - {value: 91, errors: [{asymerror: {plus: 7, minus: 13}}]}
+      - {value: 81, errors: [{asymerror: {plus: 9, minus: 10}}]}
+      - {value: 71.1, errors: [{asymerror: {plus: 9.9, minus: 8.2}}]}
+      - {value: 64.0, errors: [{asymerror: {plus: 8.5, minus: 8.8}}]}
+      - {value: 53.4, errors: [{asymerror: {plus: 10.7, minus: 5.8}}]}
+      - {value: 44.9, errors: [{asymerror: {plus: 11.1, minus: 4.6}}]}
+      - {value: 38.2, errors: [{asymerror: {plus: 10.2, minus: 4.5}}]}
+      - {value: 36.1, errors: [{asymerror: {plus: 5.4, minus: 8.3}}]}
+      - {value: 30.7, errors: [{asymerror: {plus: 4.6, minus: 8.0}}]}
+      - {value: 25.9, errors: [{asymerror: {plus: 5.8, minus: 7.6}}]}
+      - {value: 22.4, errors: [{asymerror: {plus: 6.5, minus: 7.8}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "45–55%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "130"}
+      - {name: "$N_{part}$", value: "Not Provided"}
+    values:
+      - {value: 15.5, errors: [{asymerror: {plus: 5.6, minus: 5.9}}]}
+      - {value: 16.9, errors: [{asymerror: {plus: 5.2, minus: 4.9}}]}
+      - {value: 20.4, errors: [{asymerror: {plus: 3.2, minus: 5.6}}]}
+      - {value: 24.0, errors: [{asymerror: {plus: 3.5, minus: 5.9}}]}
+      - {value: 25.2, errors: [{asymerror: {plus: 6.5, minus: 3.4}}]}
+      - {value: 29.0, errors: [{asymerror: {plus: 7.1, minus: 3.1}}]}
+      - {value: 34.6, errors: [{asymerror: {plus: 6.3, minus: 4.3}}]}
+      - {value: 40.3, errors: [{asymerror: {plus: 5.5, minus: 5.3}}]}
+      - {value: 45.7, errors: [{asymerror: {plus: 5.2, minus: 5.9}}]}
+      - {value: 49.8, errors: [{asymerror: {plus: 6.0, minus: 5.4}}]}
+      - {value: 54.7, errors: [{asymerror: {plus: 5.9, minus: 5.9}}]}
+      - {value: 61.1, errors: [{asymerror: {plus: 4.0, minus: 8.4}}]}
+      - {value: 61.8, errors: [{asymerror: {plus: 7.5, minus: 5.5}}]}
+      - {value: 64.7, errors: [{asymerror: {plus: 8.4, minus: 5.4}}]}
+      - {value: 68.4, errors: [{asymerror: {plus: 8.1, minus: 6.5}}]}
+      - {value: 71.2, errors: [{asymerror: {plus: 8.2, minus: 7.1}}]}
+      - {value: 74.0, errors: [{asymerror: {plus: 7.9, minus: 8.1}}]}
+      - {value: 76.3, errors: [{asymerror: {plus: 7.4, minus: 9.2}}]}
+      - {value: 78.0, errors: [{asymerror: {plus: 7.3, minus: 9.8}}]}
+      - {value: 77.1, errors: [{asymerror: {plus: 9.3, minus: 8.1}}]}
+      - {value: 78.6, errors: [{asymerror: {plus: 8.4, minus: 9.1}}]}
+      - {value: 79.3, errors: [{asymerror: {plus: 8.1, minus: 9.4}}]}
+      - {value: 80, errors: [{asymerror: {plus: 7, minus: 10}}]}
+      - {value: 79.8, errors: [{asymerror: {plus: 7.4, minus: 9.6}}]}
+      - {value: 78.3, errors: [{asymerror: {plus: 8.7, minus: 8.0}}]}
+      - {value: 77.6, errors: [{asymerror: {plus: 9.2, minus: 7.3}}]}
+      - {value: 77.3, errors: [{asymerror: {plus: 9.5, minus: 6.9}}]}
+      - {value: 77.7, errors: [{asymerror: {plus: 9.2, minus: 7.3}}]}
+      - {value: 76.8, errors: [{asymerror: {plus: 10.0, minus: 6.5}}]}
+      - {value: 78.9, errors: [{asymerror: {plus: 8.1, minus: 8.6}}]}
+      - {value: 79.3, errors: [{asymerror: {plus: 8.0, minus: 9.1}}]}
+      - {value: 79.0, errors: [{asymerror: {plus: 8.5, minus: 8.9}}]}
+      - {value: 78.8, errors: [{asymerror: {plus: 8.6, minus: 8.9}}]}
+      - {value: 78.2, errors: [{asymerror: {plus: 8.9, minus: 8.7}}]}
+      - {value: 76.5, errors: [{asymerror: {plus: 9.9, minus: 7.5}}]}
+      - {value: 76.6, errors: [{asymerror: {plus: 8.7, minus: 8.4}}]}
+      - {value: 76.1, errors: [{asymerror: {plus: 7.6, minus: 9.0}}]}
+      - {value: 73.8, errors: [{asymerror: {plus: 8.0, minus: 8.0}}]}
+      - {value: 72.6, errors: [{asymerror: {plus: 6.8, minus: 8.5}}]}
+      - {value: 69.8, errors: [{asymerror: {plus: 6.7, minus: 7.9}}]}
+      - {value: 66.0, errors: [{asymerror: {plus: 7.1, minus: 6.7}}]}
+      - {value: 62.6, errors: [{asymerror: {plus: 6.7, minus: 6.3}}]}
+      - {value: 61.2, errors: [{asymerror: {plus: 3.9, minus: 8.4}}]}
+      - {value: 55.8, errors: [{asymerror: {plus: 4.7, minus: 7.1}}]}
+      - {value: 50.0, errors: [{asymerror: {plus: 5.8, minus: 5.6}}]}
+      - {value: 45.4, errors: [{asymerror: {plus: 5.4, minus: 5.6}}]}
+      - {value: 39.6, errors: [{asymerror: {plus: 6.2, minus: 4.6}}]}
+      - {value: 34.2, errors: [{asymerror: {plus: 6.7, minus: 3.8}}]}
+      - {value: 28.9, errors: [{asymerror: {plus: 7.3, minus: 2.9}}]}
+      - {value: 24.5, errors: [{asymerror: {plus: 7.2, minus: 2.7}}]}
+      - {value: 24.3, errors: [{asymerror: {plus: 3.1, minus: 6.3}}]}
+      - {value: 20.1, errors: [{asymerror: {plus: 3.5, minus: 5.3}}]}
+      - {value: 16.9, errors: [{asymerror: {plus: 5.2, minus: 5.0}}]}
+      - {value: 14.9, errors: [{asymerror: {plus: 6.2, minus: 5.3}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "0–6%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.6"}
+      - {name: "$N_{part}$", value: "337 +/- 12"}
+    values:
+      - {value: 4.7, errors: [{asymerror: {plus: 1.0, minus: 4.7}}]}
+      - {value: 5.6, errors: [{asymerror: {plus: 2.7, minus: 5.6}}]}
+      - {value: 7.4, errors: [{asymerror: {plus: 4.1, minus: 6.6}}]}
+      - {value: 10.3, errors: [{asymerror: {plus: 4.9, minus: 7.2}}]}
+      - {value: 11.4, errors: [{asymerror: {plus: 8.0, minus: 5.7}}]}
+      - {value: 14.5, errors: [{asymerror: {plus: 10.0, minus: 5.4}}]}
+      - {value: 19.5, errors: [{asymerror: {plus: 11.0, minus: 6.0}}]}
+      - {value: 27.2, errors: [{asymerror: {plus: 10.6, minus: 8.5}}]}
+      - {value: 33.1, errors: [{asymerror: {plus: 13.6, minus: 7.7}}]}
+      - {value: 46, errors: [{asymerror: {plus: 12, minus: 12}}]}
+      - {value: 62, errors: [{asymerror: {plus: 9, minus: 16}}]}
+      - {value: 80, errors: [{asymerror: {plus: 8, minus: 19}}]}
+      - {value: 89, errors: [{asymerror: {plus: 19, minus: 10}}]}
+      - {value: 115, errors: [{asymerror: {plus: 17, minus: 14}}]}
+      - {value: 144, errors: [{asymerror: {plus: 16, minus: 18}}]}
+      - {value: 175, errors: [{asymerror: {plus: 17, minus: 21}}]}
+      - {value: 205, errors: [{asymerror: {plus: 21, minus: 23}}]}
+      - {value: 237, errors: [{asymerror: {plus: 24, minus: 27}}]}
+      - {value: 266, errors: [{asymerror: {plus: 28, minus: 32}}]}
+      - {value: 292, errors: [{asymerror: {plus: 31, minus: 36}}]}
+      - {value: 309, errors: [{asymerror: {plus: 38, minus: 36}}]}
+      - {value: 329, errors: [{asymerror: {plus: 36, minus: 43}}]}
+      - {value: 342, errors: [{asymerror: {plus: 35, minus: 47}}]}
+      - {value: 344, errors: [{asymerror: {plus: 39, minus: 43}}]}
+      - {value: 349, errors: [{asymerror: {plus: 37, minus: 43}}]}
+      - {value: 350, errors: [{asymerror: {plus: 36, minus: 42}}]}
+      - {value: 347, errors: [{asymerror: {plus: 40, minus: 38}}]}
+      - {value: 347, errors: [{asymerror: {plus: 40, minus: 37}}]}
+      - {value: 346, errors: [{asymerror: {plus: 40, minus: 39}}]}
+      - {value: 342, errors: [{asymerror: {plus: 44, minus: 37}}]}
+      - {value: 344, errors: [{asymerror: {plus: 40, minus: 42}}]}
+      - {value: 331, errors: [{asymerror: {plus: 46, minus: 36}}]}
+      - {value: 321, errors: [{asymerror: {plus: 44, minus: 36}}]}
+      - {value: 304, errors: [{asymerror: {plus: 43, minus: 31}}]}
+      - {value: 286, errors: [{asymerror: {plus: 37, minus: 31}}]}
+      - {value: 266, errors: [{asymerror: {plus: 28, minus: 32}}]}
+      - {value: 236, errors: [{asymerror: {plus: 25, minus: 27}}]}
+      - {value: 205, errors: [{asymerror: {plus: 22, minus: 23}}]}
+      - {value: 171, errors: [{asymerror: {plus: 21, minus: 18}}]}
+      - {value: 141, errors: [{asymerror: {plus: 20, minus: 15}}]}
+      - {value: 114, errors: [{asymerror: {plus: 18, minus: 13}}]}
+      - {value: 90, errors: [{asymerror: {plus: 18, minus: 11}}]}
+      - {value: 73, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 64, errors: [{asymerror: {plus: 7, minus: 18}}]}
+      - {value: 47, errors: [{asymerror: {plus: 10, minus: 13}}]}
+      - {value: 37, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 30, errors: [{asymerror: {plus: 7, minus: 12}}]}
+      - {value: 23.0, errors: [{asymerror: {plus: 7.5, minus: 9.5}}]}
+      - {value: 18.7, errors: [{asymerror: {plus: 5.7, minus: 9.6}}]}
+      - {value: 13.1, errors: [{asymerror: {plus: 6.3, minus: 7.3}}]}
+      - {value: 9.5, errors: [{asymerror: {plus: 5.6, minus: 6.5}}]}
+      - {value: 7.0, errors: [{asymerror: {plus: 4.5, minus: 6.2}}]}
+      - {value: 5.4, errors: [{asymerror: {plus: 3.0, minus: 5.4}}]}
+      - {value: 4.5, errors: [{asymerror: {plus: 1.1, minus: 4.5}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "6–15%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.6"}
+      - {name: "$N_{part}$", value: "265 +/- 11"}
+    values:
+      - {value: 8.0, errors: [{asymerror: {plus: 3.9, minus: 8.0}}]}
+      - {value: 9.7, errors: [{asymerror: {plus: 4.9, minus: 8.4}}]}
+      - {value: 12.2, errors: [{asymerror: {plus: 5.4, minus: 8.8}}]}
+      - {value: 13.6, errors: [{asymerror: {plus: 7.4, minus: 7.8}}]}
+      - {value: 15.9, errors: [{asymerror: {plus: 9.0, minus: 7.2}}]}
+      - {value: 19.1, errors: [{asymerror: {plus: 10.1, minus: 7.1}}]}
+      - {value: 24.6, errors: [{asymerror: {plus: 9.7, minus: 8.3}}]}
+      - {value: 31, errors: [{asymerror: {plus: 9, minus: 10}}]}
+      - {value: 32.8, errors: [{asymerror: {plus: 14.5, minus: 5.8}}]}
+      - {value: 44, errors: [{asymerror: {plus: 11, minus: 10}}]}
+      - {value: 58, errors: [{asymerror: {plus: 8, minus: 15}}]}
+      - {value: 71, errors: [{asymerror: {plus: 8, minus: 15}}]}
+      - {value: 77.7, errors: [{asymerror: {plus: 15.7, minus: 8.6}}]}
+      - {value: 98, errors: [{asymerror: {plus: 14, minus: 12}}]}
+      - {value: 118, errors: [{asymerror: {plus: 14, minus: 14}}]}
+      - {value: 141, errors: [{asymerror: {plus: 15, minus: 17}}]}
+      - {value: 164, errors: [{asymerror: {plus: 17, minus: 19}}]}
+      - {value: 187, errors: [{asymerror: {plus: 19, minus: 23}}]}
+      - {value: 209, errors: [{asymerror: {plus: 20, minus: 27}}]}
+      - {value: 226, errors: [{asymerror: {plus: 25, minus: 27}}]}
+      - {value: 239, errors: [{asymerror: {plus: 29, minus: 28}}]}
+      - {value: 254, errors: [{asymerror: {plus: 27, minus: 33}}]}
+      - {value: 261, errors: [{asymerror: {plus: 27, minus: 35}}]}
+      - {value: 264, errors: [{asymerror: {plus: 29, minus: 33}}]}
+      - {value: 266, errors: [{asymerror: {plus: 28, minus: 32}}]}
+      - {value: 265, errors: [{asymerror: {plus: 29, minus: 30}}]}
+      - {value: 266, errors: [{asymerror: {plus: 28, minus: 30}}]}
+      - {value: 263, errors: [{asymerror: {plus: 31, minus: 27}}]}
+      - {value: 263, errors: [{asymerror: {plus: 30, minus: 28}}]}
+      - {value: 261, errors: [{asymerror: {plus: 32, minus: 28}}]}
+      - {value: 262, errors: [{asymerror: {plus: 31, minus: 31}}]}
+      - {value: 258, errors: [{asymerror: {plus: 30, minus: 31}}]}
+      - {value: 244, errors: [{asymerror: {plus: 36, minus: 24}}]}
+      - {value: 233, errors: [{asymerror: {plus: 35, minus: 22}}]}
+      - {value: 223, errors: [{asymerror: {plus: 28, minus: 24}}]}
+      - {value: 207, errors: [{asymerror: {plus: 23, minus: 25}}]}
+      - {value: 186, errors: [{asymerror: {plus: 20, minus: 22}}]}
+      - {value: 161, errors: [{asymerror: {plus: 19, minus: 17}}]}
+      - {value: 139, errors: [{asymerror: {plus: 17, minus: 15}}]}
+      - {value: 117, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 97, errors: [{asymerror: {plus: 14, minus: 12}}]}
+      - {value: 78.8, errors: [{asymerror: {plus: 14.6, minus: 9.7}}]}
+      - {value: 66, errors: [{asymerror: {plus: 13, minus: 10}}]}
+      - {value: 58, errors: [{asymerror: {plus: 8, minus: 14}}]}
+      - {value: 46, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 38, errors: [{asymerror: {plus: 9, minus: 11}}]}
+      - {value: 33, errors: [{asymerror: {plus: 7, minus: 12}}]}
+      - {value: 25.9, errors: [{asymerror: {plus: 8.4, minus: 9.6}}]}
+      - {value: 23, errors: [{asymerror: {plus: 6, minus: 11}}]}
+      - {value: 16.8, errors: [{asymerror: {plus: 8.1, minus: 8.1}}]}
+      - {value: 14.5, errors: [{asymerror: {plus: 6.5, minus: 8.7}}]}
+      - {value: 11.6, errors: [{asymerror: {plus: 6.0, minus: 8.2}}]}
+      - {value: 9.6, errors: [{asymerror: {plus: 5.0, minus: 8.3}}]}
+      - {value: 8.4, errors: [{asymerror: {plus: 3.5, minus: 8.4}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "15–25%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.6"}
+      - {name: "$N_{part}$", value: "194 +/- 12"}
+    values:
+      - {value: 15, errors: [{asymerror: {plus: 8, minus: 14}}]}
+      - {value: 16, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 18, errors: [{asymerror: {plus: 8, minus: 12}}]}
+      - {value: 20, errors: [{asymerror: {plus: 8, minus: 11}}]}
+      - {value: 19.7, errors: [{asymerror: {plus: 10.1, minus: 8.1}}]}
+      - {value: 21.8, errors: [{asymerror: {plus: 10.4, minus: 7.2}}]}
+      - {value: 26.2, errors: [{asymerror: {plus: 9.0, minus: 8.2}}]}
+      - {value: 30.8, errors: [{asymerror: {plus: 7.8, minus: 9.3}}]}
+      - {value: 31.2, errors: [{asymerror: {plus: 11.6, minus: 5.9}}]}
+      - {value: 39.4, errors: [{asymerror: {plus: 8.7, minus: 9.2}}]}
+      - {value: 49, errors: [{asymerror: {plus: 6, minus: 13}}]}
+      - {value: 57, errors: [{asymerror: {plus: 6, minus: 13}}]}
+      - {value: 60.4, errors: [{asymerror: {plus: 12.6, minus: 7.2}}]}
+      - {value: 73.7, errors: [{asymerror: {plus: 11.8, minus: 9.2}}]}
+      - {value: 89, errors: [{asymerror: {plus: 12, minus: 11}}]}
+      - {value: 106, errors: [{asymerror: {plus: 11, minus: 14}}]}
+      - {value: 122, errors: [{asymerror: {plus: 12, minus: 15}}]}
+      - {value: 137, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 153, errors: [{asymerror: {plus: 15, minus: 19}}]}
+      - {value: 163, errors: [{asymerror: {plus: 19, minus: 17}}]}
+      - {value: 174, errors: [{asymerror: {plus: 19, minus: 20}}]}
+      - {value: 181, errors: [{asymerror: {plus: 21, minus: 21}}]}
+      - {value: 187, errors: [{asymerror: {plus: 20, minus: 23}}]}
+      - {value: 189, errors: [{asymerror: {plus: 19, minus: 24}}]}
+      - {value: 188, errors: [{asymerror: {plus: 21, minus: 22}}]}
+      - {value: 188, errors: [{asymerror: {plus: 21, minus: 21}}]}
+      - {value: 189, errors: [{asymerror: {plus: 20, minus: 21}}]}
+      - {value: 188, errors: [{asymerror: {plus: 21, minus: 20}}]}
+      - {value: 187, errors: [{asymerror: {plus: 22, minus: 20}}]}
+      - {value: 187, errors: [{asymerror: {plus: 21, minus: 21}}]}
+      - {value: 186, errors: [{asymerror: {plus: 22, minus: 20}}]}
+      - {value: 186, errors: [{asymerror: {plus: 20, minus: 22}}]}
+      - {value: 178, errors: [{asymerror: {plus: 23, minus: 18}}]}
+      - {value: 172, errors: [{asymerror: {plus: 21, minus: 18}}]}
+      - {value: 163, errors: [{asymerror: {plus: 20, minus: 17}}]}
+      - {value: 152, errors: [{asymerror: {plus: 16, minus: 17}}]}
+      - {value: 137, errors: [{asymerror: {plus: 15, minus: 16}}]}
+      - {value: 121, errors: [{asymerror: {plus: 14, minus: 14}}]}
+      - {value: 103, errors: [{asymerror: {plus: 13, minus: 11}}]}
+      - {value: 89, errors: [{asymerror: {plus: 11, minus: 11}}]}
+      - {value: 74.0, errors: [{asymerror: {plus: 11.5, minus: 9.5}}]}
+      - {value: 61.3, errors: [{asymerror: {plus: 11.7, minus: 8.1}}]}
+      - {value: 52.1, errors: [{asymerror: {plus: 10.7, minus: 8.3}}]}
+      - {value: 46.0, errors: [{asymerror: {plus: 8.6, minus: 9.7}}]}
+      - {value: 39.8, errors: [{asymerror: {plus: 8.2, minus: 9.6}}]}
+      - {value: 33.3, errors: [{asymerror: {plus: 9.5, minus: 8.0}}]}
+      - {value: 34, errors: [{asymerror: {plus: 5, minus: 12}}]}
+      - {value: 27.2, errors: [{asymerror: {plus: 7.9, minus: 9.2}}]}
+      - {value: 25, errors: [{asymerror: {plus: 7, minus: 10}}]}
+      - {value: 20.3, errors: [{asymerror: {plus: 9.5, minus: 8.7}}]}
+      - {value: 19, errors: [{asymerror: {plus: 8, minus: 11}}]}
+      - {value: 17, errors: [{asymerror: {plus: 9, minus: 11}}]}
+      - {value: 15, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 14, errors: [{asymerror: {plus: 9, minus: 13}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "25–35%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.5"}
+      - {name: "$N_{part}$", value: "138 +/- 13"}
+    values:
+      - {value: 21, errors: [{asymerror: {plus: 12, minus: 19}}]}
+      - {value: 22, errors: [{asymerror: {plus: 12, minus: 17}}]}
+      - {value: 22, errors: [{asymerror: {plus: 12, minus: 15}}]}
+      - {value: 23, errors: [{asymerror: {plus: 11, minus: 13}}]}
+      - {value: 21.7, errors: [{asymerror: {plus: 12.7, minus: 9.2}}]}
+      - {value: 22.7, errors: [{asymerror: {plus: 12.2, minus: 7.6}}]}
+      - {value: 25.8, errors: [{asymerror: {plus: 10.0, minus: 8.0}}]}
+      - {value: 29.7, errors: [{asymerror: {plus: 7.2, minus: 9.3}}]}
+      - {value: 29.4, errors: [{asymerror: {plus: 9.1, minus: 6.4}}]}
+      - {value: 34.0, errors: [{asymerror: {plus: 6.9, minus: 7.9}}]}
+      - {value: 40, errors: [{asymerror: {plus: 4, minus: 10}}]}
+      - {value: 45, errors: [{asymerror: {plus: 4, minus: 10}}]}
+      - {value: 45.4, errors: [{asymerror: {plus: 9.8, minus: 5.0}}]}
+      - {value: 54.8, errors: [{asymerror: {plus: 8.5, minus: 7.3}}]}
+      - {value: 65.2, errors: [{asymerror: {plus: 7.9, minus: 9.4}}]}
+      - {value: 76, errors: [{asymerror: {plus: 8, minus: 11}}]}
+      - {value: 86, errors: [{asymerror: {plus: 10, minus: 11}}]}
+      - {value: 97, errors: [{asymerror: {plus: 10, minus: 12}}]}
+      - {value: 108, errors: [{asymerror: {plus: 10, minus: 14}}]}
+      - {value: 113, errors: [{asymerror: {plus: 13, minus: 12}}]}
+      - {value: 119, errors: [{asymerror: {plus: 14, minus: 13}}]}
+      - {value: 124, errors: [{asymerror: {plus: 14, minus: 14}}]}
+      - {value: 128, errors: [{asymerror: {plus: 13, minus: 16}}]}
+      - {value: 129, errors: [{asymerror: {plus: 13, minus: 16}}]}
+      - {value: 129, errors: [{asymerror: {plus: 14, minus: 16}}]}
+      - {value: 127, errors: [{asymerror: {plus: 16, minus: 14}}]}
+      - {value: 128, errors: [{asymerror: {plus: 13, minus: 15}}]}
+      - {value: 126, errors: [{asymerror: {plus: 16, minus: 13}}]}
+      - {value: 127, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 128, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 128, errors: [{asymerror: {plus: 15, minus: 15}}]}
+      - {value: 128, errors: [{asymerror: {plus: 13, minus: 15}}]}
+      - {value: 123, errors: [{asymerror: {plus: 15, minus: 13}}]}
+      - {value: 117, errors: [{asymerror: {plus: 15, minus: 11}}]}
+      - {value: 112, errors: [{asymerror: {plus: 14, minus: 11}}]}
+      - {value: 105, errors: [{asymerror: {plus: 12, minus: 12}}]}
+      - {value: 95, errors: [{asymerror: {plus: 12, minus: 11}}]}
+      - {value: 86, errors: [{asymerror: {plus: 10, minus: 11}}]}
+      - {value: 74.3, errors: [{asymerror: {plus: 9.9, minus: 9.3}}]}
+      - {value: 63.8, errors: [{asymerror: {plus: 9.2, minus: 8.1}}]}
+      - {value: 54.1, errors: [{asymerror: {plus: 9.2, minus: 6.6}}]}
+      - {value: 46.4, errors: [{asymerror: {plus: 8.8, minus: 6.0}}]}
+      - {value: 40.5, errors: [{asymerror: {plus: 8.4, minus: 5.9}}]}
+      - {value: 38.9, errors: [{asymerror: {plus: 5.4, minus: 9.0}}]}
+      - {value: 32.6, errors: [{asymerror: {plus: 8.3, minus: 6.5}}]}
+      - {value: 29.7, errors: [{asymerror: {plus: 8.8, minus: 6.8}}]}
+      - {value: 32, errors: [{asymerror: {plus: 5, minus: 11}}]}
+      - {value: 26.8, errors: [{asymerror: {plus: 8.9, minus: 9.0}}]}
+      - {value: 26, errors: [{asymerror: {plus: 9, minus: 11}}]}
+      - {value: 22.0, errors: [{asymerror: {plus: 12.5, minus: 9.4}}]}
+      - {value: 23, errors: [{asymerror: {plus: 11, minus: 13}}]}
+      - {value: 21, errors: [{asymerror: {plus: 13, minus: 13}}]}
+      - {value: 22, errors: [{asymerror: {plus: 11, minus: 17}}]}
+      - {value: 22, errors: [{asymerror: {plus: 11, minus: 20}}]}
+  - header: {name: "$dN/d\\eta$"}
+    qualifiers:
+      - {name: "Centrality bin (%)", value: "35–45%"}
+      - {name: "$\\sqrt{s_{NN}}$ (GeV)", value: "19.5"}
+      - {name: "$N_{part}$", value: "Not Provided"}
+    values:
+      - {value: 22, errors: [{asymerror: {plus: 12, minus: 15}}]}
+      - {value: 23, errors: [{asymerror: {plus: 12, minus: 15}}]}
+      - {value: 24, errors: [{asymerror: {plus: 10, minus: 15}}]}
+      - {value: 24, errors: [{asymerror: {plus: 10, minus: 14}}]}
+      - {value: 21, errors: [{asymerror: {plus: 13, minus: 10}}]}
+      - {value: 20.7, errors: [{asymerror: {plus: 13.8, minus: 8.5}}]}
+      - {value: 24, errors: [{asymerror: {plus: 11, minus: 10}}]}
+      - {value: 26, errors: [{asymerror: {plus: 9, minus: 11}}]}
+      - {value: 24.5, errors: [{asymerror: {plus: 10.6, minus: 7.6}}]}
+      - {value: 27.4, errors: [{asymerror: {plus: 8.1, minus: 8.5}}]}
+      - {value: 30.0, errors: [{asymerror: {plus: 6.3, minus: 8.4}}]}
+      - {value: 33.3, errors: [{asymerror: {plus: 4.3, minus: 8.5}}]}
+      - {value: 32.1, errors: [{asymerror: {plus: 7.7, minus: 3.3}}]}
+      - {value: 37.5, errors: [{asymerror: {plus: 5.7, minus: 4.2}}]}
+      - {value: 43.2, errors: [{asymerror: {plus: 5.0, minus: 4.9}}]}
+      - {value: 49.6, errors: [{asymerror: {plus: 5.2, minus: 6.0}}]}
+      - {value: 56.2, errors: [{asymerror: {plus: 6.1, minus: 7.3}}]}
+      - {value: 62.4, errors: [{asymerror: {plus: 7.3, minus: 8.4}}]}
+      - {value: 68.0, errors: [{asymerror: {plus: 7.9, minus: 9.4}}]}
+      - {value: 71.9, errors: [{asymerror: {plus: 8.6, minus: 9.3}}]}
+      - {value: 74.0, errors: [{asymerror: {plus: 9.7, minus: 8.1}}]}
+      - {value: 78.2, errors: [{asymerror: {plus: 7.6, minus: 9.7}}]}
+      - {value: 79.0, errors: [{asymerror: {plus: 8.5, minus: 8.4}}]}
+      - {value: 79.9, errors: [{asymerror: {plus: 9.0, minus: 7.9}}]}
+      - {value: 81.4, errors: [{asymerror: {plus: 8.8, minus: 9.1}}]}
+      - {value: 82, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 79.1, errors: [{asymerror: {plus: 9.7, minus: 9.0}}]}
+      - {value: 80, errors: [{asymerror: {plus: 9, minus: 10}}]}
+      - {value: 79.5, errors: [{asymerror: {plus: 11.2, minus: 9.4}}]}
+      - {value: 80.1, errors: [{asymerror: {plus: 10.1, minus: 7.8}}]}
+      - {value: 80.0, errors: [{asymerror: {plus: 8.9, minus: 8.0}}]}
+      - {value: 79.2, errors: [{asymerror: {plus: 8.2, minus: 8.6}}]}
+      - {value: 77.1, errors: [{asymerror: {plus: 8.7, minus: 8.6}}]}
+      - {value: 74.8, errors: [{asymerror: {plus: 8.9, minus: 8.9}}]}
+      - {value: 71.9, errors: [{asymerror: {plus: 8.6, minus: 9.3}}]}
+      - {value: 66.6, errors: [{asymerror: {plus: 9.3, minus: 8.0}}]}
+      - {value: 62.6, errors: [{asymerror: {plus: 7.1, minus: 8.6}}]}
+      - {value: 56.1, errors: [{asymerror: {plus: 6.2, minus: 7.1}}]}
+      - {value: 48.4, errors: [{asymerror: {plus: 6.4, minus: 4.8}}]}
+      - {value: 42.6, errors: [{asymerror: {plus: 5.6, minus: 4.2}}]}
+      - {value: 37.4, errors: [{asymerror: {plus: 5.8, minus: 4.1}}]}
+      - {value: 32.4, errors: [{asymerror: {plus: 7.4, minus: 3.6}}]}
+      - {value: 29.5, errors: [{asymerror: {plus: 8.1, minus: 4.7}}]}
+      - {value: 29.6, errors: [{asymerror: {plus: 6.7, minus: 8.1}}]}
+      - {value: 26.0, errors: [{asymerror: {plus: 9.5, minus: 7.1}}]}
+      - {value: 28, errors: [{asymerror: {plus: 7, minus: 11}}]}
+      - {value: 30, errors: [{asymerror: {plus: 5, minus: 15}}]}
+      - {value: 26, errors: [{asymerror: {plus: 9, minus: 12}}]}
+      - {value: 26, errors: [{asymerror: {plus: 9, minus: 14}}]}
+      - {value: 22, errors: [{asymerror: {plus: 12, minus: 11}}]}
+      - {value: 25, errors: [{asymerror: {plus: 10, minus: 15}}]}
+      - {value: 21, errors: [{asymerror: {plus: 13, minus: 13}}]}
+      - {value: 23, errors: [{asymerror: {plus: 11, minus: 15}}]}
+      - {value: 22, errors: [{asymerror: {plus: 13, minus: 15}}]}
