@@ -1,0 +1,23 @@
+independent_variables:
+  - header: { name: "Reference Paper" }
+    values:
+      - { value: "B. B. Back et al., Phys. Rev. C71, 021901(R) (2005)" }
+      - { value: "B. B. Back et al., Phys. Rev. Lett. 87, 102301 (2001)" }
+      - { value: "B. B. Back et al., Phys. Rev. C 67, 021901 (2003)" }
+dependent_variables:
+  - header: { name: "$\\sqrt{S_{NN}}$" }
+    values:
+      - value: 200
+
+      - value: 130
+
+      - value: 200
+
+  - header: { name: "$\\bar{p}/p$" }
+    values:
+      - value: 0.85
+        errors: [{symerror: 0.05, label: "stat"}]
+      - value: 0.60
+        errors: [{symerror: 0.07, label: "stat"}]
+      - value: 0.73
+        errors: [{symerror: 0.04, label: "stat"}]
