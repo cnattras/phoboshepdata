@@ -9,28 +9,28 @@ independent_variables:
 dependent_variables:
   - header: {name: "$v^2 (0 < |\\eta| < 1)$"}
     values:
-      - {value: 0.033389, errors: [{symerror: 0.003443, label: "stat"}]}
-      - {value: 0.042679, errors: [{symerror: 0.001247, label: "stat"}]}
-      - {value: 0.046382, errors: [{symerror: 0.000951, label: "stat"}]}
-      - {value: 0.048046, errors: [{symerror: 0.001117, label: "stat"}]}
+      - {value: 0.0334, errors: [{symerror: 0.0034, label: "stat"}]}
+      - {value: 0.0427, errors: [{symerror: 0.0013, label: "stat"}]}
+      - {value: 0.0464, errors: [{symerror: 0.0010, label: "stat"}]}
+      - {value: 0.0481, errors: [{symerror: 0.0011, label: "stat"}]}
 
   - header: {name: "v^2 (1 < |\\eta| < 2)$"}
     values:
-      - {value: 0.026323, errors: [{symerror: 0.003276, label: "stat"}]}
-      - {value: 0.034526, errors: [{symerror: 0.001001, label: "stat"}]}
-      - {value: 0.039062, errors: [{symerror: 0.000784, label: "stat"}]}
-      - {value: 0.041780, errors: [{symerror: 0.000933, label: "stat"}]}
+      - {value: 0.0263, errors: [{symerror: 0.0033, label: "stat"}]}
+      - {value: 0.0345, errors: [{symerror: 0.0010, label: "stat"}]}
+      - {value: 0.0391, errors: [{symerror: 0.0008, label: "stat"}]}
+      - {value: 0.0418, errors: [{symerror: 0.0009, label: "stat"}]}
 
   - header: {name: "v^2 (2 < |\\eta| < 3)$"}
     values:
-      - {value: 0.016921, errors: [{symerror: 0.003924, label: "stat"}]}
-      - {value: 0.026896, errors: [{symerror: 0.000843, label: "stat"}]}
-      - {value: 0.033292, errors: [{symerror: 0.000741, label: "stat"}]}
-      - {value: 0.035866, errors: [{symerror: 0.000799, label: "stat"}]}
+      - {value: 0.017, errors: [{symerror: 0.004, label: "stat"}]}
+      - {value: 0.0269, errors: [{symerror: 0.0008, label: "stat"}]}
+      - {value: 0.0333, errors: [{symerror: 0.0007, label: "stat"}]}
+      - {value: 0.0359, errors: [{symerror: 0.0008, label: "stat"}]}
 
   - header: {name: "v^2 (3 < |\\eta| < 4.$5)"}
     values:
-      - {value: 0.012962, errors: [{symerror: 0.003873, label: "stat"}]}
-      - {value: 0.018536, errors: [{symerror: 0.000617, label: "stat"}]}
-      - {value: 0.023178, errors: [{symerror: 0.000510, label: "stat"}]}
-      - {value: 0.025948, errors: [{symerror: 0.000530, label: "stat"}]}
+      - {value: 0.013, errors: [{symerror: 0.004, label: "stat"}]}
+      - {value: 0.0185, errors: [{symerror: 0.0006, label: "stat"}]}
+      - {value: 0.0232, errors: [{symerror: 0.0005, label: "stat"}]}
+      - {value: 0.0290, errors: [{symerror: 0.0005, label: "stat"}]}

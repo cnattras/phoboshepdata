@@ -7,7 +7,7 @@
 additional_resources: # additional references (e.g. experiment TWiki page for analysis)
 - {location: "https://inspirehep.net/literature/652825", description: "InspireHEP ID: 652825"}
 - {location: "https://arxiv.org/abs/nucl-ex/0406021", description: "arXiv ID: nucl-ex/0406021"}
-- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Flow_v2_limfrag/v2LimFrag.txt", description: "Phys. Rev. Lett. 94, 122303 (2005)"}
+- {location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Flow_v2_limfrag/v2LimFrag.txt", description: "Text Data from Phys. Rev. Lett. 94, 122303 (2005)"}
 
 # https://www.sdcc.bnl.gov/phobos/Publications/Physics/Flow_v2_limfrag/v2LimFrag.txt
 comment: |
@@ -74,7 +74,7 @@ additional_resources:
 ---
 name: "Fig 2"
 location: Data from Figure 2 of Phys. Rev. Lett. 94, 122303 (2005)
-description: The evolution of the elliptic flow in $\eta$ bins, averaged over centrality (0-40%), as a function of $\sqrt(S_{NN})$.
+description: The evolution of the elliptic flow in $\eta$ bins, averaged over centrality (0-40%), as a function of $\sqrt(S_{NN})$. Uncertainties are 90% CF.
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
