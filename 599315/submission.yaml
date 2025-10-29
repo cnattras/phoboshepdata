@@ -56,7 +56,7 @@ additional_resources:
 ---
 name: "Figure 2: 200 GeV"
 location: Data from Figure 2 of Phys. Rev. Lett. 88, 223
-description: $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 200 GeV. Not all errors are listed in the data, which is reflected in the figure. 
+description: $dN_{ch}/d\eta'$ per participant pair for Au + Au collisions at $\sqrt{S_{NN}}$= 200 GeV. Only selected systemtic uncertainties are listed in the table. 
 keywords: # used for searching, possibly multiple values for each keyword
 - name: reactions
   values: [AU AU --> MULT(CHARGED) X]
