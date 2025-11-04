@@ -2,7 +2,7 @@ independent_variables:
   - header: { name: "Particle Type" }
     values:
       - { value: "$\\langle\\pi^-/\\pi^+\\rangle$" }
-      - { value: "$\\langle K^-/\\K^+\\rangle$" }
+      - { value: "$\\langle K^-/K^+\\rangle$" }
       - { value: "$\\langle\\bar{p}/p\\rangle$" }
 
 
