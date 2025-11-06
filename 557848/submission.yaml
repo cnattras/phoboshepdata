@@ -24,7 +24,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1centrality0to6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 6-15% centrality bin
 name: "$dN_{ch}/d\\eta$ Centrality 6-15%"
@@ -40,7 +39,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1centrality6to15.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 
 ---
 # This is data for the 15-25% centrality bin
@@ -57,7 +55,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1centrality15to25.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 25-35% centrality bin
 name: "$dN_{ch}/d\\eta$ Centrality 25-35%"
@@ -73,7 +70,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1centrality25to35.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 35-45% centrality bin
 name: "$dN_{ch}/d\\eta$ Centrality 35-45%"
@@ -89,7 +85,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1centrality35to45.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 45-55% centrality bin
 name: "$dN_{ch}/d\\eta$ Centrality 45-55%"
@@ -105,7 +100,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1centrality45to55.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 --- 
 # This is data for the 0-6% centrality bin for particle production
 name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 0-6%"
@@ -121,7 +115,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1part0to6.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 6-15% centrality bin for particle production
 name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 6-15%"
@@ -137,7 +130,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1part6to15.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 15-25% centrality bin for particle production
 name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 15-25%"
@@ -153,7 +145,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1part15to25.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 25-35% centrality bin for particle production
 name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 25-35%"
@@ -169,7 +160,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1part25to35.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the 35-45% centrality bin for particle production
 name: "$\\frac{2}{N_{part}}\\frac{dN_{ch}}{d\\eta}$ Centrality 35-45%"
@@ -185,7 +175,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig1part35to45.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure1.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 0 to 1 for particle production
 name: "$dN_{ch}/d\\eta$ $0<\\eta<1$"
@@ -201,7 +190,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig2eta0to1.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 2 to 2.4 for particle production
 name: "$dN_{ch}/d\\eta$ $2<\\eta<2.4$"
@@ -217,7 +205,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig2eta2to2.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 3 to 3.4 for particle production
 name: "$dN_{ch}/d\\eta$ $3<\\eta<3.4$"
@@ -233,7 +220,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig2eta3to3.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 4 to 4.4 for particle production
 name: "$dN_{ch}/d\\eta$ $4<\\eta<4.4$"
@@ -249,7 +235,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig2eta4to4.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is data for the eta between 5 to 5.4 for particle production
 name: "$dN_{ch}/d\\eta$ $5<\\eta<5.4$"
@@ -265,7 +250,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: fig2eta5to5.4.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2 
 name: "HIJING"
@@ -281,7 +265,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: HIJING.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2
 name: "AMPT"
@@ -297,7 +280,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: AMPT.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2
 name: "LUCIFER"
@@ -313,7 +295,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: LUCIFER.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is ESTIMATED data for figure 2
 name: "Total $\\frac{dN}{d\\eta}$"
@@ -329,7 +310,6 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: LOOKfig2Rapidities.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 ---
 # This is proton-proton data for figure 2
 name: "Proton-Proton Extrapolation Data"
@@ -345,6 +325,5 @@ keywords: # used for searching, possibly multiple values for each keyword
 data_file: pp.yaml
 additional_resources:
 - {description: Thumbnail Image file, location: thumb_figure2.png}
-- {description: Link to Text data files from Phys. Rev. Lett. 87, 102303 (2001) , location: "https://www.sdcc.bnl.gov/phobos/Publications/Physics/Mult_eta_dist_130/Data/data.htm"}
 
 
