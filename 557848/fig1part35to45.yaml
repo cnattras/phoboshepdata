@@ -1,115 +1,115 @@
 independent_variables:
-  - header: { name: "$\\eta$" }
-    values:
-      - { value: -5.3 }
-      - { value: -5.1 }
-      - { value: -4.9 }
-      - { value: -4.7 }
-      - { value: -4.5 }
-      - { value: -4.3 }
-      - { value: -4.1 }
-      - { value: -3.9 }
-      - { value: -3.7 }
-      - { value: -3.5 }
-      - { value: -3.3 }
-      - { value: -3.1 }
-      - { value: -2.9 }
-      - { value: -2.7 }
-      - { value: -2.5 }
-      - { value: -2.3 }
-      - { value: -2.1 }
-      - { value: -1.9 }
-      - { value: -1.7 }
-      - { value: -1.5 }
-      - { value: -1.3 }
-      - { value: -1.1 }
-      - { value: -0.9 }
-      - { value: -0.7 }
-      - { value: -0.5 }
-      - { value: -0.3 }
-      - { value: -0.1 }
-      - { value: 0.1 }
-      - { value: 0.3 }
-      - { value: 0.5 }
-      - { value: 0.7 }
-      - { value: 0.9 }
-      - { value: 1.1 }
-      - { value: 1.3 }
-      - { value: 1.5 }
-      - { value: 1.7 }
-      - { value: 1.9 }
-      - { value: 2.1 }
-      - { value: 2.3 }
-      - { value: 2.5 }
-      - { value: 2.7 }
-      - { value: 2.9 }
-      - { value: 3.1 }
-      - { value: 3.3 }
-      - { value: 3.5 }
-      - { value: 3.7 }
-      - { value: 3.9 }
-      - { value: 4.1 }
-      - { value: 4.3 }
-      - { value: 4.5 }
-      - { value: 4.7 }
-      - { value: 4.9 }
-      - { value: 5.1 }
-      - { value: 5.3 }
+- header: { name: "$\\eta$" }
+  values:
+  - { value: -5.3 }
+  - { value: -5.1 }
+  - { value: -4.9 }
+  - { value: -4.7 }
+  - { value: -4.5 }
+  - { value: -4.3 }
+  - { value: -4.1 }
+  - { value: -3.9 }
+  - { value: -3.7 }
+  - { value: -3.5 }
+  - { value: -3.3 }
+  - { value: -3.1 }
+  - { value: -2.9 }
+  - { value: -2.7 }
+  - { value: -2.5 }
+  - { value: -2.3 }
+  - { value: -2.1 }
+  - { value: -1.9 }
+  - { value: -1.7 }
+  - { value: -1.5 }
+  - { value: -1.3 }
+  - { value: -1.1 }
+  - { value: -0.9 }
+  - { value: -0.7 }
+  - { value: -0.5 }
+  - { value: -0.3 }
+  - { value: -0.1 }
+  - { value: 0.1 }
+  - { value: 0.3 }
+  - { value: 0.5 }
+  - { value: 0.7 }
+  - { value: 0.9 }
+  - { value: 1.1 }
+  - { value: 1.3 }
+  - { value: 1.5 }
+  - { value: 1.7 }
+  - { value: 1.9 }
+  - { value: 2.1 }
+  - { value: 2.3 }
+  - { value: 2.5 }
+  - { value: 2.7 }
+  - { value: 2.9 }
+  - { value: 3.1 }
+  - { value: 3.3 }
+  - { value: 3.5 }
+  - { value: 3.7 }
+  - { value: 3.9 }
+  - { value: 4.1 }
+  - { value: 4.3 }
+  - { value: 4.5 }
+  - { value: 4.7 }
+  - { value: 4.9 }
+  - { value: 5.1 }
+  - { value: 5.3 }
 
 dependent_variables:
-- header: { name: "$\\frac{1}{N_{\\text{part}}/2}\\frac{dN}{d\\eta}$" }
+- header: { name: "$\\frac{2}{\\langle {N_{part}} \\rangle} \\frac{dN_{ch}}{d\\eta}$" }
   values:
-    - { value: 0.549, errors: [{ label: "sys", symerror: 0.066 }] }
-    - { value: 0.605, errors: [{ label: "sys", symerror: 0.070 }] }
-    - { value: 0.675, errors: [{ label: "sys", symerror: 0.078 }] }
-    - { value: 0.764, errors: [{ label: "sys", symerror: 0.094 }] }
-    - { value: 0.880, errors: [{ label: "sys", symerror: 0.11 }] }
-    - { value: 1.034, errors: [{ label: "sys", symerror: 0.12 }] }
-    - { value: 1.185, errors: [{ label: "sys", symerror: 0.14 }] }
-    - { value: 1.308, errors: [{ label: "sys", symerror: 0.18 }] }
-    - { value: 1.646, errors: [{ label: "sys", symerror: 0.22 }] }
-    - { value: 1.768, errors: [{ label: "sys", symerror: 0.22 }] }
-    - { value: 1.828, errors: [{ label: "sys", symerror: 0.21 }] }
-    - { value: 1.954, errors: [{ label: "sys", symerror: 0.27 }] }
-    - { value: 2.311, errors: [{ label: "sys", symerror: 0.36 }] }
-    - { value: 2.319, errors: [{ label: "sys", symerror: 0.26 }] }
-    - { value: 2.436, errors: [{ label: "sys", symerror: 0.29 }] }
-    - { value: 2.566, errors: [{ label: "sys", symerror: 0.29 }] }
-    - { value: 2.670, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.759, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.785, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.812, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.837, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.899, errors: [{ label: "sys", symerror: 0.33 }] }
-    - { value: 2.825, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.808, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.809, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.801, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.761, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.787, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.786, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.833, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.811, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.792, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.850, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.874, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.851, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.810, errors: [{ label: "sys", symerror: 0.32 }] }
-    - { value: 2.744, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.704, errors: [{ label: "sys", symerror: 0.31 }] }
-    - { value: 2.574, errors: [{ label: "sys", symerror: 0.29 }] }
-    - { value: 2.496, errors: [{ label: "sys", symerror: 0.30 }] }
-    - { value: 2.310, errors: [{ label: "sys", symerror: 0.26 }] }
-    - { value: 2.300, errors: [{ label: "sys", symerror: 0.36 }] }
-    - { value: 1.980, errors: [{ label: "sys", symerror: 0.25 }] }
-    - { value: 1.830, errors: [{ label: "sys", symerror: 0.21 }] }
-    - { value: 1.731, errors: [{ label: "sys", symerror: 0.21 }] }
-    - { value: 1.603, errors: [{ label: "sys", symerror: 0.21 }] }
-    - { value: 1.286, errors: [{ label: "sys", symerror: 0.18 }] }
-    - { value: 1.165, errors: [{ label: "sys", symerror: 0.14 }] }
-    - { value: 1.014, errors: [{ label: "sys", symerror: 0.12 }] }
-    - { value: 0.8731, errors: [{ label: "sys", symerror: 0.11 }] }
-    - { value: 0.7886, errors: [{ label: "sys", symerror: 0.097 }] }
-    - { value: 0.6901, errors: [{ label: "sys", symerror: 0.083 }] }
-    - { value: 0.5934, errors: [{ label: "sys", symerror: 0.069 }] }
-    - { value: 0.5501, errors: [{ label: "sys", symerror: 0.067 }] }
+  - { value: 0.549, errors: [ { label: "sys", symerror: 0.066 } ] }
+  - { value: 0.605, errors: [ { label: "sys", symerror: 0.070 } ] }
+  - { value: 0.675, errors: [ { label: "sys", symerror: 0.078 } ] }
+  - { value: 0.764, errors: [ { label: "sys", symerror: 0.094 } ] }
+  - { value: 0.880, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 1.034, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 1.185, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.308, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.646, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.768, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.828, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.954, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 2.311, errors: [ { label: "sys", symerror: 0.36 } ] }
+  - { value: 2.319, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.436, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: 2.566, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: 2.670, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.759, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.785, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.812, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.837, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.899, errors: [ { label: "sys", symerror: 0.33 } ] }
+  - { value: 2.825, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.808, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.809, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.801, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.761, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.787, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.786, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.833, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.811, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.792, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.850, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.874, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.851, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.810, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.744, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.704, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.574, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: 2.496, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: 2.310, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.300, errors: [ { label: "sys", symerror: 0.36 } ] }
+  - { value: 1.980, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 1.830, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.731, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.603, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.286, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.165, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.014, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.8731, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.7886, errors: [ { label: "sys", symerror: 0.097 } ] }
+  - { value: 0.6901, errors: [ { label: "sys", symerror: 0.083 } ] }
+  - { value: 0.5934, errors: [ { label: "sys", symerror: 0.069 } ] }
+  - { value: 0.5501, errors: [ { label: "sys", symerror: 0.067 } ] }

@@ -1,27 +1,27 @@
 independent_variables:
-  - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
-    values:
-      - { value: 83.3214 }
-      - { value: 102.067 }
-      - { value: 122.847 }
-      - { value: 149.83 }
-      - { value: 180.193 }
-      - { value: 215.558 }
-      - { value: 252.924 }
-      - { value: 291.764 }
-      - { value: 329.207 }
-      - { value: 353.593 }
+- header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
+  values:
+  - { value: 83.3214 }
+  - { value: 102.067 }
+  - { value: 122.847 }
+  - { value: 149.83 }
+  - { value: 180.193 }
+  - { value: 215.558 }
+  - { value: 252.924 }
+  - { value: 291.764 }
+  - { value: 329.207 }
+  - { value: 353.593 }
 
 dependent_variables:
-- header: { name: "$\\frac{dN}{d\\eta}$ (all $\\eta$)" }
+- header: { name: "$\\frac{dN_{ch}}{d\\eta}$ (all $\\eta$)" }
   values:
-    - { value: 910, errors: [{ label: "sys", symerror: 99 }] }
-    - { value: 1141, errors: [{ label: "sys", symerror: 122 }] }
-    - { value: 1395, errors: [{ label: "sys", symerror: 149 }] }
-    - { value: 1697, errors: [{ label: "sys", symerror: 181 }] }
-    - { value: 2029, errors: [{ label: "sys", symerror: 214 }] }
-    - { value: 2433, errors: [{ label: "sys", symerror: 258 }] }
-    - { value: 2926, errors: [{ label: "sys", symerror: 311 }] }
-    - { value: 3449, errors: [{ label: "sys", symerror: 365 }] }
-    - { value: 3861, errors: [{ label: "sys", symerror: 413 }] }
-    - { value: 4197, errors: [{ label: "sys", symerror: 451 }] }
+  - { value: 910, errors: [ { label: "sys", symerror: 99 } ] }
+  - { value: 1141, errors: [ { label: "sys", symerror: 122 } ] }
+  - { value: 1395, errors: [ { label: "sys", symerror: 149 } ] }
+  - { value: 1697, errors: [ { label: "sys", symerror: 181 } ] }
+  - { value: 2029, errors: [ { label: "sys", symerror: 214 } ] }
+  - { value: 2433, errors: [ { label: "sys", symerror: 258 } ] }
+  - { value: 2926, errors: [ { label: "sys", symerror: 311 } ] }
+  - { value: 3449, errors: [ { label: "sys", symerror: 365 } ] }
+  - { value: 3861, errors: [ { label: "sys", symerror: 413 } ] }
+  - { value: 4197, errors: [ { label: "sys", symerror: 451 } ] }

@@ -1,27 +1,27 @@
 independent_variables:
-  - header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
-    values:
-      - { value: 83.3214 }
-      - { value: 102.067 }
-      - { value: 122.847 }
-      - { value: 149.83 }
-      - { value: 180.193 }
-      - { value: 215.558 }
-      - { value: 252.924 }
-      - { value: 291.764 }
-      - { value: 329.207 }
-      - { value: 353.593 }
+- header: { name: "$\\langle N_{\\text{part}} \\rangle$" }
+  values:
+  - { value: 83.3214 }
+  - { value: 102.067 }
+  - { value: 122.847 }
+  - { value: 149.83 }
+  - { value: 180.193 }
+  - { value: 215.558 }
+  - { value: 252.924 }
+  - { value: 291.764 }
+  - { value: 329.207 }
+  - { value: 353.593 }
 
 dependent_variables:
-- header: { name: "$\\frac{dN}{d\\eta}$ (for $3<\\eta<3.4$)" }
+- header: { name: "$\\frac{dN_{ch}}{d\\eta}$ (for $3<\\eta<3.4$)" }
   values:
-    - { value: 1.881, errors: [{ label: "sys", symerror: 0.23 }] }
-    - { value: 1.956, errors: [{ label: "sys", symerror: 0.23 }] }
-    - { value: 2.014, errors: [{ label: "sys", symerror: 0.23 }] }
-    - { value: 2.027, errors: [{ label: "sys", symerror: 0.24 }] }
-    - { value: 1.997, errors: [{ label: "sys", symerror: 0.22 }] }
-    - { value: 2.022, errors: [{ label: "sys", symerror: 0.23 }] }
-    - { value: 2.059, errors: [{ label: "sys", symerror: 0.23 }] }
-    - { value: 2.078, errors: [{ label: "sys", symerror: 0.22 }] }
-    - { value: 2.031, errors: [{ label: "sys", symerror: 0.22 }] }
-    - { value: 2.036, errors: [{ label: "sys", symerror: 0.24 }] }
+  - { value: 1.881, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.956, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 2.014, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 2.027, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 1.997, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.022, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 2.059, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 2.078, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.031, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.036, errors: [ { label: "sys", symerror: 0.24 } ] }
