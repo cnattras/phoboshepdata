@@ -13,7 +13,9 @@ independent_variables:
   - { value: 353.593 }
 
 dependent_variables:
-- header: { name: "$\\frac{dN_{ch}}{d\\eta}$ (for $2<\\eta<2.4$)" }
+- header: { name: "$\\frac{2dN_{ch}}{\\langle N_{part} \\rangle d\\eta}$" }
+  qualifiers:
+  - {name: "$\\eta$", value: "2 $< \\eta <$ 2.4"}
   values:
   - { value: 2.633, errors: [ { label: "sys", symerror: 0.30 } ] }
   - { value: 2.685, errors: [ { label: "sys", symerror: 0.30 } ] }
