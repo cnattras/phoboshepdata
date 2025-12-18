@@ -17,7 +17,7 @@ comment: |
 # This is Table 1.
 name: "Table 1"
 location: Data from table 1 of PhysRevC.72.031901
-description: Estimated number of nucleon participants in the incoming gold $\\langle N^{Au}_{part} \\rangle$ and deuteron $\\langle N^{d}_{part} \\rangle$ nuclei $\\langle N_{part} \\rangle$ = $\\langle N^{Au}_{part} \\rangle$ + $\\langle N^{d}_{part} \\rangle$ and the number of collisions $\\langle N_{coll} \\rangle$ as a function of centrality in d + Au collisions.
+description: Estimated number of nucleon participants in the incoming gold $\langle N^{Au}_{part} \rangle$ and deuteron $\langle N^{d}_{part} \rangle$ nuclei $\langle N_{part} \rangle$ = $\langle N^{Au}_{part} \rangle$ + $\langle N^{d}_{part} \rangle$ and the number of collisions $\langle N_{coll} \rangle$ as a function of centrality in d + Au collisions.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -32,7 +32,7 @@ additional_resources:
 ---
 name: "Figure 1: Centrality 0-20%"
 location: Data from figure 1 of PhysRevC.72.031901
-description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV as a function of collision centrality.
+description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV$ as a function of collision centrality.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -47,7 +47,7 @@ additional_resources:
 ---
 name: "Figure 1: Centrality 20-40%"
 location: Data from figure 1 of PhysRevC.72.031901
-description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV as a function of collision centrality.
+description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV$ as a function of collision centrality.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -62,7 +62,7 @@ additional_resources:
 ---
 name: "Figure 1: Centrality 40-60%"
 location: Data from figure 1 of PhysRevC.72.031901
-description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV as a function of collision centrality.
+description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV$ as a function of collision centrality.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -77,7 +77,7 @@ additional_resources:
 ---
 name: "Figure 1: Centrality 60-80%"
 location: Data from figure 1 of PhysRevC.72.031901
-description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV as a function of collision centrality.
+description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV$ as a function of collision centrality.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -92,7 +92,7 @@ additional_resources:
 ---
 name: "Figure 1: Centrality 80-100%"
 location: Data from figure 1 of PhysRevC.72.031901
-description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV as a function of collision centrality.
+description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV$ as a function of collision centrality.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -107,7 +107,7 @@ additional_resources:
 ---
 name: "Figure 1: Minimum Bias"
 location: Data from figure 1 of PhysRevC.72.031901
-description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV as a function of collision centrality. This is minimum bias, 50-70% centrality.
+description: Measured pseudorapidity distributions of charged particles from d+Au collisions at $\sqrt{S_{NN}}= 200 GeV$ as a function of collision centrality. This is minimum bias, 50-70% centrality.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -122,7 +122,7 @@ additional_resources:
 ---
 name: "Figure 2"
 location: Data from figure 2 of PhysRevC.72.031901
-description: Here, $dN_{ch}/d\eta$ for the 50-70% centrality bin is divided by 1.6 and plotted versus $\eta - y(d)$ and $\eta + y(Au)$. Note that the table lists $\eta$ and contains the full $dN/d\eta$, not the normalized values 1.6 shown in the figure.
+description: Here, $dN_{ch}/d\eta$ for the 50-70% centrality bin is divided by 1.6 and plotted versus $\eta - y(d)$ and $\eta + y(Au)$. Note that the table lists $\eta$ and contains the full $dN_{ch}/d\eta$, not the normalized values 1.6 shown in the figure.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -135,4 +135,5 @@ data_file: fig2.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_figure2.png }
 ---
+
 
