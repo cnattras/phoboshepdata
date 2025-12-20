@@ -1,0 +1,46 @@
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: 0.696226 }
+  - { value: -0.0601835 }
+  - { value: -0.806158 }
+  - { value: -1.50516 }
+  - { value: -1.95811 }
+  - { value: -2.45455 }
+  - { value: -2.95164 }
+  - { value: -3.45127 }
+  - { value: -3.95248 }
+
+dependent_variables:
+- header: { name: "$v_1$" }
+  values:
+  - value: 0.052
+    errors: [ { label: "stat", symerror: 0.006 } ]
+  - value: 0.0039
+    errors: [ { label: "stat", symerror: 0.0012 } ]
+  - value: -0.0169
+    errors: [ { label: "stat", symerror: 0.0012 } ]
+  - value: -0.0197
+    errors: [ { label: "stat", symerror: 0.0016 } ]
+  - value: -0.0152
+    errors: [ { label: "stat", symerror: 0.0013 } ]
+  - value: -0.0125
+    errors: [ { label: "stat", symerror: 0.0013 } ]
+  - value: -0.0074
+    errors: [ { label: "stat", symerror: 0.0011 } ]
+  - value: -0.0035
+    errors: [ { label: "stat", symerror: 0.0010 } ]
+  - value: -0.002
+    errors: [ { label: "stat", symerror: 0.0011 } ]
+
+- header: { name: "$\\Delta\\eta$" }
+  values:
+  - { value: 0.139 }
+  - { value: 0.131 }
+  - { value: 0.115 }
+  - { value: 0.0916 }
+  - { value: 0.102 }
+  - { value: 0.102 }
+  - { value: 0.102 }
+  - { value: 0.102 }
+  - { value: 0.102 }

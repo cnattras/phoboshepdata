@@ -1,0 +1,85 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 45, high: 50 }
+  - { low: 35, high: 45 }
+  - { low: 35, high: 40 }
+  - { low: 25, high: 35 }
+  - { low: 15, high: 25 }
+  - { low: 6, high: 15 }
+  - { low: 0, high: 6 }
+
+dependent_variables:
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  - { name: "$\\sqrt{S_{NN}}$", value: "200 GeV" }
+  values:
+  - value: 21
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 29
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: "-"
+  - value: 43
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 62
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 84
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 104
+    errors: [ { label: "sys", symerror: 3 } ]
+
+- header: { name: "$\\langle N_{coll} \\rangle$" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  - { name: "$\\sqrt{S_{NN}}$", value: "200 GeV" }
+  values:
+  - value: 22
+    errors: [ { label: "sys", symerror: 4 } ]
+  - value: 33
+    errors: [ { label: "sys", symerror: 5 } ]
+  - value: "-"
+  - value: 56
+    errors: [ { label: "sys", symerror: 6 } ]
+  - value: 94
+    errors: [ { label: "sys", symerror: 8 } ]
+  - value: 144
+    errors: [ { label: "sys", symerror: 11 } ]
+  - value: 197
+    errors: [ { label: "sys", symerror: 14 } ]
+
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  - { name: "$\\sqrt{S_{NN}}$", value: "62.4 GeV" }
+  values:
+  - value: "-"
+  - value: "-"
+  - value: 31
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 41
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 59
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 81
+    errors: [ { label: "sys", symerror: 3 } ]
+  - value: 101
+    errors: [ { label: "sys", symerror: 3 } ]
+
+- header: { name: "$\\langle N_{coll} \\rangle$" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  - { name: "$\\sqrt{S_{NN}}$", value: "62.4 GeV" }
+  values:
+  - value: "-"
+  - value: "-"
+  - value: 33
+    errors: [ { label: "sys", symerror: 5 } ]
+  - value: 49
+    errors: [ { label: "sys", symerror: 6 } ]
+  - value: 80
+    errors: [ { label: "sys", symerror: 7 } ]
+  - value: 125
+    errors: [ { label: "sys", symerror: 9 } ]
+  - value: 170
+    errors: [ { label: "sys", symerror: 12 } ]

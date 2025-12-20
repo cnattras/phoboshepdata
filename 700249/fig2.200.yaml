@@ -1,0 +1,475 @@
+independent_variables:
+- header: { name: "$p_T$" }
+  values:
+  - { value: 0.250 }
+  - { value: 0.350 }
+  - { value: 0.450 }
+  - { value: 0.550 }
+  - { value: 0.650 }
+  - { value: 0.750 }
+  - { value: 0.850 }
+  - { value: 0.950 }
+  - { value: 1.050 }
+  - { value: 1.150 }
+  - { value: 1.250 }
+  - { value: 1.350 }
+  - { value: 1.450 }
+  - { value: 1.550 }
+  - { value: 1.650 }
+  - { value: 1.750 }
+  - { value: 1.850 }
+  - { value: 1.950 }
+  - { value: 2.100 }
+  - { value: 2.300 }
+  - { value: 2.500 }
+  - { value: 2.700 }
+  - { value: 2.900 }
+  - { value: 3.125 }
+  - { value: 3.375 }
+  - { value: 3.625 }
+  - { value: 3.875 }
+  - { value: 4.250 }
+  - { value: 4.750 }
+  - { value: 5.250 }
+  - { value: 5.750 }
+  - { value: 6.250 }
+  - { value: 6.750 }
+
+dependent_variables:
+- header: { name: "yield" }
+  qualifiers:
+  - { name: "System", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality", value: "0--6%" }
+  values:
+  - value: 93.08
+    errors: [ { label: "stat", symerror: 0.05 }, { label: "sys", symerror: 9.70 } ]
+  - value: 56.918
+    errors: [ { label: "stat", symerror: 0.029 }, { label: "sys", symerror: 5.842 } ]
+  - value: 35.794
+    errors: [ { label: "stat", symerror: 0.020 }, { label: "sys", symerror: 3.619 } ]
+  - value: 22.803
+    errors: [ { label: "stat", symerror: 0.015 }, { label: "sys", symerror: 2.271 } ]
+  - value: 15.012
+    errors: [ { label: "stat", symerror: 0.011 }, { label: "sys", symerror: 1.472 } ]
+  - value: 10.018
+    errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.967 } ]
+  - value: 6.838
+    errors: [ { label: "stat", symerror: 0.005 }, { label: "sys", symerror: 0.650 } ]
+  - value: 4.747
+    errors: [ { label: "stat", symerror: 0.004 }, { label: "sys", symerror: 0.444 } ]
+  - value: 3.3130
+    errors: [ { label: "stat", symerror: 0.0032 }, { label: "sys", symerror: 0.3046 } ]
+  - value: 2.3150
+    errors: [ { label: "stat", symerror: 0.0026 }, { label: "sys", symerror: 0.2093 } ]
+  - value: 1.6347
+    errors: [ { label: "stat", symerror: 0.0021 }, { label: "sys", symerror: 0.1453 } ]
+  - value: 1.1605
+    errors: [ { label: "stat", symerror: 0.0017 }, { label: "sys", symerror: 0.1014 } ]
+  - value: 0.8254
+    errors: [ { label: "stat", symerror: 0.0014 }, { label: "sys", symerror: 0.0708 } ]
+  - value: 0.5893
+    errors: [ { label: "stat", symerror: 0.0011 }, { label: "sys", symerror: 0.0497 } ]
+  - value: 0.4271
+    errors: [ { label: "stat", symerror: 9e-4 }, { label: "sys", symerror: 0.0354 } ]
+  - value: 0.3095
+    errors: [ { label: "stat", symerror: 8e-4 }, { label: "sys", symerror: 0.0251 } ]
+  - value: 0.2247
+    errors: [ { label: "stat", symerror: 6e-4 }, { label: "sys", symerror: 0.0179 } ]
+  - value: 0.1637
+    errors: [ { label: "stat", symerror: 5e-4 }, { label: "sys", symerror: 0.0128 } ]
+  - value: 0.10442
+    errors: [ { label: "stat", symerror: 2.8e-4 }, { label: "sys", symerror: 0.00827 } ]
+  - value: 0.05681
+    errors: [ { label: "stat", symerror: 2e-4 }, { label: "sys", symerror: 0.00470 } ]
+  - value: 0.03155
+    errors: [ { label: "stat", symerror: 1.4e-4 }, { label: "sys", symerror: 0.00272 } ]
+  - value: 0.01803
+    errors: [ { label: "stat", symerror: 1e-4 }, { label: "sys", symerror: 0.00162 } ]
+  - value: 0.01035
+    errors: [ { label: "stat", symerror: 8e-5 }, { label: "sys", symerror: 9.7e-4 } ]
+  - value: 0.00577
+    errors: [ { label: "stat", symerror: 5e-5 }, { label: "sys", symerror: 5.6e-4 } ]
+  - value: 0.003084
+    errors: [ { label: "stat", symerror: 3.5e-5 }, { label: "sys", symerror: 3.14e-4 } ]
+  - value: 0.001698
+    errors: [ { label: "stat", symerror: 2.5e-5 }, { label: "sys", symerror: 1.8e-4 } ]
+  - value: 9.57e-4
+    errors: [ { label: "stat", symerror: 1.8e-5 }, { label: "sys", symerror: 1.06e-4 } ]
+  - value: 4.55e-4
+    errors: [ { label: "stat", symerror: 9e-6 }, { label: "sys", symerror: 5.3e-5 } ]
+  - value: 1.75e-4
+    errors: [ { label: "stat", symerror: 5e-6 }, { label: "sys", symerror: 2.2e-5 } ]
+  - value: 7.3e-5
+    errors: [ { label: "stat", symerror: 3.3e-6 }, { label: "sys", symerror: 9.9e-6 } ]
+  - value: 3.79e-5
+    errors: [ { label: "stat", symerror: 2.3e-6 }, { label: "sys", symerror: 5.4e-6 } ]
+  - value: 1.79e-5
+    errors: [ { label: "stat", symerror: 1.5e-6 }, { label: "sys", symerror: 2.7e-6 } ]
+  - value: 1.04e-5
+    errors: [ { label: "stat", symerror: 1.2e-6 }, { label: "sys", symerror: 1.7e-6 } ]
+
+- header: { name: "yield" }
+  qualifiers:
+  - { name: "System", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality", value: "6--15%" }
+  values:
+  - value: 71.400
+    errors: [ { label: "stat", symerror: 0.033 }, { label: "sys", symerror: 7.438 } ]
+  - value: 43.485
+    errors: [ { label: "stat", symerror: 0.021 }, { label: "sys", symerror: 4.464 } ]
+  - value: 27.227
+    errors: [ { label: "stat", symerror: 0.014 }, { label: "sys", symerror: 2.753 } ]
+  - value: 17.275
+    errors: [ { label: "stat", symerror: 0.010 }, { label: "sys", symerror: 1.720 } ]
+  - value: 11.332
+    errors: [ { label: "stat", symerror: 0.008 }, { label: "sys", symerror: 1.111 } ]
+  - value: 7.553
+    errors: [ { label: "stat", symerror: 0.005 }, { label: "sys", symerror: 0.729 } ]
+  - value: 5.134
+    errors: [ { label: "stat", symerror: 0.004 }, { label: "sys", symerror: 0.488 } ]
+  - value: 3.5509
+    errors: [ { label: "stat", symerror: 0.0029 }, { label: "sys", symerror: 0.3319 } ]
+  - value: 2.4705
+    errors: [ { label: "stat", symerror: 0.0023 }, { label: "sys", symerror: 0.2271 } ]
+  - value: 1.7299
+    errors: [ { label: "stat", symerror: 0.0018 }, { label: "sys", symerror: 0.1564 } ]
+  - value: 1.2193
+    errors: [ { label: "stat", symerror: 0.0015 }, { label: "sys", symerror: 0.1084 } ]
+  - value: 0.8655
+    errors: [ { label: "stat", symerror: 0.0012 }, { label: "sys", symerror: 0.0756 } ]
+  - value: 0.6140
+    errors: [ { label: "stat", symerror: 0.0010 }, { label: "sys", symerror: 0.0527 } ]
+  - value: 0.4391
+    errors: [ { label: "stat", symerror: 8e-4 }, { label: "sys", symerror: 0.0370 } ]
+  - value: 0.3185
+    errors: [ { label: "stat", symerror: 7e-4 }, { label: "sys", symerror: 0.0264 } ]
+  - value: 0.2303
+    errors: [ { label: "stat", symerror: 5e-4 }, { label: "sys", symerror: 0.0187 } ]
+  - value: 0.1681
+    errors: [ { label: "stat", symerror: 4e-4 }, { label: "sys", symerror: 0.0134 } ]
+  - value: 0.1228
+    errors: [ { label: "stat", symerror: 4e-4 }, { label: "sys", symerror: 0.0096 } ]
+  - value: 0.07848
+    errors: [ { label: "stat", symerror: 2e-4 }, { label: "sys", symerror: 0.00621 } ]
+  - value: 0.04315
+    errors: [ { label: "stat", symerror: 1.4e-4 }, { label: "sys", symerror: 0.00357 } ]
+  - value: 0.02400
+    errors: [ { label: "stat", symerror: 1e-4 }, { label: "sys", symerror: 0.00207 } ]
+  - value: 0.01383
+    errors: [ { label: "stat", symerror: 8e-5 }, { label: "sys", symerror: 0.00124 } ]
+  - value: 0.00802
+    errors: [ { label: "stat", symerror: 6e-5 }, { label: "sys", symerror: 7.5e-4 } ]
+  - value: 0.00455
+    errors: [ { label: "stat", symerror: 4e-5 }, { label: "sys", symerror: 4.4e-4 } ]
+  - value: 0.002423
+    errors: [ { label: "stat", symerror: 2.5e-5 }, { label: "sys", symerror: 2.47e-4 } ]
+  - value: 0.001359
+    errors: [ { label: "stat", symerror: 1.8e-5 }, { label: "sys", symerror: 1.44e-4 } ]
+  - value: 7.55e-4
+    errors: [ { label: "stat", symerror: 1.3e-5 }, { label: "sys", symerror: 8.3e-5 } ]
+  - value: 3.61e-4
+    errors: [ { label: "stat", symerror: 6e-6 }, { label: "sys", symerror: 4.2e-5 } ]
+  - value: 1.47e-4
+    errors: [ { label: "stat", symerror: 4e-6 }, { label: "sys", symerror: 1.8e-5 } ]
+  - value: 6.74e-5
+    errors: [ { label: "stat", symerror: 2.6e-6 }, { label: "sys", symerror: 9.1e-6 } ]
+  - value: 2.9e-5
+    errors: [ { label: "stat", symerror: 1.6e-6 }, { label: "sys", symerror: 4.2e-6 } ]
+  - value: 1.29e-5
+    errors: [ { label: "stat", symerror: 1.1e-6 }, { label: "sys", symerror: 2e-6 } ]
+  - value: 8.4e-6
+    errors: [ { label: "stat", symerror: 8e-7 }, { label: "sys", symerror: 1.4e-6 } ]
+
+- header: { name: "yield" }
+  qualifiers:
+  - { name: "System", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality", value: "15--25%" }
+  values:
+  - value: 51.228
+    errors: [ { label: "stat", symerror: 0.026 }, { label: "sys", symerror: 5.337 } ]
+  - value: 30.981
+    errors: [ { label: "stat", symerror: 0.017 }, { label: "sys", symerror: 3.180 } ]
+  - value: 19.289
+    errors: [ { label: "stat", symerror: 0.011 }, { label: "sys", symerror: 1.950 } ]
+  - value: 12.179
+    errors: [ { label: "stat", symerror: 0.008 }, { label: "sys", symerror: 1.213 } ]
+  - value: 7.955
+    errors: [ { label: "stat", symerror: 0.006 }, { label: "sys", symerror: 0.780 } ]
+  - value: 5.273
+    errors: [ { label: "stat", symerror: 0.004 }, { label: "sys", symerror: 0.509 } ]
+  - value: 3.5807
+    errors: [ { label: "stat", symerror: 0.0028 }, { label: "sys", symerror: 0.3401 } ]
+  - value: 2.4654
+    errors: [ { label: "stat", symerror: 0.0022 }, { label: "sys", symerror: 0.2304 } ]
+  - value: 1.7146
+    errors: [ { label: "stat", symerror: 0.0018 }, { label: "sys", symerror: 0.1576 } ]
+  - value: 1.1955
+    errors: [ { label: "stat", symerror: 0.0014 }, { label: "sys", symerror: 0.1081 } ]
+  - value: 0.8432
+    errors: [ { label: "stat", symerror: 0.0011 }, { label: "sys", symerror: 0.0749 } ]
+  - value: 0.5987
+    errors: [ { label: "stat", symerror: 9e-4 }, { label: "sys", symerror: 0.0523 } ]
+  - value: 0.4249
+    errors: [ { label: "stat", symerror: 8e-4 }, { label: "sys", symerror: 0.0365 } ]
+  - value: 0.3028
+    errors: [ { label: "stat", symerror: 6e-4 }, { label: "sys", symerror: 0.0255 } ]
+  - value: 0.2191
+    errors: [ { label: "stat", symerror: 5e-4 }, { label: "sys", symerror: 0.0181 } ]
+  - value: 0.1598
+    errors: [ { label: "stat", symerror: 4e-4 }, { label: "sys", symerror: 0.0130 } ]
+  - value: 0.11625
+    errors: [ { label: "stat", symerror: 3.5e-4 }, { label: "sys", symerror: 0.00927 } ]
+  - value: 0.08569
+    errors: [ { label: "stat", symerror: 2.9e-4 }, { label: "sys", symerror: 0.00670 } ]
+  - value: 0.05483
+    errors: [ { label: "stat", symerror: 1.6e-4 }, { label: "sys", symerror: 0.00434 } ]
+  - value: 0.03047
+    errors: [ { label: "stat", symerror: 1.1e-4 }, { label: "sys", symerror: 0.00252 } ]
+  - value: 0.01697
+    errors: [ { label: "stat", symerror: 8e-5 }, { label: "sys", symerror: 0.00146 } ]
+  - value: 0.00980
+    errors: [ { label: "stat", symerror: 6e-5 }, { label: "sys", symerror: 8.8e-4 } ]
+  - value: 0.00582
+    errors: [ { label: "stat", symerror: 4e-5 }, { label: "sys", symerror: 5.4e-4 } ]
+  - value: 0.003332
+    errors: [ { label: "stat", symerror: 2.9e-5 }, { label: "sys", symerror: 3.24e-4 } ]
+  - value: 0.001788
+    errors: [ { label: "stat", symerror: 2.1e-5 }, { label: "sys", symerror: 1.82e-4 } ]
+  - value: 9.98e-4
+    errors: [ { label: "stat", symerror: 1.5e-5 }, { label: "sys", symerror: 1.06e-4 } ]
+  - value: 5.82e-4
+    errors: [ { label: "stat", symerror: 1.1e-5 }, { label: "sys", symerror: 6.4e-5 } ]
+  - value: 2.79e-4
+    errors: [ { label: "stat", symerror: 5e-6 }, { label: "sys", symerror: 3.3e-5 } ]
+  - value: 1.128e-4
+    errors: [ { label: "stat", symerror: 3.2e-6 }, { label: "sys", symerror: 1.42e-5 } ]
+  - value: 5.12e-5
+    errors: [ { label: "stat", symerror: 2.1e-6 }, { label: "sys", symerror: 6.9e-6 } ]
+  - value: 2.25e-5
+    errors: [ { label: "stat", symerror: 1.4e-6 }, { label: "sys", symerror: 3.2e-6 } ]
+  - value: 1.2e-5
+    errors: [ { label: "stat", symerror: 1e-6 }, { label: "sys", symerror: 1.8e-6 } ]
+  - value: 6.2e-6
+    errors: [ { label: "stat", symerror: 7e-7 }, { label: "sys", symerror: 1e-6 } ]
+
+- header: { name: "yield" }
+  qualifiers:
+  - { name: "System", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality", value: "25--35%" }
+  values:
+  - value: 35.416
+    errors: [ { label: "stat", symerror: 0.022 }, { label: "sys", symerror: 3.689 } ]
+  - value: 21.263
+    errors: [ { label: "stat", symerror: 0.014 }, { label: "sys", symerror: 2.183 } ]
+  - value: 13.154
+    errors: [ { label: "stat", symerror: 0.009 }, { label: "sys", symerror: 1.330 } ]
+  - value: 8.265
+    errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.823 } ]
+  - value: 5.365
+    errors: [ { label: "stat", symerror: 0.005 }, { label: "sys", symerror: 0.526 } ]
+  - value: 3.5333
+    errors: [ { label: "stat", symerror: 0.0030 }, { label: "sys", symerror: 0.3411 } ]
+  - value: 2.3843
+    errors: [ { label: "stat", symerror: 0.0023 }, { label: "sys", symerror: 0.2265 } ]
+  - value: 1.6319
+    errors: [ { label: "stat", symerror: 0.0018 }, { label: "sys", symerror: 0.1525 } ]
+  - value: 1.1336
+    errors: [ { label: "stat", symerror: 0.0014 }, { label: "sys", symerror: 0.1042 } ]
+  - value: 0.7876
+    errors: [ { label: "stat", symerror: 0.0011 }, { label: "sys", symerror: 0.0712 } ]
+  - value: 0.5533
+    errors: [ { label: "stat", symerror: 9e-4 }, { label: "sys", symerror: 0.0492 } ]
+  - value: 0.3915
+    errors: [ { label: "stat", symerror: 8e-4 }, { label: "sys", symerror: 0.0342 } ]
+  - value: 0.2785
+    errors: [ { label: "stat", symerror: 6e-4 }, { label: "sys", symerror: 0.0239 } ]
+  - value: 0.1997
+    errors: [ { label: "stat", symerror: 5e-4 }, { label: "sys", symerror: 0.0168 } ]
+  - value: 0.1429
+    errors: [ { label: "stat", symerror: 4e-4 }, { label: "sys", symerror: 0.0118 } ]
+  - value: 0.10503
+    errors: [ { label: "stat", symerror: 3.4e-4 }, { label: "sys", symerror: 0.00853 } ]
+  - value: 0.07685
+    errors: [ { label: "stat", symerror: 2.8e-4 }, { label: "sys", symerror: 0.00612 } ]
+  - value: 0.05636
+    errors: [ { label: "stat", symerror: 2.3e-4 }, { label: "sys", symerror: 0.00441 } ]
+  - value: 0.03623
+    errors: [ { label: "stat", symerror: 1.3e-4 }, { label: "sys", symerror: 0.00287 } ]
+  - value: 0.02007
+    errors: [ { label: "stat", symerror: 9e-5 }, { label: "sys", symerror: 0.00166 } ]
+  - value: 0.01141
+    errors: [ { label: "stat", symerror: 7e-5 }, { label: "sys", symerror: 9.8e-4 } ]
+  - value: 0.00662
+    errors: [ { label: "stat", symerror: 5e-5 }, { label: "sys", symerror: 5.9e-4 } ]
+  - value: 0.00396
+    errors: [ { label: "stat", symerror: 4e-5 }, { label: "sys", symerror: 3.7e-4 } ]
+  - value: 0.002275
+    errors: [ { label: "stat", symerror: 2.4e-5 }, { label: "sys", symerror: 2.21e-4 } ]
+  - value: 0.001245
+    errors: [ { label: "stat", symerror: 1.7e-5 }, { label: "sys", symerror: 1.27e-4 } ]
+  - value: 6.85e-4
+    errors: [ { label: "stat", symerror: 1.2e-5 }, { label: "sys", symerror: 7.3e-5 } ]
+  - value: 4.17e-4
+    errors: [ { label: "stat", symerror: 9e-6 }, { label: "sys", symerror: 4.6e-5 } ]
+  - value: 1.92e-4
+    errors: [ { label: "stat", symerror: 4e-6 }, { label: "sys", symerror: 2.2e-5 } ]
+  - value: 8.38e-5
+    errors: [ { label: "stat", symerror: 2.7e-6 }, { label: "sys", symerror: 1.06e-5 } ]
+  - value: 3.39e-5
+    errors: [ { label: "stat", symerror: 1.7e-6 }, { label: "sys", symerror: 4.6e-6 } ]
+  - value: 1.47e-5
+    errors: [ { label: "stat", symerror: 1.1e-6 }, { label: "sys", symerror: 2.1e-6 } ]
+  - value: 8.2e-6
+    errors: [ { label: "stat", symerror: 8e-7 }, { label: "sys", symerror: 1.3e-6 } ]
+  - value: 4.4e-6
+    errors: [ { label: "stat", symerror: 6e-7 }, { label: "sys", symerror: 7e-7 } ]
+
+- header: { name: "yield" }
+  qualifiers:
+  - { name: "System", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality", value: "35--45%" }
+  values:
+  - value: 23.823
+    errors: [ { label: "stat", symerror: 0.018 }, { label: "sys", symerror: 2.482 } ]
+  - value: 14.202
+    errors: [ { label: "stat", symerror: 0.011 }, { label: "sys", symerror: 1.458 } ]
+  - value: 8.725
+    errors: [ { label: "stat", symerror: 0.008 }, { label: "sys", symerror: 0.882 } ]
+  - value: 5.435
+    errors: [ { label: "stat", symerror: 0.006 }, { label: "sys", symerror: 0.541 } ]
+  - value: 3.505
+    errors: [ { label: "stat", symerror: 0.004 }, { label: "sys", symerror: 0.344 } ]
+  - value: 2.2879
+    errors: [ { label: "stat", symerror: 0.0024 }, { label: "sys", symerror: 0.2208 } ]
+  - value: 1.5385
+    errors: [ { label: "stat", symerror: 0.0019 }, { label: "sys", symerror: 0.1461 } ]
+  - value: 1.0506
+    errors: [ { label: "stat", symerror: 0.0015 }, { label: "sys", symerror: 0.0982 } ]
+  - value: 0.7231
+    errors: [ { label: "stat", symerror: 0.0011 }, { label: "sys", symerror: 0.0665 } ]
+  - value: 0.5000
+    errors: [ { label: "stat", symerror: 9e-4 }, { label: "sys", symerror: 0.0452 } ]
+  - value: 0.3498
+    errors: [ { label: "stat", symerror: 7e-4 }, { label: "sys", symerror: 0.0311 } ]
+  - value: 0.2475
+    errors: [ { label: "stat", symerror: 6e-4 }, { label: "sys", symerror: 0.0216 } ]
+  - value: 0.1756
+    errors: [ { label: "stat", symerror: 5e-4 }, { label: "sys", symerror: 0.0151 } ]
+  - value: 0.1256
+    errors: [ { label: "stat", symerror: 4e-4 }, { label: "sys", symerror: 0.0106 } ]
+  - value: 0.09073
+    errors: [ { label: "stat", symerror: 3.2e-4 }, { label: "sys", symerror: 0.00751 } ]
+  - value: 0.06565
+    errors: [ { label: "stat", symerror: 2.7e-4 }, { label: "sys", symerror: 0.00533 } ]
+  - value: 0.04870
+    errors: [ { label: "stat", symerror: 2.2e-4 }, { label: "sys", symerror: 0.00388 } ]
+  - value: 0.03549
+    errors: [ { label: "stat", symerror: 1.9e-4 }, { label: "sys", symerror: 0.00277 } ]
+  - value: 0.02262
+    errors: [ { label: "stat", symerror: 1e-4 }, { label: "sys", symerror: 0.00179 } ]
+  - value: 0.01267
+    errors: [ { label: "stat", symerror: 7e-5 }, { label: "sys", symerror: 0.00105 } ]
+  - value: 0.00731
+    errors: [ { label: "stat", symerror: 5e-5 }, { label: "sys", symerror: 6.3e-4 } ]
+  - value: 0.00424
+    errors: [ { label: "stat", symerror: 4e-5 }, { label: "sys", symerror: 3.8e-4 } ]
+  - value: 0.002569
+    errors: [ { label: "stat", symerror: 2.9e-5 }, { label: "sys", symerror: 2.4e-4 } ]
+  - value: 0.001451
+    errors: [ { label: "stat", symerror: 1.9e-5 }, { label: "sys", symerror: 1.41e-4 } ]
+  - value: 8.13e-4
+    errors: [ { label: "stat", symerror: 1.4e-5 }, { label: "sys", symerror: 8.3e-5 } ]
+  - value: 4.67e-4
+    errors: [ { label: "stat", symerror: 1e-5 }, { label: "sys", symerror: 5e-5 } ]
+  - value: 2.65e-4
+    errors: [ { label: "stat", symerror: 7e-6 }, { label: "sys", symerror: 2.9e-5 } ]
+  - value: 1.247e-4
+    errors: [ { label: "stat", symerror: 3.4e-6 }, { label: "sys", symerror: 1.46e-5 } ]
+  - value: 5.31e-5
+    errors: [ { label: "stat", symerror: 2.2e-6 }, { label: "sys", symerror: 6.7e-6 } ]
+  - value: 2.28e-5
+    errors: [ { label: "stat", symerror: 1.4e-6 }, { label: "sys", symerror: 3.1e-6 } ]
+  - value: 1.27e-5
+    errors: [ { label: "stat", symerror: 1e-6 }, { label: "sys", symerror: 1.8e-6 } ]
+  - value: 4.6e-6
+    errors: [ { label: "stat", symerror: 6e-7 }, { label: "sys", symerror: 7e-7 } ]
+  - value: 3.4e-6
+    errors: [ { label: "stat", symerror: 5e-7 }, { label: "sys", symerror: 5e-7 } ]
+
+- header: { name: "yield" }
+  qualifiers:
+  - { name: "System", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality", value: "45--50%" }
+  values:
+  - value: 17.123
+    errors: [ { label: "stat", symerror: 0.021 }, { label: "sys", symerror: 1.784 } ]
+  - value: 10.116
+    errors: [ { label: "stat", symerror: 0.013 }, { label: "sys", symerror: 1.038 } ]
+  - value: 6.192
+    errors: [ { label: "stat", symerror: 0.009 }, { label: "sys", symerror: 0.626 } ]
+  - value: 3.818
+    errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.380 } ]
+  - value: 2.452
+    errors: [ { label: "stat", symerror: 0.005 }, { label: "sys", symerror: 0.240 } ]
+  - value: 1.5889
+    errors: [ { label: "stat", symerror: 0.0028 }, { label: "sys", symerror: 0.1534 } ]
+  - value: 1.0605
+    errors: [ { label: "stat", symerror: 0.0022 }, { label: "sys", symerror: 0.1007 } ]
+  - value: 0.7205
+    errors: [ { label: "stat", symerror: 0.0017 }, { label: "sys", symerror: 0.0673 } ]
+  - value: 0.4972
+    errors: [ { label: "stat", symerror: 0.0013 }, { label: "sys", symerror: 0.0457 } ]
+  - value: 0.3425
+    errors: [ { label: "stat", symerror: 0.0011 }, { label: "sys", symerror: 0.0310 } ]
+  - value: 0.2377
+    errors: [ { label: "stat", symerror: 9e-4 }, { label: "sys", symerror: 0.0211 } ]
+  - value: 0.1672
+    errors: [ { label: "stat", symerror: 7e-4 }, { label: "sys", symerror: 0.0146 } ]
+  - value: 0.1203
+    errors: [ { label: "stat", symerror: 6e-4 }, { label: "sys", symerror: 0.0103 } ]
+  - value: 0.0848
+    errors: [ { label: "stat", symerror: 5e-4 }, { label: "sys", symerror: 0.0071 } ]
+  - value: 0.0608
+    errors: [ { label: "stat", symerror: 4e-4 }, { label: "sys", symerror: 0.0050 } ]
+  - value: 0.04421
+    errors: [ { label: "stat", symerror: 3.1e-4 }, { label: "sys", symerror: 0.00359 } ]
+  - value: 0.03281
+    errors: [ { label: "stat", symerror: 2.6e-4 }, { label: "sys", symerror: 0.00262 } ]
+  - value: 0.02396
+    errors: [ { label: "stat", symerror: 2.1e-4 }, { label: "sys", symerror: 0.00187 } ]
+  - value: 0.01537
+    errors: [ { label: "stat", symerror: 1.2e-4 }, { label: "sys", symerror: 0.00122 } ]
+  - value: 0.00871
+    errors: [ { label: "stat", symerror: 8e-5 }, { label: "sys", symerror: 7.2e-4 } ]
+  - value: 0.00492
+    errors: [ { label: "stat", symerror: 6e-5 }, { label: "sys", symerror: 4.2e-4 } ]
+  - value: 0.00289
+    errors: [ { label: "stat", symerror: 5e-5 }, { label: "sys", symerror: 2.6e-4 } ]
+  - value: 0.001780
+    errors: [ { label: "stat", symerror: 3.4e-5 }, { label: "sys", symerror: 1.66e-4 } ]
+  - value: 9.94e-4
+    errors: [ { label: "stat", symerror: 2.2e-5 }, { label: "sys", symerror: 9.7e-5 } ]
+  - value: 5.64e-4
+    errors: [ { label: "stat", symerror: 1.6e-5 }, { label: "sys", symerror: 5.7e-5 } ]
+  - value: 3.34e-4
+    errors: [ { label: "stat", symerror: 1.2e-5 }, { label: "sys", symerror: 3.6e-5 } ]
+  - value: 2.09e-4
+    errors: [ { label: "stat", symerror: 9e-6 }, { label: "sys", symerror: 2.3e-5 } ]
+  - value: 9e-5
+    errors: [ { label: "stat", symerror: 4e-6 }, { label: "sys", symerror: 1.1e-5 } ]
+  - value: 3.64e-5
+    errors: [ { label: "stat", symerror: 2.6e-6 }, { label: "sys", symerror: 4.6e-6 } ]
+  - value: 1.85e-5
+    errors: [ { label: "stat", symerror: 1.8e-6 }, { label: "sys", symerror: 2.5e-6 } ]
+  - value: 8.7e-6
+    errors: [ { label: "stat", symerror: 1.2e-6 }, { label: "sys", symerror: 1.3e-6 } ]
+  - value: 5.5e-6
+    errors: [ { label: "stat", symerror: 9e-7 }, { label: "sys", symerror: 8e-7 } ]
+  - value: 2.1e-6
+    errors: [ { label: "stat", symerror: 5.8e-7 }, { label: "sys", symerror: 3.4e-7 } ]

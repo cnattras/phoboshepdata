@@ -1,0 +1,167 @@
+# phobos_cucu62_raa_vs_npart.yaml
+
+independent_variables:
+- header: { name: "$N_{part}$" }
+  values:
+  - { value: 101.0 }
+  - { value: 81.0 }
+  - { value: 59.0 }
+  - { value: 41.0 }
+  - { value: 31.0 }
+
+dependent_variables:
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "62.4 GeV" }
+  - { name: "$p_T$", value: "0.550" }
+  values:
+  - value: 0.4279
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", symerror: 0.0427 }
+  - value: 0.4395
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", symerror: 0.0439 }
+  - value: 0.4798
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0479 }
+  - value: 0.5313
+    errors:
+    - { label: "stat", symerror: 0.0010 }
+    - { label: "sys", symerror: 0.0530 }
+  - value: 0.5777
+    errors:
+    - { label: "stat", symerror: 0.0018 }
+    - { label: "sys", symerror: 0.0576 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "62.4 GeV" }
+  - { name: "$p_T$", value: "1.250" }
+  values:
+  - value: 0.8254
+    errors:
+    - { label: "stat", symerror: 0.0026 }
+    - { label: "sys", symerror: 0.0735 }
+  - value: 0.8399
+    errors:
+    - { label: "stat", symerror: 0.0025 }
+    - { label: "sys", symerror: 0.0748 }
+  - value: 0.8925
+    errors:
+    - { label: "stat", symerror: 0.0030 }
+    - { label: "sys", symerror: 0.0795 }
+  - value: 0.956
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.085 }
+  - value: 0.993
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.088 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "62.4 GeV" }
+  - { name: "$p_T$", value: "2.500" }
+  values:
+  - value: 1.209
+    errors:
+    - { label: "stat", symerror: 0.017 }
+    - { label: "sys", symerror: 0.105 }
+  - value: 1.251
+    errors:
+    - { label: "stat", symerror: 0.016 }
+    - { label: "sys", symerror: 0.108 }
+  - value: 1.327
+    errors:
+    - { label: "stat", symerror: 0.019 }
+    - { label: "sys", symerror: 0.115 }
+  - value: 1.456
+    errors:
+    - { label: "stat", symerror: 0.026 }
+    - { label: "sys", symerror: 0.126 }
+  - value: 1.50
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", symerror: 0.13 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "62.4 GeV" }
+  - { name: "$p_T$", value: "3.375" }
+  values:
+  - value: 1.15
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", symerror: 0.12 }
+  - value: 1.16
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", symerror: 0.12 }
+  - value: 1.36
+    errors:
+    - { label: "stat", symerror: 0.06 }
+    - { label: "sys", symerror: 0.14 }
+  - value: 1.40
+    errors:
+    - { label: "stat", symerror: 0.07 }
+    - { label: "sys", symerror: 0.14 }
+  - value: 1.60
+    errors:
+    - { label: "stat", symerror: 0.14 }
+    - { label: "sys", symerror: 0.16 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "62.4 GeV" }
+  - { name: "$p_T$", value: "3.875" }
+  values:
+  - value: 1.06
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.12 }
+  - value: 1.00
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.11 }
+  - value: 1.59
+    errors:
+    - { label: "stat", symerror: 0.11 }
+    - { label: "sys", symerror: 0.18 }
+  - value: 1.49
+    errors:
+    - { label: "stat", symerror: 0.14 }
+    - { label: "sys", symerror: 0.17 }
+  - value: 1.18
+    errors:
+    - { label: "stat", symerror: 0.21 }
+    - { label: "sys", symerror: 0.13 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "62.4 GeV" }
+  - { name: "$p_T$", value: "4.250" }
+  values:
+  - value: 0.88
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.10 }
+  - value: 1.04
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.12 }
+  - value: 1.39
+    errors:
+    - { label: "stat", symerror: 0.11 }
+    - { label: "sys", symerror: 0.16 }
+  - value: 1.27
+    errors:
+    - { label: "stat", symerror: 0.14 }
+    - { label: "sys", symerror: 0.15 }
+  - value: 1.27
+    errors:
+    - { label: "stat", symerror: 0.23 }
+    - { label: "sys", symerror: 0.15 }

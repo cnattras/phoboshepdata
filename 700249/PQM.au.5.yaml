@@ -1,0 +1,40 @@
+# pqm_predictions_raa_vs_npart.yaml
+
+independent_variables:
+- header: { name: "$N_{part}$" }
+  values:
+  - { value: 325.2 }
+  - { value: 234.6 }
+  - { value: 166.6 }
+  - { value: 114.2 }
+  - { value: 74.4 }
+  - { value: 45.5 }
+  - { value: 25.7 }
+  - { value: 13.4 }
+  - { value: 6.3 }
+
+dependent_variables:
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "Model", value: "PQM" }
+  - { name: "System", value: "Au+Au" }
+  - { name: "$p_T$", value: "5 GeV" }
+  values:
+  - value: 0.41
+    errors: [ { label: "stat", symerror: 0.16 } ]
+  - value: 0.46
+    errors: [ { label: "stat", symerror: 0.21 } ]
+  - value: 0.50
+    errors: [ { label: "stat", symerror: 0.28 } ]
+  - value: 0.6
+    errors: [ { label: "stat", symerror: 0.4 } ]
+  - value: 0.6
+    errors: [ { label: "stat", symerror: 0.5 } ]
+  - value: 0.7
+    errors: [ { label: "stat", symerror: 0.6 } ]
+  - value: 0.8
+    errors: [ { label: "stat", symerror: 0.8 } ]
+  - value: 0.9
+    errors: [ { label: "stat", symerror: 0.9 } ]
+  - value: 1.0
+    errors: [ { label: "stat", symerror: 1.0 } ]

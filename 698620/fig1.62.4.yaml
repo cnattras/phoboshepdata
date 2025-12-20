@@ -1,0 +1,71 @@
+# 62.4 GeV, Au+Au, 6–40% centrality
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: 4.875 }
+  - { value: 4.125 }
+  - { value: 3.375 }
+  - { value: 2.75 }
+  - { value: 2.25 }
+  - { value: 1.75 }
+  - { value: 1.25 }
+  - { value: 0.75 }
+  - { value: 0.25 }
+  - { value: -0.25 }
+  - { value: -0.75 }
+  - { value: -1.25 }
+  - { value: -1.75 }
+  - { value: -2.25 }
+  - { value: -2.75 }
+  - { value: -3.375 }
+  - { value: -4.125 }
+  - { value: -4.875 }
+
+dependent_variables:
+- header: { name: "$v_1$" }
+  qualifiers:
+  - { name: "Centrality", value: "6--40%" }
+  - { name: "Method", value: "Mixed Harmonics" }
+  values:
+  - { value: 0.038, errors: [ { label: "stat", symerror: 0.012 } ] }
+  - { value: 0.002, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.014, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.032, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: -0.014, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.02, errors: [ { label: "stat", symerror: 0.006 } ] }
+  - { value: -0.007, errors: [ { label: "stat", symerror: 0.005 } ] }
+  - { value: 0.000, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.003, errors: [ { label: "stat", symerror: 0.005 } ] }
+  - { value: 0.016, errors: [ { label: "stat", symerror: 0.007 } ] }
+  - { value: 0.0044, errors: [ { label: "stat", symerror: 0.0033 } ] }
+  - { value: 0.009, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.025, errors: [ { label: "stat", symerror: 0.008 } ] }
+  - { value: 0.017, errors: [ { label: "stat", symerror: 0.006 } ] }
+  - { value: 0.031, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 0.017, errors: [ { label: "stat", symerror: 0.005 } ] }
+  - { value: -0.001, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.061, errors: [ { label: "stat", symerror: 0.025 } ] }
+
+- header: { name: "$v_1$" }
+  qualifiers:
+  - { name: "Centrality", value: "6--40%" }
+  - { name: "Method", value: "Symmetric Subvent" }
+  values:
+  - { value: 0.049, errors: [ { label: "stat", symerror: 0.008 } ] }
+  - { value: 0.0017, errors: [ { label: "stat", symerror: 0.0015 } ] }
+  - { value: -0.0195, errors: [ { label: "stat", symerror: 0.0021 } ] }
+  - { value: -0.0185, errors: [ { label: "stat", symerror: 0.0023 } ] }
+  - { value: -0.0159, errors: [ { label: "stat", symerror: 0.0022 } ] }
+  - { value: -0.0117, errors: [ { label: "stat", symerror: 0.0023 } ] }
+  - { value: -0.0052, errors: [ { label: "stat", symerror: 0.0016 } ] }
+  - { value: -0.0038, errors: [ { label: "stat", symerror: 0.0015 } ] }
+  - { value: -0.0012, errors: [ { label: "stat", symerror: 0.0017 } ] }
+  - { value: 0.0030, errors: [ { label: "stat", symerror: 0.0016 } ] }
+  - { value: 0.0034, errors: [ { label: "stat", symerror: 0.0014 } ] }
+  - { value: 0.0119, errors: [ { label: "stat", symerror: 0.0019 } ] }
+  - { value: 0.0163, errors: [ { label: "stat", symerror: 0.0023 } ] }
+  - { value: 0.0158, errors: [ { label: "stat", symerror: 0.0019 } ] }
+  - { value: 0.0227, errors: [ { label: "stat", symerror: 0.0030 } ] }
+  - { value: 0.0147, errors: [ { label: "stat", symerror: 0.0017 } ] }
+  - { value: -0.006, errors: [ { label: "stat", symerror: 0.0020 } ] }
+  - { value: -0.081, errors: [ { label: "stat", symerror: 0.018 } ] }

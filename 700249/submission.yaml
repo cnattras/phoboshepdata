@@ -1,0 +1,257 @@
+#PHOBOS PAPER
+#
+#TITLE: System size and centrality dependence of charged hadron transverse momentum spectra in Au+Au and Cu+Cu collisions at sqrt(s_NN)=62.4 and 200 GeV
+#InspireHEP ID: 700249
+#
+#Prepared by Eleanna Soto
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/700249", description: "InspireHEP ID: 700249" }
+- { location: "https://arxiv.org/abs/nucl-ex/0512016", description: "arXiv ID: nucl-ex/0512016" }
+- { location: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.212301", description: "PhysRevLett.96.212301" }
+comment: |
+  We present transverse momentum distributions of charged hadrons produced in Cu+Cu collisions at $\sqrt{s_{NN}} =$~62.4 and 200~GeV. The spectra are measured for transverse momenta of $0.25 < p_T < 5.0$~GeV/c at $\sqrt{s_{NN}} =$~62.4 GeV and $0.25 < p_T < 7.0$~GeV/c at $\\sqrt{s_{NN}} =$~200 GeV, in a pseudo-rapidity range of $0.2 < \eta < 1.4$. The nuclear modification factor $R_{AA}$ is calculated relative to p+p data at both collision energies as a function of collision centrality. At a given collision energy and fractional cross-section, $R_{AA}$ is observed to be systematically larger in Cu+Cu collisions compared to Au+Au. However, for the same number of participating nucleons, $R_{AA}$ is essentially the same in both systems over the measured range of $p_{T}$, in spite of the significantly different geometries of the Cu+Cu and Au+Au systems.
+---
+name: "Table 1"
+location: Table 1 of PhysRevLett.96.212301
+description: Details of the centrality classes used in this analysis. Bins are expressed in terms of percentage of the total inelastic Cu+Cu cross-section.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X, Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4, 200 ]
+data_file: table1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 1: Au+Au"
+location: Data from figure 1 of PhysRevLett.96.212301
+description: Mean number of collisions per participant pair for Au+Au (open symbols) at $\sqrt{s_{NN}} = 200~GeV$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig1.Au.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+name: "Figure 1: Cu+Cu"
+location: Data from figure 1 of PhysRevLett.96.212301
+description: Mean number of collisions per participant pair for Cu+Cu (filled symbols) at $\sqrt{s_{NN}} = 200~GeV$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig1.Cu.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+name: "Figure 2: $\\sqrt{S_{NN}}=62.4~GeV$"
+location: Data from figure 2 of PhysRevLett.96.212301
+description: Invariant yields for charged hadrons from Cu+Cu collisions at $\sqrt{s_{NN}} = 62.4~GeV$, in the pseudorapidity interval $0.2 < \eta < 1.4$ as a function of $p_T$ for six centrality bins.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig2.62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+name: "Figure 2: $\\sqrt{S_{NN}}=200~GeV$"
+location: Data from figure 2 of PhysRevLett.96.212301
+description: Invariant yields for charged hadrons from Cu+Cu collisions at $\sqrt{s_{NN}} = 200~GeV$, in the pseudorapidity interval $0.2 < \eta < 1.4$ as a function of $p_T$ for six centrality bins.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig2.200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+name: "Figure 3: $\\sqrt{S_{NN}}=62.4~GeV$"
+location: Data from figure 3 of PhysRevLett.96.212301
+description: Nuclear modification factor, $R_{AA}(p_T)$, at mid-rapidity in bins of fractional cross-section at $\sqrt{s_{NN}} = 200~\mathrm{GeV}$ (top row) and $\sqrt{s_{NN}} = 62.4~\mathrm{GeV}$ (bottom row), for Cu+Cu .
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig3.62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Figure 3: $\\sqrt{S_{NN}}=200~GeV$"
+location: Data from figure 3 of PhysRevLett.96.212301
+description: Nuclear modification factor, $R_{AA}(p_T)$, at mid-rapidity in bins of fractional cross-section at $\sqrt{s_{NN}} = 200~\mathrm{GeV}$ (top row) and $\sqrt{s_{NN}} = 62.4~\mathrm{GeV}$ (bottom row), for Cu+Cu .
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig3.200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Figure 4: Au+Au"
+location: Data from figure 4 of PhysRevLett.96.212301
+description: Nuclear modification factor, $R_{AA}$, in bins of $p_T$ versus $N_{part}$ at $\sqrt{s_{NN}} = 200~GeV$, for Cu+Cu and Au+Au.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4.au.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 4: Cu+Cu"
+location: PhysRevLett.96.212301
+description: Nuclear modification factor, $R_{AA}$, in bins of $p_T$ versus $N_{part}$ at $\sqrt{s_{NN}} = 200~GeV$, for Cu+Cu.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4.cu.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "PQM: Au+Au at $p_T$= 5 GeV"
+location: Data from figure 4 of PhysRevLett.96.212301
+description: Parton Quenching Model Predictions at high $p_T$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: PQM.au.5.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "PQM: Au+Au at $p_T$= 6 GeV"
+location: Data from figure 4 of PhysRevLett.96.212301
+description: Parton Quenching Model Predictions at high $p_T$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: PQM.au.6.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "PQM: Cu+Cu at $p_T$= 5 GeV"
+location: Data from figure 4 of PhysRevLett.96.212301
+description: Parton Quenching Model Predictions at high $p_T$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: PQM.cu.5.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "PQM: Cu+Cu at $p_T$= 6 GeV"
+location: Data from figure 4 of PhysRevLett.96.212301
+description: Parton Quenching Model Predictions at high $p_T$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: PQM.cu.6.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "PHENIX data"
+location: Data from figure 4 of PhysRevLett.96.212301
+description: Au+Au at $\sqrt{S_{NN}}=200~GeV$ nuclear modification factors versus $N_{part}$ from the PHENIX collaboration.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4.phenix.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 5: Au+Au"
+location: Data from figure 5 of PhysRevLett.96.212301
+description: Nuclear modification factor, $R_{AA}$, in bins of $p_T$ versus $N_{part}$ at $\sqrt{s_{NN}} = 62.4~GeV$, for Au+Au.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig5.au.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 5: Cu+Cu"
+location: Data from figure 5 of PhysRevLett.96.212301
+description: Nuclear modification factor, $R_{AA}$, in bins of $p_T$ versus $N_{part}$ at $\sqrt{s_{NN}} = 62.4~GeV$, for Cu+Cu.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig5.cu.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }

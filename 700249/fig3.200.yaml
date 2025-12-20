@@ -1,0 +1,1267 @@
+independent_variables:
+- header: { name: "$p_T$", units: "GeV/$c$" }
+  values:
+  - { value: 0.250 }
+  - { value: 0.350 }
+  - { value: 0.450 }
+  - { value: 0.550 }
+  - { value: 0.650 }
+  - { value: 0.750 }
+  - { value: 0.850 }
+  - { value: 0.950 }
+  - { value: 1.050 }
+  - { value: 1.150 }
+  - { value: 1.250 }
+  - { value: 1.350 }
+  - { value: 1.450 }
+  - { value: 1.550 }
+  - { value: 1.650 }
+  - { value: 1.750 }
+  - { value: 1.850 }
+  - { value: 1.950 }
+  - { value: 2.100 }
+  - { value: 2.300 }
+  - { value: 2.500 }
+  - { value: 2.700 }
+  - { value: 2.900 }
+  - { value: 3.125 }
+  - { value: 3.375 }
+  - { value: 3.625 }
+  - { value: 3.875 }
+  - { value: 4.250 }
+  - { value: 4.750 }
+  - { value: 5.250 }
+  - { value: 5.750 }
+  - { value: 6.250 }
+  - { value: 6.750 }
+
+dependent_variables:
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "RE", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: 200, units: "GeV" }
+  - { name: "Centrality", value: "0-6%" }
+  values:
+  - value: 0.30925
+    errors:
+    - { label: "stat", symerror: 1.5e-4 }
+    - { label: "sys", symerror: 0.03222 }
+    - { label: "Ncoll", symerror: 0.07200 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.33244
+    errors:
+    - { label: "stat", symerror: 1.7e-4 }
+    - { label: "sys", symerror: 0.03412 }
+    - { label: "Ncoll", symerror: 0.07200 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.36120
+    errors:
+    - { label: "stat", symerror: 2.1e-4 }
+    - { label: "sys", symerror: 0.03652 }
+    - { label: "Ncoll", symerror: 0.07200 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.38896
+    errors:
+    - { label: "stat", symerror: 2.5e-4 }
+    - { label: "sys", symerror: 0.03873 }
+    - { label: "Ncoll", symerror: 0.07200 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.42353
+    errors:
+    - { label: "stat", symerror: 3.1e-4 }
+    - { label: "sys", symerror: 0.04153 }
+    - { label: "Ncoll", symerror: 0.07200 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.45793
+    errors:
+    - { label: "stat", symerror: 3e-4 }
+    - { label: "sys", symerror: 0.04420 }
+    - { label: "Ncoll", symerror: 0.07200 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.4968
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0472 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5385
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", symerror: 0.0503 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5770
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", symerror: 0.0531 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6096
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0551 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6414
+    errors:
+    - { label: "stat", symerror: 8e-4 }
+    - { label: "sys", symerror: 0.0570 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6694
+    errors:
+    - { label: "stat", symerror: 0.0010 }
+    - { label: "sys", symerror: 0.0585 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6912
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+    - { label: "sys", symerror: 0.0593 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7078
+    errors:
+    - { label: "stat", symerror: 0.0014 }
+    - { label: "sys", symerror: 0.0597 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7278
+    errors:
+    - { label: "stat", symerror: 0.0016 }
+    - { label: "sys", symerror: 0.0602 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7402
+    errors:
+    - { label: "stat", symerror: 0.0018 }
+    - { label: "sys", symerror: 0.0601 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7469
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", symerror: 0.0595 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7492
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "sys", symerror: 0.0586 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7596
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", symerror: 0.0601 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7448
+    errors:
+    - { label: "stat", symerror: 0.0026 }
+    - { label: "sys", symerror: 0.0616 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7236
+    errors:
+    - { label: "stat", symerror: 0.0033 }
+    - { label: "sys", symerror: 0.0624 }
+    - { label: "Ncoll", symerror: 0.0720 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.704
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.063 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.670
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "sys", symerror: 0.063 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.643
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", symerror: 0.063 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.607
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.062 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.574
+    errors:
+    - { label: "stat", symerror: 0.009 }
+    - { label: "sys", symerror: 0.061 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.539
+    errors:
+    - { label: "stat", symerror: 0.010 }
+    - { label: "sys", symerror: 0.060 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.528
+    errors:
+    - { label: "stat", symerror: 0.010 }
+    - { label: "sys", symerror: 0.062 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.495
+    errors:
+    - { label: "stat", symerror: 0.015 }
+    - { label: "sys", symerror: 0.062 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.470
+    errors:
+    - { label: "stat", symerror: 0.021 }
+    - { label: "sys", symerror: 0.063 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.522
+    errors:
+    - { label: "stat", symerror: 0.032 }
+    - { label: "sys", symerror: 0.075 }
+    - { label: "Ncoll", symerror: 0.072 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.50
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.08 }
+    - { label: "Ncoll", symerror: 0.07 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.57
+    errors:
+    - { label: "stat", symerror: 0.06 }
+    - { label: "sys", symerror: 0.09 }
+    - { label: "Ncoll", symerror: 0.07 }
+    - { label: "pp", symerror: 0.16 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "RE", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: 200, units: "GeV" }
+  - { name: "Centrality", value: "6-15%" }
+  values:
+  - value: 0.32454
+    errors:
+    - { label: "stat", symerror: 1.5e-4 }
+    - { label: "sys", symerror: 0.03381 }
+    - { label: "Ncoll", symerror: 0.07400 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.34746
+    errors:
+    - { label: "stat", symerror: 1.7e-4 }
+    - { label: "sys", symerror: 0.03567 }
+    - { label: "Ncoll", symerror: 0.07400 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.37588
+    errors:
+    - { label: "stat", symerror: 2e-4 }
+    - { label: "sys", symerror: 0.03801 }
+    - { label: "Ncoll", symerror: 0.07400 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.40313
+    errors:
+    - { label: "stat", symerror: 2.4e-4 }
+    - { label: "sys", symerror: 0.04015 }
+    - { label: "Ncoll", symerror: 0.07400 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.43739
+    errors:
+    - { label: "stat", symerror: 3e-4 }
+    - { label: "sys", symerror: 0.04289 }
+    - { label: "Ncoll", symerror: 0.07400 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.47232
+    errors:
+    - { label: "stat", symerror: 2.9e-4 }
+    - { label: "sys", symerror: 0.04559 }
+    - { label: "Ncoll", symerror: 0.07400 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.5103
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0485 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5510
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0515 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5886
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", symerror: 0.0541 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6231
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0563 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6545
+    errors:
+    - { label: "stat", symerror: 8e-4 }
+    - { label: "sys", symerror: 0.0582 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6830
+    errors:
+    - { label: "stat", symerror: 9e-4 }
+    - { label: "sys", symerror: 0.0597 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7034
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+    - { label: "sys", symerror: 0.0604 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7216
+    errors:
+    - { label: "stat", symerror: 0.0013 }
+    - { label: "sys", symerror: 0.0608 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7424
+    errors:
+    - { label: "stat", symerror: 0.0015 }
+    - { label: "sys", symerror: 0.0614 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7536
+    errors:
+    - { label: "stat", symerror: 0.0018 }
+    - { label: "sys", symerror: 0.0612 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7646
+    errors:
+    - { label: "stat", symerror: 0.0020 }
+    - { label: "sys", symerror: 0.0609 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7690
+    errors:
+    - { label: "stat", symerror: 0.0023 }
+    - { label: "sys", symerror: 0.0601 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7810
+    errors:
+    - { label: "stat", symerror: 0.0020 }
+    - { label: "sys", symerror: 0.0618 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7740
+    errors:
+    - { label: "stat", symerror: 0.0026 }
+    - { label: "sys", symerror: 0.0640 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7530
+    errors:
+    - { label: "stat", symerror: 0.0032 }
+    - { label: "sys", symerror: 0.0649 }
+    - { label: "Ncoll", symerror: 0.0740 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.739
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.066 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.711
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "sys", symerror: 0.066 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.693
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", symerror: 0.067 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.653
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.066 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.628
+    errors:
+    - { label: "stat", symerror: 0.009 }
+    - { label: "sys", symerror: 0.067 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.582
+    errors:
+    - { label: "stat", symerror: 0.010 }
+    - { label: "sys", symerror: 0.064 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.574
+    errors:
+    - { label: "stat", symerror: 0.010 }
+    - { label: "sys", symerror: 0.067 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.568
+    errors:
+    - { label: "stat", symerror: 0.015 }
+    - { label: "sys", symerror: 0.072 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.593
+    errors:
+    - { label: "stat", symerror: 0.023 }
+    - { label: "sys", symerror: 0.080 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.547
+    errors:
+    - { label: "stat", symerror: 0.031 }
+    - { label: "sys", symerror: 0.079 }
+    - { label: "Ncoll", symerror: 0.074 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.49
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.08 }
+    - { label: "Ncoll", symerror: 0.07 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.63
+    errors:
+    - { label: "stat", symerror: 0.06 }
+    - { label: "sys", symerror: 0.10 }
+    - { label: "Ncoll", symerror: 0.07 }
+    - { label: "pp", symerror: 0.16 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "RE", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: 200, units: "GeV" }
+  - { name: "Centrality", value: "15-25%" }
+  values:
+  - value: 0.35670
+    errors:
+    - { label: "stat", symerror: 1.8e-4 }
+    - { label: "sys", symerror: 0.03716 }
+    - { label: "Ncoll", symerror: 0.08600 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.37922
+    errors:
+    - { label: "stat", symerror: 2e-4 }
+    - { label: "sys", symerror: 0.03893 }
+    - { label: "Ncoll", symerror: 0.08600 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.40793
+    errors:
+    - { label: "stat", symerror: 2.4e-4 }
+    - { label: "sys", symerror: 0.04125 }
+    - { label: "Ncoll", symerror: 0.08600 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.43537
+    errors:
+    - { label: "stat", symerror: 3e-4 }
+    - { label: "sys", symerror: 0.04336 }
+    - { label: "Ncoll", symerror: 0.08600 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.4704
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0461 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.50520
+    errors:
+    - { label: "stat", symerror: 3.5e-4 }
+    - { label: "sys", symerror: 0.04876 }
+    - { label: "Ncoll", symerror: 0.08600 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.5452
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0518 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5861
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", symerror: 0.0548 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6258
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0575 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6597
+    errors:
+    - { label: "stat", symerror: 8e-4 }
+    - { label: "sys", symerror: 0.0596 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6933
+    errors:
+    - { label: "stat", symerror: 9e-4 }
+    - { label: "sys", symerror: 0.0616 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7237
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+    - { label: "sys", symerror: 0.0632 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7457
+    errors:
+    - { label: "stat", symerror: 0.0013 }
+    - { label: "sys", symerror: 0.0640 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7622
+    errors:
+    - { label: "stat", symerror: 0.0016 }
+    - { label: "sys", symerror: 0.0642 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7825
+    errors:
+    - { label: "stat", symerror: 0.0018 }
+    - { label: "sys", symerror: 0.0648 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8008
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", symerror: 0.0651 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8100
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "sys", symerror: 0.0646 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8220
+    errors:
+    - { label: "stat", symerror: 0.0028 }
+    - { label: "sys", symerror: 0.0643 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8359
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "sys", symerror: 0.0662 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8372
+    errors:
+    - { label: "stat", symerror: 0.0031 }
+    - { label: "sys", symerror: 0.0693 }
+    - { label: "Ncoll", symerror: 0.0860 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.815
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.070 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.802
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "sys", symerror: 0.072 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.790
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", symerror: 0.074 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.778
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.076 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.738
+    errors:
+    - { label: "stat", symerror: 0.008 }
+    - { label: "sys", symerror: 0.075 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.706
+    errors:
+    - { label: "stat", symerror: 0.011 }
+    - { label: "sys", symerror: 0.075 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.687
+    errors:
+    - { label: "stat", symerror: 0.013 }
+    - { label: "sys", symerror: 0.076 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.679
+    errors:
+    - { label: "stat", symerror: 0.013 }
+    - { label: "sys", symerror: 0.080 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.669
+    errors:
+    - { label: "stat", symerror: 0.019 }
+    - { label: "sys", symerror: 0.084 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.690
+    errors:
+    - { label: "stat", symerror: 0.028 }
+    - { label: "sys", symerror: 0.093 }
+    - { label: "Ncoll", symerror: 0.086 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.65
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.09 }
+    - { label: "Ncoll", symerror: 0.09 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.70
+    errors:
+    - { label: "stat", symerror: 0.06 }
+    - { label: "sys", symerror: 0.11 }
+    - { label: "Ncoll", symerror: 0.09 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.71
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.11 }
+    - { label: "Ncoll", symerror: 0.09 }
+    - { label: "pp", symerror: 0.16 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "RE", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: 200, units: "GeV" }
+  - { name: "Centrality", value: "25-35%" }
+  values:
+  - value: 0.41394
+    errors:
+    - { label: "stat", symerror: 2.5e-4 }
+    - { label: "sys", symerror: 0.04312 }
+    - { label: "Ncoll", symerror: 0.11800 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.43689
+    errors:
+    - { label: "stat", symerror: 2.8e-4 }
+    - { label: "sys", symerror: 0.04484 }
+    - { label: "Ncoll", symerror: 0.11800 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.46697
+    errors:
+    - { label: "stat", symerror: 3.3e-4 }
+    - { label: "sys", symerror: 0.04722 }
+    - { label: "Ncoll", symerror: 0.11800 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.4960
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0494 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5324
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", symerror: 0.0522 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5682
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", symerror: 0.0548 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6094
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", symerror: 0.0579 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6512
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0609 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6945
+    errors:
+    - { label: "stat", symerror: 9e-4 }
+    - { label: "sys", symerror: 0.0639 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7295
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+    - { label: "sys", symerror: 0.0660 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7638
+    errors:
+    - { label: "stat", symerror: 0.0013 }
+    - { label: "sys", symerror: 0.0679 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7943
+    errors:
+    - { label: "stat", symerror: 0.0015 }
+    - { label: "sys", symerror: 0.0694 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8204
+    errors:
+    - { label: "stat", symerror: 0.0018 }
+    - { label: "sys", symerror: 0.0704 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8440
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", symerror: 0.0711 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8566
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "sys", symerror: 0.0709 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8838
+    errors:
+    - { label: "stat", symerror: 0.0028 }
+    - { label: "sys", symerror: 0.0718 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8988
+    errors:
+    - { label: "stat", symerror: 0.0033 }
+    - { label: "sys", symerror: 0.0716 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.908
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.071 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.9272
+    errors:
+    - { label: "stat", symerror: 0.0033 }
+    - { label: "sys", symerror: 0.0734 }
+    - { label: "Ncoll", symerror: 0.1180 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.926
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.920
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "sys", symerror: 0.079 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.910
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.082 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.902
+    errors:
+    - { label: "stat", symerror: 0.008 }
+    - { label: "sys", symerror: 0.084 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.892
+    errors:
+    - { label: "stat", symerror: 0.009 }
+    - { label: "sys", symerror: 0.087 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.863
+    errors:
+    - { label: "stat", symerror: 0.012 }
+    - { label: "sys", symerror: 0.088 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.814
+    errors:
+    - { label: "stat", symerror: 0.015 }
+    - { label: "sys", symerror: 0.086 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.827
+    errors:
+    - { label: "stat", symerror: 0.018 }
+    - { label: "sys", symerror: 0.091 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.783
+    errors:
+    - { label: "stat", symerror: 0.017 }
+    - { label: "sys", symerror: 0.092 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.835
+    errors:
+    - { label: "stat", symerror: 0.027 }
+    - { label: "sys", symerror: 0.105 }
+    - { label: "Ncoll", symerror: 0.118 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.77
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.10 }
+    - { label: "Ncoll", symerror: 0.12 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.71
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", symerror: 0.10 }
+    - { label: "Ncoll", symerror: 0.12 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.81
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.12 }
+    - { label: "Ncoll", symerror: 0.12 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.84
+    errors:
+    - { label: "stat", symerror: 0.11 }
+    - { label: "sys", symerror: 0.14 }
+    - { label: "Ncoll", symerror: 0.12 }
+    - { label: "pp", symerror: 0.16 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "RE", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: 200, units: "GeV" }
+  - { name: "Centrality", value: "35-45%" }
+  values:
+  - value: 0.47251
+    errors:
+    - { label: "stat", symerror: 3.5e-4 }
+    - { label: "sys", symerror: 0.04922 }
+    - { label: "Ncoll", symerror: 0.16100 }
+    - { label: "pp", symerror: 0.16000 }
+  - value: 0.4952
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", symerror: 0.0508 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5256
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", symerror: 0.0531 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5535
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", symerror: 0.0551 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5903
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0579 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6243
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0603 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6673
+    errors:
+    - { label: "stat", symerror: 8e-4 }
+    - { label: "sys", symerror: 0.0634 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7114
+    errors:
+    - { label: "stat", symerror: 0.0010 }
+    - { label: "sys", symerror: 0.0665 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7518
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+    - { label: "sys", symerror: 0.0691 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7858
+    errors:
+    - { label: "stat", symerror: 0.0014 }
+    - { label: "sys", symerror: 0.0710 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8192
+    errors:
+    - { label: "stat", symerror: 0.0017 }
+    - { label: "sys", symerror: 0.0728 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8522
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", symerror: 0.0744 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8778
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "sys", symerror: 0.0753 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.9003
+    errors:
+    - { label: "stat", symerror: 0.0028 }
+    - { label: "sys", symerror: 0.0759 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.9230
+    errors:
+    - { label: "stat", symerror: 0.0033 }
+    - { label: "sys", symerror: 0.0764 }
+    - { label: "Ncoll", symerror: 0.1610 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.937
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.076 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.967
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.970
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "sys", symerror: 0.076 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.982
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.078 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.991
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", symerror: 0.082 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.001
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.086 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.989
+    errors:
+    - { label: "stat", symerror: 0.009 }
+    - { label: "sys", symerror: 0.089 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.994
+    errors:
+    - { label: "stat", symerror: 0.011 }
+    - { label: "sys", symerror: 0.093 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.965
+    errors:
+    - { label: "stat", symerror: 0.013 }
+    - { label: "sys", symerror: 0.094 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.956
+    errors:
+    - { label: "stat", symerror: 0.016 }
+    - { label: "sys", symerror: 0.097 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.942
+    errors:
+    - { label: "stat", symerror: 0.020 }
+    - { label: "sys", symerror: 0.100 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.892
+    errors:
+    - { label: "stat", symerror: 0.025 }
+    - { label: "sys", symerror: 0.099 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.864
+    errors:
+    - { label: "stat", symerror: 0.024 }
+    - { label: "sys", symerror: 0.101 }
+    - { label: "Ncoll", symerror: 0.161 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.90
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.11 }
+    - { label: "Ncoll", symerror: 0.16 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.87
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", symerror: 0.12 }
+    - { label: "Ncoll", symerror: 0.16 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.05
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", symerror: 0.15 }
+    - { label: "Ncoll", symerror: 0.16 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.78
+    errors:
+    - { label: "stat", symerror: 0.10 }
+    - { label: "sys", symerror: 0.12 }
+    - { label: "Ncoll", symerror: 0.16 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.10
+    errors:
+    - { label: "stat", symerror: 0.16 }
+    - { label: "sys", symerror: 0.18 }
+    - { label: "Ncoll", symerror: 0.16 }
+    - { label: "pp", symerror: 0.16 }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "RE", value: "Cu+Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: 200, units: "GeV" }
+  - { name: "Centrality", value: "45-50%" }
+  values:
+  - value: 0.5094
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", symerror: 0.0531 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5291
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", symerror: 0.0543 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5595
+    errors:
+    - { label: "stat", symerror: 8e-4 }
+    - { label: "sys", symerror: 0.0566 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.5832
+    errors:
+    - { label: "stat", symerror: 0.0010 }
+    - { label: "sys", symerror: 0.0581 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6193
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+    - { label: "sys", symerror: 0.0607 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6504
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+    - { label: "sys", symerror: 0.0628 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.6899
+    errors:
+    - { label: "stat", symerror: 0.0014 }
+    - { label: "sys", symerror: 0.0655 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7318
+    errors:
+    - { label: "stat", symerror: 0.0017 }
+    - { label: "sys", symerror: 0.0684 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.7753
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", symerror: 0.0713 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8075
+    errors:
+    - { label: "stat", symerror: 0.0025 }
+    - { label: "sys", symerror: 0.0730 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.8350
+    errors:
+    - { label: "stat", symerror: 0.0030 }
+    - { label: "sys", symerror: 0.0742 }
+    - { label: "Ncoll", symerror: 0.1920 }
+    - { label: "pp", symerror: 0.1600 }
+  - value: 0.864
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.075 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.902
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.912
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.928
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.947
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.977
+    errors:
+    - { label: "stat", symerror: 0.008 }
+    - { label: "sys", symerror: 0.078 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.982
+    errors:
+    - { label: "stat", symerror: 0.009 }
+    - { label: "sys", symerror: 0.077 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.001
+    errors:
+    - { label: "stat", symerror: 0.008 }
+    - { label: "sys", symerror: 0.079 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.023
+    errors:
+    - { label: "stat", symerror: 0.010 }
+    - { label: "sys", symerror: 0.085 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.011
+    errors:
+    - { label: "stat", symerror: 0.012 }
+    - { label: "sys", symerror: 0.087 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.010
+    errors:
+    - { label: "stat", symerror: 0.016 }
+    - { label: "sys", symerror: 0.091 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.033
+    errors:
+    - { label: "stat", symerror: 0.020 }
+    - { label: "sys", symerror: 0.096 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.991
+    errors:
+    - { label: "stat", symerror: 0.022 }
+    - { label: "sys", symerror: 0.096 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 0.995
+    errors:
+    - { label: "stat", symerror: 0.028 }
+    - { label: "sys", symerror: 0.101 }
+    - { label: "Ncoll", symerror: 0.192 }
+    - { label: "pp", symerror: 0.160 }
+  - value: 1.01
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.11 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.05
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", symerror: 0.12 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.94
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", symerror: 0.11 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 0.92
+    errors:
+    - { label: "stat", symerror: 0.06 }
+    - { label: "sys", symerror: 0.12 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.06
+    errors:
+    - { label: "stat", symerror: 0.10 }
+    - { label: "sys", symerror: 0.14 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.08
+    errors:
+    - { label: "stat", symerror: 0.14 }
+    - { label: "sys", symerror: 0.15 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.37
+    errors:
+    - { label: "stat", symerror: 0.24 }
+    - { label: "sys", symerror: 0.21 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }
+  - value: 1.03
+    errors:
+    - { label: "stat", symerror: 0.28 }
+    - { label: "sys", symerror: 0.17 }
+    - { label: "Ncoll", symerror: 0.19 }
+    - { label: "pp", symerror: 0.16 }

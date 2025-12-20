@@ -1,0 +1,71 @@
+# 19.6 GeV, Au+Au, 15–35% centrality
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: 4.875 }
+  - { value: 4.125 }
+  - { value: 3.375 }
+  - { value: 2.75 }
+  - { value: 2.25 }
+  - { value: 1.75 }
+  - { value: 1.25 }
+  - { value: 0.75 }
+  - { value: 0.25 }
+  - { value: -0.25 }
+  - { value: -0.75 }
+  - { value: -1.25 }
+  - { value: -1.75 }
+  - { value: -2.25 }
+  - { value: -2.625 }
+  - { value: -3.375 }
+  - { value: -4.125 }
+  - { value: -4.875 }
+
+dependent_variables:
+- header: { name: "$v_1$" }
+  qualifiers:
+  - { name: "Centrality", value: "15--35%" }
+  - { name: "Method", value: "Mixed Harmonics" }
+  values:
+  - { value: 0.12, errors: [ { label: "stat", symerror: 0.08 } ] }
+  - { value: 0.07, errors: [ { label: "stat", symerror: 0.06 } ] }
+  - { value: 0.008, errors: [ { label: "stat", symerror: 0.031 } ] }
+  - { value: 0.01, errors: [ { label: "stat", symerror: 0.06 } ] }
+  - { value: -0.043, errors: [ { label: "stat", symerror: 0.030 } ] }
+  - { value: -0.057, errors: [ { label: "stat", symerror: 0.032 } ] }
+  - { value: -0.04, errors: [ { label: "stat", symerror: 0.04 } ] }
+  - { value: 0.015, errors: [ { label: "stat", symerror: 0.022 } ] }
+  - { value: -0.038, errors: [ { label: "stat", symerror: 0.026 } ] }
+  - { value: 0.00, errors: [ { label: "stat", symerror: 0.06 } ] }
+  - { value: 0.06, errors: [ { label: "stat", symerror: 0.06 } ] }
+  - { value: 0.035, errors: [ { label: "stat", symerror: 0.022 } ] }
+  - { value: 0.05, errors: [ { label: "stat", symerror: 0.04 } ] }
+  - { value: 0.009, errors: [ { label: "stat", symerror: 0.025 } ] }
+  - { value: 0.02, errors: [ { label: "stat", symerror: 0.04 } ] }
+  - { value: -0.011, errors: [ { label: "stat", symerror: 0.020 } ] }
+  - { value: -0.05, errors: [ { label: "stat", symerror: 0.05 } ] }
+  - { value: -0.06, errors: [ { label: "stat", symerror: 0.06 } ] }
+
+- header: { name: "$v_1$" }
+  qualifiers:
+  - { name: "Centrality", value: "15--35%" }
+  - { name: "Method", value: "Symmetric Subvent" }
+  values:
+  - { value: 0.19, errors: [ { label: "stat", symerror: 0.11 } ] }
+  - { value: 0.114, errors: [ { label: "stat", symerror: 0.030 } ] }
+  - { value: 0.040, errors: [ { label: "stat", symerror: 0.012 } ] }
+  - { value: -0.01, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.027, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.023, errors: [ { label: "stat", symerror: 0.005 } ] }
+  - { value: -0.017, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.0098, errors: [ { label: "stat", symerror: 0.0032 } ] }
+  - { value: -0.006, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: -0.001, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.0099, errors: [ { label: "stat", symerror: 0.0032 } ] }
+  - { value: 0.0162, errors: [ { label: "stat", symerror: 0.0031 } ] }
+  - { value: 0.0191, errors: [ { label: "stat", symerror: 0.0030 } ] }
+  - { value: 0.0258, errors: [ { label: "stat", symerror: 0.0034 } ] }
+  - { value: 0.019, errors: [ { label: "stat", symerror: 0.005 } ] }
+  - { value: -0.037, errors: [ { label: "stat", symerror: 0.011 } ] }
+  - { value: -0.095, errors: [ { label: "stat", symerror: 0.027 } ] }
+  - { value: -0.14, errors: [ { label: "stat", symerror: 0.06 } ] }

@@ -1,0 +1,220 @@
+#PHOBOS PAPER
+#
+#TITLE: Energy dependence of directed flow over a wide range of pseudorapidity in Au + Au collisions at RHIC
+#InspireHEP ID: 698620
+#
+#Prepared by Eleanna Soto
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/698620", description: "InspireHEP ID: 698620" }
+- { location: "https://arxiv.org/abs/nucl-ex/0511045", description: "arXiv ID: nucl-ex/0511045" }
+- { location: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.97.012301", description: "PhysRevLett.97.012301" }
+comment: |
+  We report on measurements of directed flow as a function of pseudorapidity in Au +Au collisions at energies of $\sqrt{S_{NN}}$=19.6, 62.4, 130 and 200 GeV as measured by the PHOBOS detector at the BNL Relativistic Heavy Ion Collider. These results are particularly valuable because of the extensive, continuous pseudorapidity coverage of the PHOBOS detector. There is no significant indication of structure near midrapidity and the data surprisingly exhibit extended longitudinal scaling similar to that seen for elliptic flow and charged particle pseudorapidity density.
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 1: $\\sqrt{S_{NN}}=19.6~GeV$"
+location: Figure 1 of PhysRevLett.97.012301
+description: Measured directed flow as a function of $\eta$ in Au+Au collisions at $\sqrt{S_{NN}}$ = 19.6, 62.4, 130, and 200 GeV, using the mixed harmonic event plane method (open points) overlayed with the standard symmetric $\eta$ subevent method (closed points).
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 19.6 ]
+data_file: fig1.19.6.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 1: $\\sqrt{S_{NN}}=62.4~GeV$"
+location: Figure 1 of PhysRevLett.97.012301
+description: Measured directed flow as a function of $\eta$ in Au+Au collisions at $\sqrt{S_{NN}}$ = 19.6, 62.4, 130, and 200 GeV, using the mixed harmonic event plane method (open points) overlayed with the standard symmetric $\eta$ subevent method (closed points).
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig1.62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 1: $\\sqrt{S_{NN}}=130~GeV$"
+location: Figure 1 of PhysRevLett.97.012301
+description: Measured directed flow as a function of $\eta$ in Au+Au collisions at $\sqrt{S_{NN}}$ = 19.6, 62.4, 130, and 200 GeV, using the mixed harmonic event plane method (open points) overlayed with the standard symmetric $\eta$ subevent method (closed points).
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 130 ]
+data_file: fig1.130.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 1: $\\sqrt{S_{NN}}=200~GeV$"
+location: Figure 1 of PhysRevLett.97.012301
+description: Measured directed flow as a function of $\eta$ in Au+Au collisions at $\sqrt{S_{NN}}$ = 19.6, 62.4, 130, and 200 GeV, using the mixed harmonic event plane method (open points) overlayed with the standard symmetric $\eta$ subevent method (closed points).
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig1.200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 2: $\\sqrt{S_{NN}}=19.6~GeV$"
+location: Figure 2 of PhysRevLett.97.012301
+description: Directed flow of charged particles in Au+Au collisions as a function of $\eta$, averaged over centrality (0–40%), shown separately for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 19.6 ]
+data_file: fig2.19.6.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 2: $\\sqrt{S_{NN}}=62.4~GeV$"
+location: Figure 2 of PhysRevLett.97.012301
+description: Directed flow of charged particles in Au+Au collisions as a function of $\eta$, averaged over centrality (0–40%), shown separately for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig2.62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 2: $\\sqrt{S_{NN}}=130~GeV$"
+location: Figure 2 of PhysRevLett.97.012301
+description: Directed flow of charged particles in Au+Au collisions as a function of $\eta$, averaged over centrality (0–40%), shown separately for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 130 ]
+data_file: fig2.130.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 2: $\\sqrt{S_{NN}}=200~GeV$"
+location: Figure 2 of PhysRevLett.97.012301
+description: Directed flow of charged particles in Au+Au collisions as a function of $\eta$, averaged over centrality (0–40%), shown separately for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig2.200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 3: $\\sqrt{S_{NN}}=19.6~GeV$"
+location: Figure 3 of PhysRevLett.97.012301
+description: Directed flow, averaged over centrality (0-40%), as a function of $\eta' = |\eta| - y_{beam}$ for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 19.6 ]
+data_file: fig3.19.6.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 3: $\\sqrt{S_{NN}}=62.4~GeV$"
+location: Figure 3 of PhysRevLett.97.012301
+description: Directed flow, averaged over centrality (0-40%), as a function of $\eta' = |\eta| - y_{beam}$ for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig3.62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 3: $\\sqrt{S_{NN}}=130~GeV$"
+location: Figure 3 of PhysRevLett.97.012301
+description: Directed flow, averaged over centrality (0-40%), as a function of $\eta' = |\eta| - y_{beam}$ for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 130 ]
+data_file: fig3.130.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 3: $\\sqrt{S_{NN}}=200~GeV$"
+location: Figure 3 of PhysRevLett.97.012301
+description: Directed flow, averaged over centrality (0-40%), as a function of $\eta' = |\eta| - y_{beam}$ for four beam energies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig3.200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+
+

@@ -1,0 +1,227 @@
+independent_variables:
+- header: { name: "$N_{part}$" }
+  values:
+  - { value: 344.0 }
+  - { value: 276.0 }
+  - { value: 200.0 }
+  - { value: 138.0 }
+  - { value: 93.0 }
+  - { value: 65.0 }
+
+dependent_variables:
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "0.250" }
+  values:
+  - value: 0.23755
+    errors:
+    - { label: "stat", symerror: 3.3e-4 }
+    - { label: "sys", asymerror: { plus: 0.03008, minus: 0.03350 } }
+  - value: 0.24317
+    errors:
+    - { label: "stat", symerror: 3e-4 }
+    - { label: "sys", asymerror: { plus: 0.02622, minus: 0.03055 } }
+  - value: 0.2736
+    errors:
+    - { label: "stat", symerror: 4e-4 }
+    - { label: "sys", asymerror: { plus: 0.0213, minus: 0.0316 } }
+  - value: 0.3147
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", asymerror: { plus: 0.0245, minus: 0.0364 } }
+  - value: 0.3615
+    errors:
+    - { label: "stat", symerror: 7e-4 }
+    - { label: "sys", asymerror: { plus: 0.0286, minus: 0.0427 } }
+  - value: 0.4271
+    errors:
+    - { label: "stat", symerror: 0.0015 }
+    - { label: "sys", asymerror: { plus: 0.0362, minus: 0.0560 } }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "0.550" }
+  values:
+  - value: 0.2772
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", asymerror: { plus: 0.0342, minus: 0.0376 } }
+  - value: 0.2862
+    errors:
+    - { label: "stat", symerror: 5e-4 }
+    - { label: "sys", asymerror: { plus: 0.0299, minus: 0.0341 } }
+  - value: 0.3190
+    errors:
+    - { label: "stat", symerror: 6e-4 }
+    - { label: "sys", asymerror: { plus: 0.0238, minus: 0.0348 } }
+  - value: 0.3632
+    errors:
+    - { label: "stat", symerror: 8e-4 }
+    - { label: "sys", asymerror: { plus: 0.0271, minus: 0.0396 } }
+  - value: 0.4090
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+    - { label: "sys", asymerror: { plus: 0.0309, minus: 0.0454 } }
+  - value: 0.4714
+    errors:
+    - { label: "stat", symerror: 0.0021 }
+    - { label: "sys", asymerror: { plus: 0.0374, minus: 0.0581 } }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "1.250" }
+  values:
+  - value: 0.4672
+    errors:
+    - { label: "stat", symerror: 0.0016 }
+    - { label: "sys", asymerror: { plus: 0.0561, minus: 0.0608 } }
+  - value: 0.4934
+    errors:
+    - { label: "stat", symerror: 0.0015 }
+    - { label: "sys", asymerror: { plus: 0.0495, minus: 0.0546 } }
+  - value: 0.5381
+    errors:
+    - { label: "stat", symerror: 0.0018 }
+    - { label: "sys", asymerror: { plus: 0.0379, minus: 0.0542 } }
+  - value: 0.6016
+    errors:
+    - { label: "stat", symerror: 0.0025 }
+    - { label: "sys", asymerror: { plus: 0.0424, minus: 0.0606 } }
+  - value: 0.6513
+    errors:
+    - { label: "stat", symerror: 0.0034 }
+    - { label: "sys", asymerror: { plus: 0.0461, minus: 0.0660 } }
+  - value: 0.723
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", asymerror: { plus: 0.052, minus: 0.081 } }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "2.500" }
+  values:
+  - value: 0.517
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "sys", asymerror: { plus: 0.067, minus: 0.075 } }
+  - value: 0.565
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "sys", asymerror: { plus: 0.060, minus: 0.068 } }
+  - value: 0.622
+    errors:
+    - { label: "stat", symerror: 0.008 }
+    - { label: "sys", asymerror: { plus: 0.047, minus: 0.069 } }
+  - value: 0.729
+    errors:
+    - { label: "stat", symerror: 0.011 }
+    - { label: "sys", asymerror: { plus: 0.056, minus: 0.081 } }
+  - value: 0.802
+    errors:
+    - { label: "stat", symerror: 0.015 }
+    - { label: "sys", asymerror: { plus: 0.061, minus: 0.088 } }
+  - value: 0.859
+    errors:
+    - { label: "stat", symerror: 0.028 }
+    - { label: "sys", asymerror: { plus: 0.070, minus: 0.104 } }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "3.375" }
+  values:
+  - value: 0.375
+    errors:
+    - { label: "stat", symerror: 0.013 }
+    - { label: "sys", asymerror: { plus: 0.056, minus: 0.066 } }
+  - value: 0.424
+    errors:
+    - { label: "stat", symerror: 0.013 }
+    - { label: "sys", asymerror: { plus: 0.051, minus: 0.063 } }
+  - value: 0.509
+    errors:
+    - { label: "stat", symerror: 0.016 }
+    - { label: "sys", asymerror: { plus: 0.047, minus: 0.071 } }
+  - value: 0.639
+    errors:
+    - { label: "stat", symerror: 0.023 }
+    - { label: "sys", asymerror: { plus: 0.061, minus: 0.090 } }
+  - value: 0.703
+    errors:
+    - { label: "stat", symerror: 0.032 }
+    - { label: "sys", asymerror: { plus: 0.069, minus: 0.097 } }
+  - value: 0.74
+    errors:
+    - { label: "stat", symerror: 0.06 }
+    - { label: "sys", asymerror: { plus: 0.09, minus: 0.12 } }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "3.875" }
+  values:
+  - value: 0.282
+    errors:
+    - { label: "stat", symerror: 0.018 }
+    - { label: "sys", asymerror: { plus: 0.048, minus: 0.058 } }
+  - value: 0.339
+    errors:
+    - { label: "stat", symerror: 0.018 }
+    - { label: "sys", asymerror: { plus: 0.047, minus: 0.060 } }
+  - value: 0.443
+    errors:
+    - { label: "stat", symerror: 0.024 }
+    - { label: "sys", asymerror: { plus: 0.051, minus: 0.074 } }
+  - value: 0.544
+    errors:
+    - { label: "stat", symerror: 0.034 }
+    - { label: "sys", asymerror: { plus: 0.062, minus: 0.093 } }
+  - value: 0.56
+    errors:
+    - { label: "stat", symerror: 0.05 }
+    - { label: "sys", asymerror: { plus: 0.07, minus: 0.09 } }
+  - value: 0.46
+    errors:
+    - { label: "stat", symerror: 0.08 }
+    - { label: "sys", asymerror: { plus: 0.09, minus: 0.10 } }
+
+- header: { name: "$R_{AA}$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "$p_T$", value: "4.250" }
+  values:
+  - value: 0.285
+    errors:
+    - { label: "stat", symerror: 0.018 }
+    - { label: "sys", asymerror: { plus: 0.053, minus: 0.064 } }
+  - value: 0.324
+    errors:
+    - { label: "stat", symerror: 0.017 }
+    - { label: "sys", asymerror: { plus: 0.048, minus: 0.063 } }
+  - value: 0.397
+    errors:
+    - { label: "stat", symerror: 0.022 }
+    - { label: "sys", asymerror: { plus: 0.047, minus: 0.071 } }
+  - value: 0.484
+    errors:
+    - { label: "stat", symerror: 0.032 }
+    - { label: "sys", asymerror: { plus: 0.064, minus: 0.088 } }
+  - value: 0.53
+    errors:
+    - { label: "stat", symerror: 0.04 }
+    - { label: "sys", asymerror: { plus: 0.07, minus: 0.10 } }
+  - value: 0.62
+    errors:
+    - { label: "stat", symerror: 0.09 }
+    - { label: "sys", asymerror: { plus: 0.12, minus: 0.14 } }
