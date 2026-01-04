@@ -1,0 +1,44 @@
+# table1_default_parameters.yaml
+# TABLE I: Default parameters used in the PHOBOS MCG calculations (sqrt(sNN)=200 GeV)
+
+independent_variables:
+- header: { name: "System" }
+  values:
+  - { value: "Au+Au" }
+  - { value: "Cu+Cu" }
+
+dependent_variables:
+- header: { name: "$\\sigma_{NN}$", units: "mb" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 42 }
+  - { value: 42 }
+
+- header: { name: "$N_{A/B}$" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 197 }
+  - { value: 63 }
+
+- header: { name: "$R$", units: "fm" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 6.38 }
+  - { value: 4.20 }
+
+- header: { name: "$a$", units: "fm" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 0.535 }
+  - { value: 0.596 }
+
+- header: { name: "$d_{\\min}$", units: "fm" }
+  qualifiers:
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 0 }
+  - { value: 0 }

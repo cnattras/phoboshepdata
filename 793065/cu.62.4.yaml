@@ -1,0 +1,94 @@
+# PHOBOS Cu+Cu midrapidity pseudorapidity densities vs centrality at sqrt(sNN)=62.4 GeV
+# EOct centrality method
+# Errors are combined statistical + systematic (given)
+
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 3 }
+  - { low: 3, high: 6 }
+  - { low: 6, high: 10 }
+  - { low: 10, high: 15 }
+  - { low: 15, high: 20 }
+  - { low: 20, high: 25 }
+  - { low: 25, high: 30 }
+  - { low: 30, high: 35 }
+  - { low: 35, high: 40 }
+  - { low: 40, high: 45 }
+  - { low: 45, high: 50 }
+
+dependent_variables:
+- header: { name: "$N_{part}$" }
+  values:
+  - value: 105.5
+    errors: [ { label: "sys+stat", symerror: 3.0 } ]
+  - value: 96.5
+    errors: [ { label: "sys+stat", symerror: 2.8 } ]
+  - value: 87.9
+    errors: [ { label: "sys+stat", symerror: 2.7 } ]
+  - value: 76.4
+    errors: [ { label: "sys+stat", symerror: 2.6 } ]
+  - value: 64.8
+    errors: [ { label: "sys+stat", symerror: 2.7 } ]
+  - value: 54.7
+    errors: [ { label: "sys+stat", symerror: 2.9 } ]
+  - value: 46.5
+    errors: [ { label: "sys+stat", symerror: 3.1 } ]
+  - value: 38.1
+    errors: [ { label: "sys+stat", symerror: 3.3 } ]
+  - value: 31.6
+    errors: [ { label: "sys+stat", symerror: 3.3 } ]
+  - value: 25.6
+    errors: [ { label: "sys+stat", symerror: 3.1 } ]
+  - value: 20.6
+    errors: [ { label: "sys+stat", symerror: 2.9 } ]
+
+- header: { name: "$\\frac{dN}{d\\eta}$" }
+  values:
+  - value: 139.0
+    errors: [ { label: "sys+stat", symerror: 11.0 } ]
+  - value: 123.0
+    errors: [ { label: "sys+stat", symerror: 9.0 } ]
+  - value: 108.0
+    errors: [ { label: "sys+stat", symerror: 8.0 } ]
+  - value: 91.8
+    errors: [ { label: "sys+stat", symerror: 6.9 } ]
+  - value: 76.7
+    errors: [ { label: "sys+stat", symerror: 5.8 } ]
+  - value: 63.8
+    errors: [ { label: "sys+stat", symerror: 4.8 } ]
+  - value: 52.3
+    errors: [ { label: "sys+stat", symerror: 3.9 } ]
+  - value: 43.0
+    errors: [ { label: "sys+stat", symerror: 3.2 } ]
+  - value: 35.1
+    errors: [ { label: "sys+stat", symerror: 2.6 } ]
+  - value: 28.3
+    errors: [ { label: "sys+stat", symerror: 2.1 } ]
+  - value: 22.8
+    errors: [ { label: "sys+stat", symerror: 1.7 } ]
+
+- header: { name: "$\\frac{1}{N_{part}/2}\\frac{dN}{d\\eta}$" }
+  values:
+  - value: 2.64
+    errors: [ { label: "sys+stat", symerror: 0.21 } ]
+  - value: 2.55
+    errors: [ { label: "sys+stat", symerror: 0.21 } ]
+  - value: 2.46
+    errors: [ { label: "sys+stat", symerror: 0.20 } ]
+  - value: 2.40
+    errors: [ { label: "sys+stat", symerror: 0.20 } ]
+  - value: 2.37
+    errors: [ { label: "sys+stat", symerror: 0.20 } ]
+  - value: 2.33
+    errors: [ { label: "sys+stat", symerror: 0.22 } ]
+  - value: 2.25
+    errors: [ { label: "sys+stat", symerror: 0.23 } ]
+  - value: 2.26
+    errors: [ { label: "sys+stat", symerror: 0.26 } ]
+  - value: 2.22
+    errors: [ { label: "sys+stat", symerror: 0.28 } ]
+  - value: 2.21
+    errors: [ { label: "sys+stat", symerror: 0.32 } ]
+  - value: 2.21
+    errors: [ { label: "sys+stat", symerror: 0.35 } ]

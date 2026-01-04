@@ -1,0 +1,119 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 6 }
+  - { low: 6, high: 15 }
+  - { low: 15, high: 25 }
+  - { low: 25, high: 35 }
+  - { low: 35, high: 45 }
+  - { low: 45, high: 50 }
+
+dependent_variables:
+
+- header: { name: "$N_{part}$" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: "-" }
+
+  values:
+  - value: 344
+    errors: [ { label: "sys+stat", symerror: 11 } ]
+  - value: 276
+    errors: [ { label: "sys+stat", symerror: 9 } ]
+  - value: 200
+    errors: [ { label: "sys+stat", symerror: 9 } ]
+  - value: 138
+    errors: [ { label: "sys+stat", symerror: 10 } ]
+  - value: 93
+    errors: [ { label: "sys+stat", symerror: 9 } ]
+  - value: 64
+    errors: [ { label: "sys+stat", symerror: 7 } ]
+
+- header: { name: "Ratio" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: 0.25 }
+
+  values:
+  - value: 1.704
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "syst", asymerror: { minus: 0.303, plus: 0.284 } }
+  - value: 1.686
+    errors:
+    - { label: "stat", symerror: 0.003 }
+    - { label: "syst", asymerror: { minus: 0.279, plus: 0.257 } }
+  - value: 1.740
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "syst", asymerror: { minus: 0.276, plus: 0.232 } }
+  - value: 1.757
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "syst", asymerror: { minus: 0.278, plus: 0.234 } }
+  - value: 1.748
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "syst", asymerror: { minus: 0.280, plus: 0.234 } }
+  - value: 1.701
+    errors:
+    - { label: "stat", symerror: 0.009 }
+    - { label: "syst", asymerror: { minus: 0.289, plus: 0.234 } }
+
+- header: { name: "Ratio" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: 2.50 }
+
+  values:
+  - value: 2.588
+    errors:
+    - { label: "stat", symerror: 0.058 }
+    - { label: "syst", asymerror: { minus: 0.436, plus: 0.401 } }
+  - value: 2.618
+    errors:
+    - { label: "stat", symerror: 0.052 }
+    - { label: "syst", asymerror: { minus: 0.387, plus: 0.356 } }
+  - value: 2.634
+    errors:
+    - { label: "stat", symerror: 0.059 }
+    - { label: "syst", asymerror: { minus: 0.369, plus: 0.302 } }
+  - value: 2.704
+    errors:
+    - { label: "stat", symerror: 0.073 }
+    - { label: "syst", asymerror: { minus: 0.379, plus: 0.311 } }
+  - value: 2.903
+    errors:
+    - { label: "stat", symerror: 0.101 }
+    - { label: "syst", asymerror: { minus: 0.404, plus: 0.333 } }
+  - value: 2.589
+    errors:
+    - { label: "stat", symerror: 0.157 }
+    - { label: "syst", asymerror: { minus: 0.383, plus: 0.306 } }
+
+- header: { name: "Ratio" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: 3.88 }
+
+  values:
+  - value: 4.601
+    errors:
+    - { label: "stat", symerror: 0.625 }
+    - { label: "syst", asymerror: { minus: 1.068, plus: 0.933 } }
+  - value: 4.250
+    errors:
+    - { label: "stat", symerror: 0.476 }
+    - { label: "syst", asymerror: { minus: 0.883, plus: 0.748 } }
+  - value: 3.752
+    errors:
+    - { label: "stat", symerror: 0.418 }
+    - { label: "syst", asymerror: { minus: 0.746, plus: 0.593 } }
+  - value: 4.508
+    errors:
+    - { label: "stat", symerror: 0.619 }
+    - { label: "syst", asymerror: { minus: 0.916, plus: 0.712 } }
+  - value: 5.155
+    errors:
+    - { label: "stat", symerror: 0.962 }
+    - { label: "syst", asymerror: { minus: 1.043, plus: 0.847 } }
+  - value: 3.796
+    errors:
+    - { label: "stat", symerror: 1.346 }
+    - { label: "syst", asymerror: { minus: 0.934, plus: 0.852 } }

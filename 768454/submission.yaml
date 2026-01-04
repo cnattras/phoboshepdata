@@ -1,0 +1,49 @@
+#PHOBOS PAPER
+#
+#TITLE:The Importance of Correlations and Fluctuations on the Initial Source Eccentricity in High-Energy Nucleus-Nucleus Collisions
+#InspireHEP ID: 768454
+#
+#Prepared by Eleanna Soto
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/768454", description: "InspireHEP ID: 768454" }
+- { location: "https://arxiv.org/abs/0711.3724", description: "arXiv ID: abs/0711.3724" }
+- { location: "https://doi.org/10.1103/PhysRevC.77.014906", description: "PhysRevC.77.014906" }
+comment: |
+  In relativistic heavy-ion collisions, anisotropic collective flow is driven, event by event, by the initial eccentricity of the matter created in the nuclear overlap zone. Interpretation of the anisotropic flow data thus requires a detailed understanding of the effective initial source eccentricity of the event sample. In this paper, we investigate various ways of defining this effective eccentricity using the Monte Carlo Glauber~(MCG) approach. In particular, we examine the participant eccentricity, which quantifies the eccentricity of the initial source shape by the major axes of the ellipse formed by the interaction points of the participating nucleons. We show that reasonable variation of the density parameters in the Glauber calculation, as well as variations in how matter production is modeled, do not significantly modify the already established behavior of the participant eccentricity as a function of collision centrality. Focusing on event-by-event fluctuations and correlations of the distributions of participating nucleons, we demonstrate that, depending on the achieved event-plane resolution, fluctuations in the elliptic flow magnitude $v_2$ lead to most measurements being sensitive to the root-mean-square, rather than the mean of the $v_2$ distribution. Neglecting correlations among participants, we derive analytical expressions for the participant eccentricity cumulants as a function of the number of participating nucleons, $N_{part}$, keeping non-negligible contributions up to $\ordof{1/\N_{part}^3}$. We find that the derived expressions yield the same results as obtained from mixed-event MCG calculations which remove the correlations stemming from the nuclear collision process. Most importantly, we conclude from the comparison with MCG calculations that the fourth-order participant eccentricity cumulant does not approach the spatial anisotropy obtained assuming a smooth nuclear matter distribution. In particular, for the Cu+Cu system, these quantities deviate from each other by almost a factor of two over a wide range in centrality. This deviation reflects the essential role of participant spatial correlations in the interaction of two nuclei. ---
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Table 1"
+location: Data from Table 1 of PhysRevC.77.014906
+description: Default parameters used in the PHOBOS MCG calculations for Au+Au and Cu+Cu at $\sqrt{s_{NN}} = 200~\mathrm{GeV}$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X, CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: table1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Table 2"
+location: Data from Table 2 of PhysRevC.77.014906
+description: Baseline, minimum and maximum values of parameters in the PHOBOS MCG calculations for Au + Au and Cu+Cu collisions used in sensitivity studies of the eccentricity definitions.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X, CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: table2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+
+# This is Fig 2.
+---
+

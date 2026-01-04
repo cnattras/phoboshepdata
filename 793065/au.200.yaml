@@ -1,0 +1,42 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 50, high: 55 }
+  - { low: 55, high: 60 }
+  - { low: 60, high: 65 }
+  - { low: 65, high: 70 }
+
+dependent_variables:
+
+- header: { name: "$N_{part}$" }
+  values:
+  - value: 49.1
+    errors: [ { label: "sys+stat", symerror: 5.0 } ]
+  - value: 37.1
+    errors: [ { label: "sys+stat", symerror: 4.2 } ]
+  - value: 27.6
+    errors: [ { label: "sys+stat", symerror: 3.4 } ]
+  - value: 20.0
+    errors: [ { label: "sys+stat", symerror: 2.6 } ]
+
+- header: { name: "$\\frac{dN}{d\\eta}$" }
+  values:
+  - value: 73.0
+    errors: [ { label: "sys+stat", symerror: 5.5 } ]
+  - value: 53.5
+    errors: [ { label: "sys+stat", symerror: 4.0 } ]
+  - value: 38.3
+    errors: [ { label: "sys+stat", symerror: 2.9 } ]
+  - value: 26.8
+    errors: [ { label: "sys+stat", symerror: 2.0 } ]
+
+- header: { name: "$\\frac{1}{N_{part}/2}\\frac{dN}{d\\eta}$" }
+  values:
+  - value: 2.98
+    errors: [ { label: "sys+stat", symerror: 0.38 } ]
+  - value: 2.88
+    errors: [ { label: "sys+stat", symerror: 0.39 } ]
+  - value: 2.78
+    errors: [ { label: "sys+stat", symerror: 0.40 } ]
+  - value: 2.68
+    errors: [ { label: "sys+stat", symerror: 0.40 } ]

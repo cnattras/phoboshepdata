@@ -1,0 +1,57 @@
+independent_variables:
+- header: { name: "Parameters" }
+  values:
+  - { value: "$\\sigma_{NN}$ [mb]" }
+  - { value: "$R$ [fm]" }
+  - { value: "$a$ [fm]" }
+  - { value: "$d_{min}$ [fm]" }
+
+dependent_variables:
+- header: { name: "Base" }
+  qualifiers:
+  - { name: "Reaction", value: "Au+Au" }
+  values:
+  - { value: 42 }
+  - { value: 6.38 }
+  - { value: 0.535 }
+  - { value: 0.4 }
+- header: { name: "Min" }
+  qualifiers:
+  - { name: "Reaction", value: "Au+Au" }
+  values:
+  - { value: 30 }
+  - { value: 6.25 }
+  - { value: 0.482 }
+  - { value: 0 }
+- header: { name: "Max" }
+  qualifiers:
+  - { name: "Reaction", value: "Au+Au" }
+  values:
+  - { value: 45 }
+  - { value: 6.51 }
+  - { value: 0.586 }
+  - { value: 0.8 }
+- header: { name: "Base" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  values:
+  - { value: 42 }
+  - { value: 4.22 }
+  - { value: 0.596 }
+  - { value: 0.4 }
+- header: { name: "Min" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  values:
+  - { value: 30 }
+  - { value: 4.14 }
+  - { value: 0.536 }
+  - { value: 0 }
+- header: { name: "Max" }
+  qualifiers:
+  - { name: "Reaction", value: "Cu+Cu" }
+  values:
+  - { value: 45 }
+  - { value: 4.30 }
+  - { value: 0.656 }
+  - { value: 0.8 }

@@ -1,0 +1,88 @@
+#PHOBOS PAPER
+#
+#TITLE:System Size, Energy and Centrality Dependence of Pseudorapidity Distributions of Charged Particles in Relativistic Heavy Ion Collisions 
+#InspireHEP ID: 761877
+#
+#Prepared by Eleanna Soto
+
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/761877", description: "InspireHEP ID: 761877" }
+- { location: "https://arxiv.org/abs/0709.4008", description: "arXiv ID: abs/0709.4008" }
+- { location: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.102.142301", description: "Phys.Rev.Lett. 102 (2009) 142301" }
+comment: We present the first measurements of the pseudorapidity distribution of primary charged particles in Cu+Cu collisions as a function of collision centrality and energy, $\sqrt{s_{NN}}$ = 22.4, 62.4 and 200 GeV, over a wide range of pseudorapidity, using the PHOBOS detector. Making a global comparison of Cu+Cu and Au+Au results, we find that the total number of produced charged particles and the rough shape (height and width) of the pseudorapidity distributions are determined by the number of nucleon participants. More detailed studies reveal that a more precise matching of the shape of the Cu+Cu and Au+Au pseudorapidity distributions over the full range of pseudorapidity occurs for the same $N_{part}$/2A value rather than the same $N_{part}$ value. In other words, it is the collision geometry rather than just the number of nucleon participants that drives the detailed shape of the pseudorapidity distribution and its centrality dependence at RHIC energies.
+---
+name: "Cu+Cu at $\\sqrt{S_{NN}}= 22.4$ GeV"
+location: Data from Phys.Rev.Lett. 102 (2009) 142301
+description: Pseudorapidity density of charged particles, $dN/d\eta$, as a function of $\eta$ for Cu+Cu collisions at $\sqrt{s_{NN}}$ = 22.4 GeV, shown for six centrality bins.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 22.4 ]
+data_file: 1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Cu+Cu at $\\sqrt{S_{NN}}= 62.4$ GeV"
+location: Data from Phys.Rev.Lett. 102 (2009) 142301
+description: Pseudorapidity density of charged particles, $dN/d\eta$, as a function of $\eta$ for Cu+Cu collisions at $\sqrt{s_{NN}}$ = 62.4 GeV, shown for six centrality bins.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: 2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Cu+Cu at $\\sqrt{S_{NN}}= 200$ GeV"
+location: Data from Phys.Rev.Lett. 102 (2009) 142301
+description: Pseudorapidity density of charged particles, $dN/d\eta$, as a function of $\eta$ for Cu+Cu collisions at $\sqrt{s_{NN}}$ = 200 GeV, shown for six centrality bins.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: 3.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Au+Au at $\\sqrt{S_{NN}}= 19.6$ GeV"
+location: Data from Phys.Rev.Lett. 102 (2009) 142301
+description: Pseudorapidity density of charged particles, $dN/d\eta$, as a function of $\eta$ for Au+Au collisions at $\sqrt{s_{NN}}$ = 19.6 GeV, shown for five centrality bins.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 19.6 ]
+data_file: 4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+- { description: Thumbnail Image file, location: thumb_fig5.png }

@@ -1,0 +1,88 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 6 }
+  - { low: 6, high: 15 }
+  - { low: 15, high: 25 }
+  - { low: 25, high: 35 }
+
+dependent_variables:
+
+- header: { name: "$N_{part}$" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: "-" }
+
+  values:
+  - value: 104
+    errors: [ { label: "sys+stat", symerror: 3 } ]
+  - value: 84
+    errors: [ { label: "sys+stat", symerror: 3 } ]
+  - value: 62
+    errors: [ { label: "sys+stat", symerror: 3 } ]
+  - value: 43
+    errors: [ { label: "sys+stat", symerror: 3 } ]
+
+- header: { name: "Ratio" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: 0.25 }
+  values:
+  - value: 1.388
+    errors:
+    - { label: "stat", symerror: 0.002 }
+    - { label: "syst", asymerror: { minus: 0.205, plus: 0.205 } }
+  - value: 1.395
+    errors:
+    - { label: "stat", symerror: 0.002 }
+    - { label: "syst", asymerror: { minus: 0.206, plus: 0.206 } }
+  - value: 1.408
+    errors:
+    - { label: "stat", symerror: 0.002 }
+    - { label: "syst", asymerror: { minus: 0.208, plus: 0.208 } }
+  - value: 1.411
+    errors:
+    - { label: "stat", symerror: 0.002 }
+    - { label: "syst", asymerror: { minus: 0.208, plus: 0.208 } }
+
+- header: { name: "Ratio" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: 2.50 }
+
+  values:
+  - value: 2.754
+    errors:
+    - { label: "stat", symerror: 0.040 }
+    - { label: "syst", asymerror: { minus: 0.336, plus: 0.336 } }
+  - value: 2.752
+    errors:
+    - { label: "stat", symerror: 0.037 }
+    - { label: "syst", asymerror: { minus: 0.336, plus: 0.336 } }
+  - value: 2.866
+    errors:
+    - { label: "stat", symerror: 0.044 }
+    - { label: "syst", asymerror: { minus: 0.350, plus: 0.350 } }
+  - value: 2.867
+    errors:
+    - { label: "stat", symerror: 0.054 }
+    - { label: "syst", asymerror: { minus: 0.350, plus: 0.350 } }
+
+- header: { name: "Ratio" }
+  qualifiers:
+  - { name: "$p_T$ [GeV/c]", value: 3.88 }
+
+  values:
+  - value: 4.944
+    errors:
+    - { label: "stat", symerror: 0.394 }
+    - { label: "syst", asymerror: { minus: 0.775, plus: 0.775 } }
+  - value: 5.643
+    errors:
+    - { label: "stat", symerror: 0.433 }
+    - { label: "syst", asymerror: { minus: 0.885, plus: 0.885 } }
+  - value: 4.278
+    errors:
+    - { label: "stat", symerror: 0.310 }
+    - { label: "syst", asymerror: { minus: 0.671, plus: 0.671 } }
+  - value: 5.332
+    errors:
+    - { label: "stat", symerror: 0.505 }
+    - { label: "syst", asymerror: { minus: 0.836, plus: 0.836 } }
