@@ -1,0 +1,42 @@
+independent_variables:
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  values:
+  - { value: 66.9 }
+  - { value: 82.8 }
+  - { value: 102.8 }
+  - { value: 124.5 }
+  - { value: 151.2 }
+  - { value: 183.1 }
+  - { value: 217.5 }
+  - { value: 257.3 }
+  - { value: 297.9 }
+  - { value: 330.7 }
+  - { value: 358.6 }
+
+dependent_variables:
+- header: { name: "$v_{2}$" }
+  qualifiers:
+  - { name: "Method", value: "track-based" }
+  values:
+  - value: 0.0615
+    errors: [ { label: "stat", symerror: 0.0016 }, { label: "syst", symerror: 0.0108 } ]
+  - value: 0.0673
+    errors: [ { label: "stat", symerror: 0.0012 }, { label: "syst", symerror: 0.0094 } ]
+  - value: 0.0637
+    errors: [ { label: "stat", symerror: 0.0010 }, { label: "syst", symerror: 0.0038 } ]
+  - value: 0.0626
+    errors: [ { label: "stat", symerror: 0.0009 }, { label: "syst", symerror: 0.0040 } ]
+  - value: 0.0586
+    errors: [ { label: "stat", symerror: 0.0007 }, { label: "syst", symerror: 0.0024 } ]
+  - value: 0.0527
+    errors: [ { label: "stat", symerror: 0.0007 }, { label: "syst", symerror: 0.0036 } ]
+  - value: 0.0475
+    errors: [ { label: "stat", symerror: 0.0006 }, { label: "syst", symerror: 0.0037 } ]
+  - value: 0.0390
+    errors: [ { label: "stat", symerror: 0.0006 }, { label: "syst", symerror: 0.0029 } ]
+  - value: 0.0297
+    errors: [ { label: "stat", symerror: 0.0008 }, { label: "syst", symerror: 0.0030 } ]
+  - value: 0.0208
+    errors: [ { label: "stat", symerror: 0.0010 }, { label: "syst", symerror: 0.0092 } ]
+  - value: 0.0152
+    errors: [ { label: "stat", symerror: 0.0013 }, { label: "syst", symerror: 0.0092 } ]

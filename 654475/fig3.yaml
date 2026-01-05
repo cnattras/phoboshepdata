@@ -1,0 +1,44 @@
+independent_variables:
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  values:
+  - { value: 31.1052 }
+  - { value: 59.2200 }
+  - { value: 93.3227 }
+  - { value: 139.1226 }
+  - { value: 199.6910 }
+  - { value: 272.1567 }
+  - { value: 341.3130 }
+
+dependent_variables:
+- header: { name: "$v_{2}$" }
+  qualifiers:
+  - { name: "Method", value: "hit-based" }
+  values:
+  - value: 0.075
+    errors:
+    - { label: "stat", symerror: 0.026 }
+    - { label: "syst", asymerror: { minus: 0.020, plus: 0.020 } }
+  - value: 0.063
+    errors:
+    - { label: "stat", symerror: 0.010 }
+    - { label: "syst", asymerror: { minus: 0.004, plus: 0.005 } }
+  - value: 0.063
+    errors:
+    - { label: "stat", symerror: 0.005 }
+    - { label: "syst", asymerror: { minus: 0.005, plus: 0.005 } }
+  - value: 0.0600
+    errors:
+    - { label: "stat", symerror: 0.0036 }
+    - { label: "syst", asymerror: { minus: 0.0035, plus: 0.0039 } }
+  - value: 0.0516
+    errors:
+    - { label: "stat", symerror: 0.0029 }
+    - { label: "syst", asymerror: { minus: 0.0034, plus: 0.0035 } }
+  - value: 0.0359
+    errors:
+    - { label: "stat", symerror: 0.0025 }
+    - { label: "syst", asymerror: { minus: 0.0026, plus: 0.0028 } }
+  - value: 0.026
+    errors:
+    - { label: "stat", symerror: 0.006 }
+    - { label: "syst", asymerror: { minus: 0.022, plus: 0.006 } }

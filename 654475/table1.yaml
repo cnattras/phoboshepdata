@@ -1,0 +1,62 @@
+independent_variables:
+- header: { name: "Centrality" }
+  values:
+  - { value: "Minimum-Bias" }
+  - { value: "Central" }
+  - { value: "Mid-Central" }
+  - { value: "Peripheral" }
+
+dependent_variables:
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  qualifiers:
+  - { name: "Method", value: "Hit-based" }
+  values:
+  - { value: 205, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 288, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 199, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 111, errors: [ { label: "sys", symerror: 4 } ] }
+
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  qualifiers:
+  - { name: "Method", value: "Track-based" }
+  values:
+  - { value: 236, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 294, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 202, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 115, errors: [ { label: "sys", symerror: 4 } ] }
+
+- header: { name: "Number of events" }
+  qualifiers:
+  - { name: "Method", value: "Hit-based" }
+  values:
+  - { value: 34727 }
+  - { value: 11221 }
+  - { value: 7550 }
+  - { value: 10127 }
+
+- header: { name: "Number of events" }
+  qualifiers:
+  - { name: "Method", value: "Track-based" }
+  values:
+  - { value: 5050778 }
+  - { value: 1439923 }
+  - { value: 1230394 }
+  - { value: 3087599 }
+
+- header: { name: "% $\\sigma%" }
+  qualifiers:
+  - { name: "Method", value: "Track-based" }
+  values:
+  - { value: "0-50" }
+  - { value: "3-15" }
+  - { value: "15-25" }
+  - { value: "25-50" }
+
+- header: { name: "% $\\sigma%" }
+  qualifiers:
+  - { name: "Method", value: "Hit-based" }
+  values:
+  - { value: "-" }
+  - { value: "3-15" }
+  - { value: "15-25" }
+  - { value: "25-50" }

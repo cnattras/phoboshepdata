@@ -1,0 +1,75 @@
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: 0.31 }
+  - { value: 0.76 }
+  - { value: 1.22 }
+  - { value: 1.69 }
+  - { value: 3.04 }
+  - { value: 3.67 }
+  - { value: 4.13 }
+  - { value: 4.96 }
+
+dependent_variables:
+- header: { name: "$v_{2}$" }
+  qualifiers:
+  - { name: "Centrality", units: "%", value: "25-50" }
+  values:
+  - value: 0.0612
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0033, minus: 0.0033 } } ]
+  - value: 0.057
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.004, minus: 0.004 } } ]
+  - value: 0.054
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.004, minus: 0.004 } } ]
+  - value: 0.045
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.005, minus: 0.005 } } ]
+  - value: 0.037
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.007, minus: 0.011 } } ]
+  - value: 0.028
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.012, minus: 0.008 } } ]
+  - value: 0.021
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.010, minus: 0.011 } } ]
+  - value: 0.0
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.013, minus: 0.024 } } ]
+
+- header: { name: "$v_{2}$" }
+  qualifiers:
+  - { name: "Centrality", units: "%", value: "15-25" }
+  values:
+  - value: 0.0471
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0030, minus: 0.0030 } } ]
+  - value: 0.0444
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0032, minus: 0.0032 } } ]
+  - value: 0.0355
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0034, minus: 0.0034 } } ]
+  - value: 0.028
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.004, minus: 0.004 } } ]
+  - value: 0.024
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.005, minus: 0.009 } } ]
+  - value: 0.019
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.012, minus: 0.007 } } ]
+  - value: 0.0
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.009, minus: 0.009 } } ]
+  - value: 0.0
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.013, minus: 0.024 } } ]
+
+- header: { name: "$v_{2}$" }
+  qualifiers:
+  - { name: "Centrality", units: "%", value: "3-15" }
+  values:
+  - value: 0.0293
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0026, minus: 0.0026 } } ]
+  - value: 0.0224
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0027, minus: 0.0027 } } ]
+  - value: 0.0232
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0027, minus: 0.0027 } } ]
+  - value: 0.0145
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.0030, minus: 0.0030 } } ]
+  - value: 0.015
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.004, minus: 0.004 } } ]
+  - value: 0.0
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.007, minus: 0.006 } } ]
+  - value: 0.0
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.007, minus: 0.015 } } ]
+  - value: 0.0
+    errors: [ { label: "stat+sys", asymerror: { plus: 0.010, minus: 0.016 } } ]

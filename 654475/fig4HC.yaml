@@ -1,0 +1,80 @@
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: -4.8602 }
+  - { value: -4.006 }
+  - { value: -3.0448 }
+  - { value: -1.7506 }
+  - { value: -1.2499 }
+  - { value: -0.7562 }
+  - { value: -0.3047 }
+  - { value: 0.3007 }
+  - { value: 0.7576 }
+  - { value: 1.2572 }
+  - { value: 1.7554 }
+  - { value: 3.6773 }
+  - { value: 4.2544 }
+  - { value: 5.0507 }
+
+dependent_variables:
+- header: { name: "$v_{2}$" }
+  qualifiers:
+  - { name: "Method", value: "hit-based" }
+  - { name: "Centrality", units: "%", value: "3-15" }
+  values:
+  - value: 0.014
+    errors:
+    - { label: "stat", symerror: 0.004 }
+    - { label: "syst", asymerror: { minus: 0.014, plus: 0.006 } }
+  - value: 0.0142
+    errors:
+    - { label: "stat", symerror: 0.0023 }
+    - { label: "syst", asymerror: { minus: 0.0142, plus: 0.0061 } }
+  - value: 0.0224
+    errors:
+    - { label: "stat", symerror: 0.0016 }
+    - { label: "syst", asymerror: { minus: 0.0031, plus: 0.0034 } }
+  - value: 0.0272
+    errors:
+    - { label: "stat", symerror: 0.0029 }
+    - { label: "syst", asymerror: { minus: 0.0022, plus: 0.0034 } }
+  - value: 0.0307
+    errors:
+    - { label: "stat", symerror: 0.0023 }
+    - { label: "syst", asymerror: { minus: 0.0032, plus: 0.0035 } }
+  - value: 0.0357
+    errors:
+    - { label: "stat", symerror: 0.0027 }
+    - { label: "syst", asymerror: { minus: 0.0039, plus: 0.0035 } }
+  - value: 0.0362
+    errors:
+    - { label: "stat", symerror: 0.0030 }
+    - { label: "syst", asymerror: { minus: 0.0045, plus: 0.0024 } }
+  - value: 0.0325
+    errors:
+    - { label: "stat", symerror: 0.0027 }
+    - { label: "syst", asymerror: { minus: 0.0030, plus: 0.0048 } }
+  - value: 0.0333
+    errors:
+    - { label: "stat", symerror: 0.0027 }
+    - { label: "syst", asymerror: { minus: 0.0026, plus: 0.0044 } }
+  - value: 0.0328
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "syst", asymerror: { minus: 0.0052, plus: 0.0028 } }
+  - value: 0.0292
+    errors:
+    - { label: "stat", symerror: 0.0023 }
+    - { label: "syst", asymerror: { minus: 0.0033, plus: 0.0037 } }
+  - value: 0.0232
+    errors:
+    - { label: "stat", symerror: 0.0024 }
+    - { label: "syst", asymerror: { minus: 0.0048, plus: 0.0054 } }
+  - value: 0.0148
+    errors:
+    - { label: "stat", symerror: 0.0022 }
+    - { label: "syst", asymerror: { minus: 0.0148, plus: 0.0061 } }
+  - value: 0.016
+    errors:
+    - { label: "stat", symerror: 0.007 }
+    - { label: "syst", asymerror: { minus: 0.016, plus: 0.010 } }
