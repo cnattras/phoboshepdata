@@ -1,0 +1,64 @@
+independent_variables:
+- header: { name: "$N_{part}$" }
+  values:
+  - { value: 80 }
+  - { value: 99 }
+  - { value: 122 }
+  - { value: 148 }
+  - { value: 178 }
+  - { value: 214 }
+  - { value: 254 }
+  - { value: 296 }
+
+dependent_variables:
+- header: { name: "$\\sigma_{flow}/\\langle v_2\\rangle_{flow}$" }
+  qualifiers:
+  - { name: "Assumption", value: "d=0" }
+  values:
+  - { value: 0.345, errors: [ { label: "syst", asymerror: { minus: 0.079, plus: 0.077 } } ] }
+  - { value: 0.333, errors: [ { label: "syst", asymerror: { minus: 0.048, plus: 0.046 } } ] }
+  - { value: 0.323, errors: [ { label: "syst", asymerror: { minus: 0.043, plus: 0.043 } } ] }
+  - { value: 0.323, errors: [ { label: "syst", asymerror: { minus: 0.046, plus: 0.045 } } ] }
+  - { value: 0.325, errors: [ { label: "syst", asymerror: { minus: 0.057, plus: 0.055 } } ] }
+  - { value: 0.347, errors: [ { label: "syst", asymerror: { minus: 0.092, plus: 0.090 } } ] }
+  - { value: 0.383, errors: [ { label: "syst", asymerror: { minus: 0.089, plus: 0.085 } } ] }
+  - { value: 0.479, errors: [ { label: "syst", asymerror: { minus: 0.122, plus: 0.068 } } ] }
+
+- header: { name: "$\\sigma_{flow}/\\langle v_2\\rangle_{flow}$" }
+  qualifiers:
+  - { name: "Assumption", value: "d=1xHIJING" }
+  values:
+  - { value: 0.335 }
+  - { value: 0.325 }
+  - { value: 0.315 }
+  - { value: 0.315 }
+  - { value: 0.319 }
+  - { value: 0.341 }
+  - { value: 0.377 }
+  - { value: 0.477 }
+
+- header: { name: "$\\sigma_{flow}/\\langle v_2\\rangle_{flow}$" }
+  qualifiers:
+  - { name: "Assumption", value: "d=3xHIJING" }
+  values:
+  - { value: 0.313 }
+  - { value: 0.305 }
+  - { value: 0.297 }
+  - { value: 0.299 }
+  - { value: 0.305 }
+  - { value: 0.329 }
+  - { value: 0.365 }
+  - { value: 0.471 }
+
+- header: { name: "$\\sigma_{flow}/\\langle v_2\\rangle_{flow}$" }
+  qualifiers:
+  - { name: "Assumption", value: "d=10xHIJING" }
+  values:
+  - { value: 0.197 }
+  - { value: 0.219 }
+  - { value: 0.211 }
+  - { value: 0.229 }
+  - { value: 0.243 }
+  - { value: 0.267 }
+  - { value: 0.309 }
+  - { value: 0.451 }

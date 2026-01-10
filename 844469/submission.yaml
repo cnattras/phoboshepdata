@@ -1,0 +1,116 @@
+#InspireHEP ID: 844469
+#
+#Prepared by Eleanna Soto
+
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/844469", description: "InspireHEP ID: 844469" }
+- { location: "https://arxiv.org/abs/1002.0534", description: "arXiv ID: abs/1002.0534" }
+- { location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.81.034915", description: "PhysRevC.81.034915" }
+comment: |
+  This article presents results on event-by-event elliptic flow fluctuations in Au+Au collisions at $\sqrt{s_{NN}}$= 200 GeV, where the contribution from non-flow correlations has been subtracted. An analysis method is introduced to measure non-flow correlations, relying on the assumption that non-flow correlations are most prominent at short ranges (|𝛥⁢𝜂|<2). Assuming that non-flow correlations are of the order that is observed in 𝑝+𝑝 collisions for long-range correlations (|$\delta \eta$|>2), relative elliptic flow fluctuations of approximately 30–40% are observed. These results are consistent with predictions based on spatial fluctuations of the participating nucleons in the initial nuclear overlap region. It is found that the long-range non-flow correlations in Au+Au collisions would have to be more than an order of magnitude stronger compared to the This article presents results on event-by-event elliptic flow fluctuations in Au+Au collisions at $\sqrt{s_{NN}}$= 200 GeV, where the contribution from non-flow correlations has been subtracted. An analysis method is introduced to measure non-flow correlations, relying on the assumption that non-flow correlations are most prominent at short ranges (|𝛥⁢𝜂|<2). Assuming that non-flow correlations are of the order that is observed in 𝑝+𝑝 collisions for long-range correlations (|$\delta \eta$|>2), relative elliptic flow fluctuations of approximately 30–40% are observed. These results are consistent with predictions based on spatial fluctuations of the participating nucleons in the initial nuclear overlap region. It is found that the long-range non-flow correlations in Au+Au collisions would have to be more than an order of magnitude stronger compared to the p+p data to lead to the observed azimuthal anisotropy fluctuations with no intrinsic elliptic flow fluctuations. data to lead to the observed azimuthal anisotropy fluctuations with no intrinsic elliptic flow fluctuations.
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 3"
+location: Data from of figure 3 of PhysRevC.81.034915
+description: Measured value of the non-flow ratio $\langle\delta\rangle/\langle v_2^2\rangle$ as a function of the $\Delta\eta$ cut ($\Delta\eta_c$), where non-flow correlations are assumed to be zero for $|\Delta\eta|>\Delta\eta_c$, for different centrality bins.
+
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig3.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 4"
+location: Data from figure 4 of PhysRevC.81.034915
+description: The magnitude of non-flow correlations ($\delta$) scaled by the charged-particle multiplicity ($n$) in the pseudorapidity range $|\eta|<3$ as a function of particle-pair pseudorapidity separation ($\Delta\eta$) for $p{+}p$ data and different Monte Carlo generators with no flow correlations at $\sqrt{s_{NN}}=200~{GeV}$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 5"
+location: Data from figure 5 of PhysRevC.81.034915
+description: The non-flow ratio $\langle\delta\rangle/\langle v_2^2\rangle$ in the PHOBOS Octagon detector acceptance as a function of the number of participating nucleons ($N_{part}$) in Au+Au collisions at $\sqrt{s_{NN}}=200~{GeV}$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig5.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 6: Experimental "
+location: Data from of PhysRevC.81.034915
+description: Relative elliptic flow fluctuations ($\sigma_{flow}/\langle v_{2}\rangle_{flow}$) as a function of the number of participating nucleons ($N_{part}$) in Au+Au collisions at $\sqrt{s_{NN}}=200~{GeV}$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig6.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 6: Glauber MC"
+location: Data from Figure 6 of PhysRevC.81.034915
+description: Relative elliptic flow fluctuations ($\sigma_{flow}/\langle v_{2}\rangle_{flow}$) as a function of the number of participating nucleons ($N_{part}$) in Au+Au collisions at $\sqrt{s_{NN}}=200~{GeV}$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig6.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 6: CGC"
+location: Data from Figure 6 of PhysRevC.81.034915
+description: Relative elliptic flow fluctuations ($\sigma_{flow}/\langle v_{2}\rangle_{flow}$) as a function of the number of participating nucleons ($N_{part}$) in Au+Au collisions at $\sqrt{s_{NN}}=200~{GeV}$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig6.3.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+
