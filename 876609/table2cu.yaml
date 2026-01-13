@@ -1,0 +1,19 @@
+independent_variables:
+- header: { name: "$\\sqrt{s_{NN}}$", units: "GeV" }
+  values:
+  - { value: 22.4 }
+  - { value: 62.4 }
+  - { value: 200.0 }
+
+dependent_variables:
+- header: { name: "$\\langle N_{{part}}\\rangle$" }
+  values:
+  - { value: 99 }
+  - { value: 96 }
+  - { value: 100 }
+
+- header: { name: "$\\left.\\frac{dN_{{ch}}}{d\\eta}\\right|_{|\\eta|<1}/(\\langle N_{{part}}\\rangle/2)$" }
+  values:
+  - { value: 1.94, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 3.48, errors: [ { label: "sys", symerror: 0.28 } ] }

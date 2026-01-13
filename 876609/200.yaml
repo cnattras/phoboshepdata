@@ -1,0 +1,119 @@
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: -5.3 }
+  - { value: -5.1 }
+  - { value: -4.9 }
+  - { value: -4.7 }
+  - { value: -4.5 }
+  - { value: -4.3 }
+  - { value: -4.1 }
+  - { value: -3.9 }
+  - { value: -3.7 }
+  - { value: -3.5 }
+  - { value: -3.3 }
+  - { value: -3.1 }
+  - { value: -2.9 }
+  - { value: -2.7 }
+  - { value: -2.5 }
+  - { value: -2.3 }
+  - { value: -2.1 }
+  - { value: -1.9 }
+  - { value: -1.7 }
+  - { value: -1.5 }
+  - { value: -1.3 }
+  - { value: -1.1 }
+  - { value: -0.9 }
+  - { value: -0.7 }
+  - { value: -0.5 }
+  - { value: -0.3 }
+  - { value: -0.1 }
+  - { value: 0.1 }
+  - { value: 0.3 }
+  - { value: 0.5 }
+  - { value: 0.7 }
+  - { value: 0.9 }
+  - { value: 1.1 }
+  - { value: 1.3 }
+  - { value: 1.5 }
+  - { value: 1.7 }
+  - { value: 1.9 }
+  - { value: 2.1 }
+  - { value: 2.3 }
+  - { value: 2.5 }
+  - { value: 2.7 }
+  - { value: 2.9 }
+  - { value: 3.1 }
+  - { value: 3.3 }
+  - { value: 3.5 }
+  - { value: 3.7 }
+  - { value: 3.9 }
+  - { value: 4.1 }
+  - { value: 4.3 }
+  - { value: 4.5 }
+  - { value: 4.7 }
+  - { value: 4.9 }
+  - { value: 5.1 }
+  - { value: 5.3 }
+
+dependent_variables:
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "p+p" }
+  - { name: "$\\sqrt{s}$", value: "200 GeV" }
+  - { name: "Event class", value: "Inelastic" }
+  values:
+  - { value: 0.42, errors: [ { label: "tot", asymerror: { plus: 0.21, minus: 0.19 } } ] }
+  - { value: 0.54, errors: [ { label: "tot", asymerror: { plus: 0.20, minus: 0.24 } } ] }
+  - { value: 0.54, errors: [ { label: "tot", asymerror: { plus: 0.32, minus: 0.17 } } ] }
+  - { value: 0.60, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.13 } } ] }
+  - { value: 0.95, errors: [ { label: "tot", asymerror: { plus: 0.20, minus: 0.37 } } ] }
+  - { value: 1.09, errors: [ { label: "tot", asymerror: { plus: 0.20, minus: 0.40 } } ] }
+  - { value: 1.23, errors: [ { label: "tot", asymerror: { plus: 0.22, minus: 0.40 } } ] }
+  - { value: 1.39, errors: [ { label: "tot", asymerror: { plus: 0.22, minus: 0.43 } } ] }
+  - { value: 1.51, errors: [ { label: "tot", asymerror: { plus: 0.26, minus: 0.40 } } ] }
+  - { value: 1.68, errors: [ { label: "tot", asymerror: { plus: 0.26, minus: 0.41 } } ] }
+  - { value: 1.80, errors: [ { label: "tot", asymerror: { plus: 0.29, minus: 0.39 } } ] }
+  - { value: 1.98, errors: [ { label: "tot", asymerror: { plus: 0.26, minus: 0.42 } } ] }
+  - { value: 2.03, errors: [ { label: "tot", asymerror: { plus: 0.34, minus: 0.34 } } ] }
+  - { value: 2.13, errors: [ { label: "tot", asymerror: { plus: 0.36, minus: 0.32 } } ] }
+  - { value: 2.23, errors: [ { label: "tot", asymerror: { plus: 0.37, minus: 0.32 } } ] }
+  - { value: 2.30, errors: [ { label: "tot", asymerror: { plus: 0.39, minus: 0.31 } } ] }
+  - { value: 2.41, errors: [ { label: "tot", asymerror: { plus: 0.36, minus: 0.35 } } ] }
+  - { value: 2.44, errors: [ { label: "tot", asymerror: { plus: 0.38, minus: 0.35 } } ] }
+  - { value: 2.41, errors: [ { label: "tot", asymerror: { plus: 0.45, minus: 0.31 } } ] }
+  - { value: 2.50, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.40 } } ] }
+  - { value: 2.50, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.40 } } ] }
+  - { value: 2.50, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.40 } } ] }
+  - { value: 2.30, errors: [ { label: "tot", asymerror: { plus: 0.46, minus: 0.29 } } ] }
+  - { value: 2.23, errors: [ { label: "tot", asymerror: { plus: 0.47, minus: 0.25 } } ] }
+  - { value: 2.23, errors: [ { label: "tot", asymerror: { plus: 0.39, minus: 0.28 } } ] }
+  - { value: 2.24, errors: [ { label: "tot", asymerror: { plus: 0.31, minus: 0.32 } } ] }
+  - { value: 2.21, errors: [ { label: "tot", asymerror: { plus: 0.31, minus: 0.30 } } ] }
+  - { value: 2.26, errors: [ { label: "tot", asymerror: { plus: 0.25, minus: 0.36 } } ] }
+  - { value: 2.25, errors: [ { label: "tot", asymerror: { plus: 0.30, minus: 0.33 } } ] }
+  - { value: 2.23, errors: [ { label: "tot", asymerror: { plus: 0.38, minus: 0.29 } } ] }
+  - { value: 2.26, errors: [ { label: "tot", asymerror: { plus: 0.44, minus: 0.28 } } ] }
+  - { value: 2.33, errors: [ { label: "tot", asymerror: { plus: 0.44, minus: 0.32 } } ] }
+  - { value: 2.50, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.40 } } ] }
+  - { value: 2.50, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.40 } } ] }
+  - { value: 2.55, errors: [ { label: "tot", asymerror: { plus: 0.32, minus: 0.45 } } ] }
+  - { value: 2.50, errors: [ { label: "tot", asymerror: { plus: 0.40, minus: 0.40 } } ] }
+  - { value: 2.51, errors: [ { label: "tot", asymerror: { plus: 0.32, minus: 0.42 } } ] }
+  - { value: 2.44, errors: [ { label: "tot", asymerror: { plus: 0.32, minus: 0.39 } } ] }
+  - { value: 2.32, errors: [ { label: "tot", asymerror: { plus: 0.37, minus: 0.33 } } ] }
+  - { value: 2.27, errors: [ { label: "tot", asymerror: { plus: 0.33, minus: 0.35 } } ] }
+  - { value: 2.11, errors: [ { label: "tot", asymerror: { plus: 0.38, minus: 0.30 } } ] }
+  - { value: 2.00, errors: [ { label: "tot", asymerror: { plus: 0.37, minus: 0.31 } } ] }
+  - { value: 1.94, errors: [ { label: "tot", asymerror: { plus: 0.30, minus: 0.38 } } ] }
+  - { value: 1.74, errors: [ { label: "tot", asymerror: { plus: 0.35, minus: 0.32 } } ] }
+  - { value: 1.69, errors: [ { label: "tot", asymerror: { plus: 0.25, minus: 0.42 } } ] }
+  - { value: 1.58, errors: [ { label: "tot", asymerror: { plus: 0.20, minus: 0.47 } } ] }
+  - { value: 1.28, errors: [ { label: "tot", asymerror: { plus: 0.34, minus: 0.31 } } ] }
+  - { value: 1.18, errors: [ { label: "tot", asymerror: { plus: 0.27, minus: 0.35 } } ] }
+  - { value: 1.06, errors: [ { label: "tot", asymerror: { plus: 0.24, minus: 0.37 } } ] }
+  - { value: 0.96, errors: [ { label: "tot", asymerror: { plus: 0.19, minus: 0.38 } } ] }
+  - { value: 0.74, errors: [ { label: "tot", asymerror: { plus: 0.26, minus: 0.27 } } ] }
+  - { value: 0.61, errors: [ { label: "tot", asymerror: { plus: 0.26, minus: 0.24 } } ] }
+  - { value: 0.56, errors: [ { label: "tot", asymerror: { plus: 0.18, minus: 0.27 } } ] }
+  - { value: 0.46, errors: [ { label: "tot", asymerror: { plus: 0.17, minus: 0.23 } } ] }

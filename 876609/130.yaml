@@ -1,0 +1,740 @@
+independent_variables:
+- header: { name: "$\\eta$" }
+  values:
+  - { value: -5.3 }
+  - { value: -5.1 }
+  - { value: -4.9 }
+  - { value: -4.7 }
+  - { value: -4.5 }
+  - { value: -4.3 }
+  - { value: -4.1 }
+  - { value: -3.9 }
+  - { value: -3.7 }
+  - { value: -3.5 }
+  - { value: -3.3 }
+  - { value: -3.1 }
+  - { value: -2.9 }
+  - { value: -2.7 }
+  - { value: -2.5 }
+  - { value: -2.3 }
+  - { value: -2.1 }
+  - { value: -1.9 }
+  - { value: -1.7 }
+  - { value: -1.5 }
+  - { value: -1.3 }
+  - { value: -1.1 }
+  - { value: -0.9 }
+  - { value: -0.7 }
+  - { value: -0.5 }
+  - { value: -0.3 }
+  - { value: -0.1 }
+  - { value: 0.1 }
+  - { value: 0.3 }
+  - { value: 0.5 }
+  - { value: 0.7 }
+  - { value: 0.9 }
+  - { value: 1.1 }
+  - { value: 1.3 }
+  - { value: 1.5 }
+  - { value: 1.7 }
+  - { value: 1.9 }
+  - { value: 2.1 }
+  - { value: 2.3 }
+  - { value: 2.5 }
+  - { value: 2.7 }
+  - { value: 2.9 }
+  - { value: 3.1 }
+  - { value: 3.3 }
+  - { value: 3.5 }
+  - { value: 3.7 }
+  - { value: 3.9 }
+  - { value: 4.1 }
+  - { value: 4.3 }
+  - { value: 4.5 }
+  - { value: 4.7 }
+  - { value: 4.9 }
+  - { value: 5.1 }
+  - { value: 5.3 }
+
+dependent_variables:
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "0-3%" }
+  - { name: "Centrality bin number", value: "17" }
+  values:
+  - { value: 39.8, errors: [ { label: "tot", asymerror: { plus: 16.4, minus: 7.1 } } ] }
+  - { value: 53.4, errors: [ { label: "tot", asymerror: { plus: 18.2, minus: 9.7 } } ] }
+  - { value: 70.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 12.0 } } ] }
+  - { value: 91.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 15.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 14.0 } } ] }
+  - { value: 153.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 27.0 } } ] }
+  - { value: 189.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 30.0 } } ] }
+  - { value: 228.0, errors: [ { label: "tot", asymerror: { plus: 27.0, minus: 32.0 } } ] }
+  - { value: 267.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 30.0 } } ] }
+  - { value: 315.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 36.0 } } ] }
+  - { value: 355.0, errors: [ { label: "tot", asymerror: { plus: 42.0, minus: 33.0 } } ] }
+  - { value: 397.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 35.0 } } ] }
+  - { value: 435.0, errors: [ { label: "tot", asymerror: { plus: 53.0, minus: 37.0 } } ] }
+  - { value: 470.0, errors: [ { label: "tot", asymerror: { plus: 58.0, minus: 41.0 } } ] }
+  - { value: 498.0, errors: [ { label: "tot", asymerror: { plus: 65.0, minus: 43.0 } } ] }
+  - { value: 527.0, errors: [ { label: "tot", asymerror: { plus: 65.0, minus: 51.0 } } ] }
+  - { value: 549.0, errors: [ { label: "tot", asymerror: { plus: 67.0, minus: 56.0 } } ] }
+  - { value: 574.0, errors: [ { label: "tot", asymerror: { plus: 61.0, minus: 69.0 } } ] }
+  - { value: 584.0, errors: [ { label: "tot", asymerror: { plus: 64.0, minus: 70.0 } } ] }
+  - { value: 590.0, errors: [ { label: "tot", asymerror: { plus: 68.0, minus: 69.0 } } ] }
+  - { value: 605.0, errors: [ { label: "tot", asymerror: { plus: 59.0, minus: 81.0 } } ] }
+  - { value: 598.0, errors: [ { label: "tot", asymerror: { plus: 68.0, minus: 72.0 } } ] }
+  - { value: 599.0, errors: [ { label: "tot", asymerror: { plus: 68.0, minus: 71.0 } } ] }
+  - { value: 594.0, errors: [ { label: "tot", asymerror: { plus: 72.0, minus: 66.0 } } ] }
+  - { value: 594.0, errors: [ { label: "tot", asymerror: { plus: 69.0, minus: 66.0 } } ] }
+  - { value: 597.0, errors: [ { label: "tot", asymerror: { plus: 64.0, minus: 70.0 } } ] }
+  - { value: 606.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 79.0 } } ] }
+  - { value: 580.0, errors: [ { label: "tot", asymerror: { plus: 81.0, minus: 53.0 } } ] }
+  - { value: 598.0, errors: [ { label: "tot", asymerror: { plus: 63.0, minus: 71.0 } } ] }
+  - { value: 583.0, errors: [ { label: "tot", asymerror: { plus: 81.0, minus: 55.0 } } ] }
+  - { value: 599.0, errors: [ { label: "tot", asymerror: { plus: 66.0, minus: 71.0 } } ] }
+  - { value: 595.0, errors: [ { label: "tot", asymerror: { plus: 72.0, minus: 68.0 } } ] }
+  - { value: 594.0, errors: [ { label: "tot", asymerror: { plus: 73.0, minus: 67.0 } } ] }
+  - { value: 598.0, errors: [ { label: "tot", asymerror: { plus: 67.0, minus: 73.0 } } ] }
+  - { value: 596.0, errors: [ { label: "tot", asymerror: { plus: 62.0, minus: 76.0 } } ] }
+  - { value: 590.0, errors: [ { label: "tot", asymerror: { plus: 58.0, minus: 76.0 } } ] }
+  - { value: 569.0, errors: [ { label: "tot", asymerror: { plus: 65.0, minus: 64.0 } } ] }
+  - { value: 556.0, errors: [ { label: "tot", asymerror: { plus: 60.0, minus: 63.0 } } ] }
+  - { value: 534.0, errors: [ { label: "tot", asymerror: { plus: 58.0, minus: 58.0 } } ] }
+  - { value: 504.0, errors: [ { label: "tot", asymerror: { plus: 59.0, minus: 49.0 } } ] }
+  - { value: 475.0, errors: [ { label: "tot", asymerror: { plus: 53.0, minus: 46.0 } } ] }
+  - { value: 441.0, errors: [ { label: "tot", asymerror: { plus: 46.0, minus: 44.0 } } ] }
+  - { value: 413.0, errors: [ { label: "tot", asymerror: { plus: 31.0, minus: 52.0 } } ] }
+  - { value: 367.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 46.0 } } ] }
+  - { value: 324.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 45.0 } } ] }
+  - { value: 276.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 39.0 } } ] }
+  - { value: 230.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 34.0 } } ] }
+  - { value: 189.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 30.0 } } ] }
+  - { value: 152.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 25.0 } } ] }
+  - { value: 119.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 20.0 } } ] }
+  - { value: 94.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 18.0 } } ] }
+  - { value: 72.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 15.0 } } ] }
+  - { value: 52.4, errors: [ { label: "tot", asymerror: { plus: 19.2, minus: 8.8 } } ] }
+  - { value: 40.7, errors: [ { label: "tot", asymerror: { plus: 15.5, minus: 8.0 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "3-6%" }
+  - { name: "Centrality bin number", value: "16" }
+  values:
+  - { value: 43.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 11.0 } } ] }
+  - { value: 53.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 11.0 } } ] }
+  - { value: 69.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 13.0 } } ] }
+  - { value: 88.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 16.0 } } ] }
+  - { value: 110.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 16.0 } } ] }
+  - { value: 144.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 24.0 } } ] }
+  - { value: 176.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 26.0 } } ] }
+  - { value: 212.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 28.0 } } ] }
+  - { value: 245.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 25.0 } } ] }
+  - { value: 289.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 31.0 } } ] }
+  - { value: 326.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 30.0 } } ] }
+  - { value: 368.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 35.0 } } ] }
+  - { value: 397.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 32.0 } } ] }
+  - { value: 426.0, errors: [ { label: "tot", asymerror: { plus: 54.0, minus: 33.0 } } ] }
+  - { value: 454.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 38.0 } } ] }
+  - { value: 479.0, errors: [ { label: "tot", asymerror: { plus: 56.0, minus: 44.0 } } ] }
+  - { value: 498.0, errors: [ { label: "tot", asymerror: { plus: 59.0, minus: 47.0 } } ] }
+  - { value: 518.0, errors: [ { label: "tot", asymerror: { plus: 54.0, minus: 56.0 } } ] }
+  - { value: 530.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 59.0 } } ] }
+  - { value: 535.0, errors: [ { label: "tot", asymerror: { plus: 58.0, minus: 57.0 } } ] }
+  - { value: 545.0, errors: [ { label: "tot", asymerror: { plus: 53.0, minus: 63.0 } } ] }
+  - { value: 547.0, errors: [ { label: "tot", asymerror: { plus: 52.0, minus: 63.0 } } ] }
+  - { value: 547.0, errors: [ { label: "tot", asymerror: { plus: 51.0, minus: 62.0 } } ] }
+  - { value: 534.0, errors: [ { label: "tot", asymerror: { plus: 63.0, minus: 48.0 } } ] }
+  - { value: 539.0, errors: [ { label: "tot", asymerror: { plus: 54.0, minus: 54.0 } } ] }
+  - { value: 536.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 51.0 } } ] }
+  - { value: 536.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 50.0 } } ] }
+  - { value: 534.0, errors: [ { label: "tot", asymerror: { plus: 56.0, minus: 49.0 } } ] }
+  - { value: 541.0, errors: [ { label: "tot", asymerror: { plus: 50.0, minus: 55.0 } } ] }
+  - { value: 536.0, errors: [ { label: "tot", asymerror: { plus: 58.0, minus: 50.0 } } ] }
+  - { value: 540.0, errors: [ { label: "tot", asymerror: { plus: 56.0, minus: 55.0 } } ] }
+  - { value: 542.0, errors: [ { label: "tot", asymerror: { plus: 57.0, minus: 57.0 } } ] }
+  - { value: 540.0, errors: [ { label: "tot", asymerror: { plus: 58.0, minus: 57.0 } } ] }
+  - { value: 544.0, errors: [ { label: "tot", asymerror: { plus: 53.0, minus: 63.0 } } ] }
+  - { value: 538.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 61.0 } } ] }
+  - { value: 530.0, errors: [ { label: "tot", asymerror: { plus: 55.0, minus: 59.0 } } ] }
+  - { value: 520.0, errors: [ { label: "tot", asymerror: { plus: 53.0, minus: 57.0 } } ] }
+  - { value: 510.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 59.0 } } ] }
+  - { value: 489.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 53.0 } } ] }
+  - { value: 458.0, errors: [ { label: "tot", asymerror: { plus: 52.0, minus: 41.0 } } ] }
+  - { value: 436.0, errors: [ { label: "tot", asymerror: { plus: 43.0, minus: 43.0 } } ] }
+  - { value: 408.0, errors: [ { label: "tot", asymerror: { plus: 36.0, minus: 44.0 } } ] }
+  - { value: 384.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 52.0 } } ] }
+  - { value: 334.0, errors: [ { label: "tot", asymerror: { plus: 30.0, minus: 38.0 } } ] }
+  - { value: 295.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 37.0 } } ] }
+  - { value: 251.0, errors: [ { label: "tot", asymerror: { plus: 27.0, minus: 31.0 } } ] }
+  - { value: 211.0, errors: [ { label: "tot", asymerror: { plus: 27.0, minus: 28.0 } } ] }
+  - { value: 174.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 25.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 26.0 } } ] }
+  - { value: 115.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 21.0 } } ] }
+  - { value: 95.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 22.0 } } ] }
+  - { value: 70.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 15.0 } } ] }
+  - { value: 54.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 12.0 } } ] }
+  - { value: 41.6, errors: [ { label: "tot", asymerror: { plus: 12.9, minus: 9.7 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "6-10%" }
+  - { name: "Centrality bin number", value: "15" }
+  values:
+  - { value: 41.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 11.0 } } ] }
+  - { value: 52.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 12.0 } } ] }
+  - { value: 67.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 14.0 } } ] }
+  - { value: 87.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 18.0 } } ] }
+  - { value: 102.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 14.0 } } ] }
+  - { value: 136.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 24.0 } } ] }
+  - { value: 164.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 24.0 } } ] }
+  - { value: 195.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 24.0 } } ] }
+  - { value: 226.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 21.0 } } ] }
+  - { value: 267.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 28.0 } } ] }
+  - { value: 297.0, errors: [ { label: "tot", asymerror: { plus: 35.0, minus: 25.0 } } ] }
+  - { value: 338.0, errors: [ { label: "tot", asymerror: { plus: 31.0, minus: 34.0 } } ] }
+  - { value: 365.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 32.0 } } ] }
+  - { value: 389.0, errors: [ { label: "tot", asymerror: { plus: 43.0, minus: 32.0 } } ] }
+  - { value: 415.0, errors: [ { label: "tot", asymerror: { plus: 44.0, minus: 37.0 } } ] }
+  - { value: 432.0, errors: [ { label: "tot", asymerror: { plus: 49.0, minus: 38.0 } } ] }
+  - { value: 451.0, errors: [ { label: "tot", asymerror: { plus: 48.0, minus: 44.0 } } ] }
+  - { value: 461.0, errors: [ { label: "tot", asymerror: { plus: 51.0, minus: 44.0 } } ] }
+  - { value: 477.0, errors: [ { label: "tot", asymerror: { plus: 45.0, minus: 53.0 } } ] }
+  - { value: 486.0, errors: [ { label: "tot", asymerror: { plus: 44.0, minus: 56.0 } } ] }
+  - { value: 484.0, errors: [ { label: "tot", asymerror: { plus: 49.0, minus: 51.0 } } ] }
+  - { value: 489.0, errors: [ { label: "tot", asymerror: { plus: 46.0, minus: 53.0 } } ] }
+  - { value: 490.0, errors: [ { label: "tot", asymerror: { plus: 44.0, minus: 53.0 } } ] }
+  - { value: 485.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 47.0 } } ] }
+  - { value: 485.0, errors: [ { label: "tot", asymerror: { plus: 45.0, minus: 47.0 } } ] }
+  - { value: 482.0, errors: [ { label: "tot", asymerror: { plus: 45.0, minus: 44.0 } } ] }
+  - { value: 483.0, errors: [ { label: "tot", asymerror: { plus: 44.0, minus: 44.0 } } ] }
+  - { value: 479.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 41.0 } } ] }
+  - { value: 479.0, errors: [ { label: "tot", asymerror: { plus: 48.0, minus: 41.0 } } ] }
+  - { value: 482.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 44.0 } } ] }
+  - { value: 482.0, errors: [ { label: "tot", asymerror: { plus: 50.0, minus: 44.0 } } ] }
+  - { value: 486.0, errors: [ { label: "tot", asymerror: { plus: 48.0, minus: 49.0 } } ] }
+  - { value: 485.0, errors: [ { label: "tot", asymerror: { plus: 50.0, minus: 49.0 } } ] }
+  - { value: 484.0, errors: [ { label: "tot", asymerror: { plus: 49.0, minus: 51.0 } } ] }
+  - { value: 483.0, errors: [ { label: "tot", asymerror: { plus: 46.0, minus: 54.0 } } ] }
+  - { value: 475.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 51.0 } } ] }
+  - { value: 468.0, errors: [ { label: "tot", asymerror: { plus: 45.0, minus: 51.0 } } ] }
+  - { value: 451.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 44.0 } } ] }
+  - { value: 434.0, errors: [ { label: "tot", asymerror: { plus: 47.0, minus: 40.0 } } ] }
+  - { value: 416.0, errors: [ { label: "tot", asymerror: { plus: 43.0, minus: 38.0 } } ] }
+  - { value: 391.0, errors: [ { label: "tot", asymerror: { plus: 42.0, minus: 34.0 } } ] }
+  - { value: 367.0, errors: [ { label: "tot", asymerror: { plus: 35.0, minus: 35.0 } } ] }
+  - { value: 350.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 45.0 } } ] }
+  - { value: 310.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 38.0 } } ] }
+  - { value: 273.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 35.0 } } ] }
+  - { value: 233.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 28.0 } } ] }
+  - { value: 196.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 25.0 } } ] }
+  - { value: 164.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 24.0 } } ] }
+  - { value: 134.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 21.0 } } ] }
+  - { value: 107.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 18.0 } } ] }
+  - { value: 89.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 20.0 } } ] }
+  - { value: 69.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 16.0 } } ] }
+  - { value: 54.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 13.0 } } ] }
+  - { value: 40.4, errors: [ { label: "tot", asymerror: { plus: 12.4, minus: 9.9 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "10-15%" }
+  - { name: "Centrality bin number", value: "14" }
+  values:
+  - { value: 41.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 12.0 } } ] }
+  - { value: 52.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 14.0 } } ] }
+  - { value: 63.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 14.0 } } ] }
+  - { value: 78.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 15.0 } } ] }
+  - { value: 92.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 12.0 } } ] }
+  - { value: 116.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 17.0 } } ] }
+  - { value: 143.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 21.0 } } ] }
+  - { value: 166.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 19.0 } } ] }
+  - { value: 194.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 19.0 } } ] }
+  - { value: 226.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 24.0 } } ] }
+  - { value: 252.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 24.0 } } ] }
+  - { value: 285.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 31.0 } } ] }
+  - { value: 301.0, errors: [ { label: "tot", asymerror: { plus: 35.0, minus: 24.0 } } ] }
+  - { value: 323.0, errors: [ { label: "tot", asymerror: { plus: 37.0, minus: 26.0 } } ] }
+  - { value: 341.0, errors: [ { label: "tot", asymerror: { plus: 41.0, minus: 28.0 } } ] }
+  - { value: 362.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 35.0 } } ] }
+  - { value: 372.0, errors: [ { label: "tot", asymerror: { plus: 42.0, minus: 34.0 } } ] }
+  - { value: 387.0, errors: [ { label: "tot", asymerror: { plus: 39.0, minus: 40.0 } } ] }
+  - { value: 398.0, errors: [ { label: "tot", asymerror: { plus: 37.0, minus: 45.0 } } ] }
+  - { value: 400.0, errors: [ { label: "tot", asymerror: { plus: 41.0, minus: 42.0 } } ] }
+  - { value: 404.0, errors: [ { label: "tot", asymerror: { plus: 41.0, minus: 43.0 } } ] }
+  - { value: 407.0, errors: [ { label: "tot", asymerror: { plus: 39.0, minus: 43.0 } } ] }
+  - { value: 411.0, errors: [ { label: "tot", asymerror: { plus: 35.0, minus: 45.0 } } ] }
+  - { value: 406.0, errors: [ { label: "tot", asymerror: { plus: 39.0, minus: 39.0 } } ] }
+  - { value: 405.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 38.0 } } ] }
+  - { value: 399.0, errors: [ { label: "tot", asymerror: { plus: 43.0, minus: 31.0 } } ] }
+  - { value: 403.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 35.0 } } ] }
+  - { value: 403.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 35.0 } } ] }
+  - { value: 402.0, errors: [ { label: "tot", asymerror: { plus: 39.0, minus: 34.0 } } ] }
+  - { value: 404.0, errors: [ { label: "tot", asymerror: { plus: 39.0, minus: 37.0 } } ] }
+  - { value: 407.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 41.0 } } ] }
+  - { value: 408.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 42.0 } } ] }
+  - { value: 406.0, errors: [ { label: "tot", asymerror: { plus: 40.0, minus: 42.0 } } ] }
+  - { value: 401.0, errors: [ { label: "tot", asymerror: { plus: 43.0, minus: 40.0 } } ] }
+  - { value: 400.0, errors: [ { label: "tot", asymerror: { plus: 41.0, minus: 42.0 } } ] }
+  - { value: 397.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 44.0 } } ] }
+  - { value: 388.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 42.0 } } ] }
+  - { value: 379.0, errors: [ { label: "tot", asymerror: { plus: 36.0, minus: 41.0 } } ] }
+  - { value: 361.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 34.0 } } ] }
+  - { value: 348.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 35.0 } } ] }
+  - { value: 323.0, errors: [ { label: "tot", asymerror: { plus: 37.0, minus: 26.0 } } ] }
+  - { value: 310.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 33.0 } } ] }
+  - { value: 290.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 36.0 } } ] }
+  - { value: 259.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 30.0 } } ] }
+  - { value: 231.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 29.0 } } ] }
+  - { value: 198.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 23.0 } } ] }
+  - { value: 170.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 22.0 } } ] }
+  - { value: 140.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 18.0 } } ] }
+  - { value: 119.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 19.0 } } ] }
+  - { value: 94.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 14.0 } } ] }
+  - { value: 81.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 18.0 } } ] }
+  - { value: 66.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 16.0 } } ] }
+  - { value: 51.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 13.0 } } ] }
+  - { value: 40.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 11.0 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "15-20%" }
+  - { name: "Centrality bin number", value: "13" }
+  values:
+  - { value: 38.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 12.0 } } ] }
+  - { value: 47.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 13.0 } } ] }
+  - { value: 58.0, errors: [ { label: "tot", asymerror: { plus: 10.0, minus: 14.0 } } ] }
+  - { value: 69.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 14.0 } } ] }
+  - { value: 79.5, errors: [ { label: "tot", asymerror: { plus: 20.2, minus: 9.6 } } ] }
+  - { value: 100.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 14.0 } } ] }
+  - { value: 122.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 16.0 } } ] }
+  - { value: 142.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 16.0 } } ] }
+  - { value: 166.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 18.0 } } ] }
+  - { value: 190.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 20.0 } } ] }
+  - { value: 211.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 20.0 } } ] }
+  - { value: 238.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 27.0 } } ] }
+  - { value: 249.0, errors: [ { label: "tot", asymerror: { plus: 31.0, minus: 19.0 } } ] }
+  - { value: 270.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 25.0 } } ] }
+  - { value: 283.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 24.0 } } ] }
+  - { value: 299.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 30.0 } } ] }
+  - { value: 308.0, errors: [ { label: "tot", asymerror: { plus: 36.0, minus: 30.0 } } ] }
+  - { value: 318.0, errors: [ { label: "tot", asymerror: { plus: 35.0, minus: 34.0 } } ] }
+  - { value: 326.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 37.0 } } ] }
+  - { value: 331.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 37.0 } } ] }
+  - { value: 334.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 37.0 } } ] }
+  - { value: 334.0, errors: [ { label: "tot", asymerror: { plus: 36.0, minus: 35.0 } } ] }
+  - { value: 337.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 37.0 } } ] }
+  - { value: 336.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 35.0 } } ] }
+  - { value: 333.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 32.0 } } ] }
+  - { value: 336.0, errors: [ { label: "tot", asymerror: { plus: 30.0, minus: 34.0 } } ] }
+  - { value: 327.0, errors: [ { label: "tot", asymerror: { plus: 38.0, minus: 25.0 } } ] }
+  - { value: 333.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 30.0 } } ] }
+  - { value: 334.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 32.0 } } ] }
+  - { value: 338.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 37.0 } } ] }
+  - { value: 336.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 34.0 } } ] }
+  - { value: 333.0, errors: [ { label: "tot", asymerror: { plus: 36.0, minus: 33.0 } } ] }
+  - { value: 333.0, errors: [ { label: "tot", asymerror: { plus: 37.0, minus: 34.0 } } ] }
+  - { value: 332.0, errors: [ { label: "tot", asymerror: { plus: 36.0, minus: 36.0 } } ] }
+  - { value: 332.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 38.0 } } ] }
+  - { value: 327.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 37.0 } } ] }
+  - { value: 319.0, errors: [ { label: "tot", asymerror: { plus: 34.0, minus: 34.0 } } ] }
+  - { value: 311.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 33.0 } } ] }
+  - { value: 298.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 29.0 } } ] }
+  - { value: 288.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 30.0 } } ] }
+  - { value: 271.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 26.0 } } ] }
+  - { value: 257.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 27.0 } } ] }
+  - { value: 239.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 28.0 } } ] }
+  - { value: 219.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 28.0 } } ] }
+  - { value: 195.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 26.0 } } ] }
+  - { value: 170.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 23.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 19.0 } } ] }
+  - { value: 120.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 14.0 } } ] }
+  - { value: 100.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 14.0 } } ] }
+  - { value: 82.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 12.0 } } ] }
+  - { value: 71.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 15.0 } } ] }
+  - { value: 57.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 13.0 } } ] }
+  - { value: 47.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 13.0 } } ] }
+  - { value: 37.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 11.0 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "20-25%" }
+  - { name: "Centrality bin number", value: "12" }
+  values:
+  - { value: 36.0, errors: [ { label: "tot", asymerror: { plus: 4.0, minus: 12.0 } } ] }
+  - { value: 43.0, errors: [ { label: "tot", asymerror: { plus: 6.0, minus: 12.0 } } ] }
+  - { value: 51.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 12.0 } } ] }
+  - { value: 62.0, errors: [ { label: "tot", asymerror: { plus: 10.0, minus: 14.0 } } ] }
+  - { value: 69.5, errors: [ { label: "tot", asymerror: { plus: 16.2, minus: 9.4 } } ] }
+  - { value: 86.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 12.0 } } ] }
+  - { value: 103.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 14.0 } } ] }
+  - { value: 122.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 16.0 } } ] }
+  - { value: 136.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 13.0 } } ] }
+  - { value: 158.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 17.0 } } ] }
+  - { value: 175.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 16.0 } } ] }
+  - { value: 199.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 25.0 } } ] }
+  - { value: 208.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 18.0 } } ] }
+  - { value: 222.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 20.0 } } ] }
+  - { value: 236.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 22.0 } } ] }
+  - { value: 245.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 23.0 } } ] }
+  - { value: 255.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 25.0 } } ] }
+  - { value: 265.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 30.0 } } ] }
+  - { value: 269.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 30.0 } } ] }
+  - { value: 274.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 32.0 } } ] }
+  - { value: 274.0, errors: [ { label: "tot", asymerror: { plus: 30.0, minus: 30.0 } } ] }
+  - { value: 275.0, errors: [ { label: "tot", asymerror: { plus: 30.0, minus: 30.0 } } ] }
+  - { value: 277.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 32.0 } } ] }
+  - { value: 278.0, errors: [ { label: "tot", asymerror: { plus: 27.0, minus: 33.0 } } ] }
+  - { value: 276.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 31.0 } } ] }
+  - { value: 269.0, errors: [ { label: "tot", asymerror: { plus: 33.0, minus: 25.0 } } ] }
+  - { value: 273.0, errors: [ { label: "tot", asymerror: { plus: 30.0, minus: 28.0 } } ] }
+  - { value: 271.0, errors: [ { label: "tot", asymerror: { plus: 31.0, minus: 27.0 } } ] }
+  - { value: 273.0, errors: [ { label: "tot", asymerror: { plus: 29.0, minus: 29.0 } } ] }
+  - { value: 273.0, errors: [ { label: "tot", asymerror: { plus: 31.0, minus: 28.0 } } ] }
+  - { value: 273.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 28.0 } } ] }
+  - { value: 274.0, errors: [ { label: "tot", asymerror: { plus: 31.0, minus: 29.0 } } ] }
+  - { value: 277.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 32.0 } } ] }
+  - { value: 272.0, errors: [ { label: "tot", asymerror: { plus: 32.0, minus: 28.0 } } ] }
+  - { value: 273.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 31.0 } } ] }
+  - { value: 272.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 33.0 } } ] }
+  - { value: 266.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 31.0 } } ] }
+  - { value: 256.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 26.0 } } ] }
+  - { value: 247.0, errors: [ { label: "tot", asymerror: { plus: 27.0, minus: 24.0 } } ] }
+  - { value: 237.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 24.0 } } ] }
+  - { value: 223.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 21.0 } } ] }
+  - { value: 209.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 20.0 } } ] }
+  - { value: 203.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 28.0 } } ] }
+  - { value: 182.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 24.0 } } ] }
+  - { value: 161.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 19.0 } } ] }
+  - { value: 141.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 17.0 } } ] }
+  - { value: 120.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 15.0 } } ] }
+  - { value: 102.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 13.0 } } ] }
+  - { value: 84.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 10.0 } } ] }
+  - { value: 69.6, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 9.5 } } ] }
+  - { value: 61.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 13.0 } } ] }
+  - { value: 51.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 12.0 } } ] }
+  - { value: 41.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 11.0 } } ] }
+  - { value: 32.9, errors: [ { label: "tot", asymerror: { plus: 6.8, minus: 9.4 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "25-30%" }
+  - { name: "Centrality bin number", value: "11" }
+  values:
+  - { value: 34.0, errors: [ { label: "tot", asymerror: { plus: 2.0, minus: 13.0 } } ] }
+  - { value: 38.0, errors: [ { label: "tot", asymerror: { plus: 5.0, minus: 11.0 } } ] }
+  - { value: 45.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 12.0 } } ] }
+  - { value: 54.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 12.0 } } ] }
+  - { value: 59.2, errors: [ { label: "tot", asymerror: { plus: 15.2, minus: 7.6 } } ] }
+  - { value: 70.9, errors: [ { label: "tot", asymerror: { plus: 16.5, minus: 8.2 } } ] }
+  - { value: 86.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 11.0 } } ] }
+  - { value: 101.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 13.0 } } ] }
+  - { value: 115.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 12.0 } } ] }
+  - { value: 131.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 14.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 15.0 } } ] }
+  - { value: 165.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 22.0 } } ] }
+  - { value: 171.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 17.0 } } ] }
+  - { value: 180.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 16.0 } } ] }
+  - { value: 192.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 20.0 } } ] }
+  - { value: 200.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 21.0 } } ] }
+  - { value: 207.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 22.0 } } ] }
+  - { value: 214.0, errors: [ { label: "tot", asymerror: { plus: 24.0, minus: 24.0 } } ] }
+  - { value: 219.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 26.0 } } ] }
+  - { value: 219.0, errors: [ { label: "tot", asymerror: { plus: 27.0, minus: 23.0 } } ] }
+  - { value: 222.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 25.0 } } ] }
+  - { value: 220.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 22.0 } } ] }
+  - { value: 227.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 28.0 } } ] }
+  - { value: 225.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 27.0 } } ] }
+  - { value: 226.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 27.0 } } ] }
+  - { value: 222.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 24.0 } } ] }
+  - { value: 220.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 22.0 } } ] }
+  - { value: 220.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 22.0 } } ] }
+  - { value: 221.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 22.0 } } ] }
+  - { value: 220.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 22.0 } } ] }
+  - { value: 226.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 27.0 } } ] }
+  - { value: 222.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 24.0 } } ] }
+  - { value: 222.0, errors: [ { label: "tot", asymerror: { plus: 26.0, minus: 24.0 } } ] }
+  - { value: 219.0, errors: [ { label: "tot", asymerror: { plus: 28.0, minus: 22.0 } } ] }
+  - { value: 220.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 25.0 } } ] }
+  - { value: 220.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 27.0 } } ] }
+  - { value: 213.0, errors: [ { label: "tot", asymerror: { plus: 25.0, minus: 23.0 } } ] }
+  - { value: 210.0, errors: [ { label: "tot", asymerror: { plus: 22.0, minus: 25.0 } } ] }
+  - { value: 201.0, errors: [ { label: "tot", asymerror: { plus: 23.0, minus: 21.0 } } ] }
+  - { value: 195.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 22.0 } } ] }
+  - { value: 185.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 21.0 } } ] }
+  - { value: 174.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 20.0 } } ] }
+  - { value: 167.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 24.0 } } ] }
+  - { value: 154.0, errors: [ { label: "tot", asymerror: { plus: 10.0, minus: 24.0 } } ] }
+  - { value: 135.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 19.0 } } ] }
+  - { value: 117.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 14.0 } } ] }
+  - { value: 102.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 13.0 } } ] }
+  - { value: 85.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 10.0 } } ] }
+  - { value: 71.4, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 8.7 } } ] }
+  - { value: 60.2, errors: [ { label: "tot", asymerror: { plus: 14.1, minus: 8.7 } } ] }
+  - { value: 53.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 12.0 } } ] }
+  - { value: 45.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 11.0 } } ] }
+  - { value: 37.0, errors: [ { label: "tot", asymerror: { plus: 6.0, minus: 11.0 } } ] }
+  - { value: 31.0, errors: [ { label: "tot", asymerror: { plus: 4.0, minus: 10.0 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "30-35%" }
+  - { name: "Centrality bin number", value: "10" }
+  values:
+  - { value: 28.0, errors: [ { label: "tot", asymerror: { plus: 2.0, minus: 10.0 } } ] }
+  - { value: 32.3, errors: [ { label: "tot", asymerror: { plus: 4.6, minus: 9.6 } } ] }
+  - { value: 37.7, errors: [ { label: "tot", asymerror: { plus: 6.7, minus: 9.1 } } ] }
+  - { value: 45.3, errors: [ { label: "tot", asymerror: { plus: 7.8, minus: 9.6 } } ] }
+  - { value: 49.9, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 5.8 } } ] }
+  - { value: 62.6, errors: [ { label: "tot", asymerror: { plus: 11.1, minus: 9.0 } } ] }
+  - { value: 74.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 10.0 } } ] }
+  - { value: 86.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 11.0 } } ] }
+  - { value: 96.6, errors: [ { label: "tot", asymerror: { plus: 13.8, minus: 9.7 } } ] }
+  - { value: 111.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 13.0 } } ] }
+  - { value: 123.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 13.0 } } ] }
+  - { value: 136.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 16.0 } } ] }
+  - { value: 141.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 12.0 } } ] }
+  - { value: 152.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 15.0 } } ] }
+  - { value: 157.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 14.0 } } ] }
+  - { value: 165.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 16.0 } } ] }
+  - { value: 170.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 17.0 } } ] }
+  - { value: 178.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 22.0 } } ] }
+  - { value: 180.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 21.0 } } ] }
+  - { value: 179.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 18.0 } } ] }
+  - { value: 183.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 21.0 } } ] }
+  - { value: 183.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 19.0 } } ] }
+  - { value: 181.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 17.0 } } ] }
+  - { value: 182.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 18.0 } } ] }
+  - { value: 183.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 19.0 } } ] }
+  - { value: 182.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 18.0 } } ] }
+  - { value: 181.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 16.0 } } ] }
+  - { value: 181.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 16.0 } } ] }
+  - { value: 185.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 20.0 } } ] }
+  - { value: 184.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 19.0 } } ] }
+  - { value: 182.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 18.0 } } ] }
+  - { value: 182.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 18.0 } } ] }
+  - { value: 182.0, errors: [ { label: "tot", asymerror: { plus: 20.0, minus: 19.0 } } ] }
+  - { value: 183.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 21.0 } } ] }
+  - { value: 181.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 20.0 } } ] }
+  - { value: 177.0, errors: [ { label: "tot", asymerror: { plus: 21.0, minus: 18.0 } } ] }
+  - { value: 175.0, errors: [ { label: "tot", asymerror: { plus: 19.0, minus: 19.0 } } ] }
+  - { value: 172.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 19.0 } } ] }
+  - { value: 168.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 19.0 } } ] }
+  - { value: 161.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 17.0 } } ] }
+  - { value: 152.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 16.0 } } ] }
+  - { value: 144.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 16.0 } } ] }
+  - { value: 138.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 19.0 } } ] }
+  - { value: 125.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 15.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 13.0 } } ] }
+  - { value: 97.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 10.0 } } ] }
+  - { value: 85.2, errors: [ { label: "tot", asymerror: { plus: 12.5, minus: 9.9 } } ] }
+  - { value: 72.3, errors: [ { label: "tot", asymerror: { plus: 13.1, minus: 8.2 } } ] }
+  - { value: 60.6, errors: [ { label: "tot", asymerror: { plus: 13.1, minus: 7.0 } } ] }
+  - { value: 50.3, errors: [ { label: "tot", asymerror: { plus: 12.6, minus: 6.2 } } ] }
+  - { value: 46.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 11.0 } } ] }
+  - { value: 37.2, errors: [ { label: "tot", asymerror: { plus: 7.2, minus: 8.6 } } ] }
+  - { value: 33.0, errors: [ { label: "tot", asymerror: { plus: 4.0, minus: 10.0 } } ] }
+  - { value: 27.2, errors: [ { label: "tot", asymerror: { plus: 3.2, minus: 9.3 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "35-40%" }
+  - { name: "Centrality bin number", value: "09" }
+  values:
+  - { value: 25.2, errors: [ { label: "tot", asymerror: { plus: 1.9, minus: 9.8 } } ] }
+  - { value: 28.5, errors: [ { label: "tot", asymerror: { plus: 3.9, minus: 9.1 } } ] }
+  - { value: 32.8, errors: [ { label: "tot", asymerror: { plus: 5.7, minus: 8.5 } } ] }
+  - { value: 38.4, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 8.3 } } ] }
+  - { value: 42.1, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 5.2 } } ] }
+  - { value: 50.6, errors: [ { label: "tot", asymerror: { plus: 10.9, minus: 6.2 } } ] }
+  - { value: 60.4, errors: [ { label: "tot", asymerror: { plus: 10.1, minus: 7.8 } } ] }
+  - { value: 70.0, errors: [ { label: "tot", asymerror: { plus: 9.9, minus: 8.6 } } ] }
+  - { value: 78.1, errors: [ { label: "tot", asymerror: { plus: 11.5, minus: 7.9 } } ] }
+  - { value: 91.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 12.0 } } ] }
+  - { value: 98.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 10.0 } } ] }
+  - { value: 109.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 14.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 10.0 } } ] }
+  - { value: 121.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 13.0 } } ] }
+  - { value: 125.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 13.0 } } ] }
+  - { value: 132.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 15.0 } } ] }
+  - { value: 135.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 15.0 } } ] }
+  - { value: 139.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 17.0 } } ] }
+  - { value: 140.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 15.0 } } ] }
+  - { value: 143.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 16.0 } } ] }
+  - { value: 143.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 16.0 } } ] }
+  - { value: 147.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 19.0 } } ] }
+  - { value: 147.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 18.0 } } ] }
+  - { value: 147.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 18.0 } } ] }
+  - { value: 147.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 18.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 15.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 15.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 15.0 } } ] }
+  - { value: 144.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 14.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 15.0 } } ] }
+  - { value: 144.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 15.0 } } ] }
+  - { value: 145.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 16.0 } } ] }
+  - { value: 144.0, errors: [ { label: "tot", asymerror: { plus: 18.0, minus: 16.0 } } ] }
+  - { value: 146.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 18.0 } } ] }
+  - { value: 143.0, errors: [ { label: "tot", asymerror: { plus: 17.0, minus: 17.0 } } ] }
+  - { value: 143.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 18.0 } } ] }
+  - { value: 139.0, errors: [ { label: "tot", asymerror: { plus: 16.0, minus: 16.0 } } ] }
+  - { value: 137.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 17.0 } } ] }
+  - { value: 131.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 15.0 } } ] }
+  - { value: 127.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 14.0 } } ] }
+  - { value: 119.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 12.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 11.0 } } ] }
+  - { value: 109.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 14.0 } } ] }
+  - { value: 102.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 14.0 } } ] }
+  - { value: 91.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 12.0 } } ] }
+  - { value: 79.0, errors: [ { label: "tot", asymerror: { plus: 10.5, minus: 8.8 } } ] }
+  - { value: 70.6, errors: [ { label: "tot", asymerror: { plus: 9.3, minus: 9.2 } } ] }
+  - { value: 58.7, errors: [ { label: "tot", asymerror: { plus: 11.8, minus: 6.1 } } ] }
+  - { value: 49.4, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 5.1 } } ] }
+  - { value: 41.8, errors: [ { label: "tot", asymerror: { plus: 11.3, minus: 5.0 } } ] }
+  - { value: 38.8, errors: [ { label: "tot", asymerror: { plus: 6.6, minus: 8.7 } } ] }
+  - { value: 33.3, errors: [ { label: "tot", asymerror: { plus: 5.2, minus: 9.0 } } ] }
+  - { value: 27.9, errors: [ { label: "tot", asymerror: { plus: 4.5, minus: 8.5 } } ] }
+  - { value: 23.4, errors: [ { label: "tot", asymerror: { plus: 3.7, minus: 8.0 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "40-45%" }
+  - { name: "Centrality bin number", value: "08" }
+  values:
+  - { value: 21.2, errors: [ { label: "tot", asymerror: { plus: 1.7, minus: 7.4 } } ] }
+  - { value: 23.6, errors: [ { label: "tot", asymerror: { plus: 3.6, minus: 6.5 } } ] }
+  - { value: 27.5, errors: [ { label: "tot", asymerror: { plus: 4.7, minus: 6.6 } } ] }
+  - { value: 32.8, errors: [ { label: "tot", asymerror: { plus: 5.0, minus: 7.4 } } ] }
+  - { value: 34.3, errors: [ { label: "tot", asymerror: { plus: 9.7, minus: 3.8 } } ] }
+  - { value: 40.9, errors: [ { label: "tot", asymerror: { plus: 9.8, minus: 4.7 } } ] }
+  - { value: 49.2, errors: [ { label: "tot", asymerror: { plus: 8.7, minus: 6.8 } } ] }
+  - { value: 56.5, errors: [ { label: "tot", asymerror: { plus: 8.7, minus: 7.7 } } ] }
+  - { value: 62.4, errors: [ { label: "tot", asymerror: { plus: 10.3, minus: 6.9 } } ] }
+  - { value: 71.1, errors: [ { label: "tot", asymerror: { plus: 9.1, minus: 9.1 } } ] }
+  - { value: 76.5, errors: [ { label: "tot", asymerror: { plus: 10.9, minus: 8.2 } } ] }
+  - { value: 89.0, errors: [ { label: "tot", asymerror: { plus: 6.0, minus: 14.0 } } ] }
+  - { value: 88.6, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 9.1 } } ] }
+  - { value: 93.5, errors: [ { label: "tot", asymerror: { plus: 12.8, minus: 9.2 } } ] }
+  - { value: 99.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 11.0 } } ] }
+  - { value: 103.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 11.0 } } ] }
+  - { value: 107.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 13.0 } } ] }
+  - { value: 110.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 13.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 13.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 13.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 15.0, minus: 11.0 } } ] }
+  - { value: 115.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 14.0 } } ] }
+  - { value: 116.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 14.0 } } ] }
+  - { value: 114.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 12.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 12.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 11.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 11.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 12.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 13.0, minus: 11.0 } } ] }
+  - { value: 117.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 15.0 } } ] }
+  - { value: 115.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 13.0 } } ] }
+  - { value: 114.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 12.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 12.0 } } ] }
+  - { value: 113.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 12.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 14.0, minus: 12.0 } } ] }
+  - { value: 112.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 14.0 } } ] }
+  - { value: 110.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 14.0 } } ] }
+  - { value: 108.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 14.0 } } ] }
+  - { value: 104.0, errors: [ { label: "tot", asymerror: { plus: 12.0, minus: 12.0 } } ] }
+  - { value: 103.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 14.0 } } ] }
+  - { value: 93.2, errors: [ { label: "tot", asymerror: { plus: 13.1, minus: 8.9 } } ] }
+  - { value: 90.0, errors: [ { label: "tot", asymerror: { plus: 11.0, minus: 10.0 } } ] }
+  - { value: 87.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 13.0 } } ] }
+  - { value: 81.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 13.0 } } ] }
+  - { value: 71.2, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 9.2 } } ] }
+  - { value: 63.2, errors: [ { label: "tot", asymerror: { plus: 9.5, minus: 7.8 } } ] }
+  - { value: 57.4, errors: [ { label: "tot", asymerror: { plus: 7.8, minus: 8.6 } } ] }
+  - { value: 48.1, errors: [ { label: "tot", asymerror: { plus: 9.7, minus: 5.8 } } ] }
+  - { value: 40.4, errors: [ { label: "tot", asymerror: { plus: 10.3, minus: 4.2 } } ] }
+  - { value: 34.6, errors: [ { label: "tot", asymerror: { plus: 9.4, minus: 4.1 } } ] }
+  - { value: 33.4, errors: [ { label: "tot", asymerror: { plus: 4.4, minus: 8.0 } } ] }
+  - { value: 28.1, errors: [ { label: "tot", asymerror: { plus: 4.2, minus: 7.2 } } ] }
+  - { value: 23.9, errors: [ { label: "tot", asymerror: { plus: 3.3, minus: 6.9 } } ] }
+  - { value: 21.5, errors: [ { label: "tot", asymerror: { plus: 1.4, minus: 7.7 } } ] }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "System", value: "Au+Au" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "130 GeV" }
+  - { name: "Centrality", value: "45-50%" }
+  - { name: "Centrality bin number", value: "07" }
+  values:
+  - { value: 17.9, errors: [ { label: "tot", asymerror: { plus: 1.3, minus: 6.9 } } ] }
+  - { value: 19.3, errors: [ { label: "tot", asymerror: { plus: 3.4, minus: 5.6 } } ] }
+  - { value: 23.4, errors: [ { label: "tot", asymerror: { plus: 3.2, minus: 6.5 } } ] }
+  - { value: 28.1, errors: [ { label: "tot", asymerror: { plus: 2.9, minus: 7.5 } } ] }
+  - { value: 28.2, errors: [ { label: "tot", asymerror: { plus: 7.6, minus: 3.3 } } ] }
+  - { value: 32.6, errors: [ { label: "tot", asymerror: { plus: 8.3, minus: 3.1 } } ] }
+  - { value: 39.0, errors: [ { label: "tot", asymerror: { plus: 7.3, minus: 4.4 } } ] }
+  - { value: 45.5, errors: [ { label: "tot", asymerror: { plus: 6.5, minus: 5.6 } } ] }
+  - { value: 51.9, errors: [ { label: "tot", asymerror: { plus: 5.9, minus: 6.6 } } ] }
+  - { value: 56.6, errors: [ { label: "tot", asymerror: { plus: 6.8, minus: 6.0 } } ] }
+  - { value: 61.8, errors: [ { label: "tot", asymerror: { plus: 7.1, minus: 6.2 } } ] }
+  - { value: 69.9, errors: [ { label: "tot", asymerror: { plus: 4.2, minus: 9.6 } } ] }
+  - { value: 70.2, errors: [ { label: "tot", asymerror: { plus: 8.7, minus: 5.8 } } ] }
+  - { value: 73.0, errors: [ { label: "tot", asymerror: { plus: 10.3, minus: 5.0 } } ] }
+  - { value: 78.3, errors: [ { label: "tot", asymerror: { plus: 8.8, minus: 7.3 } } ] }
+  - { value: 82.2, errors: [ { label: "tot", asymerror: { plus: 8.4, minus: 8.5 } } ] }
+  - { value: 85.0, errors: [ { label: "tot", asymerror: { plus: 8.3, minus: 9.3 } } ] }
+  - { value: 88.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 11.0 } } ] }
+  - { value: 90.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 11.0 } } ] }
+  - { value: 88.4, errors: [ { label: "tot", asymerror: { plus: 10.3, minus: 8.7 } } ] }
+  - { value: 89.8, errors: [ { label: "tot", asymerror: { plus: 9.7, minus: 9.5 } } ] }
+  - { value: 91.0, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 10.0 } } ] }
+  - { value: 93.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 12.0 } } ] }
+  - { value: 92.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 10.0 } } ] }
+  - { value: 90.5, errors: [ { label: "tot", asymerror: { plus: 9.0, minus: 9.0 } } ] }
+  - { value: 89.6, errors: [ { label: "tot", asymerror: { plus: 9.6, minus: 8.1 } } ] }
+  - { value: 89.4, errors: [ { label: "tot", asymerror: { plus: 9.9, minus: 7.8 } } ] }
+  - { value: 88.5, errors: [ { label: "tot", asymerror: { plus: 10.9, minus: 6.8 } } ] }
+  - { value: 88.7, errors: [ { label: "tot", asymerror: { plus: 10.6, minus: 7.1 } } ] }
+  - { value: 89.5, errors: [ { label: "tot", asymerror: { plus: 9.9, minus: 8.1 } } ] }
+  - { value: 91.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 10.0 } } ] }
+  - { value: 90.4, errors: [ { label: "tot", asymerror: { plus: 9.5, minus: 9.3 } } ] }
+  - { value: 92.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 11.0 } } ] }
+  - { value: 89.9, errors: [ { label: "tot", asymerror: { plus: 9.6, minus: 9.5 } } ] }
+  - { value: 86.5, errors: [ { label: "tot", asymerror: { plus: 12.2, minus: 6.8 } } ] }
+  - { value: 88.2, errors: [ { label: "tot", asymerror: { plus: 9.2, minus: 9.5 } } ] }
+  - { value: 87.0, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 10.0 } } ] }
+  - { value: 84.1, errors: [ { label: "tot", asymerror: { plus: 9.2, minus: 8.4 } } ] }
+  - { value: 82.8, errors: [ { label: "tot", asymerror: { plus: 7.7, minus: 9.1 } } ] }
+  - { value: 79.9, errors: [ { label: "tot", asymerror: { plus: 7.3, minus: 8.8 } } ] }
+  - { value: 75.1, errors: [ { label: "tot", asymerror: { plus: 8.2, minus: 7.1 } } ] }
+  - { value: 71.6, errors: [ { label: "tot", asymerror: { plus: 7.3, minus: 7.2 } } ] }
+  - { value: 70.0, errors: [ { label: "tot", asymerror: { plus: 4.1, minus: 9.8 } } ] }
+  - { value: 64.0, errors: [ { label: "tot", asymerror: { plus: 4.9, minus: 8.4 } } ] }
+  - { value: 57.0, errors: [ { label: "tot", asymerror: { plus: 6.4, minus: 6.4 } } ] }
+  - { value: 51.6, errors: [ { label: "tot", asymerror: { plus: 6.1, minus: 6.3 } } ] }
+  - { value: 45.0, errors: [ { label: "tot", asymerror: { plus: 7.0, minus: 5.1 } } ] }
+  - { value: 39.4, errors: [ { label: "tot", asymerror: { plus: 6.9, minus: 4.8 } } ] }
+  - { value: 32.9, errors: [ { label: "tot", asymerror: { plus: 8.0, minus: 3.4 } } ] }
+  - { value: 27.3, errors: [ { label: "tot", asymerror: { plus: 8.5, minus: 2.5 } } ] }
+  - { value: 27.9, errors: [ { label: "tot", asymerror: { plus: 3.1, minus: 7.3 } } ] }
+  - { value: 22.5, errors: [ { label: "tot", asymerror: { plus: 4.2, minus: 5.5 } } ] }
+  - { value: 18.9, errors: [ { label: "tot", asymerror: { plus: 3.8, minus: 5.2 } } ] }
+  - { value: 17.0, errors: [ { label: "tot", asymerror: { plus: 2.3, minus: 5.9 } } ] }

@@ -1,0 +1,96 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 3 }
+  - { low: 3, high: 6 }
+  - { low: 6, high: 10 }
+  - { low: 10, high: 15 }
+  - { low: 15, high: 20 }
+  - { low: 20, high: 25 }
+  - { low: 25, high: 30 }
+  - { low: 30, high: 35 }
+  - { low: 35, high: 40 }
+  - { low: 40, high: 45 }
+  - { low: 45, high: 50 }
+  - { low: 50, high: 55 }
+dependent_variables:
+- header: { name: "$\\langle N_{part}\\rangle$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 3.17 }
+  values:
+  - { value: 103, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 95, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 86, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 74, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 63, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 53, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 44, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 37, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 30, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 25, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 20, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 16, errors: [ { label: "sys", symerror: 3 } ] }
+- header: { name: "FWHM", units: "" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 3.17 }
+  values:
+  - { value: 5.96, errors: [ { label: "sys", asymerror: { plus: 1.06, minus: 0.46 } } ] }
+  - { value: 5.82, errors: [ { label: "sys", asymerror: { plus: 0.78, minus: 0.4 } } ] }
+  - { value: 5.68, errors: [ { label: "sys", asymerror: { plus: 0.5, minus: 0.36 } } ] }
+  - { value: 5.56, errors: [ { label: "sys", asymerror: { plus: 0.48, minus: 0.28 } } ] }
+  - { value: 5.48, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.3 } } ] }
+  - { value: 5.42, errors: [ { label: "sys", asymerror: { plus: 0.38, minus: 0.26 } } ] }
+  - { value: 5.36, errors: [ { label: "sys", asymerror: { plus: 0.36, minus: 0.26 } } ] }
+  - { value: 5.28, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.26 } } ] }
+  - { value: 5.2, errors: [ { label: "sys", asymerror: { plus: 0.32, minus: 0.24 } } ] }
+  - { value: 5.12, errors: [ { label: "sys", asymerror: { plus: 0.34, minus: 0.22 } } ] }
+  - { value: 5.06, errors: [ { label: "sys", asymerror: { plus: 0.3, minus: 0.24 } } ] }
+  - { value: 4.94, errors: [ { label: "sys", asymerror: { plus: 0.28, minus: 0.22 } } ] }
+- header: { name: "$N_{ch}(|\\eta|<5.4)$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 3.17 }
+  values:
+  - { value: 538, errors: [ { label: "sys", symerror: 22 } ] }
+  - { value: 485, errors: [ { label: "sys", symerror: 20 } ] }
+  - { value: 435, errors: [ { label: "sys", symerror: 18 } ] }
+  - { value: 380, errors: [ { label: "sys", symerror: 16 } ] }
+  - { value: 326, errors: [ { label: "sys", symerror: 14 } ] }
+  - { value: 279, errors: [ { label: "sys", symerror: 12 } ] }
+  - { value: 237, errors: [ { label: "sys", symerror: 10 } ] }
+  - { value: 201, errors: [ { label: "sys", symerror: 9 } ] }
+  - { value: 169, errors: [ { label: "sys", symerror: 8 } ] }
+  - { value: 141, errors: [ { label: "sys", symerror: 7 } ] }
+  - { value: 118, errors: [ { label: "sys", symerror: 6 } ] }
+  - { value: 96, errors: [ { label: "sys", symerror: 6 } ] }
+- header: { name: "$N_{ch}^{tot}$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 3.17 }
+  values:
+  - { value: 535, errors: [ { label: "sys", symerror: 23 } ] }
+  - { value: 482, errors: [ { label: "sys", symerror: 21 } ] }
+  - { value: 431, errors: [ { label: "sys", symerror: 19 } ] }
+  - { value: 375, errors: [ { label: "sys", symerror: 18 } ] }
+  - { value: 320, errors: [ { label: "sys", symerror: 15 } ] }
+  - { value: 273, errors: [ { label: "sys", symerror: 14 } ] }
+  - { value: 230, errors: [ { label: "sys", symerror: 13 } ] }
+  - { value: 194, errors: [ { label: "sys", symerror: 12 } ] }
+  - { value: 162, errors: [ { label: "sys", symerror: 12 } ] }
+  - { value: 135, errors: [ { label: "sys", symerror: 11 } ] }
+  - { value: 112, errors: [ { label: "sys", symerror: 11 } ] }
+  - { value: 92, errors: [ { label: "sys", symerror: 11 } ] }
+- header: { name: "$N_{ch}^{p}$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 3.17 }
+  values:
+  - { value: 534, errors: [ { label: "sys", symerror: 23 } ] }
+  - { value: 480, errors: [ { label: "sys", symerror: 21 } ] }
+  - { value: 429, errors: [ { label: "sys", symerror: 19 } ] }
+  - { value: 372, errors: [ { label: "sys", symerror: 18 } ] }
+  - { value: 316, errors: [ { label: "sys", symerror: 15 } ] }
+  - { value: 268, errors: [ { label: "sys", symerror: 14 } ] }
+  - { value: 226, errors: [ { label: "sys", symerror: 13 } ] }
+  - { value: 191, errors: [ { label: "sys", symerror: 12 } ] }
+  - { value: 160, errors: [ { label: "sys", symerror: 12 } ] }
+  - { value: 133, errors: [ { label: "sys", symerror: 11 } ] }
+  - { value: 110, errors: [ { label: "sys", symerror: 11 } ] }
+  - { value: 91, errors: [ { label: "sys", symerror: 11 } ] }

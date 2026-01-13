@@ -1,0 +1,46 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 20 }
+  - { low: 20, high: 40 }
+  - { low: 40, high: 60 }
+  - { low: 60, high: 80 }
+  - { low: 80, high: 100 }
+  - { value: "Min-Bias" }
+
+dependent_variables:
+- header: { name: "$\\langle N_{{part}}^{{Au}}\\rangle$" }
+  values:
+  - { value: 13.5, errors: [ { label: "sys", symerror: 1.0 } ] }
+  - { value: 8.9, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: 5.4, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: 2.9, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: 1.6, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: 6.6, errors: [ { label: "sys", symerror: 0.5 } ] }
+
+- header: { name: "$\\langle N_{{part}}^{{d}}\\rangle$" }
+  values:
+  - { value: 2.0, errors: [ { label: "sys", symerror: 0.1 } ] }
+  - { value: 1.9, errors: [ { label: "sys", symerror: 0.1 } ] }
+  - { value: 1.7, errors: [ { label: "sys", symerror: 0.2 } ] }
+  - { value: 1.4, errors: [ { label: "sys", symerror: 0.2 } ] }
+  - { value: 1.1, errors: [ { label: "sys", symerror: 0.2 } ] }
+  - { value: 1.7, errors: [ { label: "sys", symerror: 0.1 } ] }
+
+- header: { name: "$N_{{ch}}(|\\eta|<5.4)$" }
+  values:
+  - { value: 157, errors: [ { label: "sys", symerror: 10 } ] }
+  - { value: 109, errors: [ { label: "sys", symerror: 7 } ] }
+  - { value: 74, errors: [ { label: "sys", symerror: 5 } ] }
+  - { value: 46, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 28, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 82, errors: [ { label: "sys", symerror: 6 } ] }
+
+- header: { name: "$N_{{ch}}^{{tot}}$" }
+  values:
+  - { value: 167, errors: [ { label: "sys", asymerror: { plus: 14, minus: -11 } } ] }
+  - { value: 115, errors: [ { label: "sys", asymerror: { plus: 10, minus: -8 } } ] }
+  - { value: 77, errors: [ { label: "sys", asymerror: { plus: 7, minus: -6 } } ] }
+  - { value: 48, errors: [ { label: "sys", asymerror: { plus: 3, minus: -3 } } ] }
+  - { value: 29, errors: [ { label: "sys", asymerror: { plus: 3, minus: -3 } } ] }
+  - { value: 87, errors: [ { label: "sys", asymerror: { plus: 7, minus: -6 } } ] }

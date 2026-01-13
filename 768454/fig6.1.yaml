@@ -1,0 +1,275 @@
+independent_variables:
+- header: { name: "value" }
+  values:
+  - { value: 1 }
+  - { value: 2 }
+  - { value: 3 }
+  - { value: 4 }
+  - { value: 5 }
+  - { value: 6 }
+  - { value: 7 }
+  - { value: 8 }
+  - { value: 9 }
+  - { value: 10 }
+  - { value: 11 }
+
+dependent_variables:
+- header: { name: "$v^2$" }
+  qualifiers:
+  - { name: "Reaction", value: "AU AU" }
+  values:
+  - value: 0.0554
+    errors:
+    - { label: "stat", symerror: 0.0014 }
+    - { label: "sys", asymerror: { plus: 0.0097, minus: 0.0097 } }
+  - value: 0.0606
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+    - { label: "sys", asymerror: { plus: 0.0085, minus: 0.0085 } }
+  - value: 0.0573
+    errors:
+    - { label: "stat", symerror: 0.0009 }
+    - { label: "sys", asymerror: { plus: 0.0034, minus: 0.0034 } }
+  - value: 0.0563
+    errors:
+    - { label: "stat", symerror: 0.0008 }
+    - { label: "sys", asymerror: { plus: 0.0036, minus: 0.0036 } }
+  - value: 0.0527
+    errors:
+    - { label: "stat", symerror: 0.0006 }
+    - { label: "sys", asymerror: { plus: 0.0022, minus: 0.0022 } }
+  - value: 0.0474
+    errors:
+    - { label: "stat", symerror: 0.0006 }
+    - { label: "sys", asymerror: { plus: 0.0032, minus: 0.0032 } }
+  - value: 0.0428
+    errors:
+    - { label: "stat", symerror: 0.0005 }
+    - { label: "sys", asymerror: { plus: 0.0033, minus: 0.0033 } }
+  - value: 0.0351
+    errors:
+    - { label: "stat", symerror: 0.0005 }
+    - { label: "sys", asymerror: { plus: 0.0026, minus: 0.0026 } }
+  - value: 0.0267
+    errors:
+    - { label: "stat", symerror: 0.0007 }
+    - { label: "sys", asymerror: { plus: 0.0027, minus: 0.0027 } }
+  - value: 0.0187
+    errors:
+    - { label: "stat", symerror: 0.0009 }
+    - { label: "sys", asymerror: { plus: 0.0083, minus: 0.0083 } }
+  - value: 0.0137
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+    - { label: "sys", asymerror: { plus: 0.0083, minus: 0.0083 } }
+
+- header: { name: "S", units: "fm^2" }
+  qualifiers:
+  - { name: "Reaction", value: "AU AU" }
+  values:
+  - value: 9.2
+    errors: [ { label: "sys", symerror: 2.1 } ]
+  - value: 10.5
+    errors: [ { label: "sys", symerror: 2.3 } ]
+  - value: 11.9
+    errors: [ { label: "sys", symerror: 2.4 } ]
+  - value: 13.3
+    errors: [ { label: "sys", symerror: 2.6 } ]
+  - value: 15
+    errors: [ { label: "sys", symerror: 2.7 } ]
+  - value: 16.8
+    errors: [ { label: "sys", symerror: 2.9 } ]
+  - value: 18.8
+    errors: [ { label: "sys", symerror: 3.1 } ]
+  - value: 21
+    errors: [ { label: "sys", symerror: 3.3 } ]
+  - value: 23.3
+    errors: [ { label: "sys", symerror: 3.1 } ]
+  - value: 25.1
+    errors: [ { label: "sys", symerror: 2.8 } ]
+  - value: 26.5
+    errors: [ { label: "sys", symerror: 2.8 } ]
+
+- header: { name: "eccentricity" }
+  qualifiers:
+  - { name: "Reaction", value: "AU AU" }
+  values:
+  - value: 0.47
+    errors: [ { label: "sys", symerror: 0.04 } ]
+  - value: 0.44
+    errors: [ { label: "sys", symerror: 0.04 } ]
+  - value: 0.4
+    errors: [ { label: "sys", symerror: 0.04 } ]
+  - value: 0.37
+    errors: [ { label: "sys", symerror: 0.04 } ]
+  - value: 0.32
+    errors: [ { label: "sys", symerror: 0.04 } ]
+  - value: 0.281
+    errors: [ { label: "sys", symerror: 0.033 } ]
+  - value: 0.238
+    errors: [ { label: "sys", symerror: 0.028 } ]
+  - value: 0.19
+    errors: [ { label: "sys", symerror: 0.022 } ]
+  - value: 0.143
+    errors: [ { label: "sys", symerror: 0.015 } ]
+  - value: 0.111
+    errors: [ { label: "sys", symerror: 0.011 } ]
+  - value: 0.089
+    errors: [ { label: "sys", symerror: 0.01 } ]
+
+- header: { name: "$dN/d\\eta$" }
+  qualifiers:
+  - { name: "Reaction", value: "AU AU" }
+  values:
+  - value: 109
+    errors: [ { label: "sys", asymerror: { plus: 5, minus: 5 } } ]
+  - value: 150
+    errors: [ { label: "sys", asymerror: { plus: 6, minus: 6 } } ]
+  - value: 189
+    errors: [ { label: "sys", asymerror: { plus: 7, minus: 7 } } ]
+  - value: 232
+    errors: [ { label: "sys", asymerror: { plus: 9, minus: 9 } } ]
+  - value: 290
+    errors: [ { label: "sys", asymerror: { plus: 12, minus: 12 } } ]
+  - value: 359
+    errors: [ { label: "sys", asymerror: { plus: 14, minus: 14 } } ]
+  - value: 432
+    errors: [ { label: "sys", asymerror: { plus: 17, minus: 17 } } ]
+  - value: 523
+    errors: [ { label: "sys", asymerror: { plus: 21, minus: 21 } } ]
+  - value: 630
+    errors: [ { label: "sys", asymerror: { plus: 24, minus: 24 } } ]
+  - value: 723
+    errors: [ { label: "sys", asymerror: { plus: 28, minus: 28 } } ]
+  - value: 805
+    errors: [ { label: "sys", asymerror: { plus: 31, minus: 31 } } ]
+
+- header: { name: "$v^2$" }
+  qualifiers:
+  - { name: "Reaction", value: "CU CU" }
+  values:
+  - value: 0.0467
+    errors:
+    - { label: "stat", symerror: 0.0013 }
+    - { label: "sys", asymerror: { plus: 0.0088, minus: 0.0072 } }
+  - value: 0.0445
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+    - { label: "sys", asymerror: { plus: 0.0056, minus: 0.0053 } }
+  - value: 0.0447
+    errors:
+    - { label: "stat", symerror: 0.0008 }
+    - { label: "sys", asymerror: { plus: 0.0051, minus: 0.0049 } }
+  - value: 0.0441
+    errors:
+    - { label: "stat", symerror: 0.0007 }
+    - { label: "sys", asymerror: { plus: 0.0056, minus: 0.0053 } }
+  - value: 0.0421
+    errors:
+    - { label: "stat", symerror: 0.0006 }
+    - { label: "sys", asymerror: { plus: 0.0050, minus: 0.0048 } }
+  - value: 0.0409
+    errors:
+    - { label: "stat", symerror: 0.0005 }
+    - { label: "sys", asymerror: { plus: 0.0050, minus: 0.0051 } }
+  - value: 0.0375
+    errors:
+    - { label: "stat", symerror: 0.0005 }
+    - { label: "sys", asymerror: { plus: 0.0052, minus: 0.0051 } }
+  - value: 0.0346
+    errors:
+    - { label: "stat", symerror: 0.0004 }
+    - { label: "sys", asymerror: { plus: 0.0049, minus: 0.0048 } }
+  - value: 0.0302
+    errors:
+    - { label: "stat", symerror: 0.0005 }
+    - { label: "sys", asymerror: { plus: 0.0049, minus: 0.0049 } }
+  - value: 0.0275
+    errors:
+    - { label: "stat", symerror: 0.0006 }
+    - { label: "sys", asymerror: { plus: 0.0048, minus: 0.0048 } }
+  - value: 0.0239
+    errors:
+    - { label: "stat", symerror: 0.0006 }
+    - { label: "sys", asymerror: { plus: 0.0046, minus: 0.0047 } }
+
+- header: { name: "$dN/d\\eta$" }
+  qualifiers:
+  - { name: "Reaction", value: "CU CU" }
+  values:
+  - value: 37.7
+    errors: [ { label: "sys", asymerror: { plus: 3.4, minus: 2.6 } } ]
+  - value: 47.4
+    errors: [ { label: "sys", asymerror: { plus: 4.1, minus: 3.3 } } ]
+  - value: 58
+    errors: [ { label: "sys", asymerror: { plus: 5, minus: 4 } } ]
+  - value: 72
+    errors: [ { label: "sys", asymerror: { plus: 6, minus: 5 } } ]
+  - value: 87
+    errors: [ { label: "sys", asymerror: { plus: 7, minus: 6 } } ]
+  - value: 105
+    errors: [ { label: "sys", asymerror: { plus: 9, minus: 8 } } ]
+  - value: 126
+    errors: [ { label: "sys", asymerror: { plus: 11, minus: 10 } } ]
+  - value: 150
+    errors: [ { label: "sys", asymerror: { plus: 13, minus: 12 } } ]
+  - value: 177
+    errors: [ { label: "sys", asymerror: { plus: 16, minus: 15 } } ]
+  - value: 199
+    errors: [ { label: "sys", asymerror: { plus: 18, minus: 16 } } ]
+  - value: 219
+    errors: [ { label: "sys", asymerror: { plus: 18, minus: 17 } } ]
+
+- header: { name: "eccentricity" }
+  qualifiers:
+  - { name: "Reaction", value: "CU CU" }
+  values:
+  - value: 0.560
+    errors: [ { label: "sys", symerror: 0.021 } ]
+  - value: 0.511
+    errors: [ { label: "sys", symerror: 0.020 } ]
+  - value: 0.465
+    errors: [ { label: "sys", symerror: 0.020 } ]
+  - value: 0.421
+    errors: [ { label: "sys", symerror: 0.021 } ]
+  - value: 0.380
+    errors: [ { label: "sys", symerror: 0.021 } ]
+  - value: 0.334
+    errors: [ { label: "sys", symerror: 0.021 } ]
+  - value: 0.294
+    errors: [ { label: "sys", symerror: 0.022 } ]
+  - value: 0.250
+    errors: [ { label: "sys", symerror: 0.021 } ]
+  - value: 0.213
+    errors: [ { label: "sys", symerror: 0.018 } ]
+  - value: 0.189
+    errors: [ { label: "sys", symerror: 0.015 } ]
+  - value: 0.172
+    errors: [ { label: "sys", symerror: 0.015 } ]
+
+- header: { name: "S", units: "fm^2" }
+  qualifiers:
+  - { name: "Reaction", value: "CU CU" }
+  values:
+  - value: 5.1
+    errors: [ { label: "sys", symerror: 1.7 } ]
+  - value: 5.8
+    errors: [ { label: "sys", symerror: 1.8 } ]
+  - value: 6.6
+    errors: [ { label: "sys", symerror: 1.9 } ]
+  - value: 7.4
+    errors: [ { label: "sys", symerror: 2.0 } ]
+  - value: 8.1
+    errors: [ { label: "sys", symerror: 2.1 } ]
+  - value: 9.0
+    errors: [ { label: "sys", symerror: 2.2 } ]
+  - value: 9.9
+    errors: [ { label: "sys", symerror: 2.3 } ]
+  - value: 10.9
+    errors: [ { label: "sys", symerror: 2.4 } ]
+  - value: 11.8
+    errors: [ { label: "sys", symerror: 2.2 } ]
+  - value: 12.4
+    errors: [ { label: "sys", symerror: 1.9 } ]
+  - value: 12.9
+    errors: [ { label: "sys", symerror: 2.0 } ]

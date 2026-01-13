@@ -46,4 +46,36 @@ additional_resources:
 
 # This is Fig 2.
 ---
-
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 6: Track"
+location: Data from figure 6 of PhysRevC.77.014906
+description: Phobos data for eccentricity-normalized elliptic flow versus areal-normalized particle density, track-based at $\sqrt{s_{NN}}=200~GeV$ for Au+Au and Cu+Cu reactions.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X, CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 130 ]
+data_file: fig6.1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+# Start of table entries.
+# This is Fig 1.
+name: "Figure 6: Hit"
+location: Data from figure 6 of PhysRevC.77.014906
+description: Phobos data for eccentricity-normalized elliptic flow versus areal-normalized particle density, hit-based at $\sqrt{s_{NN}}=200~GeV$ for Au+Au and Cu+Cu reactions.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X, CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }

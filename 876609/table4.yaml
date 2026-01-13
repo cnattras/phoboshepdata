@@ -1,0 +1,30 @@
+independent_variables:
+- header: { name: "$\\sqrt{s}$", units: "GeV" }
+  values:
+  - { value: 200 }
+  - { value: 410 }
+dependent_variables:
+- header: { name: "$y_{beam}$" }
+  qualifiers:
+  - { name: "System", value: "p+p (inelastic)" }
+  values:
+  - { value: 5.361 }
+  - { value: 6.079 }
+- header: { name: "$\\frac{dN_{ch}}{d\\eta}|_{|\eta|<1}$" }
+  qualifiers:
+  - { name: "System", value: "p+p (inelastic)" }
+  values:
+  - { value: 2.25, errors: [ { label: "sys", asymerror: { plus: 0.37, minus: 0.3 } } ] }
+  - { value: 2.87, errors: [ { label: "sys", asymerror: { plus: 0.44, minus: 0.43 } } ] }
+- header: { name: "$N_{ch}(|\eta|<5.4)$" }
+  qualifiers:
+  - { name: "System", value: "p+p (inelastic)" }
+  values:
+  - { value: 19.3, errors: [ { label: "sys", symerror: 1.8 } ] }
+  - { value: 26.2, errors: [ { label: "sys", symerror: 2.5 } ] }
+- header: { name: "$N_{ch}^{tot}$" }
+  qualifiers:
+  - { name: "System", value: "p+p (inelastic)" }
+  values:
+  - { value: 20.0, errors: [ { label: "sys", symerror: 1.8 } ] }
+  - { value: 27.7, errors: [ { label: "sys", symerror: 2.5 } ] }

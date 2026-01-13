@@ -1,0 +1,54 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 3 }
+  - { low: 3, high: 6 }
+  - { low: 6, high: 10 }
+  - { low: 10, high: 15 }
+  - { low: 15, high: 20 }
+  - { low: 20, high: 25 }
+  - { low: 25, high: 30 }
+  - { low: 30, high: 35 }
+  - { low: 35, high: 40 }
+  - { low: 40, high: 45 }
+  - { low: 45, high: 50 }
+dependent_variables:
+- header: { name: "$\\langle N_{part}\\rangle$" }
+  values:
+  - { value: 103, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 95, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 86, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 74, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 63, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 53, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 44, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 37, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 30, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 24, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 20, errors: [ { label: "sys", symerror: 3 } ] }
+- header: { name: "$dN/d\\eta|_{|\\eta|<1}$" }
+  values:
+  - { value: 101, errors: [ { label: "sys", symerror: 8 } ] }
+  - { value: 90, errors: [ { label: "sys", symerror: 7 } ] }
+  - { value: 80, errors: [ { label: "sys", symerror: 6 } ] }
+  - { value: 68, errors: [ { label: "sys", symerror: 5 } ] }
+  - { value: 57, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 48, errors: [ { label: "sys", symerror: 4 } ] }
+  - { value: 40, errors: [ { label: "sys", symerror: 3 } ] }
+  - { value: 33, errors: [ { label: "sys", symerror: 2 } ] }
+  - { value: 27, errors: [ { label: "sys", symerror: 2 } ] }
+  - { value: 22, errors: [ { label: "sys", symerror: 2 } ] }
+  - { value: 18, errors: [ { label: "sys", symerror: 1 } ] }
+- header: { name: "$(dN_{ch}/d\\eta|_{|\\eta<1|})/(N_{part}/2)$" }
+  values:
+  - { value: 1.96, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.9, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.83, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.81, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.8, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.78, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.79, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 1.76, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 1.77, errors: [ { label: "sys", symerror: 0.29 } ] }

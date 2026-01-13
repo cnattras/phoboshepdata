@@ -1,0 +1,90 @@
+independent_variables:
+- header: { name: "Centrality", units: "%" }
+  values:
+  - { low: 0, high: 3 }
+  - { low: 3, high: 6 }
+  - { low: 6, high: 10 }
+  - { low: 10, high: 15 }
+  - { low: 15, high: 20 }
+  - { low: 20, high: 25 }
+  - { low: 25, high: 30 }
+  - { low: 30, high: 35 }
+  - { low: 35, high: 40 }
+  - { low: 40, high: 45 }
+  - { low: 45, high: 50 }
+dependent_variables:
+- header: { name: "$\\langle N_{part}\\rangle$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 5.361 }
+  values:
+  - { value: 359, errors: [ { label: "sys", symerror: 11 } ] }
+  - { value: 330, errors: [ { label: "sys", symerror: 10 } ] }
+  - { value: 297, errors: [ { label: "sys", symerror: 9 } ] }
+  - { value: 256, errors: [ { label: "sys", symerror: 8 } ] }
+  - { value: 215, errors: [ { label: "sys", symerror: 7 } ] }
+  - { value: 181, errors: [ { label: "sys", symerror: 7 } ] }
+  - { value: 149, errors: [ { label: "sys", symerror: 6 } ] }
+  - { value: 123, errors: [ { label: "sys", symerror: 6 } ] }
+  - { value: 101, errors: [ { label: "sys", symerror: 6 } ] }
+  - { value: 82, errors: [ { label: "sys", symerror: 6 } ] }
+  - { value: 65, errors: [ { label: "sys", symerror: 6 } ] }
+- header: { name: "FWHM" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 5.361 }
+  values:
+  - { value: 7.63, errors: [ { label: "sys", asymerror: { plus: 0.3, minus: 0.4 } } ] }
+  - { value: 7.64, errors: [ { label: "sys", asymerror: { plus: 0.3, minus: 0.4 } } ] }
+  - { value: 7.71, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.4 } } ] }
+  - { value: 7.77, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.4 } } ] }
+  - { value: 7.83, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.4 } } ] }
+  - { value: 7.9, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.4 } } ] }
+  - { value: 7.99, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.4 } } ] }
+  - { value: 7.96, errors: [ { label: "sys", asymerror: { plus: 0.5, minus: 0.4 } } ] }
+  - { value: 8.04, errors: [ { label: "sys", asymerror: { plus: 0.6, minus: 0.6 } } ] }
+  - { value: 8.11, errors: [ { label: "sys", asymerror: { plus: 0.4, minus: 0.6 } } ] }
+  - { value: 8.23, errors: [ { label: "sys", asymerror: { plus: 0.6, minus: 0.5 } } ] }
+- header: { name: "$N_{ch}$(|eta|<5.4)" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 5.361 }
+  values:
+  - { value: 5159, errors: [ { label: "sys", symerror: 258 } ] }
+  - { value: 4753, errors: [ { label: "sys", symerror: 238 } ] }
+  - { value: 4198, errors: [ { label: "sys", symerror: 210 } ] }
+  - { value: 3598, errors: [ { label: "sys", symerror: 180 } ] }
+  - { value: 2999, errors: [ { label: "sys", symerror: 150 } ] }
+  - { value: 2496, errors: [ { label: "sys", symerror: 125 } ] }
+  - { value: 2057, errors: [ { label: "sys", symerror: 103 } ] }
+  - { value: 1685, errors: [ { label: "sys", symerror: 84 } ] }
+  - { value: 1354, errors: [ { label: "sys", symerror: 68 } ] }
+  - { value: 1096, errors: [ { label: "sys", symerror: 55 } ] }
+  - { value: 847, errors: [ { label: "sys", symerror: 42 } ] }
+- header: { name: "$N_{ch}^{tot}$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 5.361 }
+  values:
+  - { value: 5290, errors: [ { label: "sys", symerror: 264 } ] }
+  - { value: 4895, errors: [ { label: "sys", symerror: 245 } ] }
+  - { value: 4341, errors: [ { label: "sys", symerror: 217 } ] }
+  - { value: 3763, errors: [ { label: "sys", symerror: 188 } ] }
+  - { value: 3153, errors: [ { label: "sys", symerror: 158 } ] }
+  - { value: 2645, errors: [ { label: "sys", symerror: 132 } ] }
+  - { value: 2184, errors: [ { label: "sys", symerror: 109 } ] }
+  - { value: 1819, errors: [ { label: "sys", symerror: 91 } ] }
+  - { value: 1486, errors: [ { label: "sys", symerror: 74 } ] }
+  - { value: 1204, errors: [ { label: "sys", symerror: 60 } ] }
+  - { value: 951, errors: [ { label: "sys", symerror: 48 } ] }
+- header: { name: "$N_{ch}^{p}$" }
+  qualifiers:
+  - { name: "$y_{beam}$", value: 5.361 }
+  values:
+  - { value: 5261, errors: [ { label: "sys", symerror: 264 } ] }
+  - { value: 4854, errors: [ { label: "sys", symerror: 245 } ] }
+  - { value: 4288, errors: [ { label: "sys", symerror: 217 } ] }
+  - { value: 3687, errors: [ { label: "sys", symerror: 188 } ] }
+  - { value: 3075, errors: [ { label: "sys", symerror: 158 } ] }
+  - { value: 2564, errors: [ { label: "sys", symerror: 132 } ] }
+  - { value: 2119, errors: [ { label: "sys", symerror: 109 } ] }
+  - { value: 1742, errors: [ { label: "sys", symerror: 91 } ] }
+  - { value: 1403, errors: [ { label: "sys", symerror: 74 } ] }
+  - { value: 1137, errors: [ { label: "sys", symerror: 60 } ] }
+  - { value: 880, errors: [ { label: "sys", symerror: 48 } ] }
