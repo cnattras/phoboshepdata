@@ -1,0 +1,3151 @@
+independent_variables:
+- header: { name: "$\\Delta\\phi$", units: "deg" }
+  values:
+  - { value: -90 }
+  - { value: -78.75 }
+  - { value: -67.5 }
+  - { value: -56.25 }
+  - { value: -45 }
+  - { value: -33.75 }
+  - { value: -22.5 }
+  - { value: -11.25 }
+  - { value: 0.00 }
+  - { value: 11.25 }
+  - { value: 22.50 }
+  - { value: 33.75 }
+  - { value: 45.00 }
+  - { value: 56.25 }
+  - { value: 67.50 }
+  - { value: 78.75 }
+  - { value: 90.00 }
+  - { value: 101.25 }
+  - { value: 112.50 }
+  - { value: 123.75 }
+  - { value: 135.00 }
+  - { value: 146.25 }
+  - { value: 157.50 }
+  - { value: 168.75 }
+  - { value: 180.00 }
+  - { value: 191.25 }
+  - { value: 202.50 }
+  - { value: 213.75 }
+  - { value: 225.00 }
+  - { value: 236.25 }
+  - { value: 247.50 }
+  - { value: 258.75 }
+
+dependent_variables:
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-6.00" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.3, errors: [ { label: "sys", symerror: 1.0 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 1.2 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 1.2 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.1 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 1.7 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 1.9 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: 0.0, errors: [ { label: "sys", symerror: 1.7 } ] }
+  - { value: 0.7, errors: [ { label: "sys", symerror: 2.2 } ] }
+  - { value: 0.0, errors: [ { label: "sys", symerror: 1.7 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 1.9 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 1.7 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.1 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 1.2 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 1.2 } ] }
+  - { value: -0.3, errors: [ { label: "sys", symerror: 1.0 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.4 } ] }
+  - { value: 0.1, errors: [ { label: "sys", symerror: 1.6 } ] }
+  - { value: -0.2, errors: [ { label: "sys", symerror: 2.2 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.2 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.9 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 2.1 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.9 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.2 } ] }
+  - { value: -0.2, errors: [ { label: "sys", symerror: 2.2 } ] }
+  - { value: 0.1, errors: [ { label: "sys", symerror: 1.6 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.4 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-5.70" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 1.1 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -0.5, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.7 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-5.40" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.31, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.31, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -0.83, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.03, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.6 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.03, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.83, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-5.10" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.28, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.5 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -1.28, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.27, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.31, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.91, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: -0.91, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.31, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.27, errors: [ { label: "sys", symerror: 0.30 } ] }
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-4.80" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.73, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.78, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.78, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.73, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.35, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.33 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.35, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-4.50" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.75, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.98, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.03, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.08 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.08 } ] }
+  - { value: -2.03, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.98, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.75, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.44, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.14, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.14, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.44, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-4.20" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.12, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.12, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.16, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.16, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.16, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.16, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.20 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.90" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.83, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.14, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.83, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.31, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.16, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.84, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.84, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.16, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.31, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.60" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.13, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.07, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.12, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.07, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.13, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.46, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.07, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.62, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.07, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.46, errors: [ { label: "sys", symerror: 0.27 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.30" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.65, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.67, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.03, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.16, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.03, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.67, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.65, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.44, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.81, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.44, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.00" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.65, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.96, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.97, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2, errors: [ { label: "sys", symerror: 0.33 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.97, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.96, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.65, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.11 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-2.70" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.75, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.83, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.83, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.75, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.14, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.87, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.48, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.34, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.33, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.34, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.48, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.87, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.14, errors: [ { label: "sys", symerror: 0.21 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-2.40" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.35, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.52, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.76, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.76, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.76, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.52, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.35, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.68, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.68, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-2.10" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.81, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.46, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.54, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.45, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.54, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.46, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.81, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.66, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.56, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -0.48, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.18, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.11, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.04, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.04, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.11, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.18, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.48, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.56, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -0.66, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-1.80" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.55, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.13, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.55, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.48, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.00, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.04, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.25, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.39, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.42, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.39, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.25, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -0.04, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.00, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.48, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-1.50" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.32, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.35, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -0.52, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.68, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.77, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.62, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.37, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.62, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.77, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.68, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -0.52, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -0.35, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -0.32, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.05, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.42, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.71, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.81, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.78, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.81, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.71, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.42, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.05, errors: [ { label: "sys", symerror: 0.17 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-1.20" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.29, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.09, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -0.01, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -0.09, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.03, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.25, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.03, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.09, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.01, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -0.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.09, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.29, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.77, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.95, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.05, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 1.27, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 1.17, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.27, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 1.05, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 0.95, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.77, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.90" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.75, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 0.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.61, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.71, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.69, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.83, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 1.17, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 0.83, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.69, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.71, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.61, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 0.75, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: 1.07, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 1.45, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.67, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 1.67, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.45, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 1.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.07, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.10 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.60" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 1.42, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 1.42, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 1.38, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.43, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.55, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 1.55, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.43, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.38, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.42, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 1.42, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 1.56, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.67, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.76, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.83, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.92, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.92, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.83, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.76, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.67, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.56, errors: [ { label: "sys", symerror: 0.19 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.30" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 2.07, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.07, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.17, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 2.50, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.82, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 4.07, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: 2.82, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 2.50, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.17, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.07, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 2.07, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.14, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 2.27, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.40, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: 2.41, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.54, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.70, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.54, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.41, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.40, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: 2.27, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 2.14, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.00" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: 2.28, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.36, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.48, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.75, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 2.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 3.65, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 0.00 }
+  - { value: 3.65, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: 2.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 2.75, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 2.48, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.36, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.28, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: 2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.5, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: 2.45, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.61, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.62, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: 2.79, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 3.01, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: 2.79, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.62, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: 2.61, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.45, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: 2.5, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: 2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.30" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 3.07, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 3.39, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 3.75, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 4.96, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 3.75, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 3.39, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 3.07, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.21, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.26, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.51, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.65, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.51, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.26, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.21, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.60" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 1.64, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.64, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.71, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.97, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.97, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.71, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.90" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.03, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.34, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.03, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.22, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.72, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.72, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.22, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.17 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "1.20" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.35, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.19, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.31, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.19, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.35, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.16, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.33, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.35, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.33, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.16, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "1.50" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.39, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.39, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.07, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.74, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.76, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.76, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.74, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.07, errors: [ { label: "sys", symerror: 0.11 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "1.80" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.24, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.24, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.01, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.10, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.30, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.49, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.30, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.10, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.01, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "2.10" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.76, errors: [ { label: "sys", symerror: 0.08 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.29, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.1, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.06, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.02, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.02, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.06, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.1, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.29, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.76, errors: [ { label: "sys", symerror: 0.08 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "2.40" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.63, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.63, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.06, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "2.70" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.22, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.22, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.69, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.32, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.69, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.00" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.53, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.22 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.30" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.15, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.46, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.46, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.15, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.33 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.60" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.07 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.33, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.33, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.07 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.90" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.99, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.42, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.42, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.99, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "4.20" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "4.50" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.3, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.3, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.27 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "4.80" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -2.24, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.13, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "5.10" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.91, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.16, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.91, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.15, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "5.40" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.72, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.72, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "5.70" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "6.00" }
+  - { name: "METHOD", value: "p+p 200 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.30 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 1.50 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 1.50 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.30 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.90 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.60 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.90 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.60 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.90 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.10 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-6.00" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.30 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 1.50 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 1.50 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.30 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.90 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.60 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.90 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.60 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.90 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.10 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-5.70" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-5.40" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.72, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.72, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-5.10" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.91, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.16, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.91, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.15, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-4.80" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -2.24, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.13, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-4.50" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.3, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.3, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.27 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-4.20" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.90" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.99, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.42, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.42, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.99, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.60" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.07 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.33, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.33, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.07 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.30" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.15, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.46, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.46, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.15, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.33 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-3.00" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.53, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.22 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-2.70" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.22, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.22, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.69, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.32, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.69, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-2.40" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.63, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.63, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.06, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-2.10" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.76, errors: [ { label: "sys", symerror: 0.08 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.29, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.1, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.06, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.02, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.02, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.06, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.1, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.29, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.76, errors: [ { label: "sys", symerror: 0.08 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-1.80" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.24, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.24, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.01, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.10, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.30, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.49, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.30, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.10, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.01, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-1.50" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.39, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.39, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.07, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.74, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.76, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.76, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.74, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.07, errors: [ { label: "sys", symerror: 0.11 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-1.20" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.35, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.19, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.31, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.19, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.35, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.16, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.33, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.35, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.33, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.16, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.90" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.03, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.34, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.03, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.22, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.72, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.72, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.22, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.17 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.60" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 1.64, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.64, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.71, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.97, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.97, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.71, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "-0.30" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 3.07, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 3.39, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 3.75, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 4.96, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 3.75, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 3.39, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 3.07, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.21, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.26, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.51, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.65, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.51, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.26, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.21, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.00" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 2.54, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 2.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 3.03, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 3.27, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 3.50, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 3.85, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 4.81, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: 0.00 }
+  - { value: 4.81, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: 3.85, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 3.50, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 3.27, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 3.03, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: 2.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 2.54, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.56, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.56, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.67, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 2.67, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.83, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 2.74, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.77, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 2.74, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.83, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 2.67, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.67, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 2.56, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.56, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.30" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 3.07, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 3.39, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 3.75, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 4.96, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 3.75, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 3.39, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 3.07, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.30, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.21, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.26, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.51, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.65, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.57, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.51, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 2.46, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: 2.26, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.21, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.60" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 1.64, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.81, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 2.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 2.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.82, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 1.64, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.71, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.97, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.23, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 2.13, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: 2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 1.99, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.97, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.88, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 1.71, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "0.90" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.03, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.34, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.03, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 0.88, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: 0.98, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.22, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.72, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.73, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.72, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 1.66, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.58, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.44, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 1.39, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.22, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.17 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "1.20" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: 0.35, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.19, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.31, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.03, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: 0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.13, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.19, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.35, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 1.16, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.33, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.35, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: 1.33, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 1.16, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "1.50" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.39, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.57, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.39, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.21, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.13, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.07, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.74, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.76, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.76, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.74, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: 0.36, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.15, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.07, errors: [ { label: "sys", symerror: 0.11 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "1.80" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.24, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.24, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.99, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.86, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.64, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.01, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.10, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.30, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.49, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: 0.58, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.45, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: 0.30, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: 0.10, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: 0.01, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.19, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "2.10" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.76, errors: [ { label: "sys", symerror: 0.08 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.29, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.1, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.06, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: 0.02, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.17, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: 0.14, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: 0.02, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: 0.06, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.1, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.29, errors: [ { label: "sys", symerror: 0.11 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.76, errors: [ { label: "sys", symerror: 0.08 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "2.40" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.63, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.93, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.89, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.63, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.17, errors: [ { label: "sys", symerror: 0.09 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.06, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.17, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.79, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.15 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "2.70" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.22, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.22, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.86, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.68, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.69, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.32, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.28, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.43, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.47, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -0.69, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.88, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.18 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.00" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.26, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.01, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.53, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -0.54, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -0.61, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -0.89, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.05, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.22, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.22 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.30" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.15, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.46, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.46, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.15, errors: [ { label: "sys", symerror: 0.10 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.69, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.33 } ] }
+  - { value: -0.73, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -0.75, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.95, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.12, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.60" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.07 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.33, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.39, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.33, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -2.32, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.06, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.07 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -0.93, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -0.96, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.04, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.39, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.25 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "3.90" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.99, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.42, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.53, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.42, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.17, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.99, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.01, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.06, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.51, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -1.56, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "4.20" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -2.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.47, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.41, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.36, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -2.09, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.12 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.32, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.48, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.59, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.22 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "4.50" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.3, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.4, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.31, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.27, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -2.3, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.18, errors: [ { label: "sys", symerror: 0.16 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -2.05, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.85, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.21, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.26, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.37, errors: [ { label: "sys", symerror: 0.20 } ] }
+  - { value: -1.61, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.77, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.27 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "4.80" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -2.24, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -2.25, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -2.21, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.28, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.17 } ] }
+  - { value: -2.04, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.02, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.94, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.13, errors: [ { label: "sys", symerror: 0.29 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.22 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.33, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.19 } ] }
+  - { value: -1.49, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.66, errors: [ { label: "sys", symerror: 0.15 } ] }
+  - { value: -1.81, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "5.10" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.91, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.16, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -2.19, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -2.08, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -2.11, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.25 } ] }
+  - { value: -1.92, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.91, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.84, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.71, errors: [ { label: "sys", symerror: 0.18 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.15, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.18, errors: [ { label: "sys", symerror: 0.13 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.25, errors: [ { label: "sys", symerror: 0.14 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.53, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.55, errors: [ { label: "sys", symerror: 0.24 } ] }
+  - { value: -1.57, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "5.40" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.72, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -2.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.88, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.74, errors: [ { label: "sys", symerror: 0.32 } ] }
+  - { value: -1.82, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.72, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.58, errors: [ { label: "sys", symerror: 0.21 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.30 } ] }
+  - { value: -1.11, errors: [ { label: "sys", symerror: 0.35 } ] }
+  - { value: -1.09, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.19, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.41, errors: [ { label: "sys", symerror: 0.23 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.26 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "5.70" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.31 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.29, errors: [ { label: "sys", symerror: 0.26 } ] }
+  - { value: -1.43, errors: [ { label: "sys", symerror: 0.28 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.9, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.7, errors: [ { label: "sys", symerror: 0.40 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.50 } ] }
+  - { value: -1.36, errors: [ { label: "sys", symerror: 0.27 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 0.34 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.40 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\delta \\eta$", value: "6.00" }
+  - { name: "METHOD", value: "p+p 410 GeV, statistical errors are negligible." }
+  values:
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.30 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 1.50 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.7, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -1.5, errors: [ { label: "sys", symerror: 1.50 } ] }
+  - { value: -1.4, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.30 } ] }
+  - { value: -1.6, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -0.8, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.00 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.10 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.90 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.60 } ] }
+  - { value: -1.3, errors: [ { label: "sys", symerror: 1.90 } ] }
+  - { value: -1.2, errors: [ { label: "sys", symerror: 1.60 } ] }
+  - { value: -0.4, errors: [ { label: "sys", symerror: 1.40 } ] }
+  - { value: -1, errors: [ { label: "sys", symerror: 0.90 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 0.80 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -0.6, errors: [ { label: "sys", symerror: 1.20 } ] }
+  - { value: -1.1, errors: [ { label: "sys", symerror: 1.10 } ] }

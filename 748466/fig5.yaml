@@ -1,0 +1,16 @@
+independent_variables:
+- header: { name: "energy (GeV)" }
+  values:
+  - { value: 200 }
+  - { value: 410 }
+
+dependent_variables:
+- header: { name: "$K_{eff}$" }
+  values:
+  - { value: 2.44, errors: [ { label: "sys", symerror: 0.08 } ] }
+  - { value: 2.66, errors: [ { label: "sys", symerror: 0.10 } ] }
+
+- header: { name: "$\\delta$" }
+  values:
+  - { value: 0.66, errors: [ { label: "sys", symerror: 0.03 } ] }
+  - { value: 0.67, errors: [ { label: "sys", symerror: 0.03 } ] }

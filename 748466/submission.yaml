@@ -1,0 +1,208 @@
+#InspireHEP ID: 748466
+# Title: Cluster properties from two-particle angular correlations in p+p collisions at sqrt(s) = 200 and 410 GeV
+#Prepared by Eleanna Soto
+
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/748466", description: "InspireHEP ID: 748466" }
+- { location: "https://arxiv.org/abs/0704.0966", description: "arXiv ID: abs/0704.0966" }
+- { location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.75.054913", description: "Phys. Rev. C75, 054913 (2007)" }
+comment: |
+  We present results on two-particle angular correlations in proton-proton collisions at center of mass energies of 200 and 410~GeV. The PHOBOS experiment at the Relativistic Heavy Ion Collider has a uniquely large coverage for charged particles, giving the opportunity to explore the correlations at both short- and long-range scales. At both energies, a complex two-dimensional correlation structure in $\Delta \eta$ and $\Delta \phi$ is observed. In the context of an independent cluster model of short-range correlations, the cluster size and its decay width are extracted from the two-particle pseudorapidity correlation function and compared with previous measurements in proton-proton and proton-antiproton collisions, as well as PYTHIA and HIJING predictions.
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 1"
+location: Data from of figure 1 of Phys. Rev. C75, 054913 (2007)
+description: Two-particle correlation function in $\delta \eta$ and $\delta \phi$ for generator level PYTHIA for primary hadrons and PYTHIA with full GEANT detector simulation and reconstruction procedures in p+p collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+# Start of table entries.
+# This is Table 1.
+name: "Figure 2"
+location: Data from of figure 2 of Phys. Rev. C75, 054913 (2007)
+description: Raw two-particle correlation function for $p+p$ collision data, Correction function $S(\Delta\eta,\Delta\phi)$ from PYTHIA, and Final two-particle correlation function for p+p collision data in $\Delta\eta$ and $\Delta\phi$ at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+# This is Table 1.
+name: "Figure 3"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Two-particle angular correlation function in $\Delta\eta$ and $\Delta\phi$ in p+p collisions at $\sqrt{s_{NN}}=200$ GeV and 410 GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200, 410 ]
+data_file: fig3.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+# This is Table 1.
+name: "Figure 4"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Two-particle pseudorapidity correlation function, averaged over the $\Delta\phi$ range from $0^\circ$ to $180^\circ$, in p+p collisions at $\sqrt{s_{NN}}=200$ GeV and $410$ GeV. $90\%$ C.L, the statistical errors are negligible.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200, 410 ]
+data_file: fig4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+# This is Table 1.
+name: "Figure 5: PHOBOS "
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: $K_{eff}$ and $\delta$ as a function of $\sqrt{s_{NN}}$ measured by PHOBOS in solid circles, as well as UA5 [1] and ISR [2, 12] experiments for p+p and p+$\bar{p}$ collisions.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200, 410 ]
+data_file: fig5.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 5: Other experiments "
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: $K_{eff}$ and $\delta$ as a function of $\sqrt{s_{NN}}$ measured by PHOBOS in solid circles, as well as UA5 [1] and ISR [2, 12] experiments for p+p and p+$\bar{p}$ collisions.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 23, 53, 63, 200, 410, 540, 900 ]
+data_file: fig5.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+# This is Table 1.
+name: "Figure 6: $\\sqrt{s_{NN}}=200$"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Normalized effective cluster size $K_{eff}/\langle K_{eff}\rangle$ and decay width $\delta/\langle\delta\rangle$ as a function of normalized multiplicity $n/\langle n\rangle$ in p+p collisions at $\sqrt{s_{NN}}=200$ and $410$ GeV measured by PHOBOS, as well as MC studies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig6.200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+# This is Table 1.
+name: "Figure 6: $\\sqrt{s_{NN}}=410$"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Normalized effective cluster size $K_{eff}/\langle K_{eff}\rangle$ and decay width $\delta/\langle\delta\rangle$ as a function of normalized multiplicity $n/\langle n\rangle$ in p+p collisions at $\sqrt{s_{NN}}=410$ and $410$ GeV measured by PHOBOS, as well as MC studies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 410 ]
+data_file: fig6.410.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+# This is Table 1.
+name: "Figure 7"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Normalized effective cluster size $K_{eff}/\langle K_{eff}\rangle$ and decay width $\delta/\langle\delta\rangle$ as a function of $\Delta\phi$ in p+p collisions at $\sqrt{s_{NN}}=200$ and $410$ GeV measured by PHOBOS, as well as MC studies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200, 410 ]
+data_file: fig7.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig7.png }
+---
+# This is Table 1.
+name: "Figure 8"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Two-particle azimuthal correlation function, averaged over the $\Delta\eta$ range from $0$ to $6$, in p+p collisions at $\sqrt{s_{NN}}=200$ GeV and $410$ GeV from PHOBOS, as well as MC studies.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200, 410 ]
+data_file: fig8.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig8.png }
+---
+# This is Table 1.
+name: "Figure 9"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Difference of the correlation function with HBT weighting minus the one without HBT weighting in $\Delta\eta$ and $\Delta\phi$ for PYTHIA at $\sqrt{s_{NN}}=200$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig9.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig9.png }
+---
+# This is Table 1.
+name: "Figure 10"
+location: Data from of figure  of Phys. Rev. C75, 054913 (2007)
+description: Comparison of the pseudorapidity correlation function with and without HBT weighting for PYTHIA at $\sqrt{s_{NN}}=200$ GeV.
+
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig10.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig10.png }
+---
+
+

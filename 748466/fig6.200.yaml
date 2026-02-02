@@ -1,0 +1,76 @@
+independent_variables:
+- header: { name: "$n/\\langle n \\rangle$" }
+  values:
+  - { value: 0.51 }
+  - { value: 0.82 }
+  - { value: 1.17 }
+  - { value: 1.50 }
+  - { value: 1.85 }
+  - { value: 2.23 }
+
+dependent_variables:
+- header: { name: "$K_{\\mathrm{eff}}/\\langle K_{\\mathrm{eff}} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 0.84, errors: [ { label: "sys", symerror: 0.02 } ] }
+  - { value: 0.94, errors: [ { label: "sys", symerror: 0.03 } ] }
+  - { value: 1.04, errors: [ { label: "sys", symerror: 0.02 } ] }
+  - { value: 1.07, errors: [ { label: "sys", symerror: 0.03 } ] }
+  - { value: 1.08, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 1.10, errors: [ { label: "sys", symerror: 0.06 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 1.01, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 1.01, errors: [ { label: "sys", symerror: 0.03 } ] }
+  - { value: 0.99, errors: [ { label: "sys", symerror: 0.05 } ] }
+  - { value: 0.92, errors: [ { label: "sys", symerror: 0.13 } ] }
+
+- header: { name: "$K_{\\mathrm{eff}}/\\langle K_{\\mathrm{eff}} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PYTHIA" }
+  values:
+  - { value: 0.971, errors: [ { label: "stat", symerror: 0.005 } ] }
+  - { value: 0.994, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.017, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.029, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.045, errors: [ { label: "stat", symerror: 0.007 } ] }
+  - { value: 1.052, errors: [ { label: "stat", symerror: 0.008 } ] }
+
+- header: { name: "$K_{\\mathrm{eff}}/\\langle K_{\\mathrm{eff}} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "HIJING" }
+  values:
+  - { value: 0.977, errors: [ { label: "stat", symerror: 0.006 } ] }
+  - { value: 1.008, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.023, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.035, errors: [ { label: "stat", symerror: 0.006 } ] }
+  - { value: 1.041, errors: [ { label: "stat", symerror: 0.007 } ] }
+  - { value: 1.047, errors: [ { label: "stat", symerror: 0.007 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PYTHIA" }
+  values:
+  - { value: 1.016, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 1.009, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.011, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.008, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 0.984, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 0.952, errors: [ { label: "stat", symerror: 0.004 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "HIJING" }
+  values:
+  - { value: 0.970, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 1.012, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 0.985, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.987, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.015, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 0.992, errors: [ { label: "stat", symerror: 0.003 } ] }

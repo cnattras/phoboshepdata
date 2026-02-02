@@ -1,0 +1,128 @@
+independent_variables:
+- header: { name: "$\\Delta\\phi$ (degrees)" }
+  values:
+  - { value: 22.5 }
+  - { value: 67.5 }
+  - { value: 112.5 }
+  - { value: 157.5 }
+
+dependent_variables:
+- header: { name: "$K_{eff}/\\langle K_{eff} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PHOBOS p+p" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 1.15, errors: [ { label: "sys", symerror: 0.05 } ] }
+  - { value: 1.10, errors: [ { label: "sys", symerror: 0.05 } ] }
+  - { value: 0.92, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 0.79, errors: [ { label: "sys", symerror: 0.04 } ] }
+
+- header: { name: "$K_{eff}/\\langle K_{eff} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PHOBOS p+p" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "410 GeV" }
+  values:
+  - { value: 1.17, errors: [ { label: "sys", symerror: 0.05 } ] }
+  - { value: 1.09, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 0.93, errors: [ { label: "sys", symerror: 0.04 } ] }
+  - { value: 0.79, errors: [ { label: "sys", symerror: 0.04 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PHOBOS p+p" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 0.86, errors: [ { label: "sys", symerror: 0.02 } ] }
+  - { value: 1.01, errors: [ { label: "sys", symerror: 0.02 } ] }
+  - { value: 1.06, errors: [ { label: "sys", symerror: 0.03 } ] }
+  - { value: 1.14, errors: [ { label: "sys", symerror: 0.03 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PHOBOS p+p" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "410 GeV" }
+  values:
+  - { value: 0.82, errors: [ { label: "sys", symerror: 0.02 } ] }
+  - { value: 0.97, errors: [ { label: "sys", symerror: 0.02 } ] }
+  - { value: 1.07, errors: [ { label: "sys", symerror: 0.03 } ] }
+  - { value: 1.13, errors: [ { label: "sys", symerror: 0.03 } ] }
+
+- header: { name: "$K_{eff}/\\langle K_{eff} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PYTHIA" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 1.192, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 1.074, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 0.928, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.785, errors: [ { label: "stat", symerror: 0.003 } ] }
+
+- header: { name: "$K_{eff}/\\langle K_{eff} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PYTHIA" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "410 GeV" }
+  values:
+  - { value: 1.207, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.061, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.933, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.814, errors: [ { label: "stat", symerror: 0.005 } ] }
+
+- header: { name: "$K_{eff}/\\langle K_{eff} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "HIJING" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 1.211, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 1.093, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.912, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.746, errors: [ { label: "stat", symerror: 0.004 } ] }
+
+- header: { name: "$K_{eff}/\\langle K_{eff} \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "HIJING" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "410 GeV" }
+  values:
+  - { value: 1.217, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 1.089, errors: [ { label: "stat", symerror: 0.003 } ] }
+  - { value: 0.907, errors: [ { label: "stat", symerror: 0.004 } ] }
+  - { value: 0.738, errors: [ { label: "stat", symerror: 0.004 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PYTHIA" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 0.879, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.909, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.015, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.212, errors: [ { label: "stat", symerror: 0.002 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "PYTHIA" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "410 GeV" }
+  values:
+  - { value: 0.864, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.939, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.030, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.212, errors: [ { label: "stat", symerror: 0.002 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "HIJING" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 0.838, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.897, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.985, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.191, errors: [ { label: "stat", symerror: 0.002 } ] }
+
+- header: { name: "$\\delta/\\langle \\delta \\rangle$" }
+  qualifiers:
+  - { name: "MODEL", value: "HIJING" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "410 GeV" }
+  values:
+  - { value: 0.824, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.897, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 0.985, errors: [ { label: "stat", symerror: 0.002 } ] }
+  - { value: 1.147, errors: [ { label: "stat", symerror: 0.002 } ] }

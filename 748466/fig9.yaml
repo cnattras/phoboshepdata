@@ -1,0 +1,1550 @@
+independent_variables:
+- header: { name: "$\\Delta\\phi$", units: "deg" }
+  values:
+  - { value: -90 }
+  - { value: -78.75 }
+  - { value: -67.5 }
+  - { value: -56.25 }
+  - { value: -45 }
+  - { value: -33.75 }
+  - { value: -22.5 }
+  - { value: -11.25 }
+  - { value: 0.0 }
+  - { value: 11.25 }
+  - { value: 22.5 }
+  - { value: 33.75 }
+  - { value: 45.0 }
+  - { value: 56.25 }
+  - { value: 67.5 }
+  - { value: 78.75 }
+  - { value: 90.0 }
+  - { value: 101.25 }
+  - { value: 112.5 }
+  - { value: 123.75 }
+  - { value: 135.0 }
+  - { value: 146.25 }
+  - { value: 157.5 }
+  - { value: 168.75 }
+  - { value: 180.0 }
+  - { value: 191.25 }
+  - { value: 202.5 }
+  - { value: 213.75 }
+  - { value: 225.0 }
+  - { value: 236.25 }
+  - { value: 247.5 }
+  - { value: 258.75 }
+dependent_variables:
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-6.00" }
+  values:
+  - { value: -0.032877, errors: [ { label: "stat", symerror: 0.472832 } ] }
+  - { value: -0.077563, errors: [ { label: "stat", symerror: 0.472818 } ] }
+  - { value: -0.271486, errors: [ { label: "stat", symerror: 0.477544 } ] }
+  - { value: 0.069828, errors: [ { label: "stat", symerror: 0.476463 } ] }
+  - { value: 0.148785, errors: [ { label: "stat", symerror: 0.466632 } ] }
+  - { value: 0.402862, errors: [ { label: "stat", symerror: 0.468268 } ] }
+  - { value: -0.579929, errors: [ { label: "stat", symerror: 0.476873 } ] }
+  - { value: -0.042238, errors: [ { label: "stat", symerror: 0.482671 } ] }
+  - { value: -0.404851, errors: [ { label: "stat", symerror: 0.488431 } ] }
+  - { value: -0.042238, errors: [ { label: "stat", symerror: 0.482671 } ] }
+  - { value: -0.579929, errors: [ { label: "stat", symerror: 0.476873 } ] }
+  - { value: 0.402862, errors: [ { label: "stat", symerror: 0.468268 } ] }
+  - { value: 0.148785, errors: [ { label: "stat", symerror: 0.466632 } ] }
+  - { value: 0.069828, errors: [ { label: "stat", symerror: 0.476463 } ] }
+  - { value: -0.271486, errors: [ { label: "stat", symerror: 0.477544 } ] }
+  - { value: -0.077563, errors: [ { label: "stat", symerror: 0.472818 } ] }
+  - { value: -0.032877, errors: [ { label: "stat", symerror: 0.472832 } ] }
+  - { value: 0.048984, errors: [ { label: "stat", symerror: 0.472307 } ] }
+  - { value: -0.151771, errors: [ { label: "stat", symerror: 0.482680 } ] }
+  - { value: -0.450528, errors: [ { label: "stat", symerror: 0.492889 } ] }
+  - { value: -0.202806, errors: [ { label: "stat", symerror: 0.475224 } ] }
+  - { value: -0.014976, errors: [ { label: "stat", symerror: 0.490014 } ] }
+  - { value: 0.297962, errors: [ { label: "stat", symerror: 0.489360 } ] }
+  - { value: 0.176102, errors: [ { label: "stat", symerror: 0.490635 } ] }
+  - { value: 0.279142, errors: [ { label: "stat", symerror: 0.492104 } ] }
+  - { value: 0.176102, errors: [ { label: "stat", symerror: 0.490635 } ] }
+  - { value: 0.297962, errors: [ { label: "stat", symerror: 0.489360 } ] }
+  - { value: -0.014976, errors: [ { label: "stat", symerror: 0.490014 } ] }
+  - { value: -0.202806, errors: [ { label: "stat", symerror: 0.475224 } ] }
+  - { value: -0.450528, errors: [ { label: "stat", symerror: 0.492889 } ] }
+  - { value: -0.151771, errors: [ { label: "stat", symerror: 0.482680 } ] }
+  - { value: 0.048984, errors: [ { label: "stat", symerror: 0.472307 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-5.70" }
+  values:
+  - { value: 0.104197, errors: [ { label: "stat", symerror: 0.161859 } ] }
+  - { value: -0.001076, errors: [ { label: "stat", symerror: 0.161833 } ] }
+  - { value: 0.102590, errors: [ { label: "stat", symerror: 0.162283 } ] }
+  - { value: -0.015767, errors: [ { label: "stat", symerror: 0.162145 } ] }
+  - { value: 0.058330, errors: [ { label: "stat", symerror: 0.160557 } ] }
+  - { value: -0.055214, errors: [ { label: "stat", symerror: 0.160159 } ] }
+  - { value: 0.028351, errors: [ { label: "stat", symerror: 0.162115 } ] }
+  - { value: -0.070744, errors: [ { label: "stat", symerror: 0.159890 } ] }
+  - { value: -0.131656, errors: [ { label: "stat", symerror: 0.160220 } ] }
+  - { value: -0.070744, errors: [ { label: "stat", symerror: 0.159890 } ] }
+  - { value: 0.028351, errors: [ { label: "stat", symerror: 0.162115 } ] }
+  - { value: -0.055214, errors: [ { label: "stat", symerror: 0.160159 } ] }
+  - { value: 0.058330, errors: [ { label: "stat", symerror: 0.160558 } ] }
+  - { value: -0.015767, errors: [ { label: "stat", symerror: 0.162144 } ] }
+  - { value: 0.102590, errors: [ { label: "stat", symerror: 0.162283 } ] }
+  - { value: -0.001076, errors: [ { label: "stat", symerror: 0.161832 } ] }
+  - { value: 0.104197, errors: [ { label: "stat", symerror: 0.161859 } ] }
+  - { value: 0.011983, errors: [ { label: "stat", symerror: 0.160664 } ] }
+  - { value: -0.139809, errors: [ { label: "stat", symerror: 0.161076 } ] }
+  - { value: 0.047647, errors: [ { label: "stat", symerror: 0.161432 } ] }
+  - { value: -0.062176, errors: [ { label: "stat", symerror: 0.161324 } ] }
+  - { value: -0.10333, errors: [ { label: "stat", symerror: 0.162966 } ] }
+  - { value: -0.066528, errors: [ { label: "stat", symerror: 0.162852 } ] }
+  - { value: 0.058429, errors: [ { label: "stat", symerror: 0.163272 } ] }
+  - { value: -0.041736, errors: [ { label: "stat", symerror: 0.164180 } ] }
+  - { value: 0.058429, errors: [ { label: "stat", symerror: 0.163272 } ] }
+  - { value: -0.066528, errors: [ { label: "stat", symerror: 0.162852 } ] }
+  - { value: -0.10333, errors: [ { label: "stat", symerror: 0.162966 } ] }
+  - { value: -0.062176, errors: [ { label: "stat", symerror: 0.161324 } ] }
+  - { value: 0.047647, errors: [ { label: "stat", symerror: 0.161432 } ] }
+  - { value: -0.139809, errors: [ { label: "stat", symerror: 0.161076 } ] }
+  - { value: 0.011983, errors: [ { label: "stat", symerror: 0.160664 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-5.40" }
+  values:
+  - { value: -0.003698, errors: [ { label: "stat", symerror: 0.107807 } ] }
+  - { value: -0.039478, errors: [ { label: "stat", symerror: 0.107802 } ] }
+  - { value: 0.029216, errors: [ { label: "stat", symerror: 0.106643 } ] }
+  - { value: -0.111242, errors: [ { label: "stat", symerror: 0.106949 } ] }
+  - { value: -0.051549, errors: [ { label: "stat", symerror: 0.106687 } ] }
+  - { value: -0.070475, errors: [ { label: "stat", symerror: 0.107145 } ] }
+  - { value: -0.093116, errors: [ { label: "stat", symerror: 0.106753 } ] }
+  - { value: -0.024509, errors: [ { label: "stat", symerror: 0.106656 } ] }
+  - { value: 0.062348, errors: [ { label: "stat", symerror: 0.106507 } ] }
+  - { value: -0.024509, errors: [ { label: "stat", symerror: 0.106656 } ] }
+  - { value: -0.093116, errors: [ { label: "stat", symerror: 0.106753 } ] }
+  - { value: -0.070475, errors: [ { label: "stat", symerror: 0.107145 } ] }
+  - { value: -0.051549, errors: [ { label: "stat", symerror: 0.106687 } ] }
+  - { value: -0.111242, errors: [ { label: "stat", symerror: 0.106949 } ] }
+  - { value: 0.029217, errors: [ { label: "stat", symerror: 0.106644 } ] }
+  - { value: -0.039478, errors: [ { label: "stat", symerror: 0.107802 } ] }
+  - { value: -0.003698, errors: [ { label: "stat", symerror: 0.107807 } ] }
+  - { value: 0.018746, errors: [ { label: "stat", symerror: 0.107633 } ] }
+  - { value: -0.048114, errors: [ { label: "stat", symerror: 0.108092 } ] }
+  - { value: 0.017377, errors: [ { label: "stat", symerror: 0.108938 } ] }
+  - { value: -0.113453, errors: [ { label: "stat", symerror: 0.108418 } ] }
+  - { value: -0.011225, errors: [ { label: "stat", symerror: 0.108442 } ] }
+  - { value: -0.061621, errors: [ { label: "stat", symerror: 0.108674 } ] }
+  - { value: -0.014231, errors: [ { label: "stat", symerror: 0.109265 } ] }
+  - { value: -0.002696, errors: [ { label: "stat", symerror: 0.109304 } ] }
+  - { value: -0.014231, errors: [ { label: "stat", symerror: 0.109265 } ] }
+  - { value: -0.061621, errors: [ { label: "stat", symerror: 0.108675 } ] }
+  - { value: -0.011225, errors: [ { label: "stat", symerror: 0.108441 } ] }
+  - { value: -0.113453, errors: [ { label: "stat", symerror: 0.108418 } ] }
+  - { value: 0.017377, errors: [ { label: "stat", symerror: 0.108938 } ] }
+  - { value: -0.048114, errors: [ { label: "stat", symerror: 0.108092 } ] }
+  - { value: 0.018746, errors: [ { label: "stat", symerror: 0.107633 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-5.10" }
+  values:
+  - { value: -0.043022, errors: [ { label: "stat", symerror: 0.083089 } ] }
+  - { value: -0.047504, errors: [ { label: "stat", symerror: 0.082975 } ] }
+  - { value: -0.031024, errors: [ { label: "stat", symerror: 0.082927 } ] }
+  - { value: -0.057462, errors: [ { label: "stat", symerror: 0.082483 } ] }
+  - { value: -0.004435, errors: [ { label: "stat", symerror: 0.083038 } ] }
+  - { value: -0.036536, errors: [ { label: "stat", symerror: 0.082430 } ] }
+  - { value: -0.083231, errors: [ { label: "stat", symerror: 0.082892 } ] }
+  - { value: -0.006399, errors: [ { label: "stat", symerror: 0.082599 } ] }
+  - { value: -0.056419, errors: [ { label: "stat", symerror: 0.082362 } ] }
+  - { value: -0.006399, errors: [ { label: "stat", symerror: 0.082599 } ] }
+  - { value: -0.083231, errors: [ { label: "stat", symerror: 0.082892 } ] }
+  - { value: -0.036536, errors: [ { label: "stat", symerror: 0.082429 } ] }
+  - { value: -0.004435, errors: [ { label: "stat", symerror: 0.083038 } ] }
+  - { value: -0.057462, errors: [ { label: "stat", symerror: 0.082483 } ] }
+  - { value: -0.031024, errors: [ { label: "stat", symerror: 0.082927 } ] }
+  - { value: -0.047504, errors: [ { label: "stat", symerror: 0.082975 } ] }
+  - { value: -0.043022, errors: [ { label: "stat", symerror: 0.083089 } ] }
+  - { value: -0.026143, errors: [ { label: "stat", symerror: 0.084061 } ] }
+  - { value: 0.034062, errors: [ { label: "stat", symerror: 0.083591 } ] }
+  - { value: 0.042287, errors: [ { label: "stat", symerror: 0.084230 } ] }
+  - { value: -0.071472, errors: [ { label: "stat", symerror: 0.084318 } ] }
+  - { value: -0.017661, errors: [ { label: "stat", symerror: 0.084204 } ] }
+  - { value: -0.011546, errors: [ { label: "stat", symerror: 0.084498 } ] }
+  - { value: -0.001729, errors: [ { label: "stat", symerror: 0.084270 } ] }
+  - { value: 0.045241, errors: [ { label: "stat", symerror: 0.084443 } ] }
+  - { value: -0.001729, errors: [ { label: "stat", symerror: 0.084270 } ] }
+  - { value: -0.011546, errors: [ { label: "stat", symerror: 0.084498 } ] }
+  - { value: -0.017661, errors: [ { label: "stat", symerror: 0.084204 } ] }
+  - { value: -0.071472, errors: [ { label: "stat", symerror: 0.084318 } ] }
+  - { value: 0.042287, errors: [ { label: "stat", symerror: 0.084230 } ] }
+  - { value: 0.034062, errors: [ { label: "stat", symerror: 0.083591 } ] }
+  - { value: -0.026143, errors: [ { label: "stat", symerror: 0.084061 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-4.80" }
+  values:
+  - { value: -0.01643, errors: [ { label: "stat", symerror: 0.069098 } ] }
+  - { value: -0.004885, errors: [ { label: "stat", symerror: 0.068831 } ] }
+  - { value: 0.014375, errors: [ { label: "stat", symerror: 0.069180 } ] }
+  - { value: -0.03806, errors: [ { label: "stat", symerror: 0.068679 } ] }
+  - { value: -0.055746, errors: [ { label: "stat", symerror: 0.068079 } ] }
+  - { value: 0.015228, errors: [ { label: "stat", symerror: 0.068510 } ] }
+  - { value: -0.036726, errors: [ { label: "stat", symerror: 0.068059 } ] }
+  - { value: -0.019545, errors: [ { label: "stat", symerror: 0.068095 } ] }
+  - { value: 0.044322, errors: [ { label: "stat", symerror: 0.068696 } ] }
+  - { value: -0.019545, errors: [ { label: "stat", symerror: 0.068096 } ] }
+  - { value: -0.036726, errors: [ { label: "stat", symerror: 0.068059 } ] }
+  - { value: 0.015228, errors: [ { label: "stat", symerror: 0.068510 } ] }
+  - { value: -0.055746, errors: [ { label: "stat", symerror: 0.068079 } ] }
+  - { value: -0.03806, errors: [ { label: "stat", symerror: 0.068679 } ] }
+  - { value: 0.014375, errors: [ { label: "stat", symerror: 0.069180 } ] }
+  - { value: -0.004885, errors: [ { label: "stat", symerror: 0.068831 } ] }
+  - { value: -0.01643, errors: [ { label: "stat", symerror: 0.069098 } ] }
+  - { value: 0.015694, errors: [ { label: "stat", symerror: 0.068969 } ] }
+  - { value: -0.013642, errors: [ { label: "stat", symerror: 0.069382 } ] }
+  - { value: -0.002183, errors: [ { label: "stat", symerror: 0.069653 } ] }
+  - { value: -0.008336, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.028607, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.057895, errors: [ { label: "stat", symerror: 0.070108 } ] }
+  - { value: 0.012106, errors: [ { label: "stat", symerror: 0.069834 } ] }
+  - { value: 0.022198, errors: [ { label: "stat", symerror: 0.069847 } ] }
+  - { value: 0.012106, errors: [ { label: "stat", symerror: 0.069834 } ] }
+  - { value: -0.057895, errors: [ { label: "stat", symerror: 0.070108 } ] }
+  - { value: -0.028607, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.008336, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.002183, errors: [ { label: "stat", symerror: 0.069653 } ] }
+  - { value: -0.013642, errors: [ { label: "stat", symerror: 0.069382 } ] }
+  - { value: 0.015694, errors: [ { label: "stat", symerror: 0.068969 } ] }
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-4.50" }
+  values:
+  - { value: -0.05591, errors: [ { label: "stat", symerror: 0.059980 } ] }
+  - { value: -0.016198, errors: [ { label: "stat", symerror: 0.059749 } ] }
+  - { value: 0.000516, errors: [ { label: "stat", symerror: 0.059423 } ] }
+  - { value: -0.046317, errors: [ { label: "stat", symerror: 0.059142 } ] }
+  - { value: -0.01733, errors: [ { label: "stat", symerror: 0.059193 } ] }
+  - { value: -0.033686, errors: [ { label: "stat", symerror: 0.059281 } ] }
+  - { value: -0.040822, errors: [ { label: "stat", symerror: 0.059130 } ] }
+  - { value: 0.006996, errors: [ { label: "stat", symerror: 0.058829 } ] }
+  - { value: -0.080404, errors: [ { label: "stat", symerror: 0.059087 } ] }
+  - { value: 0.006996, errors: [ { label: "stat", symerror: 0.058829 } ] }
+  - { value: -0.040822, errors: [ { label: "stat", symerror: 0.059130 } ] }
+  - { value: -0.033686, errors: [ { label: "stat", symerror: 0.059281 } ] }
+  - { value: -0.01733, errors: [ { label: "stat", symerror: 0.059193 } ] }
+  - { value: -0.046317, errors: [ { label: "stat", symerror: 0.059142 } ] }
+  - { value: 0.000516, errors: [ { label: "stat", symerror: 0.059423 } ] }
+  - { value: -0.016198, errors: [ { label: "stat", symerror: 0.059749 } ] }
+  - { value: -0.05591, errors: [ { label: "stat", symerror: 0.059980 } ] }
+  - { value: -0.035938, errors: [ { label: "stat", symerror: 0.060022 } ] }
+  - { value: -0.005651, errors: [ { label: "stat", symerror: 0.060070 } ] }
+  - { value: -0.00605, errors: [ { label: "stat", symerror: 0.060288 } ] }
+  - { value: -0.071241, errors: [ { label: "stat", symerror: 0.060278 } ] }
+  - { value: -0.001078, errors: [ { label: "stat", symerror: 0.060781 } ] }
+  - { value: -0.025773, errors: [ { label: "stat", symerror: 0.060660 } ] }
+  - { value: -0.040894, errors: [ { label: "stat", symerror: 0.060571 } ] }
+  - { value: -0.020367, errors: [ { label: "stat", symerror: 0.060969 } ] }
+  - { value: -0.040894, errors: [ { label: "stat", symerror: 0.060571 } ] }
+  - { value: -0.025773, errors: [ { label: "stat", symerror: 0.060660 } ] }
+  - { value: -0.001078, errors: [ { label: "stat", symerror: 0.060781 } ] }
+  - { value: -0.071241, errors: [ { label: "stat", symerror: 0.060278 } ] }
+  - { value: -0.00605, errors: [ { label: "stat", symerror: 0.060288 } ] }
+  - { value: -0.005651, errors: [ { label: "stat", symerror: 0.060070 } ] }
+  - { value: -0.035938, errors: [ { label: "stat", symerror: 0.060022 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-4.20" }
+  values:
+  - { value: -0.015164, errors: [ { label: "stat", symerror: 0.053258 } ] }
+  - { value: -0.017705, errors: [ { label: "stat", symerror: 0.053103 } ] }
+  - { value: -0.005051, errors: [ { label: "stat", symerror: 0.052897 } ] }
+  - { value: 0.001611, errors: [ { label: "stat", symerror: 0.053045 } ] }
+  - { value: -0.03466, errors: [ { label: "stat", symerror: 0.052807 } ] }
+  - { value: 0.017410, errors: [ { label: "stat", symerror: 0.052786 } ] }
+  - { value: -0.02226, errors: [ { label: "stat", symerror: 0.052744 } ] }
+  - { value: -0.006162, errors: [ { label: "stat", symerror: 0.052493 } ] }
+  - { value: 0.032311, errors: [ { label: "stat", symerror: 0.052574 } ] }
+  - { value: -0.006162, errors: [ { label: "stat", symerror: 0.052493 } ] }
+  - { value: -0.02226, errors: [ { label: "stat", symerror: 0.052744 } ] }
+  - { value: 0.017410, errors: [ { label: "stat", symerror: 0.052786 } ] }
+  - { value: -0.034661, errors: [ { label: "stat", symerror: 0.052807 } ] }
+  - { value: 0.001611, errors: [ { label: "stat", symerror: 0.053045 } ] }
+  - { value: -0.005051, errors: [ { label: "stat", symerror: 0.052898 } ] }
+  - { value: -0.017705, errors: [ { label: "stat", symerror: 0.053103 } ] }
+  - { value: -0.015164, errors: [ { label: "stat", symerror: 0.053258 } ] }
+  - { value: 0.041705, errors: [ { label: "stat", symerror: 0.053618 } ] }
+  - { value: -0.012044, errors: [ { label: "stat", symerror: 0.053429 } ] }
+  - { value: -0.049235, errors: [ { label: "stat", symerror: 0.053935 } ] }
+  - { value: -0.041085, errors: [ { label: "stat", symerror: 0.054203 } ] }
+  - { value: -0.036908, errors: [ { label: "stat", symerror: 0.054045 } ] }
+  - { value: 0.016417, errors: [ { label: "stat", symerror: 0.054348 } ] }
+  - { value: 0.016329, errors: [ { label: "stat", symerror: 0.054490 } ] }
+  - { value: -0.065795, errors: [ { label: "stat", symerror: 0.054394 } ] }
+  - { value: 0.016329, errors: [ { label: "stat", symerror: 0.054490 } ] }
+  - { value: 0.016417, errors: [ { label: "stat", symerror: 0.054348 } ] }
+  - { value: -0.036908, errors: [ { label: "stat", symerror: 0.054045 } ] }
+  - { value: -0.041085, errors: [ { label: "stat", symerror: 0.054203 } ] }
+  - { value: -0.049235, errors: [ { label: "stat", symerror: 0.053935 } ] }
+  - { value: -0.012044, errors: [ { label: "stat", symerror: 0.053429 } ] }
+  - { value: 0.041705, errors: [ { label: "stat", symerror: 0.053618 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-3.90" }
+  values:
+  - { value: -0.005366, errors: [ { label: "stat", symerror: 0.048683 } ] }
+  - { value: -0.029665, errors: [ { label: "stat", symerror: 0.048393 } ] }
+  - { value: -0.06798, errors: [ { label: "stat", symerror: 0.048194 } ] }
+  - { value: -0.026047, errors: [ { label: "stat", symerror: 0.048190 } ] }
+  - { value: 0.001831, errors: [ { label: "stat", symerror: 0.048093 } ] }
+  - { value: -0.031029, errors: [ { label: "stat", symerror: 0.047979 } ] }
+  - { value: -0.002877, errors: [ { label: "stat", symerror: 0.048106 } ] }
+  - { value: -0.031582, errors: [ { label: "stat", symerror: 0.047821 } ] }
+  - { value: -0.056936, errors: [ { label: "stat", symerror: 0.047913 } ] }
+  - { value: -0.031582, errors: [ { label: "stat", symerror: 0.047821 } ] }
+  - { value: -0.002877, errors: [ { label: "stat", symerror: 0.048106 } ] }
+  - { value: -0.031029, errors: [ { label: "stat", symerror: 0.047978 } ] }
+  - { value: 0.001831, errors: [ { label: "stat", symerror: 0.048093 } ] }
+  - { value: -0.026047, errors: [ { label: "stat", symerror: 0.048190 } ] }
+  - { value: -0.06798, errors: [ { label: "stat", symerror: 0.048194 } ] }
+  - { value: -0.029665, errors: [ { label: "stat", symerror: 0.048393 } ] }
+  - { value: -0.005366, errors: [ { label: "stat", symerror: 0.048683 } ] }
+  - { value: 0.009528, errors: [ { label: "stat", symerror: 0.048838 } ] }
+  - { value: -0.037038, errors: [ { label: "stat", symerror: 0.048956 } ] }
+  - { value: 0.038292, errors: [ { label: "stat", symerror: 0.049424 } ] }
+  - { value: -0.007967, errors: [ { label: "stat", symerror: 0.049409 } ] }
+  - { value: -0.041267, errors: [ { label: "stat", symerror: 0.049607 } ] }
+  - { value: -0.02052, errors: [ { label: "stat", symerror: 0.049590 } ] }
+  - { value: -0.04162, errors: [ { label: "stat", symerror: 0.049857 } ] }
+  - { value: -0.062766, errors: [ { label: "stat", symerror: 0.049617 } ] }
+  - { value: -0.04162, errors: [ { label: "stat", symerror: 0.049857 } ] }
+  - { value: -0.02052, errors: [ { label: "stat", symerror: 0.049590 } ] }
+  - { value: -0.041267, errors: [ { label: "stat", symerror: 0.049607 } ] }
+  - { value: -0.007967, errors: [ { label: "stat", symerror: 0.049409 } ] }
+  - { value: 0.038292, errors: [ { label: "stat", symerror: 0.049424 } ] }
+  - { value: -0.037038, errors: [ { label: "stat", symerror: 0.048955 } ] }
+  - { value: 0.009528, errors: [ { label: "stat", symerror: 0.048838 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-3.60" }
+  values:
+  - { value: -0.012232, errors: [ { label: "stat", symerror: 0.045128 } ] }
+  - { value: 0.001212, errors: [ { label: "stat", symerror: 0.044821 } ] }
+  - { value: -0.016977, errors: [ { label: "stat", symerror: 0.044845 } ] }
+  - { value: -0.036223, errors: [ { label: "stat", symerror: 0.044658 } ] }
+  - { value: -0.007636, errors: [ { label: "stat", symerror: 0.044616 } ] }
+  - { value: 0.008754, errors: [ { label: "stat", symerror: 0.044608 } ] }
+  - { value: -0.028105, errors: [ { label: "stat", symerror: 0.044483 } ] }
+  - { value: -0.039219, errors: [ { label: "stat", symerror: 0.044377 } ] }
+  - { value: -0.010953, errors: [ { label: "stat", symerror: 0.044562 } ] }
+  - { value: -0.039219, errors: [ { label: "stat", symerror: 0.044377 } ] }
+  - { value: -0.028105, errors: [ { label: "stat", symerror: 0.044483 } ] }
+  - { value: 0.008754, errors: [ { label: "stat", symerror: 0.044608 } ] }
+  - { value: -0.007636, errors: [ { label: "stat", symerror: 0.044616 } ] }
+  - { value: -0.036223, errors: [ { label: "stat", symerror: 0.044658 } ] }
+  - { value: -0.016977, errors: [ { label: "stat", symerror: 0.044845 } ] }
+  - { value: 0.001212, errors: [ { label: "stat", symerror: 0.044821 } ] }
+  - { value: -0.012232, errors: [ { label: "stat", symerror: 0.045128 } ] }
+  - { value: -0.026721, errors: [ { label: "stat", symerror: 0.045227 } ] }
+  - { value: -0.037185, errors: [ { label: "stat", symerror: 0.045519 } ] }
+  - { value: -0.003493, errors: [ { label: "stat", symerror: 0.045668 } ] }
+  - { value: -0.019856, errors: [ { label: "stat", symerror: 0.045824 } ] }
+  - { value: -0.043393, errors: [ { label: "stat", symerror: 0.046067 } ] }
+  - { value: -0.049728, errors: [ { label: "stat", symerror: 0.046201 } ] }
+  - { value: -0.02267, errors: [ { label: "stat", symerror: 0.046240 } ] }
+  - { value: -0.031897, errors: [ { label: "stat", symerror: 0.046301 } ] }
+  - { value: -0.02267, errors: [ { label: "stat", symerror: 0.046240 } ] }
+  - { value: -0.049728, errors: [ { label: "stat", symerror: 0.046201 } ] }
+  - { value: -0.043393, errors: [ { label: "stat", symerror: 0.046067 } ] }
+  - { value: -0.019856, errors: [ { label: "stat", symerror: 0.045824 } ] }
+  - { value: -0.003493, errors: [ { label: "stat", symerror: 0.045668 } ] }
+  - { value: -0.037185, errors: [ { label: "stat", symerror: 0.045519 } ] }
+  - { value: -0.026721, errors: [ { label: "stat", symerror: 0.045227 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-3.30" }
+  values:
+  - { value: -0.016543, errors: [ { label: "stat", symerror: 0.042504 } ] }
+  - { value: -0.023547, errors: [ { label: "stat", symerror: 0.042349 } ] }
+  - { value: -0.044986, errors: [ { label: "stat", symerror: 0.042117 } ] }
+  - { value: -0.037877, errors: [ { label: "stat", symerror: 0.041995 } ] }
+  - { value: -0.024622, errors: [ { label: "stat", symerror: 0.041951 } ] }
+  - { value: -0.042739, errors: [ { label: "stat", symerror: 0.041755 } ] }
+  - { value: -0.046901, errors: [ { label: "stat", symerror: 0.041835 } ] }
+  - { value: -0.02172, errors: [ { label: "stat", symerror: 0.041683 } ] }
+  - { value: -0.042283, errors: [ { label: "stat", symerror: 0.041648 } ] }
+  - { value: -0.02172, errors: [ { label: "stat", symerror: 0.041683 } ] }
+  - { value: -0.046901, errors: [ { label: "stat", symerror: 0.041835 } ] }
+  - { value: -0.042739, errors: [ { label: "stat", symerror: 0.041755 } ] }
+  - { value: -0.024623, errors: [ { label: "stat", symerror: 0.041951 } ] }
+  - { value: -0.037877, errors: [ { label: "stat", symerror: 0.041995 } ] }
+  - { value: -0.044986, errors: [ { label: "stat", symerror: 0.042117 } ] }
+  - { value: -0.023547, errors: [ { label: "stat", symerror: 0.042349 } ] }
+  - { value: -0.016543, errors: [ { label: "stat", symerror: 0.042504 } ] }
+  - { value: -0.052808, errors: [ { label: "stat", symerror: 0.042477 } ] }
+  - { value: -0.004042, errors: [ { label: "stat", symerror: 0.042835 } ] }
+  - { value: -0.020615, errors: [ { label: "stat", symerror: 0.042950 } ] }
+  - { value: -0.027027, errors: [ { label: "stat", symerror: 0.043149 } ] }
+  - { value: -0.056495, errors: [ { label: "stat", symerror: 0.043222 } ] }
+  - { value: -0.036216, errors: [ { label: "stat", symerror: 0.043481 } ] }
+  - { value: -0.004349, errors: [ { label: "stat", symerror: 0.043548 } ] }
+  - { value: -0.023865, errors: [ { label: "stat", symerror: 0.043564 } ] }
+  - { value: -0.004349, errors: [ { label: "stat", symerror: 0.043548 } ] }
+  - { value: -0.036216, errors: [ { label: "stat", symerror: 0.043481 } ] }
+  - { value: -0.056495, errors: [ { label: "stat", symerror: 0.043222 } ] }
+  - { value: -0.027027, errors: [ { label: "stat", symerror: 0.043149 } ] }
+  - { value: -0.020615, errors: [ { label: "stat", symerror: 0.042950 } ] }
+  - { value: -0.004042, errors: [ { label: "stat", symerror: 0.042835 } ] }
+  - { value: -0.052808, errors: [ { label: "stat", symerror: 0.042477 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-3.00" }
+  values:
+  - { value: -0.008881, errors: [ { label: "stat", symerror: 0.040253 } ] }
+  - { value: -0.025768, errors: [ { label: "stat", symerror: 0.039963 } ] }
+  - { value: -0.016907, errors: [ { label: "stat", symerror: 0.039853 } ] }
+  - { value: -0.010606, errors: [ { label: "stat", symerror: 0.039711 } ] }
+  - { value: -0.012581, errors: [ { label: "stat", symerror: 0.039666 } ] }
+  - { value: -0.043312, errors: [ { label: "stat", symerror: 0.039638 } ] }
+  - { value: 0.002550, errors: [ { label: "stat", symerror: 0.039649 } ] }
+  - { value: -0.041704, errors: [ { label: "stat", symerror: 0.039617 } ] }
+  - { value: -0.029406, errors: [ { label: "stat", symerror: 0.039563 } ] }
+  - { value: -0.041704, errors: [ { label: "stat", symerror: 0.039617 } ] }
+  - { value: 0.002648, errors: [ { label: "stat", symerror: 0.039648 } ] }
+  - { value: -0.04341, errors: [ { label: "stat", symerror: 0.039638 } ] }
+  - { value: -0.012581, errors: [ { label: "stat", symerror: 0.039666 } ] }
+  - { value: -0.010606, errors: [ { label: "stat", symerror: 0.039711 } ] }
+  - { value: -0.016907, errors: [ { label: "stat", symerror: 0.039853 } ] }
+  - { value: -0.025768, errors: [ { label: "stat", symerror: 0.039963 } ] }
+  - { value: -0.008881, errors: [ { label: "stat", symerror: 0.040253 } ] }
+  - { value: -0.054211, errors: [ { label: "stat", symerror: 0.040349 } ] }
+  - { value: -0.030598, errors: [ { label: "stat", symerror: 0.040506 } ] }
+  - { value: -0.052959, errors: [ { label: "stat", symerror: 0.040759 } ] }
+  - { value: -0.024091, errors: [ { label: "stat", symerror: 0.041064 } ] }
+  - { value: -0.010078, errors: [ { label: "stat", symerror: 0.041114 } ] }
+  - { value: -0.026483, errors: [ { label: "stat", symerror: 0.041270 } ] }
+  - { value: -0.008899, errors: [ { label: "stat", symerror: 0.041371 } ] }
+  - { value: -0.023432, errors: [ { label: "stat", symerror: 0.041332 } ] }
+  - { value: -0.008909, errors: [ { label: "stat", symerror: 0.041371 } ] }
+  - { value: -0.026473, errors: [ { label: "stat", symerror: 0.041270 } ] }
+  - { value: -0.010078, errors: [ { label: "stat", symerror: 0.041114 } ] }
+  - { value: -0.024091, errors: [ { label: "stat", symerror: 0.041064 } ] }
+  - { value: -0.052959, errors: [ { label: "stat", symerror: 0.040759 } ] }
+  - { value: -0.030598, errors: [ { label: "stat", symerror: 0.040506 } ] }
+  - { value: -0.054211, errors: [ { label: "stat", symerror: 0.040349 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-2.70" }
+  values:
+  - { value: -0.055554, errors: [ { label: "stat", symerror: 0.038305 } ] }
+  - { value: -0.03495, errors: [ { label: "stat", symerror: 0.038153 } ] }
+  - { value: -0.053898, errors: [ { label: "stat", symerror: 0.037888 } ] }
+  - { value: -0.026213, errors: [ { label: "stat", symerror: 0.037849 } ] }
+  - { value: -0.034319, errors: [ { label: "stat", symerror: 0.037857 } ] }
+  - { value: -0.019766, errors: [ { label: "stat", symerror: 0.037746 } ] }
+  - { value: -0.0249, errors: [ { label: "stat", symerror: 0.037787 } ] }
+  - { value: -0.012803, errors: [ { label: "stat", symerror: 0.037714 } ] }
+  - { value: -0.005892, errors: [ { label: "stat", symerror: 0.037584 } ] }
+  - { value: -0.012803, errors: [ { label: "stat", symerror: 0.037714 } ] }
+  - { value: -0.024901, errors: [ { label: "stat", symerror: 0.037787 } ] }
+  - { value: -0.019766, errors: [ { label: "stat", symerror: 0.037746 } ] }
+  - { value: -0.034319, errors: [ { label: "stat", symerror: 0.037857 } ] }
+  - { value: -0.026213, errors: [ { label: "stat", symerror: 0.037849 } ] }
+  - { value: -0.053898, errors: [ { label: "stat", symerror: 0.037889 } ] }
+  - { value: -0.03495, errors: [ { label: "stat", symerror: 0.038153 } ] }
+  - { value: -0.055555, errors: [ { label: "stat", symerror: 0.038305 } ] }
+  - { value: -0.053088, errors: [ { label: "stat", symerror: 0.038460 } ] }
+  - { value: -0.005054, errors: [ { label: "stat", symerror: 0.038748 } ] }
+  - { value: -0.044176, errors: [ { label: "stat", symerror: 0.038900 } ] }
+  - { value: -0.036882, errors: [ { label: "stat", symerror: 0.039055 } ] }
+  - { value: -0.051443, errors: [ { label: "stat", symerror: 0.039259 } ] }
+  - { value: -0.046028, errors: [ { label: "stat", symerror: 0.039367 } ] }
+  - { value: -0.018804, errors: [ { label: "stat", symerror: 0.039499 } ] }
+  - { value: -0.035798, errors: [ { label: "stat", symerror: 0.039376 } ] }
+  - { value: -0.018804, errors: [ { label: "stat", symerror: 0.039499 } ] }
+  - { value: -0.046028, errors: [ { label: "stat", symerror: 0.039367 } ] }
+  - { value: -0.051443, errors: [ { label: "stat", symerror: 0.039259 } ] }
+  - { value: -0.036882, errors: [ { label: "stat", symerror: 0.039055 } ] }
+  - { value: -0.044176, errors: [ { label: "stat", symerror: 0.038900 } ] }
+  - { value: -0.005054, errors: [ { label: "stat", symerror: 0.038748 } ] }
+  - { value: -0.053088, errors: [ { label: "stat", symerror: 0.038460 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-2.40" }
+  values:
+  - { value: -0.022085, errors: [ { label: "stat", symerror: 0.036727 } ] }
+  - { value: -0.01577, errors: [ { label: "stat", symerror: 0.036558 } ] }
+  - { value: -0.02615, errors: [ { label: "stat", symerror: 0.036392 } ] }
+  - { value: -0.048165, errors: [ { label: "stat", symerror: 0.036292 } ] }
+  - { value: -0.033772, errors: [ { label: "stat", symerror: 0.036277 } ] }
+  - { value: -0.012892, errors: [ { label: "stat", symerror: 0.036280 } ] }
+  - { value: -0.013195, errors: [ { label: "stat", symerror: 0.036190 } ] }
+  - { value: -0.052349, errors: [ { label: "stat", symerror: 0.036116 } ] }
+  - { value: -0.021188, errors: [ { label: "stat", symerror: 0.036133 } ] }
+  - { value: -0.052349, errors: [ { label: "stat", symerror: 0.036116 } ] }
+  - { value: -0.013195, errors: [ { label: "stat", symerror: 0.036190 } ] }
+  - { value: -0.012892, errors: [ { label: "stat", symerror: 0.036280 } ] }
+  - { value: -0.033772, errors: [ { label: "stat", symerror: 0.036277 } ] }
+  - { value: -0.048165, errors: [ { label: "stat", symerror: 0.036292 } ] }
+  - { value: -0.02615, errors: [ { label: "stat", symerror: 0.036392 } ] }
+  - { value: -0.01577, errors: [ { label: "stat", symerror: 0.036558 } ] }
+  - { value: -0.022085, errors: [ { label: "stat", symerror: 0.036727 } ] }
+  - { value: -0.010947, errors: [ { label: "stat", symerror: 0.036911 } ] }
+  - { value: -0.036023, errors: [ { label: "stat", symerror: 0.037110 } ] }
+  - { value: -0.034149, errors: [ { label: "stat", symerror: 0.037273 } ] }
+  - { value: -0.031479, errors: [ { label: "stat", symerror: 0.037521 } ] }
+  - { value: -0.039641, errors: [ { label: "stat", symerror: 0.037605 } ] }
+  - { value: -0.045002, errors: [ { label: "stat", symerror: 0.037806 } ] }
+  - { value: -0.03352, errors: [ { label: "stat", symerror: 0.037868 } ] }
+  - { value: -0.039334, errors: [ { label: "stat", symerror: 0.037910 } ] }
+  - { value: -0.033529, errors: [ { label: "stat", symerror: 0.037868 } ] }
+  - { value: -0.044994, errors: [ { label: "stat", symerror: 0.037806 } ] }
+  - { value: -0.039641, errors: [ { label: "stat", symerror: 0.037605 } ] }
+  - { value: -0.031487, errors: [ { label: "stat", symerror: 0.037521 } ] }
+  - { value: -0.034141, errors: [ { label: "stat", symerror: 0.037273 } ] }
+  - { value: -0.036023, errors: [ { label: "stat", symerror: 0.037110 } ] }
+  - { value: -0.010947, errors: [ { label: "stat", symerror: 0.036911 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-2.10" }
+  values:
+  - { value: -0.038856, errors: [ { label: "stat", symerror: 0.035305 } ] }
+  - { value: -0.028115, errors: [ { label: "stat", symerror: 0.035101 } ] }
+  - { value: -0.001231, errors: [ { label: "stat", symerror: 0.035019 } ] }
+  - { value: -0.031307, errors: [ { label: "stat", symerror: 0.034959 } ] }
+  - { value: -0.018371, errors: [ { label: "stat", symerror: 0.034863 } ] }
+  - { value: -0.041149, errors: [ { label: "stat", symerror: 0.034934 } ] }
+  - { value: -0.014414, errors: [ { label: "stat", symerror: 0.034877 } ] }
+  - { value: -0.016274, errors: [ { label: "stat", symerror: 0.034691 } ] }
+  - { value: -0.02818, errors: [ { label: "stat", symerror: 0.034731 } ] }
+  - { value: -0.016268, errors: [ { label: "stat", symerror: 0.034691 } ] }
+  - { value: -0.014414, errors: [ { label: "stat", symerror: 0.034877 } ] }
+  - { value: -0.041149, errors: [ { label: "stat", symerror: 0.034934 } ] }
+  - { value: -0.018379, errors: [ { label: "stat", symerror: 0.034863 } ] }
+  - { value: -0.031299, errors: [ { label: "stat", symerror: 0.034959 } ] }
+  - { value: -0.00124, errors: [ { label: "stat", symerror: 0.035019 } ] }
+  - { value: -0.028105, errors: [ { label: "stat", symerror: 0.035101 } ] }
+  - { value: -0.038856, errors: [ { label: "stat", symerror: 0.035305 } ] }
+  - { value: -0.009807, errors: [ { label: "stat", symerror: 0.035412 } ] }
+  - { value: -0.008487, errors: [ { label: "stat", symerror: 0.035538 } ] }
+  - { value: -0.013547, errors: [ { label: "stat", symerror: 0.035764 } ] }
+  - { value: -0.056392, errors: [ { label: "stat", symerror: 0.035973 } ] }
+  - { value: -0.016588, errors: [ { label: "stat", symerror: 0.036043 } ] }
+  - { value: -0.020912, errors: [ { label: "stat", symerror: 0.036312 } ] }
+  - { value: -0.038789, errors: [ { label: "stat", symerror: 0.036389 } ] }
+  - { value: -0.004496, errors: [ { label: "stat", symerror: 0.036434 } ] }
+  - { value: -0.038789, errors: [ { label: "stat", symerror: 0.036389 } ] }
+  - { value: -0.020912, errors: [ { label: "stat", symerror: 0.036312 } ] }
+  - { value: -0.016588, errors: [ { label: "stat", symerror: 0.036043 } ] }
+  - { value: -0.056392, errors: [ { label: "stat", symerror: 0.035973 } ] }
+  - { value: -0.013547, errors: [ { label: "stat", symerror: 0.035764 } ] }
+  - { value: -0.008487, errors: [ { label: "stat", symerror: 0.035538 } ] }
+  - { value: -0.009807, errors: [ { label: "stat", symerror: 0.035412 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-1.80" }
+  values:
+  - { value: -0.034154, errors: [ { label: "stat", symerror: 0.034017 } ] }
+  - { value: -0.052073, errors: [ { label: "stat", symerror: 0.033870 } ] }
+  - { value: -0.011916, errors: [ { label: "stat", symerror: 0.033816 } ] }
+  - { value: -0.02279, errors: [ { label: "stat", symerror: 0.033729 } ] }
+  - { value: -0.025829, errors: [ { label: "stat", symerror: 0.033649 } ] }
+  - { value: -0.017042, errors: [ { label: "stat", symerror: 0.033708 } ] }
+  - { value: -0.003281, errors: [ { label: "stat", symerror: 0.033633 } ] }
+  - { value: -0.039954, errors: [ { label: "stat", symerror: 0.033676 } ] }
+  - { value: -0.028923, errors: [ { label: "stat", symerror: 0.033603 } ] }
+  - { value: -0.039954, errors: [ { label: "stat", symerror: 0.033676 } ] }
+  - { value: -0.003281, errors: [ { label: "stat", symerror: 0.033633 } ] }
+  - { value: -0.017042, errors: [ { label: "stat", symerror: 0.033708 } ] }
+  - { value: -0.025829, errors: [ { label: "stat", symerror: 0.033649 } ] }
+  - { value: -0.02279, errors: [ { label: "stat", symerror: 0.033728 } ] }
+  - { value: -0.011916, errors: [ { label: "stat", symerror: 0.033816 } ] }
+  - { value: -0.052073, errors: [ { label: "stat", symerror: 0.033870 } ] }
+  - { value: -0.034154, errors: [ { label: "stat", symerror: 0.034017 } ] }
+  - { value: -0.030087, errors: [ { label: "stat", symerror: 0.034043 } ] }
+  - { value: -0.039362, errors: [ { label: "stat", symerror: 0.034237 } ] }
+  - { value: -0.045139, errors: [ { label: "stat", symerror: 0.034495 } ] }
+  - { value: -0.040247, errors: [ { label: "stat", symerror: 0.034630 } ] }
+  - { value: -0.029823, errors: [ { label: "stat", symerror: 0.034798 } ] }
+  - { value: -0.027279, errors: [ { label: "stat", symerror: 0.034932 } ] }
+  - { value: -0.053787, errors: [ { label: "stat", symerror: 0.035036 } ] }
+  - { value: -0.009223, errors: [ { label: "stat", symerror: 0.035155 } ] }
+  - { value: -0.053794, errors: [ { label: "stat", symerror: 0.035036 } ] }
+  - { value: -0.027271, errors: [ { label: "stat", symerror: 0.034932 } ] }
+  - { value: -0.029823, errors: [ { label: "stat", symerror: 0.034798 } ] }
+  - { value: -0.040257, errors: [ { label: "stat", symerror: 0.034630 } ] }
+  - { value: -0.045129, errors: [ { label: "stat", symerror: 0.034495 } ] }
+  - { value: -0.039362, errors: [ { label: "stat", symerror: 0.034237 } ] }
+  - { value: -0.030087, errors: [ { label: "stat", symerror: 0.034043 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-1.50" }
+  values:
+  - { value: -0.012167, errors: [ { label: "stat", symerror: 0.032814 } ] }
+  - { value: 0.011058, errors: [ { label: "stat", symerror: 0.032767 } ] }
+  - { value: 0.001555, errors: [ { label: "stat", symerror: 0.032744 } ] }
+  - { value: -0.016352, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.001566, errors: [ { label: "stat", symerror: 0.032621 } ] }
+  - { value: -0.035189, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.015233, errors: [ { label: "stat", symerror: 0.032687 } ] }
+  - { value: 0.002268, errors: [ { label: "stat", symerror: 0.032703 } ] }
+  - { value: -0.031348, errors: [ { label: "stat", symerror: 0.032692 } ] }
+  - { value: 0.002255, errors: [ { label: "stat", symerror: 0.032703 } ] }
+  - { value: 0.015241, errors: [ { label: "stat", symerror: 0.032687 } ] }
+  - { value: -0.035184, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.001686, errors: [ { label: "stat", symerror: 0.032621 } ] }
+  - { value: -0.016471, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.001555, errors: [ { label: "stat", symerror: 0.032744 } ] }
+  - { value: 0.011058, errors: [ { label: "stat", symerror: 0.032767 } ] }
+  - { value: -0.012167, errors: [ { label: "stat", symerror: 0.032814 } ] }
+  - { value: -0.015894, errors: [ { label: "stat", symerror: 0.032975 } ] }
+  - { value: 0.003652, errors: [ { label: "stat", symerror: 0.033107 } ] }
+  - { value: -0.01845, errors: [ { label: "stat", symerror: 0.033287 } ] }
+  - { value: -0.027385, errors: [ { label: "stat", symerror: 0.033477 } ] }
+  - { value: -0.039936, errors: [ { label: "stat", symerror: 0.033488 } ] }
+  - { value: -0.038251, errors: [ { label: "stat", symerror: 0.033808 } ] }
+  - { value: -0.01776, errors: [ { label: "stat", symerror: 0.033864 } ] }
+  - { value: 0.003307, errors: [ { label: "stat", symerror: 0.033893 } ] }
+  - { value: -0.01776, errors: [ { label: "stat", symerror: 0.033864 } ] }
+  - { value: -0.038251, errors: [ { label: "stat", symerror: 0.033808 } ] }
+  - { value: -0.039936, errors: [ { label: "stat", symerror: 0.033488 } ] }
+  - { value: -0.027389, errors: [ { label: "stat", symerror: 0.033477 } ] }
+  - { value: -0.018446, errors: [ { label: "stat", symerror: 0.033287 } ] }
+  - { value: 0.003652, errors: [ { label: "stat", symerror: 0.033107 } ] }
+  - { value: -0.015894, errors: [ { label: "stat", symerror: 0.032975 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-1.20" }
+  values:
+  - { value: -0.016769, errors: [ { label: "stat", symerror: 0.031803 } ] }
+  - { value: -0.012896, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: 0.004834, errors: [ { label: "stat", symerror: 0.031781 } ] }
+  - { value: -0.015005, errors: [ { label: "stat", symerror: 0.031799 } ] }
+  - { value: 0.003756, errors: [ { label: "stat", symerror: 0.031816 } ] }
+  - { value: 0.009975, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: 0.027743, errors: [ { label: "stat", symerror: 0.031879 } ] }
+  - { value: 0.031749, errors: [ { label: "stat", symerror: 0.031930 } ] }
+  - { value: 0.030389, errors: [ { label: "stat", symerror: 0.031867 } ] }
+  - { value: 0.031749, errors: [ { label: "stat", symerror: 0.031930 } ] }
+  - { value: 0.027724, errors: [ { label: "stat", symerror: 0.031879 } ] }
+  - { value: 0.009995, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: 0.003756, errors: [ { label: "stat", symerror: 0.031816 } ] }
+  - { value: -0.015005, errors: [ { label: "stat", symerror: 0.031799 } ] }
+  - { value: 0.004834, errors: [ { label: "stat", symerror: 0.031781 } ] }
+  - { value: -0.012896, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: -0.016769, errors: [ { label: "stat", symerror: 0.031803 } ] }
+  - { value: 0.004748, errors: [ { label: "stat", symerror: 0.032020 } ] }
+  - { value: -0.0252, errors: [ { label: "stat", symerror: 0.032125 } ] }
+  - { value: -0.012821, errors: [ { label: "stat", symerror: 0.032241 } ] }
+  - { value: -0.017837, errors: [ { label: "stat", symerror: 0.032487 } ] }
+  - { value: -0.027351, errors: [ { label: "stat", symerror: 0.032477 } ] }
+  - { value: -0.014417, errors: [ { label: "stat", symerror: 0.032624 } ] }
+  - { value: -0.025858, errors: [ { label: "stat", symerror: 0.032720 } ] }
+  - { value: -0.014934, errors: [ { label: "stat", symerror: 0.032751 } ] }
+  - { value: -0.025858, errors: [ { label: "stat", symerror: 0.032720 } ] }
+  - { value: -0.014417, errors: [ { label: "stat", symerror: 0.032624 } ] }
+  - { value: -0.027351, errors: [ { label: "stat", symerror: 0.032477 } ] }
+  - { value: -0.017837, errors: [ { label: "stat", symerror: 0.032487 } ] }
+  - { value: -0.012821, errors: [ { label: "stat", symerror: 0.032241 } ] }
+  - { value: -0.0252, errors: [ { label: "stat", symerror: 0.032125 } ] }
+  - { value: 0.004748, errors: [ { label: "stat", symerror: 0.032020 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-0.90" }
+  values:
+  - { value: -0.016722, errors: [ { label: "stat", symerror: 0.031034 } ] }
+  - { value: -0.04439, errors: [ { label: "stat", symerror: 0.031084 } ] }
+  - { value: 0.022994, errors: [ { label: "stat", symerror: 0.031090 } ] }
+  - { value: 0.016657, errors: [ { label: "stat", symerror: 0.031120 } ] }
+  - { value: 0.002362, errors: [ { label: "stat", symerror: 0.031221 } ] }
+  - { value: 0.027316, errors: [ { label: "stat", symerror: 0.031308 } ] }
+  - { value: 0.017922, errors: [ { label: "stat", symerror: 0.031385 } ] }
+  - { value: 0.059233, errors: [ { label: "stat", symerror: 0.031398 } ] }
+  - { value: 0.080955, errors: [ { label: "stat", symerror: 0.031423 } ] }
+  - { value: 0.059233, errors: [ { label: "stat", symerror: 0.031398 } ] }
+  - { value: 0.017922, errors: [ { label: "stat", symerror: 0.031385 } ] }
+  - { value: 0.027316, errors: [ { label: "stat", symerror: 0.031308 } ] }
+  - { value: 0.002356, errors: [ { label: "stat", symerror: 0.031221 } ] }
+  - { value: 0.016662, errors: [ { label: "stat", symerror: 0.031120 } ] }
+  - { value: 0.022994, errors: [ { label: "stat", symerror: 0.031090 } ] }
+  - { value: -0.04439, errors: [ { label: "stat", symerror: 0.031084 } ] }
+  - { value: -0.016734, errors: [ { label: "stat", symerror: 0.031034 } ] }
+  - { value: 0.001373, errors: [ { label: "stat", symerror: 0.031096 } ] }
+  - { value: 0.004130, errors: [ { label: "stat", symerror: 0.031213 } ] }
+  - { value: -0.02516, errors: [ { label: "stat", symerror: 0.031419 } ] }
+  - { value: -0.005225, errors: [ { label: "stat", symerror: 0.031589 } ] }
+  - { value: -0.060414, errors: [ { label: "stat", symerror: 0.031631 } ] }
+  - { value: -0.032296, errors: [ { label: "stat", symerror: 0.031754 } ] }
+  - { value: -0.001424, errors: [ { label: "stat", symerror: 0.031819 } ] }
+  - { value: -0.054542, errors: [ { label: "stat", symerror: 0.031889 } ] }
+  - { value: -0.001424, errors: [ { label: "stat", symerror: 0.031819 } ] }
+  - { value: -0.032296, errors: [ { label: "stat", symerror: 0.031754 } ] }
+  - { value: -0.060414, errors: [ { label: "stat", symerror: 0.031631 } ] }
+  - { value: -0.005225, errors: [ { label: "stat", symerror: 0.031589 } ] }
+  - { value: -0.02516, errors: [ { label: "stat", symerror: 0.031419 } ] }
+  - { value: 0.004130, errors: [ { label: "stat", symerror: 0.031213 } ] }
+  - { value: 0.001361, errors: [ { label: "stat", symerror: 0.031096 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-0.60" }
+  values:
+  - { value: 0.004738, errors: [ { label: "stat", symerror: 0.030446 } ] }
+  - { value: -0.021372, errors: [ { label: "stat", symerror: 0.030368 } ] }
+  - { value: 0.001178, errors: [ { label: "stat", symerror: 0.030471 } ] }
+  - { value: 0.041146, errors: [ { label: "stat", symerror: 0.030559 } ] }
+  - { value: 0.081407, errors: [ { label: "stat", symerror: 0.030755 } ] }
+  - { value: 0.087301, errors: [ { label: "stat", symerror: 0.030847 } ] }
+  - { value: 0.134272, errors: [ { label: "stat", symerror: 0.030964 } ] }
+  - { value: 0.155191, errors: [ { label: "stat", symerror: 0.031102 } ] }
+  - { value: 0.222782, errors: [ { label: "stat", symerror: 0.031160 } ] }
+  - { value: 0.155186, errors: [ { label: "stat", symerror: 0.031102 } ] }
+  - { value: 0.134271, errors: [ { label: "stat", symerror: 0.030964 } ] }
+  - { value: 0.087307, errors: [ { label: "stat", symerror: 0.030847 } ] }
+  - { value: 0.081407, errors: [ { label: "stat", symerror: 0.030755 } ] }
+  - { value: 0.041146, errors: [ { label: "stat", symerror: 0.030559 } ] }
+  - { value: 0.001178, errors: [ { label: "stat", symerror: 0.030471 } ] }
+  - { value: -0.021372, errors: [ { label: "stat", symerror: 0.030368 } ] }
+  - { value: 0.004738, errors: [ { label: "stat", symerror: 0.030446 } ] }
+  - { value: -0.006456, errors: [ { label: "stat", symerror: 0.030463 } ] }
+  - { value: -0.019404, errors: [ { label: "stat", symerror: 0.030549 } ] }
+  - { value: -0.007881, errors: [ { label: "stat", symerror: 0.030700 } ] }
+  - { value: -0.002781, errors: [ { label: "stat", symerror: 0.030831 } ] }
+  - { value: -0.007571, errors: [ { label: "stat", symerror: 0.030994 } ] }
+  - { value: -0.032002, errors: [ { label: "stat", symerror: 0.031049 } ] }
+  - { value: -0.02, errors: [ { label: "stat", symerror: 0.031124 } ] }
+  - { value: -0.060804, errors: [ { label: "stat", symerror: 0.031307 } ] }
+  - { value: -0.02, errors: [ { label: "stat", symerror: 0.031124 } ] }
+  - { value: -0.032002, errors: [ { label: "stat", symerror: 0.031049 } ] }
+  - { value: -0.007571, errors: [ { label: "stat", symerror: 0.030994 } ] }
+  - { value: -0.002781, errors: [ { label: "stat", symerror: 0.030831 } ] }
+  - { value: -0.007881, errors: [ { label: "stat", symerror: 0.030700 } ] }
+  - { value: -0.019404, errors: [ { label: "stat", symerror: 0.030549 } ] }
+  - { value: -0.006456, errors: [ { label: "stat", symerror: 0.030463 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "-0.30" }
+  values:
+  - { value: -0.004149, errors: [ { label: "stat", symerror: 0.029920 } ] }
+  - { value: 0.017691, errors: [ { label: "stat", symerror: 0.029992 } ] }
+  - { value: 0.029107, errors: [ { label: "stat", symerror: 0.030054 } ] }
+  - { value: 0.052207, errors: [ { label: "stat", symerror: 0.030144 } ] }
+  - { value: 0.103801, errors: [ { label: "stat", symerror: 0.030323 } ] }
+  - { value: 0.181954, errors: [ { label: "stat", symerror: 0.030568 } ] }
+  - { value: 0.272134, errors: [ { label: "stat", symerror: 0.030758 } ] }
+  - { value: 0.382644, errors: [ { label: "stat", symerror: 0.030912 } ] }
+  - { value: 0.390324, errors: [ { label: "stat", symerror: 0.030900 } ] }
+  - { value: 0.382637, errors: [ { label: "stat", symerror: 0.030912 } ] }
+  - { value: 0.272137, errors: [ { label: "stat", symerror: 0.030758 } ] }
+  - { value: 0.181958, errors: [ { label: "stat", symerror: 0.030568 } ] }
+  - { value: 0.103794, errors: [ { label: "stat", symerror: 0.030323 } ] }
+  - { value: 0.052214, errors: [ { label: "stat", symerror: 0.030144 } ] }
+  - { value: 0.029107, errors: [ { label: "stat", symerror: 0.030054 } ] }
+  - { value: 0.017691, errors: [ { label: "stat", symerror: 0.029992 } ] }
+  - { value: -0.004149, errors: [ { label: "stat", symerror: 0.029920 } ] }
+  - { value: 0.030440, errors: [ { label: "stat", symerror: 0.029945 } ] }
+  - { value: -0.008691, errors: [ { label: "stat", symerror: 0.030010 } ] }
+  - { value: -0.01783, errors: [ { label: "stat", symerror: 0.030116 } ] }
+  - { value: -0.009541, errors: [ { label: "stat", symerror: 0.030300 } ] }
+  - { value: -0.027795, errors: [ { label: "stat", symerror: 0.030386 } ] }
+  - { value: -0.018185, errors: [ { label: "stat", symerror: 0.030449 } ] }
+  - { value: -0.016158, errors: [ { label: "stat", symerror: 0.030503 } ] }
+  - { value: 0.003341, errors: [ { label: "stat", symerror: 0.030636 } ] }
+  - { value: -0.016158, errors: [ { label: "stat", symerror: 0.030503 } ] }
+  - { value: -0.018185, errors: [ { label: "stat", symerror: 0.030449 } ] }
+  - { value: -0.027795, errors: [ { label: "stat", symerror: 0.030386 } ] }
+  - { value: -0.009545, errors: [ { label: "stat", symerror: 0.030300 } ] }
+  - { value: -0.017826, errors: [ { label: "stat", symerror: 0.030116 } ] }
+  - { value: -0.008691, errors: [ { label: "stat", symerror: 0.030010 } ] }
+  - { value: 0.030440, errors: [ { label: "stat", symerror: 0.029945 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "0.00" }
+  values:
+  - { value: 0.015895, errors: [ { label: "stat", symerror: 0.029656 } ] }
+  - { value: 0.017910, errors: [ { label: "stat", symerror: 0.029664 } ] }
+  - { value: 0.088247, errors: [ { label: "stat", symerror: 0.029647 } ] }
+  - { value: 0.058581, errors: [ { label: "stat", symerror: 0.029825 } ] }
+  - { value: 0.120650, errors: [ { label: "stat", symerror: 0.030079 } ] }
+  - { value: 0.227528, errors: [ { label: "stat", symerror: 0.030345 } ] }
+  - { value: 0.347167, errors: [ { label: "stat", symerror: 0.030464 } ] }
+  - { value: 0.555278, errors: [ { label: "stat", symerror: 0.030594 } ] }
+  - { value: 0.672358, errors: [ { label: "stat", symerror: 0.030617 } ] }
+  - { value: 0.555278, errors: [ { label: "stat", symerror: 0.030594 } ] }
+  - { value: 0.347167, errors: [ { label: "stat", symerror: 0.030464 } ] }
+  - { value: 0.227527, errors: [ { label: "stat", symerror: 0.030344 } ] }
+  - { value: 0.120650, errors: [ { label: "stat", symerror: 0.030079 } ] }
+  - { value: 0.058581, errors: [ { label: "stat", symerror: 0.029825 } ] }
+  - { value: 0.088247, errors: [ { label: "stat", symerror: 0.029647 } ] }
+  - { value: 0.017910, errors: [ { label: "stat", symerror: 0.029664 } ] }
+  - { value: 0.015895, errors: [ { label: "stat", symerror: 0.029656 } ] }
+  - { value: -0.044765, errors: [ { label: "stat", symerror: 0.029581 } ] }
+  - { value: -0.008983, errors: [ { label: "stat", symerror: 0.029677 } ] }
+  - { value: -0.017677, errors: [ { label: "stat", symerror: 0.029787 } ] }
+  - { value: -0.033169, errors: [ { label: "stat", symerror: 0.029862 } ] }
+  - { value: -0.019871, errors: [ { label: "stat", symerror: 0.030048 } ] }
+  - { value: -0.052119, errors: [ { label: "stat", symerror: 0.030104 } ] }
+  - { value: 0.006870, errors: [ { label: "stat", symerror: 0.030141 } ] }
+  - { value: 0.004001, errors: [ { label: "stat", symerror: 0.030222 } ] }
+  - { value: 0.006870, errors: [ { label: "stat", symerror: 0.030141 } ] }
+  - { value: -0.052119, errors: [ { label: "stat", symerror: 0.030104 } ] }
+  - { value: -0.019871, errors: [ { label: "stat", symerror: 0.030048 } ] }
+  - { value: -0.033182, errors: [ { label: "stat", symerror: 0.029862 } ] }
+  - { value: -0.017664, errors: [ { label: "stat", symerror: 0.029787 } ] }
+  - { value: -0.008983, errors: [ { label: "stat", symerror: 0.029677 } ] }
+  - { value: -0.044765, errors: [ { label: "stat", symerror: 0.029581 } ] }
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "0.30" }
+  values:
+  - { value: -0.004149, errors: [ { label: "stat", symerror: 0.029920 } ] }
+  - { value: 0.017691, errors: [ { label: "stat", symerror: 0.029992 } ] }
+  - { value: 0.029107, errors: [ { label: "stat", symerror: 0.030054 } ] }
+  - { value: 0.052207, errors: [ { label: "stat", symerror: 0.030144 } ] }
+  - { value: 0.103801, errors: [ { label: "stat", symerror: 0.030323 } ] }
+  - { value: 0.181954, errors: [ { label: "stat", symerror: 0.030568 } ] }
+  - { value: 0.272134, errors: [ { label: "stat", symerror: 0.030758 } ] }
+  - { value: 0.382644, errors: [ { label: "stat", symerror: 0.030912 } ] }
+  - { value: 0.390324, errors: [ { label: "stat", symerror: 0.030900 } ] }
+  - { value: 0.382637, errors: [ { label: "stat", symerror: 0.030912 } ] }
+  - { value: 0.272137, errors: [ { label: "stat", symerror: 0.030758 } ] }
+  - { value: 0.181958, errors: [ { label: "stat", symerror: 0.030568 } ] }
+  - { value: 0.103794, errors: [ { label: "stat", symerror: 0.030323 } ] }
+  - { value: 0.052214, errors: [ { label: "stat", symerror: 0.030144 } ] }
+  - { value: 0.029107, errors: [ { label: "stat", symerror: 0.030054 } ] }
+  - { value: 0.017691, errors: [ { label: "stat", symerror: 0.029992 } ] }
+  - { value: -0.004149, errors: [ { label: "stat", symerror: 0.029920 } ] }
+  - { value: 0.030440, errors: [ { label: "stat", symerror: 0.029945 } ] }
+  - { value: -0.008691, errors: [ { label: "stat", symerror: 0.030010 } ] }
+  - { value: -0.01783, errors: [ { label: "stat", symerror: 0.030116 } ] }
+  - { value: -0.009541, errors: [ { label: "stat", symerror: 0.030300 } ] }
+  - { value: -0.027795, errors: [ { label: "stat", symerror: 0.030386 } ] }
+  - { value: -0.018185, errors: [ { label: "stat", symerror: 0.030449 } ] }
+  - { value: -0.016158, errors: [ { label: "stat", symerror: 0.030503 } ] }
+  - { value: 0.003341, errors: [ { label: "stat", symerror: 0.030636 } ] }
+  - { value: -0.016158, errors: [ { label: "stat", symerror: 0.030503 } ] }
+  - { value: -0.018185, errors: [ { label: "stat", symerror: 0.030449 } ] }
+  - { value: -0.027795, errors: [ { label: "stat", symerror: 0.030386 } ] }
+  - { value: -0.009545, errors: [ { label: "stat", symerror: 0.030300 } ] }
+  - { value: -0.017826, errors: [ { label: "stat", symerror: 0.030116 } ] }
+  - { value: -0.008691, errors: [ { label: "stat", symerror: 0.030010 } ] }
+  - { value: 0.030440, errors: [ { label: "stat", symerror: 0.029945 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "0.60" }
+  values:
+  - { value: 0.004738, errors: [ { label: "stat", symerror: 0.030446 } ] }
+  - { value: -0.021372, errors: [ { label: "stat", symerror: 0.030368 } ] }
+  - { value: 0.001178, errors: [ { label: "stat", symerror: 0.030471 } ] }
+  - { value: 0.041146, errors: [ { label: "stat", symerror: 0.030559 } ] }
+  - { value: 0.081407, errors: [ { label: "stat", symerror: 0.030755 } ] }
+  - { value: 0.087301, errors: [ { label: "stat", symerror: 0.030847 } ] }
+  - { value: 0.134272, errors: [ { label: "stat", symerror: 0.030964 } ] }
+  - { value: 0.155191, errors: [ { label: "stat", symerror: 0.031102 } ] }
+  - { value: 0.222782, errors: [ { label: "stat", symerror: 0.031160 } ] }
+  - { value: 0.155186, errors: [ { label: "stat", symerror: 0.031102 } ] }
+  - { value: 0.134271, errors: [ { label: "stat", symerror: 0.030964 } ] }
+  - { value: 0.087307, errors: [ { label: "stat", symerror: 0.030847 } ] }
+  - { value: 0.081407, errors: [ { label: "stat", symerror: 0.030755 } ] }
+  - { value: 0.041146, errors: [ { label: "stat", symerror: 0.030559 } ] }
+  - { value: 0.001178, errors: [ { label: "stat", symerror: 0.030471 } ] }
+  - { value: -0.021372, errors: [ { label: "stat", symerror: 0.030368 } ] }
+  - { value: 0.004738, errors: [ { label: "stat", symerror: 0.030446 } ] }
+  - { value: -0.006456, errors: [ { label: "stat", symerror: 0.030463 } ] }
+  - { value: -0.019404, errors: [ { label: "stat", symerror: 0.030549 } ] }
+  - { value: -0.007881, errors: [ { label: "stat", symerror: 0.030700 } ] }
+  - { value: -0.002781, errors: [ { label: "stat", symerror: 0.030831 } ] }
+  - { value: -0.007571, errors: [ { label: "stat", symerror: 0.030994 } ] }
+  - { value: -0.032002, errors: [ { label: "stat", symerror: 0.031049 } ] }
+  - { value: -0.02, errors: [ { label: "stat", symerror: 0.031124 } ] }
+  - { value: -0.060804, errors: [ { label: "stat", symerror: 0.031307 } ] }
+  - { value: -0.02, errors: [ { label: "stat", symerror: 0.031124 } ] }
+  - { value: -0.032002, errors: [ { label: "stat", symerror: 0.031049 } ] }
+  - { value: -0.007571, errors: [ { label: "stat", symerror: 0.030994 } ] }
+  - { value: -0.002781, errors: [ { label: "stat", symerror: 0.030831 } ] }
+  - { value: -0.007881, errors: [ { label: "stat", symerror: 0.030700 } ] }
+  - { value: -0.019404, errors: [ { label: "stat", symerror: 0.030549 } ] }
+  - { value: -0.006456, errors: [ { label: "stat", symerror: 0.030463 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "0.90" }
+  values:
+  - { value: -0.016722, errors: [ { label: "stat", symerror: 0.031034 } ] }
+  - { value: -0.04439, errors: [ { label: "stat", symerror: 0.031084 } ] }
+  - { value: 0.022994, errors: [ { label: "stat", symerror: 0.031090 } ] }
+  - { value: 0.016657, errors: [ { label: "stat", symerror: 0.031120 } ] }
+  - { value: 0.002362, errors: [ { label: "stat", symerror: 0.031221 } ] }
+  - { value: 0.027316, errors: [ { label: "stat", symerror: 0.031308 } ] }
+  - { value: 0.017922, errors: [ { label: "stat", symerror: 0.031385 } ] }
+  - { value: 0.059233, errors: [ { label: "stat", symerror: 0.031398 } ] }
+  - { value: 0.080955, errors: [ { label: "stat", symerror: 0.031423 } ] }
+  - { value: 0.059233, errors: [ { label: "stat", symerror: 0.031398 } ] }
+  - { value: 0.017922, errors: [ { label: "stat", symerror: 0.031385 } ] }
+  - { value: 0.027316, errors: [ { label: "stat", symerror: 0.031308 } ] }
+  - { value: 0.002356, errors: [ { label: "stat", symerror: 0.031221 } ] }
+  - { value: 0.016662, errors: [ { label: "stat", symerror: 0.031120 } ] }
+  - { value: 0.022994, errors: [ { label: "stat", symerror: 0.031090 } ] }
+  - { value: -0.04439, errors: [ { label: "stat", symerror: 0.031084 } ] }
+  - { value: -0.016734, errors: [ { label: "stat", symerror: 0.031034 } ] }
+  - { value: 0.001373, errors: [ { label: "stat", symerror: 0.031096 } ] }
+  - { value: 0.004130, errors: [ { label: "stat", symerror: 0.031213 } ] }
+  - { value: -0.02516, errors: [ { label: "stat", symerror: 0.031419 } ] }
+  - { value: -0.005225, errors: [ { label: "stat", symerror: 0.031589 } ] }
+  - { value: -0.060414, errors: [ { label: "stat", symerror: 0.031631 } ] }
+  - { value: -0.032296, errors: [ { label: "stat", symerror: 0.031754 } ] }
+  - { value: -0.001424, errors: [ { label: "stat", symerror: 0.031819 } ] }
+  - { value: -0.054542, errors: [ { label: "stat", symerror: 0.031889 } ] }
+  - { value: -0.001424, errors: [ { label: "stat", symerror: 0.031819 } ] }
+  - { value: -0.032296, errors: [ { label: "stat", symerror: 0.031754 } ] }
+  - { value: -0.060414, errors: [ { label: "stat", symerror: 0.031631 } ] }
+  - { value: -0.005225, errors: [ { label: "stat", symerror: 0.031589 } ] }
+  - { value: -0.02516, errors: [ { label: "stat", symerror: 0.031419 } ] }
+  - { value: 0.004130, errors: [ { label: "stat", symerror: 0.031213 } ] }
+  - { value: 0.001361, errors: [ { label: "stat", symerror: 0.031096 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "1.20" }
+  values:
+  - { value: -0.016769, errors: [ { label: "stat", symerror: 0.031803 } ] }
+  - { value: -0.012896, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: 0.004834, errors: [ { label: "stat", symerror: 0.031781 } ] }
+  - { value: -0.015005, errors: [ { label: "stat", symerror: 0.031799 } ] }
+  - { value: 0.003756, errors: [ { label: "stat", symerror: 0.031816 } ] }
+  - { value: 0.009975, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: 0.027743, errors: [ { label: "stat", symerror: 0.031879 } ] }
+  - { value: 0.031749, errors: [ { label: "stat", symerror: 0.031930 } ] }
+  - { value: 0.030389, errors: [ { label: "stat", symerror: 0.031867 } ] }
+  - { value: 0.031749, errors: [ { label: "stat", symerror: 0.031930 } ] }
+  - { value: 0.027724, errors: [ { label: "stat", symerror: 0.031879 } ] }
+  - { value: 0.009995, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: 0.003756, errors: [ { label: "stat", symerror: 0.031816 } ] }
+  - { value: -0.015005, errors: [ { label: "stat", symerror: 0.031799 } ] }
+  - { value: 0.004834, errors: [ { label: "stat", symerror: 0.031781 } ] }
+  - { value: -0.012896, errors: [ { label: "stat", symerror: 0.031842 } ] }
+  - { value: -0.016769, errors: [ { label: "stat", symerror: 0.031803 } ] }
+  - { value: 0.004748, errors: [ { label: "stat", symerror: 0.032020 } ] }
+  - { value: -0.0252, errors: [ { label: "stat", symerror: 0.032125 } ] }
+  - { value: -0.012821, errors: [ { label: "stat", symerror: 0.032241 } ] }
+  - { value: -0.017837, errors: [ { label: "stat", symerror: 0.032487 } ] }
+  - { value: -0.027351, errors: [ { label: "stat", symerror: 0.032477 } ] }
+  - { value: -0.014417, errors: [ { label: "stat", symerror: 0.032624 } ] }
+  - { value: -0.025858, errors: [ { label: "stat", symerror: 0.032720 } ] }
+  - { value: -0.014934, errors: [ { label: "stat", symerror: 0.032751 } ] }
+  - { value: -0.025858, errors: [ { label: "stat", symerror: 0.032720 } ] }
+  - { value: -0.014417, errors: [ { label: "stat", symerror: 0.032624 } ] }
+  - { value: -0.027351, errors: [ { label: "stat", symerror: 0.032477 } ] }
+  - { value: -0.017837, errors: [ { label: "stat", symerror: 0.032487 } ] }
+  - { value: -0.012821, errors: [ { label: "stat", symerror: 0.032241 } ] }
+  - { value: -0.0252, errors: [ { label: "stat", symerror: 0.032125 } ] }
+  - { value: 0.004748, errors: [ { label: "stat", symerror: 0.032020 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "1.50" }
+  values:
+  - { value: -0.012167, errors: [ { label: "stat", symerror: 0.032814 } ] }
+  - { value: 0.011058, errors: [ { label: "stat", symerror: 0.032767 } ] }
+  - { value: 0.001555, errors: [ { label: "stat", symerror: 0.032744 } ] }
+  - { value: -0.016352, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.001566, errors: [ { label: "stat", symerror: 0.032621 } ] }
+  - { value: -0.035189, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.015233, errors: [ { label: "stat", symerror: 0.032687 } ] }
+  - { value: 0.002268, errors: [ { label: "stat", symerror: 0.032703 } ] }
+  - { value: -0.031348, errors: [ { label: "stat", symerror: 0.032692 } ] }
+  - { value: 0.002255, errors: [ { label: "stat", symerror: 0.032703 } ] }
+  - { value: 0.015241, errors: [ { label: "stat", symerror: 0.032687 } ] }
+  - { value: -0.035184, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.001686, errors: [ { label: "stat", symerror: 0.032621 } ] }
+  - { value: -0.016471, errors: [ { label: "stat", symerror: 0.032663 } ] }
+  - { value: 0.001555, errors: [ { label: "stat", symerror: 0.032744 } ] }
+  - { value: 0.011058, errors: [ { label: "stat", symerror: 0.032767 } ] }
+  - { value: -0.012167, errors: [ { label: "stat", symerror: 0.032814 } ] }
+  - { value: -0.015894, errors: [ { label: "stat", symerror: 0.032975 } ] }
+  - { value: 0.003652, errors: [ { label: "stat", symerror: 0.033107 } ] }
+  - { value: -0.01845, errors: [ { label: "stat", symerror: 0.033287 } ] }
+  - { value: -0.027385, errors: [ { label: "stat", symerror: 0.033477 } ] }
+  - { value: -0.039936, errors: [ { label: "stat", symerror: 0.033488 } ] }
+  - { value: -0.038251, errors: [ { label: "stat", symerror: 0.033808 } ] }
+  - { value: -0.01776, errors: [ { label: "stat", symerror: 0.033864 } ] }
+  - { value: 0.003307, errors: [ { label: "stat", symerror: 0.033893 } ] }
+  - { value: -0.01776, errors: [ { label: "stat", symerror: 0.033864 } ] }
+  - { value: -0.038251, errors: [ { label: "stat", symerror: 0.033808 } ] }
+  - { value: -0.039936, errors: [ { label: "stat", symerror: 0.033488 } ] }
+  - { value: -0.027389, errors: [ { label: "stat", symerror: 0.033477 } ] }
+  - { value: -0.018446, errors: [ { label: "stat", symerror: 0.033287 } ] }
+  - { value: 0.003652, errors: [ { label: "stat", symerror: 0.033107 } ] }
+  - { value: -0.015894, errors: [ { label: "stat", symerror: 0.032975 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "1.80" }
+  values:
+  - { value: -0.034154, errors: [ { label: "stat", symerror: 0.034017 } ] }
+  - { value: -0.052073, errors: [ { label: "stat", symerror: 0.033870 } ] }
+  - { value: -0.011916, errors: [ { label: "stat", symerror: 0.033816 } ] }
+  - { value: -0.02279, errors: [ { label: "stat", symerror: 0.033729 } ] }
+  - { value: -0.025829, errors: [ { label: "stat", symerror: 0.033649 } ] }
+  - { value: -0.017042, errors: [ { label: "stat", symerror: 0.033708 } ] }
+  - { value: -0.003281, errors: [ { label: "stat", symerror: 0.033633 } ] }
+  - { value: -0.039954, errors: [ { label: "stat", symerror: 0.033676 } ] }
+  - { value: -0.028923, errors: [ { label: "stat", symerror: 0.033603 } ] }
+  - { value: -0.039954, errors: [ { label: "stat", symerror: 0.033676 } ] }
+  - { value: -0.003281, errors: [ { label: "stat", symerror: 0.033633 } ] }
+  - { value: -0.017042, errors: [ { label: "stat", symerror: 0.033708 } ] }
+  - { value: -0.025829, errors: [ { label: "stat", symerror: 0.033649 } ] }
+  - { value: -0.02279, errors: [ { label: "stat", symerror: 0.033728 } ] }
+  - { value: -0.011916, errors: [ { label: "stat", symerror: 0.033816 } ] }
+  - { value: -0.052073, errors: [ { label: "stat", symerror: 0.033870 } ] }
+  - { value: -0.034154, errors: [ { label: "stat", symerror: 0.034017 } ] }
+  - { value: -0.030087, errors: [ { label: "stat", symerror: 0.034043 } ] }
+  - { value: -0.039362, errors: [ { label: "stat", symerror: 0.034237 } ] }
+  - { value: -0.045139, errors: [ { label: "stat", symerror: 0.034495 } ] }
+  - { value: -0.040247, errors: [ { label: "stat", symerror: 0.034630 } ] }
+  - { value: -0.029823, errors: [ { label: "stat", symerror: 0.034798 } ] }
+  - { value: -0.027279, errors: [ { label: "stat", symerror: 0.034932 } ] }
+  - { value: -0.053787, errors: [ { label: "stat", symerror: 0.035036 } ] }
+  - { value: -0.009223, errors: [ { label: "stat", symerror: 0.035155 } ] }
+  - { value: -0.053794, errors: [ { label: "stat", symerror: 0.035036 } ] }
+  - { value: -0.027271, errors: [ { label: "stat", symerror: 0.034932 } ] }
+  - { value: -0.029823, errors: [ { label: "stat", symerror: 0.034798 } ] }
+  - { value: -0.040257, errors: [ { label: "stat", symerror: 0.034630 } ] }
+  - { value: -0.045129, errors: [ { label: "stat", symerror: 0.034495 } ] }
+  - { value: -0.039362, errors: [ { label: "stat", symerror: 0.034237 } ] }
+  - { value: -0.030087, errors: [ { label: "stat", symerror: 0.034043 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "2.10" }
+  values:
+  - { value: -0.038856, errors: [ { label: "stat", symerror: 0.035305 } ] }
+  - { value: -0.028115, errors: [ { label: "stat", symerror: 0.035101 } ] }
+  - { value: -0.001231, errors: [ { label: "stat", symerror: 0.035019 } ] }
+  - { value: -0.031307, errors: [ { label: "stat", symerror: 0.034959 } ] }
+  - { value: -0.018371, errors: [ { label: "stat", symerror: 0.034863 } ] }
+  - { value: -0.041149, errors: [ { label: "stat", symerror: 0.034934 } ] }
+  - { value: -0.014414, errors: [ { label: "stat", symerror: 0.034877 } ] }
+  - { value: -0.016274, errors: [ { label: "stat", symerror: 0.034691 } ] }
+  - { value: -0.02818, errors: [ { label: "stat", symerror: 0.034731 } ] }
+  - { value: -0.016268, errors: [ { label: "stat", symerror: 0.034691 } ] }
+  - { value: -0.014414, errors: [ { label: "stat", symerror: 0.034877 } ] }
+  - { value: -0.041149, errors: [ { label: "stat", symerror: 0.034934 } ] }
+  - { value: -0.018379, errors: [ { label: "stat", symerror: 0.034863 } ] }
+  - { value: -0.031299, errors: [ { label: "stat", symerror: 0.034959 } ] }
+  - { value: -0.00124, errors: [ { label: "stat", symerror: 0.035019 } ] }
+  - { value: -0.028105, errors: [ { label: "stat", symerror: 0.035101 } ] }
+  - { value: -0.038856, errors: [ { label: "stat", symerror: 0.035305 } ] }
+  - { value: -0.009807, errors: [ { label: "stat", symerror: 0.035412 } ] }
+  - { value: -0.008487, errors: [ { label: "stat", symerror: 0.035538 } ] }
+  - { value: -0.013547, errors: [ { label: "stat", symerror: 0.035764 } ] }
+  - { value: -0.056392, errors: [ { label: "stat", symerror: 0.035973 } ] }
+  - { value: -0.016588, errors: [ { label: "stat", symerror: 0.036043 } ] }
+  - { value: -0.020912, errors: [ { label: "stat", symerror: 0.036312 } ] }
+  - { value: -0.038789, errors: [ { label: "stat", symerror: 0.036389 } ] }
+  - { value: -0.004496, errors: [ { label: "stat", symerror: 0.036434 } ] }
+  - { value: -0.038789, errors: [ { label: "stat", symerror: 0.036389 } ] }
+  - { value: -0.020912, errors: [ { label: "stat", symerror: 0.036312 } ] }
+  - { value: -0.016588, errors: [ { label: "stat", symerror: 0.036043 } ] }
+  - { value: -0.056392, errors: [ { label: "stat", symerror: 0.035973 } ] }
+  - { value: -0.013547, errors: [ { label: "stat", symerror: 0.035764 } ] }
+  - { value: -0.008487, errors: [ { label: "stat", symerror: 0.035538 } ] }
+  - { value: -0.009807, errors: [ { label: "stat", symerror: 0.035412 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "2.40" }
+  values:
+  - { value: -0.022085, errors: [ { label: "stat", symerror: 0.036727 } ] }
+  - { value: -0.01577, errors: [ { label: "stat", symerror: 0.036558 } ] }
+  - { value: -0.02615, errors: [ { label: "stat", symerror: 0.036392 } ] }
+  - { value: -0.048165, errors: [ { label: "stat", symerror: 0.036292 } ] }
+  - { value: -0.033772, errors: [ { label: "stat", symerror: 0.036277 } ] }
+  - { value: -0.012892, errors: [ { label: "stat", symerror: 0.036280 } ] }
+  - { value: -0.013195, errors: [ { label: "stat", symerror: 0.036190 } ] }
+  - { value: -0.052349, errors: [ { label: "stat", symerror: 0.036116 } ] }
+  - { value: -0.021188, errors: [ { label: "stat", symerror: 0.036133 } ] }
+  - { value: -0.052349, errors: [ { label: "stat", symerror: 0.036116 } ] }
+  - { value: -0.013195, errors: [ { label: "stat", symerror: 0.036190 } ] }
+  - { value: -0.012892, errors: [ { label: "stat", symerror: 0.036280 } ] }
+  - { value: -0.033772, errors: [ { label: "stat", symerror: 0.036277 } ] }
+  - { value: -0.048165, errors: [ { label: "stat", symerror: 0.036292 } ] }
+  - { value: -0.02615, errors: [ { label: "stat", symerror: 0.036392 } ] }
+  - { value: -0.01577, errors: [ { label: "stat", symerror: 0.036558 } ] }
+  - { value: -0.022085, errors: [ { label: "stat", symerror: 0.036727 } ] }
+  - { value: -0.010947, errors: [ { label: "stat", symerror: 0.036911 } ] }
+  - { value: -0.036023, errors: [ { label: "stat", symerror: 0.037110 } ] }
+  - { value: -0.034149, errors: [ { label: "stat", symerror: 0.037273 } ] }
+  - { value: -0.031479, errors: [ { label: "stat", symerror: 0.037521 } ] }
+  - { value: -0.039641, errors: [ { label: "stat", symerror: 0.037605 } ] }
+  - { value: -0.045002, errors: [ { label: "stat", symerror: 0.037806 } ] }
+  - { value: -0.03352, errors: [ { label: "stat", symerror: 0.037868 } ] }
+  - { value: -0.039334, errors: [ { label: "stat", symerror: 0.037910 } ] }
+  - { value: -0.033529, errors: [ { label: "stat", symerror: 0.037868 } ] }
+  - { value: -0.044994, errors: [ { label: "stat", symerror: 0.037806 } ] }
+  - { value: -0.039641, errors: [ { label: "stat", symerror: 0.037605 } ] }
+  - { value: -0.031487, errors: [ { label: "stat", symerror: 0.037521 } ] }
+  - { value: -0.034141, errors: [ { label: "stat", symerror: 0.037273 } ] }
+  - { value: -0.036023, errors: [ { label: "stat", symerror: 0.037110 } ] }
+  - { value: -0.010947, errors: [ { label: "stat", symerror: 0.036911 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "2.70" }
+  values:
+  - { value: -0.055554, errors: [ { label: "stat", symerror: 0.038305 } ] }
+  - { value: -0.03495, errors: [ { label: "stat", symerror: 0.038153 } ] }
+  - { value: -0.053898, errors: [ { label: "stat", symerror: 0.037888 } ] }
+  - { value: -0.026213, errors: [ { label: "stat", symerror: 0.037849 } ] }
+  - { value: -0.034319, errors: [ { label: "stat", symerror: 0.037857 } ] }
+  - { value: -0.019766, errors: [ { label: "stat", symerror: 0.037746 } ] }
+  - { value: -0.0249, errors: [ { label: "stat", symerror: 0.037787 } ] }
+  - { value: -0.012803, errors: [ { label: "stat", symerror: 0.037714 } ] }
+  - { value: -0.005892, errors: [ { label: "stat", symerror: 0.037584 } ] }
+  - { value: -0.012803, errors: [ { label: "stat", symerror: 0.037714 } ] }
+  - { value: -0.024901, errors: [ { label: "stat", symerror: 0.037787 } ] }
+  - { value: -0.019766, errors: [ { label: "stat", symerror: 0.037746 } ] }
+  - { value: -0.034319, errors: [ { label: "stat", symerror: 0.037857 } ] }
+  - { value: -0.026213, errors: [ { label: "stat", symerror: 0.037849 } ] }
+  - { value: -0.053898, errors: [ { label: "stat", symerror: 0.037889 } ] }
+  - { value: -0.03495, errors: [ { label: "stat", symerror: 0.038153 } ] }
+  - { value: -0.055555, errors: [ { label: "stat", symerror: 0.038305 } ] }
+  - { value: -0.053088, errors: [ { label: "stat", symerror: 0.038460 } ] }
+  - { value: -0.005054, errors: [ { label: "stat", symerror: 0.038748 } ] }
+  - { value: -0.044176, errors: [ { label: "stat", symerror: 0.038900 } ] }
+  - { value: -0.036882, errors: [ { label: "stat", symerror: 0.039055 } ] }
+  - { value: -0.051443, errors: [ { label: "stat", symerror: 0.039259 } ] }
+  - { value: -0.046028, errors: [ { label: "stat", symerror: 0.039367 } ] }
+  - { value: -0.018804, errors: [ { label: "stat", symerror: 0.039499 } ] }
+  - { value: -0.035798, errors: [ { label: "stat", symerror: 0.039376 } ] }
+  - { value: -0.018804, errors: [ { label: "stat", symerror: 0.039499 } ] }
+  - { value: -0.046028, errors: [ { label: "stat", symerror: 0.039367 } ] }
+  - { value: -0.051443, errors: [ { label: "stat", symerror: 0.039259 } ] }
+  - { value: -0.036882, errors: [ { label: "stat", symerror: 0.039055 } ] }
+  - { value: -0.044176, errors: [ { label: "stat", symerror: 0.038900 } ] }
+  - { value: -0.005054, errors: [ { label: "stat", symerror: 0.038748 } ] }
+  - { value: -0.053088, errors: [ { label: "stat", symerror: 0.038460 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "3.00" }
+  values:
+  - { value: -0.008881, errors: [ { label: "stat", symerror: 0.040253 } ] }
+  - { value: -0.025768, errors: [ { label: "stat", symerror: 0.039963 } ] }
+  - { value: -0.016907, errors: [ { label: "stat", symerror: 0.039853 } ] }
+  - { value: -0.010606, errors: [ { label: "stat", symerror: 0.039711 } ] }
+  - { value: -0.012581, errors: [ { label: "stat", symerror: 0.039666 } ] }
+  - { value: -0.043312, errors: [ { label: "stat", symerror: 0.039638 } ] }
+  - { value: 0.002550, errors: [ { label: "stat", symerror: 0.039649 } ] }
+  - { value: -0.041704, errors: [ { label: "stat", symerror: 0.039617 } ] }
+  - { value: -0.029406, errors: [ { label: "stat", symerror: 0.039563 } ] }
+  - { value: -0.041704, errors: [ { label: "stat", symerror: 0.039617 } ] }
+  - { value: 0.002648, errors: [ { label: "stat", symerror: 0.039648 } ] }
+  - { value: -0.04341, errors: [ { label: "stat", symerror: 0.039638 } ] }
+  - { value: -0.012581, errors: [ { label: "stat", symerror: 0.039666 } ] }
+  - { value: -0.010606, errors: [ { label: "stat", symerror: 0.039711 } ] }
+  - { value: -0.016907, errors: [ { label: "stat", symerror: 0.039853 } ] }
+  - { value: -0.025768, errors: [ { label: "stat", symerror: 0.039963 } ] }
+  - { value: -0.008881, errors: [ { label: "stat", symerror: 0.040253 } ] }
+  - { value: -0.054211, errors: [ { label: "stat", symerror: 0.040349 } ] }
+  - { value: -0.030598, errors: [ { label: "stat", symerror: 0.040506 } ] }
+  - { value: -0.052959, errors: [ { label: "stat", symerror: 0.040759 } ] }
+  - { value: -0.024091, errors: [ { label: "stat", symerror: 0.041064 } ] }
+  - { value: -0.010078, errors: [ { label: "stat", symerror: 0.041114 } ] }
+  - { value: -0.026483, errors: [ { label: "stat", symerror: 0.041270 } ] }
+  - { value: -0.008899, errors: [ { label: "stat", symerror: 0.041371 } ] }
+  - { value: -0.023432, errors: [ { label: "stat", symerror: 0.041332 } ] }
+  - { value: -0.008909, errors: [ { label: "stat", symerror: 0.041371 } ] }
+  - { value: -0.026473, errors: [ { label: "stat", symerror: 0.041270 } ] }
+  - { value: -0.010078, errors: [ { label: "stat", symerror: 0.041114 } ] }
+  - { value: -0.024091, errors: [ { label: "stat", symerror: 0.041064 } ] }
+  - { value: -0.052959, errors: [ { label: "stat", symerror: 0.040759 } ] }
+  - { value: -0.030598, errors: [ { label: "stat", symerror: 0.040506 } ] }
+  - { value: -0.054211, errors: [ { label: "stat", symerror: 0.040349 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "3.30" }
+  values:
+  - { value: -0.016543, errors: [ { label: "stat", symerror: 0.042504 } ] }
+  - { value: -0.023547, errors: [ { label: "stat", symerror: 0.042349 } ] }
+  - { value: -0.044986, errors: [ { label: "stat", symerror: 0.042117 } ] }
+  - { value: -0.037877, errors: [ { label: "stat", symerror: 0.041995 } ] }
+  - { value: -0.024622, errors: [ { label: "stat", symerror: 0.041951 } ] }
+  - { value: -0.042739, errors: [ { label: "stat", symerror: 0.041755 } ] }
+  - { value: -0.046901, errors: [ { label: "stat", symerror: 0.041835 } ] }
+  - { value: -0.02172, errors: [ { label: "stat", symerror: 0.041683 } ] }
+  - { value: -0.042283, errors: [ { label: "stat", symerror: 0.041648 } ] }
+  - { value: -0.02172, errors: [ { label: "stat", symerror: 0.041683 } ] }
+  - { value: -0.046901, errors: [ { label: "stat", symerror: 0.041835 } ] }
+  - { value: -0.042739, errors: [ { label: "stat", symerror: 0.041755 } ] }
+  - { value: -0.024623, errors: [ { label: "stat", symerror: 0.041951 } ] }
+  - { value: -0.037877, errors: [ { label: "stat", symerror: 0.041995 } ] }
+  - { value: -0.044986, errors: [ { label: "stat", symerror: 0.042117 } ] }
+  - { value: -0.023547, errors: [ { label: "stat", symerror: 0.042349 } ] }
+  - { value: -0.016543, errors: [ { label: "stat", symerror: 0.042504 } ] }
+  - { value: -0.052808, errors: [ { label: "stat", symerror: 0.042477 } ] }
+  - { value: -0.004042, errors: [ { label: "stat", symerror: 0.042835 } ] }
+  - { value: -0.020615, errors: [ { label: "stat", symerror: 0.042950 } ] }
+  - { value: -0.027027, errors: [ { label: "stat", symerror: 0.043149 } ] }
+  - { value: -0.056495, errors: [ { label: "stat", symerror: 0.043222 } ] }
+  - { value: -0.036216, errors: [ { label: "stat", symerror: 0.043481 } ] }
+  - { value: -0.004349, errors: [ { label: "stat", symerror: 0.043548 } ] }
+  - { value: -0.023865, errors: [ { label: "stat", symerror: 0.043564 } ] }
+  - { value: -0.004349, errors: [ { label: "stat", symerror: 0.043548 } ] }
+  - { value: -0.036216, errors: [ { label: "stat", symerror: 0.043481 } ] }
+  - { value: -0.056495, errors: [ { label: "stat", symerror: 0.043222 } ] }
+  - { value: -0.027027, errors: [ { label: "stat", symerror: 0.043149 } ] }
+  - { value: -0.020615, errors: [ { label: "stat", symerror: 0.042950 } ] }
+  - { value: -0.004042, errors: [ { label: "stat", symerror: 0.042835 } ] }
+  - { value: -0.052808, errors: [ { label: "stat", symerror: 0.042477 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "3.60" }
+  values:
+  - { value: -0.012232, errors: [ { label: "stat", symerror: 0.045128 } ] }
+  - { value: 0.001212, errors: [ { label: "stat", symerror: 0.044821 } ] }
+  - { value: -0.016977, errors: [ { label: "stat", symerror: 0.044845 } ] }
+  - { value: -0.036223, errors: [ { label: "stat", symerror: 0.044658 } ] }
+  - { value: -0.007636, errors: [ { label: "stat", symerror: 0.044616 } ] }
+  - { value: 0.008754, errors: [ { label: "stat", symerror: 0.044608 } ] }
+  - { value: -0.028105, errors: [ { label: "stat", symerror: 0.044483 } ] }
+  - { value: -0.039219, errors: [ { label: "stat", symerror: 0.044377 } ] }
+  - { value: -0.010953, errors: [ { label: "stat", symerror: 0.044562 } ] }
+  - { value: -0.039219, errors: [ { label: "stat", symerror: 0.044377 } ] }
+  - { value: -0.028105, errors: [ { label: "stat", symerror: 0.044483 } ] }
+  - { value: 0.008754, errors: [ { label: "stat", symerror: 0.044608 } ] }
+  - { value: -0.007636, errors: [ { label: "stat", symerror: 0.044616 } ] }
+  - { value: -0.036223, errors: [ { label: "stat", symerror: 0.044658 } ] }
+  - { value: -0.016977, errors: [ { label: "stat", symerror: 0.044845 } ] }
+  - { value: 0.001212, errors: [ { label: "stat", symerror: 0.044821 } ] }
+  - { value: -0.012232, errors: [ { label: "stat", symerror: 0.045128 } ] }
+  - { value: -0.026721, errors: [ { label: "stat", symerror: 0.045227 } ] }
+  - { value: -0.037185, errors: [ { label: "stat", symerror: 0.045519 } ] }
+  - { value: -0.003493, errors: [ { label: "stat", symerror: 0.045668 } ] }
+  - { value: -0.019856, errors: [ { label: "stat", symerror: 0.045824 } ] }
+  - { value: -0.043393, errors: [ { label: "stat", symerror: 0.046067 } ] }
+  - { value: -0.049728, errors: [ { label: "stat", symerror: 0.046201 } ] }
+  - { value: -0.02267, errors: [ { label: "stat", symerror: 0.046240 } ] }
+  - { value: -0.031897, errors: [ { label: "stat", symerror: 0.046301 } ] }
+  - { value: -0.02267, errors: [ { label: "stat", symerror: 0.046240 } ] }
+  - { value: -0.049728, errors: [ { label: "stat", symerror: 0.046201 } ] }
+  - { value: -0.043393, errors: [ { label: "stat", symerror: 0.046067 } ] }
+  - { value: -0.019856, errors: [ { label: "stat", symerror: 0.045824 } ] }
+  - { value: -0.003493, errors: [ { label: "stat", symerror: 0.045668 } ] }
+  - { value: -0.037185, errors: [ { label: "stat", symerror: 0.045519 } ] }
+  - { value: -0.026721, errors: [ { label: "stat", symerror: 0.045227 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "3.90" }
+  values:
+  - { value: -0.005366, errors: [ { label: "stat", symerror: 0.048683 } ] }
+  - { value: -0.029665, errors: [ { label: "stat", symerror: 0.048393 } ] }
+  - { value: -0.06798, errors: [ { label: "stat", symerror: 0.048194 } ] }
+  - { value: -0.026047, errors: [ { label: "stat", symerror: 0.048190 } ] }
+  - { value: 0.001831, errors: [ { label: "stat", symerror: 0.048093 } ] }
+  - { value: -0.031029, errors: [ { label: "stat", symerror: 0.047979 } ] }
+  - { value: -0.002877, errors: [ { label: "stat", symerror: 0.048106 } ] }
+  - { value: -0.031582, errors: [ { label: "stat", symerror: 0.047821 } ] }
+  - { value: -0.056936, errors: [ { label: "stat", symerror: 0.047913 } ] }
+  - { value: -0.031582, errors: [ { label: "stat", symerror: 0.047821 } ] }
+  - { value: -0.002877, errors: [ { label: "stat", symerror: 0.048106 } ] }
+  - { value: -0.031029, errors: [ { label: "stat", symerror: 0.047978 } ] }
+  - { value: 0.001831, errors: [ { label: "stat", symerror: 0.048093 } ] }
+  - { value: -0.026047, errors: [ { label: "stat", symerror: 0.048190 } ] }
+  - { value: -0.06798, errors: [ { label: "stat", symerror: 0.048194 } ] }
+  - { value: -0.029665, errors: [ { label: "stat", symerror: 0.048393 } ] }
+  - { value: -0.005366, errors: [ { label: "stat", symerror: 0.048683 } ] }
+  - { value: 0.009528, errors: [ { label: "stat", symerror: 0.048838 } ] }
+  - { value: -0.037038, errors: [ { label: "stat", symerror: 0.048956 } ] }
+  - { value: 0.038292, errors: [ { label: "stat", symerror: 0.049424 } ] }
+  - { value: -0.007967, errors: [ { label: "stat", symerror: 0.049409 } ] }
+  - { value: -0.041267, errors: [ { label: "stat", symerror: 0.049607 } ] }
+  - { value: -0.02052, errors: [ { label: "stat", symerror: 0.049590 } ] }
+  - { value: -0.04162, errors: [ { label: "stat", symerror: 0.049857 } ] }
+  - { value: -0.062766, errors: [ { label: "stat", symerror: 0.049617 } ] }
+  - { value: -0.04162, errors: [ { label: "stat", symerror: 0.049857 } ] }
+  - { value: -0.02052, errors: [ { label: "stat", symerror: 0.049590 } ] }
+  - { value: -0.041267, errors: [ { label: "stat", symerror: 0.049607 } ] }
+  - { value: -0.007967, errors: [ { label: "stat", symerror: 0.049409 } ] }
+  - { value: 0.038292, errors: [ { label: "stat", symerror: 0.049424 } ] }
+  - { value: -0.037038, errors: [ { label: "stat", symerror: 0.048955 } ] }
+  - { value: 0.009528, errors: [ { label: "stat", symerror: 0.048838 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "4.20" }
+  values:
+  - { value: -0.015164, errors: [ { label: "stat", symerror: 0.053258 } ] }
+  - { value: -0.017705, errors: [ { label: "stat", symerror: 0.053103 } ] }
+  - { value: -0.005051, errors: [ { label: "stat", symerror: 0.052897 } ] }
+  - { value: 0.001611, errors: [ { label: "stat", symerror: 0.053045 } ] }
+  - { value: -0.03466, errors: [ { label: "stat", symerror: 0.052807 } ] }
+  - { value: 0.017410, errors: [ { label: "stat", symerror: 0.052786 } ] }
+  - { value: -0.02226, errors: [ { label: "stat", symerror: 0.052744 } ] }
+  - { value: -0.006162, errors: [ { label: "stat", symerror: 0.052493 } ] }
+  - { value: 0.032311, errors: [ { label: "stat", symerror: 0.052574 } ] }
+  - { value: -0.006162, errors: [ { label: "stat", symerror: 0.052493 } ] }
+  - { value: -0.02226, errors: [ { label: "stat", symerror: 0.052744 } ] }
+  - { value: 0.017410, errors: [ { label: "stat", symerror: 0.052786 } ] }
+  - { value: -0.034661, errors: [ { label: "stat", symerror: 0.052807 } ] }
+  - { value: 0.001611, errors: [ { label: "stat", symerror: 0.053045 } ] }
+  - { value: -0.005051, errors: [ { label: "stat", symerror: 0.052898 } ] }
+  - { value: -0.017705, errors: [ { label: "stat", symerror: 0.053103 } ] }
+  - { value: -0.015164, errors: [ { label: "stat", symerror: 0.053258 } ] }
+  - { value: 0.041705, errors: [ { label: "stat", symerror: 0.053618 } ] }
+  - { value: -0.012044, errors: [ { label: "stat", symerror: 0.053429 } ] }
+  - { value: -0.049235, errors: [ { label: "stat", symerror: 0.053935 } ] }
+  - { value: -0.041085, errors: [ { label: "stat", symerror: 0.054203 } ] }
+  - { value: -0.036908, errors: [ { label: "stat", symerror: 0.054045 } ] }
+  - { value: 0.016417, errors: [ { label: "stat", symerror: 0.054348 } ] }
+  - { value: 0.016329, errors: [ { label: "stat", symerror: 0.054490 } ] }
+  - { value: -0.065795, errors: [ { label: "stat", symerror: 0.054394 } ] }
+  - { value: 0.016329, errors: [ { label: "stat", symerror: 0.054490 } ] }
+  - { value: 0.016417, errors: [ { label: "stat", symerror: 0.054348 } ] }
+  - { value: -0.036908, errors: [ { label: "stat", symerror: 0.054045 } ] }
+  - { value: -0.041085, errors: [ { label: "stat", symerror: 0.054203 } ] }
+  - { value: -0.049235, errors: [ { label: "stat", symerror: 0.053935 } ] }
+  - { value: -0.012044, errors: [ { label: "stat", symerror: 0.053429 } ] }
+  - { value: 0.041705, errors: [ { label: "stat", symerror: 0.053618 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "4.50" }
+  values:
+  - { value: -0.05591, errors: [ { label: "stat", symerror: 0.059980 } ] }
+  - { value: -0.016198, errors: [ { label: "stat", symerror: 0.059749 } ] }
+  - { value: 0.000516, errors: [ { label: "stat", symerror: 0.059423 } ] }
+  - { value: -0.046317, errors: [ { label: "stat", symerror: 0.059142 } ] }
+  - { value: -0.01733, errors: [ { label: "stat", symerror: 0.059193 } ] }
+  - { value: -0.033686, errors: [ { label: "stat", symerror: 0.059281 } ] }
+  - { value: -0.040822, errors: [ { label: "stat", symerror: 0.059130 } ] }
+  - { value: 0.006996, errors: [ { label: "stat", symerror: 0.058829 } ] }
+  - { value: -0.080404, errors: [ { label: "stat", symerror: 0.059087 } ] }
+  - { value: 0.006996, errors: [ { label: "stat", symerror: 0.058829 } ] }
+  - { value: -0.040822, errors: [ { label: "stat", symerror: 0.059130 } ] }
+  - { value: -0.033686, errors: [ { label: "stat", symerror: 0.059281 } ] }
+  - { value: -0.01733, errors: [ { label: "stat", symerror: 0.059193 } ] }
+  - { value: -0.046317, errors: [ { label: "stat", symerror: 0.059142 } ] }
+  - { value: 0.000516, errors: [ { label: "stat", symerror: 0.059423 } ] }
+  - { value: -0.016198, errors: [ { label: "stat", symerror: 0.059749 } ] }
+  - { value: -0.05591, errors: [ { label: "stat", symerror: 0.059980 } ] }
+  - { value: -0.035938, errors: [ { label: "stat", symerror: 0.060022 } ] }
+  - { value: -0.005651, errors: [ { label: "stat", symerror: 0.060070 } ] }
+  - { value: -0.00605, errors: [ { label: "stat", symerror: 0.060288 } ] }
+  - { value: -0.071241, errors: [ { label: "stat", symerror: 0.060278 } ] }
+  - { value: -0.001078, errors: [ { label: "stat", symerror: 0.060781 } ] }
+  - { value: -0.025773, errors: [ { label: "stat", symerror: 0.060660 } ] }
+  - { value: -0.040894, errors: [ { label: "stat", symerror: 0.060571 } ] }
+  - { value: -0.020367, errors: [ { label: "stat", symerror: 0.060969 } ] }
+  - { value: -0.040894, errors: [ { label: "stat", symerror: 0.060571 } ] }
+  - { value: -0.025773, errors: [ { label: "stat", symerror: 0.060660 } ] }
+  - { value: -0.001078, errors: [ { label: "stat", symerror: 0.060781 } ] }
+  - { value: -0.071241, errors: [ { label: "stat", symerror: 0.060278 } ] }
+  - { value: -0.00605, errors: [ { label: "stat", symerror: 0.060288 } ] }
+  - { value: -0.005651, errors: [ { label: "stat", symerror: 0.060070 } ] }
+  - { value: -0.035938, errors: [ { label: "stat", symerror: 0.060022 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "4.80" }
+  values:
+  - { value: -0.01643, errors: [ { label: "stat", symerror: 0.069098 } ] }
+  - { value: -0.004885, errors: [ { label: "stat", symerror: 0.068831 } ] }
+  - { value: 0.014375, errors: [ { label: "stat", symerror: 0.069180 } ] }
+  - { value: -0.03806, errors: [ { label: "stat", symerror: 0.068679 } ] }
+  - { value: -0.055746, errors: [ { label: "stat", symerror: 0.068079 } ] }
+  - { value: 0.015228, errors: [ { label: "stat", symerror: 0.068510 } ] }
+  - { value: -0.036726, errors: [ { label: "stat", symerror: 0.068059 } ] }
+  - { value: -0.019545, errors: [ { label: "stat", symerror: 0.068095 } ] }
+  - { value: 0.044322, errors: [ { label: "stat", symerror: 0.068696 } ] }
+  - { value: -0.019545, errors: [ { label: "stat", symerror: 0.068096 } ] }
+  - { value: -0.036726, errors: [ { label: "stat", symerror: 0.068059 } ] }
+  - { value: 0.015228, errors: [ { label: "stat", symerror: 0.068510 } ] }
+  - { value: -0.055746, errors: [ { label: "stat", symerror: 0.068079 } ] }
+  - { value: -0.03806, errors: [ { label: "stat", symerror: 0.068679 } ] }
+  - { value: 0.014375, errors: [ { label: "stat", symerror: 0.069180 } ] }
+  - { value: -0.004885, errors: [ { label: "stat", symerror: 0.068831 } ] }
+  - { value: -0.01643, errors: [ { label: "stat", symerror: 0.069098 } ] }
+  - { value: 0.015694, errors: [ { label: "stat", symerror: 0.068969 } ] }
+  - { value: -0.013642, errors: [ { label: "stat", symerror: 0.069382 } ] }
+  - { value: -0.002183, errors: [ { label: "stat", symerror: 0.069653 } ] }
+  - { value: -0.008336, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.028607, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.057895, errors: [ { label: "stat", symerror: 0.070108 } ] }
+  - { value: 0.012106, errors: [ { label: "stat", symerror: 0.069834 } ] }
+  - { value: 0.022198, errors: [ { label: "stat", symerror: 0.069847 } ] }
+  - { value: 0.012106, errors: [ { label: "stat", symerror: 0.069834 } ] }
+  - { value: -0.057895, errors: [ { label: "stat", symerror: 0.070108 } ] }
+  - { value: -0.028607, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.008336, errors: [ { label: "stat", symerror: 0.069928 } ] }
+  - { value: -0.002183, errors: [ { label: "stat", symerror: 0.069653 } ] }
+  - { value: -0.013642, errors: [ { label: "stat", symerror: 0.069382 } ] }
+  - { value: 0.015694, errors: [ { label: "stat", symerror: 0.068969 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "5.10" }
+  values:
+  - { value: -0.043022, errors: [ { label: "stat", symerror: 0.083089 } ] }
+  - { value: -0.047504, errors: [ { label: "stat", symerror: 0.082975 } ] }
+  - { value: -0.031024, errors: [ { label: "stat", symerror: 0.082927 } ] }
+  - { value: -0.057462, errors: [ { label: "stat", symerror: 0.082483 } ] }
+  - { value: -0.004435, errors: [ { label: "stat", symerror: 0.083038 } ] }
+  - { value: -0.036536, errors: [ { label: "stat", symerror: 0.082430 } ] }
+  - { value: -0.083231, errors: [ { label: "stat", symerror: 0.082892 } ] }
+  - { value: -0.006399, errors: [ { label: "stat", symerror: 0.082599 } ] }
+  - { value: -0.056419, errors: [ { label: "stat", symerror: 0.082362 } ] }
+  - { value: -0.006399, errors: [ { label: "stat", symerror: 0.082599 } ] }
+  - { value: -0.083231, errors: [ { label: "stat", symerror: 0.082892 } ] }
+  - { value: -0.036536, errors: [ { label: "stat", symerror: 0.082429 } ] }
+  - { value: -0.004435, errors: [ { label: "stat", symerror: 0.083038 } ] }
+  - { value: -0.057462, errors: [ { label: "stat", symerror: 0.082483 } ] }
+  - { value: -0.031024, errors: [ { label: "stat", symerror: 0.082927 } ] }
+  - { value: -0.047504, errors: [ { label: "stat", symerror: 0.082975 } ] }
+  - { value: -0.043022, errors: [ { label: "stat", symerror: 0.083089 } ] }
+  - { value: -0.026143, errors: [ { label: "stat", symerror: 0.084061 } ] }
+  - { value: 0.034062, errors: [ { label: "stat", symerror: 0.083591 } ] }
+  - { value: 0.042287, errors: [ { label: "stat", symerror: 0.084230 } ] }
+  - { value: -0.071472, errors: [ { label: "stat", symerror: 0.084318 } ] }
+  - { value: -0.017661, errors: [ { label: "stat", symerror: 0.084204 } ] }
+  - { value: -0.011546, errors: [ { label: "stat", symerror: 0.084498 } ] }
+  - { value: -0.001729, errors: [ { label: "stat", symerror: 0.084270 } ] }
+  - { value: 0.045241, errors: [ { label: "stat", symerror: 0.084443 } ] }
+  - { value: -0.001729, errors: [ { label: "stat", symerror: 0.084270 } ] }
+  - { value: -0.011546, errors: [ { label: "stat", symerror: 0.084498 } ] }
+  - { value: -0.017661, errors: [ { label: "stat", symerror: 0.084204 } ] }
+  - { value: -0.071472, errors: [ { label: "stat", symerror: 0.084318 } ] }
+  - { value: 0.042287, errors: [ { label: "stat", symerror: 0.084230 } ] }
+  - { value: 0.034062, errors: [ { label: "stat", symerror: 0.083591 } ] }
+  - { value: -0.026143, errors: [ { label: "stat", symerror: 0.084061 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "5.40" }
+  values:
+  - { value: -0.003698, errors: [ { label: "stat", symerror: 0.107807 } ] }
+  - { value: -0.039478, errors: [ { label: "stat", symerror: 0.107802 } ] }
+  - { value: 0.029216, errors: [ { label: "stat", symerror: 0.106643 } ] }
+  - { value: -0.111242, errors: [ { label: "stat", symerror: 0.106949 } ] }
+  - { value: -0.051549, errors: [ { label: "stat", symerror: 0.106687 } ] }
+  - { value: -0.070475, errors: [ { label: "stat", symerror: 0.107145 } ] }
+  - { value: -0.093116, errors: [ { label: "stat", symerror: 0.106753 } ] }
+  - { value: -0.024509, errors: [ { label: "stat", symerror: 0.106656 } ] }
+  - { value: 0.062348, errors: [ { label: "stat", symerror: 0.106507 } ] }
+  - { value: -0.024509, errors: [ { label: "stat", symerror: 0.106656 } ] }
+  - { value: -0.093116, errors: [ { label: "stat", symerror: 0.106753 } ] }
+  - { value: -0.070475, errors: [ { label: "stat", symerror: 0.107145 } ] }
+  - { value: -0.051549, errors: [ { label: "stat", symerror: 0.106687 } ] }
+  - { value: -0.111242, errors: [ { label: "stat", symerror: 0.106949 } ] }
+  - { value: 0.029217, errors: [ { label: "stat", symerror: 0.106644 } ] }
+  - { value: -0.039478, errors: [ { label: "stat", symerror: 0.107802 } ] }
+  - { value: -0.003698, errors: [ { label: "stat", symerror: 0.107807 } ] }
+  - { value: 0.018746, errors: [ { label: "stat", symerror: 0.107633 } ] }
+  - { value: -0.048114, errors: [ { label: "stat", symerror: 0.108092 } ] }
+  - { value: 0.017377, errors: [ { label: "stat", symerror: 0.108938 } ] }
+  - { value: -0.113453, errors: [ { label: "stat", symerror: 0.108418 } ] }
+  - { value: -0.011225, errors: [ { label: "stat", symerror: 0.108442 } ] }
+  - { value: -0.061621, errors: [ { label: "stat", symerror: 0.108674 } ] }
+  - { value: -0.014231, errors: [ { label: "stat", symerror: 0.109265 } ] }
+  - { value: -0.002696, errors: [ { label: "stat", symerror: 0.109304 } ] }
+  - { value: -0.014231, errors: [ { label: "stat", symerror: 0.109265 } ] }
+  - { value: -0.061621, errors: [ { label: "stat", symerror: 0.108675 } ] }
+  - { value: -0.011225, errors: [ { label: "stat", symerror: 0.108441 } ] }
+  - { value: -0.113453, errors: [ { label: "stat", symerror: 0.108418 } ] }
+  - { value: 0.017377, errors: [ { label: "stat", symerror: 0.108938 } ] }
+  - { value: -0.048114, errors: [ { label: "stat", symerror: 0.108092 } ] }
+  - { value: 0.018746, errors: [ { label: "stat", symerror: 0.107633 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "5.70" }
+  values:
+  - { value: 0.104197, errors: [ { label: "stat", symerror: 0.161859 } ] }
+  - { value: -0.001076, errors: [ { label: "stat", symerror: 0.161833 } ] }
+  - { value: 0.102590, errors: [ { label: "stat", symerror: 0.162283 } ] }
+  - { value: -0.015767, errors: [ { label: "stat", symerror: 0.162145 } ] }
+  - { value: 0.058330, errors: [ { label: "stat", symerror: 0.160557 } ] }
+  - { value: -0.055214, errors: [ { label: "stat", symerror: 0.160159 } ] }
+  - { value: 0.028351, errors: [ { label: "stat", symerror: 0.162115 } ] }
+  - { value: -0.070744, errors: [ { label: "stat", symerror: 0.159890 } ] }
+  - { value: -0.131656, errors: [ { label: "stat", symerror: 0.160220 } ] }
+  - { value: -0.070744, errors: [ { label: "stat", symerror: 0.159890 } ] }
+  - { value: 0.028351, errors: [ { label: "stat", symerror: 0.162115 } ] }
+  - { value: -0.055214, errors: [ { label: "stat", symerror: 0.160159 } ] }
+  - { value: 0.058330, errors: [ { label: "stat", symerror: 0.160558 } ] }
+  - { value: -0.015767, errors: [ { label: "stat", symerror: 0.162144 } ] }
+  - { value: 0.102590, errors: [ { label: "stat", symerror: 0.162283 } ] }
+  - { value: -0.001076, errors: [ { label: "stat", symerror: 0.161832 } ] }
+  - { value: 0.104197, errors: [ { label: "stat", symerror: 0.161859 } ] }
+  - { value: 0.011983, errors: [ { label: "stat", symerror: 0.160664 } ] }
+  - { value: -0.139809, errors: [ { label: "stat", symerror: 0.161076 } ] }
+  - { value: 0.047647, errors: [ { label: "stat", symerror: 0.161432 } ] }
+  - { value: -0.062176, errors: [ { label: "stat", symerror: 0.161324 } ] }
+  - { value: -0.10333, errors: [ { label: "stat", symerror: 0.162966 } ] }
+  - { value: -0.066528, errors: [ { label: "stat", symerror: 0.162852 } ] }
+  - { value: 0.058429, errors: [ { label: "stat", symerror: 0.163272 } ] }
+  - { value: -0.041736, errors: [ { label: "stat", symerror: 0.164180 } ] }
+  - { value: 0.058429, errors: [ { label: "stat", symerror: 0.163272 } ] }
+  - { value: -0.066528, errors: [ { label: "stat", symerror: 0.162852 } ] }
+  - { value: -0.10333, errors: [ { label: "stat", symerror: 0.162966 } ] }
+  - { value: -0.062176, errors: [ { label: "stat", symerror: 0.161324 } ] }
+  - { value: 0.047647, errors: [ { label: "stat", symerror: 0.161432 } ] }
+  - { value: -0.139809, errors: [ { label: "stat", symerror: 0.161076 } ] }
+  - { value: 0.011983, errors: [ { label: "stat", symerror: 0.160664 } ] }
+
+- header: { name: "$R(\\Delta\\eta,\\Delta\\phi)$" }
+  qualifiers:
+  - { name: "$\\Delta\\eta$", value: "6.00" }
+  values:
+  - { value: -0.032877, errors: [ { label: "stat", symerror: 0.472832 } ] }
+  - { value: -0.077563, errors: [ { label: "stat", symerror: 0.472818 } ] }
+  - { value: -0.271486, errors: [ { label: "stat", symerror: 0.477544 } ] }
+  - { value: 0.069828, errors: [ { label: "stat", symerror: 0.476463 } ] }
+  - { value: 0.148785, errors: [ { label: "stat", symerror: 0.466632 } ] }
+  - { value: 0.402862, errors: [ { label: "stat", symerror: 0.468268 } ] }
+  - { value: -0.579929, errors: [ { label: "stat", symerror: 0.476873 } ] }
+  - { value: -0.042238, errors: [ { label: "stat", symerror: 0.482671 } ] }
+  - { value: -0.404851, errors: [ { label: "stat", symerror: 0.488431 } ] }
+  - { value: -0.042238, errors: [ { label: "stat", symerror: 0.482671 } ] }
+  - { value: -0.579929, errors: [ { label: "stat", symerror: 0.476873 } ] }
+  - { value: 0.402862, errors: [ { label: "stat", symerror: 0.468268 } ] }
+  - { value: 0.148785, errors: [ { label: "stat", symerror: 0.466632 } ] }
+  - { value: 0.069828, errors: [ { label: "stat", symerror: 0.476463 } ] }
+  - { value: -0.271486, errors: [ { label: "stat", symerror: 0.477544 } ] }
+  - { value: -0.077563, errors: [ { label: "stat", symerror: 0.472818 } ] }
+  - { value: -0.032877, errors: [ { label: "stat", symerror: 0.472832 } ] }
+  - { value: 0.048984, errors: [ { label: "stat", symerror: 0.472307 } ] }
+  - { value: -0.151771, errors: [ { label: "stat", symerror: 0.482680 } ] }
+  - { value: -0.450528, errors: [ { label: "stat", symerror: 0.492889 } ] }
+  - { value: -0.202806, errors: [ { label: "stat", symerror: 0.475224 } ] }
+  - { value: -0.014976, errors: [ { label: "stat", symerror: 0.490014 } ] }
+  - { value: 0.297962, errors: [ { label: "stat", symerror: 0.489360 } ] }
+  - { value: 0.176102, errors: [ { label: "stat", symerror: 0.490635 } ] }
+  - { value: 0.279142, errors: [ { label: "stat", symerror: 0.492104 } ] }
+  - { value: 0.176102, errors: [ { label: "stat", symerror: 0.490635 } ] }
+  - { value: 0.297962, errors: [ { label: "stat", symerror: 0.489360 } ] }
+  - { value: -0.014976, errors: [ { label: "stat", symerror: 0.490014 } ] }
+  - { value: -0.202806, errors: [ { label: "stat", symerror: 0.475224 } ] }
+  - { value: -0.450528, errors: [ { label: "stat", symerror: 0.492889 } ] }
+  - { value: -0.151771, errors: [ { label: "stat", symerror: 0.482680 } ] }
+  - { value: 0.048984, errors: [ { label: "stat", symerror: 0.472307 } ] }
