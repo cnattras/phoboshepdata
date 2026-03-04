@@ -22,31 +22,6 @@ keywords:
 - name: cmenergies
   values: [ 19.6, 56, 62.4, 130, 200 ]
 data_file: table2.yaml
-additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 2: Cu+Cu"
 location: Data from table 2 of PhysRevC.83.024913
@@ -60,31 +35,6 @@ keywords:
 - name: cmenergies
   values: [ 22.4, 62.4, 200 ]
 data_file: table2cu.yaml
-additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 3"
 location: Data from table 3 of PhysRevC.83.024913
@@ -98,31 +48,6 @@ keywords:
 - name: cmenergies
   values: [ 410 ]
 data_file: table3.yaml
-additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 4"
 location: Data from table 4 of PhysRevC.83.024913
@@ -136,31 +61,6 @@ keywords:
 - name: cmenergies
   values: [ 200, 410 ]
 data_file: table4.yaml
-additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=19.6~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
@@ -175,30 +75,7 @@ keywords:
   values: [ 19.6 ]
 data_file: table5.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
 - { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=64.2~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
@@ -213,30 +90,7 @@ keywords:
   values: [ 62.4 ]
 data_file: table5.62.4.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
 - { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=130~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
@@ -251,30 +105,7 @@ keywords:
   values: [ 130 ]
 data_file: table5.130.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
 - { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
@@ -289,30 +120,7 @@ keywords:
   values: [ 200 ]
 data_file: table5.200.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
 - { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 6: $\\sqrt{s_{NN}}=19.6~GeV$"
 location: Data from table 6 of PhysRevC.83.024913
@@ -441,30 +249,7 @@ keywords:
   values: [ 19.6 ]
 data_file: table7.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
 - { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=62.4~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
@@ -479,30 +264,7 @@ keywords:
   values: [ 62.4 ]
 data_file: table7.62.4.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
 - { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=130~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
@@ -517,30 +279,7 @@ keywords:
   values: [ 130 ]
 data_file: table7.130.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
 - { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
@@ -555,30 +294,7 @@ keywords:
   values: [ 200 ]
 data_file: table7.200.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
 - { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 8: $\\sqrt{s_{NN}}=22.4~GeV$"
 location: Data from table 8 of PhysRevC.83.024913
@@ -593,30 +309,7 @@ keywords:
   values: [ 22.4 ]
 data_file: table8.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
 - { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 8: $\\sqrt{s_{NN}}=62.4~GeV$"
 location: Data from table 8 of PhysRevC.83.024913
@@ -631,30 +324,7 @@ keywords:
   values: [ 62.4 ]
 data_file: table8.62.4.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
 - { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Table 8: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 8 of PhysRevC.83.024913
@@ -669,30 +339,7 @@ keywords:
   values: [ 200 ]
 data_file: table8.200.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
 - { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 
 name: "Proton-Proton: $\\sqrt{s_{NN}}=200~GeV$"
@@ -708,30 +355,8 @@ keywords:
   values: [ 200 ]
 data_file: 200.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
 - { description: Thumbnail Image file, location: thumb_fig13.png }
 - { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Proton-Proton: $\\sqrt{s_{NN}}=410~GeV$"
 location: Data from PhysRevC.83.024913
@@ -746,30 +371,8 @@ keywords:
   values: [ 410 ]
 data_file: 410.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
 - { description: Thumbnail Image file, location: thumb_fig13.png }
 - { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
-- { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 name: "Au+Au: $\\sqrt{s_{NN}}=130~GeV$"
 location: Data from PhysRevC.83.024913
@@ -784,30 +387,7 @@ keywords:
   values: [ 130 ]
 data_file: 130.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig6.png }
-- { description: Thumbnail Image file, location: thumb_fig8.png }
-- { description: Thumbnail Image file, location: thumb_fig9.png }
-- { description: Thumbnail Image file, location: thumb_fig10.png }
-- { description: Thumbnail Image file, location: thumb_fig11.png }
-- { description: Thumbnail Image file, location: thumb_fig12.png }
-- { description: Thumbnail Image file, location: thumb_fig13.png }
-- { description: Thumbnail Image file, location: thumb_fig14.png }
-- { description: Thumbnail Image file, location: thumb_fig15.png }
-- { description: Thumbnail Image file, location: thumb_fig16.png }
 - { description: Thumbnail Image file, location: thumb_fig17.png }
-- { description: Thumbnail Image file, location: thumb_fig18.png }
-- { description: Thumbnail Image file, location: thumb_fig19.png }
-- { description: Thumbnail Image file, location: thumb_fig20.png }
-- { description: Thumbnail Image file, location: thumb_fig21.png }
-- { description: Thumbnail Image file, location: thumb_fig22.png }
-- { description: Thumbnail Image file, location: thumb_fig23.png }
-- { description: Thumbnail Image file, location: thumb_fig24.png }
-- { description: Thumbnail Image file, location: thumb_fig25.png }
-- { description: Thumbnail Image file, location: thumb_fig26.png }
-- { description: Thumbnail Image file, location: thumb_fig27.png }
-- { description: Thumbnail Image file, location: thumb_fig28.png }
-- { description: Thumbnail Image file, location: thumb_fig29.png }
 ---
 
 
