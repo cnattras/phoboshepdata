@@ -26,10 +26,6 @@ keywords:
 data_file: 1.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig1.png }
-- { description: Thumbnail Image file, location: thumb_fig2.png }
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig4.png }
-- { description: Thumbnail Image file, location: thumb_fig5.png }
 ---
 name: "Cu+Cu at $\\sqrt{S_{NN}}= 62.4$ GeV"
 location: Data from Phys.Rev.Lett. 102 (2009) 142301
@@ -45,10 +41,6 @@ keywords:
 data_file: 2.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig1.png }
-- { description: Thumbnail Image file, location: thumb_fig2.png }
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig4.png }
-- { description: Thumbnail Image file, location: thumb_fig5.png }
 ---
 name: "Cu+Cu at $\\sqrt{S_{NN}}= 200$ GeV"
 location: Data from Phys.Rev.Lett. 102 (2009) 142301
@@ -64,10 +56,6 @@ keywords:
 data_file: 3.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig1.png }
-- { description: Thumbnail Image file, location: thumb_fig2.png }
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig4.png }
-- { description: Thumbnail Image file, location: thumb_fig5.png }
 ---
 name: "Au+Au at $\\sqrt{S_{NN}}= 19.6$ GeV"
 location: Data from Phys.Rev.Lett. 102 (2009) 142301
@@ -82,7 +70,3 @@ keywords:
   values: [ 19.6 ]
 data_file: 4.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig2.png }
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig4.png }
-- { description: Thumbnail Image file, location: thumb_fig5.png }
