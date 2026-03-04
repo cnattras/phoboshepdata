@@ -70,3 +70,4 @@ keywords:
   values: [ 19.6 ]
 data_file: 4.yaml
 additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
