@@ -14,7 +14,7 @@ comment: |
 ---
 name: "Table 1"
 location: Data from table 1 of Phys. Rev. C72, 051901(R) (2005)
-description: haracteristics of the event samples used in the two flow analyses of 200-GeV Au+Au collisions.
+description: Characteristics of the event samples used in the two flow analyses of 200-GeV Au+Au collisions.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -25,17 +25,13 @@ keywords:
   values: [ 200 ]
 data_file: table1.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig1.png }
-- { description: Thumbnail Image file, location: thumb_fig2.png }
-- { description: Thumbnail Image file, location: thumb_fig3.png }
-- { description: Thumbnail Image file, location: thumb_fig4.png }
 - { description: Thumbnail Image file, location: thumb_fig5.png }
 ---
 # Start of table entries.
 # This is Table 1.
 name: "Figure 1"
 location: Data from figure 1 of Phys. Rev. C72, 051901(R) (2005)
-description: Hit-based $v^2$ versus $\eta$ data for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+description: Hit-based $v^2$ versus $\eta$ for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -52,7 +48,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 2: Hit-Based"
 location: Data from figure 2 of Phys. Rev. C72, 051901(R) (2005)
-description: Hit-based $v^2$ versus $\langle N_{part} \rangle$ data for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+description: Hit-based $v^2$ versus $\langle N_{part} \rangle$ for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -69,7 +65,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 2: Track-Based"
 location: Data from figure 2 of Phys. Rev. C72, 051901(R) (2005)
-description: Track-Based"-based $v^2$ versus $\langle N_{part} \rangle$ data for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+description: Track-Based"-based $v^2$ versus $\langle N_{part} \rangle$ for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -86,7 +82,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 3"
 location: Data from figure 3 of Phys. Rev. C72, 051901(R) (2005)
-description: Track-Based" based $v^2$ versus $p_T$ data for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
+description: Track-Based" based $v^2$ versus $p_T$ for minimum-bias Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -103,7 +99,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 4: Peripheral Hit-Based"
 location: Data from figure 4 of Phys. Rev. C72, 051901(R) (2005)
-description: Hit-Based $v^2$ versus $\eta$ data for peripheral (25-50%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+description: Hit-Based $v^2$ versus $\eta$ for peripheral (25-50%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -120,7 +116,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 4: Mid-Central Hit-Based"
 location: Data from figure 4 of Phys. Rev. C72, 051901(R) (2005)
-description: Hit-Based $v^2$ versus $\eta$ data for mid-central (15-25%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+description: Hit-Based $v^2$ versus $\eta$ for mid-central (15-25%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -137,7 +133,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 4: Central Hit-based"
 location: Data from figure 4 of Phys. Rev. C72, 051901(R) (2005)
-description: Hit-Based $v^2$ versus $\eta$ data for central (3-15%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+description: Hit-Based $v^2$ versus $\eta$ for central (3-15%) Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -154,7 +150,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 4: Track-Based"
 location: Data from figure 4 of Phys. Rev. C72, 051901(R) (2005)
-description: Track-Based $v^2$ versus $\eta$ data for 3 centralities Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+description: Track-Based $v^2$ versus $\eta$ for 3 centralities Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -171,7 +167,7 @@ additional_resources:
 # This is Table 1.
 name: "Figure 5"
 location: Data from figure 5 of Phys. Rev. C72, 051901(R) (2005)
-description: Combined $v^2$ versus $\eta$ data for 3 centralities Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+description: Combined $v^2$ versus $\eta$ for 3 centralities Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions

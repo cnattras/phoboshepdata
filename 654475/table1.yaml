@@ -43,7 +43,7 @@ dependent_variables:
   - { value: 1230394 }
   - { value: 3087599 }
 
-- header: { name: "% $\\sigma%" }
+- header: { name: "$\\sigma$" }
   qualifiers:
   - { name: "Method", value: "Track-based" }
   values:
@@ -52,7 +52,7 @@ dependent_variables:
   - { value: "15-25" }
   - { value: "25-50" }
 
-- header: { name: "% $\\sigma%" }
+- header: { name: "$\\sigma$" }
   qualifiers:
   - { name: "Method", value: "Hit-based" }
   values:
