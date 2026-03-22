@@ -12,7 +12,7 @@ comment: |
 ---
 name: "Table 2: Au+Au"
 location: Data from table 2 of PhysRevC.83.024913
-description: Summary of the midrapidity charged particle multiplicity $\left.\frac{dN_{ch}}{d\eta}\right|_{|\eta|<1}/\langle N_{part}/2\rangle$ for Au+Au for 0--6\% central collisions. The data are averaged over those obtained from the tracklet counting and single Si layer analysis. Errors represent averages of the 90\% C.L. systematic errors for the two methods. Statistical errors are negligible.
+description: Summary of the midrapidity charged particle multiplicity $\left.\frac{dN_{ch}}{d\eta}\right|_{|\eta|<1}/\langle N_{part}/2\rangle$ for Au+Au for 0--6\% central collisions. The data are averaged over those obtained from the tracklet counting and single Si layer analysis. Errors represent averages of the 90% C.L. systematic errors for the two methods. Statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -25,7 +25,7 @@ data_file: table2.yaml
 ---
 name: "Table 2: Cu+Cu"
 location: Data from table 2 of PhysRevC.83.024913
-description: Summary of the midrapidity charged particle multiplicity $\left.\frac{dN_{ch}}{d\eta}\right|_{|\eta|<1}/\langle N_{part}/2\rangle$ for Cu+Cu for 0--6\% central collisions. The data are averaged over those obtained from the tracklet counting and single Si layer analysis. Errors represent averages of the 90\% C.L. systematic errors for the two methods. Statistical errors are negligible.
+description: Summary of the midrapidity charged particle multiplicity $\left.\frac{dN_{ch}}{d\eta}\right|_{|\eta|<1}/\langle N_{part}/2\rangle$ for Cu+Cu for 0--6\% central collisions. The data are averaged over those obtained from the tracklet counting and single Si layer analysis. Errors represent averages of the 90% C.L. systematic errors for the two methods. Statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -38,7 +38,7 @@ data_file: table2cu.yaml
 ---
 name: "Table 3"
 location: Data from table 3 of PhysRevC.83.024913
-description: Summary of the Monte Carlo Glauber model predictions of the number of participating nucleons, $\langle N^{Au}_{part}\rangle$ and $\langle N^{d}_{part}\rangle$, associated with the incoming Au and deuteron nuclei, respectively. The total number of charged particles emitted within the PHOBOS acceptance, $N_{ch}(|\eta|<5.4)$, and an estimate of the total multiplicity including the unmeasured region, $N^{tot}_{ch}$ (see text for details) are also listed. Errors are 90\% C.L. systematic errors.
+description: Summary of the Monte Carlo Glauber model predictions of the number of participating nucleons, $\langle N^{Au}_{part}\rangle$ and $\langle N^{d}_{part}\rangle$, associated with the incoming Au and deuteron nuclei, respectively. The total number of charged particles emitted within the PHOBOS acceptance, $N_{ch}(|\eta|<5.4)$, and an estimate of the total multiplicity including the unmeasured region, $N^{tot}_{ch}$ (see text for details) are also listed. Errors are 90% C.L. systematic errors.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -51,7 +51,7 @@ data_file: table3.yaml
 ---
 name: "Table 4"
 location: Data from table 4 of PhysRevC.83.024913
-description: Table of the midrapidity charged-particle density $dN_{ch}/d\eta$, the total number of charged particles emitted within the PHOBOS acceptance, $N_{ch}(|\eta|<5.4)$, in minimum-bias, inelastic $p+p$ collisions. Also listed is an estimate of the total multiplicity including the unmeasured region, $N^{tot}_{ch}$ using a three-parameter double-Gaussian fit to the data. Errors are 90\% C.L. systematic errors.
+description: Table of the midrapidity charged-particle density $dN_{ch}/d\eta$, the total number of charged particles emitted within the PHOBOS acceptance, $N_{ch}(|\eta|<5.4)$, in minimum-bias, inelastic $p+p$ collisions. Also listed is an estimate of the total multiplicity including the unmeasured region, $N^{tot}_{ch}$ using a three-parameter double-Gaussian fit to the data. Errors are 90% C.L. systematic errors.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -64,7 +64,7 @@ data_file: table4.yaml
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=19.6~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=19.6~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 3.036
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=19.6~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 3.036
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -79,7 +79,7 @@ additional_resources:
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=64.2~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=62.4~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 4.196
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=62.4~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 4.196
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -94,7 +94,7 @@ additional_resources:
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=130~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=130~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 4.930
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=130~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 4.930
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -109,7 +109,7 @@ additional_resources:
 ---
 name: "Table 5: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 5 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=200~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 5.361
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Au+Au collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=200~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 5.361
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -124,7 +124,7 @@ additional_resources:
 ---
 name: "Table 6: $\\sqrt{s_{NN}}=19.6~GeV$"
 location: Data from table 6 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Cu+Cu collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=22.4~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 3.170
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Cu+Cu collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=22.4~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 3.170
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -139,7 +139,7 @@ additional_resources:
 ---
 name: "Table 6: $\\sqrt{s_{NN}}=64.2~GeV$"
 location: Data from table 6 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Cu+Cu collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=62.4~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 4.196
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Cu+Cu collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=62.4~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 4.196
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -154,7 +154,7 @@ additional_resources:
 ---
 name: "Table 6: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 6 of PhysRevC.83.024913
-description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Cu+Cu collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=200~GeV$. The errors are systematic errors at 90\% C.L.; statistical errors are negligible. y_{beam} = 5.361
+description: Summary of the midrapidity $dN_{ch}/d\eta$ ($|\eta|<1$) charged-particle multiplicity for Cu+Cu collisions obtained from the tracklet analysis. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section at $\sqrt{s_{NN}}=200~GeV$. The errors are systematic errors at 90% C.L.; statistical errors are negligible. $y_{beam}$ = 5.361
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -169,7 +169,7 @@ additional_resources:
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=19.6~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=19.6~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=19.6~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -184,7 +184,7 @@ additional_resources:
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=62.4~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=62.4~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=62.4~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -199,7 +199,7 @@ additional_resources:
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=130~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=130~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=130~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -214,7 +214,7 @@ additional_resources:
 ---
 name: "Table 7: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 7 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=200~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Au+Au collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=200~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -229,7 +229,7 @@ additional_resources:
 ---
 name: "Table 8: $\\sqrt{s_{NN}}=22.4~GeV$"
 location: Data from table 8 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Cu+Cu collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=22.4~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Cu+Cu collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=22.4~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -244,7 +244,7 @@ additional_resources:
 ---
 name: "Table 8: $\\sqrt{s_{NN}}=62.4~GeV$"
 location: Data from table 8 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Cu+Cu collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=62.4~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Cu+Cu collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=62.4~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -259,7 +259,7 @@ additional_resources:
 ---
 name: "Table 8: $\\sqrt{s_{NN}}=200~GeV$"
 location: Data from table 8 of PhysRevC.83.024913
-description: Summary of the total charged-particle multiplicity estimates for Cu+Cu collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=200~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90\% C.L. are given since statistical errors are negligible.
+description: Summary of the total charged-particle multiplicity estimates for Cu+Cu collisions obtained in three different ways. $N_{ch}\, (|\eta|<5.4)$ denotes the multiplicity observed within the acceptance region $|\eta|<5.4$ obtained from the single-layer analysis, whereas $N_{ch}^{tot}$ and $N_{ch}^{p}$ represent extrapolations into the unmeasured $\eta$ region, either including or excluding contributions from spectator emission. The data are listed as a function of centrality expressed as a percentage of the total reaction cross section for $\sqrt{s_{NN}}=200~GeV$. Also listed are the full width at half maximum, FWHM, of the $dN/d\eta$ distributions and the derived quantity $N_{part}$. Only systematic errors at 90% C.L. are given since statistical errors are negligible.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions

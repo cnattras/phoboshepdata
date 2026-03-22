@@ -10,13 +10,13 @@ dependent_variables:
   values:
   - { value: 5.361 }
   - { value: 6.079 }
-- header: { name: "$\\frac{dN_{ch}}{d\\eta}|_{|\eta|<1}$" }
+- header: { name: "$\\frac{dN_{ch}}{d\\eta}|_{|\\eta|<1}$" }
   qualifiers:
   - { name: "System", value: "p+p (inelastic)" }
   values:
   - { value: 2.25, errors: [ { label: "sys", asymerror: { plus: 0.37, minus: 0.3 } } ] }
   - { value: 2.87, errors: [ { label: "sys", asymerror: { plus: 0.44, minus: 0.43 } } ] }
-- header: { name: "$N_{ch}(|\eta|<5.4)$" }
+- header: { name: "$N_{ch}(|\\eta|<5.4)$" }
   qualifiers:
   - { name: "System", value: "p+p (inelastic)" }
   values:
