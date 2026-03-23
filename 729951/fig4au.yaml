@@ -1,0 +1,181 @@
+# Figure 4b: eccentricity vs. Npart
+# Au-Au at 200 GeV
+
+independent_variables:
+- header: { name: '$N_{part}$' }
+  values:
+  - { value: 4.1 }
+  - { value: 10.7 }
+  - { value: 15.3 }
+  - { value: 21.1 }
+  - { value: 28.9 }
+  - { value: 38.7 }
+  - { value: 50.5 }
+  - { value: 65.3 }
+  - { value: 83.1 }
+  - { value: 102.7 }
+  - { value: 124.4 }
+  - { value: 152.0 }
+  - { value: 182.7 }
+  - { value: 216.5 }
+  - { value: 255.9 }
+  - { value: 297.7 }
+  - { value: 330.6 }
+  - { value: 358.4 }
+
+dependent_variables:
+- header: { name: '$\\epsilon_{std}$' }
+  qualifiers:
+  - { name: 'SYSTEM', value: 'Au-Au' }
+  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  values:
+  - value: 0.0414
+    errors:
+    - { label: 'stat', symerror: 0.0016 }
+    - { label: 'sys', symerror: 0.0598 }
+  - value: 0.3469
+    errors:
+    - { label: 'stat', symerror: 0.0028 }
+    - { label: 'sys', symerror: 0.0507 }
+  - value: 0.3933
+    errors:
+    - { label: 'stat', symerror: 0.0025 }
+    - { label: 'sys', symerror: 0.0616 }
+  - value: 0.4077
+    errors:
+    - { label: 'stat', symerror: 0.0022 }
+    - { label: 'sys', symerror: 0.0714 }
+  - value: 0.4068
+    errors:
+    - { label: 'stat', symerror: 0.0020 }
+    - { label: 'sys', symerror: 0.0757 }
+  - value: 0.3978
+    errors:
+    - { label: 'stat', symerror: 0.0018 }
+    - { label: 'sys', symerror: 0.0794 }
+  - value: 0.3910
+    errors:
+    - { label: 'stat', symerror: 0.0015 }
+    - { label: 'sys', symerror: 0.0733 }
+  - value: 0.3789
+    errors:
+    - { label: 'stat', symerror: 0.0013 }
+    - { label: 'sys', symerror: 0.0701 }
+  - value: 0.3543
+    errors:
+    - { label: 'stat', symerror: 0.0012 }
+    - { label: 'sys', symerror: 0.0650 }
+  - value: 0.3307
+    errors:
+    - { label: 'stat', symerror: 0.0011 }
+    - { label: 'sys', symerror: 0.0604 }
+  - value: 0.3042
+    errors:
+    - { label: 'stat', symerror: 0.0010 }
+    - { label: 'sys', symerror: 0.0573 }
+  - value: 0.2701
+    errors:
+    - { label: 'stat', symerror: 0.0009 }
+    - { label: 'sys', symerror: 0.0506 }
+  - value: 0.2317
+    errors:
+    - { label: 'stat', symerror: 0.0008 }
+    - { label: 'sys', symerror: 0.0450 }
+  - value: 0.1892
+    errors:
+    - { label: 'stat', symerror: 0.0008 }
+    - { label: 'sys', symerror: 0.0385 }
+  - value: 0.1429
+    errors:
+    - { label: 'stat', symerror: 0.0007 }
+    - { label: 'sys', symerror: 0.0300 }
+  - value: 0.0914
+    errors:
+    - { label: 'stat', symerror: 0.0007 }
+    - { label: 'sys', symerror: 0.0225 }
+  - value: 0.0551
+    errors:
+    - { label: 'stat', symerror: 0.0008 }
+    - { label: 'sys', symerror: 0.0152 }
+  - value: 0.0248
+    errors:
+    - { label: 'stat', symerror: 0.0008 }
+    - { label: 'sys', symerror: 0.0103 }
+
+- header: { name: '$\\epsilon_{part}$' }
+  qualifiers:
+  - { name: 'SYSTEM', value: 'Au-Au' }
+  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  values:
+  - value: 0.8021
+    errors:
+    - { label: 'stat', symerror: 0.0006 }
+    - { label: 'sys', symerror: 0.0353 }
+  - value: 0.7120
+    errors:
+    - { label: 'stat', symerror: 0.0013 }
+    - { label: 'sys', symerror: 0.0310 }
+  - value: 0.6652
+    errors:
+    - { label: 'stat', symerror: 0.0013 }
+    - { label: 'sys', symerror: 0.0213 }
+  - value: 0.6142
+    errors:
+    - { label: 'stat', symerror: 0.0013 }
+    - { label: 'sys', symerror: 0.0204 }
+  - value: 0.5639
+    errors:
+    - { label: 'stat', symerror: 0.0013 }
+    - { label: 'sys', symerror: 0.0258 }
+  - value: 0.5228
+    errors:
+    - { label: 'stat', symerror: 0.0012 }
+    - { label: 'sys', symerror: 0.0314 }
+  - value: 0.4864
+    errors:
+    - { label: 'stat', symerror: 0.0012 }
+    - { label: 'sys', symerror: 0.0338 }
+  - value: 0.4526
+    errors:
+    - { label: 'stat', symerror: 0.0011 }
+    - { label: 'sys', symerror: 0.0367 }
+  - value: 0.4163
+    errors:
+    - { label: 'stat', symerror: 0.0010 }
+    - { label: 'sys', symerror: 0.0382 }
+  - value: 0.3824
+    errors:
+    - { label: 'stat', symerror: 0.0010 }
+    - { label: 'sys', symerror: 0.0376 }
+  - value: 0.3485
+    errors:
+    - { label: 'stat', symerror: 0.0009 }
+    - { label: 'sys', symerror: 0.0348 }
+  - value: 0.3095
+    errors:
+    - { label: 'stat', symerror: 0.0008 }
+    - { label: 'sys', symerror: 0.0315 }
+  - value: 0.2673
+    errors:
+    - { label: 'stat', symerror: 0.0007 }
+    - { label: 'sys', symerror: 0.0289 }
+  - value: 0.2245
+    errors:
+    - { label: 'stat', symerror: 0.0007 }
+    - { label: 'sys', symerror: 0.0249 }
+  - value: 0.1792
+    errors:
+    - { label: 'stat', symerror: 0.0006 }
+    - { label: 'sys', symerror: 0.0173 }
+  - value: 0.1321
+    errors:
+    - { label: 'stat', symerror: 0.0006 }
+    - { label: 'sys', symerror: 0.0106 }
+  - value: 0.1026
+    errors:
+    - { label: 'stat', symerror: 0.0006 }
+    - { label: 'sys', symerror: 0.0078 }
+  - value: 0.0819
+    errors:
+    - { label: 'stat', symerror: 0.0006 }
+    - { label: 'sys', symerror: 0.0069 }

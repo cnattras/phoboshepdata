@@ -1,0 +1,43 @@
+# Figure 3b: Cu-Cu 200 GeV (hit-based)
+
+independent_variables:
+- header: { name: '$N_{part}$' }
+  values:
+  - { value: 19 }
+  - { value: 30 }
+  - { value: 44 }
+  - { value: 62 }
+  - { value: 84 }
+  - { value: 104 }
+
+dependent_variables:
+- header: { name: '$v_2$' }
+  qualifiers:
+  - { name: 'SYSTEM', value: 'Cu-Cu' }
+  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  - { name: 'METHOD', value: 'hit-based' }
+  values:
+  - value: 0.0526
+    errors:
+    - { label: 'stat', symerror: 0.0130 }
+    - { label: 'sys', asymerror: { plus: 0.00720, minus: -0.0072 } }
+  - value: 0.0522
+    errors:
+    - { label: 'stat', symerror: 0.0085 }
+    - { label: 'sys', asymerror: { plus: 0.00924, minus: -0.00924 } }
+  - value: 0.0477
+    errors:
+    - { label: 'stat', symerror: 0.0046 }
+    - { label: 'sys', asymerror: { plus: 0.00526, minus: -0.00526 } }
+  - value: 0.0448
+    errors:
+    - { label: 'stat', symerror: 0.0029 }
+    - { label: 'sys', asymerror: { plus: 0.00589, minus: -0.00589 } }
+  - value: 0.0395
+    errors:
+    - { label: 'stat', symerror: 0.0022 }
+    - { label: 'sys', asymerror: { plus: 0.00524, minus: -0.00524 } }
+  - value: 0.0301
+    errors:
+    - { label: 'stat', symerror: 0.0018 }
+    - { label: 'sys', asymerror: { plus: 0.00557, minus: -0.00557 } }

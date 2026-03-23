@@ -1,0 +1,89 @@
+# Figure 5c: Au-Au 62.4 GeV
+
+independent_variables:
+- header: { name: '$N_{part}$' }
+  values:
+  - { value: 88.0 }
+  - { value: 133.0 }
+  - { value: 191.0 }
+  - { value: 266.0 }
+  - { value: 336.0 }
+
+dependent_variables:
+- header: { name: '$v_2$' }
+  qualifiers:
+  - { name: 'SYSTEM', value: 'Au-Au' }
+  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
+  values:
+  - value: 0.052
+    errors:
+    - { label: 'stat', symerror: 0.009 }
+    - { label: 'sys', asymerror: { plus: 0.023, minus: -0.023 } }
+  - value: 0.056
+    errors:
+    - { label: 'stat', symerror: 0.005 }
+    - { label: 'sys', asymerror: { plus: 0.016, minus: -0.016 } }
+  - value: 0.0446
+    errors:
+    - { label: 'stat', symerror: 0.0029 }
+    - { label: 'sys', asymerror: { plus: 0.0097, minus: -0.0097 } }
+  - value: 0.0343
+    errors:
+    - { label: 'stat', symerror: 0.0020 }
+    - { label: 'sys', asymerror: { plus: 0.0061, minus: -0.0061 } }
+  - value: 0.0261
+    errors:
+    - { label: 'stat', symerror: 0.0024 }
+    - { label: 'sys', asymerror: { plus: 0.0114, minus: -0.0114 } }
+
+- header: { name: '$v_2/\\epsilon_{std}$' }
+  qualifiers:
+  - { name: 'SYSTEM', value: 'Au-Au' }
+  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
+  values:
+  - value: 0.145
+    errors:
+    - { label: 'stat', symerror: 0.026 }
+    - { label: 'sys', asymerror: { plus: 0.069, minus: -0.069 } }
+  - value: 0.185
+    errors:
+    - { label: 'stat', symerror: 0.017 }
+    - { label: 'sys', asymerror: { plus: 0.063, minus: -0.063 } }
+  - value: 0.196
+    errors:
+    - { label: 'stat', symerror: 0.013 }
+    - { label: 'sys', asymerror: { plus: 0.053, minus: -0.053 } }
+  - value: 0.251
+    errors:
+    - { label: 'stat', symerror: 0.015 }
+    - { label: 'sys', asymerror: { plus: 0.063, minus: -0.063 } }
+  - value: 0.48
+    errors:
+    - { label: 'stat', symerror: 0.04 }
+    - { label: 'sys', asymerror: { plus: 0.25, minus: -0.25 } }
+
+- header: { name: '$v_2/\\epsilon_{part}$' }
+  qualifiers:
+  - { name: 'SYSTEM', value: 'Au-Au' }
+  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
+  values:
+  - value: 0.126
+    errors:
+    - { label: 'stat', symerror: 0.023 }
+    - { label: 'sys', asymerror: { plus: 0.057, minus: -0.057 } }
+  - value: 0.163
+    errors:
+    - { label: 'stat', symerror: 0.015 }
+    - { label: 'sys', asymerror: { plus: 0.051, minus: -0.051 } }
+  - value: 0.171
+    errors:
+    - { label: 'stat', symerror: 0.011 }
+    - { label: 'sys', asymerror: { plus: 0.040, minus: -0.04 } }
+  - value: 0.200
+    errors:
+    - { label: 'stat', symerror: 0.012 }
+    - { label: 'sys', asymerror: { plus: 0.039, minus: -0.039 } }
+  - value: 0.256
+    errors:
+    - { label: 'stat', symerror: 0.024 }
+    - { label: 'sys', asymerror: { plus: 0.114, minus: -0.114 } }

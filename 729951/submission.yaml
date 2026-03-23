@@ -11,84 +11,188 @@ additional_resources:
 - { location: "https://doi.org/10.1103/PhysRevLett.98.242302", description: "PhysRevLett.98.242302" }
 
 comment: |
-  BNL-RHIC. Antiparticle to particle ratios for identified protons, kaons and pions at $\sqrt{s_{_{NN}}}$ = 62.4 and  GeV in Cu+Cu collisions are presented as a function of centrality for the midrapidity region of  $0.2 < \eta < 1.4$.  No strong dependence on centrality is observed. For  the $\langle \overline{p} \rangle / \langle p \rangle$ ratio at $\langle p_T \rangle \approx 0.51$ GeV/c,  we observe an average value of  $0.50 \pm 0.003_\textrm{(stat)} \pm 0.04_\textrm{(syst)}$ and $0.77 \pm 0.008_\textrm{(stat)} \pm 0.05_\textrm{(syst)}$  for the 10% most central collisions of 62.4 and  GeV Cu+Cu, respectively. The values for all three particle species measured at $\sqrt{s_{_{NN}}}$ =  GeV are in agreement within systematic uncertainties with that seen in both heavier and lighter systems measured at the same RHIC energy. This indicates that system size does not appear to play a strong role in determining the midrapidity chemical freeze-out properties affecting the antiparticle to particle ratios of the three most abundant particle species produced in these collisions.
+  BNL-RHIC. Antiparticle-to-particle ratios for identified protons, kaons, and pions in Cu+Cu collisions at $\sqrt{s_{NN}} = 62.4$ GeV are presented as a function of centrality in the midrapidity region $0.2 < \eta < 1.4$. No strong dependence on centrality is observed. For the $\langle \overline{p} \rangle / \langle p \rangle$ ratio at $\langle p_T \rangle \approx 0.51$ GeV/$c$, an average value of $0.50 \pm 0.003_{stat} \pm 0.04_{syst}$ is observed for the 10% most central 62.4 GeV Cu+Cu collisions, while a value of $0.77 \pm 0.008_{stat} \pm 0.05_{syst}$ is observed for the 10% most central 200 GeV Cu+Cu collisions. The values for all three particle species measured at $\sqrt{s_{NN}} = 62.4$ and 200 GeV are consistent, within systematic uncertainties, with those observed in both heavier and lighter systems at the same RHIC energies. This indicates that system size does not appear to play a strong role in determining the midrapidity chemical freeze-out properties that affect the antiparticle-to-particle ratios of the three most abundant particle species produced in these collisions.
 ---
 # Start of table entries.
 # This is Table 1.
-name: ""
-location: Data from PhysRevLett.98.242302
-description:
+name: "Figure 1"
+location: Data figure 1 from PhysRevLett.98.242302
+description: $v_2$ as a function of pseudorapidity, $\eta$, for charged hadrons in 0-40% central Cu-Cu collisions at $\sqrt{s_{NN}} = 62.4$ GeV and 200 GeV, compared with Au-Au collisions at $\sqrt{s_{NN}} = 200$ GeV.
 keywords:
-# used for searching, possibly multiple values for each keyword
 - name: reactions
-  values: [ --> MULT(CHARGED) X ]
+  values: [ Au+Au, Cu+Cu --> MULT(CHARGED) X ]
 - name: observables
   values: [ DN/DETARAP ]
 - name: cmenergies
-  values: []
-data_file: .yaml
+  values: [ 62.4, 200 ]
+data_file: fig1.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig.png }
+- { description: Thumbnail Image file, location: thumb_fig1.png }
 ---
-name: ""
-location: Data from PhysRevLett.98.242302
-description:
+name: "Figure 2: Cu+Cu at $\\sqrt{s_{NN}}=62.4$ GeV "
+location: Data figure 2 from PhysRevLett.98.242302
+description: $v_2$ vs. $|\eta| - y_{beam}$ for Cu-Cu collisions at $\sqrt{s_{NN}} = 62.4$ GeV from the hit-based analysis.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
-  values: [ --> MULT(CHARGED) X ]
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
 - name: observables
   values: [ DN/DETARAP ]
 - name: cmenergies
-  values: []
-data_file: .yaml
+  values: [ 62.4 ]
+data_file: fig2.1.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig.png }
+- { description: Thumbnail Image file, location: thumb_fig2.png }
 ---
-name: ""
-location: Data from PhysRevLett.98.242302
-description:
+name: "Figure 2: Cu+Cu at $\\sqrt{s_{NN}}=200$ GeV "
+location: Data from figure 2 PhysRevLett.98.242302
+description: $v_2$ vs. $|\eta| - y_{beam}$ for Cu-Cu collisions at $\sqrt{s_{NN}} = 200$ GeV from the hit-based analysis.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
-  values: [ --> MULT(CHARGED) X ]
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
 - name: observables
   values: [ DN/DETARAP ]
 - name: cmenergies
-  values: []
-data_file: .yaml
+  values: [ 200 ]
+data_file: fig2.2.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig.png }
+- { description: Thumbnail Image file, location: thumb_fig2.png }
 ---
-name: ""
-location: Data from PhysRevLett.98.242302
-description:
+name: "Figure 3: Cu+Cu at $\\sqrt{s_{NN}}=62.4$ GeV Hit-Based"
+location: Data from figure 3 of PhysRevLett.98.242302
+description: $v_2$ vs. $N_{part}$ for hit-based Cu-Cu collisions at $\sqrt{s_{NN}} = 62.4$ GeV.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
-  values: [ --> MULT(CHARGED) X ]
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
 - name: observables
   values: [ DN/DETARAP ]
 - name: cmenergies
-  values: []
-data_file: .yaml
+  values: [ 62.4 ]
+data_file: fig3.1.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
 ---
-name: ""
-location: Data from PhysRevLett.98.242302
-description:
+name: "Figure 3: Cu+Cu at $\\sqrt{s_{NN}}=200$ GeV Hit-Based"
+location: Data from figure 3 of PhysRevLett.98.242302
+description: $v_2$ vs. $N_{part}$ for hit-based Cu-Cu collisions at $\sqrt{s_{NN}} = 200$ GeV.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
-  values: [ --> MULT(CHARGED) X ]
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
 - name: observables
   values: [ DN/DETARAP ]
 - name: cmenergies
-  values: []
-data_file: .yaml
+  values: [ 200 ]
+data_file: fig3.2.yaml
 additional_resources:
-- { description: Thumbnail Image file, location: thumb_fig.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Figure 3: Cu+Cu at $\\sqrt{s_{NN}}=200$ GeV Track-Based"
+location: Data from figure 3 of PhysRevLett.98.242302
+description: $v_2$ vs. $N_{part}$ for track-based Cu-Cu collisions at $\sqrt{s_{NN}} = 200$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig3.3.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Figure 4: Au+Au"
+location: Data from figure 4 of PhysRevLett.98.242302
+description: The average eccentricity, defined in two ways, $\langle \epsilon_{std} \rangle$ and $\langle \epsilon_{part} \rangle$, vs. $N_{part}$ for simulated Au-Au collisions at $\sqrt{s_{NN}} = 200$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4au.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 4: Cu+Cu"
+location: Data from figure 4 of PhysRevLett.98.242302
+description: The average eccentricity, defined in two ways, $\langle \epsilon_{std} \rangle$ and $\langle \epsilon_{part} \rangle$, vs. $N_{part}$ for simulated Cu-Cu collisions at $\sqrt{s_{NN}} = 200$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4cu.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 5: Cu+Cu at $\\sqrt{s_{NN}}=62.4$ GeV "
+location: Data from figure 5 of PhysRevLett.98.242302
+description: $v_2$ (unscaled) vs. $N_{part}$, $v_2/\langle \epsilon_{std} \rangle$ vs. $N_{part}$, and $v_2/\langle \epsilon_{part} \rangle$ vs. $N_{part}$ for Cu-Cu collisions at $\sqrt{s_{NN}} = 62.4$ Gev.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig5cu62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 5: Cu+Cu at $\\sqrt{s_{NN}}=200$ GeV "
+location: Data from figure 5 of PhysRevLett.98.242302
+description: $v_2$ (unscaled) vs. $N_{part}$, $v_2/\langle \epsilon_{std} \rangle$ vs. $N_{part}$, and $v_2/\langle \epsilon_{part} \rangle$ vs. $N_{part}$ for Cu-Cu collisions at $\sqrt{s_{NN}} = 200$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Cu+Cu --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig5cu200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 5: Au+Au at $\\sqrt{s_{NN}}=62.4$ GeV "
+location: Data from figure 5 of PhysRevLett.98.242302
+description: $v_2$ (unscaled) vs. $N_{part}$, $v_2/\langle \epsilon_{std} \rangle$ vs. $N_{part}$, and $v_2/\langle \epsilon_{part} \rangle$ vs. $N_{part}$ for Au-Au collisions at $\sqrt{s_{NN}} = 62.4$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig5au62.4.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 5: Au+Au at $\\sqrt{s_{NN}}=200$ GeV "
+location: Data from figure 5 of PhysRevLett.98.242302
+description: $v_2$ (unscaled) vs. $N_{part}$, $v_2/\langle \epsilon_{std} \rangle$ vs. $N_{part}$, and $v_2/\langle \epsilon_{part} \rangle$ vs. $N_{part}$ for Cu-Cu and Au-Au collisions at $\sqrt{s_{NN}} = 200$ GeV.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig5au200.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
 ---
 
 

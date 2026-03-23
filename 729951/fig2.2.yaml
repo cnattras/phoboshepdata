@@ -1,0 +1,48 @@
+# Cu-Cu 200 GeV, 0-40% centrality
+independent_variables:
+- header: { name: "$\\eta' = \\eta - y_{beam}$" }
+  values:
+  - { value: -5.069 }
+  - { value: -4.619 }
+  - { value: -4.118 }
+  - { value: -3.62 }
+  - { value: -3.122 }
+  - { value: -2.669 }
+  - { value: -1.965 }
+  - { value: -1.217 }
+  - { value: -0.465 }
+
+dependent_variables:
+- header: { name: "$v_2$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "Cu-Cu" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "CENTRALITY", value: "0-40%" }
+  values:
+  - value: 0.0433
+    errors:
+    - { label: "stat", symerror: 0.0019 }
+  - value: 0.0382
+    errors:
+    - { label: "stat", symerror: 0.0015 }
+  - value: 0.0338
+    errors:
+    - { label: "stat", symerror: 0.0013 }
+  - value: 0.0306
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+  - value: 0.0277
+    errors:
+    - { label: "stat", symerror: 0.0011 }
+  - value: 0.0265
+    errors:
+    - { label: "stat", symerror: 0.0012 }
+  - value: 0.0210
+    errors:
+    - { label: "stat", symerror: 0.0007 }
+  - value: 0.0148
+    errors:
+    - { label: "stat", symerror: 0.0006 }
+  - value: 0.0111
+    errors:
+    - { label: "stat", symerror: 0.0009 }
