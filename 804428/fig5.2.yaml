@@ -1,0 +1,109 @@
+# Table 8: delta^{|eta|<3}, lower panel, away-side, Au+Au 200 GeV
+independent_variables:
+- header: { name: "$1-\\sigma/\\sigma_{0}$" }
+  values:
+  - { value: 0.555 }
+  - { value: 0.655 }
+  - { value: 0.755 }
+  - { value: 0.855 }
+  - { value: 0.955 }
+
+dependent_variables:
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 1.07, errors: [ { label: "sys", asymerror: { plus: 0.10, minus: 0.09 } } ] }
+  - { value: 1.05, errors: [ { label: "sys", asymerror: { plus: 0.10, minus: 0.09 } } ] }
+  - { value: 1.00, errors: [ { label: "sys", asymerror: { plus: 0.10, minus: 0.09 } } ] }
+  - { value: 0.92, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.08 } } ] }
+  - { value: 0.82, errors: [ { label: "sys", asymerror: { plus: 0.12, minus: 0.08 } } ] }
+
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 0.95, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 0.93, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 0.95, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 0.96, errors: [ { label: "stat", asymerror: { plus: 0.03, minus: 0.03 } } ] }
+  - { value: 0.94, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+# Table 6: K_eff^{|eta|<3}, upper panel, away-side, Au+Au 200 GeV
+
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 3.01, errors: [ { label: "sys", asymerror: { plus: 0.22, minus: 0.18 } } ] }
+  - { value: 2.71, errors: [ { label: "sys", asymerror: { plus: 0.22, minus: 0.18 } } ] }
+  - { value: 2.36, errors: [ { label: "sys", asymerror: { plus: 0.21, minus: 0.16 } } ] }
+  - { value: 1.98, errors: [ { label: "sys", asymerror: { plus: 0.20, minus: 0.15 } } ] }
+  - { value: 1.71, errors: [ { label: "sys", asymerror: { plus: 0.18, minus: 0.15 } } ] }
+
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 2.51, errors: [ { label: "stat", asymerror: { plus: 0.05, minus: 0.05 } } ] }
+  - { value: 2.39, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 2.24, errors: [ { label: "stat", asymerror: { plus: 0.05, minus: 0.05 } } ] }
+  - { value: 1.97, errors: [ { label: "stat", asymerror: { plus: 0.05, minus: 0.05 } } ] }
+  - { value: 1.75, errors: [ { label: "stat", asymerror: { plus: 0.05, minus: 0.05 } } ] }
+# Table 4: delta^{|eta|<3}, lower panel, near-side, Au+Au 200 GeV
+
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 0.80, errors: [ { label: "sys", asymerror: { plus: 0.06, minus: 0.05 } } ] }
+  - { value: 0.79, errors: [ { label: "sys", asymerror: { plus: 0.06, minus: 0.06 } } ] }
+  - { value: 0.75, errors: [ { label: "sys", asymerror: { plus: 0.06, minus: 0.05 } } ] }
+  - { value: 0.71, errors: [ { label: "sys", asymerror: { plus: 0.05, minus: 0.04 } } ] }
+  - { value: 0.66, errors: [ { label: "sys", asymerror: { plus: 0.05, minus: 0.04 } } ] }
+
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 0.91, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.90, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.92, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.91, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 0.88, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+# Table 2: K_eff^{|eta|<3}, upper panel, near-side, Au+Au 200 GeV
+
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 3.22, errors: [ { label: "sys", asymerror: { plus: 0.10, minus: 0.08 } } ] }
+  - { value: 3.16, errors: [ { label: "sys", asymerror: { plus: 0.09, minus: 0.09 } } ] }
+  - { value: 3.06, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.10 } } ] }
+  - { value: 2.96, errors: [ { label: "sys", asymerror: { plus: 0.14, minus: 0.13 } } ] }
+  - { value: 2.78, errors: [ { label: "sys", asymerror: { plus: 0.14, minus: 0.13 } } ] }
+
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 2.78, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 2.64, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 2.57, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 2.40, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 2.17, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }

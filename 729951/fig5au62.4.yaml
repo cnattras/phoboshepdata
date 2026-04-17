@@ -11,9 +11,6 @@ independent_variables:
 
 dependent_variables:
 - header: { name: '$v_2$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
   values:
   - value: 0.052
     errors:
@@ -36,10 +33,7 @@ dependent_variables:
     - { label: 'stat', symerror: 0.0024 }
     - { label: 'sys', asymerror: { plus: 0.0114, minus: -0.0114 } }
 
-- header: { name: '$v_2/\\epsilon_{std}$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
+- header: { name: '$v_2/\epsilon_{std}$' }
   values:
   - value: 0.145
     errors:
@@ -62,10 +56,7 @@ dependent_variables:
     - { label: 'stat', symerror: 0.04 }
     - { label: 'sys', asymerror: { plus: 0.25, minus: -0.25 } }
 
-- header: { name: '$v_2/\\epsilon_{part}$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
+- header: { name: '$v_2/\epsilon_{part}$' }
   values:
   - value: 0.126
     errors:

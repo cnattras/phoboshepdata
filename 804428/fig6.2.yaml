@@ -1,0 +1,89 @@
+independent_variables:
+- header: { name: "$\\Delta\\eta$" }
+  values:
+  - { value: -6 }
+  - { value: -5.69 }
+  - { value: -5.38 }
+  - { value: -5.07 }
+  - { value: -4.77 }
+  - { value: -4.46 }
+  - { value: -4.15 }
+  - { value: -3.84 }
+  - { value: -3.54 }
+  - { value: -3.23 }
+  - { value: -2.92 }
+  - { value: -2.61 }
+  - { value: -2.31 }
+  - { value: -2 }
+  - { value: -1.69 }
+  - { value: -1.38 }
+  - { value: -1.08 }
+  - { value: -0.77 }
+  - { value: -0.46 }
+  - { value: -0.15 }
+  - { value: 0.15 }
+  - { value: 0.46 }
+  - { value: 0.77 }
+  - { value: 1.08 }
+  - { value: 1.38 }
+  - { value: 1.69 }
+  - { value: 2.00 }
+  - { value: 2.31 }
+  - { value: 2.61 }
+  - { value: 2.92 }
+  - { value: 3.23 }
+  - { value: 3.54 }
+  - { value: 3.84 }
+  - { value: 4.15 }
+  - { value: 4.46 }
+  - { value: 4.77 }
+  - { value: 5.07 }
+  - { value: 5.38 }
+  - { value: 5.69 }
+  - { value: 6.00 }
+
+dependent_variables:
+- header: { name: "$R(\\Delta\\eta)$" }
+  qualifiers:
+  - { name: "ACCEPTANCE", value: "$|\\eta|<3$" }
+  values:
+  - { value: -0.54, errors: [ { label: "stat", symerror: 0.11 } ] }
+  - { value: -0.6, errors: [ { label: "stat", symerror: 0.04 } ] }
+  - { value: -0.809, errors: [ { label: "stat", symerror: 0.026 } ] }
+  - { value: -0.914, errors: [ { label: "stat", symerror: 0.021 } ] }
+  - { value: -1.066, errors: [ { label: "stat", symerror: 0.019 } ] }
+  - { value: -1.189, errors: [ { label: "stat", symerror: 0.017 } ] }
+  - { value: -1.293, errors: [ { label: "stat", symerror: 0.015 } ] }
+  - { value: -1.354, errors: [ { label: "stat", symerror: 0.014 } ] }
+  - { value: -1.413, errors: [ { label: "stat", symerror: 0.013 } ] }
+  - { value: -1.364, errors: [ { label: "stat", symerror: 0.012 } ] }
+  - { value: -1.355, errors: [ { label: "stat", symerror: 0.012 } ] }
+  - { value: -1.257, errors: [ { label: "stat", symerror: 0.011 } ] }
+  - { value: -1.049, errors: [ { label: "stat", symerror: 0.011 } ] }
+  - { value: -0.759, errors: [ { label: "stat", symerror: 0.010 } ] }
+  - { value: -0.34, errors: [ { label: "stat", symerror: 0.010 } ] }
+  - { value: 0.153, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 0.756, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 1.313, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 1.807, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 2.131, errors: [ { label: "stat", symerror: 0.008 } ] }
+  - { value: 2.131, errors: [ { label: "stat", symerror: 0.008 } ] }
+  - { value: 1.807, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 1.313, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 0.756, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 0.153, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: -0.34, errors: [ { label: "stat", symerror: 0.010 } ] }
+  - { value: -0.759, errors: [ { label: "stat", symerror: 0.010 } ] }
+  - { value: -1.049, errors: [ { label: "stat", symerror: 0.011 } ] }
+  - { value: -1.257, errors: [ { label: "stat", symerror: 0.011 } ] }
+  - { value: -1.355, errors: [ { label: "stat", symerror: 0.012 } ] }
+  - { value: -1.364, errors: [ { label: "stat", symerror: 0.012 } ] }
+  - { value: -1.413, errors: [ { label: "stat", symerror: 0.013 } ] }
+  - { value: -1.354, errors: [ { label: "stat", symerror: 0.014 } ] }
+  - { value: -1.293, errors: [ { label: "stat", symerror: 0.015 } ] }
+  - { value: -1.189, errors: [ { label: "stat", symerror: 0.017 } ] }
+  - { value: -1.066, errors: [ { label: "stat", symerror: 0.019 } ] }
+  - { value: -0.914, errors: [ { label: "stat", symerror: 0.021 } ] }
+  - { value: -0.809, errors: [ { label: "stat", symerror: 0.026 } ] }
+  - { value: -0.6, errors: [ { label: "stat", symerror: 0.04 } ] }
+  - { value: -0.54, errors: [ { label: "stat", symerror: 0.11 } ] }

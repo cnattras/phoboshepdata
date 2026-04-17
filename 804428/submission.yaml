@@ -1,0 +1,230 @@
+#TITLE:System size dependence of cluster properties from two-particle angular correlations in Cu+Cu and Au+Au collisions at sNN−−−√ = 200 GeV
+#
+#Prepared by Eleanna Soto
+
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/804428", description: "InspireHEP ID: 804428" }
+- { location: "https://arxiv.org/abs/0812.1172", description: "arXiv ID: abs/0812.1172" }
+- { location: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.81.024904", description: "PhysRevC.81.024904" }
+comment: |
+  We present results on two-particle angular correlations in Cu+Cu and Au+Au collisions at a center of mass energy per nucleon pair of 200~GeV over a broad range of pseudorapidity ($\eta$) and azimuthal angle ($\phi$) as a function of collision centrality.The PHOBOS detector at RHIC has a uniquely-large angular coverage for inclusive charged  particles, which allows for the study of correlations on both long- and short-range scales. A complex two-dimensional correlation structure in $\Delta \eta$ and $\Delta \phi$ emerges, which is interpreted in the context of a cluster model. The effective cluster size and decay width are extracted from the two-particle pseudorapidity correlation functions. The effective cluster size found in semi-central Cu+Cu and Au+Au collisions is comparable to that found in proton-proton collisions but a non-trivial decrease of the size with increasing centrality is observed. Moreover, a comparison between results from Cu+Cu and Au+Au collisions shows an interesting scaling of the effective cluster size with the measured fraction of total cross section (which is related to the ratio of the impact parameter to the nuclear radius, $b/2R$), suggesting a geometric origin. Further analysis for pairs from restricted azimuthal regions shows that the effective cluster size at $\Delta\phi \sim 180^{\circ}$ drops more rapidly toward central collisions than the size at $\Delta\phi \sim 0^{\circ}$.The effect of limited $\eta$ acceptance on the cluster parameters is also addressed, and a correction is applied to present cluster parameters for full $\eta$ coverage, leading to much larger effective cluster sizes and widths than previously noted in the literature. These results should provide insight into the hot and dense medium created in heavy ion collisions. 
+---
+name: "Au + Au Collisions at $\\sqrt{s_{NN}}=200~GeV$"
+location: Data from PhysRevC.81.024904
+description: Angular correlation functions in $\Delta\eta$ and $\Delta\phi$ for Au+Au collisions at $\sqrt{s_{NN}}=200~GeV$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: AuAu.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Cu + Cu Collisions at $\\sqrt{s_{NN}}=200~GeV$"
+location: Data from PhysRevC.81.024904
+description: Angular correlation functions in $\Delta\eta$ and $\Delta\phi$ for Cu+Cu collisions at $\sqrt{s_{NN}}=200~GeV$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: CuCu.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Figure 1: Left Panel"
+location: Data from figure 1 of PhysRevC.81.024904
+description: Left Panel distribution measurements as a function of $dE/dx$ for most central 3% Au+Au collisions at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig1left.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+name: "Figure 1: Right Panel"
+location: Data from figure 1 of PhysRevC.81.024904
+description: Right Panel distribution measurements as a function of $dE/dx$ for most central 3% Au+Au collisions at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig1right.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig1.png }
+---
+name: "Figure 2"
+location: Data from figure 2 of PhysRevC.81.024904
+description: Two-particle Angular correlation functions in $\Delta\eta$ and $\Delta\phi$ for Cu+Cu and Au+Au most central 10% collisions at $\sqrt{s_{NN}}=200~GeV$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X, AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig2.png }
+---
+name: "Figure 3"
+location: Data from figure 3 of PhysRevC.81.024904
+description: Two-particle psuedorapidity correlation functions averaged over $\delta\phi$ range from 0 to 180 degrees for Cu+Cu and Au+Au for five different centrality classes at $\sqrt{s_{NN}}=200~GeV$
+keywords:
+# used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X, AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig3.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig3.png }
+---
+name: "Figure 4: Au+Au"
+location: Data from figure 4 of PhysRevC.81.024904
+description: Au+Au collisions $K_{eff}$ and $\delta$ as a function of fractional cross section for PHBOS data and AMPT model lines for $|\eta|<3$ at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 4: Cu+Cu"
+location: Data from figure 4 of PhysRevC.81.024904
+description: Cu+Cu collisions $K_{eff}$ and $\delta$ as a function of fractional cross section for PHBOS data and AMPT model lines for $|\eta|<3$ at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig4.1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 5: Au+Au"
+location: Data from figure 5 of PhysRevC.81.024904
+description: Au+Au collisions, Near-side and Away-side $K_{eff}$ and $\delta$ as a function of fractional cross section for PHBOS data and AMPT model lines for $|\eta|<3$ at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig5.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 5: Cu+Cu"
+location: Data from figure 5 of PhysRevC.81.024904
+description: Cu+Cu collisions, Near-side and Away-Side $K_{eff}$ and $\delta$ as a function of fractional cross section for PHBOS data and AMPT model lines for $|\eta|<3$ at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig5.1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 6: Two-particle"
+location: Data from figure 6 of PhysRevC.81.024904
+description: ICM generated two-particle correlation function in $\Delta\eta$ and $\Delta\phi$ with K=3 and $\gamma$=0.
+keywords:
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig6.1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 6: One-particle"
+location: Data from figure 6 of PhysRevC.81.024904
+description: ICM generated one-particle correlation function in $\Delta\eta$ and $\Delta\phi$ with K=3 and $\gamma$=0.
+keywords:
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig6.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 7"
+location: Data from figure 7 of PhysRevC.81.024904
+description: $K_{eff}$ and $\delta$ ratios of $|\eta|<3$ over $|\eta|<\infty$
+keywords:
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X, AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig7.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig7.png }
+---
+name: "Figure 8: Au+Au"
+location: Data from figure 8 of PhysRevC.81.024904
+description: Inclusive, near-side and away-side $K_{eff}$ and $\delta$ as a function of fractional cross section measured by PHOBOS and from the AMPT model after correcting to the full acceptance in Au+Au collisions at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+- name: reactions
+  values: [ AU AU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig8.2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig8.png }
+---
+name: "Figure 8: Cu+Cu"
+location: Data from figure 8 of PhysRevC.81.024904
+description: Inclusive, near-side and away-side $K_{eff}$ and $\delta$ as a function of fractional cross section measured by PHOBOS and from the AMPT model after correcting to the full acceptance in Cu+Cu collisions at $\sqrt{s_{NN}}=200~GeV$.
+keywords:
+- name: reactions
+  values: [ CU CU --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 200 ]
+data_file: fig8.1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig8.png }
+---
+
+

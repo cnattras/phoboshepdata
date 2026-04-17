@@ -15,8 +15,6 @@ independent_variables:
 dependent_variables:
 - header: { name: "$v_2$" }
   qualifiers:
-  - { name: "SYSTEM", value: "Cu-Cu" }
-  - { name: "$\\sqrt{s_{NN}}", value: "62.4 GeV" }
   - { name: "CENTRALITY", value: "0-40%" }
   values:
   - value: 0.040

@@ -12,9 +12,6 @@ independent_variables:
 
 dependent_variables:
 - header: { name: '$v_2$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
   values:
   - value: 0.053
     errors:
@@ -41,10 +38,7 @@ dependent_variables:
     - { label: 'stat', symerror: 0.0018 }
     - { label: 'sys', asymerror: { plus: 0.0056, minus: -0.0056 } }
 
-- header: { name: '$v_2/\\epsilon_{std}$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+- header: { name: '$v_2/\epsilon_{std}$' }
   values:
   - value: 0.23
     errors:
@@ -71,10 +65,7 @@ dependent_variables:
     - { label: 'stat', symerror: 0.13 }
     - { label: 'sys', asymerror: { plus: 1.30, minus: -1.3 } }
 
-- header: { name: '$v_2/\\epsilon_{part}$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+- header: { name: '$v_2/\epsilon_{part}$' }
   values:
   - value: 0.093
     errors:

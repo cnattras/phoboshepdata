@@ -1,5 +1,5 @@
 independent_variables:
-- header: { name: '$\\eta$' }
+- header: { name: '$\eta$' }
   values:
   - { value: -4.896 }
   - { value: -4.147 }
@@ -21,35 +21,10 @@ independent_variables:
   - { value: 4.914 }
 
 dependent_variables:
-- header: { name: '$\\eta$ error' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
-  - { name: 'CENTRALITY', value: '0-40%' }
-  values:
-  - { value: 0.19 }
-  - { value: 0.18 }
-  - { value: 0.16 }
-  - { value: 0.13 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.12 }
-  - { value: 0.12 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.13 }
-  - { value: 0.17 }
-  - { value: 0.19 }
-  - { value: 0.20 }
-
 - header: { name: '$v_2$' }
   qualifiers:
   - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '62.4 GeV' }
+  - { name: '$\sqrt{s_{NN}}$', value: '62.4 GeV' }
   - { name: 'CENTRALITY', value: '0-40%' }
   values:
   - value: 0.004
@@ -125,35 +100,10 @@ dependent_variables:
     - { label: 'stat', symerror: 0.005 }
     - { label: 'sys', asymerror: { plus: 0.009, minus: -0.008 } }
 
-- header: { name: '$\\eta$ error' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
-  - { name: 'CENTRALITY', value: '0-40%' }
-  values:
-  - { value: 0.19 }
-  - { value: 0.18 }
-  - { value: 0.16 }
-  - { value: 0.13 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.12 }
-  - { value: 0.12 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.13 }
-  - { value: 0.17 }
-  - { value: 0.19 }
-  - { value: 0.20 }
-
 - header: { name: '$v_2$' }
   qualifiers:
   - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  - { name: '$\sqrt{s_{NN}}$', value: '200 GeV' }
   - { name: 'CENTRALITY', value: '0-40%' }
   values:
   - value: 0.0097
@@ -229,35 +179,10 @@ dependent_variables:
     - { label: 'stat', symerror: 0.0013 }
     - { label: 'sys', asymerror: { plus: 0.0065, minus: -0.0058 } }
 
-- header: { name: '$\\eta$ error' }
+- header: { name: '$\eta$ lower edge' }
   qualifiers:
   - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
-  - { name: 'CENTRALITY', value: '0-40%' }
-  values:
-  - { value: 0.19 }
-  - { value: 0.18 }
-  - { value: 0.16 }
-  - { value: 0.13 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.12 }
-  - { value: 0.12 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.14 }
-  - { value: 0.13 }
-  - { value: 0.17 }
-  - { value: 0.19 }
-  - { value: 0.20 }
-
-- header: { name: '$\\eta$ lower edge' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  - { name: '$\sqrt{s_{NN}}$', value: '200 GeV' }
   - { name: 'CENTRALITY', value: '0-40%' }
   values:
   - { value: -5.25 }
@@ -279,10 +204,10 @@ dependent_variables:
   - { value: 3.85 }
   - { value: 4.60 }
 
-- header: { name: '$\\eta$ upper edge' }
+- header: { name: '$\eta$ upper edge' }
   qualifiers:
   - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  - { name: '$\sqrt{s_{NN}}$', value: '200 GeV' }
   - { name: 'CENTRALITY', value: '0-40%' }
   values:
   - { value: -4.57 }
@@ -307,7 +232,7 @@ dependent_variables:
 - header: { name: '$v_2$' }
   qualifiers:
   - { name: 'SYSTEM', value: 'Au-Au' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
+  - { name: '$\sqrt{s_{NN}}$', value: '200 GeV' }
   - { name: 'CENTRALITY', value: '0-40%' }
   values:
   - value: 0.017

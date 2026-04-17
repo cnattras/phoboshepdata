@@ -1,0 +1,55 @@
+# Table 8: delta^{|eta|<3} (lower panel), AMPT Au+Au 200GeV
+independent_variables:
+- header: { name: "$1-\\sigma/\\sigma_{0}$" }
+  values:
+  - { value: 0.555 }
+  - { value: 0.655 }
+  - { value: 0.755 }
+  - { value: 0.855 }
+  - { value: 0.955 }
+
+dependent_variables:
+
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "SYSTEM", value: "AMPT Au+Au 200GeV" }
+  values:
+  - { value: 0.93, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.91, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.92, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.93, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.91, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+# Table 6: delta^{|eta|<3} (lower panel), PHOBOS Au+Au 200GeV
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "SYSTEM", value: "PHOBOS Au+Au 200GeV" }
+  values:
+  - { value: 0.93, errors: [ { label: "sys", asymerror: { plus: 0.09, minus: 0.08 } } ] }
+  - { value: 0.91, errors: [ { label: "sys", asymerror: { plus: 0.09, minus: 0.08 } } ] }
+  - { value: 0.85, errors: [ { label: "sys", asymerror: { plus: 0.08, minus: 0.07 } } ] }
+  - { value: 0.77, errors: [ { label: "sys", asymerror: { plus: 0.08, minus: 0.05 } } ] }
+  - { value: 0.71, errors: [ { label: "sys", asymerror: { plus: 0.09, minus: 0.05 } } ] }
+# Table 4: K_eff^{|eta|<3} (upper panel), AMPT Au+Au 200GeV
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "SYSTEM", value: "AMPT Au+Au 200GeV" }
+  values:
+  - { value: 2.65, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.51, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.40, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.16, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 1.94, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+# Table 2: K_eff^{|eta|<3} (upper panel), PHOBOS Au+Au 200GeV
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "SYSTEM", value: "PHOBOS Au+Au 200GeV" }
+  values:
+  - { value: 3.07, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.15 } } ] }
+  - { value: 2.88, errors: [ { label: "sys", asymerror: { plus: 0.16, minus: 0.15 } } ] }
+  - { value: 2.65, errors: [ { label: "sys", asymerror: { plus: 0.14, minus: 0.13 } } ] }
+  - { value: 2.45, errors: [ { label: "sys", asymerror: { plus: 0.15, minus: 0.13 } } ] }
+  - { value: 2.17, errors: [ { label: "sys", asymerror: { plus: 0.15, minus: 0.14 } } ] }
