@@ -1,0 +1,125 @@
+#InspireHEP ID: 1373132
+#
+#Prepared by Trevon Taylor
+
+additional_resources: # additional references (e.g. experiment TWiki page for analysis)
+- {location: "https://inspirehep.net/literature/1373132", description: "InspireHEP ID: 1373132"}
+- {location: "https://arxiv.org/abs/1505.06766", description: "arXiv ID: nucl-ex/1505.06766"}
+comment: |
+  Forward calorimetry in the PHOBOS detector has been used to study charged hadron production in $d$+Au, $p$+Au, and $n$+Au collisions at $\sqrt{s_{NN}}=200$ GeV. The forward proton calorimeter detectors are described and a procedure for determining collision centrality with these detectors is detailed. The deposition of energy by deuteron spectator nucleons in the forward calorimeters is used to identify $p$+Au and $n$+Au collisions in the data. A weighted combination of the yield of $p$+Au and $n$+Au is constructed to build a reference for Au+Au collisions that better matches the isospin composition of the gold nucleus. The $p_T$ and centrality dependence of the yield of this improved reference system is found to match that of $d$+Au. The shape of the charged-particle transverse momentum distribution is observed to extrapolate smoothly from $p+\bar{p}$ to central $d$+Au as a function of the charged-particle pseudorapidity density. The asymmetry of positively and negatively charged hadron production in $p$+Au is compared to that of $n$+Au. No significant asymmetry is observed at midrapidity. These studies augment recent results from experiments at the CERN Large Hadron Collider and BNL Relativistic Heavy Ion Collider facilities to give a more complete description of particle production in $p$+A and $d$+A collisions, essential for the understanding the medium produced in high-energy nucleus-nucleus collisions.
+
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1: Au + Au"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: $N_{\text{part}}$ values determined from a Glauber model calculation for Au+Au ($\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$) collisions. Uncertainties are 90% C.L. systematic.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table1au.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_1.png}
+---
+name: "Table 1: Cu + Cu"
+location: Data from Table 1 of Phys.Rev.C 94 (2016) 2, 024903
+description: $N_{\text{part}}$ values determined from a Glauber model calculation for  Cu+Cu ($\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$) collisions. Uncertainties are 90% C.L. systematic.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [CU CU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [22.4]
+data_file: table1cu.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_1.png}
+---
+name: "Table 2"
+location: Data from Table 2 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\alpha}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table2.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_2.png}
+---
+name: "Table 3"
+location: Data from Table 3 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{Li}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table3.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_3.png}
+---
+name: "Table 4"
+location: Data from Table 4 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{Be}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table4.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_4.png}
+---
+name: "Table 5"
+location: Data from Table 5 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{B}}/d\eta$ measured in Au+Au collisions at $\sqrt{s_{_{NN}}} = 19.6~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [AU AU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [19.6]
+data_file: table5.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_5.png}
+---
+name: "Table 6"
+location: Data from Table 6 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\alpha}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 10 for clarity.
+
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [CU CU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [22.4]
+data_file: table6.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_6.png}
+---
+name: "Table 7"
+location: Data from Table 7 of Phys.Rev.C 94 (2016) 2, 024903
+description: $dN_{\text{Li}}/d\eta$ measured in Cu+Cu collisions at $\sqrt{s_{_{NN}}} = 22.4~\text{GeV}$. Uncertainties are 1-$\sigma$ statistical and 90% C.L. systematic. Yields are scaled up by a factor of 100 for clarity.
+keywords: # used for searching, possibly multiple values for each keyword
+- name: reactions
+  values: [CU CU --> MULT(CHARGED) X]
+- name: observables
+  values: [DN/DETARAP]
+- name: cmenergies
+  values: [22.4]
+data_file: table7.yaml
+additional_resources:
+- {description: Thumbnail Image file, location: thumb_7.png}
