@@ -12,10 +12,6 @@ independent_variables:
 
 dependent_variables:
 - header: { name: '$v_2$' }
-  qualifiers:
-  - { name: 'SYSTEM', value: 'Cu-Cu' }
-  - { name: '$\\sqrt{s_{NN}}$', value: '200 GeV' }
-  - { name: 'METHOD', value: 'hit-based' }
   values:
   - value: 0.0526
     errors:

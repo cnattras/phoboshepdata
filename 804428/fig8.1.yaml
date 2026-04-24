@@ -1,0 +1,164 @@
+# Table 1: K_eff^{|eta|<infty}, upper panel, inclusive, Cu+Cu 200 GeV
+independent_variables:
+- header: { name: "$1-\\sigma/\\sigma_{0}$" }
+  values:
+  - { value: 0.550 }
+  - { value: 0.650 }
+  - { value: 0.750 }
+  - { value: 0.850 }
+  - { value: 0.950 }
+
+dependent_variables:
+- header: { name: "$K_{eff}^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "inclusive" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 4.86, errors: [ { label: "sys", asymerror: { plus: 0.67, minus: 0.53 } } ] }
+  - { value: 4.77, errors: [ { label: "sys", asymerror: { plus: 0.67, minus: 0.51 } } ] }
+  - { value: 4.31, errors: [ { label: "sys", asymerror: { plus: 0.60, minus: 0.45 } } ] }
+  - { value: 3.69, errors: [ { label: "sys", asymerror: { plus: 0.48, minus: 0.37 } } ] }
+  - { value: 3.09, errors: [ { label: "sys", asymerror: { plus: 0.37, minus: 0.31 } } ] }
+
+- header: { name: "$K_{eff}^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "inclusive" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 4.20, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 4.01, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 3.57, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 3.50, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 3.06, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+# Table 3: delta^{|eta|<infty}, lower panel, inclusive, Cu+Cu 200 GeV
+
+
+- header: { name: "$\\delta^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "inclusive" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 1.25, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.13 } } ] }
+  - { value: 1.26, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.13 } } ] }
+  - { value: 1.22, errors: [ { label: "sys", asymerror: { plus: 0.18, minus: 0.14 } } ] }
+  - { value: 1.18, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.14 } } ] }
+  - { value: 1.11, errors: [ { label: "sys", asymerror: { plus: 0.15, minus: 0.12 } } ] }
+
+- header: { name: "$\\delta^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "inclusive" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 1.23, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.23, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.25, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.28, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.26, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+# Table 5: K_eff^{|eta|<infty}, upper panel, near-side, Cu+Cu 200 GeV
+
+
+- header: { name: "$K_{eff}^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 4.36, errors: [ { label: "sys", asymerror: { plus: 0.45, minus: 0.44 } } ] }
+  - { value: 4.32, errors: [ { label: "sys", asymerror: { plus: 0.47, minus: 0.43 } } ] }
+  - { value: 4.06, errors: [ { label: "sys", asymerror: { plus: 0.43, minus: 0.41 } } ] }
+  - { value: 3.75, errors: [ { label: "sys", asymerror: { plus: 0.39, minus: 0.35 } } ] }
+  - { value: 3.45, errors: [ { label: "sys", asymerror: { plus: 0.33, minus: 0.33 } } ] }
+
+- header: { name: "$K_{eff}^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 4.08, errors: [ { label: "stat", asymerror: { plus: 0.03, minus: 0.03 } } ] }
+  - { value: 4.12, errors: [ { label: "stat", asymerror: { plus: 0.03, minus: 0.03 } } ] }
+  - { value: 3.66, errors: [ { label: "stat", asymerror: { plus: 0.03, minus: 0.03 } } ] }
+  - { value: 3.48, errors: [ { label: "stat", asymerror: { plus: 0.03, minus: 0.03 } } ] }
+  - { value: 3.23, errors: [ { label: "stat", asymerror: { plus: 0.03, minus: 0.03 } } ] }
+# Table 7: delta^{|eta|<infty}, lower panel, near-side, Cu+Cu 200 GeV
+
+
+- header: { name: "$\\delta^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 1.04, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.11 } } ] }
+  - { value: 1.04, errors: [ { label: "sys", asymerror: { plus: 0.12, minus: 0.11 } } ] }
+  - { value: 1.00, errors: [ { label: "sys", asymerror: { plus: 0.12, minus: 0.11 } } ] }
+  - { value: 0.98, errors: [ { label: "sys", asymerror: { plus: 0.12, minus: 0.11 } } ] }
+  - { value: 0.95, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.11 } } ] }
+
+- header: { name: "$\\delta^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "near-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 1.16, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.23, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.18, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.19, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.19, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+# Table 9: K_eff^{|eta|<infty}, upper panel, away-side, Cu+Cu 200 GeV
+
+
+- header: { name: "$K_{eff}^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 5.51, errors: [ { label: "sys", asymerror: { plus: 0.72, minus: 0.63 } } ] }
+  - { value: 5.50, errors: [ { label: "sys", asymerror: { plus: 0.73, minus: 0.60 } } ] }
+  - { value: 4.96, errors: [ { label: "sys", asymerror: { plus: 0.72, minus: 0.54 } } ] }
+  - { value: 4.18, errors: [ { label: "sys", asymerror: { plus: 0.58, minus: 0.46 } } ] }
+  - { value: 3.09, errors: [ { label: "sys", asymerror: { plus: 0.41, minus: 0.33 } } ] }
+
+- header: { name: "$K_{eff}^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 4.14, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 3.89, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 3.20, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 3.12, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+  - { value: 2.73, errors: [ { label: "stat", asymerror: { plus: 0.04, minus: 0.04 } } ] }
+# Table 11: delta^{|eta|<infty}, lower panel, away-side, Cu+Cu 200 GeV
+
+
+- header: { name: "$\\delta^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "PHOBOS" }
+  values:
+  - { value: 1.43, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.16 } } ] }
+  - { value: 1.46, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.15 } } ] }
+  - { value: 1.48, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.15 } } ] }
+  - { value: 1.44, errors: [ { label: "sys", asymerror: { plus: 0.17, minus: 0.16 } } ] }
+  - { value: 1.39, errors: [ { label: "sys", asymerror: { plus: 0.18, minus: 0.16 } } ] }
+
+- header: { name: "$\\delta^{|\\eta|<\\infty}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "REGION", value: "away-side" }
+  - { name: "MODEL", value: "AMPT" }
+  values:
+  - { value: 1.22, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.22, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.19, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 1.25, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 1.25, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }

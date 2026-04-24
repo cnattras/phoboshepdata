@@ -1,0 +1,58 @@
+# Table 1: K_eff^{|eta|<3} (upper panel), PHOBOS Cu+Cu 200GeV
+independent_variables:
+- header: { name: "$1-\\sigma/\\sigma_{0}$" }
+  values:
+  - { value: 0.550 }
+  - { value: 0.650 }
+  - { value: 0.750 }
+  - { value: 0.850 }
+  - { value: 0.950 }
+
+dependent_variables:
+
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "SYSTEM", value: "PHOBOS Cu+Cu 200GeV" }
+  values:
+  - { value: 2.97, errors: [ { label: "sys", asymerror: { plus: 0.10, minus: 0.08 } } ] }
+  - { value: 2.89, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.09 } } ] }
+  - { value: 2.72, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.08 } } ] }
+  - { value: 2.47, errors: [ { label: "sys", asymerror: { plus: 0.10, minus: 0.08 } } ] }
+  - { value: 2.22, errors: [ { label: "sys", asymerror: { plus: 0.11, minus: 0.09 } } ] }
+# Table 3: K_eff^{|eta|<3} (upper panel), AMPT Cu+Cu 200GeV
+
+- header: { name: "$K_{eff}^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "upper" }
+  - { name: "SYSTEM", value: "AMPT Cu+Cu 200GeV" }
+  values:
+  - { value: 2.66, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.56, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.31, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.23, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+  - { value: 2.03, errors: [ { label: "stat", asymerror: { plus: 0.02, minus: 0.02 } } ] }
+# Table 5: delta^{|eta|<3} (lower panel), PHOBOS Cu+Cu 200GeV
+
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "SYSTEM", value: "PHOBOS Cu+Cu 200GeV" }
+  values:
+  - { value: 0.87, errors: [ { label: "sys", asymerror: { plus: 0.07, minus: 0.04 } } ] }
+  - { value: 0.88, errors: [ { label: "sys", asymerror: { plus: 0.07, minus: 0.04 } } ] }
+  - { value: 0.86, errors: [ { label: "sys", asymerror: { plus: 0.07, minus: 0.04 } } ] }
+  - { value: 0.83, errors: [ { label: "sys", asymerror: { plus: 0.07, minus: 0.04 } } ] }
+  - { value: 0.79, errors: [ { label: "sys", asymerror: { plus: 0.07, minus: 0.05 } } ] }
+# Table 7: delta^{|eta|<3} (lower panel), AMPT Cu+Cu 200GeV
+
+- header: { name: "$\\delta^{|\\eta|<3}$" }
+  qualifiers:
+  - { name: "PANEL", value: "lower" }
+  - { name: "SYSTEM", value: "AMPT Cu+Cu 200GeV" }
+  values:
+  - { value: 0.86, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.86, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.87, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.89, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
+  - { value: 0.88, errors: [ { label: "stat", asymerror: { plus: 0.01, minus: 0.01 } } ] }
