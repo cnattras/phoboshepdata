@@ -162,7 +162,7 @@ additional_resources:
 ---
 name: "Figure 13"
 location: Data from Figure 13 of PhysRevC.92.034915
-description: $-dN_{ch}/d\\eta$ at $\\langle \\eta \\rangle$=0.8 in different systems
+description: $-dN_{ch}/d\\eta$ at $\langle \eta \rangle$=0.8 in different systems
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
