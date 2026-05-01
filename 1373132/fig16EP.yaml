@@ -1,0 +1,56 @@
+independent_variables:
+- header: { name: "$dN_{ch}/d\\eta$" }
+  values:
+  - { value: 4.76237 }
+  - { value: 9.43224 }
+  - { value: 11.9851 }
+  - { value: 13.9404 }
+
+dependent_variables:
+- header: { name: "Relative yield" }
+  qualifiers:
+  - { name: "System", value: "$d+Au$" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality Variable", value: "$E_{PCAL}$ using $E_{Ring}$ correlation" }
+  - { name: "$p_T$", value: "0.750 GeV/$c$" }
+  values:
+  - { value: 1.079, errors: [ { label: "stat", symerror: 0.009 }, { label: "syst", symerror: 0.194 } ] }
+  - { value: 1.145, errors: [ { label: "stat", symerror: 0.010 }, { label: "syst", symerror: 0.206 } ] }
+  - { value: 1.177, errors: [ { label: "stat", symerror: 0.010 }, { label: "syst", symerror: 0.212 } ] }
+  - { value: 1.206, errors: [ { label: "stat", symerror: 0.009 }, { label: "syst", symerror: 0.217 } ] }
+
+- header: { name: "Relative yield" }
+  qualifiers:
+  - { name: "System", value: "$d+Au$" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality Variable", value: "$E_{PCAL}$ using $E_{Ring}$ correlation" }
+  - { name: "$p_T$", value: "1.350 GeV/$c$" }
+  values:
+  - { value: 1.298, errors: [ { label: "stat", symerror: 0.022 }, { label: "syst", symerror: 0.237 } ] }
+  - { value: 1.526, errors: [ { label: "stat", symerror: 0.026 }, { label: "syst", symerror: 0.279 } ] }
+  - { value: 1.652, errors: [ { label: "stat", symerror: 0.026 }, { label: "syst", symerror: 0.302 } ] }
+  - { value: 1.717, errors: [ { label: "stat", symerror: 0.024 }, { label: "syst", symerror: 0.314 } ] }
+
+- header: { name: "Relative yield" }
+  qualifiers:
+  - { name: "System", value: "$d+Au$" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality Variable", value: "$E_{PCAL}$ using $E_{Ring}$ correlation" }
+  - { name: "$p_T$", value: "2.500 GeV/$c$" }
+  values:
+  - { value: 1.56, errors: [ { label: "stat", symerror: 0.08 }, { label: "syst", symerror: 0.32 } ] }
+  - { value: 2.01, errors: [ { label: "stat", symerror: 0.09 }, { label: "syst", symerror: 0.41 } ] }
+  - { value: 2.42, errors: [ { label: "stat", symerror: 0.10 }, { label: "syst", symerror: 0.49 } ] }
+  - { value: 2.36, errors: [ { label: "stat", symerror: 0.09 }, { label: "syst", symerror: 0.48 } ] }
+
+- header: { name: "Relative yield" }
+  qualifiers:
+  - { name: "System", value: "$d+Au$" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Centrality Variable", value: "$E_{PCAL}$ using $E_{Ring}$ correlation" }
+  - { name: "$p_T$", value: "3.375 GeV/$c$" }
+  values:
+  - { value: 1.56, errors: [ { label: "stat", symerror: 0.18 }, { label: "syst", symerror: 0.37 } ] }
+  - { value: 2.25, errors: [ { label: "stat", symerror: 0.22 }, { label: "syst", symerror: 0.54 } ] }
+  - { value: 2.74, errors: [ { label: "stat", symerror: 0.24 }, { label: "syst", symerror: 0.65 } ] }
+  - { value: 2.69, errors: [ { label: "stat", symerror: 0.21 }, { label: "syst", symerror: 0.64 } ] }

@@ -1,0 +1,68 @@
+independent_variables:
+- header: { name: "Value" }
+  values:
+  - { value: "Value 1" }
+  - { value: "Value 2" }
+  - { value: "Value 3" }
+  - { value: "Value 4" }
+
+dependent_variables:
+- header: { name: "$N_{part}$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "$d+Au$" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 3.11904 }
+  - { value: 6.30647 }
+  - { value: 10.6237 }
+  - { value: 15.4202 }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "$d+Au$" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 3.795, errors: [ { label: "stat", symerror: 0.014 }, { label: "syst", symerror: 0.342 } ] }
+  - { value: 7.554, errors: [ { label: "stat", symerror: 0.020 }, { label: "syst", symerror: 0.680 } ] }
+  - { value: 11.575, errors: [ { label: "stat", symerror: 0.026 }, { label: "syst", symerror: 1.042 } ] }
+  - { value: 15.499, errors: [ { label: "stat", symerror: 0.029 }, { label: "syst", symerror: 1.395 } ] }
+
+- header: { name: "$N_{part}$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "$n+Au$ tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 2.70425 }
+  - { value: 4.73205 }
+  - { value: 7.74715 }
+  - { value: 9.35667 }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "$n+Au$ tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 3.464, errors: [ { label: "stat", symerror: 0.025 }, { label: "syst", symerror: 0.312 } ] }
+  - { value: 5.69, errors: [ { label: "stat", symerror: 0.05 }, { label: "syst", symerror: 0.51 } ] }
+  - { value: 8.35, errors: [ { label: "stat", symerror: 0.13 }, { label: "syst", symerror: 0.75 } ] }
+  - { value: 9.97, errors: [ { label: "stat", symerror: 0.17 }, { label: "syst", symerror: 0.90 } ] }
+
+- header: { name: "$N_{part}$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "$p+Au$ tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 2.70586 }
+  - { value: 4.69859 }
+  - { value: 7.72290 }
+  - { value: 9.35508 }
+
+- header: { name: "$dN_{ch}/d\\eta$" }
+  qualifiers:
+  - { name: "SYSTEM", value: "$p+Au$ tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 3.468, errors: [ { label: "stat", symerror: 0.021 }, { label: "syst", symerror: 0.312 } ] }
+  - { value: 5.76, errors: [ { label: "stat", symerror: 0.04 }, { label: "syst", symerror: 0.52 } ] }
+  - { value: 8.35, errors: [ { label: "stat", symerror: 0.09 }, { label: "syst", symerror: 0.75 } ] }
+  - { value: 10.68, errors: [ { label: "stat", symerror: 0.17 }, { label: "syst", symerror: 0.96 } ] }

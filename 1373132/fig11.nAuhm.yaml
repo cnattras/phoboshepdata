@@ -1,0 +1,176 @@
+independent_variables:
+- header: { name: '$p_T$', units: 'GeV/$c$' }
+  values:
+  - { value: 0.15 }
+  - { value: 0.25 }
+  - { value: 0.35 }
+  - { value: 0.45 }
+  - { value: 0.55 }
+  - { value: 0.65 }
+  - { value: 0.75 }
+  - { value: 0.85 }
+  - { value: 0.95 }
+  - { value: 1.05 }
+  - { value: 1.15 }
+  - { value: 1.25 }
+  - { value: 1.35 }
+  - { value: 1.45 }
+  - { value: 1.55 }
+  - { value: 1.65 }
+  - { value: 1.75 }
+  - { value: 1.85 }
+  - { value: 1.95 }
+  - { value: 2.1 }
+  - { value: 2.3 }
+  - { value: 2.5 }
+  - { value: 2.7 }
+  - { value: 2.9 }
+  - { value: 3.125 }
+  - { value: 3.375 }
+  - { value: 3.625 }
+  - { value: 3.875 }
+
+dependent_variables:
+- header: { name: '$\frac{1}{2\pi p_T}\frac{d^2N_{ch}}{d\eta dp_T}$', units: '$(\mathrm{GeV}/c)^{-2}$' }
+  qualifiers:
+  - { name: 'Collision System', value: '$n+Au$ tagged' }
+  - { name: '$\sqrt{s_{NN}}$', value: 200, units: 'GeV' }
+  - { name: 'Particle', value: '$h^-$' }
+  - { name: 'Centrality', value: '0-20%' }
+  values:
+  - { value: 10.1, errors: [ { label: 'stat', symerror: 0.9 }, { label: 'syst', symerror: 0.9 } ] }
+  - { value: 5.5, errors: [ { label: 'stat', symerror: 0.4 }, { label: 'syst', symerror: 0.5 } ] }
+  - { value: 3.25, errors: [ { label: 'stat', symerror: 0.22 }, { label: 'syst', symerror: 0.28 } ] }
+  - { value: 1.65, errors: [ { label: 'stat', symerror: 0.12 }, { label: 'syst', symerror: 0.14 } ] }
+  - { value: 1, errors: [ { label: 'stat', symerror: 0.08 }, { label: 'syst', symerror: 0.09 } ] }
+  - { value: 0.69, errors: [ { label: 'stat', symerror: 0.06 }, { label: 'syst', symerror: 0.06 } ] }
+  - { value: 0.57, errors: [ { label: 'stat', symerror: 0.05 }, { label: 'syst', symerror: 0.05 } ] }
+  - { value: 0.374, errors: [ { label: 'stat', symerror: 0.037 }, { label: 'syst', symerror: 0.033 } ] }
+  - { value: 0.214, errors: [ { label: 'stat', symerror: 0.026 }, { label: 'syst', symerror: 0.019 } ] }
+  - { value: 0.153, errors: [ { label: 'stat', symerror: 0.021 }, { label: 'syst', symerror: 0.014 } ] }
+  - { value: 0.081, errors: [ { label: 'stat', symerror: 0.014 }, { label: 'syst', symerror: 0.008 } ] }
+  - { value: 0.093, errors: [ { label: 'stat', symerror: 0.015 }, { label: 'syst', symerror: 0.009 } ] }
+  - { value: 0.059, errors: [ { label: 'stat', symerror: 0.012 }, { label: 'syst', symerror: 0.006 } ] }
+  - { value: 0.047, errors: [ { label: 'stat', symerror: 0.01 }, { label: 'syst', symerror: 0.005 } ] }
+  - { value: 0.0271, errors: [ { label: 'stat', symerror: 0.0075 }, { label: 'syst', symerror: 0.0028 } ] }
+  - { value: 0.0288, errors: [ { label: 'stat', symerror: 0.0071 }, { label: 'syst', symerror: 0.0031 } ] }
+  - { value: 0.0197, errors: [ { label: 'stat', symerror: 0.0056 }, { label: 'syst', symerror: 0.0022 } ] }
+  - { value: 0.0072, errors: [ { label: 'stat', symerror: 0.0037 }, { label: 'syst', symerror: 0.0008 } ] }
+  - { value: 0.0059, errors: [ { label: 'stat', symerror: 0.003 }, { label: 'syst', symerror: 0.0007 } ] }
+  - { value: 0.0053, errors: [ { label: 'stat', symerror: 0.002 }, { label: 'syst', symerror: 0.0007 } ] }
+  - { value: 0.00225, errors: [ { label: 'stat', symerror: 0.00112 }, { label: 'syst', symerror: 0.0003 } ] }
+  - { value: 0.00222, errors: [ { label: 'stat', symerror: 0.00114 }, { label: 'syst', symerror: 0.00032 } ] }
+  - { value: 0.0009, errors: [ { label: 'stat', symerror: 0.00064 }, { label: 'syst', symerror: 0.00014 } ] }
+  - { value: 0.00065, errors: [ { label: 'stat', symerror: 0.00065 }, { label: 'syst', symerror: 0.00011 } ] }
+  - { value: 0.00044, errors: [ { label: 'stat', symerror: 0.00044 }, { label: 'syst', symerror: 8e-5 } ] }
+  - { value: 0.00029, errors: [ { label: 'stat', symerror: 0.00029 }, { label: 'syst', symerror: 6e-5 } ] }
+  - { value: '-' }
+  - { value: 0.0004, errors: [ { label: 'stat', symerror: 0.0004 }, { label: 'syst', symerror: 0.0001 } ] }
+
+- header: { name: '$\frac{1}{2\pi p_T}\frac{d^2N_{ch}}{d\eta dp_T}$', units: '$(\mathrm{GeV}/c)^{-2}$' }
+  qualifiers:
+  - { name: 'Collision System', value: '$n+Au$ tagged' }
+  - { name: '$\sqrt{s_{NN}}$', value: 200, units: 'GeV' }
+  - { name: 'Particle', value: '$h^-$' }
+  - { name: 'Centrality', value: '20-40%' }
+  values:
+  - { value: 8.1, errors: [ { label: 'stat', symerror: 0.4 }, { label: 'syst', symerror: 0.7 } ] }
+  - { value: 4.47, errors: [ { label: 'stat', symerror: 0.18 }, { label: 'syst', symerror: 0.39 } ] }
+  - { value: 2.66, errors: [ { label: 'stat', symerror: 0.11 }, { label: 'syst', symerror: 0.23 } ] }
+  - { value: 1.5, errors: [ { label: 'stat', symerror: 0.06 }, { label: 'syst', symerror: 0.13 } ] }
+  - { value: 1.03, errors: [ { label: 'stat', symerror: 0.05 }, { label: 'syst', symerror: 0.09 } ] }
+  - { value: 0.59, errors: [ { label: 'stat', symerror: 0.03 }, { label: 'syst', symerror: 0.051 } ] }
+  - { value: 0.389, errors: [ { label: 'stat', symerror: 0.023 }, { label: 'syst', symerror: 0.034 } ] }
+  - { value: 0.301, errors: [ { label: 'stat', symerror: 0.019 }, { label: 'syst', symerror: 0.026 } ] }
+  - { value: 0.174, errors: [ { label: 'stat', symerror: 0.013 }, { label: 'syst', symerror: 0.016 } ] }
+  - { value: 0.125, errors: [ { label: 'stat', symerror: 0.011 }, { label: 'syst', symerror: 0.011 } ] }
+  - { value: 0.068, errors: [ { label: 'stat', symerror: 0.007 }, { label: 'syst', symerror: 0.006 } ] }
+  - { value: 0.068, errors: [ { label: 'stat', symerror: 0.007 }, { label: 'syst', symerror: 0.007 } ] }
+  - { value: 0.04, errors: [ { label: 'stat', symerror: 0.005 }, { label: 'syst', symerror: 0.004 } ] }
+  - { value: 0.025, errors: [ { label: 'stat', symerror: 0.0041 }, { label: 'syst', symerror: 0.0025 } ] }
+  - { value: 0.0247, errors: [ { label: 'stat', symerror: 0.0039 }, { label: 'syst', symerror: 0.0026 } ] }
+  - { value: 0.013, errors: [ { label: 'stat', symerror: 0.0028 }, { label: 'syst', symerror: 0.0014 } ] }
+  - { value: 0.0076, errors: [ { label: 'stat', symerror: 0.0019 }, { label: 'syst', symerror: 0.0008 } ] }
+  - { value: 0.007, errors: [ { label: 'stat', symerror: 0.0019 }, { label: 'syst', symerror: 0.0008 } ] }
+  - { value: 0.0063, errors: [ { label: 'stat', symerror: 0.0017 }, { label: 'syst', symerror: 0.0007 } ] }
+  - { value: 0.0047, errors: [ { label: 'stat', symerror: 0.001 }, { label: 'syst', symerror: 0.0006 } ] }
+  - { value: 0.0037, errors: [ { label: 'stat', symerror: 0.0009 }, { label: 'syst', symerror: 0.0005 } ] }
+  - { value: 0.00116, errors: [ { label: 'stat', symerror: 0.00049 }, { label: 'syst', symerror: 0.00017 } ] }
+  - { value: 0.00074, errors: [ { label: 'stat', symerror: 0.00034 }, { label: 'syst', symerror: 0.00012 } ] }
+  - { value: 0.00023, errors: [ { label: 'stat', symerror: 0.00023 }, { label: 'syst', symerror: 4e-5 } ] }
+  - { value: 0.00027, errors: [ { label: 'stat', symerror: 0.00019 }, { label: 'syst', symerror: 5e-5 } ] }
+  - { value: 0.000102, errors: [ { label: 'stat', symerror: 0.000102 }, { label: 'syst', symerror: 2e-5 } ] }
+  - { value: 0.00035, errors: [ { label: 'stat', symerror: 0.0002 }, { label: 'syst', symerror: 8e-5 } ] }
+  - { value: '-' }
+
+- header: { name: '$\frac{1}{2\pi p_T}\frac{d^2N_{ch}}{d\eta dp_T}$', units: '$(\mathrm{GeV}/c)^{-2}$' }
+  qualifiers:
+  - { name: 'Collision System', value: '$n+Au$ tagged' }
+  - { name: '$\sqrt{s_{NN}}$', value: 200, units: 'GeV' }
+  - { name: 'Particle', value: '$h^-$' }
+  - { name: 'Centrality', value: '40-70%' }
+  values:
+  - { value: 5.11, errors: [ { label: 'stat', symerror: 0.17 }, { label: 'syst', symerror: 0.45 } ] }
+  - { value: 3.17, errors: [ { label: 'stat', symerror: 0.08 }, { label: 'syst', symerror: 0.28 } ] }
+  - { value: 1.92, errors: [ { label: 'stat', symerror: 0.05 }, { label: 'syst', symerror: 0.16 } ] }
+  - { value: 1.105, errors: [ { label: 'stat', symerror: 0.031 }, { label: 'syst', symerror: 0.095 } ] }
+  - { value: 0.682, errors: [ { label: 'stat', symerror: 0.02 }, { label: 'syst', symerror: 0.058 } ] }
+  - { value: 0.425, errors: [ { label: 'stat', symerror: 0.014 }, { label: 'syst', symerror: 0.037 } ] }
+  - { value: 0.275, errors: [ { label: 'stat', symerror: 0.01 }, { label: 'syst', symerror: 0.024 } ] }
+  - { value: 0.159, errors: [ { label: 'stat', symerror: 0.007 }, { label: 'syst', symerror: 0.014 } ] }
+  - { value: 0.127, errors: [ { label: 'stat', symerror: 0.006 }, { label: 'syst', symerror: 0.011 } ] }
+  - { value: 0.077, errors: [ { label: 'stat', symerror: 0.005 }, { label: 'syst', symerror: 0.007 } ] }
+  - { value: 0.058, errors: [ { label: 'stat', symerror: 0.004 }, { label: 'syst', symerror: 0.005 } ] }
+  - { value: 0.0437, errors: [ { label: 'stat', symerror: 0.0031 }, { label: 'syst', symerror: 0.0042 } ] }
+  - { value: 0.0218, errors: [ { label: 'stat', symerror: 0.0021 }, { label: 'syst', symerror: 0.0022 } ] }
+  - { value: 0.0193, errors: [ { label: 'stat', symerror: 0.0019 }, { label: 'syst', symerror: 0.002 } ] }
+  - { value: 0.0095, errors: [ { label: 'stat', symerror: 0.0013 }, { label: 'syst', symerror: 0.001 } ] }
+  - { value: 0.0107, errors: [ { label: 'stat', symerror: 0.0013 }, { label: 'syst', symerror: 0.0011 } ] }
+  - { value: 0.0078, errors: [ { label: 'stat', symerror: 0.0011 }, { label: 'syst', symerror: 0.0009 } ] }
+  - { value: 0.0062, errors: [ { label: 'stat', symerror: 0.001 }, { label: 'syst', symerror: 0.0007 } ] }
+  - { value: 0.004, errors: [ { label: 'stat', symerror: 0.0008 }, { label: 'syst', symerror: 0.0005 } ] }
+  - { value: 0.00255, errors: [ { label: 'stat', symerror: 0.0004 }, { label: 'syst', symerror: 0.00032 } ] }
+  - { value: 0.00109, errors: [ { label: 'stat', symerror: 0.00024 }, { label: 'syst', symerror: 0.00015 } ] }
+  - { value: 0.00072, errors: [ { label: 'stat', symerror: 0.00018 }, { label: 'syst', symerror: 0.0001 } ] }
+  - { value: 0.00096, errors: [ { label: 'stat', symerror: 0.00023 }, { label: 'syst', symerror: 0.00015 } ] }
+  - { value: 0.00046, errors: [ { label: 'stat', symerror: 0.00015 }, { label: 'syst', symerror: 8e-5 } ] }
+  - { value: 0.000153, errors: [ { label: 'stat', symerror: 7e-5 }, { label: 'syst', symerror: 2.8e-5 } ] }
+  - { value: '-' }
+  - { value: 5.1e-5, errors: [ { label: 'stat', symerror: 3.6e-5 }, { label: 'syst', symerror: 1.1e-5 } ] }
+  - { value: 0.000114, errors: [ { label: 'stat', symerror: 6.7e-5 }, { label: 'syst', symerror: 2.7e-5 } ] }
+
+- header: { name: '$\frac{1}{2\pi p_T}\frac{d^2N_{ch}}{d\eta dp_T}$', units: '$(\mathrm{GeV}/c)^{-2}$' }
+  qualifiers:
+  - { name: 'Collision System', value: '$n+Au$ tagged' }
+  - { name: '$\sqrt{s_{NN}}$', value: 200, units: 'GeV' }
+  - { name: 'Particle', value: '$h^-$' }
+  - { name: 'Centrality', value: '70-100%' }
+  values:
+  - { value: 3.15, errors: [ { label: 'stat', symerror: 0.09 }, { label: 'syst', symerror: 0.28 } ] }
+  - { value: 1.95, errors: [ { label: 'stat', symerror: 0.04 }, { label: 'syst', symerror: 0.17 } ] }
+  - { value: 1.179, errors: [ { label: 'stat', symerror: 0.025 }, { label: 'syst', symerror: 0.101 } ] }
+  - { value: 0.695, errors: [ { label: 'stat', symerror: 0.017 }, { label: 'syst', symerror: 0.059 } ] }
+  - { value: 0.397, errors: [ { label: 'stat', symerror: 0.01 }, { label: 'syst', symerror: 0.034 } ] }
+  - { value: 0.25, errors: [ { label: 'stat', symerror: 0.007 }, { label: 'syst', symerror: 0.021 } ] }
+  - { value: 0.161, errors: [ { label: 'stat', symerror: 0.006 }, { label: 'syst', symerror: 0.014 } ] }
+  - { value: 0.0965, errors: [ { label: 'stat', symerror: 0.0033 }, { label: 'syst', symerror: 0.0085 } ] }
+  - { value: 0.0639, errors: [ { label: 'stat', symerror: 0.0034 }, { label: 'syst', symerror: 0.0057 } ] }
+  - { value: 0.0459, errors: [ { label: 'stat', symerror: 0.0031 }, { label: 'syst', symerror: 0.0042 } ] }
+  - { value: 0.03, errors: [ { label: 'stat', symerror: 0.0021 }, { label: 'syst', symerror: 0.0028 } ] }
+  - { value: 0.0176, errors: [ { label: 'stat', symerror: 0.0011 }, { label: 'syst', symerror: 0.0017 } ] }
+  - { value: 0.0136, errors: [ { label: 'stat', symerror: 0.0009 }, { label: 'syst', symerror: 0.0013 } ] }
+  - { value: 0.009, errors: [ { label: 'stat', symerror: 0.0008 }, { label: 'syst', symerror: 0.0009 } ] }
+  - { value: 0.0076, errors: [ { label: 'stat', symerror: 0.0008 }, { label: 'syst', symerror: 0.0008 } ] }
+  - { value: 0.0051, errors: [ { label: 'stat', symerror: 0.0006 }, { label: 'syst', symerror: 0.0006 } ] }
+  - { value: 0.0036, errors: [ { label: 'stat', symerror: 0.0004 }, { label: 'syst', symerror: 0.0004 } ] }
+  - { value: 0.00235, errors: [ { label: 'stat', symerror: 0.0003 }, { label: 'syst', symerror: 0.00027 } ] }
+  - { value: 0.00198, errors: [ { label: 'stat', symerror: 0.00028 }, { label: 'syst', symerror: 0.00024 } ] }
+  - { value: 0.00115, errors: [ { label: 'stat', symerror: 0.00014 }, { label: 'syst', symerror: 0.00014 } ] }
+  - { value: 0.00097, errors: [ { label: 'stat', symerror: 0.00019 }, { label: 'syst', symerror: 0.00013 } ] }
+  - { value: 0.00042, errors: [ { label: 'stat', symerror: 8e-5 }, { label: 'syst', symerror: 6e-5 } ] }
+  - { value: 0.000152, errors: [ { label: 'stat', symerror: 4.2e-5 }, { label: 'syst', symerror: 2.4e-5 } ] }
+  - { value: 0.000102, errors: [ { label: 'stat', symerror: 3.4e-5 }, { label: 'syst', symerror: 1.7e-5 } ] }
+  - { value: 0.0002, errors: [ { label: 'stat', symerror: 6e-5 }, { label: 'syst', symerror: 4e-5 } ] }
+  - { value: 5.3e-5, errors: [ { label: 'stat', symerror: 2.3e-5 }, { label: 'syst', symerror: 1.1e-5 } ] }
+  - { value: 3.1e-5, errors: [ { label: 'stat', symerror: 1.5e-5 }, { label: 'syst', symerror: 7e-6 } ] }
+  - { value: 2.9e-5, errors: [ { label: 'stat', symerror: 1.5e-5 }, { label: 'syst', symerror: 7e-6 } ] }

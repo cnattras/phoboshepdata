@@ -1,0 +1,54 @@
+independent_variables:
+- header: { name: "Value" }
+  values:
+  - { value: "Value 1" }
+  - { value: "Value 2" }
+  - { value: "Value 3" }
+  - { value: "Value 4" }
+
+dependent_variables:
+- header: { name: "Multiplicity" }
+  qualifiers:
+  - { name: "PARTICLE", value: "$h^+$" }
+  - { name: "SYSTEM", value: "p+Au tagged vs n+Au tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 3.48722 }
+  - { value: 5.70866 }
+  - { value: 8.35877 }
+  - { value: 10.1681 }
+
+- header: { name: "$A^{pn}(h^+)$" }
+  qualifiers:
+  - { name: "PARTICLE", value: "$h^+$" }
+  - { name: "SYSTEM", value: "p+Au tagged vs n+Au tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Systematic scale uncertainty", value: "0.0353553" }
+  values:
+  - { value: 0.000, errors: [ { label: "stat", symerror: 0.007 } ] }
+  - { value: 0.008, errors: [ { label: "stat", symerror: 0.008 } ] }
+  - { value: 0.019, errors: [ { label: "stat", symerror: 0.013 } ] }
+  - { value: 0.047, errors: [ { label: "stat", symerror: 0.017 } ] }
+
+- header: { name: "Multiplicity" }
+  qualifiers:
+  - { name: "PARTICLE", value: "$h^-$" }
+  - { name: "SYSTEM", value: "p+Au tagged vs n+Au tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  values:
+  - { value: 3.43767 }
+  - { value: 5.73758 }
+  - { value: 8.36446 }
+  - { value: 10.4739 }
+
+- header: { name: "$A^{pn}(h^-)$" }
+  qualifiers:
+  - { name: "PARTICLE", value: "$h^-$" }
+  - { name: "SYSTEM", value: "p+Au tagged vs n+Au tagged" }
+  - { name: "$\\sqrt{s_{NN}}$", value: "200 GeV" }
+  - { name: "Systematic scale uncertainty", value: "0.0353553" }
+  values:
+  - { value: 0.004, errors: [ { label: "stat", symerror: 0.007 } ] }
+  - { value: 0.004, errors: [ { label: "stat", symerror: 0.008 } ] }
+  - { value: -0.014, errors: [ { label: "stat", symerror: 0.013 } ] }
+  - { value: 0.029, errors: [ { label: "stat", symerror: 0.018 } ] }
