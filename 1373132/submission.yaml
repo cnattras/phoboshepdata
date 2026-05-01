@@ -6,11 +6,12 @@ additional_resources:
 # additional references (e.g. experiment TWiki page for analysis)
 - { location: "https://inspirehep.net/literature/1373132", description: "InspireHEP ID: 1373132" }
 - { location: "https://arxiv.org/abs/1505.06766", description: "arXiv ID: nucl-ex/1505.06766" }
+- { location: "https://link.aps.org/doi/10.1103/PhysRevC.92.034915", description: "PhysRevC.92.034915" }
 comment: |
   Forward calorimetry in the PHOBOS detector has been used to study charged hadron production in $d$+Au, $p$+Au, and $n$+Au collisions at $\sqrt{s_{NN}}=200$ GeV. The forward proton calorimeter detectors are described and a procedure for determining collision centrality with these detectors is detailed. The deposition of energy by deuteron spectator nucleons in the forward calorimeters is used to identify $p$+Au and $n$+Au collisions in the data. A weighted combination of the yield of $p$+Au and $n$+Au is constructed to build a reference for Au+Au collisions that better matches the isospin composition of the gold nucleus. The $p_T$ and centrality dependence of the yield of this improved reference system is found to match that of $d$+Au. The shape of the charged-particle transverse momentum distribution is observed to extrapolate smoothly from $p+\bar{p}$ to central $d$+Au as a function of the charged-particle pseudorapidity density. The asymmetry of positively and negatively charged hadron production in $p$+Au is compared to that of $n$+Au. No significant asymmetry is observed at midrapidity. These studies augment recent results from experiments at the CERN Large Hadron Collider and BNL Relativistic Heavy Ion Collider facilities to give a more complete description of particle production in $p$+A and $d$+A collisions, essential for the understanding the medium produced in high-energy nucleus-nucleus collisions.
 ---
 name: "Table 1"
-location: Data from table 1 of Phys.Rev.C 94 (2016) 2, 024903
+location: Data from table 1 of PhysRevC.92.034915
 description: Centrality parameters determined using ERing and EPCAL based centrality bins and AMPT collision simulations. Centrality bins represent the fraction of the total d+Au cross section, the p+Au, and n+Au collision systems.
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -24,8 +25,8 @@ data_file: table1.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $d+Au$ $\\pm{h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $d+Au$ for $\\pm{h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h+/- in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -39,8 +40,8 @@ data_file: fig11.dAuh.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $d+Au$ $+h$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $d+Au$ for $+h$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h+ in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -54,8 +55,8 @@ data_file: fig11.dAuhp.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $d+Au$ ${-h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $d+Au$ for ${-h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h- in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -69,8 +70,8 @@ data_file: fig11.dAuhm.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $p+Au$ $\\pm{h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $p+Au$ for $\\pm{h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h+/- in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -84,8 +85,8 @@ data_file: fig11.pAuh.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $p+Au$ $+h$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $p+Au$ for $+h$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield o h+ in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -95,12 +96,12 @@ keywords:
   values: [ DN/DETARAP ]
 - name: cmenergies
   values: [ 200 ]
-data_file: fig11.dAuhp.yaml
+data_file: fig11.pAuhp.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $p+Au$ ${-h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $p+Au$ for ${-h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h- in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -114,8 +115,8 @@ data_file: fig11.pAuhm.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $n+Au$ $\\pm{h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $n+Au$ for $\\pm{h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h+/- in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -129,8 +130,8 @@ data_file: fig11.nAuh.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $n+Au$ ${+h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $n+Au$ for ${+h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h+ in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -144,8 +145,8 @@ data_file: fig11.nAuhp.yaml
 additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
-name: "Figure 11: $n+Au$ ${-h}$"
-location: Data from Figure 11 of Phys.Rev.C 94 (2016) 2, 024903
+name: "Figure 11: $n+Au$ for ${-h}$"
+location: Data from Figure 11 of PhysRevC.92.034915
 description: Invariant yield of h- in four centrality bins
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -160,7 +161,7 @@ additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig11.png }
 ---
 name: "Figure 13"
-location: Data from Figure 13 of Phys.Rev.C 94 (2016) 2, 024903
+location: Data from Figure 13 of PhysRevC.92.034915
 description: $-dN_{ch}/d\\eta$ at $\\langle \\eta \\rangle$=0.8 in different systems
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -175,7 +176,7 @@ additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig13.png }
 ---
 name: "Figure 14"
-location: Data from Figure 14 of Phys.Rev.C 94 (2016) 2, 024903
+location: Data from Figure 14 of PhysRevC.92.034915
 description: Comparison of $R_{dAu}$ and $R_{pnAu}$ in each ERing centrality bin.
 keywords:
 # used for searching, possibly multiple values for each keyword
@@ -190,8 +191,8 @@ additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig14.png }
 ---
 name: "Figure 16: $E_{Ring}$"
-location: Data from Figure 16 of Phys.Rev.C 94 (2016) 2, 024903
-description: Yield of $d+Au$ relative to $\\bar{p}+$ versus $d+Au$ $dN_{ch}/d\\eta$ for $E_{Ring}$.
+location: Data from Figure 16 of PhysRevC.92.034915
+description: Yield of $d+Au$ relative to $\bar{p}+$ versus $d+Au$ $dN_{ch}/d\\eta$ for $E_{Ring}$.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -205,8 +206,8 @@ additional_resources:
 - { description: Thumbnail Image file, location: thumb_fig16.png }
 ---
 name: "Figure 16: $E_{PCAL}$"
-location: Data from Figure 16 of Phys.Rev.C 94 (2016) 2, 024903
-description: Yield of $d+Au$ relative to $\\bar{p}+$ versus $d+Au$ $dN_{ch}/d\\eta$ for $E_{PCAL}$.
+location: Data from Figure 16 of PhysRevC.92.034915
+description: Yield of $d+Au$ relative to $\bar{p}+$ versus $d+Au$ $dN_{ch}/d\\eta$ for $E_{PCAL}$.
 keywords:
 # used for searching, possibly multiple values for each keyword
 - name: reactions
@@ -223,7 +224,7 @@ additional_resources:
 
 ---
 name: "Figure 17 and 18"
-location: Data from Figure 17 and 18 of Phys.Rev.C 94 (2016) 2, 024903
+location: Data from Figure 17 and 18 of PhysRevC.92.034915
 description: Asymetry of positive and negative hadrons between $p+Au$ and $n+Au$.
 keywords:
 # used for searching, possibly multiple values for each keyword
