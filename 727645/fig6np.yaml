@@ -1,0 +1,66 @@
+independent_variables:
+- header: { name: "$p_T$ [GeV/c]" }
+  values:
+  - { value: 0.24 }
+  - { value: 0.31 }
+  - { value: 0.35 }
+  - { value: 0.41 }
+  - { value: 0.48 }
+  - { value: 0.54 }
+  - { value: 0.61 }
+  - { value: 0.73 }
+  - { value: 1.00 }
+  - { value: 1.01 }
+  - { value: 1.22 }
+
+dependent_variables:
+- header: { name: "Invariant yield" }
+  qualifiers:
+  - { name: "Particle", value: "Negative pions" }
+  - { name: "Centrality", value: "0-15%" }
+  values:
+  - { value: 209.1, errors: [ { label: "stat", symerror: 0.5 }, { label: "sys", symerror: 27.3 } ] }
+  - { value: 146.15, errors: [ { label: "stat", symerror: 0.29 }, { label: "sys", symerror: 15.21 } ] }
+  - { value: 114.51, errors: [ { label: "stat", symerror: 0.23 }, { label: "sys", symerror: 12.10 } ] }
+  - { value: 83.91, errors: [ { label: "stat", symerror: 0.15 }, { label: "sys", symerror: 8.62 } ] }
+  - { value: 56.64, errors: [ { label: "stat", symerror: 0.11 }, { label: "sys", symerror: 5.75 } ] }
+  - { value: 43.62, errors: [ { label: "stat", symerror: 0.13 }, { label: "sys", symerror: 4.41 } ] }
+  - { value: 29.93, errors: [ { label: "stat", symerror: 0.08 }, { label: "sys", symerror: 2.99 } ] }
+  - { value: 16.38, errors: [ { label: "stat", symerror: 0.06 }, { label: "sys", symerror: 1.61 } ] }
+  - { value: "-" }
+  - { value: 4.46, errors: [ { label: "stat", symerror: 0.07 }, { label: "sys", symerror: 0.46 } ] }
+  - { value: 1.924, errors: [ { label: "stat", symerror: 0.029 }, { label: "sys", symerror: 0.187 } ] }
+
+- header: { name: "Invariant yield" }
+  qualifiers:
+  - { name: "Particle", value: "Negative pions" }
+  - { name: "Centrality", value: "15-30%" }
+  values:
+  - { value: 121.94, errors: [ { label: "stat", symerror: 0.34 }, { label: "sys", symerror: 15.89 } ] }
+  - { value: 84.78, errors: [ { label: "stat", symerror: 0.21 }, { label: "sys", symerror: 8.83 } ] }
+  - { value: 65.92, errors: [ { label: "stat", symerror: 0.17 }, { label: "sys", symerror: 6.93 } ] }
+  - { value: 48.67, errors: [ { label: "stat", symerror: 0.11 }, { label: "sys", symerror: 5.00 } ] }
+  - { value: 32.75, errors: [ { label: "stat", symerror: 0.08 }, { label: "sys", symerror: 3.33 } ] }
+  - { value: 25.30, errors: [ { label: "stat", symerror: 0.09 }, { label: "sys", symerror: 2.56 } ] }
+  - { value: 17.25, errors: [ { label: "stat", symerror: 0.06 }, { label: "sys", symerror: 1.72 } ] }
+  - { value: 9.50, errors: [ { label: "stat", symerror: 0.04 }, { label: "sys", symerror: 0.93 } ] }
+  - { value: "-" }
+  - { value: 2.60, errors: [ { label: "stat", symerror: 0.05 }, { label: "sys", symerror: 0.25 } ] }
+  - { value: 1.064, errors: [ { label: "stat", symerror: 0.020 }, { label: "sys", symerror: 0.097 } ] }
+
+- header: { name: "Invariant yield" }
+  qualifiers:
+  - { name: "Particle", value: "Negative pions" }
+  - { name: "Centrality", value: "30-50%" }
+  values:
+  - { value: 62.59, errors: [ { label: "stat", symerror: 0.22 }, { label: "sys", symerror: 8.99 } ] }
+  - { value: 43.39, errors: [ { label: "stat", symerror: 0.13 }, { label: "sys", symerror: 4.52 } ] }
+  - { value: 33.96, errors: [ { label: "stat", symerror: 0.11 }, { label: "sys", symerror: 3.55 } ] }
+  - { value: 24.49, errors: [ { label: "stat", symerror: 0.07 }, { label: "sys", symerror: 2.52 } ] }
+  - { value: 16.48, errors: [ { label: "stat", symerror: 0.05 }, { label: "sys", symerror: 1.67 } ] }
+  - { value: 12.55, errors: [ { label: "stat", symerror: 0.06 }, { label: "sys", symerror: 1.27 } ] }
+  - { value: 8.563, errors: [ { label: "stat", symerror: 0.035 }, { label: "sys", symerror: 0.858 } ] }
+  - { value: 4.676, errors: [ { label: "stat", symerror: 0.025 }, { label: "sys", symerror: 0.480 } ] }
+  - { value: 1.217, errors: [ { label: "stat", symerror: 0.032 }, { label: "sys", symerror: 0.115 } ] }
+  - { value: "-" }
+  - { value: 0.476, errors: [ { label: "stat", symerror: 0.012 }, { label: "sys", symerror: 0.044 } ] }

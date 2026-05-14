@@ -1,0 +1,28 @@
+independent_variables:
+- header: { name: "Rapidity" }
+  values:
+  - { value: 0.31 }
+  - { value: 0.39 }
+  - { value: 0.45 }
+  - { value: 0.50 }
+  - { value: 0.54 }
+  - { value: 0.59 }
+  - { value: 0.65 }
+  - { value: 0.69 }
+  - { value: 0.74 }
+  - { value: 0.72 }
+  - { value: 0.76 }
+dependent_variables:
+- header: { name: $p_T$, units: GeV }
+  values:
+  - { value: 1.01 }
+  - { value: 1.15 }
+  - { value: 1.29 }
+  - { value: 1.44 }
+  - { value: 1.59 }
+  - { value: 1.81 }
+  - { value: 2.16 }
+  - { value: 2.51 }
+  - { value: 2.83 }
+  - { value: 3.24 }
+  - { value: 3.59 }

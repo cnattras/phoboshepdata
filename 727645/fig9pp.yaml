@@ -1,0 +1,45 @@
+independent_variables:
+- header: { name: "$p_T$ [GeV/c]" }
+  values:
+  - { value: 0.30 }
+  - { value: 0.35 }
+  - { value: 0.41 }
+  - { value: 0.48 }
+  - { value: 0.54 }
+  - { value: 0.59 }
+  - { value: 0.63 }
+  - { value: 0.69 }
+  - { value: 0.76 }
+  - { value: 0.85 }
+  - { value: 0.93 }
+  - { value: 1.01 }
+  - { value: 1.18 }
+  - { value: 1.56 }
+  - { value: 1.84 }
+  - { value: 2.18 }
+  - { value: 2.51 }
+  - { value: 2.84 }
+
+dependent_variables:
+- header: { name: "Proton/positive hadron ratio" }
+  qualifiers:
+  - { name: "Centrality", value: "0-15%" }
+  values:
+  - { value: 0.0200, errors: [ { label: "stat", symerror: 4e-4 } ] }
+  - { value: 0.0274, errors: [ { label: "stat", symerror: 4e-4 } ] }
+  - { value: 0.0348, errors: [ { label: "stat", symerror: 4e-4 } ] }
+  - { value: 0.0443, errors: [ { label: "stat", symerror: 4e-4 } ] }
+  - { value: 0.0533, errors: [ { label: "stat", symerror: 5e-4 } ] }
+  - { value: 0.0651, errors: [ { label: "stat", symerror: 7e-4 } ] }
+  - { value: 0.0737, errors: [ { label: "stat", symerror: 6e-4 } ] }
+  - { value: 0.0898, errors: [ { label: "stat", symerror: 6e-4 } ] }
+  - { value: 0.1121, errors: [ { label: "stat", symerror: 7e-4 } ] }
+  - { value: 0.1319, errors: [ { label: "stat", symerror: 0.0010 } ] }
+  - { value: 0.1509, errors: [ { label: "stat", symerror: 0.0012 } ] }
+  - { value: 0.1796, errors: [ { label: "stat", symerror: 0.0014 } ] }
+  - { value: 0.2275, errors: [ { label: "stat", symerror: 0.0019 } ] }
+  - { value: 0.299, errors: [ { label: "stat", symerror: 0.006 } ] }
+  - { value: 0.358, errors: [ { label: "stat", symerror: 0.009 } ] }
+  - { value: 0.359, errors: [ { label: "stat", symerror: 0.015 } ] }
+  - { value: 0.466, errors: [ { label: "stat", symerror: 0.025 } ] }
+  - { value: 0.52, errors: [ { label: "stat", symerror: 0.04 } ] }

@@ -1,0 +1,31 @@
+independent_variables:
+- header: { name: "Centrality" }
+  values:
+  - { value: "0-15%" }
+  - { value: "15-35%" }
+  - { value: "35-50%" }
+
+dependent_variables:
+- header: { name: "$\\frac{dN}{dy}(p)$" }
+  qualifiers:
+  - { name: "Particle", value: "Proton" }
+  values:
+  - { value: 13.4, errors: [ { label: "sys", symerror: 1.9 } ] }
+  - { value: 7.7, errors: [ { label: "sys", symerror: 1.1 } ] }
+  - { value: 3.8, errors: [ { label: "sys", symerror: 0.5 } ] }
+
+- header: { name: "$\\frac{dN}{dy}(\\bar{p})$" }
+  qualifiers:
+  - { name: "Particle", value: "Antiproton" }
+  values:
+  - { value: 5.1, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: 3.0, errors: [ { label: "sys", symerror: 0.4 } ] }
+  - { value: 1.6, errors: [ { label: "sys", symerror: 0.2 } ] }
+
+- header: { name: "$\\frac{dN}{dy}(p-\\bar{p})$" }
+  qualifiers:
+  - { name: "Particle", value: "Net proton" }
+  values:
+  - { value: 8.3, errors: [ { label: "sys", symerror: 1.3 } ] }
+  - { value: 4.6, errors: [ { label: "sys", symerror: 0.7 } ] }
+  - { value: 2.2, errors: [ { label: "sys", symerror: 0.3 } ] }

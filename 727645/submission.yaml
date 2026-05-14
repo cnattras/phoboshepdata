@@ -1,0 +1,299 @@
+#PHOBOS PAPER
+#
+#InspireHEP ID: 727645
+#
+#Prepared by Eleanna Soto
+
+additional_resources:
+# additional references (e.g. experiment TWiki page for analysis)
+- { location: "https://inspirehep.net/literature/727645", description: "InspireHEP ID: 727645" }
+- { location: "https://arxiv.org/abs/1511.07921", description: "arXiv ID: abs/1511.07921" }
+- { location: "https://doi.org/10.1103/PhysRevC.94.024903", description: "PhysRevC.94.024903" }
+comment: |
+  Spectator fragments resulting from relativistic heavy ion collisions, consisting of single protons and neutrons along with groups of stable nuclear fragments up to Nitrogen ($Z$\,=\,7), are measured in PHOBOS. These fragments are observed in Au+Au ($\sqrt{S_{NN}}=19.6~GeV$) and Cu+Cu ($\sqrt{S_{NN}}=22.4~GeV$) collisions at high pseudorapidity ($\eta$). The dominant multiply-charged fragment is the tightly bound Helium ($\alpha$), with Lithium, Beryllium, and Boron all clearly seen as a function of collision centrality and pseudorapidity. We observe that in Cu+Cu collisions, it becomes much more favorable for the $\alpha$ fragments to be released than Lithium. The yields of fragments approximately scale with the number of spectator nucleons, independent of the colliding ion. The shapes of the pseudorapidity distributions of fragments indicate that the average deflection of the fragments away from the beam direction increases for more central collisions. A detailed comparison of the shapes for $\alpha$ and Lithium fragments indicates that the centrality dependence of the deflections favors a scaling with the number of participants in the collision.
+---
+# Start of table entries.
+# This is Table 1.
+name: "Table 1"
+location: Data from table 1 of PhysRevC.94.024903
+description: Centrality classes used in the analysis, expressed in terms of percentage of the total inelastic Au+Au cross-section at $\sqrt{S_{NN}}=62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: table1.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Table 2"
+location: Data from table 2 of PhysRevC.94.024903
+description: Proton, antiproton and net proton ($p$ - $\bar{p}$) integrated yields.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: table2.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig9.png }
+---
+name: "Figure 4: Closed Circle"
+location: Data from figure 4 of PhysRevC.94.024903
+description: Location of PID data-points in ($p_T$,$y$)-space, for protons from the most central bin. Triangles represent TOF, while circles correspond to Spectrometer data that was sliced into three $\eta$ bins. Open and closed symbols differentiate between bending directions
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig4closedC.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 4: Open Circle"
+location: Data from figure 4 of PhysRevC.94.024903
+description: Location of PID data-points in ($p_T$,$y$)-space, for protons from the most central bin. Triangles represent TOF, while circles correspond to Spectrometer data that was sliced into three $\eta$ bins. Open and closed symbols differentiate between bending directions
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig4openC.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 4: Closed Triangle"
+location: Data from figure 4 of PhysRevC.94.024903
+description: Location of PID data-points in ($p_T$,$y$)-space, for protons from the most central bin. Triangles represent TOF, while circles correspond to Spectrometer data that was sliced into three $\eta$ bins. Open and closed symbols differentiate between bending directions
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig4closedT.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 4: Open Triangle"
+location: Data from figure 4 of PhysRevC.94.024903
+description: Location of PID data-points in ($p_T$,$y$)-space, for protons from the most central bin. Triangles represent TOF, while circles correspond to Spectrometer data that was sliced into three $\eta$ bins. Open and closed symbols differentiate between bending directions
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig4openT.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig4.png }
+---
+name: "Figure 5"
+location: Data from figure 5 of PhysRevC.94.024903
+description: Example of the synthesis of TOF and $dE/dx$ data. The invariant yield is plotted versus rapidity for protons from central collisions, at $p_T$ = 0.765.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig5.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig5.png }
+---
+name: "Figure 6: Proton"
+location: Data from figure 6 of PhysRevC.94.024903
+description: Transverse momentum spectra of $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, $p$, and $\bar{p}$ particles for the three centrality classes in Au+Au collisions at $\sqrt{s_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6p.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 6: Anti-Proton"
+location: Data from figure 6 of PhysRevC.94.024903
+description: Transverse momentum spectra of $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, $p$, and $\bar{p}$ particles for the three centrality classes in Au+Au collisions at $\sqrt{s_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6ap.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 6: Positive Pions"
+location: Data from figure 6 of PhysRevC.94.024903
+description: Transverse momentum spectra of $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, $p$, and $\bar{p}$ particles for the three centrality classes in Au+Au collisions at $\sqrt{s_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6pp.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 6: Negative Pions"
+location: Data from figure 6 of PhysRevC.94.024903
+description: Transverse momentum spectra of $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, $p$, and $\bar{p}$ particles for the three centrality classes in Au+Au collisions at $\sqrt{s_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6np.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 6: Positive Kaons"
+location: Data from figure 6 of PhysRevC.94.024903
+description: Transverse momentum spectra of $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, $p$, and $\bar{p}$ particles for the three centrality classes in Au+Au collisions at $\sqrt{s_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6pk.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 6: Negative Kaons"
+location: Data from figure 6 of PhysRevC.94.024903
+description: Transverse momentum spectra of $\pi^{+}$, $\pi^{-}$, $K^{+}$, $K^{-}$, $p$, and $\bar{p}$ particles for the three centrality classes in Au+Au collisions at $\sqrt{s_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig6nk.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig6.png }
+---
+name: "Figure 7"
+location: Data from figure 7 of PhysRevC.94.024903
+description: Blast-wave fits to identified particle spectra in Au+Au collisions at $\sqrt{S_{NN}} = 62.4~GeV$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig7.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig7.png }
+---
+name: "Figure 8"
+location: Data from figure 8 of PhysRevC.94.024903
+description: Transverse mass spectra of pions, kaons and protons in Au+Au collisions at $\sqrt{S_{NN}}=62.4~GeV$ energy.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig8.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig8.png }
+---
+name: "Figure 9: Proton"
+location: Data from figure 9 of PhysRevC.94.024903
+description: Fraction of protons among all positive hadrons, and antiprotons among all negative hadrons in Au+Au collisions at $\sqrt{S_{NN}}=62.4~GeV$ energy.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig9pp.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig9.png }
+---
+name: "Figure 9: Anti-Proton"
+location: Data from figure 9 of PhysRevC.94.024903
+description: Fraction of protons among all positive hadrons, and antiprotons among all negative hadrons in Au+Au collisions at $\sqrt{S_{NN}}=62.4~GeV$ energy.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig9ap.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig9.png }
+---
+
+name: "Figure 10"
+location: Data from figure 10 of PhysRevC.94.024903
+description: The $p_T$ value where the $\pi^{+}$ and proton invariant yields become equal in central Au+Au (Pb+Pb) collisions, as a function of $\sqrt{s_{NN}}$.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig10.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig10.png }
+---
+name: "Figure 11"
+location: Data from figure 11 of PhysRevC.94.024903
+description: Net proton $(p-\bar{p})$ yield at midrapidity as a function of the number of participant nucleons in Au+Au collisions at $\sqrt{s_{NN}} = 200~GeV$ from PHENIX.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig11.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig11.png }
+---
+name: "Figure 12"
+location: Data from figure 12 of PhysRevC.94.024903
+description: Distribution of the distance of closest approach between the track and the event vertex for protons and for kaons.
+keywords:
+- name: reactions
+  values: [ Au+Au --> MULT(CHARGED) X ]
+- name: observables
+  values: [ DN/DETARAP ]
+- name: cmenergies
+  values: [ 62.4 ]
+data_file: fig12p.yaml
+additional_resources:
+- { description: Thumbnail Image file, location: thumb_fig12.png }
+---
+
+

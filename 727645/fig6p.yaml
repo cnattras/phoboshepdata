@@ -1,0 +1,102 @@
+independent_variables:
+- header: { name: "$p_T$ [GeV/c]" }
+  values:
+  - { value: 0.30 }
+  - { value: 0.35 }
+  - { value: 0.41 }
+  - { value: 0.48 }
+  - { value: 0.54 }
+  - { value: 0.59 }
+  - { value: 0.63 }
+  - { value: 0.69 }
+  - { value: 0.76 }
+  - { value: 0.85 }
+  - { value: 0.93 }
+  - { value: 1.01 }
+  - { value: 1.18 }
+  - { value: 1.56 }
+  - { value: 1.84 }
+  - { value: 1.85 }
+  - { value: 2.18 }
+  - { value: 2.51 }
+  - { value: 2.53 }
+  - { value: 2.84 }
+
+dependent_variables:
+- header: { name: "Invariant yield" }
+  qualifiers:
+  - { name: "Particle", value: "Protons" }
+  - { name: "Centrality", value: "0-15%" }
+  values:
+  - { value: 3.54, errors: [ { label: "stat", symerror: 0.07 }, { label: "sys", symerror: 1.02 } ] }
+  - { value: 3.64, errors: [ { label: "stat", symerror: 0.06 }, { label: "sys", symerror: 0.55 } ] }
+  - { value: 3.45, errors: [ { label: "stat", symerror: 0.04 }, { label: "sys", symerror: 0.51 } ] }
+  - { value: 3.172, errors: [ { label: "stat", symerror: 0.030 }, { label: "sys", symerror: 0.434 } ] }
+  - { value: 3.053, errors: [ { label: "stat", symerror: 0.030 }, { label: "sys", symerror: 0.379 } ] }
+  - { value: 2.982, errors: [ { label: "stat", symerror: 0.032 }, { label: "sys", symerror: 0.397 } ] }
+  - { value: 2.781, errors: [ { label: "stat", symerror: 0.024 }, { label: "sys", symerror: 0.341 } ] }
+  - { value: 2.597, errors: [ { label: "stat", symerror: 0.020 }, { label: "sys", symerror: 0.317 } ] }
+  - { value: 2.396, errors: [ { label: "stat", symerror: 0.017 }, { label: "sys", symerror: 0.292 } ] }
+  - { value: 2.043, errors: [ { label: "stat", symerror: 0.017 }, { label: "sys", symerror: 0.243 } ] }
+  - { value: 1.732, errors: [ { label: "stat", symerror: 0.016 }, { label: "sys", symerror: 0.239 } ] }
+  - { value: 1.550, errors: [ { label: "stat", symerror: 0.014 }, { label: "sys", symerror: 0.179 } ] }
+  - { value: 1.058, errors: [ { label: "stat", symerror: 0.011 }, { label: "sys", symerror: 0.118 } ] }
+  - { value: 0.370, errors: [ { label: "stat", symerror: 0.010 }, { label: "sys", symerror: 0.043 } ] }
+  - { value: 0.164, errors: [ { label: "stat", symerror: 0.005 }, { label: "sys", symerror: 0.017 } ] }
+  - { value: "-" }
+  - { value: 0.0540, errors: [ { label: "stat", symerror: 0.0031 }, { label: "sys", symerror: 0.0052 } ] }
+  - { value: 0.0239, errors: [ { label: "stat", symerror: 0.0020 }, { label: "sys", symerror: 0.0024 } ] }
+  - { value: "-" }
+  - { value: 0.0094, errors: [ { label: "stat", symerror: 0.0012 }, { label: "sys", symerror: 0.0018 } ] }
+
+- header: { name: "Invariant yield" }
+  qualifiers:
+  - { name: "Particle", value: "Protons" }
+  - { name: "Centrality", value: "15-30%" }
+  values:
+  - { value: 2.27, errors: [ { label: "stat", symerror: 0.05 }, { label: "sys", symerror: 0.73 } ] }
+  - { value: 2.18, errors: [ { label: "stat", symerror: 0.04 }, { label: "sys", symerror: 0.68 } ] }
+  - { value: 2.114, errors: [ { label: "stat", symerror: 0.028 }, { label: "sys", symerror: 0.272 } ] }
+  - { value: 1.991, errors: [ { label: "stat", symerror: 0.022 }, { label: "sys", symerror: 0.284 } ] }
+  - { value: 1.860, errors: [ { label: "stat", symerror: 0.022 }, { label: "sys", symerror: 0.230 } ] }
+  - { value: 1.784, errors: [ { label: "stat", symerror: 0.023 }, { label: "sys", symerror: 0.227 } ] }
+  - { value: 1.642, errors: [ { label: "stat", symerror: 0.018 }, { label: "sys", symerror: 0.207 } ] }
+  - { value: 1.506, errors: [ { label: "stat", symerror: 0.014 }, { label: "sys", symerror: 0.184 } ] }
+  - { value: 1.377, errors: [ { label: "stat", symerror: 0.012 }, { label: "sys", symerror: 0.167 } ] }
+  - { value: 1.170, errors: [ { label: "stat", symerror: 0.012 }, { label: "sys", symerror: 0.141 } ] }
+  - { value: 1.006, errors: [ { label: "stat", symerror: 0.012 }, { label: "sys", symerror: 0.118 } ] }
+  - { value: 0.839, errors: [ { label: "stat", symerror: 0.010 }, { label: "sys", symerror: 0.100 } ] }
+  - { value: 0.577, errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.064 } ] }
+  - { value: 0.204, errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.022 } ] }
+  - { value: "-" }
+  - { value: 0.080, errors: [ { label: "stat", symerror: 0.004 }, { label: "sys", symerror: 0.008 } ] }
+  - { value: 0.0262, errors: [ { label: "stat", symerror: 0.0021 }, { label: "sys", symerror: 0.0027 } ] }
+  - { value: 0.0107, errors: [ { label: "stat", symerror: 0.0013 }, { label: "sys", symerror: 0.0012 } ] }
+  - { value: "-" }
+  - { value: 0.0030, errors: [ { label: "stat", symerror: 8e-4 }, { label: "sys", symerror: 5e-4 } ] }
+
+- header: { name: "Invariant yield" }
+  qualifiers:
+  - { name: "Particle", value: "Protons" }
+  - { name: "Centrality", value: "30-50%" }
+  values:
+  - { value: 1.33, errors: [ { label: "stat", symerror: 0.04 }, { label: "sys", symerror: 0.45 } ] }
+  - { value: 1.293, errors: [ { label: "stat", symerror: 0.028 }, { label: "sys", symerror: 0.288 } ] }
+  - { value: 1.197, errors: [ { label: "stat", symerror: 0.019 }, { label: "sys", symerror: 0.189 } ] }
+  - { value: 1.093, errors: [ { label: "stat", symerror: 0.014 }, { label: "sys", symerror: 0.135 } ] }
+  - { value: 1.031, errors: [ { label: "stat", symerror: 0.014 }, { label: "sys", symerror: 0.129 } ] }
+  - { value: 0.965, errors: [ { label: "stat", symerror: 0.015 }, { label: "sys", symerror: 0.124 } ] }
+  - { value: 0.874, errors: [ { label: "stat", symerror: 0.011 }, { label: "sys", symerror: 0.111 } ] }
+  - { value: 0.786, errors: [ { label: "stat", symerror: 0.009 }, { label: "sys", symerror: 0.108 } ] }
+  - { value: 0.700, errors: [ { label: "stat", symerror: 0.008 }, { label: "sys", symerror: 0.086 } ] }
+  - { value: 0.575, errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.077 } ] }
+  - { value: 0.481, errors: [ { label: "stat", symerror: 0.007 }, { label: "sys", symerror: 0.058 } ] }
+  - { value: 0.398, errors: [ { label: "stat", symerror: 0.006 }, { label: "sys", symerror: 0.046 } ] }
+  - { value: 0.256, errors: [ { label: "stat", symerror: 0.004 }, { label: "sys", symerror: 0.030 } ] }
+  - { value: 0.0705, errors: [ { label: "stat", symerror: 0.0034 }, { label: "sys", symerror: 0.0099 } ] }
+  - { value: "-" }
+  - { value: 0.0314, errors: [ { label: "stat", symerror: 0.0021 }, { label: "sys", symerror: 0.0031 } ] }
+  - { value: 0.0111, errors: [ { label: "stat", symerror: 0.0012 }, { label: "sys", symerror: 0.0011 } ] }
+  - { value: "-" }
+  - { value: 0.0034, errors: [ { label: "stat", symerror: 7e-4 }, { label: "sys", symerror: 6e-4 } ] }
+  - { value: 0.00134, errors: [ { label: "stat", symerror: 5.2e-4 }, { label: "sys", symerror: 1.8e-4 } ] }

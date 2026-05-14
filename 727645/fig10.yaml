@@ -1,0 +1,49 @@
+independent_variables:
+- header: { name: "$\\sqrt{s}$ [GeV]" }
+  values:
+  - { value: 5.0 }
+  - { value: 17.2 }
+  - { value: 62.4 }
+  - { value: 130 }
+  - { value: 200 }
+
+dependent_variables:
+- header: { name: "Crossing point $p_T$ [GeV/c]" }
+  qualifiers:
+  - { name: "Experiment", value: "AGS" }
+  values:
+  - { value: 0.45, errors: [ { label: "stat", symerror: 0.1 } ] }
+  - { value: "-" }
+  - { value: "-" }
+  - { value: "-" }
+  - { value: "-" }
+
+- header: { name: "Crossing point $p_T$ [GeV/c]" }
+  qualifiers:
+  - { name: "Experiment", value: "SPS" }
+  values:
+  - { value: "-" }
+  - { value: 1.1, errors: [ { label: "stat", symerror: 0.1 } ] }
+  - { value: "-" }
+  - { value: "-" }
+  - { value: "-" }
+
+- header: { name: "Crossing point $p_T$ [GeV/c]" }
+  qualifiers:
+  - { name: "Experiment", value: "PHOBOS" }
+  values:
+  - { value: "-" }
+  - { value: "-" }
+  - { value: 1.8, errors: [ { label: "stat", symerror: 0.2 } ] }
+  - { value: "-" }
+  - { value: "-" }
+
+- header: { name: "Crossing point $p_T$ [GeV/c]" }
+  qualifiers:
+  - { name: "Experiment", value: "PHENIX" }
+  values:
+  - { value: "-" }
+  - { value: "-" }
+  - { value: "-" }
+  - { value: 2.3, errors: [ { label: "stat", symerror: 0.2 } ] }
+  - { value: 2.5, errors: [ { label: "stat", symerror: 0.1 } ] }

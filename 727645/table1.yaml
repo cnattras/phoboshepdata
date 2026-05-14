@@ -1,0 +1,22 @@
+independent_variables:
+- header: { name: "Centrality" }
+  values:
+  - { value: "30-50%" }
+  - { value: "15-30%" }
+  - { value: "0-15%" }
+  - { value: "0-50%" }
+
+dependent_variables:
+- header: { name: "$\\langle N_{part} \\rangle$" }
+  values:
+  - { value: 88, errors: [ { label: "sys", symerror: 9 } ] }
+  - { value: 175, errors: [ { label: "sys", symerror: 9 } ] }
+  - { value: 294, errors: [ { label: "sys", symerror: 10 } ] }
+  - { value: 176, errors: [ { label: "sys", symerror: 9 } ] }
+
+- header: { name: "$\\langle N_{coll} \\rangle$" }
+  values:
+  - { value: 128, errors: [ { label: "sys", symerror: 17 } ] }
+  - { value: 331, errors: [ { label: "sys", symerror: 23 } ] }
+  - { value: 684, errors: [ { label: "sys", symerror: 23 } ] }
+  - { value: 356, errors: [ { label: "sys", symerror: 21 } ] }
